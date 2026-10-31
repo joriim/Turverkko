@@ -8,47 +8,37 @@
   {
    "id": "T2",
    "kind": "teema",
-   "label": "Turvemaat maatilalla: vettäminen, tulosperusteiset maksut"
+   "label": "Turvepellot: vettäminen, vedenpinnan säätö, tulosperusteiset maksut"
   },
   {
    "id": "T3",
    "kind": "teema",
-   "label": "Turpeen korvaajat ja turvebiotalouden tuotteet"
+   "label": "Kosteikkoviljely (paludikulttuuri) ja turpeen korvaajat"
   },
   {
    "id": "T4",
    "kind": "teema",
-   "label": "Osaamiskeskittymä / Centre of Excellence / klusteri"
+   "label": "Suometsät: metsitys, ojitettujen suometsien hoito ja ennallistaminen"
   },
   {
    "id": "T5",
    "kind": "teema",
-   "label": "Vety ja Power-to-X"
+   "label": "Luonnontilaisten soiden suojelu ja ennallistaminen"
   },
   {
    "id": "T6",
    "kind": "teema",
-   "label": "Uusiutuva energia ja bioenergia"
+   "label": "Maankäyttösektorin päästöt: KHK-mittaus, päästökertoimet, inventaario, MRV"
   },
   {
    "id": "T7",
    "kind": "teema",
-   "label": "Osaaminen, uudelleenkoulutus, työllisyys"
+   "label": "Osaamiskeskittymät, klusterit ja tiedonvälitys"
   },
   {
    "id": "T8",
    "kind": "teema",
-   "label": "Yritystuki ja elinkeinojen monipuolistaminen"
-  },
-  {
-   "id": "T9",
-   "kind": "teema",
-   "label": "Kasvihuonekaasumittaus, päästökertoimet, MRV"
-  },
-  {
-   "id": "T10",
-   "kind": "teema",
-   "label": "Luontomatkailu ja virkistys"
+   "label": "Maanomistajat, maankäytön suunnittelu ja turpeesta luopumisen sosioekonomia"
   },
   {
    "id": "P-FI-JTF",
@@ -174,48 +164,6 @@
    "url": "https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&lang=fi"
   },
   {
-   "id": "FI-04",
-   "kind": "hanke",
-   "label": "VEP – Vetytalouden mahdollisuudet ruokaketjussa",
-   "country": "FI",
-   "fund": "EAKR",
-   "period": "2021–27",
-   "eur_total": 486867,
-   "eur_eu": "",
-   "evidence_level": 2,
-   "start": 2023,
-   "end": 2025,
-   "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf"
-  },
-  {
-   "id": "FI-05",
-   "kind": "hanke",
-   "label": "EIP Energiaälykäs eteläpohjalainen maatila",
-   "country": "FI",
-   "fund": "EIP",
-   "period": "2023–27",
-   "eur_total": 170005,
-   "eur_eu": 58482,
-   "evidence_level": 1,
-   "start": 2024,
-   "end": 2025,
-   "url": "https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de"
-  },
-  {
-   "id": "EE-01",
-   "kind": "hanke",
-   "label": "Harvinaisten maametallien magneettitehdas, Narva",
-   "country": "EE",
-   "fund": "JTF",
-   "period": "2021–27",
-   "eur_total": "",
-   "eur_eu": 18750000,
-   "evidence_level": 3,
-   "start": 2023,
-   "end": "",
-   "url": "https://ec.europa.eu/regional_policy/whats-new/newsroom/28-06-2023-eu-cohesion-policy-just-transition-fund-finances-a-new-facility-to-produce-rare-earths-magnets-in-estonia_en"
-  },
-  {
    "id": "EE-02",
    "kind": "hanke",
    "label": "Jääkturvealueiden korjaaminen (mm. Laiuse)",
@@ -300,20 +248,6 @@
    "end": 2023,
    "url": "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de",
    "duplicate_note": "Wetland Surveys Ireland, 1 113 800 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ rekisterin 1 213 800 €"
-  },
-  {
-   "id": "SE-01",
-   "kind": "hanke",
-   "label": "H2-Labs – vedyn testilaitos, Piteå",
-   "country": "SE",
-   "fund": "JTF",
-   "period": "2021–27",
-   "eur_total": "",
-   "eur_eu": 7000000,
-   "evidence_level": 2,
-   "start": 2023,
-   "end": "",
-   "url": "https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en"
   },
   {
    "id": "NI-01",
@@ -591,20 +525,6 @@
    "org_type": "yliopisto"
   },
   {
-   "id": "uwasa",
-   "kind": "organisaatio",
-   "label": "Vaasan yliopisto (VEBIC)",
-   "country": "FI",
-   "org_type": "yliopisto"
-  },
-  {
-   "id": "tuni",
-   "kind": "organisaatio",
-   "label": "Tampereen yliopisto",
-   "country": "FI",
-   "org_type": "yliopisto"
-  },
-  {
    "id": "ep-ely",
    "kind": "organisaatio",
    "label": "Etelä-Pohjanmaan ELY-keskus",
@@ -638,13 +558,6 @@
    "label": "SYKLI Environmental School of Finland",
    "country": "FI",
    "org_type": "jarjesto"
-  },
-  {
-   "id": "broilertilat",
-   "kind": "organisaatio",
-   "label": "Viisi eteläpohjalaista broileritilaa",
-   "country": "FI",
-   "org_type": "yritys"
   },
   {
    "id": "hiiliporssi",
@@ -806,41 +719,6 @@
    "label": "Eastern and Midland Regional Assembly",
    "country": "IE",
    "org_type": "viranomainen"
-  },
-  {
-   "id": "ltu",
-   "kind": "organisaatio",
-   "label": "Luleå tekniska universitet",
-   "country": "SE",
-   "org_type": "yliopisto"
-  },
-  {
-   "id": "ltu-gf",
-   "kind": "organisaatio",
-   "label": "LTU Green Fuels",
-   "country": "SE",
-   "org_type": "tutkimuslaitos"
-  },
-  {
-   "id": "pitea",
-   "kind": "organisaatio",
-   "label": "Piteå Energi",
-   "country": "SE",
-   "org_type": "yritys"
-  },
-  {
-   "id": "smurfit",
-   "kind": "organisaatio",
-   "label": "Smurfit Kappa",
-   "country": "SE",
-   "org_type": "yritys"
-  },
-  {
-   "id": "h2gs",
-   "kind": "organisaatio",
-   "label": "H2 Green Steel",
-   "country": "SE",
-   "org_type": "yritys"
   },
   {
    "id": "nmu",
@@ -1007,7 +885,16 @@
  "edges": [
   {
    "source": "FI-01",
-   "target": "T4",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "FI-01",
+   "target": "T8",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1026,6 +913,15 @@
   {
    "source": "FI-01",
    "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "FI-01",
+   "target": "T4",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1051,51 +947,6 @@
    "note": ""
   },
   {
-   "source": "FI-04",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "FI-04",
-   "target": "T6",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "FI-05",
-   "target": "T6",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "EE-01",
-   "target": "T8",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "EE-01",
-   "target": "T7",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
    "source": "EE-02",
    "target": "T1",
    "kind": "teema",
@@ -1106,7 +957,7 @@
   },
   {
    "source": "LV-01",
-   "target": "T9",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1125,15 +976,6 @@
   {
    "source": "LV-01",
    "target": "T1",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "LV-01",
-   "target": "T4",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1150,6 +992,15 @@
    "note": ""
   },
   {
+   "source": "LV-01",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "LV-02",
    "target": "T1",
    "kind": "teema",
@@ -1160,7 +1011,7 @@
   },
   {
    "source": "LV-02",
-   "target": "T6",
+   "target": "T8",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1186,15 +1037,6 @@
    "note": ""
   },
   {
-   "source": "LV-03",
-   "target": "T2",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
    "source": "IE-01",
    "target": "T2",
    "kind": "teema",
@@ -1205,7 +1047,7 @@
   },
   {
    "source": "IE-01",
-   "target": "T9",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1223,15 +1065,6 @@
   },
   {
    "source": "IE-02",
-   "target": "T10",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "SE-01",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -1240,8 +1073,17 @@
    "note": ""
   },
   {
-   "source": "SE-01",
-   "target": "T6",
+   "source": "NI-01",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "NI-01",
+   "target": "T2",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1258,35 +1100,8 @@
    "note": ""
   },
   {
-   "source": "NI-01",
-   "target": "T2",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "NI-01",
-   "target": "T10",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
    "source": "NI-02",
    "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "NI-02",
-   "target": "T2",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1295,7 +1110,7 @@
   },
   {
    "source": "NI-03",
-   "target": "T1",
+   "target": "T5",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1313,7 +1128,16 @@
   },
   {
    "source": "FI-06",
-   "target": "T2",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "FI-06",
+   "target": "T8",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1331,7 +1155,16 @@
   },
   {
    "source": "FI-07",
-   "target": "T9",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "FI-07",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1348,26 +1181,17 @@
    "note": ""
   },
   {
-   "source": "FI-08",
-   "target": "T2",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "FI-09",
-   "target": "T2",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
    "source": "FI-09",
    "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "FI-09",
+   "target": "T1",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1393,8 +1217,8 @@
    "note": ""
   },
   {
-   "source": "FI-10",
-   "target": "T1",
+   "source": "X-FI-PEATRESC",
+   "target": "T5",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1412,7 +1236,7 @@
   },
   {
    "source": "X-FI-PEATRESC",
-   "target": "T9",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1421,87 +1245,6 @@
   },
   {
    "source": "X-FI-PEATRESC",
-   "target": "T4",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-LIFE",
-   "target": "T1",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-LIFE",
-   "target": "T4",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-LIFE",
-   "target": "T8",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-LIFE",
-   "target": "T10",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-GAL",
-   "target": "T4",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-GAL",
-   "target": "T9",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-GAL",
-   "target": "T1",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-NAT",
-   "target": "T1",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "X-IE-NAT",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -1510,6 +1253,69 @@
    "note": ""
   },
   {
+   "source": "X-IE-LIFE",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "X-IE-LIFE",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "X-IE-LIFE",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "X-IE-GAL",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "X-IE-GAL",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "X-IE-GAL",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "X-IE-NAT",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "X-IE-NAT",
    "target": "T8",
    "kind": "teema",
@@ -1529,7 +1335,7 @@
   },
   {
    "source": "X-DE-SH",
-   "target": "T4",
+   "target": "T8",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1538,7 +1344,7 @@
   },
   {
    "source": "X-DE-SH",
-   "target": "T6",
+   "target": "T7",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1628,7 +1434,7 @@
   },
   {
    "source": "J1",
-   "target": "T4",
+   "target": "T7",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1637,7 +1443,7 @@
   },
   {
    "source": "J1",
-   "target": "T2",
+   "target": "T8",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1651,6 +1457,15 @@
    "weight": 1.0,
    "evidence": "lähde",
    "url": "https://lehti.seamk.fi/verkkolehti/metsitys-voi-olla-kannattavaa-paksuturpeisilla-suonpohjilla/?print=pdf",
+   "note": ""
+  },
+  {
+   "source": "J2",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
    "note": ""
   },
   {
@@ -1673,7 +1488,16 @@
   },
   {
    "source": "J3",
-   "target": "T9",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J3",
+   "target": "T4",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1691,7 +1515,7 @@
   },
   {
    "source": "J4",
-   "target": "T4",
+   "target": "T7",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1709,7 +1533,7 @@
   },
   {
    "source": "J5",
-   "target": "T4",
+   "target": "T7",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1727,7 +1551,7 @@
   },
   {
    "source": "J6",
-   "target": "T4",
+   "target": "T8",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1736,7 +1560,7 @@
   },
   {
    "source": "J6",
-   "target": "T2",
+   "target": "T7",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1754,7 +1578,7 @@
   },
   {
    "source": "J7",
-   "target": "T9",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1790,7 +1614,7 @@
   },
   {
    "source": "J8",
-   "target": "T4",
+   "target": "T7",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1808,15 +1632,6 @@
   },
   {
    "source": "J9",
-   "target": "T2",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "J9",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -1826,7 +1641,7 @@
   },
   {
    "source": "J9",
-   "target": "T9",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1844,7 +1659,7 @@
   },
   {
    "source": "J10",
-   "target": "T4",
+   "target": "T7",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1862,16 +1677,7 @@
   },
   {
    "source": "J11",
-   "target": "T9",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "J11",
-   "target": "T1",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1889,7 +1695,7 @@
   },
   {
    "source": "J12",
-   "target": "T1",
+   "target": "T4",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1898,7 +1704,7 @@
   },
   {
    "source": "J12",
-   "target": "T9",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1916,7 +1722,7 @@
   },
   {
    "source": "J13",
-   "target": "T1",
+   "target": "T5",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1925,7 +1731,7 @@
   },
   {
    "source": "J13",
-   "target": "T9",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -1944,15 +1750,6 @@
   {
    "source": "J14",
    "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "J14",
-   "target": "T1",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -2012,60 +1809,6 @@
    "evidence": "lähde",
    "url": "https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&lang=fi",
    "note": "koordinaattori"
-  },
-  {
-   "source": "seamk",
-   "target": "FI-04",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf",
-   "note": "koordinaattori"
-  },
-  {
-   "source": "uwasa",
-   "target": "FI-04",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf",
-   "note": "partneri"
-  },
-  {
-   "source": "tuni",
-   "target": "FI-04",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf",
-   "note": "partneri"
-  },
-  {
-   "source": "seamk",
-   "target": "FI-05",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de",
-   "note": "koordinaattori"
-  },
-  {
-   "source": "metsakeskus",
-   "target": "FI-05",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de",
-   "note": "partneri"
-  },
-  {
-   "source": "broilertilat",
-   "target": "FI-05",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de",
-   "note": "partneri"
   },
   {
    "source": "seamk",
@@ -2437,51 +2180,6 @@
    "note": "rahoituksen välittäjä"
   },
   {
-   "source": "ltu",
-   "target": "SE-01",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en",
-   "note": "koordinaattori"
-  },
-  {
-   "source": "ltu-gf",
-   "target": "SE-01",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://www.ltu.se/aktuellt/nyheter/nyhetsarkiv/2023-10-08-81-miljoner-till-testanlaggning-for-vatgas-vid-ltu-green-fuels",
-   "note": "partneri"
-  },
-  {
-   "source": "pitea",
-   "target": "SE-01",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en",
-   "note": "partneri"
-  },
-  {
-   "source": "smurfit",
-   "target": "SE-01",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en",
-   "note": "partneri"
-  },
-  {
-   "source": "h2gs",
-   "target": "SE-01",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en",
-   "note": "partneri"
-  },
-  {
    "source": "nmu",
    "target": "NI-01",
    "kind": "osallistuu",
@@ -2590,15 +2288,6 @@
    "note": ""
   },
   {
-   "source": "P-EE-JTF",
-   "target": "EE-01",
-   "kind": "rahoittaa",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "",
-   "note": ""
-  },
-  {
    "source": "P-EE-KF",
    "target": "EE-02",
    "kind": "rahoittaa",
@@ -2628,15 +2317,6 @@
   {
    "source": "P-IE-JTF",
    "target": "H-IE-JTF",
-   "kind": "rahoittaa",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "P-SE-JTF",
-   "target": "SE-01",
    "kind": "rahoittaa",
    "weight": 1.0,
    "evidence": "lähde",
@@ -2722,70 +2402,43 @@
    "weight": 0,
    "evidence": "haku",
    "url": "",
-   "note": "Teemat lähes samat (T1, T2, T9), ei suoraa TUKKA–PeatTransform-yhteyttä"
+   "note": "Teemat lähes samat (T1, T3, T7, T8), ei suoraa TUKKA–PeatTransform-yhteyttä"
   },
   {
    "source": "FI-01",
-   "target": "LV-03",
+   "target": "LV-01",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.43,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T2"
+   "note": "T1,T7,T8"
   },
   {
    "source": "FI-01",
-   "target": "NI-01",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T2"
-  },
-  {
-   "source": "FI-01",
-   "target": "FI-06",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T2"
-  },
-  {
-   "source": "FI-01",
-   "target": "X-FI-PEATRESC",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T4"
-  },
-  {
-   "source": "FI-01",
-   "target": "X-IE-LIFE",
+   "target": "LV-02",
    "kind": "teemapaallekkaisyys",
    "weight": 0.4,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T4"
+   "note": "T1,T8"
   },
   {
    "source": "FI-01",
-   "target": "X-IE-GAL",
+   "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.4,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T4"
+   "note": "T1,T8"
   },
   {
    "source": "FI-01",
    "target": "X-DE-SH",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.6,
    "evidence": "laskettu",
    "url": "",
-   "note": "T2,T4"
+   "note": "T2,T7,T8"
   },
   {
    "source": "FI-02",
@@ -2816,16 +2469,7 @@
   },
   {
    "source": "FI-02",
-   "target": "NI-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-02",
-   "target": "FI-06",
+   "target": "LV-03",
    "kind": "teemapaallekkaisyys",
    "weight": 0.5,
    "evidence": "laskettu",
@@ -2834,16 +2478,7 @@
   },
   {
    "source": "FI-02",
-   "target": "FI-07",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-02",
-   "target": "FI-10",
+   "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
    "weight": 0.5,
    "evidence": "laskettu",
@@ -2870,16 +2505,7 @@
   },
   {
    "source": "FI-03",
-   "target": "NI-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-03",
-   "target": "FI-06",
+   "target": "LV-03",
    "kind": "teemapaallekkaisyys",
    "weight": 0.5,
    "evidence": "laskettu",
@@ -2888,66 +2514,12 @@
   },
   {
    "source": "FI-03",
-   "target": "FI-07",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-03",
-   "target": "FI-10",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-04",
-   "target": "FI-05",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T6"
-  },
-  {
-   "source": "FI-04",
-   "target": "SE-01",
-   "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T5,T6"
-  },
-  {
-   "source": "FI-05",
-   "target": "LV-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T6"
-  },
-  {
-   "source": "FI-05",
-   "target": "SE-01",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T6"
-  },
-  {
-   "source": "EE-01",
    "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
+   "weight": 0.5,
    "evidence": "laskettu",
    "url": "",
-   "note": "T7,T8"
+   "note": "T1"
   },
   {
    "source": "EE-02",
@@ -2960,16 +2532,7 @@
   },
   {
    "source": "EE-02",
-   "target": "NI-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "EE-02",
-   "target": "FI-06",
+   "target": "LV-03",
    "kind": "teemapaallekkaisyys",
    "weight": 0.5,
    "evidence": "laskettu",
@@ -2978,16 +2541,7 @@
   },
   {
    "source": "EE-02",
-   "target": "FI-07",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "EE-02",
-   "target": "FI-10",
+   "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
    "weight": 0.5,
    "evidence": "laskettu",
@@ -2996,66 +2550,93 @@
   },
   {
    "source": "LV-01",
-   "target": "FI-07",
+   "target": "LV-02",
    "kind": "teemapaallekkaisyys",
    "weight": 0.4,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T9"
+   "note": "T1,T8"
   },
   {
    "source": "LV-01",
-   "target": "FI-10",
+   "target": "LV-03",
    "kind": "teemapaallekkaisyys",
    "weight": 0.4,
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T3"
+  },
+  {
+   "source": "LV-01",
+   "target": "FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3,T8"
+  },
+  {
+   "source": "LV-01",
+   "target": "FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3,T8"
   },
   {
    "source": "LV-01",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.6,
+   "weight": 0.5,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T4,T9"
+   "note": "T1,T6,T7"
   },
   {
    "source": "LV-01",
-   "target": "X-IE-GAL",
+   "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.6,
+   "weight": 0.4,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T4,T9"
+   "note": "T1,T8"
   },
   {
    "source": "LV-02",
-   "target": "NI-03",
+   "target": "FI-06",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1"
+   "note": "T1,T8"
   },
   {
-   "source": "LV-03",
-   "target": "NI-01",
+   "source": "LV-02",
+   "target": "FI-09",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T2"
+   "note": "T1,T8"
+  },
+  {
+   "source": "LV-02",
+   "target": "X-IE-NAT",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T8"
   },
   {
    "source": "LV-03",
    "target": "NI-02",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
+   "weight": 0.5,
    "evidence": "laskettu",
    "url": "",
-   "note": "T2,T3"
+   "note": "T3"
   },
   {
    "source": "LV-03",
@@ -3064,34 +2645,34 @@
    "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T2"
+   "note": "T1,T3"
   },
   {
    "source": "LV-03",
    "target": "FI-08",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
+   "weight": 0.5,
    "evidence": "laskettu",
    "url": "",
-   "note": "T2,T3"
+   "note": "T3"
   },
   {
    "source": "LV-03",
    "target": "FI-09",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T2,T3"
+   "note": "T1,T3"
   },
   {
    "source": "LV-03",
    "target": "FI-10",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
+   "weight": 0.5,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T3"
+   "note": "T3"
   },
   {
    "source": "IE-02",
@@ -3100,25 +2681,34 @@
    "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T10,T2"
+   "note": "T2,T5"
+  },
+  {
+   "source": "IE-02",
+   "target": "NI-03",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.5,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5"
   },
   {
    "source": "NI-01",
-   "target": "FI-06",
+   "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
+   "weight": 0.4,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T2"
+   "note": "T1,T5"
   },
   {
    "source": "NI-01",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
+   "weight": 0.5,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T10"
+   "note": "T1,T5"
   },
   {
    "source": "NI-02",
@@ -3127,106 +2717,88 @@
    "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
-   "note": "T2,T3"
+   "note": "T3"
   },
   {
    "source": "NI-02",
+   "target": "FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T3"
+  },
+  {
+   "source": "FI-06",
    "target": "FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3,T8"
+  },
+  {
+   "source": "FI-06",
+   "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T2,T3"
-  },
-  {
-   "source": "NI-03",
-   "target": "FI-06",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "NI-03",
-   "target": "FI-07",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "NI-03",
-   "target": "FI-10",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
+   "note": "T1,T8"
   },
   {
    "source": "FI-07",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
+   "weight": 0.4,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T9"
-  },
-  {
-   "source": "FI-07",
-   "target": "X-IE-GAL",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.67,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T9"
+   "note": "T1,T6"
   },
   {
    "source": "FI-08",
-   "target": "FI-09",
+   "target": "FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T3"
+  },
+  {
+   "source": "FI-09",
+   "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T2,T3"
+   "note": "T1,T8"
   },
   {
    "source": "X-FI-PEATRESC",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
+   "weight": 0.75,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T4"
+   "note": "T1,T5,T7"
   },
   {
    "source": "X-FI-PEATRESC",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
+   "weight": 0.75,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T4,T9"
+   "note": "T5,T6,T7"
   },
   {
    "source": "X-IE-LIFE",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
+   "weight": 0.5,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T4"
-  },
-  {
-   "source": "X-IE-LIFE",
-   "target": "X-IE-NAT",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T8"
+   "note": "T5,T7"
   }
  ]
 }

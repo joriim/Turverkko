@@ -4,7 +4,7 @@
 
 | kind | Mitä se on | Tunnisteen muoto | Keskeiset kentät |
 |---|---|---|---|
-| `teema` | Teemaluokka T1–T10 | `T1` | label |
+| `teema` | Teemaluokka T1–T8 | `T1` | label |
 | `ohjelma` | Rahasto-ohjelma tai alueellinen allokaatio | `P-FI-JTF` | country, fund, eur |
 | `hanke` | Rajauksen sisällä oleva hanke | `FI-07` | country, fund, period, eur_total, eur_eu, evidence_level, start, end |
 | `osaamiskeskus` | CoE, klusteri tai huippuyksikkö | `H-FI`, `H-LV` | country, fund, status, years |
@@ -19,15 +19,15 @@ Maakoodit: `FI`, `SE`, `EE`, `LV`, `IE`, `DE-NI` (Niedersachsen), `DE-SH` (vain 
 | Koodi | Teema |
 |---|---|
 | T1 | Turvetuotantoalueiden ennallistaminen ja jälkikäyttö |
-| T2 | Turvemaat maatilalla: vettäminen, tulosperusteiset maksut |
-| T3 | Turpeen korvaajat ja turvebiotalouden tuotteet |
-| T4 | Osaamiskeskittymä / Centre of Excellence / klusteri |
-| T5 | Vety ja Power-to-X |
-| T6 | Uusiutuva energia ja bioenergia |
-| T7 | Osaaminen, uudelleenkoulutus, työllisyys |
-| T8 | Yritystuki ja elinkeinojen monipuolistaminen |
-| T9 | Kasvihuonekaasumittaus, päästökertoimet, MRV |
-| T10 | Luontomatkailu ja virkistys |
+| T2 | Turvepellot: vettäminen, vedenpinnan säätö, tulosperusteiset maksut |
+| T3 | Kosteikkoviljely (paludikulttuuri) ja turpeen korvaajat |
+| T4 | Suometsät: metsitys, ojitettujen suometsien hoito ja ennallistaminen |
+| T5 | Luonnontilaisten soiden suojelu ja ennallistaminen |
+| T6 | Maankäyttösektorin päästöt: KHK-mittaus, päästökertoimet, inventaario, MRV |
+| T7 | Osaamiskeskittymät, klusterit ja tiedonvälitys |
+| T8 | Maanomistajat, maankäytön suunnittelu ja turpeesta luopumisen sosioekonomia |
+
+Rajauksen ulkopuolella: vety, energiaratkaisut, yleinen yritystuki, matkailu.
 
 ### Näyttöaste (`evidence_level`)
 

@@ -1,46 +1,35 @@
 a,a_nimi,a_maa,b,b_nimi,b_maa,jaccard,yhteiset_teemat,etaisyys,tyyppi,paras_naytto
 FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,1.0,T1,ei polkua,maiden välinen,3
 FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,1.0,T1,ei polkua,maiden välinen,3
-EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,1.0,T1,ei polkua,maiden välinen,3
-FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,1.0,T1,ei polkua,maiden välinen,2
-FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,1.0,T1,ei polkua,maiden välinen,2
-FI-04,VEP – Vetytalouden mahdollisuudet ruokaketjussa,FI,SE-01,"H2-Labs – vedyn testilaitos, Piteå",SE,1.0,"T5,T6",ei polkua,maiden välinen,2
-NI-02,Produktketten aus Niedermoorbiomasse (paludikulttuuri),DE-NI,FI-08,Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla,FI,1.0,"T2,T3",ei polkua,maiden välinen,1
-X-FI-PEATRESC,"PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",FI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,1.0,"T1,T4,T9",ei polkua,maiden välinen,0
+LV-02,Historiallisten turvealueiden elvyttäminen,LV,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,1.0,"T1,T8",ei polkua,maiden välinen,2
+NI-02,Produktketten aus Niedermoorbiomasse (paludikulttuuri),DE-NI,FI-08,Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla,FI,1.0,T3,ei polkua,maiden välinen,1
+NI-02,Produktketten aus Niedermoorbiomasse (paludikulttuuri),DE-NI,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,1.0,T3,ei polkua,maiden välinen,0
 FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,1.0,T1,ei polkua,sama maa,2
-FI-07,TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi,FI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T1,T9",ei polkua,maiden välinen,4
-EE-01,"Harvinaisten maametallien magneettitehdas, Narva",EE,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.67,"T7,T8",ei polkua,maiden välinen,3
-LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,NI-02,Produktketten aus Niedermoorbiomasse (paludikulttuuri),DE-NI,0.67,"T2,T3",ei polkua,maiden välinen,2
-LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.67,"T1,T2",ei polkua,maiden välinen,2
-LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-08,Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla,FI,0.67,"T2,T3",ei polkua,maiden välinen,2
-LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,0.67,"T1,T3",ei polkua,maiden välinen,2
-IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,0.67,"T10,T2",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.67,"T1,T2",ei polkua,maiden välinen,1
-NI-02,Produktketten aus Niedermoorbiomasse (paludikulttuuri),DE-NI,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,0.67,"T2,T3",ei polkua,maiden välinen,1
-FI-08,Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla,FI,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,0.67,"T2,T3",ei polkua,sama maa,1
-LV-01,PeatTransform – turvesektorin TKI-pohjainen siirtymä,LV,X-FI-PEATRESC,"PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",FI,0.6,"T1,T4,T9",ei polkua,maiden välinen,2
-LV-01,PeatTransform – turvesektorin TKI-pohjainen siirtymä,LV,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.6,"T1,T4,T9",ei polkua,maiden välinen,2
-EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,FI-07,TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi,FI,0.5,T1,ei polkua,maiden välinen,4
-NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,FI-07,TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi,FI,0.5,T1,ei polkua,maiden välinen,4
+FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,1.0,"T1,T3,T8",ei polkua,sama maa,1
+FI-08,Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla,FI,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,1.0,T3,ei polkua,sama maa,1
+X-FI-PEATRESC,"PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.75,"T1,T5,T7",ei polkua,maiden välinen,0
+X-FI-PEATRESC,"PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",FI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.75,"T5,T6,T7",ei polkua,maiden välinen,0
+LV-02,Historiallisten turvealueiden elvyttäminen,LV,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.67,"T1,T8",ei polkua,maiden välinen,2
+LV-02,Historiallisten turvealueiden elvyttäminen,LV,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,0.67,"T1,T8",ei polkua,maiden välinen,2
+LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.67,"T1,T3",ei polkua,maiden välinen,2
+LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,0.67,"T1,T3",4,maiden välinen,2
+IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,0.67,"T2,T5",ei polkua,maiden välinen,2
+FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.67,"T1,T8",ei polkua,maiden välinen,1
+FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.67,"T1,T8",ei polkua,maiden välinen,1
+LV-01,PeatTransform – turvesektorin TKI-pohjainen siirtymä,LV,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.6,"T1,T3,T8",ei polkua,maiden välinen,2
+FI-01,TUKKA – Turvemaiden kestävän käytön osaamisklusteri,FI,X-DE-SH,"Our Moor Future Oldenburger Graben (Schleswig-Holstein, 0,5 M€)",DE-SH,0.6,"T2,T7,T8",ei polkua,maiden välinen,1
 EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,LV-02,Historiallisten turvealueiden elvyttäminen,LV,0.5,T1,ei polkua,maiden välinen,3
-EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.5,T1,ei polkua,maiden välinen,3
-EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,0.5,T1,ei polkua,maiden välinen,3
-FI-01,TUKKA – Turvemaiden kestävän käytön osaamisklusteri,FI,LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,0.5,"T1,T2",ei polkua,maiden välinen,2
+EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,0.5,T1,ei polkua,maiden välinen,3
+EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.5,T1,ei polkua,maiden välinen,3
 FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,LV-02,Historiallisten turvealueiden elvyttäminen,LV,0.5,T1,ei polkua,maiden välinen,2
+FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,0.5,T1,ei polkua,maiden välinen,2
+FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.5,T1,ei polkua,maiden välinen,2
 FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,LV-02,Historiallisten turvealueiden elvyttäminen,LV,0.5,T1,ei polkua,maiden välinen,2
-FI-05,EIP Energiaälykäs eteläpohjalainen maatila,FI,LV-02,Historiallisten turvealueiden elvyttäminen,LV,0.5,T6,ei polkua,maiden välinen,2
-FI-05,EIP Energiaälykäs eteläpohjalainen maatila,FI,SE-01,"H2-Labs – vedyn testilaitos, Piteå",SE,0.5,T6,ei polkua,maiden välinen,2
-LV-02,Historiallisten turvealueiden elvyttäminen,LV,NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,0.5,T1,ei polkua,maiden välinen,2
-LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,0.5,"T1,T2",ei polkua,maiden välinen,2
-LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,0.5,"T2,T3",4,maiden välinen,2
-NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.5,T1,ei polkua,maiden välinen,2
-NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,0.5,T1,ei polkua,maiden välinen,2
-FI-01,TUKKA – Turvemaiden kestävän käytön osaamisklusteri,FI,NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,0.5,"T1,T2",ei polkua,maiden välinen,1
-FI-01,TUKKA – Turvemaiden kestävän käytön osaamisklusteri,FI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.5,"T1,T4",ei polkua,maiden välinen,1
-FI-01,TUKKA – Turvemaiden kestävän käytön osaamisklusteri,FI,X-DE-SH,"Our Moor Future Oldenburger Graben (Schleswig-Holstein, 0,5 M€)",DE-SH,0.5,"T2,T4",ei polkua,maiden välinen,1
-FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,FI-07,TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi,FI,0.5,T1,ei polkua,sama maa,4
-FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,FI-07,TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi,FI,0.5,T1,ei polkua,sama maa,4
-FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.5,T1,ei polkua,sama maa,2
-FI-02,PohjaNeva – Myllynevan ennallistaminen (Alavus),FI,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,0.5,T1,ei polkua,sama maa,2
-FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.5,T1,ei polkua,sama maa,1
-FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,0.5,T1,ei polkua,sama maa,1
+FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,0.5,T1,ei polkua,maiden välinen,2
+LV-01,PeatTransform – turvesektorin TKI-pohjainen siirtymä,LV,X-FI-PEATRESC,"PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",FI,0.5,"T1,T6,T7",ei polkua,maiden välinen,2
+LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,NI-02,Produktketten aus Niedermoorbiomasse (paludikulttuuri),DE-NI,0.5,T3,ei polkua,maiden välinen,2
+LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-08,Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla,FI,0.5,T3,ei polkua,maiden välinen,2
+LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-10,Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely,FI,0.5,T3,ei polkua,maiden välinen,2
+IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,NI-03,FKU – maanhankinnat suokohteille (ELER),DE-NI,0.5,T5,ei polkua,maiden välinen,2
+FI-03,PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen,FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.5,T1,ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.5,"T1,T5",ei polkua,maiden välinen,1

@@ -1,15 +1,13 @@
 {
  "themes": {
   "T1": "Turvetuotantoalueiden ennallistaminen ja jälkikäyttö",
-  "T2": "Turvemaat maatilalla: vettäminen, tulosperusteiset maksut",
-  "T3": "Turpeen korvaajat ja turvebiotalouden tuotteet",
-  "T4": "Osaamiskeskittymä / Centre of Excellence / klusteri",
-  "T5": "Vety ja Power-to-X",
-  "T6": "Uusiutuva energia ja bioenergia",
-  "T7": "Osaaminen, uudelleenkoulutus, työllisyys",
-  "T8": "Yritystuki ja elinkeinojen monipuolistaminen",
-  "T9": "Kasvihuonekaasumittaus, päästökertoimet, MRV",
-  "T10": "Luontomatkailu ja virkistys"
+  "T2": "Turvepellot: vettäminen, vedenpinnan säätö, tulosperusteiset maksut",
+  "T3": "Kosteikkoviljely (paludikulttuuri) ja turpeen korvaajat",
+  "T4": "Suometsät: metsitys, ojitettujen suometsien hoito ja ennallistaminen",
+  "T5": "Luonnontilaisten soiden suojelu ja ennallistaminen",
+  "T6": "Maankäyttösektorin päästöt: KHK-mittaus, päästökertoimet, inventaario, MRV",
+  "T7": "Osaamiskeskittymät, klusterit ja tiedonvälitys",
+  "T8": "Maanomistajat, maankäytön suunnittelu ja turpeesta luopumisen sosioekonomia"
  },
  "countries": {
   "FI": "Suomi",
@@ -30,9 +28,7 @@
    "focus": [
     "T1",
     "T3",
-    "T7",
-    "T8",
-    "T5"
+    "T8"
    ],
    "targets": "1 900 pk-yritystä; 4 000 yritystä TKI-yhteistyöhön; 1 800 innovaatiota; 3 700 työpaikkaa",
    "realised": null,
@@ -46,11 +42,9 @@
    "eur": 119000000,
    "scope": "Pohjois-Pohjanmaa",
    "focus": [
-    "T4",
-    "T8",
     "T7",
     "T1",
-    "T5"
+    "T8"
    ],
    "targets": "Jako: TKI ~37 %, pk-yritykset ~44 %, osaaminen ~14 %, turvealueiden ennallistaminen ~5 %",
    "realised": null,
@@ -63,15 +57,8 @@
    "period": "2021–27",
    "eur": 354000000,
    "scope": "Ida-Virumaa",
-   "focus": [
-    "T8",
-    "T7",
-    "T6",
-    "T5",
-    "T1",
-    "T10"
-   ],
-   "targets": "Talous ja työ 273 M€; ympäristö ja osallisuus 66,7 M€; öljyliuskeesta luopuminen 2040",
+   "focus": [],
+   "targets": "Öljyliuskeesta luopuminen 2040 – ei turvepainotusta, mukana vertailuna",
    "realised": "Matkailuhankkeita lähes 100 M€; kritiikkiä kiireisistä päätöksistä ja paperille jääneistä suurhankkeista",
    "url": "https://news.err.ee/1608745423/ida-viru-county-to-receive-354-million-for-green-transition-eu-confirms"
   },
@@ -85,7 +72,7 @@
    "focus": [
     "T1",
     "T3",
-    "T9",
+    "T6",
     "T8"
    ],
    "targets": "Turvesektorin siirtymä; historiallisten turvealueiden inventointi",
@@ -102,9 +89,8 @@
    "focus": [
     "T1",
     "T2",
-    "T4",
-    "T8",
-    "T10"
+    "T7",
+    "T8"
    ],
    "targets": "500 pk-yritystä; 12 500 ha ennallistettu; organogeenisten maiden Centre of Excellence",
    "realised": "Maksettu edunsaajille 51 M€, EU-nostot 7 M€ (8/2026); 2 toimea à 15 M€ poistettu 3/2026 → 10 000 ha ja 60 latauspistettä pois tavoitteista",
@@ -117,12 +103,8 @@
    "period": "2021–27",
    "eur": 156000000,
    "scope": "Norrbotten, Västerbotten, Gotland",
-   "focus": [
-    "T5",
-    "T6",
-    "T7"
-   ],
-   "targets": "Teräs- ja metalliteollisuuden fossiilivapaus, sähköverkot, koulutus — ei turveteemaa",
+   "focus": [],
+   "targets": "Teräs- ja metalliteollisuuden fossiilivapaus – ei turvepainotusta, mukana vertailuna",
    "realised": null,
    "url": "https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en"
   },
@@ -161,8 +143,7 @@
    "scope": "Manner-Suomi",
    "focus": [
     "T2",
-    "T6",
-    "T8"
+    "T5"
    ],
    "targets": "Kehittämishankkeita ~7 700 (76 % Leaderin kautta)",
    "realised": "Kosteikkosopimuksia 1 474 ha (tavoite 1 100 ha); yritystuki 7 900 yritykselle, 15 500 työpaikkaa",
@@ -183,9 +164,11 @@
    "eur_total": 83758,
    "eur_eu": null,
    "themes": [
-    "T4",
+    "T7",
+    "T8",
     "T1",
-    "T2"
+    "T2",
+    "T4"
    ],
    "outputs": "Klusteri, 21 jäsenorganisaatiota; testialueet EP ja KP",
    "evidence": 1,
@@ -230,65 +213,6 @@
    "url": "https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&lang=fi"
   },
   {
-   "id": "FI-04",
-   "country": "FI",
-   "region": "Etelä-Pohjanmaa",
-   "fund": "EAKR",
-   "period": "2021–27",
-   "name": "VEP – Vetytalouden mahdollisuudet ruokaketjussa",
-   "lead": "SeAMK (VEBIC, Tampereen yliopisto)",
-   "start": 2023,
-   "end": 2025,
-   "eur_total": 486867,
-   "eur_eu": null,
-   "themes": [
-    "T5",
-    "T6"
-   ],
-   "outputs": "Taustaselvitykset, vedyntuotannon pilotti, ruokaketjun vety-tiekartta 2030",
-   "evidence": 2,
-   "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf"
-  },
-  {
-   "id": "FI-05",
-   "country": "FI",
-   "region": "Etelä-Pohjanmaa",
-   "fund": "EIP",
-   "period": "2023–27",
-   "name": "EIP Energiaälykäs eteläpohjalainen maatila",
-   "lead": "SeAMK + 5 broileritilaa, Metsäkeskus",
-   "start": 2024,
-   "end": 2025,
-   "eur_total": 170005,
-   "eur_eu": 58482,
-   "themes": [
-    "T6"
-   ],
-   "outputs": "Hakelämpölaitos → sähkö + CO2-hyötykäyttö -konsepti",
-   "evidence": 1,
-   "url": "https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de"
-  },
-  {
-   "id": "EE-01",
-   "country": "EE",
-   "region": "Ida-Virumaa",
-   "fund": "JTF",
-   "period": "2021–27",
-   "name": "Harvinaisten maametallien magneettitehdas, Narva",
-   "lead": "(yritys, ei nimetty lähteessä)",
-   "start": 2023,
-   "end": null,
-   "eur_total": null,
-   "eur_eu": 18750000,
-   "themes": [
-    "T8",
-    "T7"
-   ],
-   "outputs": "1 000 työpaikkaa (tavoite); T&K-keskus; tehdas toiminnassa 2026",
-   "evidence": 3,
-   "url": "https://ec.europa.eu/regional_policy/whats-new/newsroom/28-06-2023-eu-cohesion-policy-just-transition-fund-finances-a-new-facility-to-produce-rare-earths-magnets-in-estonia_en"
-  },
-  {
    "id": "EE-02",
    "country": "EE",
    "region": "Koko Viro",
@@ -320,11 +244,11 @@
    "eur_total": 5588265,
    "eur_eu": 4750025,
    "themes": [
-    "T9",
+    "T6",
     "T3",
     "T1",
-    "T4",
-    "T7"
+    "T7",
+    "T8"
    ],
    "outputs": "≥50 artikkelia (≥5 Q1); >30 KHK-seurantakohdetta; ≥10 kasvualustareseptiä; ≥4 kemiallista prototyyppiä; ≥1 patentti; Centre of Excellence",
    "evidence": 2,
@@ -344,7 +268,7 @@
    "eur_eu": 1920000,
    "themes": [
     "T1",
-    "T6"
+    "T8"
    ],
    "outputs": "≥9 000 ha inventointi; turvepolttolaitosten korvausselvitys",
    "evidence": 2,
@@ -364,8 +288,7 @@
    "eur_eu": null,
    "themes": [
     "T1",
-    "T3",
-    "T2"
+    "T3"
    ],
    "outputs": "Jälkikäyttöskenaariot 4 turvealueelle; paludikulttuuriratkaisut",
    "evidence": 2,
@@ -385,7 +308,7 @@
    "eur_eu": null,
    "themes": [
     "T2",
-    "T9"
+    "T6"
    ],
    "outputs": "23 tilaa; vettäminen ~95 ha + 40 ha suo; arvio 320–690 tCO2e vältetty; KHK-perustaso mitattu; Irish Peatland Code -luonnos",
    "evidence": 3,
@@ -405,31 +328,11 @@
    "eur_eu": null,
    "themes": [
     "T2",
-    "T10"
+    "T5"
    ],
    "outputs": "8 aluetta; elinympäristöjen pisteytys 0–10; koulutus",
    "evidence": 2,
    "url": "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de"
-  },
-  {
-   "id": "SE-01",
-   "country": "SE",
-   "region": "Norrbotten",
-   "fund": "JTF",
-   "period": "2021–27",
-   "name": "H2-Labs – vedyn testilaitos, Piteå",
-   "lead": "Luleå tekniska universitet (H2 Green Steel, Smurfit Kappa, PiteEnergi)",
-   "start": 2023,
-   "end": null,
-   "eur_total": null,
-   "eur_eu": 7000000,
-   "themes": [
-    "T5",
-    "T6"
-   ],
-   "outputs": "~1 MW elektrolyysipilotti; hukkalämpö; kylmän ilmaston vedyntuotanto",
-   "evidence": 2,
-   "url": "https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en"
   },
   {
    "id": "NI-01",
@@ -444,9 +347,9 @@
    "eur_total": null,
    "eur_eu": null,
    "themes": [
-    "T1",
+    "T5",
     "T2",
-    "T10"
+    "T1"
    ],
    "outputs": "12 vettämis-, 12 valmistelu- ja 9 kestävän käytön hanketta",
    "evidence": 1,
@@ -465,8 +368,7 @@
    "eur_total": null,
    "eur_eu": null,
    "themes": [
-    "T3",
-    "T2"
+    "T3"
    ],
    "outputs": "Lähde ei raportoi",
    "evidence": 0,
@@ -485,7 +387,7 @@
    "eur_total": null,
    "eur_eu": 15000000,
    "themes": [
-    "T1"
+    "T5"
    ],
    "outputs": "Sitoumukset 4,78 M€ (2017) ja 4,03 M€ (2018), pääosin maanostoihin",
    "evidence": 2,
@@ -505,7 +407,8 @@
    "eur_eu": null,
    "themes": [
     "T1",
-    "T2"
+    "T3",
+    "T8"
    ],
    "hub": "H-FI",
    "outputs": "Jälkikäyttösuunnitelmat maanomistajille, kosteikko- ja soistamiskohteet, sopimusmallit",
@@ -526,7 +429,8 @@
    "eur_eu": null,
    "themes": [
     "T1",
-    "T9"
+    "T4",
+    "T6"
    ],
    "hub": "H-FI",
    "outputs": "Naarasnevan jatkuva CO2/N2O/CH4-asema + >80 kammiopistettä; vertaisarvioitu kannattavuustutkimus (Suo 2025)",
@@ -546,8 +450,7 @@
    "eur_total": null,
    "eur_eu": null,
    "themes": [
-    "T3",
-    "T2"
+    "T3"
    ],
    "hub": "H-FI",
    "outputs": "Rahkasammal- ja osmankäämipilotti entisellä turvetuotantoalueella; turpeen korvaajien kokeet",
@@ -567,8 +470,8 @@
    "eur_total": null,
    "eur_eu": null,
    "themes": [
-    "T2",
     "T3",
+    "T1",
     "T8"
    ],
    "outputs": "Kaupallisesti kannattavat suonpohjien viljelymallit; tutustuminen Silavaan 8/2025",
@@ -588,8 +491,7 @@
    "eur_total": null,
    "eur_eu": null,
    "themes": [
-    "T3",
-    "T1"
+    "T3"
    ],
    "outputs": "Lähde mainitsee vain hankkeen nimen ja aiheen",
    "evidence": 0,
@@ -603,9 +505,10 @@
    "fund": "Kansallinen",
    "name": "PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",
    "themes": [
+    "T5",
     "T1",
-    "T9",
-    "T4"
+    "T6",
+    "T7"
    ],
    "note": "UEF:n johtama huippuyksikkö (IL, HY, Aalto). Sama tietotarve kuin PeatTransformissa ja Irlannin keskuksissa",
    "url": "https://uefconnect.uef.fi/en/peatresc/"
@@ -617,9 +520,8 @@
    "name": "LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",
    "themes": [
     "T1",
-    "T4",
-    "T8",
-    "T10"
+    "T5",
+    "T7"
    ],
    "note": "2020–2027, Bord na Móna koordinoi. Sisältää Peatlands Centre of Excellence -osion → päällekkäinen JTF:n CoE-tavoitteen kanssa",
    "url": "https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435"
@@ -630,9 +532,9 @@
    "fund": "Kansallinen",
    "name": "All-Ireland Peatlands CoE ja RePEAT (Galway)",
    "themes": [
-    "T4",
-    "T9",
-    "T1"
+    "T7",
+    "T6",
+    "T5"
    ],
    "note": "Avattu 12/2025; RePEAT rahoittajina DAFM ja EPA. Kolmas irlantilainen turvemaiden osaamiskeskus",
    "url": "https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html"
@@ -644,7 +546,6 @@
    "name": "Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",
    "themes": [
     "T1",
-    "T7",
     "T8"
    ],
    "note": "Kansallinen rinnakkaisohjelma; ennallistaminen 108 M€ + Bord na Móna",
@@ -657,8 +558,8 @@
    "name": "Our Moor Future Oldenburger Graben (Schleswig-Holstein, 0,5 M€)",
    "themes": [
     "T2",
-    "T4",
-    "T6"
+    "T8",
+    "T7"
    ],
    "note": "Naapurialue; suoyhteisön vyöhykejako ≈ TUKKA-klusterin tavoite",
    "url": "https://eu-cap-network.ec.europa.eu/projects/our-moor-future-oldenburger-graben-cooperative-moorland-oldenburger-graben-schleswig_de"
@@ -769,8 +670,8 @@
    "title": "Etelä-Pohjanmaan turvemailla on käynnissä haastava kestävyyskoe",
    "venue": "AMK-kestävyysvuosikirja 2025, HUMAK Julkaisuja 192, s. 87–91",
    "themes": [
-    "T4",
-    "T2"
+    "T7",
+    "T8"
    ],
    "url": "https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description"
   },
@@ -785,6 +686,7 @@
    "title": "Metsityksen taloudellinen kannattavuus paksuturpeisilla suonpohjilla",
    "venue": "Suo – Mires and Peat 76(1): 23–36",
    "themes": [
+    "T4",
     "T1"
    ],
    "url": "https://lehti.seamk.fi/verkkolehti/metsitys-voi-olla-kannattavaa-paksuturpeisilla-suonpohjilla/?print=pdf"
@@ -800,7 +702,8 @@
    "title": "Naarasnevalla alkaa suonpohjien metsityksen monimuotoisuus- ja N2O-seuranta",
    "venue": "SeAMK-verkkolehti 11.4.2024",
    "themes": [
-    "T9"
+    "T6",
+    "T4"
    ],
    "url": "https://lehti.seamk.fi/verkkolehti/naarasnevan-mittausasemalla-alkaa-suonpohjien-metsityksen-monimuotoisuusvaikutusten-ja-n2o-paastojen-seuranta/?print=pdf"
   },
@@ -815,7 +718,7 @@
    "title": "Irlantilaiset asiantuntijat vierailulla Suomessa: yhteisiä haasteita, erilaisia ratkaisuja",
    "venue": "JYX-julkaisuarkisto",
    "themes": [
-    "T4"
+    "T7"
    ],
    "link_to": "IE",
    "url": "https://jyx.jyu.fi/handle/123456789/105416"
@@ -831,7 +734,7 @@
    "title": "Yhteistyö Irlannin kanssa auttaa laajentamaan ymmärrystä eurooppalaisista turvemaista",
    "venue": "JYX-julkaisuarkisto",
    "themes": [
-    "T4"
+    "T7"
    ],
    "link_to": "IE",
    "url": "https://jyx.jyu.fi/jyx/Record/jyx_123456789_109406"
@@ -847,8 +750,8 @@
    "title": "Suolla soi moniääninen muutos: turvemaiden kestävä käyttö rakentuu alhaalta ylöspäin",
    "venue": "JYX-julkaisuarkisto",
    "themes": [
-    "T4",
-    "T2"
+    "T8",
+    "T7"
    ],
    "url": "https://jyx.jyu.fi/handle/123456789/109405"
   },
@@ -863,7 +766,7 @@
    "title": "PeatTransform: Supporting the Transition of the Peat Sector towards Climate Neutrality in Latvia",
    "venue": "EGU General Assembly 2026, EGU26-10980",
    "themes": [
-    "T9",
+    "T6",
     "T3",
     "T1"
    ],
@@ -880,7 +783,7 @@
    "title": "PeatTransform-seminaari: viisi tutkimussuuntaa, ~100 osallistujaa",
    "venue": "Silava 8.1.2026",
    "themes": [
-    "T4"
+    "T7"
    ],
    "url": "https://silava.lv/en/news/seminar-peattransform-towards-climate-neutrality-in-the-peat-sector-held-at-lsfri-silava"
   },
@@ -895,9 +798,8 @@
    "title": "Suomalainen SuoLiike-hanke Silavassa: paludikulttuurin päästöt, kuitupohjaiset kasvualustat",
    "venue": "Silava 20.8.2025",
    "themes": [
-    "T2",
     "T3",
-    "T9"
+    "T6"
    ],
    "link_to": "FI",
    "url": "https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange"
@@ -913,7 +815,7 @@
    "title": "Stakeholder Engagement and Partnership Report for Phase 1, EU LIFE Peatlands and People",
    "venue": "University of Galway, tekninen julkaisu",
    "themes": [
-    "T4"
+    "T7"
    ],
    "url": "https://research.universityofgalway.ie/en/publications/stakeholder-engagement-and-partnership-report-for-phase-1-eu-life-4/"
   },
@@ -928,8 +830,7 @@
    "title": "Bog Commissioner -karttojen digitointi (1810–1814): >200 000 ha entistä turvemaata tunnistettu",
    "venue": "RePEAT, DAFM + EPA",
    "themes": [
-    "T9",
-    "T1"
+    "T6"
    ],
    "url": "https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html"
   },
@@ -944,8 +845,8 @@
    "title": "Restoration of forestry-drained oligotrophic peatlands can bring climate change mitigation within a few decades",
    "venue": "Restoration Ecology 2026 – UEF:n turveyhteisö, ei merkitty huippuyksikön tuotokseksi",
    "themes": [
-    "T1",
-    "T9"
+    "T4",
+    "T6"
    ],
    "url": "https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana"
   },
@@ -960,8 +861,8 @@
    "title": "Piitsonsuo: kolmen ennallistamismenetelmän vertailu, lampareiden vertailu Siikanevaan",
    "venue": "Hiilipörssi, tiedeartikkeli",
    "themes": [
-    "T1",
-    "T9"
+    "T5",
+    "T6"
    ],
    "url": "https://hiiliporssi.fi/tiede/ainutlaatuisia-tutkimuksia-hiiliporssin-ennallistamalla-piitsonsuolla/"
   },
@@ -976,8 +877,7 @@
    "title": "Kyyrönsuo (Kontiolahti): rahkasammalviljelyn tutkimus entisellä turvetuotantoalueella",
    "venue": "Yle 24.1.2026",
    "themes": [
-    "T3",
-    "T1"
+    "T3"
    ],
    "url": "https://yle.fi/a/74-20204573"
   }
@@ -1023,7 +923,7 @@
    "a": "H-FI",
    "b": "H-LV",
    "kind": "ei kytköstä",
-   "note": "Teemat lähes samat (T1, T2, T9), ei suoraa TUKKA–PeatTransform-yhteyttä"
+   "note": "Teemat lähes samat (T1, T3, T7, T8), ei suoraa TUKKA–PeatTransform-yhteyttä"
   }
  ],
  "duplicates": [
@@ -1094,18 +994,6 @@
    "type": "yliopisto"
   },
   {
-   "id": "uwasa",
-   "name": "Vaasan yliopisto (VEBIC)",
-   "country": "FI",
-   "type": "yliopisto"
-  },
-  {
-   "id": "tuni",
-   "name": "Tampereen yliopisto",
-   "country": "FI",
-   "type": "yliopisto"
-  },
-  {
    "id": "ep-ely",
    "name": "Etelä-Pohjanmaan ELY-keskus",
    "country": "FI",
@@ -1134,12 +1022,6 @@
    "name": "SYKLI Environmental School of Finland",
    "country": "FI",
    "type": "jarjesto"
-  },
-  {
-   "id": "broilertilat",
-   "name": "Viisi eteläpohjalaista broileritilaa",
-   "country": "FI",
-   "type": "yritys"
   },
   {
    "id": "hiiliporssi",
@@ -1278,36 +1160,6 @@
    "name": "Eastern and Midland Regional Assembly",
    "country": "IE",
    "type": "viranomainen"
-  },
-  {
-   "id": "ltu",
-   "name": "Luleå tekniska universitet",
-   "country": "SE",
-   "type": "yliopisto"
-  },
-  {
-   "id": "ltu-gf",
-   "name": "LTU Green Fuels",
-   "country": "SE",
-   "type": "tutkimuslaitos"
-  },
-  {
-   "id": "pitea",
-   "name": "Piteå Energi",
-   "country": "SE",
-   "type": "yritys"
-  },
-  {
-   "id": "smurfit",
-   "name": "Smurfit Kappa",
-   "country": "SE",
-   "type": "yritys"
-  },
-  {
-   "id": "h2gs",
-   "name": "H2 Green Steel",
-   "country": "SE",
-   "type": "yritys"
   },
   {
    "id": "nmu",

@@ -88,7 +88,7 @@ a{color:var(--water)}
   <header>
     <div class="eyebrow">EAKR · ESR+ · JTF · MSR · EIP — turvemaa-alueet, 2014–20 ja 2021–27</div>
     <h1>Turverkko</h1>
-    <p class="lede">Kuusi EU:n turvemaa-aluetta rinnakkain: mihin julkinen TKI-raha menee, missä samat teemat toistuvat ja kuinka paljon hankkeista on näytettävää tuotosta. Aineisto on lähteillä varmennettu otos, ei koko populaatio.</p>
+    <p class="lede">Turvemaiden, turvepeltojen, suometsien, kosteikkoviljelyn, ennallistamisen ja maankäyttösektorin päästöjen julkinen TKI-rahoitus kuudella EU:n turvemaa-alueella: mihin raha menee, kuka tekee yhteistyötä kenen kanssa ja paljonko hankkeista jää näytettävää. Aineisto on lähteillä varmennettu otos, ei koko populaatio.</p>
   </header>
 
   <section class="kpis" id="kpis" aria-label="Yhteenveto"></section>
@@ -180,7 +180,7 @@ a{color:var(--water)}
   </section>
 
   <p class="note">Aineisto, analyysiskriptit ja muutoshistoria: <a href="__REPO_URL__" target="_blank" rel="noopener">__REPO_NAME__</a>. Lataa verkosto: <a href="__REPO_URL__/tree/main/data" target="_blank" rel="noopener">nodes.csv, edges.csv, network.graphml</a>.</p>
-  <p class="note">Menetelmä: teemaluokitus 10 luokkaan; päällekkäisyys = teematunnisteiden Jaccard-indeksi ≥ 0,4 hankeparin välillä. Kohesio-tietokanta esti automaattisen haun, joten hanketason otos on koottu kansallisista rekistereistä, EU CAP Networkin hankesivuilta ja ohjelmatiedotteista. Jokaisen rivin lähde on linkitetty.</p>
+  <p class="note">Menetelmä: teemaluokitus 8 turvemaa- ja maaperäluokkaan (vety, energia, yritystuki ja matkailu rajattu pois 31.10.2026); päällekkäisyys = teematunnisteiden Jaccard-indeksi ≥ 0,4 hankeparin välillä. Kohesio-tietokanta esti automaattisen haun, joten hanketason otos on koottu kansallisista rekistereistä, EU CAP Networkin hankesivuilta ja ohjelmatiedotteista. Jokaisen rivin lähde on linkitetty.</p>
 </div>
 
 <script>
@@ -199,10 +199,10 @@ const visible = p => p.isContext ? state.countries.has(p.country) || !CN[p.count
 
 /* KPIs */
 (function(){
-  const jtf = D.programmes.filter(p=>p.fund==="JTF" && p.id!=="P-FI-PP-JTF").reduce((a,p)=>a+p.eur,0);
+  const jtf = D.programmes.filter(p=>p.fund==="JTF" && p.focus.length && p.id!=="P-FI-PP-JTF").reduce((a,p)=>a+p.eur,0);
   const cross = D.overlaps.filter(o=>o.kind==="maiden välinen").length;
   const ev = D.projects.reduce((a,p)=>a+p.evidence,0)/D.projects.length;
-  const k = [[fmt(jtf),"JTF-allokaatiot 5 maassa (DE-NI ei JTF-alue)"],[D.projects.length,"varmennettua hanketta otoksessa + "+D.context.length+" vertailukohdetta"],[cross,"maiden välistä päällekkäisyysparia"],[ev.toFixed(1).replace(".",",")+" / 4","keskimääräinen tuotosten näyttöaste"]];
+  const k = [[fmt(jtf),"turvepainotteiset JTF-allokaatiot (FI, LV, IE)"],[D.projects.length,"varmennettua hanketta otoksessa + "+D.context.length+" vertailukohdetta"],[cross,"maiden välistä päällekkäisyysparia"],[ev.toFixed(1).replace(".",",")+" / 4","keskimääräinen tuotosten näyttöaste"]];
   document.getElementById("kpis").innerHTML = k.map(([b,s])=>`<div class="kpi"><b class="mono">${b}</b><span>${s}</span></div>`).join("");
   const ins = [
     ["Ennallistaminen toistuu neljässä maassa","Viro korjasi ≥2 000 ha jääkturvealueita koheesiorahastolla 2014–23. Suomen JTF-hankkeet (PUHTI, PohjaNeva) ja Latvian inventointi aloittavat nyt samasta kohteiden tunnistusvaiheesta."],

@@ -1,26 +1,23 @@
 id,nimi,maa,tyyppi,hankkeita,keskuksia,keskukset,tavoittaa_maita,valityskeskeisyys,komponentti
-seamk,Seinäjoen ammattikorkeakoulu (SeAMK),FI,amk,6,1,H-FI,1,0.0304,1
-galway,University of Galway,IE,yliopisto,3,2,H-IE-GAL H-IE-LIFE,1,0.0136,3
-hy,Helsingin yliopisto,FI,yliopisto,3,2,H-FI H-FI-AKA,1,0.0117,1
-silava,LSFRI Silava,LV,tutkimuslaitos,2,1,H-LV,2,0.0039,2
-bnm,Bord na Móna,IE,yritys,2,1,H-IE-LIFE,1,0.0039,3
-il,Ilmatieteen laitos,FI,tutkimuslaitos,2,2,H-FI H-FI-AKA,1,0.0037,1
-nmu,Niedersächsisches Umweltministerium,DE-NI,viranomainen,2,0,,1,0.0019,5
-metsakeskus,Suomen metsäkeskus,FI,viranomainen,2,1,H-FI,1,0.0018,1
-nlwkn,NLWKN,DE-NI,viranomainen,2,0,,1,0.0013,5
+galway,University of Galway,IE,yliopisto,3,2,H-IE-GAL H-IE-LIFE,1,0.019,3
+hy,Helsingin yliopisto,FI,yliopisto,3,2,H-FI H-FI-AKA,1,0.01,1
+seamk,Seinäjoen ammattikorkeakoulu (SeAMK),FI,amk,4,1,H-FI,1,0.0064,1
+silava,LSFRI Silava,LV,tutkimuslaitos,2,1,H-LV,2,0.0054,2
+bnm,Bord na Móna,IE,yritys,2,1,H-IE-LIFE,1,0.0054,3
+nmu,Niedersächsisches Umweltministerium,DE-NI,viranomainen,2,0,,1,0.0027,4
+il,Ilmatieteen laitos,FI,tutkimuslaitos,2,2,H-FI H-FI-AKA,1,0.0024,1
+nlwkn,NLWKN,DE-NI,viranomainen,2,0,,1,0.0018,4
 uef,Itä-Suomen yliopisto,FI,yliopisto,1,1,H-FI-AKA,1,0.0,1
 aalto,Aalto-yliopisto,FI,yliopisto,1,1,H-FI-AKA,1,0.0,1
 oy,Oulun yliopisto,FI,yliopisto,1,1,H-FI,1,0.0,1
 luke,Luonnonvarakeskus (Luke),FI,tutkimuslaitos,1,1,H-LV,2,0.0,2
+metsakeskus,Suomen metsäkeskus,FI,viranomainen,1,1,H-FI,1,0.0,1
 chydenius,Kokkolan yliopistokeskus Chydenius,FI,yliopisto,1,1,H-FI,1,0.0,1
-uwasa,Vaasan yliopisto (VEBIC),FI,yliopisto,1,0,,1,0.0,1
-tuni,Tampereen yliopisto,FI,yliopisto,1,0,,1,0.0,1
-ep-ely,Etelä-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,8
-pp-ely,Pohjois-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,9
+ep-ely,Etelä-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,7
+pp-ely,Pohjois-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,8
 ks-ely,Keski-Suomen ELY-keskus,FI,viranomainen,1,1,H-FI,1,0.0,1
 kinno,Kouvola Innovation Oy (Kinno),FI,yritys,1,1,H-LV,2,0.0,2
 sykli,SYKLI Environmental School of Finland,FI,jarjesto,1,1,H-LV,2,0.0,2
-broilertilat,Viisi eteläpohjalaista broileritilaa,FI,yritys,1,0,,1,0.0,1
 hiiliporssi,Hiilipörssi Oy,FI,yritys,1,1,H-FI-AKA,1,0.0,1
 lu,Latvian yliopisto,LV,yliopisto,1,1,H-LV,2,0.0,2
 rtu,Riga Technical University,LV,yliopisto,1,1,H-LV,2,0.0,2
@@ -28,22 +25,17 @@ lbtu,Latvia University of Life Sciences and Technologies,LV,yliopisto,1,1,H-LV,2
 ies,Institute for Environmental Solutions,LV,tutkimuslaitos,1,1,H-LV,2,0.0,2
 lathort,Institute of Horticulture (LatHort),LV,tutkimuslaitos,1,1,H-LV,2,0.0,2
 arei,Institute of Agricultural Resources and Economics,LV,tutkimuslaitos,1,1,H-LV,2,0.0,2
-cfla,Central Finance and Contracting Agency,LV,viranomainen,1,0,,1,0.0,7
-lv-regions,Latvian suunnittelualueet,LV,viranomainen,1,0,,1,0.0,7
+cfla,Central Finance and Contracting Agency,LV,viranomainen,1,0,,1,0.0,6
+lv-regions,Latvian suunnittelualueet,LV,viranomainen,1,0,,1,0.0,6
 gri,Green Restoration Ireland,IE,jarjesto,1,0,,1,0.0,3
-nbas,Nature Based Agri Solutions (FarmPEAT),IE,yritys,1,0,,1,0.0,6
-wsi,Wetland Surveys Ireland,IE,yritys,1,0,,1,0.0,6
-irl,Irish Rural Link,IE,jarjesto,1,0,,1,0.0,6
-umeras,Umeras Community Development Group,IE,jarjesto,1,0,,1,0.0,6
+nbas,Nature Based Agri Solutions (FarmPEAT),IE,yritys,1,0,,1,0.0,5
+wsi,Wetland Surveys Ireland,IE,yritys,1,0,,1,0.0,5
+irl,Irish Rural Link,IE,jarjesto,1,0,,1,0.0,5
+umeras,Umeras Community Development Group,IE,jarjesto,1,0,,1,0.0,5
 teagasc,Teagasc,IE,tutkimuslaitos,1,0,,1,0.0,3
 tcd,Trinity College Dublin,IE,yliopisto,1,1,H-IE-GAL,1,0.0,3
 epa-ie,Environmental Protection Agency (IE),IE,viranomainen,1,1,H-IE-LIFE,1,0.0,3
 dhlgh,"Department of Housing, Local Government and Heritage",IE,viranomainen,1,1,H-IE-LIFE,1,0.0,3
 intrigo,Intrigo Ltd,IE,yritys,1,1,H-IE-LIFE,1,0.0,3
-emra,Eastern and Midland Regional Assembly,IE,viranomainen,1,2,H-FI H-IE-JTF,1,0.0,10
-ltu,Luleå tekniska universitet,SE,yliopisto,1,0,,1,0.0,4
-ltu-gf,LTU Green Fuels,SE,tutkimuslaitos,1,0,,1,0.0,4
-pitea,Piteå Energi,SE,yritys,1,0,,1,0.0,4
-smurfit,Smurfit Kappa,SE,yritys,1,0,,1,0.0,4
-h2gs,H2 Green Steel,SE,yritys,1,0,,1,0.0,4
-ml-ni,Niedersächsisches Landwirtschaftsministerium,DE-NI,viranomainen,1,0,,1,0.0,5
+emra,Eastern and Midland Regional Assembly,IE,viranomainen,1,2,H-FI H-IE-JTF,1,0.0,9
+ml-ni,Niedersächsisches Landwirtschaftsministerium,DE-NI,viranomainen,1,0,,1,0.0,4

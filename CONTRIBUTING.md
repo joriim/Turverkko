@@ -13,7 +13,7 @@ Aineisto kasvaa lisäyksillä. Tärkeimpiä ovat yhteydet, joita analyysi pitä�
 
 Kaikki muutokset tehdään tiedostoon `src/source.py`.
 
-**Hanke:** lisää `dict` listaan `PROJECTS`. Anna tunniste muodossa `MAA-nn`, teemat T1–T10 ja näyttöaste 0–4 ([SCHEMA.md](SCHEMA.md)).
+**Hanke:** lisää `dict` listaan `PROJECTS`. Lisää vain turvemaihin tai maaperään liittyviä hankkeita. Anna tunniste muodossa `MAA-nn`, teemat T1–T8 ja näyttöaste 0–4 ([SCHEMA.md](SCHEMA.md)).
 
 **Organisaatio:** lisää `ORGS`-listaan. Käytä lyhyttä tunnistetta pienillä kirjaimilla.
 

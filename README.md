@@ -1,6 +1,8 @@
 # Turverkko – turvemaa-alueiden TKI-verkosto
 
-Avoin aineisto ja visualisointi EU:n turvemaa-alueiden julkisesta TKI-rahoituksesta ja sen toimijaverkostosta. Mukana ovat Suomi, Ruotsi, Viro, Latvia, Irlanti ja Niedersachsen, rahastot JTF, EAKR, ESR+, maaseuturahasto ja EIP-AGRI sekä ohjelmakaudet 2014–20 ja 2021–27.
+Avoin aineisto ja visualisointi turvemaihin ja maaperään liittyvästä julkisesta TKI-rahoituksesta ja sen toimijaverkostosta. Alueina ovat Suomi, Ruotsi, Viro, Latvia, Irlanti ja Niedersachsen, rahastoina JTF, EAKR, ESR+, maaseuturahasto ja EIP-AGRI ja ohjelmakausina 2014–20 ja 2021–27.
+
+**Rajaus:** turvemaat, turvepellot, suometsät, kosteikkoviljely, turvetuotantoalueiden ja soiden ennallistaminen, maankäyttösektorin päästöt sekä niihin liittyvä osaaminen ja maankäytön suunnittelu. Vety, energiaratkaisut, yleinen yritystuki ja matkailu on rajattu pois. Rajatut hankkeet on lueteltu `src/source.py`:n `REMOVED`-listassa.
 
 Aineistolla on kolme tehtävää:
 
@@ -14,10 +16,12 @@ Aineistolla on kolme tehtävää:
 
 Luvut on generoitu tiedostoon [`analysis/raportti.md`](analysis/raportti.md). Ne päivittyvät, kun aineisto kasvaa.
 
-- 80 toimijaa jakautuu 14 erilliseen yhteistyösaarekkeeseen. Vain yksi saareke ylittää maarajan: suomalainen SuoLiike-hanke ja Latvian PeatTransform-verkosto.
+- 68 toimijaa jakautuu 12 erilliseen yhteistyösaarekkeeseen. Vain yksi saareke ylittää maarajan: suomalainen SuoLiike-hanke ja Latvian PeatTransform-verkosto.
 - Maiden välisiä yhteistyösuhteita on lähteellä vahvistettuna yksi. Lisäksi on kolme vahvistamatonta, jotka liittyvät TUKKA-klusterin Irlanti-yhteistyöhön.
-- 37 maiden välistä puuttuvaa yhteyttä. Selvimmät ovat Suomen ja Latvian JTF-ennallistamishankkeiden ja Viron jo toteutetun 2 000 ha:n ennallistamisen väliset. Myös Akatemian PeatResC-huippuyksiköllä ja Galwayn All-Ireland Peatlands CoE:lla on täsmälleen samat teemat, mutta ei yhteyttä.
-- Vahvimmat välittäjät ovat SeAMK (6 hanketta), University of Galway ja Helsingin yliopisto.
+- 31 maiden välistä puuttuvaa yhteyttä. Selvimmät ovat Suomen JTF-ennallistamishankkeiden ja Viron jo toteutetun 2 000 ha:n ennallistamisen väliset, Suomen ja Niedersachsenin kosteikkoviljelyhankkeiden väliset sekä Akatemian PeatResC-huippuyksikön ja Irlannin kahden turvemaakeskuksen väliset.
+- Ennallistaminen (T1) on tihein teema: 11 hanketta neljässä maassa. Suometsiä (T4) tutkitaan otoksessa vain Suomessa.
+- Turvepainotteiset JTF-allokaatiot ovat 826 M€ (Suomi, Latvia, Irlanti). Viron ja Ruotsin JTF:t eivät painota turvetta, ja Niedersachsen ei ole JTF-alue.
+- **Aukko:** Ruotsista ei ole otoksessa yhtään turvemaahanketta. Ruotsin turvemaiden vettäminen rahoitetaan pitkälti kansallisesti, ja se on seuraava täydennettävä kohta.
 
 ## Rakenne
 
@@ -42,12 +46,12 @@ Verkoston voi avata Gephissä tai Cytoscapessa tiedostosta `data/network.graphml
 
 ## Aineistomalli lyhyesti
 
-Solmutyypit ovat teema, ohjelma, hanke, osaamiskeskus, vertailukohde, organisaatio ja julkaisu. Särmätyypit ovat osallistuu, kuuluu_keskukseen, yhteistyo, ei_kytkosta, rahoittaa, tuotos, teema ja teemapaallekkaisyys. Jokaisella yhteistyösärmällä on näyttökenttä (`lähde`, `päätelty`, `vahvistamatta`) ja lähde-URL. Tarkemmin: [SCHEMA.md](SCHEMA.md).
+Teemat T1–T8 on kuvattu [SCHEMA.md](SCHEMA.md):ssa. Solmutyypit ovat teema, ohjelma, hanke, osaamiskeskus, vertailukohde, organisaatio ja julkaisu. Särmätyypit ovat osallistuu, kuuluu_keskukseen, yhteistyo, ei_kytkosta, rahoittaa, tuotos, teema ja teemapaallekkaisyys. Jokaisella yhteistyösärmällä on näyttökenttä (`lähde`, `päätelty`, `vahvistamatta`) ja lähde-URL. Tarkemmin: [SCHEMA.md](SCHEMA.md).
 
 ## Menetelmä ja rajoitukset
 
 - **Otos, ei populaatio.** Hanketaso on koottu kansallisista rekistereistä, EU CAP Networkin hankesivuilta, ohjelmatiedotteista ja tutkimusportaaleista. Kohesio-tietokantaa ei saatu haettua automaattisesti. Sen maakohtaiset CSV-viennit ([kohesio.ec.europa.eu/en/data](https://kohesio.ec.europa.eu/en/data)) ovat seuraava laajennus.
-- **Teemaluokitus** (10 luokkaa) ja **näyttöaste** (0–4) ovat tämän katsauksen omia, ja niitä voi kritisoida. Päällekkäisyys lasketaan teematunnisteiden Jaccard-indeksinä.
+- **Teemaluokitus** (8 turvemaa- ja maaperäluokkaa) ja **näyttöaste** (0–4) ovat tämän katsauksen omia, ja niitä voi kritisoida. Päällekkäisyys lasketaan teematunnisteiden Jaccard-indeksinä.
 - **Yhteistyöverkko** sisältää vain osallistumisen, keskukseen kuulumisen ja dokumentoidun yhteistyön. Rahoitus ja teemojen samankaltaisuus eivät ole yhteistyötä. Saarekkeet ja keskeisyys lasketaan vain lähteellä vahvistetuista yhteyksistä.
 - **Puuttuva yhteys** tarkoittaa, että teemat ovat lähes samat (Jaccard ≥ 0,5) eikä vahvistettua polkua ole kolmen askeleen sisällä. Se kertoo, että yhteyttä ei löytynyt julkisista lähteistä. Se ei todista, ettei yhteyttä ole. Tämä on aineiston tärkein korjattava kohta: jos tiedät yhteyden, lisää se.
 
