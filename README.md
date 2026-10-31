@@ -1,4 +1,4 @@
-# Turve – turvemaa-alueiden TKI-verkosto
+# Turverkko – turvemaa-alueiden TKI-verkosto
 
 Avoin aineisto ja visualisointi EU:n turvemaa-alueiden julkisesta TKI-rahoituksesta ja sen toimijaverkostosta. Mukana ovat Suomi, Ruotsi, Viro, Latvia, Irlanti ja Niedersachsen, rahastot JTF, EAKR, ESR+, maaseuturahasto ja EIP-AGRI sekä ohjelmakaudet 2014–20 ja 2021–27.
 
@@ -8,7 +8,7 @@ Aineistolla on kolme tehtävää:
 2. **Yhteysverkoston dokumentointi.** Kuka osallistuu mihinkin, ja jokaiselle yhteydelle lähde.
 3. **Yhteyksien analyysi.** Välittäjäorganisaatiot, erilliset yhteistyösaarekkeet ja puuttuvat yhteydet eli toimijat, jotka tekevät samaa mutta eivät tunne toisiaan.
 
-**Sivusto:** `https://OMISTAJA.github.io/turve/` (GitHub Pages, kansio `docs/`)
+**Sivusto:** `https://OMISTAJA.github.io/turverkko/` (GitHub Pages, kansio `docs/`)
 
 ## Keskeiset havainnot (31.10.2026)
 
