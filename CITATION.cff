@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Jos käytät aineistoa tai koodia, viittaa siihen näin."
+title: "Turverkko – turvemaa-alueiden TKI-verkosto"
+authors:
+  - family-names: "Jääskeläinen"
+    given-names: "Miiro"
+date-released: 2026-10-31
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - turvemaat
+  - peatlands
+  - Just Transition Fund
+  - EIP-AGRI
+  - network analysis
