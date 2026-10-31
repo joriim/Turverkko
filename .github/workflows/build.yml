@@ -1,0 +1,25 @@
+name: Rakenna ja tarkista aineisto
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Rakenna verkosto, analyysi ja sivu
+        run: |
+          python scripts/build.py
+          python scripts/analyze.py
+          python scripts/site.py
+      - name: Tarkista, että committoidut tiedostot ovat ajan tasalla
+        run: |
+          git diff --stat
+          git diff --quiet -- data analysis docs || (echo "Aja build.py, analyze.py ja site.py ja committaa tulokset." && exit 1)

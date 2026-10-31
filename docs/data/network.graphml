@@ -1,0 +1,2653 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d31" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d30" for="edge" attr.name="note" attr.type="string"/>
+<key id="d29" for="edge" attr.name="url" attr.type="string"/>
+<key id="d28" for="edge" attr.name="evidence" attr.type="string"/>
+<key id="d27" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d26" for="edge" attr.name="kind" attr.type="string"/>
+<key id="d25" for="node" attr.name="year" attr.type="string"/>
+<key id="d24" for="node" attr.name="venue" attr.type="string"/>
+<key id="d23" for="node" attr.name="verified" attr.type="boolean"/>
+<key id="d22" for="node" attr.name="pub_type" attr.type="string"/>
+<key id="d21" for="node" attr.name="year" attr.type="long"/>
+<key id="d20" for="node" attr.name="org_type" attr.type="string"/>
+<key id="d19" for="node" attr.name="years" attr.type="string"/>
+<key id="d18" for="node" attr.name="status" attr.type="string"/>
+<key id="d17" for="node" attr.name="start" attr.type="string"/>
+<key id="d16" for="node" attr.name="duplicate_note" attr.type="string"/>
+<key id="d15" for="node" attr.name="eur_eu" attr.type="long"/>
+<key id="d14" for="node" attr.name="eur_total" attr.type="string"/>
+<key id="d13" for="node" attr.name="end" attr.type="string"/>
+<key id="d12" for="node" attr.name="end" attr.type="long"/>
+<key id="d11" for="node" attr.name="start" attr.type="long"/>
+<key id="d10" for="node" attr.name="evidence_level" attr.type="long"/>
+<key id="d9" for="node" attr.name="eur_eu" attr.type="string"/>
+<key id="d8" for="node" attr.name="eur_total" attr.type="long"/>
+<key id="d7" for="node" attr.name="period" attr.type="string"/>
+<key id="d6" for="node" attr.name="eur" attr.type="string"/>
+<key id="d5" for="node" attr.name="url" attr.type="string"/>
+<key id="d4" for="node" attr.name="eur" attr.type="long"/>
+<key id="d3" for="node" attr.name="fund" attr.type="string"/>
+<key id="d2" for="node" attr.name="country" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="kind" attr.type="string"/>
+<graph edgedefault="directed"><node id="T1">
+  <data key="d0">teema</data>
+  <data key="d1">Turvetuotantoalueiden ennallistaminen ja jälkikäyttö</data>
+</node>
+<node id="T2">
+  <data key="d0">teema</data>
+  <data key="d1">Turvemaat maatilalla: vettäminen, tulosperusteiset maksut</data>
+</node>
+<node id="T3">
+  <data key="d0">teema</data>
+  <data key="d1">Turpeen korvaajat ja turvebiotalouden tuotteet</data>
+</node>
+<node id="T4">
+  <data key="d0">teema</data>
+  <data key="d1">Osaamiskeskittymä / Centre of Excellence / klusteri</data>
+</node>
+<node id="T5">
+  <data key="d0">teema</data>
+  <data key="d1">Vety ja Power-to-X</data>
+</node>
+<node id="T6">
+  <data key="d0">teema</data>
+  <data key="d1">Uusiutuva energia ja bioenergia</data>
+</node>
+<node id="T7">
+  <data key="d0">teema</data>
+  <data key="d1">Osaaminen, uudelleenkoulutus, työllisyys</data>
+</node>
+<node id="T8">
+  <data key="d0">teema</data>
+  <data key="d1">Yritystuki ja elinkeinojen monipuolistaminen</data>
+</node>
+<node id="T9">
+  <data key="d0">teema</data>
+  <data key="d1">Kasvihuonekaasumittaus, päästökertoimet, MRV</data>
+</node>
+<node id="T10">
+  <data key="d0">teema</data>
+  <data key="d1">Luontomatkailu ja virkistys</data>
+</node>
+<node id="P-FI-JTF">
+  <data key="d0">ohjelma</data>
+  <data key="d1">JTF Suomi 2021–27</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d4">465000000</data>
+  <data key="d5">https://finland.representation.ec.europa.eu/uutiset/eun-koheesiopolitiikka-suomi-saa-yli-465-miljoonaa-euroa-oikeudenmukaisen-ilmastosiirtyman-2022-12-21_fi</data>
+</node>
+<node id="P-FI-PP-JTF">
+  <data key="d0">ohjelma</data>
+  <data key="d1">JTF Suomi 2021–27</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d4">119000000</data>
+  <data key="d5">https://www.pohjois-pohjanmaa.fi/wp-content/uploads/2023/04/JTF-tiedote2-1.pdf</data>
+</node>
+<node id="P-EE-JTF">
+  <data key="d0">ohjelma</data>
+  <data key="d1">JTF Viro 2021–27</data>
+  <data key="d2">EE</data>
+  <data key="d3">JTF</data>
+  <data key="d4">354000000</data>
+  <data key="d5">https://news.err.ee/1608745423/ida-viru-county-to-receive-354-million-for-green-transition-eu-confirms</data>
+</node>
+<node id="P-LV-JTF">
+  <data key="d0">ohjelma</data>
+  <data key="d1">JTF Latvia 2021–27</data>
+  <data key="d2">LV</data>
+  <data key="d3">JTF</data>
+  <data key="d4">192000000</data>
+  <data key="d5">https://ec.europa.eu/regional_policy/whats-new/newsroom/12-01-2022-eu-cohesion-policy-eur192-million-for-latvia-s-just-climate-transition_en</data>
+</node>
+<node id="P-IE-JTF">
+  <data key="d0">ohjelma</data>
+  <data key="d1">JTF Irlanti 2021–27</data>
+  <data key="d2">IE</data>
+  <data key="d3">JTF</data>
+  <data key="d4">169000000</data>
+  <data key="d5">https://www.travelextra.ie/auditor-general-finds-repeated-failures-to-utilise-just-transition-fund/</data>
+</node>
+<node id="P-SE-JTF">
+  <data key="d0">ohjelma</data>
+  <data key="d1">JTF Ruotsi 2021–27</data>
+  <data key="d2">SE</data>
+  <data key="d3">JTF</data>
+  <data key="d4">156000000</data>
+  <data key="d5">https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en</data>
+</node>
+<node id="P-DE-NI">
+  <data key="d0">ohjelma</data>
+  <data key="d1">— Niedersachsen 2021–27</data>
+  <data key="d2">DE-NI</data>
+  <data key="d3">—</data>
+  <data key="d6"></data>
+  <data key="d5">https://ec.europa.eu/regional_policy/whats-new/newsroom/21-10-2022-eu-cohesion-policy-eur2-5-billion-for-a-just-climate-transition-in-germany_en</data>
+</node>
+<node id="P-EE-KF">
+  <data key="d0">ohjelma</data>
+  <data key="d1">KF Viro 2014–20</data>
+  <data key="d2">EE</data>
+  <data key="d3">KF</data>
+  <data key="d4">81000000</data>
+  <data key="d5">https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid</data>
+</node>
+<node id="P-FI-MSR">
+  <data key="d0">ohjelma</data>
+  <data key="d1">MSR Suomi 2014–20</data>
+  <data key="d2">FI</data>
+  <data key="d3">MSR</data>
+  <data key="d6"></data>
+  <data key="d5">https://arkisto.maaseutu.fi/uploads/Tiivistelma_Manner-Suomen-maaseudun-kehittamisohjelman-2014-2020-raportti-vuodelta-2024.pdf</data>
+</node>
+<node id="FI-01">
+  <data key="d0">hanke</data>
+  <data key="d1">TUKKA – Turvemaiden kestävän käytön osaamisklusteri</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d8">83758</data>
+  <data key="d9"></data>
+  <data key="d10">1</data>
+  <data key="d11">2023</data>
+  <data key="d12">2027</data>
+  <data key="d5">https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/</data>
+</node>
+<node id="FI-02">
+  <data key="d0">hanke</data>
+  <data key="d1">PohjaNeva – Myllynevan ennallistaminen (Alavus)</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d8">12722</data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2024</data>
+  <data key="d13"></data>
+  <data key="d5">https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&amp;lang=fi</data>
+</node>
+<node id="FI-03">
+  <data key="d0">hanke</data>
+  <data key="d1">PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">1</data>
+  <data key="d11">2025</data>
+  <data key="d13"></data>
+  <data key="d5">https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&amp;lang=fi</data>
+</node>
+<node id="FI-04">
+  <data key="d0">hanke</data>
+  <data key="d1">VEP – Vetytalouden mahdollisuudet ruokaketjussa</data>
+  <data key="d2">FI</data>
+  <data key="d3">EAKR</data>
+  <data key="d7">2021–27</data>
+  <data key="d8">486867</data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2023</data>
+  <data key="d12">2025</data>
+  <data key="d5">https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf</data>
+</node>
+<node id="FI-05">
+  <data key="d0">hanke</data>
+  <data key="d1">EIP Energiaälykäs eteläpohjalainen maatila</data>
+  <data key="d2">FI</data>
+  <data key="d3">EIP</data>
+  <data key="d7">2023–27</data>
+  <data key="d8">170005</data>
+  <data key="d15">58482</data>
+  <data key="d10">1</data>
+  <data key="d11">2024</data>
+  <data key="d12">2025</data>
+  <data key="d5">https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de</data>
+</node>
+<node id="EE-01">
+  <data key="d0">hanke</data>
+  <data key="d1">Harvinaisten maametallien magneettitehdas, Narva</data>
+  <data key="d2">EE</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d14"></data>
+  <data key="d15">18750000</data>
+  <data key="d10">3</data>
+  <data key="d11">2023</data>
+  <data key="d13"></data>
+  <data key="d5">https://ec.europa.eu/regional_policy/whats-new/newsroom/28-06-2023-eu-cohesion-policy-just-transition-fund-finances-a-new-facility-to-produce-rare-earths-magnets-in-estonia_en</data>
+</node>
+<node id="EE-02">
+  <data key="d0">hanke</data>
+  <data key="d1">Jääkturvealueiden korjaaminen (mm. Laiuse)</data>
+  <data key="d2">EE</data>
+  <data key="d3">KF</data>
+  <data key="d7">2014–20</data>
+  <data key="d14"></data>
+  <data key="d15">81000000</data>
+  <data key="d10">3</data>
+  <data key="d11">2016</data>
+  <data key="d12">2023</data>
+  <data key="d5">https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid</data>
+</node>
+<node id="LV-01">
+  <data key="d0">hanke</data>
+  <data key="d1">PeatTransform – turvesektorin TKI-pohjainen siirtymä</data>
+  <data key="d2">LV</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d8">5588265</data>
+  <data key="d15">4750025</data>
+  <data key="d10">2</data>
+  <data key="d11">2025</data>
+  <data key="d12">2029</data>
+  <data key="d5">https://www.silava.lv/en/research/projects/PeatTransform</data>
+</node>
+<node id="LV-02">
+  <data key="d0">hanke</data>
+  <data key="d1">Historiallisten turvealueiden elvyttäminen</data>
+  <data key="d2">LV</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d8">2250000</data>
+  <data key="d15">1920000</data>
+  <data key="d10">2</data>
+  <data key="d11">2024</data>
+  <data key="d12">2026</data>
+  <data key="d5">https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund</data>
+</node>
+<node id="LV-03">
+  <data key="d0">hanke</data>
+  <data key="d1">Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri</data>
+  <data key="d2">LV</data>
+  <data key="d3">EAKR</data>
+  <data key="d7">2014–20</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2021</data>
+  <data key="d12">2023</data>
+  <data key="d5">https://silava.lv/en/projects/climate-policy-adapted-solutions-for-extracted-peatlands-and-paludiculture-implementation</data>
+</node>
+<node id="IE-01">
+  <data key="d0">hanke</data>
+  <data key="d1">Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn</data>
+  <data key="d2">IE</data>
+  <data key="d3">EIP</data>
+  <data key="d7">2014–20</data>
+  <data key="d8">1147000</data>
+  <data key="d9"></data>
+  <data key="d10">3</data>
+  <data key="d11">2021</data>
+  <data key="d12">2023</data>
+  <data key="d5">https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf</data>
+  <data key="d16">Green Restoration Ireland, 1 050 646 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ CAP Network -rekisterin 1 147 000 €</data>
+</node>
+<node id="IE-02">
+  <data key="d0">hanke</data>
+  <data key="d1">FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille</data>
+  <data key="d2">IE</data>
+  <data key="d3">EIP</data>
+  <data key="d7">2014–20</data>
+  <data key="d8">1213800</data>
+  <data key="d9"></data>
+  <data key="d10">2</data>
+  <data key="d11">2021</data>
+  <data key="d12">2023</data>
+  <data key="d5">https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de</data>
+  <data key="d16">Wetland Surveys Ireland, 1 113 800 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ rekisterin 1 213 800 €</data>
+</node>
+<node id="SE-01">
+  <data key="d0">hanke</data>
+  <data key="d1">H2-Labs – vedyn testilaitos, Piteå</data>
+  <data key="d2">SE</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d14"></data>
+  <data key="d15">7000000</data>
+  <data key="d10">2</data>
+  <data key="d11">2023</data>
+  <data key="d13"></data>
+  <data key="d5">https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en</data>
+</node>
+<node id="NI-01">
+  <data key="d0">hanke</data>
+  <data key="d1">KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)</data>
+  <data key="d2">DE-NI</data>
+  <data key="d3">EAKR</data>
+  <data key="d7">2014–20</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">1</data>
+  <data key="d11">2016</data>
+  <data key="d12">2023</data>
+  <data key="d5">https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf</data>
+</node>
+<node id="NI-02">
+  <data key="d0">hanke</data>
+  <data key="d1">Produktketten aus Niedermoorbiomasse (paludikulttuuri)</data>
+  <data key="d2">DE-NI</data>
+  <data key="d3">EAKR</data>
+  <data key="d7">2014–20</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d17"></data>
+  <data key="d13"></data>
+  <data key="d5">https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html</data>
+</node>
+<node id="NI-03">
+  <data key="d0">hanke</data>
+  <data key="d1">FKU – maanhankinnat suokohteille (ELER)</data>
+  <data key="d2">DE-NI</data>
+  <data key="d3">MSR</data>
+  <data key="d7">2014–20</data>
+  <data key="d14"></data>
+  <data key="d15">15000000</data>
+  <data key="d10">2</data>
+  <data key="d11">2017</data>
+  <data key="d12">2020</data>
+  <data key="d5">https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf</data>
+</node>
+<node id="FI-06">
+  <data key="d0">hanke</data>
+  <data key="d1">Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d8">245000</data>
+  <data key="d9"></data>
+  <data key="d10">1</data>
+  <data key="d11">2023</data>
+  <data key="d12">2026</data>
+  <data key="d5">https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf</data>
+</node>
+<node id="FI-07">
+  <data key="d0">hanke</data>
+  <data key="d1">TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi</data>
+  <data key="d2">FI</data>
+  <data key="d3">?</data>
+  <data key="d7">2021–27</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">4</data>
+  <data key="d11">2024</data>
+  <data key="d12">2026</data>
+  <data key="d5">https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf</data>
+</node>
+<node id="FI-08">
+  <data key="d0">hanke</data>
+  <data key="d1">Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla</data>
+  <data key="d2">FI</data>
+  <data key="d3">?</data>
+  <data key="d7">2021–27</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">1</data>
+  <data key="d17"></data>
+  <data key="d13"></data>
+  <data key="d5">https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf</data>
+</node>
+<node id="FI-09">
+  <data key="d0">hanke</data>
+  <data key="d1">SuoLiike – suonpohjien uusi viljelyliiketoiminta</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">1</data>
+  <data key="d17"></data>
+  <data key="d13"></data>
+  <data key="d5">https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange</data>
+</node>
+<node id="FI-10">
+  <data key="d0">hanke</data>
+  <data key="d1">Kasvua sammalesta Pohjois-Karjala – rahkasammalen viljely</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d7">2021–27</data>
+  <data key="d14"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d17"></data>
+  <data key="d13"></data>
+  <data key="d5">https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana</data>
+</node>
+<node id="X-FI-PEATRESC">
+  <data key="d0">vertailukohde</data>
+  <data key="d1">PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)</data>
+  <data key="d2">FI</data>
+  <data key="d3">Kansallinen</data>
+  <data key="d5">https://uefconnect.uef.fi/en/peatresc/</data>
+</node>
+<node id="X-IE-LIFE">
+  <data key="d0">vertailukohde</data>
+  <data key="d1">LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)</data>
+  <data key="d2">IE</data>
+  <data key="d3">LIFE</data>
+  <data key="d5">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+</node>
+<node id="X-IE-GAL">
+  <data key="d0">vertailukohde</data>
+  <data key="d1">All-Ireland Peatlands CoE ja RePEAT (Galway)</data>
+  <data key="d2">IE</data>
+  <data key="d3">Kansallinen</data>
+  <data key="d5">https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html</data>
+</node>
+<node id="X-IE-NAT">
+  <data key="d0">vertailukohde</data>
+  <data key="d1">Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)</data>
+  <data key="d2">IE</data>
+  <data key="d3">Kansallinen</data>
+  <data key="d5">https://www.shannonside.ie/news/e135-8m-350-jobs-announced-just-transition-programme-173604</data>
+</node>
+<node id="X-DE-SH">
+  <data key="d0">vertailukohde</data>
+  <data key="d1">Our Moor Future Oldenburger Graben (Schleswig-Holstein, 0,5 M€)</data>
+  <data key="d2">DE-SH</data>
+  <data key="d3">EIP</data>
+  <data key="d5">https://eu-cap-network.ec.europa.eu/projects/our-moor-future-oldenburger-graben-cooperative-moorland-oldenburger-graben-schleswig_de</data>
+</node>
+<node id="H-FI-AKA">
+  <data key="d0">osaamiskeskus</data>
+  <data key="d1">PeatResC – Suot, ilmastonmuutos ja ennallistaminen (Akatemian huippuyksikkö)</data>
+  <data key="d2">FI</data>
+  <data key="d3">Kansallinen</data>
+  <data key="d18">käynnistynyt 1/2026</data>
+  <data key="d19">2026–2033</data>
+  <data key="d5">https://uefconnect.uef.fi/en/peatresc/</data>
+</node>
+<node id="H-FI">
+  <data key="d0">osaamiskeskus</data>
+  <data key="d1">Turvemaaklusteri (TUKKA)</data>
+  <data key="d2">FI</data>
+  <data key="d3">JTF</data>
+  <data key="d18">käynnissä</data>
+  <data key="d19">2023–2027</data>
+  <data key="d5">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
+</node>
+<node id="H-LV">
+  <data key="d0">osaamiskeskus</data>
+  <data key="d1">PeatTransform Centre of Excellence</data>
+  <data key="d2">LV</data>
+  <data key="d3">JTF</data>
+  <data key="d18">käynnistynyt</data>
+  <data key="d19">2025–2029</data>
+  <data key="d5">https://www.silava.lv/en/research/projects/PeatTransform</data>
+</node>
+<node id="H-IE-JTF">
+  <data key="d0">osaamiskeskus</data>
+  <data key="d1">JTF Centre of Excellence (kestävä maankäyttö)</data>
+  <data key="d2">IE</data>
+  <data key="d3">JTF</data>
+  <data key="d18">toteutusta ei löytynyt</data>
+  <data key="d19">2021–27</data>
+  <data key="d5">https://pact-for-skills.ec.europa.eu/stakeholders-and-business/funding-opportunities/just-transition-fund-jtf-ireland-eastern-and-midland-region_en</data>
+</node>
+<node id="H-IE-LIFE">
+  <data key="d0">osaamiskeskus</data>
+  <data key="d1">Peatlands and People – Centre of Excellence -osio</data>
+  <data key="d2">IE</data>
+  <data key="d3">LIFE</data>
+  <data key="d18">käynnissä</data>
+  <data key="d19">2020–2027</data>
+  <data key="d5">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+</node>
+<node id="H-IE-GAL">
+  <data key="d0">osaamiskeskus</data>
+  <data key="d1">All-Ireland Peatlands Centre of Excellence (Galway)</data>
+  <data key="d2">IE</data>
+  <data key="d3">Kansallinen</data>
+  <data key="d18">avattu 12/2025</data>
+  <data key="d19">2025–</data>
+  <data key="d5">https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html</data>
+</node>
+<node id="seamk">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Seinäjoen ammattikorkeakoulu (SeAMK)</data>
+  <data key="d2">FI</data>
+  <data key="d20">amk</data>
+</node>
+<node id="hy">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Helsingin yliopisto</data>
+  <data key="d2">FI</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="il">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Ilmatieteen laitos</data>
+  <data key="d2">FI</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="uef">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Itä-Suomen yliopisto</data>
+  <data key="d2">FI</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="aalto">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Aalto-yliopisto</data>
+  <data key="d2">FI</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="oy">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Oulun yliopisto</data>
+  <data key="d2">FI</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="luke">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Luonnonvarakeskus (Luke)</data>
+  <data key="d2">FI</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="metsakeskus">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Suomen metsäkeskus</data>
+  <data key="d2">FI</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="chydenius">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Kokkolan yliopistokeskus Chydenius</data>
+  <data key="d2">FI</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="uwasa">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Vaasan yliopisto (VEBIC)</data>
+  <data key="d2">FI</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="tuni">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Tampereen yliopisto</data>
+  <data key="d2">FI</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="ep-ely">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Etelä-Pohjanmaan ELY-keskus</data>
+  <data key="d2">FI</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="pp-ely">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Pohjois-Pohjanmaan ELY-keskus</data>
+  <data key="d2">FI</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="ks-ely">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Keski-Suomen ELY-keskus</data>
+  <data key="d2">FI</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="kinno">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Kouvola Innovation Oy (Kinno)</data>
+  <data key="d2">FI</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="sykli">
+  <data key="d0">organisaatio</data>
+  <data key="d1">SYKLI Environmental School of Finland</data>
+  <data key="d2">FI</data>
+  <data key="d20">jarjesto</data>
+</node>
+<node id="broilertilat">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Viisi eteläpohjalaista broileritilaa</data>
+  <data key="d2">FI</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="hiiliporssi">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Hiilipörssi Oy</data>
+  <data key="d2">FI</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="silava">
+  <data key="d0">organisaatio</data>
+  <data key="d1">LSFRI Silava</data>
+  <data key="d2">LV</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="lu">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Latvian yliopisto</data>
+  <data key="d2">LV</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="rtu">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Riga Technical University</data>
+  <data key="d2">LV</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="lbtu">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Latvia University of Life Sciences and Technologies</data>
+  <data key="d2">LV</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="ies">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Institute for Environmental Solutions</data>
+  <data key="d2">LV</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="lathort">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Institute of Horticulture (LatHort)</data>
+  <data key="d2">LV</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="arei">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Institute of Agricultural Resources and Economics</data>
+  <data key="d2">LV</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="cfla">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Central Finance and Contracting Agency</data>
+  <data key="d2">LV</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="lv-regions">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Latvian suunnittelualueet</data>
+  <data key="d2">LV</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="gri">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Green Restoration Ireland</data>
+  <data key="d2">IE</data>
+  <data key="d20">jarjesto</data>
+</node>
+<node id="nbas">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Nature Based Agri Solutions (FarmPEAT)</data>
+  <data key="d2">IE</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="wsi">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Wetland Surveys Ireland</data>
+  <data key="d2">IE</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="irl">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Irish Rural Link</data>
+  <data key="d2">IE</data>
+  <data key="d20">jarjesto</data>
+</node>
+<node id="umeras">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Umeras Community Development Group</data>
+  <data key="d2">IE</data>
+  <data key="d20">jarjesto</data>
+</node>
+<node id="galway">
+  <data key="d0">organisaatio</data>
+  <data key="d1">University of Galway</data>
+  <data key="d2">IE</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="teagasc">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Teagasc</data>
+  <data key="d2">IE</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="tcd">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Trinity College Dublin</data>
+  <data key="d2">IE</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="bnm">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Bord na Móna</data>
+  <data key="d2">IE</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="epa-ie">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Environmental Protection Agency (IE)</data>
+  <data key="d2">IE</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="dhlgh">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Department of Housing, Local Government and Heritage</data>
+  <data key="d2">IE</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="intrigo">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Intrigo Ltd</data>
+  <data key="d2">IE</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="emra">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Eastern and Midland Regional Assembly</data>
+  <data key="d2">IE</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="ltu">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Luleå tekniska universitet</data>
+  <data key="d2">SE</data>
+  <data key="d20">yliopisto</data>
+</node>
+<node id="ltu-gf">
+  <data key="d0">organisaatio</data>
+  <data key="d1">LTU Green Fuels</data>
+  <data key="d2">SE</data>
+  <data key="d20">tutkimuslaitos</data>
+</node>
+<node id="pitea">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Piteå Energi</data>
+  <data key="d2">SE</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="smurfit">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Smurfit Kappa</data>
+  <data key="d2">SE</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="h2gs">
+  <data key="d0">organisaatio</data>
+  <data key="d1">H2 Green Steel</data>
+  <data key="d2">SE</data>
+  <data key="d20">yritys</data>
+</node>
+<node id="nmu">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Niedersächsisches Umweltministerium</data>
+  <data key="d2">DE-NI</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="ml-ni">
+  <data key="d0">organisaatio</data>
+  <data key="d1">Niedersächsisches Landwirtschaftsministerium</data>
+  <data key="d2">DE-NI</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="nlwkn">
+  <data key="d0">organisaatio</data>
+  <data key="d1">NLWKN</data>
+  <data key="d2">DE-NI</data>
+  <data key="d20">viranomainen</data>
+</node>
+<node id="J1">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Etelä-Pohjanmaan turvemailla on käynnissä haastava kestävyyskoe</data>
+  <data key="d21">2025</data>
+  <data key="d22">ammattijulkaisu</data>
+  <data key="d23">True</data>
+  <data key="d24">AMK-kestävyysvuosikirja 2025, HUMAK Julkaisuja 192, s. 87–91</data>
+  <data key="d5">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
+</node>
+<node id="J2">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Metsityksen taloudellinen kannattavuus paksuturpeisilla suonpohjilla</data>
+  <data key="d21">2025</data>
+  <data key="d22">vertaisarvioitu</data>
+  <data key="d23">True</data>
+  <data key="d24">Suo – Mires and Peat 76(1): 23–36</data>
+  <data key="d5">https://lehti.seamk.fi/verkkolehti/metsitys-voi-olla-kannattavaa-paksuturpeisilla-suonpohjilla/?print=pdf</data>
+</node>
+<node id="J3">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Naarasnevalla alkaa suonpohjien metsityksen monimuotoisuus- ja N2O-seuranta</data>
+  <data key="d21">2024</data>
+  <data key="d22">tiedote / mittausasema</data>
+  <data key="d23">True</data>
+  <data key="d24">SeAMK-verkkolehti 11.4.2024</data>
+  <data key="d5">https://lehti.seamk.fi/verkkolehti/naarasnevan-mittausasemalla-alkaa-suonpohjien-metsityksen-monimuotoisuusvaikutusten-ja-n2o-paastojen-seuranta/?print=pdf</data>
+</node>
+<node id="J4">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Irlantilaiset asiantuntijat vierailulla Suomessa: yhteisiä haasteita, erilaisia ratkaisuja</data>
+  <data key="d25"></data>
+  <data key="d22">ammattijulkaisu</data>
+  <data key="d23">False</data>
+  <data key="d24">JYX-julkaisuarkisto</data>
+  <data key="d5">https://jyx.jyu.fi/handle/123456789/105416</data>
+</node>
+<node id="J5">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Yhteistyö Irlannin kanssa auttaa laajentamaan ymmärrystä eurooppalaisista turvemaista</data>
+  <data key="d25"></data>
+  <data key="d22">ammattijulkaisu</data>
+  <data key="d23">False</data>
+  <data key="d24">JYX-julkaisuarkisto</data>
+  <data key="d5">https://jyx.jyu.fi/jyx/Record/jyx_123456789_109406</data>
+</node>
+<node id="J6">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Suolla soi moniääninen muutos: turvemaiden kestävä käyttö rakentuu alhaalta ylöspäin</data>
+  <data key="d25"></data>
+  <data key="d22">ammattijulkaisu</data>
+  <data key="d23">False</data>
+  <data key="d24">JYX-julkaisuarkisto</data>
+  <data key="d5">https://jyx.jyu.fi/handle/123456789/109405</data>
+</node>
+<node id="J7">
+  <data key="d0">julkaisu</data>
+  <data key="d1">PeatTransform: Supporting the Transition of the Peat Sector towards Climate Neutrality in Latvia</data>
+  <data key="d21">2026</data>
+  <data key="d22">konferenssiabstrakti</data>
+  <data key="d23">True</data>
+  <data key="d24">EGU General Assembly 2026, EGU26-10980</data>
+  <data key="d5">https://meetingorganizer.copernicus.org/EGU26/EGU26-10980.html</data>
+</node>
+<node id="J8">
+  <data key="d0">julkaisu</data>
+  <data key="d1">PeatTransform-seminaari: viisi tutkimussuuntaa, ~100 osallistujaa</data>
+  <data key="d21">2026</data>
+  <data key="d22">tapahtuma</data>
+  <data key="d23">True</data>
+  <data key="d24">Silava 8.1.2026</data>
+  <data key="d5">https://silava.lv/en/news/seminar-peattransform-towards-climate-neutrality-in-the-peat-sector-held-at-lsfri-silava</data>
+</node>
+<node id="J9">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Suomalainen SuoLiike-hanke Silavassa: paludikulttuurin päästöt, kuitupohjaiset kasvualustat</data>
+  <data key="d21">2025</data>
+  <data key="d22">tapahtuma</data>
+  <data key="d23">True</data>
+  <data key="d24">Silava 20.8.2025</data>
+  <data key="d5">https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange</data>
+</node>
+<node id="J10">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Stakeholder Engagement and Partnership Report for Phase 1, EU LIFE Peatlands and People</data>
+  <data key="d21">2022</data>
+  <data key="d22">raportti</data>
+  <data key="d23">True</data>
+  <data key="d24">University of Galway, tekninen julkaisu</data>
+  <data key="d5">https://research.universityofgalway.ie/en/publications/stakeholder-engagement-and-partnership-report-for-phase-1-eu-life-4/</data>
+</node>
+<node id="J11">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Bog Commissioner -karttojen digitointi (1810–1814): &gt;200 000 ha entistä turvemaata tunnistettu</data>
+  <data key="d21">2025</data>
+  <data key="d22">aineisto</data>
+  <data key="d23">True</data>
+  <data key="d24">RePEAT, DAFM + EPA</data>
+  <data key="d5">https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html</data>
+</node>
+<node id="J12">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Restoration of forestry-drained oligotrophic peatlands can bring climate change mitigation within a few decades</data>
+  <data key="d21">2026</data>
+  <data key="d22">vertaisarvioitu</data>
+  <data key="d23">True</data>
+  <data key="d24">Restoration Ecology 2026 – UEF:n turveyhteisö, ei merkitty huippuyksikön tuotokseksi</data>
+  <data key="d5">https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana</data>
+</node>
+<node id="J13">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Piitsonsuo: kolmen ennallistamismenetelmän vertailu, lampareiden vertailu Siikanevaan</data>
+  <data key="d21">2026</data>
+  <data key="d22">kenttäkohde</data>
+  <data key="d23">True</data>
+  <data key="d24">Hiilipörssi, tiedeartikkeli</data>
+  <data key="d5">https://hiiliporssi.fi/tiede/ainutlaatuisia-tutkimuksia-hiiliporssin-ennallistamalla-piitsonsuolla/</data>
+</node>
+<node id="J14">
+  <data key="d0">julkaisu</data>
+  <data key="d1">Kyyrönsuo (Kontiolahti): rahkasammalviljelyn tutkimus entisellä turvetuotantoalueella</data>
+  <data key="d21">2026</data>
+  <data key="d22">kenttäkohde</data>
+  <data key="d23">True</data>
+  <data key="d24">Yle 24.1.2026</data>
+  <data key="d5">https://yle.fi/a/74-20204573</data>
+</node>
+<edge source="P-FI-JTF" target="FI-01" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-FI-JTF" target="FI-02" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-FI-JTF" target="FI-06" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-FI-JTF" target="FI-09" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-FI-JTF" target="FI-10" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-FI-JTF" target="P-FI-PP-JTF" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-FI-PP-JTF" target="FI-03" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-EE-JTF" target="EE-01" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-LV-JTF" target="LV-01" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-LV-JTF" target="LV-02" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-IE-JTF" target="H-IE-JTF" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-SE-JTF" target="SE-01" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="P-EE-KF" target="EE-02" id="0">
+  <data key="d26">rahoittaa</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="H-FI" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="J1" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="J4" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">vahvistamatta</data>
+  <data key="d29">https://jyx.jyu.fi/handle/123456789/105416</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="J5" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">vahvistamatta</data>
+  <data key="d29">https://jyx.jyu.fi/jyx/Record/jyx_123456789_109406</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="J6" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">vahvistamatta</data>
+  <data key="d29">https://jyx.jyu.fi/handle/123456789/109405</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-01" target="LV-03" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T2</data>
+</edge>
+<edge source="FI-01" target="NI-01" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T2</data>
+</edge>
+<edge source="FI-01" target="FI-06" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T2</data>
+</edge>
+<edge source="FI-01" target="X-FI-PEATRESC" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4</data>
+</edge>
+<edge source="FI-01" target="X-IE-LIFE" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.4</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4</data>
+</edge>
+<edge source="FI-01" target="X-IE-GAL" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4</data>
+</edge>
+<edge source="FI-01" target="X-DE-SH" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T2,T4</data>
+</edge>
+<edge source="FI-02" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-02" target="FI-03" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-02" target="EE-02" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-02" target="LV-02" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-02" target="NI-03" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-02" target="FI-06" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-02" target="FI-07" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-02" target="FI-10" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-03" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-03" target="EE-02" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-03" target="LV-02" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-03" target="NI-03" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-03" target="FI-06" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-03" target="FI-07" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-03" target="FI-10" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-04" target="T5" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-04" target="T6" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-04" target="FI-05" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T6</data>
+</edge>
+<edge source="FI-04" target="SE-01" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T5,T6</data>
+</edge>
+<edge source="FI-05" target="T6" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-05" target="LV-02" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T6</data>
+</edge>
+<edge source="FI-05" target="SE-01" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T6</data>
+</edge>
+<edge source="EE-01" target="T8" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="EE-01" target="T7" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="EE-01" target="X-IE-NAT" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T7,T8</data>
+</edge>
+<edge source="EE-02" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="EE-02" target="LV-02" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="EE-02" target="NI-03" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="EE-02" target="FI-06" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="EE-02" target="FI-07" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="EE-02" target="FI-10" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="LV-01" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="T7" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="H-LV" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="J7" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://meetingorganizer.copernicus.org/EGU26/EGU26-10980.html</data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="J8" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://silava.lv/en/news/seminar-peattransform-towards-climate-neutrality-in-the-peat-sector-held-at-lsfri-silava</data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-01" target="FI-07" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.4</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T9</data>
+</edge>
+<edge source="LV-01" target="FI-10" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.4</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T3</data>
+</edge>
+<edge source="LV-01" target="X-FI-PEATRESC" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.6</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4,T9</data>
+</edge>
+<edge source="LV-01" target="X-IE-GAL" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.6</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4,T9</data>
+</edge>
+<edge source="LV-02" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-02" target="T6" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-02" target="NI-03" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="LV-03" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-03" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-03" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="LV-03" target="NI-01" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T2</data>
+</edge>
+<edge source="LV-03" target="NI-02" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T2,T3</data>
+</edge>
+<edge source="LV-03" target="FI-06" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T2</data>
+</edge>
+<edge source="LV-03" target="FI-08" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T2,T3</data>
+</edge>
+<edge source="LV-03" target="FI-09" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T2,T3</data>
+</edge>
+<edge source="LV-03" target="FI-10" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T3</data>
+</edge>
+<edge source="IE-01" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="IE-01" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="IE-02" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="IE-02" target="T10" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="IE-02" target="NI-01" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T10,T2</data>
+</edge>
+<edge source="SE-01" target="T5" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="SE-01" target="T6" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="NI-01" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="NI-01" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="NI-01" target="T10" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="NI-01" target="FI-06" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T2</data>
+</edge>
+<edge source="NI-01" target="X-IE-LIFE" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.4</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T10</data>
+</edge>
+<edge source="NI-02" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="NI-02" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="NI-02" target="FI-08" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T2,T3</data>
+</edge>
+<edge source="NI-02" target="FI-09" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T2,T3</data>
+</edge>
+<edge source="NI-03" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="NI-03" target="FI-06" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="NI-03" target="FI-07" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="NI-03" target="FI-10" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.5</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1</data>
+</edge>
+<edge source="FI-06" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-06" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-06" target="H-FI" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-07" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-07" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-07" target="H-FI" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-07" target="J2" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/verkkolehti/metsitys-voi-olla-kannattavaa-paksuturpeisilla-suonpohjilla/?print=pdf</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-07" target="J3" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/verkkolehti/naarasnevan-mittausasemalla-alkaa-suonpohjien-metsityksen-monimuotoisuusvaikutusten-ja-n2o-paastojen-seuranta/?print=pdf</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-07" target="X-FI-PEATRESC" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T9</data>
+</edge>
+<edge source="FI-07" target="X-IE-GAL" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T9</data>
+</edge>
+<edge source="FI-08" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-08" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-08" target="H-FI" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-08" target="FI-09" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.67</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T2,T3</data>
+</edge>
+<edge source="FI-09" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-09" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-09" target="T8" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-09" target="J9" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange</data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-09" target="H-LV" id="0">
+  <data key="d26">yhteistyo</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30">SuoLiike (JTF, Kymenlaakso) Silavassa 20.8.2025; ei TUKKA-verkoston hanke</data>
+</edge>
+<edge source="FI-10" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="FI-10" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="H-FI-AKA" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://uefconnect.uef.fi/en/peatresc/</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="J12" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="J13" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://hiiliporssi.fi/tiede/ainutlaatuisia-tutkimuksia-hiiliporssin-ennallistamalla-piitsonsuolla/</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="J14" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://yle.fi/a/74-20204573</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-FI-PEATRESC" target="X-IE-LIFE" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.4</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4</data>
+</edge>
+<edge source="X-FI-PEATRESC" target="X-IE-GAL" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">1.0</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4,T9</data>
+</edge>
+<edge source="X-IE-LIFE" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-LIFE" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-LIFE" target="T8" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-LIFE" target="T10" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-LIFE" target="H-IE-LIFE" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-LIFE" target="J10" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://research.universityofgalway.ie/en/publications/stakeholder-engagement-and-partnership-report-for-phase-1-eu-life-4/</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-LIFE" target="X-IE-GAL" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.4</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T4</data>
+</edge>
+<edge source="X-IE-LIFE" target="X-IE-NAT" id="0">
+  <data key="d26">teemapaallekkaisyys</data>
+  <data key="d27">0.4</data>
+  <data key="d28">laskettu</data>
+  <data key="d29"></data>
+  <data key="d30">T1,T8</data>
+</edge>
+<edge source="X-IE-GAL" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-GAL" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-GAL" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-GAL" target="H-IE-GAL" id="0">
+  <data key="d26">kuuluu_keskukseen</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-GAL" target="J11" id="0">
+  <data key="d26">tuotos</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html</data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-NAT" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-NAT" target="T7" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-IE-NAT" target="T8" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-DE-SH" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-DE-SH" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="X-DE-SH" target="T6" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="H-FI-AKA" target="H-FI" id="0">
+  <data key="d26">yhteistyo</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30">Annalea Lohila on PeatResC:n johtajistossa ja johtaa TUKKA-verkoston TUPSU-hanketta</data>
+</edge>
+<edge source="H-FI-AKA" target="H-LV" id="0">
+  <data key="d26">ei_kytkosta</data>
+  <data key="d31">0</data>
+  <data key="d28">haku</data>
+  <data key="d29"></data>
+  <data key="d30">Molemmat rakentavat KHK-mittauksia ja ennallistamistietoa, ei löydettyä yhteyttä</data>
+</edge>
+<edge source="H-FI" target="H-IE-JTF" id="0">
+  <data key="d26">yhteistyo</data>
+  <data key="d27">0.3</data>
+  <data key="d28">vahvistamatta</data>
+  <data key="d29"></data>
+  <data key="d30">TUKKA: irlantilaisten vierailu Suomessa ja yhteistyöartikkelit (JYX); irlantilainen kumppani ei vahvistettu</data>
+</edge>
+<edge source="H-FI" target="H-IE-LIFE" id="0">
+  <data key="d26">yhteistyo</data>
+  <data key="d27">0.3</data>
+  <data key="d28">vahvistamatta</data>
+  <data key="d29"></data>
+  <data key="d30">TUKKA: irlantilaisten vierailu Suomessa ja yhteistyöartikkelit (JYX); irlantilainen kumppani ei vahvistettu</data>
+</edge>
+<edge source="H-FI" target="H-IE-GAL" id="0">
+  <data key="d26">yhteistyo</data>
+  <data key="d27">0.3</data>
+  <data key="d28">vahvistamatta</data>
+  <data key="d29"></data>
+  <data key="d30">TUKKA: irlantilaisten vierailu Suomessa ja yhteistyöartikkelit (JYX); irlantilainen kumppani ei vahvistettu</data>
+</edge>
+<edge source="H-FI" target="H-LV" id="0">
+  <data key="d26">ei_kytkosta</data>
+  <data key="d31">0</data>
+  <data key="d28">haku</data>
+  <data key="d29"></data>
+  <data key="d30">Teemat lähes samat (T1, T2, T9), ei suoraa TUKKA–PeatTransform-yhteyttä</data>
+</edge>
+<edge source="H-IE-JTF" target="H-IE-LIFE" id="0">
+  <data key="d26">ei_kytkosta</data>
+  <data key="d31">0</data>
+  <data key="d28">haku</data>
+  <data key="d29"></data>
+  <data key="d30">Sama alue ja tavoite, ei löydettyä yhteyttä</data>
+</edge>
+<edge source="H-IE-LIFE" target="H-IE-GAL" id="0">
+  <data key="d26">yhteistyo</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29"></data>
+  <data key="d30">University of Galway on LIFE IP:n partneri ja Galwayn keskuksen isäntä</data>
+</edge>
+<edge source="seamk" target="FI-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="seamk" target="FI-04" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="seamk" target="FI-05" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="seamk" target="FI-06" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="seamk" target="FI-07" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="seamk" target="FI-08" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="hy" target="FI-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="hy" target="FI-07" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="hy" target="X-FI-PEATRESC" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://uefconnect.uef.fi/en/peatresc/</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="il" target="FI-07" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="il" target="X-FI-PEATRESC" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://uefconnect.uef.fi/en/peatresc/</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="uef" target="X-FI-PEATRESC" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://uefconnect.uef.fi/en/peatresc/</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="aalto" target="X-FI-PEATRESC" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://uefconnect.uef.fi/en/peatresc/</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="oy" target="FI-07" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="luke" target="FI-09" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="metsakeskus" target="FI-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="metsakeskus" target="FI-05" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="chydenius" target="FI-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="uwasa" target="FI-04" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="tuni" target="FI-04" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/kestavat-ruokaratkaisut/uusi-hanke-selvittaa-vetytalouden-mahdollisuuksia-ruokaketjussa-etela-pohjanmaalla/?print=pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="ep-ely" target="FI-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&amp;lang=fi</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="pp-ely" target="FI-03" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&amp;lang=fi</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="ks-ely" target="FI-06" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf</data>
+  <data key="d30">rahoituksen välittäjä</data>
+</edge>
+<edge source="kinno" target="FI-09" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="sykli" target="FI-09" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="broilertilat" target="FI-05" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/projects/eip-south-ostrobothnian-smart-energy-farm_de</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="hiiliporssi" target="X-FI-PEATRESC" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://hiiliporssi.fi/tiede/ainutlaatuisia-tutkimuksia-hiiliporssin-ennallistamalla-piitsonsuolla/</data>
+  <data key="d30">kenttäkumppani</data>
+</edge>
+<edge source="silava" target="LV-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="silava" target="LV-03" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://silava.lv/en/projects/climate-policy-adapted-solutions-for-extracted-peatlands-and-paludiculture-implementation</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="lu" target="LV-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="rtu" target="LV-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="lbtu" target="LV-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="ies" target="LV-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="lathort" target="LV-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="arei" target="LV-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.silava.lv/en/research/projects/PeatTransform</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="cfla" target="LV-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund</data>
+  <data key="d30">rahoituksen välittäjä</data>
+</edge>
+<edge source="lv-regions" target="LV-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="gri" target="IE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">päätelty</data>
+  <data key="d29">https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/press-releases/minister-hackett-announces-22-million-funding-for-peatlands-projects/</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="nbas" target="IE-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="wsi" target="IE-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">päätelty</data>
+  <data key="d29">https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/press-releases/minister-hackett-announces-22-million-funding-for-peatlands-projects/</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="irl" target="IE-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="umeras" target="IE-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="galway" target="IE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="galway" target="X-IE-LIFE" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="galway" target="X-IE-GAL" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="teagasc" target="IE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="tcd" target="X-IE-GAL" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.universityofgalway.ie/about-us/news-and-events/news-archive/2025/december/all-ireland-peatlands-centre-of-excellence-launched-.html</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="bnm" target="X-IE-LIFE" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="bnm" target="X-IE-NAT" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.shannonside.ie/news/e135-8m-350-jobs-announced-just-transition-programme-173604</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="epa-ie" target="X-IE-LIFE" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="dhlgh" target="X-IE-LIFE" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="intrigo" target="X-IE-LIFE" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://webgate.ec.europa.eu/life/publicWebsite/project/details/5435</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="emra" target="H-IE-JTF" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://pact-for-skills.ec.europa.eu/stakeholders-and-business/funding-opportunities/just-transition-fund-jtf-ireland-eastern-and-midland-region_en</data>
+  <data key="d30">rahoituksen välittäjä</data>
+</edge>
+<edge source="ltu" target="SE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="ltu-gf" target="SE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.ltu.se/aktuellt/nyheter/nyhetsarkiv/2023-10-08-81-miljoner-till-testanlaggning-for-vatgas-vid-ltu-green-fuels</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="pitea" target="SE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="smurfit" target="SE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="h2gs" target="SE-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://ec.europa.eu/regional_policy/whats-new/panorama/2023/11/15-11-2023-just-transition-fund-helps-sweden-move-towards-climate-neutrality_en</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="nmu" target="NI-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="nmu" target="NI-03" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="ml-ni" target="NI-03" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="nlwkn" target="NI-01" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf</data>
+  <data key="d30">partneri</data>
+</edge>
+<edge source="nlwkn" target="NI-02" id="0">
+  <data key="d26">osallistuu</data>
+  <data key="d27">1.0</data>
+  <data key="d28">lähde</data>
+  <data key="d29">https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html</data>
+  <data key="d30">koordinaattori</data>
+</edge>
+<edge source="J1" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J1" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J2" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J3" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J4" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J5" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J6" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J6" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J7" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J7" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J7" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J8" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J9" target="T2" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J9" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J9" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J10" target="T4" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J11" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J11" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J12" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J12" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J13" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J13" target="T9" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J14" target="T3" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+<edge source="J14" target="T1" id="0">
+  <data key="d26">teema</data>
+  <data key="d27">1.0</data>
+  <data key="d28"></data>
+  <data key="d29"></data>
+  <data key="d30"></data>
+</edge>
+</graph></graphml>
