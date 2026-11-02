@@ -10,7 +10,7 @@ Aineistolla on kolme tehtävää:
 2. **Yhteysverkoston dokumentointi.** Kuka osallistuu mihinkin, ja jokaiselle yhteydelle lähde.
 3. **Yhteyksien analyysi.** Välittäjäorganisaatiot, erilliset yhteistyösaarekkeet ja puuttuvat yhteydet eli toimijat, jotka tekevät samaa mutta eivät tunne toisiaan.
 
-**Sivusto:** `https://OMISTAJA.github.io/turverkko/` (GitHub Pages, kansio `docs/`)
+**Sivusto:** `https://joriim.github.io/Turverkko/` (GitHub Pages, kansio `docs/`)
 
 ## Keskeiset havainnot (31.10.2026)
 
