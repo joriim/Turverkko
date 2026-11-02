@@ -4,10 +4,10 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 
 ## Yhteenveto
 
-- Toimijoita yhteistyöverkossa: **300**, vahvistettuja yhteistyösärmiä **238** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
-- Erillisiä yhteistyösaarekkeita: **80**. Suurin kattaa 88 toimijaa.
+- Toimijoita yhteistyöverkossa: **307**, vahvistettuja yhteistyösärmiä **248** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
+- Erillisiä yhteistyösaarekkeita: **81**. Suurin kattaa 92 toimijaa.
 - Usean maan saarekkeita: **2**. Maiden välisiä vahvistettuja yhteistyösärmiä: **8**.
-- Puuttuvia yhteyksiä (teemat Jaccard ≥ 0.6, ei polkua ≤ 3 askelta): **297**, joista maiden välisiä **297**.
+- Puuttuvia yhteyksiä (teemat Jaccard ≥ 0.6, ei polkua ≤ 3 askelta): **300**, joista maiden välisiä **300**.
 
 ## Maiden väliset yhteydet
 
@@ -22,16 +22,16 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 
 | Organisaatio | Maa | Hankkeita | Keskuksia | Välityskeskeisyys |
 |---|---|---|---|---|
-| Luonnonvarakeskus (Luke) | FI | 7 | 1 | 0.0462 |
-| LSFRI Silava | LV | 9 | 1 | 0.0272 |
-| Seinäjoen ammattikorkeakoulu (SeAMK) | FI | 5 | 1 | 0.0133 |
-| Oulun yliopisto | FI | 4 | 1 | 0.0124 |
-| Latvian yliopisto | LV | 4 | 1 | 0.0115 |
-| Itä-Suomen yliopisto | FI | 4 | 1 | 0.0114 |
+| Luonnonvarakeskus (Luke) | FI | 9 | 1 | 0.0497 |
+| LSFRI Silava | LV | 9 | 1 | 0.0273 |
+| Seinäjoen ammattikorkeakoulu (SeAMK) | FI | 7 | 1 | 0.0172 |
+| Oulun yliopisto | FI | 5 | 1 | 0.0118 |
+| Latvian yliopisto | LV | 4 | 1 | 0.0116 |
 | Institute of Horticulture (LatHort) | LV | 2 | 1 | 0.0109 |
-| Helsingin yliopisto | FI | 5 | 2 | 0.0069 |
+| Itä-Suomen yliopisto | FI | 4 | 1 | 0.01 |
 | Suomen ympäristökeskus (Syke) | FI | 4 | 0 | 0.0068 |
-| Institute of Agricultural Resources and Economics | LV | 2 | 1 | 0.0033 |
+| Helsingin yliopisto | FI | 5 | 2 | 0.0056 |
+| Institute of Agricultural Resources and Economics | LV | 2 | 1 | 0.0034 |
 
 ## Osaamiskeskusten yhteiset organisaatiot
 
@@ -52,6 +52,7 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 | IE-01 Farm Carbon – tulosperusteiset maksut turvema | J-SE-a3d4 Vägval - odlingssystem på tre gårdar för jord | 1.0 | T2,T6 | maiden välinen |
 | LV-02 Historiallisten turvealueiden elvyttäminen | K-FI-7c34 Satakunta peatlands: from peat production to  | 1.0 | T1,T8 | maiden välinen |
 | LV-02 Historiallisten turvealueiden elvyttäminen | X-IE-NAT Midlands Just Transition -ohjelma (135,8 M€,  | 1.0 | T1,T8 | maiden välinen |
+| LV-03 Ilmastopolitiikkaan sovitetut ratkaisut noste | R-FI-b45a Turvevapaa ruokaketju | 1.0 | T1,T3 | maiden välinen |
 | IE-02 FarmPEAT – tulosperusteinen ympäristöohjelma  | K-DE-NI-410f Maintenance of wet grassland in the EU – Bird | 1.0 | T2,T5 | maiden välinen |
 | IE-02 FarmPEAT – tulosperusteinen ympäristöohjelma  | K-DE-NI-9163 Moorland grazing Dümmerniederung, Steinfelder | 1.0 | T2,T5 | maiden välinen |
 | K-DE-NI-0e2b Rewetting Sauerbach | K-FI-6c73 Konttisuo restoration plan | 1.0 | T1,T5 | maiden välinen |
@@ -61,7 +62,6 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 | K-DE-NI-0e2b Rewetting Sauerbach | K-FI-8d28 Restoration of Linttiräme after Peat Producti | 1.0 | T1,T5 | maiden välinen |
 | K-DE-NI-0e2b Rewetting Sauerbach | K-FI-cb20 Restoration of the Western Valkeasuo Mire | 1.0 | T1,T5 | maiden välinen |
 | K-DE-NI-0e2b Rewetting Sauerbach | K-FI-16d2 Restoration plan for the bog Pirttineva, prev | 1.0 | T1,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-3bb2 The restoration and sustainable further use o | 1.0 | T1,T5 | maiden välinen |
 
 ## Teema × maapari
 
@@ -73,33 +73,33 @@ Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään va
 | T5 | DE-NI–IE | 31 + 10 | ei |
 | T6 | DE-NI–FI | 14 + 16 | ei |
 | T5 | FI–IE | 18 + 10 | ei |
-| T1 | DE-NI–FI | 5 + 27 | ei |
+| T1 | DE-NI–FI | 5 + 29 | ei |
 | T5 | DE-NI–LV | 31 + 4 | ei |
 | T6 | FI–LV | 16 + 6 | ei |
 | T6 | FI–SE | 16 + 6 | ei |
+| T3 | DE-NI–FI | 11 + 8 | ei |
+| T1 | FI–IE | 29 + 3 | ei |
 | T6 | DE-NI–LV | 14 + 6 | ei |
 | T6 | DE-NI–SE | 14 + 6 | ei |
-| T1 | FI–IE | 27 + 3 | ei |
-| T3 | DE-NI–FI | 11 + 7 | ei |
 | T5 | FI–LV | 18 + 4 | ei |
 | T3 | DE-NI–IE | 11 + 5 | ei |
 | T3 | DE-NI–LV | 11 + 5 | ei |
+| T3 | FI–IE | 8 + 5 | ei |
 | T5 | IE–LV | 10 + 4 | ei |
 | T6 | LV–SE | 6 + 6 | ei |
 | T1 | DE-NI–LV | 5 + 7 | ei |
-| T3 | FI–IE | 7 + 5 | ei |
 | T2 | DE-NI–FI | 8 + 4 | ei |
 | T2 | DE-NI–SE | 8 + 4 | ei |
 | T6 | FI–IE | 16 + 2 | ei |
 | T5 | DE-NI–SE | 31 + 1 | ei |
+| T1 | EE–FI | 1 + 29 | ei |
 | T2 | FI–IE | 4 + 7 | ei |
-| T2 | IE–SE | 7 + 4 | ei |
 
 ## Saarekkeet
 
 | # | Solmuja | Maat | Hankkeet ja keskukset |
 |---|---|---|---|
-| 1 | 88 | EU FI LV SE | E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-e8b3 K-LV-4390 K-LV-74bd LV-01 LV-03 T-SE-bda3 X-FI-PEATRESC |
+| 1 | 92 | EU FI LV SE | E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-e8b3 K-LV-4390 K-LV-74bd LV-01 LV-03 R-FI-70e5 R-FI-b45a T-SE-bda3 X-FI-PEATRESC |
 | 2 | 23 | DE-NI IE | E-IE-e6ef H-IE-GAL H-IE-LIFE IE-01 K-DE-NI-d14f K-IE-7fa4 X-IE-GAL X-IE-LIFE X-IE-NAT |
 | 3 | 12 | DE-NI | K-DE-NI-36d2 K-DE-NI-9d56 K-DE-NI-a456 K-DE-NI-b8d9 K-DE-NI-e715 K-DE-NI-f68e NI-01 NI-02 NI-03 |
 | 4 | 7 | DE-NI | K-DE-NI-1c15 K-DE-NI-209b K-DE-NI-9595 K-DE-NI-af02 K-DE-NI-cf1c K-DE-NI-f620 |
@@ -109,16 +109,16 @@ Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään va
 | 8 | 4 | DE-NI | E-DE-NI-b06d |
 | 9 | 4 | DE-NI | K-DE-NI-0e2b K-DE-NI-61e6 K-DE-NI-c1d3 |
 | 10 | 4 | FI | K-FI-06b9 K-FI-b095 |
-| 11 | 3 | LV | LV-02 |
-| 12 | 3 | DE-NI | K-DE-NI-1746 K-DE-NI-dab1 |
-| 13 | 3 | DE-NI | K-DE-NI-a450 K-DE-NI-accd |
-| 14 | 3 | DE-NI | K-DE-NI-0499 K-DE-NI-77b2 |
-| 15 | 3 | DE-NI | K-DE-NI-1847 K-DE-NI-34e3 |
-| 16 | 3 | DE-NI | K-DE-NI-3eb1 K-DE-NI-ee94 |
-| 17 | 3 | DE-NI | K-DE-NI-bf71 K-DE-NI-d8d1 |
-| 18 | 3 | DE-NI | K-DE-NI-03c5 K-DE-NI-6c80 |
-| 19 | 3 | EU | T-EU-73cb T-EU-88fc |
-| 20 | 3 | FI | K-FI-050e K-FI-b38f |
+| 11 | 4 | FI | K-FI-050e K-FI-b38f |
+| 12 | 3 | LV | LV-02 |
+| 13 | 3 | DE-NI | K-DE-NI-1746 K-DE-NI-dab1 |
+| 14 | 3 | DE-NI | K-DE-NI-a450 K-DE-NI-accd |
+| 15 | 3 | DE-NI | K-DE-NI-0499 K-DE-NI-77b2 |
+| 16 | 3 | DE-NI | K-DE-NI-1847 K-DE-NI-34e3 |
+| 17 | 3 | DE-NI | K-DE-NI-3eb1 K-DE-NI-ee94 |
+| 18 | 3 | DE-NI | K-DE-NI-bf71 K-DE-NI-d8d1 |
+| 19 | 3 | DE-NI | K-DE-NI-03c5 K-DE-NI-6c80 |
+| 20 | 3 | EU | T-EU-73cb T-EU-88fc |
 | 21 | 3 | FI | K-FI-665a K-FI-9cd5 |
 | 22 | 3 | FI | K-FI-6f20 |
 | 23 | 3 | SE | K-SE-8b1e K-SE-be89 |
@@ -142,40 +142,41 @@ Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään va
 | 41 | 2 | EU | K-EU-0882 |
 | 42 | 2 | EU | K-EU-48f5 |
 | 43 | 2 | EU | K-EU-f426 |
-| 44 | 2 | FI | K-FI-1fcb |
-| 45 | 2 | FI | K-FI-2fcc |
-| 46 | 2 | FI | K-FI-6c73 |
-| 47 | 2 | FI | K-FI-6978 |
-| 48 | 2 | FI | K-FI-8d28 |
-| 49 | 2 | FI | K-FI-cb20 |
-| 50 | 2 | FI | K-FI-16d2 |
-| 51 | 2 | FI | K-FI-3bb2 |
-| 52 | 2 | FI | K-FI-c4ea |
-| 53 | 2 | FI | K-FI-ceda |
-| 54 | 2 | IE | K-IE-06fb |
-| 55 | 2 | IE | K-IE-0b63 |
-| 56 | 2 | IE | K-IE-cee8 |
-| 57 | 2 | IE | K-IE-0814 |
-| 58 | 2 | IE | K-IE-d7ff |
-| 59 | 2 | IE | K-IE-8525 |
-| 60 | 2 | LV | K-LV-2fac |
-| 61 | 2 | LV | K-LV-37ba |
-| 62 | 2 | LV | K-LV-cbb2 |
-| 63 | 2 | SE | K-SE-dbb8 |
-| 64 | 2 | SE | J-SE-5a7e |
-| 65 | 2 | SE | J-SE-b073 |
-| 66 | 2 | SE | T-SE-5e29 |
-| 67 | 2 | SE | J-SE-2f3b |
-| 68 | 2 | SE | J-SE-50cf |
-| 69 | 2 | SE | J-SE-a3d4 |
-| 70 | 2 | IE | H-IE-JTF |
-| 71 | 1 | FI | FI-10 |
-| 72 | 1 | DE-NI | K-DE-NI-7a94 |
-| 73 | 1 | DE-NI | K-DE-NI-c05c |
-| 74 | 1 | DE-NI | K-DE-NI-d90f |
-| 75 | 1 | DE-NI | K-DE-NI-cc25 |
-| 76 | 1 | DE-NI | K-DE-NI-e128 |
-| 77 | 1 | IE | E-IE-9275 |
-| 78 | 1 | IE | E-IE-2cb2 |
-| 79 | 1 | IE | E-IE-9676 |
-| 80 | 1 | DE-SH | X-DE-SH |
+| 44 | 2 | FI | R-FI-d4ba |
+| 45 | 2 | FI | K-FI-1fcb |
+| 46 | 2 | FI | K-FI-2fcc |
+| 47 | 2 | FI | K-FI-6c73 |
+| 48 | 2 | FI | K-FI-6978 |
+| 49 | 2 | FI | K-FI-8d28 |
+| 50 | 2 | FI | K-FI-cb20 |
+| 51 | 2 | FI | K-FI-16d2 |
+| 52 | 2 | FI | K-FI-3bb2 |
+| 53 | 2 | FI | K-FI-c4ea |
+| 54 | 2 | FI | K-FI-ceda |
+| 55 | 2 | IE | K-IE-06fb |
+| 56 | 2 | IE | K-IE-0b63 |
+| 57 | 2 | IE | K-IE-cee8 |
+| 58 | 2 | IE | K-IE-0814 |
+| 59 | 2 | IE | K-IE-d7ff |
+| 60 | 2 | IE | K-IE-8525 |
+| 61 | 2 | LV | K-LV-2fac |
+| 62 | 2 | LV | K-LV-37ba |
+| 63 | 2 | LV | K-LV-cbb2 |
+| 64 | 2 | SE | K-SE-dbb8 |
+| 65 | 2 | SE | J-SE-5a7e |
+| 66 | 2 | SE | J-SE-b073 |
+| 67 | 2 | SE | T-SE-5e29 |
+| 68 | 2 | SE | J-SE-2f3b |
+| 69 | 2 | SE | J-SE-50cf |
+| 70 | 2 | SE | J-SE-a3d4 |
+| 71 | 2 | IE | H-IE-JTF |
+| 72 | 1 | FI | FI-10 |
+| 73 | 1 | DE-NI | K-DE-NI-7a94 |
+| 74 | 1 | DE-NI | K-DE-NI-c05c |
+| 75 | 1 | DE-NI | K-DE-NI-d90f |
+| 76 | 1 | DE-NI | K-DE-NI-cc25 |
+| 77 | 1 | DE-NI | K-DE-NI-e128 |
+| 78 | 1 | IE | E-IE-9275 |
+| 79 | 1 | IE | E-IE-2cb2 |
+| 80 | 1 | IE | E-IE-9676 |
+| 81 | 1 | DE-SH | X-DE-SH |

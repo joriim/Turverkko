@@ -9,6 +9,14 @@ for f in sorted(d.iterdir()):
     if f.suffix == ".json":
         print(b[:3500])
         continue
+    if "function" in b[:3000] or f.name.endswith("-3.html") and "kendo" not in b[:500].lower() and "<html" not in b[:500].lower():
+        for m in re.finditer(r"dissemination|ajax|\$\.ajax|url\s*:|type\s*:|contentType|data\s*:|JSON\.stringify", b):
+            print("JS:", b[max(0, m.start()-150):m.start()+250].replace("\n", " "))
+        continue
+    for m in list(re.finditer(r'href="(/projects/[^"]+_en|/[^"]*projekt[^"]*/detail[^"]*|[^"]*eip-projekt-datenbank/[^"?]+/)"', b))[:12]:
+        print("LINKKI:", m.group(1))
+    for m in list(re.finditer(r"(results?|treffer|ergebnis)[^<]{0,60}", b, re.I))[:5]:
+        print("TULOS:", m.group(0)[:100])
     title = re.search(r"<title[^>]*>(.*?)</title>", b, re.S)
     print("TITLE:", (title.group(1).strip() if title else "")[:120])
     urls = sorted(set(re.findall(r"""["'](/[^"'\s<>]*(?:api|search|json|export|csv|xlsx|download|sok|projekt)[^"'\s<>]*)["']""", b, re.I)))

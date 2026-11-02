@@ -35,6 +35,10 @@ CHECKS = [
     ("19", "Europa für Niedersachsen", "https://www.europa-fuer-niedersachsen.niedersachsen.de/"),
     ("20", "DVS EIP-Agrar", "https://www.dvs-gap-netzwerk.de/"),
     ("21", "Förderkatalog", "https://foerderportal.bund.de/foekat/jsp/StartAction.do"),
+    ("3", "LIFE, hakuohjain JS", "https://webgate.ec.europa.eu/life/publicWebsite/assets/kendoJs/module/lifePublicWebsite/controller/BasicSearchLifeController.js"),
+    ("3", "LIFE, RemoteCall JS", "https://webgate.ec.europa.eu/life/publicWebsite/assets/kendoJs/commons/support/ajax/RemoteCall.js"),
+    ("2", "EU CAP Network, OG-haku", "https://eu-cap-network.ec.europa.eu/projects/search_en?fulltext=peatland&f%5B0%5D=project_type%3Aoperational_group_project"),
+    ("20", "DVS, EIP-projektisuche", "https://www.dvs-gap-netzwerk.de/agrar-umwelt/eip-agri/eip-projekt-datenbank/projektsuche/?tx_solr%5Bq%5D=Moor"),
 ]
 
 

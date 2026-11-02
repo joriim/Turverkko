@@ -2,6 +2,8 @@
 
 Tämä opas listaa avoimet hanketietokannat, joista Turverkon aineistoa voi laajentaa, ja antaa jokaiselle valmiin hakuohjeen **Claude in Chrome** -selainlaajennukselle. Kohesio ja useat kansalliset rekisterit eivät salli automaattista hakua palvelimelta, mutta toimivat tavallisessa selaimessa. Siksi haku tehdään omassa selaimessa ja tulokset tallennetaan CSV-tiedostoon, joka tuodaan aineistoon.
 
+Avoimista rajapinnoista (nyt OpenAIRE) haetaan lisäksi viikoittain automaattisesti, ks. [automaattihaku/README.md](automaattihaku/README.md). Kohesio estää palvelinhaut, joten se haetaan selaimella.
+
 Työnkulku:
 
 1. Valitse lähde alla olevasta taulukosta.
@@ -20,7 +22,7 @@ Työnkulku:
 | 2 | EU CAP Network – hankkeet | EIP-AGRI-toimintaryhmät | kaikki | [eu-cap-network.ec.europa.eu/projects](https://eu-cap-network.ec.europa.eu/projects_en) ✓ | ✅ haettu 2.11.2026 |
 | 3 | LIFE-hankehaku | LIFE | kaikki | [webgate.ec.europa.eu/life](https://webgate.ec.europa.eu/life/publicWebsite/search) ✓ | 2 |
 | 4 | keep.eu | Interreg | kaikki | [keep.eu](https://keep.eu) ✓ | 3 |
-| 5 | EURA 2021 / EURA 2014 | EAKR, ESR+, JTF Suomessa | FI | [eura2021.fi](https://eura2021.fi) → | **1** |
+| 5 | EURA 2021 / EURA 2014 | EAKR, ESR+, JTF Suomessa | FI | [eura2021.fi](https://eura2021.fi) → | ✅ haettu 2.11.2026 (7 riviä, hakusana turve; jatka muilla sanoilla) |
 | 6 | Maaseutu.fi ja Leader | Maaseuturahasto, EIP, Leader | FI | [maaseutu.fi](https://maaseutu.fi) → | 2 |
 | 7 | Tiedejatutkimus.fi | Suomen Akatemia ja säätiöt | FI | [research.fi/fi/results/fundings](https://research.fi/fi/results/fundings) ✓ | 2 |
 | 8 | Tillväxtverket Projektbanken | Regionalfonden, JTF | SE | [tillvaxtverket.se](https://tillvaxtverket.se) → | ✅ haettu 2.11.2026 (7 osumaa; jatka Interreg-hakuja) |

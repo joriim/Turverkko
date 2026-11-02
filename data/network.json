@@ -1484,6 +1484,23 @@
    "rajaus": "turvemaa"
   },
   {
+   "id": "R-FI-d4ba",
+   "kind": "hanke",
+   "label": "ENNO - Ennallistamisosaamisen oppimisympäristö",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–2027",
+   "eur_total": 167072,
+   "eur_eu": 93561,
+   "evidence_level": 1,
+   "start": 2026,
+   "end": 2027,
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11668",
+   "auto_themes": false,
+   "imported_from": "5-eura2021-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
    "id": "K-FI-6894",
    "kind": "hanke",
    "label": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
@@ -1739,6 +1756,23 @@
    "rajaus": "turvemaa"
   },
   {
+   "id": "R-FI-70e5",
+   "kind": "hanke",
+   "label": "Sopeutumiskeinoja mustaliuskealueiden maankäyttöön muuttuvassa ilmastossa (SOLMU)",
+   "country": "FI",
+   "fund": "EAKR",
+   "period": "2021–2027",
+   "eur_total": 357183,
+   "eur_eu": 171448,
+   "evidence_level": 1,
+   "start": 2026,
+   "end": 2028,
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=A81861",
+   "auto_themes": false,
+   "imported_from": "5-eura2021-2026-11-02.csv",
+   "rajaus": "maaperä"
+  },
+  {
    "id": "K-FI-06b9",
    "kind": "hanke",
    "label": "Suokeidas - From peat production to diverse wetlands",
@@ -1906,6 +1940,23 @@
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441283",
    "auto_themes": true,
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
+   "id": "R-FI-b45a",
+   "kind": "hanke",
+   "label": "Turvevapaa ruokaketju",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–2027",
+   "eur_total": 529603,
+   "eur_eu": 296577,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J10741",
+   "auto_themes": false,
+   "imported_from": "5-eura2021-2026-11-02.csv",
    "rajaus": "turvemaa"
   },
   {
@@ -3220,6 +3271,13 @@
    "org_type": "amk"
   },
   {
+   "id": "lansirannikon-koulutus-oy",
+   "kind": "organisaatio",
+   "label": "Länsirannikon Koulutus Oy",
+   "country": "FI",
+   "org_type": "yritys"
+  },
+  {
    "id": "savonia-ammattikorkeakoulu-oy",
    "kind": "organisaatio",
    "label": "Savonia-ammattikorkeakoulu oy",
@@ -3297,6 +3355,13 @@
    "org_type": "yliopisto"
   },
   {
+   "id": "geologian-tutkimuskeskus",
+   "kind": "organisaatio",
+   "label": "Geologian Tutkimuskeskus",
+   "country": "FI",
+   "org_type": "tutkimuslaitos"
+  },
+  {
    "id": "jyvaskylan-yliopisto",
    "kind": "organisaatio",
    "label": "Jyväskylän yliopisto",
@@ -3339,11 +3404,11 @@
    "org_type": "tutkimuslaitos"
   },
   {
-   "id": "geologian-tutkimuskeskus",
+   "id": "jarviseudun-koulutuskuntayhtyma",
    "kind": "organisaatio",
-   "label": "Geologian Tutkimuskeskus",
+   "label": "Järviseudun Koulutuskuntayhtymä",
    "country": "FI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "viranomainen"
   },
   {
    "id": "blackstairs-farming-group",
@@ -3645,6 +3710,20 @@
    "label": "Skogsstyrelsen",
    "country": "SE",
    "org_type": "viranomainen"
+  },
+  {
+   "id": "ilmatieteen-laitos",
+   "kind": "organisaatio",
+   "label": "Ilmatieteen Laitos",
+   "country": "FI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "kaakkois-suomen-ammattikorkeakoulu",
+   "kind": "organisaatio",
+   "label": "Kaakkois-Suomen Ammattikorkeakoulu",
+   "country": "FI",
+   "org_type": "amk"
   },
   {
    "id": "J1",
@@ -4977,6 +5056,24 @@
    "note": ""
   },
   {
+   "source": "R-FI-d4ba",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "R-FI-d4ba",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "K-FI-6894",
    "target": "T1",
    "kind": "teema",
@@ -5292,6 +5389,15 @@
    "note": ""
   },
   {
+   "source": "R-FI-70e5",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "K-FI-06b9",
    "target": "T1",
    "kind": "teema",
@@ -5456,6 +5562,24 @@
   {
    "source": "K-FI-665a",
    "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "R-FI-b45a",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "R-FI-b45a",
+   "target": "T3",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -7686,6 +7810,15 @@
    "note": "edunsaaja"
   },
   {
+   "source": "lansirannikon-koulutus-oy",
+   "target": "R-FI-d4ba",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11668",
+   "note": "edunsaaja"
+  },
+  {
    "source": "syke",
    "target": "K-FI-6894",
    "kind": "osallistuu",
@@ -7875,6 +8008,33 @@
    "note": "edunsaaja"
   },
   {
+   "source": "geologian-tutkimuskeskus",
+   "target": "R-FI-70e5",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=A81861",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luke",
+   "target": "R-FI-70e5",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=A81861",
+   "note": "partneri"
+  },
+  {
+   "source": "oy",
+   "target": "R-FI-70e5",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=A81861",
+   "note": "partneri"
+  },
+  {
    "source": "john-nurmisen-saatio-sr",
    "target": "K-FI-06b9",
    "kind": "osallistuu",
@@ -7999,6 +8159,33 @@
    "evidence": "lähde",
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441283",
    "note": "edunsaaja"
+  },
+  {
+   "source": "seamk",
+   "target": "R-FI-b45a",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J10741",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "jarviseudun-koulutuskuntayhtyma",
+   "target": "R-FI-b45a",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J10741",
+   "note": "partneri"
+  },
+  {
+   "source": "luke",
+   "target": "R-FI-b45a",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J10741",
+   "note": "partneri"
   },
   {
    "source": "uef",
@@ -8622,6 +8809,33 @@
    "note": "edunsaaja"
   },
   {
+   "source": "ilmatieteen-laitos",
+   "target": "K-FI-9511",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11297",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "seamk",
+   "target": "K-FI-9511",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11297",
+   "note": "partneri"
+  },
+  {
+   "source": "kaakkois-suomen-ammattikorkeakoulu",
+   "target": "K-FI-050e",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11491",
+   "note": "edunsaaja"
+  },
+  {
    "source": "luke",
    "target": "K-EU-2e51",
    "kind": "osallistuu",
@@ -8923,6 +9137,15 @@
    "target": "FI-09",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3"
+  },
+  {
+   "source": "LV-03",
+   "target": "R-FI-b45a",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T3"
@@ -9316,6 +9539,15 @@
   },
   {
    "source": "FI-06",
+   "target": "R-FI-b45a",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3"
+  },
+  {
+   "source": "FI-06",
    "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
@@ -9367,6 +9599,15 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T8"
+  },
+  {
+   "source": "FI-09",
+   "target": "R-FI-b45a",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3"
   },
   {
    "source": "FI-09",
@@ -11448,6 +11689,15 @@
    "note": "T4,T6"
   },
   {
+   "source": "R-FI-d4ba",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T7"
+  },
+  {
    "source": "K-FI-6894",
    "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
@@ -12625,6 +12875,15 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T5,T6"
+  },
+  {
+   "source": "R-FI-b45a",
+   "target": "E-LV-9406",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3"
   },
   {
    "source": "K-FI-0ac6",

@@ -4,25 +4,25 @@
   "missing_min_jaccard": 0.6
  },
  "summary": {
-  "actors": 300,
-  "collab_edges": 238,
+  "actors": 307,
+  "collab_edges": 248,
   "unverified_edges": 3,
-  "components": 80,
-  "largest_component": 88,
+  "components": 81,
+  "largest_component": 92,
   "multi_country_components": 2,
   "cross_country_edges": 8,
-  "missing_links": 297,
-  "missing_cross_country": 297,
+  "missing_links": 300,
+  "missing_cross_country": 300,
   "theme_country_pairs": 72,
   "theme_country_pairs_unlinked": 66
  },
  "components": [
   {
    "komponentti": 1,
-   "solmuja": 88,
+   "solmuja": 92,
    "maita": 4,
    "maat": "EU FI LV SE",
-   "hankkeet_ja_keskukset": "E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-e8b3 K-LV-4390 K-LV-74bd LV-01 LV-03 T-SE-bda3 X-FI-PEATRESC"
+   "hankkeet_ja_keskukset": "E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-e8b3 K-LV-4390 K-LV-74bd LV-01 LV-03 R-FI-70e5 R-FI-b45a T-SE-bda3 X-FI-PEATRESC"
   },
   {
    "komponentti": 2,
@@ -89,73 +89,73 @@
   },
   {
    "komponentti": 11,
+   "solmuja": 4,
+   "maita": 1,
+   "maat": "FI",
+   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
+  },
+  {
+   "komponentti": 12,
    "solmuja": 3,
    "maita": 1,
    "maat": "LV",
    "hankkeet_ja_keskukset": "LV-02"
   },
   {
-   "komponentti": 12,
+   "komponentti": 13,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-1746 K-DE-NI-dab1"
   },
   {
-   "komponentti": 13,
+   "komponentti": 14,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-a450 K-DE-NI-accd"
   },
   {
-   "komponentti": 14,
+   "komponentti": 15,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-0499 K-DE-NI-77b2"
   },
   {
-   "komponentti": 15,
+   "komponentti": 16,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-1847 K-DE-NI-34e3"
   },
   {
-   "komponentti": 16,
+   "komponentti": 17,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-3eb1 K-DE-NI-ee94"
   },
   {
-   "komponentti": 17,
+   "komponentti": 18,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-bf71 K-DE-NI-d8d1"
   },
   {
-   "komponentti": 18,
+   "komponentti": 19,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-03c5 K-DE-NI-6c80"
   },
   {
-   "komponentti": 19,
+   "komponentti": 20,
    "solmuja": 3,
    "maita": 1,
    "maat": "EU",
    "hankkeet_ja_keskukset": "T-EU-73cb T-EU-88fc"
-  },
-  {
-   "komponentti": 20,
-   "solmuja": 3,
-   "maita": 1,
-   "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
   },
   {
    "komponentti": 21,
@@ -323,255 +323,262 @@
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-1fcb"
+   "hankkeet_ja_keskukset": "R-FI-d4ba"
   },
   {
    "komponentti": 45,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-2fcc"
+   "hankkeet_ja_keskukset": "K-FI-1fcb"
   },
   {
    "komponentti": 46,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-6c73"
+   "hankkeet_ja_keskukset": "K-FI-2fcc"
   },
   {
    "komponentti": 47,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-6978"
+   "hankkeet_ja_keskukset": "K-FI-6c73"
   },
   {
    "komponentti": 48,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-8d28"
+   "hankkeet_ja_keskukset": "K-FI-6978"
   },
   {
    "komponentti": 49,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-cb20"
+   "hankkeet_ja_keskukset": "K-FI-8d28"
   },
   {
    "komponentti": 50,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-16d2"
+   "hankkeet_ja_keskukset": "K-FI-cb20"
   },
   {
    "komponentti": 51,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-3bb2"
+   "hankkeet_ja_keskukset": "K-FI-16d2"
   },
   {
    "komponentti": 52,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-c4ea"
+   "hankkeet_ja_keskukset": "K-FI-3bb2"
   },
   {
    "komponentti": 53,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-ceda"
+   "hankkeet_ja_keskukset": "K-FI-c4ea"
   },
   {
    "komponentti": 54,
    "solmuja": 2,
    "maita": 1,
-   "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-06fb"
+   "maat": "FI",
+   "hankkeet_ja_keskukset": "K-FI-ceda"
   },
   {
    "komponentti": 55,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-0b63"
+   "hankkeet_ja_keskukset": "K-IE-06fb"
   },
   {
    "komponentti": 56,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-cee8"
+   "hankkeet_ja_keskukset": "K-IE-0b63"
   },
   {
    "komponentti": 57,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-0814"
+   "hankkeet_ja_keskukset": "K-IE-cee8"
   },
   {
    "komponentti": 58,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-d7ff"
+   "hankkeet_ja_keskukset": "K-IE-0814"
   },
   {
    "komponentti": 59,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-8525"
+   "hankkeet_ja_keskukset": "K-IE-d7ff"
   },
   {
    "komponentti": 60,
    "solmuja": 2,
    "maita": 1,
-   "maat": "LV",
-   "hankkeet_ja_keskukset": "K-LV-2fac"
+   "maat": "IE",
+   "hankkeet_ja_keskukset": "K-IE-8525"
   },
   {
    "komponentti": 61,
    "solmuja": 2,
    "maita": 1,
    "maat": "LV",
-   "hankkeet_ja_keskukset": "K-LV-37ba"
+   "hankkeet_ja_keskukset": "K-LV-2fac"
   },
   {
    "komponentti": 62,
    "solmuja": 2,
    "maita": 1,
    "maat": "LV",
-   "hankkeet_ja_keskukset": "K-LV-cbb2"
+   "hankkeet_ja_keskukset": "K-LV-37ba"
   },
   {
    "komponentti": 63,
    "solmuja": 2,
    "maita": 1,
-   "maat": "SE",
-   "hankkeet_ja_keskukset": "K-SE-dbb8"
+   "maat": "LV",
+   "hankkeet_ja_keskukset": "K-LV-cbb2"
   },
   {
    "komponentti": 64,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "J-SE-5a7e"
+   "hankkeet_ja_keskukset": "K-SE-dbb8"
   },
   {
    "komponentti": 65,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "J-SE-b073"
+   "hankkeet_ja_keskukset": "J-SE-5a7e"
   },
   {
    "komponentti": 66,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "T-SE-5e29"
+   "hankkeet_ja_keskukset": "J-SE-b073"
   },
   {
    "komponentti": 67,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "J-SE-2f3b"
+   "hankkeet_ja_keskukset": "T-SE-5e29"
   },
   {
    "komponentti": 68,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "J-SE-50cf"
+   "hankkeet_ja_keskukset": "J-SE-2f3b"
   },
   {
    "komponentti": 69,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "J-SE-a3d4"
+   "hankkeet_ja_keskukset": "J-SE-50cf"
   },
   {
    "komponentti": 70,
+   "solmuja": 2,
+   "maita": 1,
+   "maat": "SE",
+   "hankkeet_ja_keskukset": "J-SE-a3d4"
+  },
+  {
+   "komponentti": 71,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "H-IE-JTF"
   },
   {
-   "komponentti": 71,
+   "komponentti": 72,
    "solmuja": 1,
    "maita": 1,
    "maat": "FI",
    "hankkeet_ja_keskukset": "FI-10"
   },
   {
-   "komponentti": 72,
+   "komponentti": 73,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-7a94"
   },
   {
-   "komponentti": 73,
+   "komponentti": 74,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-c05c"
   },
   {
-   "komponentti": 74,
+   "komponentti": 75,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-d90f"
   },
   {
-   "komponentti": 75,
+   "komponentti": 76,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-cc25"
   },
   {
-   "komponentti": 76,
+   "komponentti": 77,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-e128"
   },
   {
-   "komponentti": 77,
+   "komponentti": 78,
    "solmuja": 1,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "E-IE-9275"
   },
   {
-   "komponentti": 78,
+   "komponentti": 79,
    "solmuja": 1,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "E-IE-2cb2"
   },
   {
-   "komponentti": 79,
+   "komponentti": 80,
    "solmuja": 1,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "E-IE-9676"
   },
   {
-   "komponentti": 80,
+   "komponentti": 81,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-SH",
@@ -584,11 +591,11 @@
    "nimi": "Luonnonvarakeskus (Luke)",
    "maa": "FI",
    "tyyppi": "tutkimuslaitos",
-   "hankkeita": 7,
+   "hankkeita": 9,
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 4,
-   "valityskeskeisyys": 0.0462,
+   "valityskeskeisyys": 0.0497,
    "komponentti": 1
   },
   {
@@ -600,7 +607,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0272,
+   "valityskeskeisyys": 0.0273,
    "komponentti": 1
   },
   {
@@ -608,11 +615,11 @@
    "nimi": "Seinäjoen ammattikorkeakoulu (SeAMK)",
    "maa": "FI",
    "tyyppi": "amk",
-   "hankkeita": 5,
+   "hankkeita": 7,
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0133,
+   "valityskeskeisyys": 0.0172,
    "komponentti": 1
   },
   {
@@ -620,11 +627,11 @@
    "nimi": "Oulun yliopisto",
    "maa": "FI",
    "tyyppi": "yliopisto",
-   "hankkeita": 4,
+   "hankkeita": 5,
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0124,
+   "valityskeskeisyys": 0.0118,
    "komponentti": 1
   },
   {
@@ -636,19 +643,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0115,
-   "komponentti": 1
-  },
-  {
-   "id": "uef",
-   "nimi": "Itä-Suomen yliopisto",
-   "maa": "FI",
-   "tyyppi": "yliopisto",
-   "hankkeita": 4,
-   "keskuksia": 1,
-   "keskukset": "H-FI-AKA",
-   "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0114,
+   "valityskeskeisyys": 0.0116,
    "komponentti": 1
   },
   {
@@ -664,15 +659,15 @@
    "komponentti": 1
   },
   {
-   "id": "hy",
-   "nimi": "Helsingin yliopisto",
+   "id": "uef",
+   "nimi": "Itä-Suomen yliopisto",
    "maa": "FI",
    "tyyppi": "yliopisto",
-   "hankkeita": 5,
-   "keskuksia": 2,
-   "keskukset": "H-FI H-FI-AKA",
+   "hankkeita": 4,
+   "keskuksia": 1,
+   "keskukset": "H-FI-AKA",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0069,
+   "valityskeskeisyys": 0.01,
    "komponentti": 1
   },
   {
@@ -688,6 +683,18 @@
    "komponentti": 1
   },
   {
+   "id": "hy",
+   "nimi": "Helsingin yliopisto",
+   "maa": "FI",
+   "tyyppi": "yliopisto",
+   "hankkeita": 5,
+   "keskuksia": 2,
+   "keskukset": "H-FI H-FI-AKA",
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0056,
+   "komponentti": 1
+  },
+  {
    "id": "arei",
    "nimi": "Institute of Agricultural Resources and Economics",
    "maa": "LV",
@@ -696,20 +703,8 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0033,
+   "valityskeskeisyys": 0.0034,
    "komponentti": 1
-  },
-  {
-   "id": "galway",
-   "nimi": "University of Galway",
-   "maa": "IE",
-   "tyyppi": "yliopisto",
-   "hankkeita": 3,
-   "keskuksia": 2,
-   "keskukset": "H-IE-GAL H-IE-LIFE",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.003,
-   "komponentti": 2
   },
   {
    "id": "lbtu",
@@ -724,6 +719,18 @@
    "komponentti": 1
   },
   {
+   "id": "galway",
+   "nimi": "University of Galway",
+   "maa": "IE",
+   "tyyppi": "yliopisto",
+   "hankkeita": 3,
+   "keskuksia": 2,
+   "keskukset": "H-IE-GAL H-IE-LIFE",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0028,
+   "komponentti": 2
+  },
+  {
    "id": "teagasc",
    "nimi": "Teagasc",
    "maa": "IE",
@@ -732,7 +739,7 @@
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.002,
+   "valityskeskeisyys": 0.0019,
    "komponentti": 2
   },
   {
@@ -868,6 +875,18 @@
    "komponentti": 9
   },
   {
+   "id": "geologian-tutkimuskeskus",
+   "nimi": "Geologian Tutkimuskeskus",
+   "maa": "FI",
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 2,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0001,
+   "komponentti": 1
+  },
+  {
    "id": "landkreis-stade",
    "nimi": "Landkreis Stade",
    "maa": "DE-NI",
@@ -877,7 +896,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 12
+   "komponentti": 13
   },
   {
    "id": "bund-fur-umwelt-und-naturschutz",
@@ -889,7 +908,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 13
+   "komponentti": 14
   },
   {
    "id": "universitat-greifswald",
@@ -901,7 +920,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 14
+   "komponentti": 15
   },
   {
    "id": "landkreis-cuxhaven",
@@ -913,7 +932,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 15
+   "komponentti": 16
   },
   {
    "id": "landkreis-emsland",
@@ -925,7 +944,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 16
+   "komponentti": 17
   },
   {
    "id": "landkreis-osterholz",
@@ -937,7 +956,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 17
+   "komponentti": 18
   },
   {
    "id": "landkreis-friesland",
@@ -949,7 +968,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 18
+   "komponentti": 19
   },
   {
    "id": "gate-21",
@@ -961,7 +980,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 19
+   "komponentti": 20
   },
   {
    "id": "john-nurmisen-saatio-sr",
@@ -997,7 +1016,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 20
+   "komponentti": 11
   },
   {
    "id": "suomen-riistanhoito-saatio-sr",
@@ -1153,7 +1172,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 11
+   "komponentti": 12
   },
   {
    "id": "lv-regions",
@@ -1165,7 +1184,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 11
+   "komponentti": 12
   },
   {
    "id": "nbas",
@@ -1273,7 +1292,7 @@
    "keskukset": "H-FI H-IE-JTF",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 70
+   "komponentti": 71
   },
   {
    "id": "ml-ni",
@@ -1660,6 +1679,18 @@
    "komponentti": 43
   },
   {
+   "id": "lansirannikon-koulutus-oy",
+   "nimi": "Länsirannikon Koulutus Oy",
+   "maa": "FI",
+   "tyyppi": "yritys",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 44
+  },
+  {
    "id": "savonia-ammattikorkeakoulu-oy",
    "nimi": "Savonia-ammattikorkeakoulu oy",
    "maa": "FI",
@@ -1669,7 +1700,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 44
+   "komponentti": 45
   },
   {
    "id": "pohjois-savon-luonnonsuojelupiiri-ry",
@@ -1681,7 +1712,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 45
+   "komponentti": 46
   },
   {
    "id": "upm-kymmene-oyj",
@@ -1693,7 +1724,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 46
+   "komponentti": 47
   },
   {
    "id": "mittuniversitetet",
@@ -1729,7 +1760,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 47
+   "komponentti": 48
   },
   {
    "id": "linttipower-oy",
@@ -1741,7 +1772,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 48
+   "komponentti": 49
   },
   {
    "id": "luontokollektiivi-ry",
@@ -1753,7 +1784,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 49
+   "komponentti": 50
   },
   {
    "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
@@ -1765,7 +1796,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 50
+   "komponentti": 51
   },
   {
    "id": "turun-yliopisto",
@@ -1825,7 +1856,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 51
+   "komponentti": 52
   },
   {
    "id": "mikkelin-kaupunki",
@@ -1837,7 +1868,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 52
+   "komponentti": 53
   },
   {
    "id": "tapio-oy",
@@ -1849,13 +1880,13 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 53
+   "komponentti": 54
   },
   {
-   "id": "geologian-tutkimuskeskus",
-   "nimi": "Geologian Tutkimuskeskus",
+   "id": "jarviseudun-koulutuskuntayhtyma",
+   "nimi": "Järviseudun Koulutuskuntayhtymä",
    "maa": "FI",
-   "tyyppi": "tutkimuslaitos",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1897,7 +1928,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 54
+   "komponentti": 55
   },
   {
    "id": "mourne-and-down-district-council",
@@ -1909,7 +1940,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 55
+   "komponentti": 56
   },
   {
    "id": "ecochip-energy-ltd",
@@ -1921,7 +1952,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 56
+   "komponentti": 57
   },
   {
    "id": "kelly-s-nursery-ltd",
@@ -1933,7 +1964,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 57
+   "komponentti": 58
   },
   {
    "id": "derrymore-peat-ltd",
@@ -1945,7 +1976,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 58
+   "komponentti": 59
   },
   {
    "id": "strawchip-ltd",
@@ -1957,7 +1988,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 59
+   "komponentti": 60
   },
   {
    "id": "biedriba-latvijas-biologiskas-lauksaimni",
@@ -2101,7 +2132,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 60
+   "komponentti": 61
   },
   {
    "id": "priesgaisrines-apsaugos-ir-gelbejimo-dep",
@@ -2113,7 +2144,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 61
+   "komponentti": 62
   },
   {
    "id": "biedriba-baltijas-krasti",
@@ -2221,7 +2252,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 62
+   "komponentti": 63
   },
   {
    "id": "z-s-kiburi",
@@ -2293,7 +2324,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 63
+   "komponentti": 64
   },
   {
    "id": "allogro-ab",
@@ -2305,7 +2336,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 64
+   "komponentti": 65
   },
   {
    "id": "hushallningssallskapet-i-norrbotten-vast",
@@ -2317,7 +2348,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 65
+   "komponentti": 66
   },
   {
    "id": "agroost-ideell-forening",
@@ -2329,7 +2360,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 66
+   "komponentti": 67
   },
   {
    "id": "hushallningssallskapet-sjuharad",
@@ -2341,7 +2372,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 67
+   "komponentti": 68
   },
   {
    "id": "miljomatematik-malmo-ab",
@@ -2353,7 +2384,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 68
+   "komponentti": 69
   },
   {
    "id": "archaea-ab",
@@ -2365,7 +2396,31 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 69
+   "komponentti": 70
+  },
+  {
+   "id": "ilmatieteen-laitos",
+   "nimi": "Ilmatieteen Laitos",
+   "maa": "FI",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "kaakkois-suomen-ammattikorkeakoulu",
+   "nimi": "Kaakkois-Suomen Ammattikorkeakoulu",
+   "maa": "FI",
+   "tyyppi": "amk",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 11
   }
  ],
  "missing_links": [
@@ -2496,6 +2551,19 @@
    "jaccard": 1.0,
    "yhteiset_teemat": "T1,T8",
    "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "LV-03",
+   "a_nimi": "Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri",
+   "a_maa": "LV",
+   "b": "R-FI-b45a",
+   "b_nimi": "Turvevapaa ruokaketju",
+   "b_maa": "FI",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T1,T3",
+   "etaisyys": 6,
    "tyyppi": "maiden välinen",
    "paras_naytto": 2
   },
@@ -3562,6 +3630,19 @@
    "jaccard": 1.0,
    "yhteiset_teemat": "T1,T8",
    "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "R-FI-b45a",
+   "a_nimi": "Turvevapaa ruokaketju",
+   "a_maa": "FI",
+   "b": "E-LV-9406",
+   "b_nimi": "Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T1,T3",
+   "etaisyys": 6,
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
   },
@@ -5815,6 +5896,19 @@
    "paras_naytto": 1
   },
   {
+   "a": "R-FI-d4ba",
+   "a_nimi": "ENNO - Ennallistamisosaamisen oppimisympäristö",
+   "a_maa": "FI",
+   "b": "X-IE-LIFE",
+   "b_nimi": "LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",
+   "b_maa": "IE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T7",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
    "a": "K-FI-6894",
    "a_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "a_maa": "FI",
@@ -5927,7 +6021,7 @@
    "b_maa": "LV",
    "jaccard": 0.67,
    "yhteiset_teemat": "T2,T6",
-   "etaisyys": 10,
+   "etaisyys": 8,
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
   },
@@ -5940,7 +6034,7 @@
    "b_maa": "LV",
    "jaccard": 0.67,
    "yhteiset_teemat": "T1,T6",
-   "etaisyys": 10,
+   "etaisyys": 8,
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
   },
@@ -6296,7 +6390,7 @@
    "a": "DE-NI",
    "b": "FI",
    "hankkeita_a": 5,
-   "hankkeita_b": 27,
+   "hankkeita_b": 29,
    "yhteys": false
   },
   {
@@ -6324,6 +6418,22 @@
    "yhteys": false
   },
   {
+   "teema": "T3",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 11,
+   "hankkeita_b": 8,
+   "yhteys": false
+  },
+  {
+   "teema": "T1",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 29,
+   "hankkeita_b": 3,
+   "yhteys": false
+  },
+  {
    "teema": "T6",
    "a": "DE-NI",
    "b": "LV",
@@ -6337,22 +6447,6 @@
    "b": "SE",
    "hankkeita_a": 14,
    "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
-   "teema": "T1",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 27,
-   "hankkeita_b": 3,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 11,
-   "hankkeita_b": 7,
    "yhteys": false
   },
   {
@@ -6380,6 +6474,14 @@
    "yhteys": false
   },
   {
+   "teema": "T3",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 8,
+   "hankkeita_b": 5,
+   "yhteys": false
+  },
+  {
    "teema": "T5",
    "a": "IE",
    "b": "LV",
@@ -6401,14 +6503,6 @@
    "b": "LV",
    "hankkeita_a": 5,
    "hankkeita_b": 7,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 5,
    "yhteys": false
   },
   {
@@ -6441,22 +6535,6 @@
    "b": "SE",
    "hankkeita_a": 31,
    "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
-   "teema": "T2",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 4,
-   "hankkeita_b": 7,
-   "yhteys": false
-  },
-  {
-   "teema": "T2",
-   "a": "IE",
-   "b": "SE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 4,
    "yhteys": false
   },
   {
@@ -6464,7 +6542,23 @@
    "a": "EE",
    "b": "FI",
    "hankkeita_a": 1,
-   "hankkeita_b": 27,
+   "hankkeita_b": 29,
+   "yhteys": false
+  },
+  {
+   "teema": "T2",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 4,
+   "hankkeita_b": 7,
+   "yhteys": false
+  },
+  {
+   "teema": "T2",
+   "a": "IE",
+   "b": "SE",
+   "hankkeita_a": 7,
+   "hankkeita_b": 4,
    "yhteys": false
   },
   {
@@ -6479,6 +6573,22 @@
    "teema": "T2",
    "a": "DE-NI",
    "b": "LV",
+   "hankkeita_a": 8,
+   "hankkeita_b": 3,
+   "yhteys": false
+  },
+  {
+   "teema": "T8",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 3,
+   "hankkeita_b": 8,
+   "yhteys": false
+  },
+  {
+   "teema": "T8",
+   "a": "FI",
+   "b": "SE",
    "hankkeita_a": 8,
    "hankkeita_b": 3,
    "yhteys": false
@@ -6508,27 +6618,19 @@
    "yhteys": false
   },
   {
-   "teema": "T8",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 3,
-   "hankkeita_b": 7,
-   "yhteys": false
-  },
-  {
-   "teema": "T8",
-   "a": "FI",
-   "b": "SE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 3,
-   "yhteys": false
-  },
-  {
    "teema": "T5",
    "a": "FI",
    "b": "SE",
    "hankkeita_a": 18,
    "hankkeita_b": 1,
+   "yhteys": false
+  },
+  {
+   "teema": "T7",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 6,
+   "hankkeita_b": 3,
    "yhteys": false
   },
   {
@@ -6601,14 +6703,6 @@
    "b": "SE",
    "hankkeita_a": 2,
    "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
-   "teema": "T7",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 6,
-   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -6657,6 +6751,14 @@
    "b": "SE",
    "hankkeita_a": 10,
    "hankkeita_b": 1,
+   "yhteys": false
+  },
+  {
+   "teema": "T7",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 3,
+   "hankkeita_b": 3,
    "yhteys": false
   },
   {
@@ -6676,6 +6778,14 @@
    "yhteys": false
   },
   {
+   "teema": "T8",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 8,
+   "hankkeita_b": 1,
+   "yhteys": false
+  },
+  {
    "teema": "T1",
    "a": "EE",
    "b": "LV",
@@ -6684,19 +6794,11 @@
    "yhteys": false
   },
   {
-   "teema": "T8",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
    "teema": "T7",
    "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 2,
-   "hankkeita_b": 3,
+   "b": "LV",
+   "hankkeita_a": 3,
+   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -6732,14 +6834,6 @@
    "yhteys": false
   },
   {
-   "teema": "T7",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 2,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
    "teema": "T8",
    "a": "IE",
    "b": "LV",
@@ -6791,7 +6885,7 @@
    "teema": "T1",
    "a": "FI",
    "b": "LV",
-   "hankkeita_a": 27,
+   "hankkeita_a": 29,
    "hankkeita_b": 7,
    "yhteys": true
   },
@@ -6807,8 +6901,16 @@
    "teema": "T3",
    "a": "FI",
    "b": "LV",
-   "hankkeita_a": 7,
+   "hankkeita_a": 8,
    "hankkeita_b": 5,
+   "yhteys": true
+  },
+  {
+   "teema": "T8",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 8,
+   "hankkeita_b": 4,
    "yhteys": true
   },
   {
@@ -6820,18 +6922,10 @@
    "yhteys": true
   },
   {
-   "teema": "T8",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 7,
-   "hankkeita_b": 4,
-   "yhteys": true
-  },
-  {
    "teema": "T3",
    "a": "FI",
    "b": "SE",
-   "hankkeita_a": 7,
+   "hankkeita_a": 8,
    "hankkeita_b": 2,
    "yhteys": true
   }

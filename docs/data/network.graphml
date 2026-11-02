@@ -1422,6 +1422,22 @@
       <data key="d14">1-kohesio-2026-11-02.csv</data>
       <data key="d15">turvemaa</data>
     </node>
+    <node id="R-FI-d4ba">
+      <data key="d0">hanke</data>
+      <data key="d1">ENNO - Ennallistamisosaamisen oppimisympäristö</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">167072</data>
+      <data key="d16">93561</data>
+      <data key="d10">1</data>
+      <data key="d11">2026</data>
+      <data key="d12">2027</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11668</data>
+      <data key="d13">False</data>
+      <data key="d14">5-eura2021-2026-11-02.csv</data>
+      <data key="d15">turvemaa</data>
+    </node>
     <node id="K-FI-6894">
       <data key="d0">hanke</data>
       <data key="d1">Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams</data>
@@ -1662,6 +1678,22 @@
       <data key="d14">1-kohesio-2026-11-02.csv</data>
       <data key="d15">turvemaa</data>
     </node>
+    <node id="R-FI-70e5">
+      <data key="d0">hanke</data>
+      <data key="d1">Sopeutumiskeinoja mustaliuskealueiden maankäyttöön muuttuvassa ilmastossa (SOLMU)</data>
+      <data key="d2">FI</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">357183</data>
+      <data key="d16">171448</data>
+      <data key="d10">1</data>
+      <data key="d11">2026</data>
+      <data key="d12">2028</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=A81861</data>
+      <data key="d13">False</data>
+      <data key="d14">5-eura2021-2026-11-02.csv</data>
+      <data key="d15">maaperä</data>
+    </node>
     <node id="K-FI-06b9">
       <data key="d0">hanke</data>
       <data key="d1">Suokeidas - From peat production to diverse wetlands</data>
@@ -1820,6 +1852,22 @@
       <data key="d5">https://kohesio.ec.europa.eu/en/projects/Q7441283</data>
       <data key="d13">True</data>
       <data key="d14">1-kohesio-2026-11-02.csv</data>
+      <data key="d15">turvemaa</data>
+    </node>
+    <node id="R-FI-b45a">
+      <data key="d0">hanke</data>
+      <data key="d1">Turvevapaa ruokaketju</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">529603</data>
+      <data key="d16">296577</data>
+      <data key="d10">1</data>
+      <data key="d11">2024</data>
+      <data key="d12">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10741</data>
+      <data key="d13">False</data>
+      <data key="d14">5-eura2021-2026-11-02.csv</data>
       <data key="d15">turvemaa</data>
     </node>
     <node id="K-FI-0ac6">
@@ -2999,6 +3047,12 @@
       <data key="d2">FI</data>
       <data key="d23">amk</data>
     </node>
+    <node id="lansirannikon-koulutus-oy">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Länsirannikon Koulutus Oy</data>
+      <data key="d2">FI</data>
+      <data key="d23">yritys</data>
+    </node>
     <node id="savonia-ammattikorkeakoulu-oy">
       <data key="d0">organisaatio</data>
       <data key="d1">Savonia-ammattikorkeakoulu oy</data>
@@ -3065,6 +3119,12 @@
       <data key="d2">FI</data>
       <data key="d23">yliopisto</data>
     </node>
+    <node id="geologian-tutkimuskeskus">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Geologian Tutkimuskeskus</data>
+      <data key="d2">FI</data>
+      <data key="d23">tutkimuslaitos</data>
+    </node>
     <node id="jyvaskylan-yliopisto">
       <data key="d0">organisaatio</data>
       <data key="d1">Jyväskylän yliopisto</data>
@@ -3101,11 +3161,11 @@
       <data key="d2">FI</data>
       <data key="d23">tutkimuslaitos</data>
     </node>
-    <node id="geologian-tutkimuskeskus">
+    <node id="jarviseudun-koulutuskuntayhtyma">
       <data key="d0">organisaatio</data>
-      <data key="d1">Geologian Tutkimuskeskus</data>
+      <data key="d1">Järviseudun Koulutuskuntayhtymä</data>
       <data key="d2">FI</data>
-      <data key="d23">tutkimuslaitos</data>
+      <data key="d23">viranomainen</data>
     </node>
     <node id="blackstairs-farming-group">
       <data key="d0">organisaatio</data>
@@ -3364,6 +3424,18 @@
       <data key="d1">Skogsstyrelsen</data>
       <data key="d2">SE</data>
       <data key="d23">viranomainen</data>
+    </node>
+    <node id="ilmatieteen-laitos">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Ilmatieteen Laitos</data>
+      <data key="d2">FI</data>
+      <data key="d23">viranomainen</data>
+    </node>
+    <node id="kaakkois-suomen-ammattikorkeakoulu">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Kaakkois-Suomen Ammattikorkeakoulu</data>
+      <data key="d2">FI</data>
+      <data key="d23">amk</data>
     </node>
     <node id="J1">
       <data key="d0">julkaisu</data>
@@ -3827,6 +3899,13 @@
       <data key="d32" />
       <data key="d33">T1,T3</data>
     </edge>
+    <edge source="LV-03" target="R-FI-b45a" id="0">
+      <data key="d29">teemapaallekkaisyys</data>
+      <data key="d30">1.0</data>
+      <data key="d31">laskettu</data>
+      <data key="d32" />
+      <data key="d33">T1,T3</data>
+    </edge>
     <edge source="LV-03" target="E-LV-9406" id="0">
       <data key="d29">teemapaallekkaisyys</data>
       <data key="d30">1.0</data>
@@ -4219,6 +4298,13 @@
       <data key="d32" />
       <data key="d33">T1,T8</data>
     </edge>
+    <edge source="FI-06" target="R-FI-b45a" id="0">
+      <data key="d29">teemapaallekkaisyys</data>
+      <data key="d30">0.67</data>
+      <data key="d31">laskettu</data>
+      <data key="d32" />
+      <data key="d33">T1,T3</data>
+    </edge>
     <edge source="FI-06" target="K-FI-0ac6" id="0">
       <data key="d29">teemapaallekkaisyys</data>
       <data key="d30">0.6</data>
@@ -4351,6 +4437,13 @@
       <data key="d31">laskettu</data>
       <data key="d32" />
       <data key="d33">T1,T8</data>
+    </edge>
+    <edge source="FI-09" target="R-FI-b45a" id="0">
+      <data key="d29">teemapaallekkaisyys</data>
+      <data key="d30">0.67</data>
+      <data key="d31">laskettu</data>
+      <data key="d32" />
+      <data key="d33">T1,T3</data>
     </edge>
     <edge source="FI-09" target="K-FI-0ac6" id="0">
       <data key="d29">teemapaallekkaisyys</data>
@@ -6641,6 +6734,27 @@
       <data key="d32" />
       <data key="d33">T4,T6</data>
     </edge>
+    <edge source="R-FI-d4ba" target="T1" id="0">
+      <data key="d29">teema</data>
+      <data key="d30">1.0</data>
+      <data key="d31" />
+      <data key="d32" />
+      <data key="d33" />
+    </edge>
+    <edge source="R-FI-d4ba" target="T7" id="0">
+      <data key="d29">teema</data>
+      <data key="d30">1.0</data>
+      <data key="d31" />
+      <data key="d32" />
+      <data key="d33" />
+    </edge>
+    <edge source="R-FI-d4ba" target="X-IE-LIFE" id="0">
+      <data key="d29">teemapaallekkaisyys</data>
+      <data key="d30">0.67</data>
+      <data key="d31">laskettu</data>
+      <data key="d32" />
+      <data key="d33">T1,T7</data>
+    </edge>
     <edge source="K-FI-6894" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7628,6 +7742,13 @@
       <data key="d32" />
       <data key="d33">T2,T6</data>
     </edge>
+    <edge source="R-FI-70e5" target="T8" id="0">
+      <data key="d29">teema</data>
+      <data key="d30">1.0</data>
+      <data key="d31" />
+      <data key="d32" />
+      <data key="d33" />
+    </edge>
     <edge source="K-FI-06b9" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7935,6 +8056,27 @@
       <data key="d31">laskettu</data>
       <data key="d32" />
       <data key="d33">T1,T5,T6</data>
+    </edge>
+    <edge source="R-FI-b45a" target="T1" id="0">
+      <data key="d29">teema</data>
+      <data key="d30">1.0</data>
+      <data key="d31" />
+      <data key="d32" />
+      <data key="d33" />
+    </edge>
+    <edge source="R-FI-b45a" target="T3" id="0">
+      <data key="d29">teema</data>
+      <data key="d30">1.0</data>
+      <data key="d31" />
+      <data key="d32" />
+      <data key="d33" />
+    </edge>
+    <edge source="R-FI-b45a" target="E-LV-9406" id="0">
+      <data key="d29">teemapaallekkaisyys</data>
+      <data key="d30">1.0</data>
+      <data key="d31">laskettu</data>
+      <data key="d32" />
+      <data key="d33">T1,T3</data>
     </edge>
     <edge source="K-FI-0ac6" target="T1" id="0">
       <data key="d29">teema</data>
@@ -8923,12 +9065,26 @@
       <data key="d32">https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf</data>
       <data key="d33">koordinaattori</data>
     </edge>
+    <edge source="seamk" target="R-FI-b45a" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J10741</data>
+      <data key="d33">edunsaaja</data>
+    </edge>
     <edge source="seamk" target="K-FI-0ac6" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440189</data>
       <data key="d33">edunsaaja</data>
+    </edge>
+    <edge source="seamk" target="K-FI-9511" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J11297</data>
+      <data key="d33">partneri</data>
     </edge>
     <edge source="hy" target="FI-01" id="0">
       <data key="d29">osallistuu</data>
@@ -9035,6 +9191,13 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7735782</data>
       <data key="d33">partneri</data>
     </edge>
+    <edge source="oy" target="R-FI-70e5" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=A81861</data>
+      <data key="d33">partneri</data>
+    </edge>
     <edge source="oy" target="T-SE-bda3" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
@@ -9056,6 +9219,13 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440726</data>
       <data key="d33">edunsaaja</data>
     </edge>
+    <edge source="luke" target="R-FI-70e5" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=A81861</data>
+      <data key="d33">partneri</data>
+    </edge>
     <edge source="luke" target="K-FI-9061" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
@@ -9069,6 +9239,13 @@
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q3755338</data>
       <data key="d33">edunsaaja</data>
+    </edge>
+    <edge source="luke" target="R-FI-b45a" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J10741</data>
+      <data key="d33">partneri</data>
     </edge>
     <edge source="luke" target="K-FI-0ac6" id="0">
       <data key="d29">osallistuu</data>
@@ -10043,6 +10220,13 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7735782</data>
       <data key="d33">edunsaaja</data>
     </edge>
+    <edge source="lansirannikon-koulutus-oy" target="R-FI-d4ba" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J11668</data>
+      <data key="d33">edunsaaja</data>
+    </edge>
     <edge source="savonia-ammattikorkeakoulu-oy" target="K-FI-1fcb" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
@@ -10127,6 +10311,20 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440044</data>
       <data key="d33">edunsaaja</data>
     </edge>
+    <edge source="geologian-tutkimuskeskus" target="R-FI-70e5" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=A81861</data>
+      <data key="d33">edunsaaja</data>
+    </edge>
+    <edge source="geologian-tutkimuskeskus" target="K-FI-0ac6" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440186</data>
+      <data key="d33">edunsaaja</data>
+    </edge>
     <edge source="jyvaskylan-yliopisto" target="K-FI-6f20" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
@@ -10169,12 +10367,12 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q3754206</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="geologian-tutkimuskeskus" target="K-FI-0ac6" id="0">
+    <edge source="jarviseudun-koulutuskuntayhtyma" target="R-FI-b45a" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
-      <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440186</data>
-      <data key="d33">edunsaaja</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J10741</data>
+      <data key="d33">partneri</data>
     </edge>
     <edge source="blackstairs-farming-group" target="E-IE-e6ef" id="0">
       <data key="d29">osallistuu</data>
@@ -10482,6 +10680,20 @@
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q4299111</data>
+      <data key="d33">edunsaaja</data>
+    </edge>
+    <edge source="ilmatieteen-laitos" target="K-FI-9511" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J11297</data>
+      <data key="d33">edunsaaja</data>
+    </edge>
+    <edge source="kaakkois-suomen-ammattikorkeakoulu" target="K-FI-050e" id="0">
+      <data key="d29">osallistuu</data>
+      <data key="d30">1.0</data>
+      <data key="d31">lähde</data>
+      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J11491</data>
       <data key="d33">edunsaaja</data>
     </edge>
     <edge source="J1" target="T7" id="0">

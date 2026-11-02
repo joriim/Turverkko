@@ -31,7 +31,7 @@ EXCLUDE = {
 EXCLUDE_COUNTRY = {"DE": "Saksa, muu osavaltio kuin Niedersachsen (aluerajauksen ulkopuolella)"}
 
 # Lähteen numero → tunnisteen etuliite (K = Kohesio, E = EU CAP Network / EIP)
-SOURCE_PREFIX = {"1": "K", "2": "E", "8": "T", "9": "J"}  # T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
+SOURCE_PREFIX = {"1": "K", "2": "E", "5": "R", "8": "T", "9": "J", "22": "O"}  # R = EURA 2021, O = OpenAIRE, T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
 
 # Rivit, jotka ovat jo aineistossa olevia hankkeita (nimi → olemassa oleva tunniste).
 # Rivin tiedot täydentävät olemassa olevaa hanketta eivätkä luo uutta.
@@ -44,6 +44,11 @@ MATCH_EXISTING = {
     "FarmPEAT (Farm Payments for Ecological and Agricultural Transitions) Project": "IE-02",
     "Myrrestaurering i Norrbottens län": "K-SE-dbb8",
     # Avain "lähde:nimi" täsmää vain kyseisen lähteen rivin (sama nimi on Kohesiossa itse hankkeena)
+    # EURA 2021 (lähde 5): Kohesiossa samat hankkeet englanninkielisillä nimillä
+    "5:Hiilimarkkinoilta lisäarvoa turvetuotannosta poistettujen alueiden jatkokäyttöön (ArvoHiili)": "K-FI-0ac6",
+    "5:Aurinkovoimalat suonpohjilla: vaikutukset pienilmastoon ja maaperäpäästöihin (AurinkoSuo)": "K-FI-9511",
+    "5:Aurinkovoimalat suonpohjilla: vaikutukset pienilmastoon ja maaperäpäästöihin (AurinkoSuo) - investointihanke": "K-FI-9511",  # hankepari käsitellään yhtenä
+    "5:BioKas - Biohiilestä kasvua – kohti turpeetonta yhteiskuntaa": "K-FI-050e",
     "8:MEQAL-Methane Quantization and Localization": "K-FI-1d92",
     "8:PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites": "K-EU-2e51",
     "Our Moor Future Oldenburger Graben - Cooperative moorland in the Oldenburger Graben in Schleswig-Holstein for climate protection and agricultural added value": "X-DE-SH",
@@ -74,6 +79,9 @@ THEME_OVERRIDE = {
     "Fossil-free growing media": ["T3"],
     "Klimatanpassad grundvatten-reglering i norrländskt jordbruk": ["T2", "T6"],
     "Land-4-Climate": ["T2", "T6", "T8"],
+    "Sopeutumiskeinoja mustaliuskealueiden maankäyttöön muuttuvassa ilmastossa (SOLMU)": ["T8"],
+    "Turvevapaa ruokaketju": ["T1", "T3"],
+    "ENNO - Ennallistamisosaamisen oppimisympäristö": ["T1", "T7"],
     "CircularGreens: From Waste to Soil, From Risk to Trust": ["T3"],
     "Kolsänksrätter med biokol": ["T6", "T8"],
     "Svensk klimatkompensation - jordbruket som kolsänka": ["T6", "T8"],
@@ -84,6 +92,7 @@ THEME_OVERRIDE = {
 # Maaperähankkeet, jotka eivät koske nimetysti turvemaata (rajaus = "maaperä", muut "turvemaa").
 # Ne kuuluvat rajaukseen maaperän päästöjen, hiilensidonnan ja MRV:n vuoksi. Hakusivulla ne voi suodattaa erikseen.
 MAAPERA = {
+    "Sopeutumiskeinoja mustaliuskealueiden maankäyttöön muuttuvassa ilmastossa (SOLMU)": "maaperän haitta-aineriskit maankäytössä (mustaliuske) ja ilmastosopeutus",
     "Towards a carbon-neutral research farm — Investment project (hitu-I)": "maatilan päästöjen ja maaperän hiilen tutkimusinfrastruktuuri",
     "Towards a carbon-neutral research farm — Development project (hitu-D)": "maatilan päästöjen ja maaperän hiilen tutkimus",
     "Forest plan for responsible forest owners": "metsien hiilinielu ja maankäyttösektorin velvoitteet",
@@ -118,7 +127,7 @@ ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij
              r"biolat|gourmet|kolkanrinne|epira|\btmi\b|council|authority|agency|ministry|association|foundation|stiftung|landkreis|"
              r"forst|verband|nabu|bund |nlwkn|yliopisto|ammattikorkeakoulu|keskus|saatio|kaupunki|metsahallitus|\bab\b|\bas\b|"
              r"lansstyrelsen|skogsstyrelsen|riigimetsa|regions|pasvaldiba|departamentas|chambres|larenstein|kompetenzzentrum|peat ltd|"
-             r"kommun|universitet|fond\b|forening|gate 21|sallskap|\bab\b|"
+             r"laitos|kuntayhtym|kommun|universitet|fond\b|forening|gate 21|sallskap|\bab\b|"
              r"rspb|broads|zid|archehof|schmedt|torfwerk|forstamt|landesforsten|moorverwaltung|fachzentrum|naturschutz")
 
 # Konekäännösvirheiden korjaus (Kohesion englanninkielinen nimi → oikea nimi)

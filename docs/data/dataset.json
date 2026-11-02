@@ -2272,7 +2272,8 @@
    "evidence": 1,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441340",
    "urls": [
-    "https://kohesio.ec.europa.eu/en/projects/Q7441340"
+    "https://kohesio.ec.europa.eu/en/projects/Q7441340",
+    "https://eura2021.fi/hanketietopalvelu?koodi=J11491"
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
@@ -2333,6 +2334,35 @@
    ],
    "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa",
+   "rajaus_peruste": "",
+   "partners_note": ""
+  },
+  {
+   "id": "R-FI-d4ba",
+   "country": "FI",
+   "region": "Satakunta",
+   "fund": "JTF",
+   "period": "2021–2027",
+   "name": "ENNO - Ennallistamisosaamisen oppimisympäristö",
+   "lead": "Länsirannikon Koulutus Oy",
+   "start": 2026,
+   "end": 2027,
+   "eur_total": 167072,
+   "eur_eu": 93561,
+   "themes": [
+    "T1",
+    "T7"
+   ],
+   "auto_themes": false,
+   "outputs": "Opetusmateriaaleja maarakennuskoneiden simulaatioharjoitteluun; ENNO/ENNOS-hankkeiden yhteiset verkkosivut; tavoite: 1 innovaatio/tuote/palvelu",
+   "evidence": 1,
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11668",
+   "urls": [
+    "https://eura2021.fi/hanketietopalvelu?koodi=J11668"
+   ],
+   "programme": "2021–2027",
+   "imported_from": "5-eura2021-2026-11-02.csv",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
    "partners_note": ""
@@ -2774,12 +2804,42 @@
    "evidence": 1,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441173",
    "urls": [
-    "https://kohesio.ec.europa.eu/en/projects/Q7441173"
+    "https://kohesio.ec.europa.eu/en/projects/Q7441173",
+    "https://eura2021.fi/hanketietopalvelu?koodi=J11297",
+    "https://eura2021.fi/hanketietopalvelu?koodi=J11300"
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
+   "partners_note": ""
+  },
+  {
+   "id": "R-FI-70e5",
+   "country": "FI",
+   "region": "Kainuu; Lappi; Pohjois-Pohjanmaa",
+   "fund": "EAKR",
+   "period": "2021–2027",
+   "name": "Sopeutumiskeinoja mustaliuskealueiden maankäyttöön muuttuvassa ilmastossa (SOLMU)",
+   "lead": "Geologian Tutkimuskeskus",
+   "start": 2026,
+   "end": 2028,
+   "eur_total": 357183,
+   "eur_eu": 171448,
+   "themes": [
+    "T8"
+   ],
+   "auto_themes": false,
+   "outputs": "Riskinhallintamalli ja kartoitus-/tunnistusmenetelmäohjeet; kartat, oppaat ja artikkelit GTK:n Hakku-portaalissa; tavoite: 1 innovaatio/tuote/palvelu, 1 ilmastonmuutokseen sopeutumisen uusi ratkaisu",
+   "evidence": 1,
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=A81861",
+   "urls": [
+    "https://eura2021.fi/hanketietopalvelu?koodi=A81861"
+   ],
+   "programme": "2021–2027",
+   "imported_from": "5-eura2021-2026-11-02.csv",
+   "rajaus": "maaperä",
+   "rajaus_peruste": "maaperän haitta-aineriskit maankäytössä (mustaliuske) ja ilmastosopeutus",
    "partners_note": ""
   },
   {
@@ -3076,6 +3136,35 @@
    "partners_note": ""
   },
   {
+   "id": "R-FI-b45a",
+   "country": "FI",
+   "region": "Etelä-Pohjanmaa",
+   "fund": "JTF",
+   "period": "2021–2027",
+   "name": "Turvevapaa ruokaketju",
+   "lead": "Seinäjoen Ammattikorkeakoulu Oy",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 529603,
+   "eur_eu": 296577,
+   "themes": [
+    "T1",
+    "T3"
+   ],
+   "auto_themes": false,
+   "outputs": "Tavoite: 2 innovaatiota/tuotetta/palvelua, 3 innovaatioita tekevää pk-yritystä, 6 yritystä yhteistyössä tutkimuslaitosten kanssa; tulokset julkisesti saatavilla mm. Turvemaiden osaamisklusterin kanavilla",
+   "evidence": 1,
+   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J10741",
+   "urls": [
+    "https://eura2021.fi/hanketietopalvelu?koodi=J10741"
+   ],
+   "programme": "2021–2027",
+   "imported_from": "5-eura2021-2026-11-02.csv",
+   "rajaus": "turvemaa",
+   "rajaus_peruste": "",
+   "partners_note": ""
+  },
+  {
    "id": "K-FI-0ac6",
    "country": "FI",
    "region": "North Karelia",
@@ -3102,7 +3191,8 @@
     "https://kohesio.ec.europa.eu/en/projects/Q7440188",
     "https://kohesio.ec.europa.eu/en/projects/Q7440186",
     "https://kohesio.ec.europa.eu/en/projects/Q7440187",
-    "https://kohesio.ec.europa.eu/en/projects/Q7440189"
+    "https://kohesio.ec.europa.eu/en/projects/Q7440189",
+    "https://eura2021.fi/hanketietopalvelu?koodi=J10311"
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
@@ -5065,6 +5155,12 @@
    "type": "amk"
   },
   {
+   "id": "lansirannikon-koulutus-oy",
+   "name": "Länsirannikon Koulutus Oy",
+   "country": "FI",
+   "type": "yritys"
+  },
+  {
    "id": "savonia-ammattikorkeakoulu-oy",
    "name": "Savonia-ammattikorkeakoulu oy",
    "country": "FI",
@@ -5131,6 +5227,12 @@
    "type": "yliopisto"
   },
   {
+   "id": "geologian-tutkimuskeskus",
+   "name": "Geologian Tutkimuskeskus",
+   "country": "FI",
+   "type": "tutkimuslaitos"
+  },
+  {
    "id": "jyvaskylan-yliopisto",
    "name": "Jyväskylän yliopisto",
    "country": "FI",
@@ -5167,10 +5269,10 @@
    "type": "tutkimuslaitos"
   },
   {
-   "id": "geologian-tutkimuskeskus",
-   "name": "Geologian Tutkimuskeskus",
+   "id": "jarviseudun-koulutuskuntayhtyma",
+   "name": "Järviseudun Koulutuskuntayhtymä",
    "country": "FI",
-   "type": "tutkimuslaitos"
+   "type": "viranomainen"
   },
   {
    "id": "blackstairs-farming-group",
@@ -5429,6 +5531,18 @@
    "name": "Skogsstyrelsen",
    "country": "SE",
    "type": "viranomainen"
+  },
+  {
+   "id": "ilmatieteen-laitos",
+   "name": "Ilmatieteen Laitos",
+   "country": "FI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "kaakkois-suomen-ammattikorkeakoulu",
+   "name": "Kaakkois-Suomen Ammattikorkeakoulu",
+   "country": "FI",
+   "type": "amk"
   }
  ]
 }

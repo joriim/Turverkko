@@ -131,6 +131,8 @@ K-FI-050e,T3,teema,1.0,,,
 K-FI-a45d,T4,teema,1.0,,,
 K-FI-879d,T4,teema,1.0,,,
 K-FI-879d,T6,teema,1.0,,,
+R-FI-d4ba,T1,teema,1.0,,,
+R-FI-d4ba,T7,teema,1.0,,,
 K-FI-6894,T1,teema,1.0,,,
 K-FI-6894,T5,teema,1.0,,,
 K-FI-6894,T6,teema,1.0,,,
@@ -166,6 +168,7 @@ K-FI-7c34,T8,teema,1.0,,,
 K-FI-9511,T1,teema,1.0,,,
 K-FI-9511,T2,teema,1.0,,,
 K-FI-9511,T6,teema,1.0,,,
+R-FI-70e5,T8,teema,1.0,,,
 K-FI-06b9,T1,teema,1.0,,,
 K-FI-06b9,T5,teema,1.0,,,
 K-FI-06b9,T6,teema,1.0,,,
@@ -185,6 +188,8 @@ K-FI-519c,T6,teema,1.0,,,
 K-FI-665a,T1,teema,1.0,,,
 K-FI-665a,T5,teema,1.0,,,
 K-FI-665a,T6,teema,1.0,,,
+R-FI-b45a,T1,teema,1.0,,,
+R-FI-b45a,T3,teema,1.0,,,
 K-FI-0ac6,T1,teema,1.0,,,
 K-FI-0ac6,T3,teema,1.0,,,
 K-FI-0ac6,T5,teema,1.0,,,
@@ -432,6 +437,7 @@ syke,K-FI-e8b3,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/p
 kaakkois-suomen-ammattikorkeakoulu-oy,K-FI-050e,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7441340
 lapin-ammattikorkeakoulu-oy,K-FI-a45d,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q3754768
 metsakeskus,K-FI-879d,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q3755406
+lansirannikon-koulutus-oy,R-FI-d4ba,osallistuu,1.0,lähde,edunsaaja,https://eura2021.fi/hanketietopalvelu?koodi=J11668
 syke,K-FI-6894,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440725
 luke,K-FI-6894,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440726
 oy,K-FI-6894,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440727
@@ -453,6 +459,9 @@ kokemaenjoen-vesiston-vesiensuojeluyhdis,K-FI-16d2,osallistuu,1.0,lähde,edunsaa
 turun-yliopisto,K-FI-7c34,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440044
 syke,K-FI-7c34,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440045
 hy,K-FI-9511,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7441173
+geologian-tutkimuskeskus,R-FI-70e5,osallistuu,1.0,lähde,edunsaaja,https://eura2021.fi/hanketietopalvelu?koodi=A81861
+luke,R-FI-70e5,osallistuu,1.0,lähde,partneri,https://eura2021.fi/hanketietopalvelu?koodi=A81861
+oy,R-FI-70e5,osallistuu,1.0,lähde,partneri,https://eura2021.fi/hanketietopalvelu?koodi=A81861
 john-nurmisen-saatio-sr,K-FI-06b9,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440759
 luonnonperintosaatio-sr,K-FI-06b9,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440758
 kaakkois-suomen-ammattikorkeakoulu-oy,K-FI-b38f,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7441315
@@ -467,6 +476,9 @@ tapio-oy,K-FI-ceda,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/
 luke,K-FI-9061,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q3755329
 luke,K-FI-519c,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q3755338
 suomen-riistanhoito-saatio-sr,K-FI-665a,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7441283
+seamk,R-FI-b45a,osallistuu,1.0,lähde,edunsaaja,https://eura2021.fi/hanketietopalvelu?koodi=J10741
+jarviseudun-koulutuskuntayhtyma,R-FI-b45a,osallistuu,1.0,lähde,partneri,https://eura2021.fi/hanketietopalvelu?koodi=J10741
+luke,R-FI-b45a,osallistuu,1.0,lähde,partneri,https://eura2021.fi/hanketietopalvelu?koodi=J10741
 uef,K-FI-0ac6,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440188
 geologian-tutkimuskeskus,K-FI-0ac6,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440186
 luke,K-FI-0ac6,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440187
@@ -536,6 +548,9 @@ skogsstyrelsen,K-SE-be89,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.euro
 skogsstyrelsen,K-SE-8b1e,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q4299111
 keha,FI-02,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q7440094
 rmk,EE-02,osallistuu,1.0,lähde,edunsaaja,https://kohesio.ec.europa.eu/en/projects/Q3079298
+ilmatieteen-laitos,K-FI-9511,osallistuu,1.0,lähde,edunsaaja,https://eura2021.fi/hanketietopalvelu?koodi=J11297
+seamk,K-FI-9511,osallistuu,1.0,lähde,partneri,https://eura2021.fi/hanketietopalvelu?koodi=J11297
+kaakkois-suomen-ammattikorkeakoulu,K-FI-050e,osallistuu,1.0,lähde,edunsaaja,https://eura2021.fi/hanketietopalvelu?koodi=J11491
 luke,K-EU-2e51,osallistuu,1.0,lähde,edunsaaja,https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e
 slu,K-EU-2e51,osallistuu,1.0,lähde,partneri,https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e
 P-FI-JTF,FI-01,rahoittaa,1.0,lähde,,
@@ -570,6 +585,7 @@ LV-02,K-LV-74bd,teemapaallekkaisyys,0.67,laskettu,"T1,T8",
 LV-02,X-IE-NAT,teemapaallekkaisyys,1.0,laskettu,"T1,T8",
 LV-03,FI-06,teemapaallekkaisyys,0.67,laskettu,"T1,T3",
 LV-03,FI-09,teemapaallekkaisyys,0.67,laskettu,"T1,T3",
+LV-03,R-FI-b45a,teemapaallekkaisyys,1.0,laskettu,"T1,T3",
 LV-03,E-LV-9406,teemapaallekkaisyys,1.0,laskettu,"T1,T3",
 IE-01,K-DE-NI-7a94,teemapaallekkaisyys,1.0,laskettu,"T2,T6",
 IE-01,K-DE-NI-cc25,teemapaallekkaisyys,1.0,laskettu,"T2,T6",
@@ -613,12 +629,14 @@ NI-01,K-IE-d7ff,teemapaallekkaisyys,0.75,laskettu,"T1,T2,T5",
 NI-01,K-LV-cbb2,teemapaallekkaisyys,0.67,laskettu,"T1,T5",
 FI-06,FI-09,teemapaallekkaisyys,1.0,laskettu,"T1,T3,T8",
 FI-06,K-FI-7c34,teemapaallekkaisyys,0.67,laskettu,"T1,T8",
+FI-06,R-FI-b45a,teemapaallekkaisyys,0.67,laskettu,"T1,T3",
 FI-06,K-FI-0ac6,teemapaallekkaisyys,0.6,laskettu,"T1,T3,T8",
 FI-06,E-LV-9406,teemapaallekkaisyys,0.67,laskettu,"T1,T3",
 FI-06,X-IE-NAT,teemapaallekkaisyys,0.67,laskettu,"T1,T8",
 FI-07,K-FI-879d,teemapaallekkaisyys,0.67,laskettu,"T4,T6",
 FI-07,E-LV-8eeb,teemapaallekkaisyys,0.67,laskettu,"T1,T6",
 FI-09,K-FI-7c34,teemapaallekkaisyys,0.67,laskettu,"T1,T8",
+FI-09,R-FI-b45a,teemapaallekkaisyys,0.67,laskettu,"T1,T3",
 FI-09,K-FI-0ac6,teemapaallekkaisyys,0.6,laskettu,"T1,T3,T8",
 FI-09,E-LV-9406,teemapaallekkaisyys,0.67,laskettu,"T1,T3",
 FI-09,X-IE-NAT,teemapaallekkaisyys,0.67,laskettu,"T1,T8",
@@ -850,6 +868,7 @@ K-FI-b095,K-LV-cbb2,teemapaallekkaisyys,0.67,laskettu,"T1,T5",
 K-FI-b095,X-FI-PEATRESC,teemapaallekkaisyys,0.75,laskettu,"T1,T5,T6",
 K-FI-879d,K-FI-1fcb,teemapaallekkaisyys,0.67,laskettu,"T4,T6",
 K-FI-879d,E-LV-e70c,teemapaallekkaisyys,0.67,laskettu,"T4,T6",
+R-FI-d4ba,X-IE-LIFE,teemapaallekkaisyys,0.67,laskettu,"T1,T7",
 K-FI-6894,K-FI-6c73,teemapaallekkaisyys,0.67,laskettu,"T1,T5",
 K-FI-6894,K-FI-56cf,teemapaallekkaisyys,0.67,laskettu,"T1,T5",
 K-FI-6894,K-FI-561d,teemapaallekkaisyys,1.0,laskettu,"T1,T5,T6",
@@ -981,6 +1000,7 @@ K-FI-665a,K-FI-0ac6,teemapaallekkaisyys,0.6,laskettu,"T1,T5,T6",
 K-FI-665a,E-LV-8eeb,teemapaallekkaisyys,0.67,laskettu,"T1,T6",
 K-FI-665a,K-LV-cbb2,teemapaallekkaisyys,0.67,laskettu,"T1,T5",
 K-FI-665a,X-FI-PEATRESC,teemapaallekkaisyys,0.75,laskettu,"T1,T5,T6",
+R-FI-b45a,E-LV-9406,teemapaallekkaisyys,1.0,laskettu,"T1,T3",
 K-FI-0ac6,K-LV-74bd,teemapaallekkaisyys,0.6,laskettu,"T1,T6,T8",
 E-IE-9275,E-IE-e6ef,teemapaallekkaisyys,1.0,laskettu,"T2,T5",
 E-IE-9275,E-IE-2cb2,teemapaallekkaisyys,1.0,laskettu,"T2,T5",

@@ -1,20 +1,31 @@
 name: Automaattihaku
 
+# Hakee avoimista rajapinnoista uusia hankeehdokkaita ja avaa niistä pull requestin tarkistettavaksi.
+# Tulokset menevät kansioon hakulahteet/automaattihaku/; aineistoon ne tulevat vasta, kun ylläpitäjä
+# siirtää hyväksytyt rivit kansioon hakulahteet/tulokset/ (ks. hakulahteet/automaattihaku/README.md).
+
 on:
+  schedule:
+    - cron: "17 3 * * 1"   # maanantaisin 03.17 UTC
   workflow_dispatch:
     inputs:
       naytteet:
-        description: "Tallenna raakavastaukset artefaktiksi (jäsentimien kehitys)"
+        description: "Tulosta raakavastausten otteet lokiin (jäsentimien kehitys)"
         type: boolean
         default: false
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: automaattihaku
+  cancel-in-progress: false
 
 jobs:
   haku:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,15 +38,22 @@ jobs:
       - name: Näytteiden otteet lokiin
         if: ${{ inputs.naytteet }}
         run: python scripts/haku/nayte.py naytteet
-      - name: Näytteet artefaktiksi
-        if: ${{ inputs.naytteet }}
-        uses: actions/upload-artifact@v4
+      - name: OpenAIRE (lähde 22)
+        run: python scripts/haku/openaire.py
+      - name: Pull request
+        uses: peter-evans/create-pull-request@v7
         with:
-          name: naytteet
-          path: naytteet/
-          retention-days: 7
-      - name: Saavutettavuustaulukko artefaktiksi
-        uses: actions/upload-artifact@v4
-        with:
-          name: saavutettavuus
-          path: hakulahteet/automaattihaku/saavutettavuus.md
+          branch: automaattihaku
+          delete-branch: true
+          add-paths: hakulahteet/automaattihaku/
+          commit-message: "Automaattihaku: uudet hankeehdokkaat"
+          title: "Automaattihaku: uudet hankeehdokkaat tarkistettavaksi"
+          body: |
+            Viikoittainen automaattihaku avoimista rajapinnoista.
+
+            - `hakulahteet/automaattihaku/saavutettavuus.md`: mitkä lähteet vastasivat GitHubin palvelimelta
+            - `hakulahteet/automaattihaku/*-<pvm>.csv`: uudet ehdokkaat, joita ei vielä ole aineistossa
+
+            Tarkista rajaus ja siirrä hyväksytyt rivit kansioon `hakulahteet/tulokset/`
+            ([ohje](../blob/main/hakulahteet/automaattihaku/README.md)). Tämä PR ei muuta aineistoa.
+          labels: automaattihaku
