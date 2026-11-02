@@ -172,7 +172,13 @@ rajauksen takia, yhdellä rivillä kukin.
 
 ### 1. Kohesio (EAKR, ESR+, JTF, koheesiorahasto, Interreg)
 
-Kohesio kattaa kaikki koheesiopolitiikan hankkeet koko EU:ssa. Maakohtaiset CSV-viennit ovat sivulla [kohesio.ec.europa.eu/fi/data](https://kohesio.ec.europa.eu/fi/data). Jos vienti onnistuu, se on hakua nopeampi: lataa maan projektitiedosto ja anna se Turverkon ylläpitäjälle, joka suodattaa sen.
+Kohesio kattaa kaikki koheesiopolitiikan hankkeet koko EU:ssa. **Ensisijainen tapa on kokonaisvienti, ei hakusanahaku.** Hakusanat löytävät vain hankkeet, joiden konekäännetyssä kuvauksessa sana sattuu olemaan. Kokonaisviennistä rajaus tehdään paikallisesti samoilla rajaustermeillä kuin muissa automaattihauissa.
+
+1. Avaa selaimessa [kohesio.ec.europa.eu/en/data](https://kohesio.ec.europa.eu/en/data) ja lataa maan projektitiedosto (Finland, Sweden, Estonia, Latvia, Ireland, Germany). Jos kokonaisvientiä ei ole, rajaa hakusivulla pelkkä maa ja ohjelmakausi ja vie tulokset (enintään 5 000 riviä kerrallaan; jaa ohjelmittain).
+2. Tallenna tiedostot kansioon `hakulahteet/vienti/` (ei mene GitHubiin) tai liitä ne Clauden keskusteluun.
+3. Aja `python scripts/haku/kohesio_vienti.py hakulahteet/vienti/*.csv`. Skripti tunnistaa sarakkeet, rajaa rivit ja kirjoittaa uudet ehdokkaat tiedostoon `hakulahteet/automaattihaku/1-kohesio-vienti-<pvm>.csv`.
+
+Alla oleva hakusanaohje on varatapa, jos vienti ei onnistu.
 
 ```text
 LÄHDE 1: Kohesio. Avaa https://kohesio.ec.europa.eu/en/projects
@@ -544,9 +550,13 @@ contribution", url = https://cordis.europa.eu/project/id/<numero>.
 
 ---
 
+## Hakukattavuuden mittaus
+
+Hakusanoilla ja rajaustermeillä ei voi tietää, kuinka suuri osa hankkeista löytyy. Siksi tiedostoon [`tunnetut.csv`](tunnetut.csv) kootaan hankkeita, joiden tiedetään olevan rajauksessa, hakumenetelmästä riippumatta: oma tieto, rahoittajien tiedotteet, kirjallisuus, kollegat. Skripti `scripts/kattavuus.py` laskee, kuinka moni niistä löytyy aineistosta tai automaattihaun ehdokkaista (`analysis/kattavuus.md`). 30–50 hanketta riittää suuntaa antavaan arvioon. Älä lisää listaan hankkeita aineistosta, koska silloin testi mittaa itseään.
+
 ## Tulosten tarkistus ennen tuontia
 
-- Poista kaksoiskappaleet: sama hanke löytyy usein sekä Kohesiosta että kansallisesta rekisteristä. Säilytä rivi, jossa on enemmän tietoa, ja kirjaa toinen URL kuvaukseen.
+- Poista kaksoiskappaleet: sama hanke löytyy usein sekä Kohesiosta että kansallisesta rekisteristä eri kielillä. Analyysi listaa todennäköiset kaksoiskappaleet tiedostoon `analysis/kaksoisehdokkaat.csv` (sama maa ja vuodet, yhteinen toimija ja samankaltainen sisältö). Yhdistä ne `src/tuonti.py`:n `MATCH_EXISTING`-listalla avaimella `"lähde:nimi"`.
 - Tarkista rajaus: pidä turvemaihin ja maaperään liittyvät hankkeet ([SCHEMA.md](../SCHEMA.md#rajaus-rajaus)).
 - Tarkista summat lähteestä, jos ne poikkeavat muista lähteistä.
 - Merkitse maaperähankkeet: hankkeet, jotka koskevat maaperän päästöjä, hiilensidontaa, MRV:tä tai vesitaloutta mutta eivät nimetysti turvemaata, kirjataan `src/tuonti.py`:n `MAAPERA`-listaan perusteluineen (rajaus = maaperä, [SCHEMA.md](../SCHEMA.md)). Hakusivulla ne voi suodattaa erikseen.

@@ -6,8 +6,8 @@
   "compared_projects": 148
  },
  "summary": {
-  "actors": 307,
-  "collab_edges": 248,
+  "actors": 306,
+  "collab_edges": 247,
   "unverified_edges": 3,
   "components": 81,
   "largest_component": 92,
@@ -20,6 +20,7 @@
   "sequential_unlinked": 5,
   "overlap_connected": 14,
   "overlap_family": 3,
+  "duplicate_candidates": 2,
   "theme_country_pairs": 72,
   "theme_country_pairs_unlinked": 66
  },
@@ -96,73 +97,73 @@
   },
   {
    "komponentti": 11,
-   "solmuja": 4,
-   "maita": 1,
-   "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
-  },
-  {
-   "komponentti": 12,
    "solmuja": 3,
    "maita": 1,
    "maat": "LV",
    "hankkeet_ja_keskukset": "LV-02"
   },
   {
-   "komponentti": 13,
+   "komponentti": 12,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-1746 K-DE-NI-dab1"
   },
   {
-   "komponentti": 14,
+   "komponentti": 13,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-a450 K-DE-NI-accd"
   },
   {
-   "komponentti": 15,
+   "komponentti": 14,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-0499 K-DE-NI-77b2"
   },
   {
-   "komponentti": 16,
+   "komponentti": 15,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-1847 K-DE-NI-34e3"
   },
   {
-   "komponentti": 17,
+   "komponentti": 16,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-3eb1 K-DE-NI-ee94"
   },
   {
-   "komponentti": 18,
+   "komponentti": 17,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-bf71 K-DE-NI-d8d1"
   },
   {
-   "komponentti": 19,
+   "komponentti": 18,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-03c5 K-DE-NI-6c80"
   },
   {
-   "komponentti": 20,
+   "komponentti": 19,
    "solmuja": 3,
    "maita": 1,
    "maat": "EU",
    "hankkeet_ja_keskukset": "T-EU-73cb T-EU-88fc"
+  },
+  {
+   "komponentti": 20,
+   "solmuja": 3,
+   "maita": 1,
+   "maat": "FI",
+   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
   },
   {
    "komponentti": 21,
@@ -602,7 +603,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 4,
-   "valityskeskeisyys": 0.0497,
+   "valityskeskeisyys": 0.05,
    "komponentti": 1
   },
   {
@@ -614,7 +615,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0273,
+   "valityskeskeisyys": 0.0275,
    "komponentti": 1
   },
   {
@@ -626,7 +627,7 @@
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0172,
+   "valityskeskeisyys": 0.0173,
    "komponentti": 1
   },
   {
@@ -638,7 +639,7 @@
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0118,
+   "valityskeskeisyys": 0.0119,
    "komponentti": 1
   },
   {
@@ -650,7 +651,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0116,
+   "valityskeskeisyys": 0.0117,
    "komponentti": 1
   },
   {
@@ -662,7 +663,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0109,
+   "valityskeskeisyys": 0.011,
    "komponentti": 1
   },
   {
@@ -698,7 +699,7 @@
    "keskuksia": 2,
    "keskukset": "H-FI H-FI-AKA",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0056,
+   "valityskeskeisyys": 0.0057,
    "komponentti": 1
   },
   {
@@ -722,7 +723,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.003,
+   "valityskeskeisyys": 0.0031,
    "komponentti": 1
   },
   {
@@ -774,8 +775,8 @@
    "komponentti": 1
   },
   {
-   "id": "lapin-ammattikorkeakoulu-oy",
-   "nimi": "Lapin ammattikorkeakoulu Oy",
+   "id": "lapin-ammattikorkeakoulu",
+   "nimi": "Lapin ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 2,
@@ -870,8 +871,8 @@
    "komponentti": 5
   },
   {
-   "id": "nabu-kreisverband-gifhorn-e-v",
-   "nimi": "NABU Kreisverband Gifhorn e.V.",
+   "id": "nabu-kreisverband-gifhorn",
+   "nimi": "NABU Kreisverband Gifhorn",
    "maa": "DE-NI",
    "tyyppi": "jarjesto",
    "hankkeita": 3,
@@ -903,7 +904,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 13
+   "komponentti": 12
   },
   {
    "id": "bund-fur-umwelt-und-naturschutz",
@@ -915,7 +916,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 14
+   "komponentti": 13
   },
   {
    "id": "universitat-greifswald",
@@ -927,7 +928,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 15
+   "komponentti": 14
   },
   {
    "id": "landkreis-cuxhaven",
@@ -939,7 +940,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 16
+   "komponentti": 15
   },
   {
    "id": "landkreis-emsland",
@@ -951,7 +952,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 17
+   "komponentti": 16
   },
   {
    "id": "landkreis-osterholz",
@@ -963,7 +964,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 18
+   "komponentti": 17
   },
   {
    "id": "landkreis-friesland",
@@ -975,7 +976,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 19
+   "komponentti": 18
   },
   {
    "id": "gate-21",
@@ -987,7 +988,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 20
+   "komponentti": 19
   },
   {
    "id": "john-nurmisen-saatio-sr",
@@ -1014,8 +1015,8 @@
    "komponentti": 10
   },
   {
-   "id": "kaakkois-suomen-ammattikorkeakoulu-oy",
-   "nimi": "Kaakkois-Suomen Ammattikorkeakoulu Oy",
+   "id": "kaakkois-suomen-ammattikorkeakoulu",
+   "nimi": "Kaakkois-Suomen Ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 2,
@@ -1023,7 +1024,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 11
+   "komponentti": 20
   },
   {
    "id": "suomen-riistanhoito-saatio-sr",
@@ -1179,7 +1180,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 12
+   "komponentti": 11
   },
   {
    "id": "lv-regions",
@@ -1191,7 +1192,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 12
+   "komponentti": 11
   },
   {
    "id": "nbas",
@@ -1374,10 +1375,10 @@
    "komponentti": 7
   },
   {
-   "id": "bonk-baumschulen-handels-gmbh",
-   "nimi": "Bonk Baumschulen Handels GmbH",
+   "id": "bonk-baumschulen-handels",
+   "nimi": "Bonk Baumschulen Handels",
    "maa": "DE-NI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1386,10 +1387,10 @@
    "komponentti": 7
   },
   {
-   "id": "baumschul-beratungsring-weser-ems-e-v",
-   "nimi": "Baumschul-Beratungsring Weser-Ems e.V.",
+   "id": "baumschul-beratungsring-weser-ems",
+   "nimi": "Baumschul-Beratungsring Weser-Ems",
    "maa": "DE-NI",
-   "tyyppi": "jarjesto",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1567,7 +1568,7 @@
   },
   {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
-   "nimi": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
+   "nimi": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie",
    "maa": "DE-NI",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1590,10 +1591,10 @@
    "komponentti": 2
   },
   {
-   "id": "constellr-gmbh",
-   "nimi": "constellr GmbH",
+   "id": "constellr",
+   "nimi": "constellr",
    "maa": "DE-NI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1627,7 +1628,7 @@
   },
   {
    "id": "europaisches-fachzentrum-moor-und-klima-",
-   "nimi": "Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH",
+   "nimi": "Europäisches Fachzentrum Moor und Klima Wagenfeld",
    "maa": "DE-NI",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1686,10 +1687,10 @@
    "komponentti": 43
   },
   {
-   "id": "lansirannikon-koulutus-oy",
-   "nimi": "Länsirannikon Koulutus Oy",
+   "id": "lansirannikon-koulutus",
+   "nimi": "Länsirannikon Koulutus",
    "maa": "FI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1698,8 +1699,8 @@
    "komponentti": 44
   },
   {
-   "id": "savonia-ammattikorkeakoulu-oy",
-   "nimi": "Savonia-ammattikorkeakoulu oy",
+   "id": "savonia-ammattikorkeakoulu",
+   "nimi": "Savonia-ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 1,
@@ -1710,8 +1711,8 @@
    "komponentti": 45
   },
   {
-   "id": "pohjois-savon-luonnonsuojelupiiri-ry",
-   "nimi": "Pohjois-Savon luonnonsuojelupiiri ry",
+   "id": "pohjois-savon-luonnonsuojelupiiri",
+   "nimi": "Pohjois-Savon luonnonsuojelupiiri",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1722,10 +1723,10 @@
    "komponentti": 46
   },
   {
-   "id": "upm-kymmene-oyj",
-   "nimi": "UPM-Kymmene Oyj",
+   "id": "upm-kymmene",
+   "nimi": "UPM-Kymmene",
    "maa": "FI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1770,8 +1771,8 @@
    "komponentti": 48
   },
   {
-   "id": "linttipower-oy",
-   "nimi": "LinttiPower Oy",
+   "id": "linttipower",
+   "nimi": "LinttiPower",
    "maa": "FI",
    "tyyppi": "yritys",
    "hankkeita": 1,
@@ -1782,8 +1783,8 @@
    "komponentti": 49
   },
   {
-   "id": "luontokollektiivi-ry",
-   "nimi": "Luontokollektiivi ry",
+   "id": "luontokollektiivi",
+   "nimi": "Luontokollektiivi",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1795,7 +1796,7 @@
   },
   {
    "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
-   "nimi": "Kokemäenjoen vesistön vesiensuojeluyhdistys ry",
+   "nimi": "Kokemäenjoen vesistön vesiensuojeluyhdistys",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1830,8 +1831,8 @@
    "komponentti": 22
   },
   {
-   "id": "jyvaskylan-ammattikorkeakoulu-oy",
-   "nimi": "Jyväskylän Ammattikorkeakoulu Oy",
+   "id": "jyvaskylan-ammattikorkeakoulu",
+   "nimi": "Jyväskylän Ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 1,
@@ -1843,7 +1844,7 @@
   },
   {
    "id": "maaseudun-sivistysliiton-vaara-karjalan-",
-   "nimi": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry",
+   "nimi": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1878,8 +1879,8 @@
    "komponentti": 53
   },
   {
-   "id": "tapio-oy",
-   "nimi": "Tapio Oy",
+   "id": "tapio",
+   "nimi": "Tapio",
    "maa": "FI",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1950,10 +1951,10 @@
    "komponentti": 56
   },
   {
-   "id": "ecochip-energy-ltd",
-   "nimi": "Ecochip Energy Ltd",
+   "id": "ecochip-energy",
+   "nimi": "Ecochip Energy",
    "maa": "IE",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1962,8 +1963,8 @@
    "komponentti": 57
   },
   {
-   "id": "kelly-s-nursery-ltd",
-   "nimi": "Kelly's Nursery Ltd",
+   "id": "kelly-s-nursery",
+   "nimi": "Kelly's Nursery",
    "maa": "IE",
    "tyyppi": "yritys",
    "hankkeita": 1,
@@ -1974,10 +1975,10 @@
    "komponentti": 58
   },
   {
-   "id": "derrymore-peat-ltd",
-   "nimi": "Derrymore Peat Ltd",
+   "id": "derrymore-peat",
+   "nimi": "Derrymore Peat",
    "maa": "IE",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1986,10 +1987,10 @@
    "komponentti": 59
   },
   {
-   "id": "strawchip-ltd",
-   "nimi": "Strawchip Ltd",
+   "id": "strawchip",
+   "nimi": "Strawchip",
    "maa": "IE",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -2334,8 +2335,8 @@
    "komponentti": 64
   },
   {
-   "id": "allogro-ab",
-   "nimi": "Allogro AB",
+   "id": "allogro",
+   "nimi": "Allogro",
    "maa": "SE",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -2382,8 +2383,8 @@
    "komponentti": 68
   },
   {
-   "id": "miljomatematik-malmo-ab",
-   "nimi": "Miljömatematik Malmö AB",
+   "id": "miljomatematik-malmo",
+   "nimi": "Miljömatematik Malmö",
    "maa": "SE",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -2394,8 +2395,8 @@
    "komponentti": 69
   },
   {
-   "id": "archaea-ab",
-   "nimi": "Archaea AB",
+   "id": "archaea",
+   "nimi": "Archaea",
    "maa": "SE",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -2416,18 +2417,6 @@
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
    "komponentti": 1
-  },
-  {
-   "id": "kaakkois-suomen-ammattikorkeakoulu",
-   "nimi": "Kaakkois-Suomen Ammattikorkeakoulu",
-   "maa": "FI",
-   "tyyppi": "amk",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 11
   }
  ],
  "overlaps": [
@@ -2805,7 +2794,7 @@
    "score": 0.284,
    "yhteiset": "near, gifhorn, moor, peat, turve",
    "samaan_aikaan": "kyllä",
-   "yhteiset_toimijat": "nabu-kreisverband-gifhorn-e-v",
+   "yhteiset_toimijat": "nabu-kreisverband-gifhorn",
    "etaisyys": 2,
    "tyyppi": "yhteydessä"
   },
@@ -5200,6 +5189,34 @@
   "puuttuva yhteys": "eri maat, ei yhteistyöpolkua",
   "yhteydessä": "yhteinen toimija tai yhteistyöpolku enintään kolme askelta"
  },
+ "duplicate_candidates": [
+  {
+   "a": "FI-06",
+   "a_nimi": "Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu",
+   "a_lahde": "käsin",
+   "b": "K-FI-0ac6",
+   "b_nimi": "Value from the carbon market for the next land use of peat production areas",
+   "b_lahde": "1",
+   "vuodet": "2023–2026",
+   "yhteiset_toimijat": "seamk",
+   "samankaltaisuus": 0.199,
+   "kasitteet": 0.566,
+   "peruste": "yhteinen toimija ja samat vuodet"
+  },
+  {
+   "a": "FI-07",
+   "a_nimi": "TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi",
+   "a_lahde": "käsin",
+   "b": "K-FI-6894",
+   "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
+   "b_lahde": "1",
+   "vuodet": "2024–2026",
+   "yhteiset_toimijat": "oy",
+   "samankaltaisuus": 0.07,
+   "kasitteet": 0.676,
+   "peruste": "yhteinen toimija ja samat vuodet"
+  }
+ ],
  "cross_country": {
   "FI–LV": 1,
   "DE-NI–IE": 2,
@@ -5807,8 +5824,8 @@
  ],
  "positions": {
   "3n-kompetenzzentrum-niedersachsen-netzwe": [
-   -0.3923,
-   -0.4479
+   0.4555,
+   0.4907
   ],
   "E-DE-NI-3e4b": [
    -0.2392,
@@ -5831,108 +5848,108 @@
    0.5243
   ],
   "E-IE-e6ef": [
-   -0.3973,
-   -0.3869
+   0.3744,
+   0.4942
   ],
   "E-LV-6430": [
-   0.0237,
-   0.4095
+   -0.3812,
+   -0.0008
   ],
   "E-LV-8eeb": [
-   0.0254,
-   0.4742
+   -0.449,
+   -0.0025
   ],
   "E-LV-9406": [
-   0.186,
-   0.4371
+   -0.417,
+   -0.1632
   ],
   "E-LV-b130": [
-   0.1041,
-   0.4343
+   -0.4428,
+   -0.0821
   ],
   "E-LV-c39d": [
-   0.2261,
-   0.2997
+   -0.3206,
+   -0.2267
   ],
   "E-LV-d12c": [
-   0.127,
-   0.4591
+   -0.4194,
+   -0.1068
   ],
   "E-LV-e70c": [
-   0.054,
-   0.4932
+   -0.468,
+   -0.0288
   ],
   "EE-02": [
-   0.2336,
-   -0.8824
+   0.0664,
+   -0.7176
   ],
   "FI-01": [
-   -0.0687,
-   -0.1324
+   0.2665,
+   0.0545
   ],
   "FI-02": [
-   -0.5413,
-   -0.0977
+   -0.5359,
+   -0.2023
   ],
   "FI-03": [
    -0.3304,
    -0.1542
   ],
   "FI-06": [
-   -0.0405,
-   -0.1522
+   0.2498,
+   0.075
   ],
   "FI-07": [
-   -0.0118,
-   -0.1237
+   0.2153,
+   0.0502
   ],
   "FI-08": [
-   -0.0499,
-   -0.1402
+   0.2379,
+   0.0783
   ],
   "FI-09": [
-   0.0772,
-   0.1275
+   -0.074,
+   -0.0301
   ],
   "FI-10": [
    -0.7953,
    -0.14
   ],
   "H-FI": [
-   -0.0704,
-   -0.1781
+   0.275,
+   0.1105
   ],
   "H-FI-AKA": [
-   -0.0325,
-   -0.1404
+   0.2376,
+   0.0921
   ],
   "H-IE-GAL": [
-   -0.128,
-   -0.2259
+   0.3109,
+   0.1791
   ],
   "H-IE-JTF": [
-   -0.0694,
-   -0.2201
+   0.3188,
+   0.119
   ],
   "H-IE-LIFE": [
-   -0.1226,
-   -0.2413
+   0.3291,
+   0.1774
   ],
   "H-LV": [
-   0.0915,
-   0.2405
+   -0.1974,
+   -0.0557
   ],
   "IE-01": [
-   -0.2951,
-   -0.3612
+   0.3919,
+   0.3852
   ],
   "IE-02": [
    0.6001,
-   0.45
+   0.4501
   ],
   "J-SE-0e6e": [
-   0.1594,
-   -0.056
+   0.0113,
+   0.0691
   ],
   "J-SE-2f3b": [
    -0.1615,
@@ -5943,88 +5960,88 @@
    -0.9777
   ],
   "J-SE-5a7e": [
-   -0.0633,
-   -0.7454
+   -0.1689,
+   -0.5357
   ],
   "J-SE-a3d4": [
-   -0.4635,
-   -0.7568
+   -0.2319,
+   -0.7955
   ],
   "J-SE-b073": [
    -0.1485,
    -0.9181
   ],
   "K-DE-NI-03c5": [
-   -0.1621,
-   0.6627
+   -0.212,
+   0.5831
   ],
   "K-DE-NI-0499": [
-   -0.2211,
-   0.8817
+   -0.3674,
+   0.7471
   ],
   "K-DE-NI-04a5": [
    -0.4943,
    0.4394
   ],
   "K-DE-NI-0e2b": [
-   -0.4278,
-   0.7315
+   -0.3682,
+   0.5161
   ],
   "K-DE-NI-1746": [
-   -0.4125,
-   0.4159
+   -0.3435,
+   0.5899
   ],
   "K-DE-NI-1847": [
-   -0.1865,
-   0.6508
+   -0.1603,
+   0.7638
   ],
   "K-DE-NI-1c15": [
-   -0.3634,
-   0.585
+   -0.37,
+   0.5857
   ],
   "K-DE-NI-209b": [
-   -0.4271,
-   0.8201
+   -0.2316,
+   0.6164
   ],
   "K-DE-NI-34e3": [
-   0.0382,
-   0.7778
+   0.0121,
+   0.6648
   ],
   "K-DE-NI-36d2": [
-   -0.2723,
-   0.6894
+   -0.1914,
+   0.6885
   ],
   "K-DE-NI-3ac3": [
-   0.0156,
-   0.4955
+   -0.0814,
+   0.7093
   ],
   "K-DE-NI-3eb1": [
-   -0.3344,
-   0.6707
+   -0.4151,
+   0.8526
   ],
   "K-DE-NI-410f": [
    -0.4963,
    0.8608
   ],
   "K-DE-NI-44a1": [
-   -0.1927,
-   0.4961
+   -0.3673,
+   0.3392
   ],
   "K-DE-NI-61e6": [
-   -0.2893,
-   0.5961
+   -0.5059,
+   0.6521
   ],
   "K-DE-NI-6c80": [
-   -0.0669,
-   0.4649
+   -0.0169,
+   0.5446
   ],
   "K-DE-NI-6f11": [
    -0.0549,
    0.688
   ],
   "K-DE-NI-77b2": [
-   -0.3674,
-   0.7471
+   -0.2211,
+   0.8817
   ],
   "K-DE-NI-7a94": [
    0.0129,
@@ -6039,192 +6056,192 @@
    0.5194
   ],
   "K-DE-NI-9595": [
-   -0.2914,
-   0.8569
+   -0.466,
+   0.6901
   ],
   "K-DE-NI-9d56": [
-   -0.2294,
-   0.7477
+   -0.2003,
+   0.721
   ],
   "K-DE-NI-a450": [
-   -0.2641,
-   0.4212
+   -0.2586,
+   0.5548
   ],
   "K-DE-NI-a456": [
-   -0.1697,
-   0.7092
+   -0.2275,
+   0.7394
   ],
   "K-DE-NI-accd": [
-   -0.0644,
-   0.5124
+   -0.0697,
+   0.3788
   ],
   "K-DE-NI-af02": [
-   -0.1917,
-   0.7577
+   -0.2849,
+   0.8562
   ],
   "K-DE-NI-b8d9": [
-   -0.2051,
-   0.6461
+   -0.2602,
+   0.736
   ],
   "K-DE-NI-bd6b": [
    -0.2884,
    0.7915
   ],
   "K-DE-NI-bf71": [
-   -0.2532,
-   0.9242
+   -0.3143,
+   0.8255
   ],
   "K-DE-NI-c05c": [
    -0.3637,
    0.9209
   ],
   "K-DE-NI-c1d3": [
-   -0.476,
-   0.5439
+   -0.3191,
+   0.7033
   ],
   "K-DE-NI-c57b": [
    -0.3406,
    0.3604
   ],
   "K-DE-NI-ca87": [
-   -0.1032,
-   0.6764
+   0.1308,
+   0.695
   ],
   "K-DE-NI-cad6": [
-   -0.411,
-   0.9045
+   -0.5343,
+   0.7047
   ],
   "K-DE-NI-cc25": [
    -0.3506,
    0.3694
   ],
   "K-DE-NI-cf1c": [
-   -0.2277,
-   0.6218
+   -0.1889,
+   0.7517
   ],
   "K-DE-NI-d14f": [
-   -0.3668,
-   -0.4265
+   0.4254,
+   0.4793
   ],
   "K-DE-NI-d3d6": [
-   -0.1451,
-   0.2722
+   -0.2333,
+   0.4898
   ],
   "K-DE-NI-d8d1": [
-   -0.1216,
-   0.7751
+   -0.0607,
+   0.8738
   ],
   "K-DE-NI-d90f": [
    0.0175,
    0.7909
   ],
   "K-DE-NI-dab1": [
-   -0.2525,
-   0.5663
+   -0.3215,
+   0.3923
   ],
   "K-DE-NI-e128": [
    -0.5464,
    0.7278
   ],
   "K-DE-NI-e147": [
-   0.003,
-   0.8647
+   -0.2246,
+   0.9222
   ],
   "K-DE-NI-e715": [
-   -0.1925,
-   0.7393
+   -0.2119,
+   0.6592
   ],
   "K-DE-NI-ee94": [
-   -0.526,
-   0.7779
+   -0.4455,
+   0.5962
   ],
   "K-DE-NI-f3b0": [
    -0.6119,
    0.4883
   ],
   "K-DE-NI-f620": [
-   -0.4632,
-   0.6841
+   -0.4232,
+   0.8254
   ],
   "K-DE-NI-f68e": [
-   -0.1719,
-   0.6705
+   -0.279,
+   0.676
   ],
   "K-EU-0882": [
-   -0.0425,
-   -0.1777
+   0.0642,
+   0.0314
   ],
   "K-EU-2e51": [
-   0.0859,
-   -0.0247
+   0.0771,
+   0.0399
   ],
   "K-EU-48f5": [
    0.0311,
    0.2643
   ],
   "K-EU-5a7e": [
-   -0.0319,
-   0.0045
+   -0.2635,
+   0.0432
   ],
   "K-EU-f426": [
-   0.2196,
-   0.0458
+   0.0515,
+   -0.1181
   ],
   "K-FI-006d": [
-   0.1117,
-   -0.0423
+   0.1091,
+   0.0912
   ],
   "K-FI-050e": [
-   -0.599,
-   -0.1064
+   -0.4406,
+   -0.2601
   ],
   "K-FI-06b9": [
-   -0.6555,
-   -0.2701
+   -0.5319,
+   -0.0128
   ],
   "K-FI-0ac6": [
-   0.0259,
-   -0.0455
+   0.1252,
+   0.0249
   ],
   "K-FI-16d2": [
    -0.5778,
    -0.1019
   ],
   "K-FI-1d92": [
-   0.1013,
-   -0.1292
+   0.1604,
+   -0.0641
   ],
   "K-FI-1fcb": [
    -0.529,
    -0.3644
   ],
   "K-FI-2fcc": [
-   -0.48,
-   -0.1364
+   -0.2682,
+   -0.035
   ],
   "K-FI-3bb2": [
    -0.7086,
    0.0397
   ],
   "K-FI-519c": [
-   0.0764,
-   0.0347
+   0.0242,
+   -0.0087
   ],
   "K-FI-561d": [
-   -0.0837,
-   -0.0806
+   0.2865,
+   -0.0044
   ],
   "K-FI-56cf": [
-   -0.5091,
-   -0.2316
+   -0.6226,
+   -0.0917
   ],
   "K-FI-665a": [
-   -0.5319,
-   0.0706
+   -0.4003,
+   -0.1516
   ],
   "K-FI-6894": [
-   0.0933,
-   -0.0364
+   0.0914,
+   0.0312
   ],
   "K-FI-6978": [
    -0.384,
@@ -6236,47 +6253,47 @@
   ],
   "K-FI-6f20": [
    -0.6977,
-   -0.1761
+   -0.1762
   ],
   "K-FI-7c34": [
-   0.1992,
-   -0.0409
+   0.0575,
+   0.131
   ],
   "K-FI-879d": [
-   -0.1447,
-   -0.1404
+   0.3515,
+   0.0249
   ],
   "K-FI-8d28": [
    -0.6792,
    -0.156
   ],
   "K-FI-9061": [
-   0.0563,
-   0.0382
+   0.0344,
+   -0.0258
   ],
   "K-FI-9511": [
-   -0.0606,
-   -0.0932
+   0.2338,
+   0.0069
   ],
   "K-FI-9cd5": [
-   -0.4003,
-   -0.1516
+   -0.5319,
+   0.0706
   ],
   "K-FI-a45d": [
-   0.159,
-   -0.1876
+   0.1854,
+   -0.1457
   ],
   "K-FI-b095": [
-   -0.423,
-   -0.2763
+   -0.7231,
+   -0.1453
   ],
   "K-FI-b38f": [
-   -0.7074,
-   -0.0021
+   -0.6377,
+   -0.2862
   ],
   "K-FI-c4ea": [
-   -0.3814,
-   -0.0907
+   -0.2844,
+   -0.3045
   ],
   "K-FI-cb20": [
    -0.7963,
@@ -6287,312 +6304,312 @@
    -0.3039
   ],
   "K-FI-e290": [
-   -0.6152,
-   -0.2138
+   -0.5166,
+   -0.063
   ],
   "K-FI-e8b3": [
-   0.1819,
-   -0.0363
+   0.058,
+   0.1103
   ],
   "K-IE-06fb": [
    0.6385,
    0.5397
   ],
   "K-IE-0814": [
-   0.6642,
-   0.4314
+   0.5575,
+   0.2223
   ],
   "K-IE-0b63": [
    0.6311,
    0.6643
   ],
   "K-IE-7fa4": [
-   -0.3323,
-   -0.4262
+   0.4435,
+   0.4431
   ],
   "K-IE-8525": [
-   0.3365,
-   0.4432
+   0.5681,
+   0.4045
   ],
   "K-IE-cee8": [
-   0.8196,
-   0.4458
+   0.6515,
+   0.2819
   ],
   "K-IE-d7ff": [
    0.5394,
    0.7306
   ],
   "K-LV-2fac": [
-   0.3067,
-   -0.4479
+   0.5385,
+   -0.4103
   ],
   "K-LV-37ba": [
    0.4575,
    -0.7277
   ],
   "K-LV-4390": [
-   0.0448,
-   0.4412
+   -0.4103,
+   -0.0245
   ],
   "K-LV-74bd": [
-   0.0651,
-   0.4645
+   -0.4284,
+   -0.0279
   ],
   "K-LV-cbb2": [
    0.5311,
    -0.2857
   ],
   "K-SE-8b1e": [
-   -0.2173,
-   -0.8479
+   -0.2979,
+   -0.7996
   ],
   "K-SE-be89": [
-   -0.1828,
-   -0.6521
+   -0.1021,
+   -0.7004
   ],
   "K-SE-dbb8": [
-   -0.2278,
-   -0.7019
+   -0.2606,
+   -0.4694
   ],
   "LV-01": [
-   0.1058,
-   0.3534
+   -0.321,
+   -0.081
   ],
   "LV-02": [
-   0.5,
+   0.4999,
    -0.5
   ],
   "LV-03": [
-   0.0504,
-   0.4569
+   -0.4345,
+   -0.0451
   ],
   "NI-01": [
-   -0.267,
+   -0.2567,
    0.6236
   ],
   "NI-02": [
-   -0.2637,
-   0.7296
+   -0.2833,
+   0.7116
   ],
   "NI-03": [
-   -0.3373,
+   -0.2843,
    0.5142
   ],
   "R-FI-70e5": [
-   0.0568,
-   -0.033
+   0.0961,
+   -0.0042
   ],
   "R-FI-b45a": [
-   0.013,
-   -0.0386
+   0.1288,
+   0.0108
   ],
   "R-FI-d4ba": [
    -0.3549,
    -0.112
   ],
   "T-EU-73cb": [
-   -0.0953,
-   0.0126
+   0.0483,
+   0.1502
   ],
   "T-EU-88fc": [
-   -0.0596,
-   0.2292
+   -0.2031,
+   0.0917
   ],
   "T-SE-5e29": [
    -0.179,
    -0.9644
   ],
   "T-SE-bda3": [
-   0.0708,
-   -0.0391
+   0.0945,
+   -0.0214
   ],
   "X-DE-SH": [
    0.25,
    0.85
   ],
   "X-FI-PEATRESC": [
-   -0.0007,
-   -0.095
+   0.2025,
+   0.0545
   ],
   "X-IE-GAL": [
-   -0.1835,
-   -0.2698
+   0.3419,
+   0.2454
   ],
   "X-IE-LIFE": [
-   -0.1731,
-   -0.3019
+   0.3807,
+   0.2422
   ],
   "X-IE-NAT": [
-   -0.182,
-   -0.3784
+   0.4602,
+   0.2642
   ],
   "aalto": [
-   -0.0194,
-   -0.0804
+   0.2262,
+   0.0382
   ],
   "agroost-ideell-forening": [
    -0.386,
    -0.8535
   ],
   "akcelerator-drustvenih-promjena-zid": [
-   -0.2635,
-   0.0432
+   -0.0319,
+   0.0045
   ],
   "akciju-sabiedriba-latvijas-valsts-mezi": [
    0.6367,
    -0.4954
   ],
-  "allogro-ab": [
-   -0.1689,
-   -0.5357
+  "allogro": [
+   -0.0633,
+   -0.7454
   ],
-  "archaea-ab": [
-   -0.2319,
-   -0.7955
+  "archaea": [
+   -0.4635,
+   -0.7568
   ],
   "archehof-rolfes": [
    -0.1799,
    0.4268
   ],
   "arei": [
-   0.0618,
-   0.3783
+   -0.3475,
+   -0.0377
   ],
   "association-des-chambres-d-agriculture-d": [
-   0.0642,
-   0.0314
+   -0.0425,
+   -0.1777
   ],
-  "baumschul-beratungsring-weser-ems-e-v": [
-   -0.2235,
-   0.4054
+  "baumschul-beratungsring-weser-ems": [
+   -0.2014,
+   0.4123
   ],
   "biedriba-baltijas-krasti": [
-   0.0058,
-   0.5045
+   -0.4688,
+   0.0288
   ],
   "biedriba-latvijas-biologiskas-lauksaimni": [
-   0.2616,
-   0.2905
+   -0.3154,
+   -0.2523
   ],
   "biedriba-latvijas-kudras-asociacija": [
-   0.1208,
-   0.4927
+   -0.4518,
+   -0.1091
   ],
   "biedriba-preilu-lauksaimnieku-apvieniba": [
-   -0.0106,
-   0.4073
+   -0.378,
+   0.0328
   ],
   "biolat": [
-   0.1031,
-   0.4611
+   -0.4765,
+   -0.0725
   ],
   "blackstairs-farming-group": [
-   -0.4264,
-   -0.3819
+   0.3746,
+   0.5262
   ],
   "bnm": [
-   -0.1783,
-   -0.3467
+   0.4273,
+   0.2551
   ],
   "boerenbond-projecten-vzw": [
-   -0.3675,
-   -0.4566
+   0.449,
+   0.5045
   ],
-  "bonk-baumschulen-handels-gmbh": [
-   -0.3607,
-   0.5111
+  "bonk-baumschulen-handels": [
+   -0.3538,
+   0.4891
   ],
   "broads-authority": [
-   0.0515,
-   -0.1181
+   0.2196,
+   0.0458
   ],
   "bund-fur-umwelt-und-naturschutz": [
-   -0.1641,
+   -0.1642,
    0.4668
   ],
   "carl-von-ossietzky-universitat-oldenburg": [
-   -0.5343,
-   0.7047
+   -0.411,
+   0.9045
   ],
   "cfla": [
-   0.5979,
-   -0.5841
+   0.4021,
+   -0.5496
   ],
   "chydenius": [
-   -0.0932,
-   -0.1489
+   0.2996,
+   0.0496
   ],
-  "constellr-gmbh": [
-   -0.3947,
-   -0.4341
+  "constellr": [
+   0.4362,
+   0.5119
   ],
   "dammtechnik-neuhaus": [
-   -0.2698,
-   0.7179
+   -0.0628,
+   0.8034
   ],
-  "derrymore-peat-ltd": [
+  "derrymore-peat": [
    0.5722,
    0.4981
   ],
   "dhlgh": [
-   -0.1954,
-   -0.318
+   0.4071,
+   0.2537
   ],
-  "ecochip-energy-ltd": [
-   0.6515,
-   0.2819
+  "ecochip-energy": [
+   0.8196,
+   0.4458
   ],
   "eigen-vermogen-van-het-instituut-voor-la": [
-   -0.3818,
-   -0.4567
+   0.4218,
+   0.509
   ],
   "emra": [
-   -0.0663,
-   -0.2511
+   0.352,
+   0.1221
   ],
   "ep-ely": [
-   -0.5299,
-   -0.0294
+   -0.5176,
+   -0.2706
   ],
   "epa-ie": [
-   -0.1626,
-   -0.3275
+   0.397,
+   0.2674
   ],
   "europaisches-fachzentrum-moor-und-klima-": [
    -0.431,
    0.638
   ],
   "galway": [
-   -0.2282,
-   -0.3163
+   0.3738,
+   0.3032
   ],
   "galway-mayo-institute-of-technology": [
-   -0.4259,
-   -0.3986
+   0.3585,
+   0.5206
   ],
   "gate-21": [
-   -0.0774,
-   0.121
+   -0.0775,
+   0.1209
   ],
   "geologian-tutkimuskeskus": [
-   0.0386,
-   -0.0261
+   0.1088,
+   0.0057
   ],
   "gourmet-industries": [
-   0.1207,
-   0.428
+   -0.4793,
+   -0.0969
   ],
   "gri": [
-   -0.3298,
-   -0.4003
+   0.4168,
+   0.4333
   ],
   "hiiliporssi": [
-   -0.0083,
-   -0.0704
+   0.2065,
+   0.0246
   ],
   "hochschule-hannover": [
-   -0.1502,
-   0.8703
+   -0.1798,
+   0.648
   ],
   "hushallningssallskapet-i-norrbotten-vast": [
    0.0196,
@@ -6603,195 +6620,191 @@
    -0.6979
   ],
   "hy": [
-   -0.0451,
-   -0.1044
+   0.2463,
+   0.0289
   ],
   "ies": [
-   0.0983,
-   0.3347
+   -0.3051,
+   -0.099
   ],
   "il": [
-   0.0074,
-   -0.1204
+   0.2166,
+   0.0661
   ],
   "ilmatieteen-laitos": [
-   -0.0929,
-   -0.0914
+   0.2536,
+   -0.0234
   ],
   "intrigo": [
-   -0.1821,
-   -0.3277
+   0.4099,
+   0.235
   ],
   "irl": [
-   0.7205,
-   0.4284
+   0.4794,
+   0.543
   ],
   "jarviseudun-koulutuskuntayhtyma": [
-   -0.0025,
-   -0.0236
+   0.1353,
+   -0.0212
   ],
   "john-nurmisen-saatio-sr": [
-   -0.5422,
-   -0.3894
+   -0.5611,
+   -0.1747
   ],
-  "jyvaskylan-ammattikorkeakoulu-oy": [
-   -0.6461,
-   -0.0793
+  "jyvaskylan-ammattikorkeakoulu": [
+   -0.6556,
+   -0.2662
   ],
   "jyvaskylan-yliopisto": [
-   -0.7494,
-   -0.273
+   -0.7398,
+   -0.0861
   ],
   "kaakkois-suomen-ammattikorkeakoulu": [
-   -0.5474,
-   -0.156
-  ],
-  "kaakkois-suomen-ammattikorkeakoulu-oy": [
-   -0.6559,
-   -0.0517
+   -0.5392,
+   -0.2732
   ],
   "keha": [
-   -0.5546,
-   -0.1775
+   -0.5574,
+   -0.1224
   ],
-  "kelly-s-nursery-ltd": [
-   0.5575,
-   0.2223
+  "kelly-s-nursery": [
+   0.6642,
+   0.4314
   ],
   "kinno": [
-   0.0704,
-   0.1483
+   -0.0971,
+   -0.0303
   ],
   "kokemaenjoen-vesiston-vesiensuojeluyhdis": [
    -0.6106,
    0.1306
   ],
   "ks-ely": [
-   -0.0336,
-   -0.1839
+   0.2811,
+   0.0846
   ],
   "landkreis-cuxhaven": [
-   -0.074,
+   -0.0741,
    0.7143
   ],
   "landkreis-emsland": [
    -0.4303,
-   0.7244
+   0.7243
   ],
   "landkreis-friesland": [
-   -0.1144,
+   -0.1145,
    0.5638
   ],
   "landkreis-luneburg": [
-   -0.2246,
-   0.9222
+   0.003,
+   0.8647
   ],
   "landkreis-osterholz": [
-   -0.1875,
+   -0.1874,
    0.8497
   ],
   "landkreis-stade": [
-   -0.3324,
-   0.4911
+   -0.3325,
+   0.491
   ],
   "landkreis-vechta": [
-   -0.2333,
-   0.4898
+   -0.1451,
+   0.2722
   ],
   "landkreis-verden": [
    -0.3792,
    0.644
   ],
-  "lansirannikon-koulutus-oy": [
+  "lansirannikon-koulutus": [
    -0.3782,
    0.1216
   ],
   "lansstyrelsen-i-norrbottens-lan": [
-   -0.2606,
-   -0.4694
+   -0.2278,
+   -0.7019
   ],
-  "lapin-ammattikorkeakoulu-oy": [
-   0.1353,
-   -0.1631
+  "lapin-ammattikorkeakoulu": [
+   0.1749,
+   -0.112
   ],
   "lappeenrannan-lahden-teknillinen-yliopis": [
-   -0.1143,
-   -0.0668
+   0.3154,
+   -0.0285
   ],
   "lathort": [
-   0.1676,
-   0.326
+   -0.3188,
+   -0.1555
   ],
   "latvijas-cuku-audzetaju-asociacija": [
-   0.1565,
-   0.4842
+   -0.4419,
+   -0.1222
   ],
   "lauksaimniecibas-statutsabiedribu-asocia": [
-   0.147,
-   0.4958
+   -0.4444,
+   -0.1376
   ],
   "lbtu": [
-   0.1184,
-   0.4047
+   -0.3685,
+   -0.0955
   ],
-  "linttipower-oy": [
+  "linttipower": [
    -0.7943,
    -0.3606
   ],
   "llu-macibu-un-petijumu-saimnieciba-vecau": [
-   0.1326,
-   0.4986
+   -0.4567,
+   -0.1258
   ],
   "ltu": [
-   0.0925,
-   -0.0598
+   0.0862,
+   -0.0543
   ],
   "lu": [
-   0.1354,
-   0.4137
+   -0.3906,
+   -0.1081
   ],
   "luke": [
-   0.0609,
-   0.0107
+   0.0526,
+   -0.0005
   ],
   "luonnonperintosaatio-sr": [
-   -0.536,
-   -0.1568
+   -0.6936,
+   0.0165
   ],
-  "luontokollektiivi-ry": [
+  "luontokollektiivi": [
    -0.5665,
    0.0127
   ],
   "lv-regions": [
-   0.4021,
-   -0.4159
+   0.5979,
+   -0.4504
   ],
   "maaseudun-sivistysliiton-vaara-karjalan-": [
-   0.1391,
-   -0.0245
+   0.1086,
+   0.1226
   ],
   "metsahallitus": [
    -0.5444,
    -0.2475
   ],
   "metsakeskus": [
-   -0.1128,
-   -0.1371
+   0.3162,
+   0.037
   ],
   "mikkelin-kaupunki": [
-   -0.2844,
-   -0.3045
+   -0.3814,
+   -0.0907
   ],
-  "miljomatematik-malmo-ab": [
+  "miljomatematik-malmo": [
    -0.1358,
    -0.7686
   ],
   "mittuniversitetet": [
-   0.1193,
-   -0.1535
+   0.1666,
+   -0.0948
   ],
   "ml-ni": [
-   -0.3631,
+   -0.2944,
    0.4741
   ],
   "mourne-and-down-district-council": [
@@ -6799,24 +6812,24 @@
    0.4546
   ],
   "mpks-mezsaimnieks": [
-   -0.003,
-   0.4299
+   -0.3659,
+   0.023
   ],
-  "nabu-kreisverband-gifhorn-e-v": [
+  "nabu-kreisverband-gifhorn": [
    -0.3977,
-   0.6239
+   0.6238
   ],
   "naturschutzstiftung-des-landkreises-cuxh": [
-   -0.3275,
+   -0.3274,
    0.7209
   ],
   "naturschutzstiftung-grafschaft-bentheim": [
-   0.1308,
-   0.695
+   -0.1032,
+   0.6764
   ],
   "nbas": [
-   0.4795,
-   0.4716
+   0.507,
+   0.3294
   ],
   "niedersachsische-landesforsten-a-o-r-for": [
    -0.0782,
@@ -6827,36 +6840,36 @@
    0.5382
   ],
   "niedersachsische-landesforsten-aor-forst": [
-   -0.0814,
-   0.7093
+   0.0156,
+   0.4955
   ],
   "nlwkn": [
-   -0.2233,
+   -0.2395,
    0.6915
   ],
   "nmu": [
-   -0.3048,
-   0.5648
+   -0.2715,
+   0.5649
   ],
   "offis": [
-   -0.1177,
-   0.5425
+   -0.2769,
+   0.6414
   ],
   "olga-steinberga-sia-latvijas-lauku-konsu": [
-   -0.0065,
-   0.4189
+   -0.4017,
+   0.0234
   ],
   "oulun-kaupunki": [
    -0.752,
    -0.191
   ],
   "oy": [
-   0.0582,
-   -0.0822
+   0.1432,
+   0.0003
   ],
-  "pohjois-savon-luonnonsuojelupiiri-ry": [
-   -0.2682,
-   -0.035
+  "pohjois-savon-luonnonsuojelupiiri": [
+   -0.48,
+   -0.1364
   ],
   "pp-ely": [
    -0.4985,
@@ -6867,18 +6880,18 @@
    -0.5186
   ],
   "rmk": [
-   0.0664,
-   -0.7176
+   0.2336,
+   -0.8824
   ],
   "rspb-ni": [
    0.4067,
    0.5021
   ],
   "rtu": [
-   0.1257,
-   0.3462
+   -0.2994,
+   -0.075
   ],
-  "savonia-ammattikorkeakoulu-oy": [
+  "savonia-ammattikorkeakoulu": [
    -0.736,
    -0.2535
   ],
@@ -6887,95 +6900,95 @@
    0.8127
   ],
   "seamk": [
-   -0.0235,
-   -0.0978
+   0.1999,
+   0.04
   ],
   "sia-eko-darzs": [
-   0.2536,
-   0.3056
+   -0.2998,
+   -0.2506
   ],
   "sia-komercsabiedriba-arosa-r": [
-   0.2185,
-   0.4458
+   -0.4285,
+   -0.1975
   ],
   "sia-latvijas-lauku-konsultaciju-un-izgli": [
-   0.2356,
-   0.2843
+   -0.3425,
+   -0.2487
   ],
   "sia-lm-product": [
-   0.2452,
-   0.2738
+   -0.3183,
+   -0.2653
   ],
   "silava": [
-   0.0698,
-   0.4349
+   -0.408,
+   -0.0483
   ],
   "skogsstyrelsen": [
-   -0.2,
-   -0.7499
+   -0.2001,
+   -0.75
   ],
   "slu": [
-   0.1284,
-   -0.0402
+   0.0391,
+   0.056
   ],
   "staatliche-moorverwaltung": [
    -0.5965,
    0.7196
   ],
   "stadu-un-kudras-inovaciju-fonds": [
-   0.0887,
-   0.4427
+   -0.4835,
+   -0.0842
   ],
   "stadu-un-kudras-inovaciju-fonds-skif": [
-   0.1403,
-   0.4843
+   -0.4119,
+   -0.1327
   ],
-  "strawchip-ltd": [
-   0.5681,
-   0.4045
+  "strawchip": [
+   0.3365,
+   0.4432
   ],
   "suomen-riistanhoito-saatio-sr": [
    -0.466,
    -0.0406
   ],
   "syke": [
-   0.1497,
-   -0.0384
+   0.0771,
+   0.088
   ],
   "sykli": [
-   0.095,
-   0.1417
+   -0.0847,
+   -0.0523
   ],
-  "tapio-oy": [
+  "tapio": [
    -0.6673,
    -0.4608
   ],
   "tcd": [
-   -0.2102,
-   -0.2737
+   0.3448,
+   0.2718
   ],
   "teagasc": [
-   -0.35,
-   -0.3865
+   0.3936,
+   0.4483
   ],
   "thorkas-ug-i-g": [
-   -0.2549,
-   0.6482
+   -0.1246,
+   0.5645
   ],
   "torfwerk-moorkultur-ramsloh-werner-koch-": [
    -0.2356,
    1.0203
   ],
   "turun-yliopisto": [
-   0.2334,
-   -0.044
+   0.0434,
+   0.1615
   ],
   "uef": [
-   0.0558,
-   -0.0582
+   0.134,
+   0.0557
   ],
   "umeras": [
-   0.6216,
+   0.693,
    0.5706
   ],
   "universitat-greifswald": [
@@ -6983,56 +6996,56 @@
    0.8144
   ],
   "universitat-rostock": [
-   -0.3673,
-   0.3392
+   -0.1927,
+   0.4961
   ],
-  "upm-kymmene-oyj": [
+  "upm-kymmene": [
    -0.604,
    0.0356
   ],
   "valmieras-novada-pasvaldiba": [
-   0.5385,
-   -0.4103
+   0.3067,
+   -0.4479
   ],
   "van-hall-larenstein-university-of-applie": [
    0.1367,
    0.0546
   ],
   "wester-gbr": [
-   -0.0781,
-   0.6903
+   -0.2557,
+   0.827
   ],
   "wsi": [
-   0.5783,
-   0.3294
+   0.7205,
+   0.3569
   ],
   "z-s-andrupeni": [
-   0.0385,
-   0.5262
+   -0.5022,
+   -0.0111
   ],
   "z-s-kaleji": [
-   -0.0046,
-   0.4934
+   -0.4805,
+   0.0183
   ],
   "z-s-kiburi": [
-   0.0532,
-   0.5299
+   -0.5067,
+   -0.0259
   ],
   "zemnieku-saimnieciba-kaigi": [
-   0.2127,
-   0.4601
+   -0.4431,
+   -0.1906
   ],
   "zs-atvases": [
-   0.2519,
-   0.2859
+   -0.334,
+   -0.2608
   ],
   "zs-baltini": [
-   0.157,
-   0.4703
+   -0.4283,
+   -0.1364
   ],
   "zs-lielvaiceni": [
-   -0.0005,
-   0.3962
+   -0.3922,
+   0.0339
   ]
  }
 }

@@ -45,6 +45,32 @@ def collab_graph(nodes, edges, include_unverified=True):
     return G
 
 
+def duplicates(projects, actors, pairs):
+    """Hankeparit, jotka ovat todennäköisesti sama hanke: sama maa ja samat alku- ja loppuvuodet sekä
+    yhteinen organisaatio tai hyvin samankaltainen teksti. Lähteet eri (tai toinen käsin kuratoitu)."""
+    texts = {i: OV.text_of(p) for i, p in projects.items()}
+    vec, cvec = OV.vectors(texts), OV.concept_vectors(texts)
+    sim = lambda a, b: OV.cosine(vec[a], vec[b]) if a in vec and b in vec else 0.0
+    csim = lambda a, b: OV.cosine(cvec[a], cvec[b]) if a in cvec and b in cvec else 0.0
+    src = lambda p: (p.get("imported_from") or "käsin").split("-")[0]
+    ids = sorted(i for i, p in projects.items() if p.get("start") and p.get("end"))
+    out = []
+    for x, a in enumerate(ids):
+        for b in ids[x + 1:]:
+            pa, pb = projects[a], projects[b]
+            if pa.get("country") != pb.get("country") or (pa["start"], pa["end"]) != (pb["start"], pb["end"]):
+                continue
+            if src(pa) == src(pb) != "käsin":
+                continue
+            shared = actors.get(a, set()) & actors.get(b, set())
+            s, c = round(sim(a, b), 3), round(csim(a, b), 3)
+            if (shared and (s >= 0.12 or c >= 0.6)) or s >= 0.35:
+                out.append(dict(a=a, a_nimi=pa["name"], a_lahde=src(pa), b=b, b_nimi=pb["name"], b_lahde=src(pb),
+                                vuodet=f'{pa["start"]}–{pa["end"]}', yhteiset_toimijat=" ".join(sorted(shared)), samankaltaisuus=s, kasitteet=c,
+                                peruste="yhteinen toimija ja samat vuodet" if shared else "samankaltainen teksti ja samat vuodet"))
+    return out
+
+
 def main():
     nodes, edges = load()
     G = collab_graph(nodes, edges)
@@ -102,6 +128,10 @@ def main():
     write_csv(out / "paallekkaisyydet.csv", pairs)
     write_csv(out / "puuttuvat_yhteydet.csv", miss)
     write_csv(out / "herkkyys.csv", sensitivity)
+
+    # 3b. Kaksoisehdokkaat: sama hanke eri lähteistä eri nimillä (esim. EURA suomeksi, Kohesio englanniksi)
+    dups = duplicates(projects, actors, pairs)
+    write_csv(out / "kaksoisehdokkaat.csv", dups)
 
     # 4. Maiden väliset dokumentoidut yhteydet
     cross, cross_unv = Counter(), Counter()
@@ -162,9 +192,9 @@ def main():
                      sequential_unlinked=sum(1 for m in miss if m["tyyppi"] == "peräkkäiset samassa maassa"),
                      overlap_connected=sum(1 for m in pairs if m["tyyppi"] == "yhteydessä"),
                      overlap_family=sum(1 for m in pairs if m["tyyppi"] == "saman kokonaisuuden osat"),
-                     theme_country_pairs=len(gaps), theme_country_pairs_unlinked=sum(1 for g in gaps if not g["yhteys"])),
+                     duplicate_candidates=len(dups), theme_country_pairs=len(gaps), theme_country_pairs_unlinked=sum(1 for g in gaps if not g["yhteys"])),
         components=comp_rows, organisations=org_rows, overlaps=pairs, missing_links=miss, sensitivity=sensitivity,
-        overlap_types=OV.TYPES,
+        overlap_types=OV.TYPES, duplicate_candidates=dups,
         cross_country={f"{a}–{b}": n for (a, b), n in cross.items()},
         cross_country_unverified={f"{a}–{b}": n for (a, b), n in cross_unv.items()}, hub_shared_orgs=shared,
         theme_country_gaps=gaps,
@@ -174,6 +204,8 @@ def main():
     (ROOT / "data" / "analysis.json").write_text(json.dumps(analysis, ensure_ascii=False, indent=1), encoding="utf-8")
     report(analysis, nodes)
     print(json.dumps(analysis["summary"], ensure_ascii=False))
+    import kattavuus
+    kattavuus.main()
 
 
 # Maiden ankkuripisteet asettelussa (x, y välillä −1…1): saarekkeet ryhmittyvät maittain
@@ -232,6 +264,7 @@ def report(a, nodes):
          f"  - puuttuvia maiden välisiä yhteyksiä: **{s['missing_cross_country']}**",
          f"  - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **{s['overlap_connected']}**",
          f"  - saman hankekokonaisuuden osia: **{s['overlap_family']}**",
+         f"- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **{s['duplicate_candidates']}**. Ne tarkistetaan ja yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla (`analysis/kaksoisehdokkaat.csv`).",
          "", "## Maiden väliset yhteydet", ""]
     L += [f"- {k}: {v} (lähteellä vahvistettu)" for k, v in sorted(a["cross_country"].items())] or ["- Ei vahvistettuja."]
     L += [f"- {k}: {v} (kumppani vahvistamatta)" for k, v in sorted(a["cross_country_unverified"].items())]

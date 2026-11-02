@@ -2825,17 +2825,17 @@
       <data key="d2">DE-NI</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="bonk-baumschulen-handels-gmbh">
+    <node id="bonk-baumschulen-handels">
       <data key="d0">organisaatio</data>
-      <data key="d1">Bonk Baumschulen Handels GmbH</data>
+      <data key="d1">Bonk Baumschulen Handels</data>
       <data key="d2">DE-NI</data>
-      <data key="d23">yritys</data>
+      <data key="d23">viranomainen</data>
     </node>
-    <node id="baumschul-beratungsring-weser-ems-e-v">
+    <node id="baumschul-beratungsring-weser-ems">
       <data key="d0">organisaatio</data>
-      <data key="d1">Baumschul-Beratungsring Weser-Ems e.V.</data>
+      <data key="d1">Baumschul-Beratungsring Weser-Ems</data>
       <data key="d2">DE-NI</data>
-      <data key="d23">jarjesto</data>
+      <data key="d23">viranomainen</data>
     </node>
     <node id="hochschule-hannover">
       <data key="d0">organisaatio</data>
@@ -2915,9 +2915,9 @@
       <data key="d2">DE-NI</data>
       <data key="d23">jarjesto</data>
     </node>
-    <node id="nabu-kreisverband-gifhorn-e-v">
+    <node id="nabu-kreisverband-gifhorn">
       <data key="d0">organisaatio</data>
-      <data key="d1">NABU Kreisverband Gifhorn e.V.</data>
+      <data key="d1">NABU Kreisverband Gifhorn</data>
       <data key="d2">DE-NI</data>
       <data key="d23">jarjesto</data>
     </node>
@@ -2959,7 +2959,7 @@
     </node>
     <node id="3n-kompetenzzentrum-niedersachsen-netzwe">
       <data key="d0">organisaatio</data>
-      <data key="d1">3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.</data>
+      <data key="d1">3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie</data>
       <data key="d2">DE-NI</data>
       <data key="d23">tutkimuslaitos</data>
     </node>
@@ -2969,11 +2969,11 @@
       <data key="d2">DE-NI</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="constellr-gmbh">
+    <node id="constellr">
       <data key="d0">organisaatio</data>
-      <data key="d1">constellr GmbH</data>
+      <data key="d1">constellr</data>
       <data key="d2">DE-NI</data>
-      <data key="d23">yritys</data>
+      <data key="d23">viranomainen</data>
     </node>
     <node id="eigen-vermogen-van-het-instituut-voor-la">
       <data key="d0">organisaatio</data>
@@ -2989,7 +2989,7 @@
     </node>
     <node id="europaisches-fachzentrum-moor-und-klima-">
       <data key="d0">organisaatio</data>
-      <data key="d1">Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH</data>
+      <data key="d1">Europäisches Fachzentrum Moor und Klima Wagenfeld</data>
       <data key="d2">DE-NI</data>
       <data key="d23">tutkimuslaitos</data>
     </node>
@@ -3035,41 +3035,41 @@
       <data key="d2">FI</data>
       <data key="d23">jarjesto</data>
     </node>
-    <node id="kaakkois-suomen-ammattikorkeakoulu-oy">
+    <node id="kaakkois-suomen-ammattikorkeakoulu">
       <data key="d0">organisaatio</data>
-      <data key="d1">Kaakkois-Suomen Ammattikorkeakoulu Oy</data>
+      <data key="d1">Kaakkois-Suomen Ammattikorkeakoulu</data>
       <data key="d2">FI</data>
       <data key="d23">amk</data>
     </node>
-    <node id="lapin-ammattikorkeakoulu-oy">
+    <node id="lapin-ammattikorkeakoulu">
       <data key="d0">organisaatio</data>
-      <data key="d1">Lapin ammattikorkeakoulu Oy</data>
+      <data key="d1">Lapin ammattikorkeakoulu</data>
       <data key="d2">FI</data>
       <data key="d23">amk</data>
     </node>
-    <node id="lansirannikon-koulutus-oy">
+    <node id="lansirannikon-koulutus">
       <data key="d0">organisaatio</data>
-      <data key="d1">Länsirannikon Koulutus Oy</data>
+      <data key="d1">Länsirannikon Koulutus</data>
       <data key="d2">FI</data>
-      <data key="d23">yritys</data>
+      <data key="d23">viranomainen</data>
     </node>
-    <node id="savonia-ammattikorkeakoulu-oy">
+    <node id="savonia-ammattikorkeakoulu">
       <data key="d0">organisaatio</data>
-      <data key="d1">Savonia-ammattikorkeakoulu oy</data>
+      <data key="d1">Savonia-ammattikorkeakoulu</data>
       <data key="d2">FI</data>
       <data key="d23">amk</data>
     </node>
-    <node id="pohjois-savon-luonnonsuojelupiiri-ry">
+    <node id="pohjois-savon-luonnonsuojelupiiri">
       <data key="d0">organisaatio</data>
-      <data key="d1">Pohjois-Savon luonnonsuojelupiiri ry</data>
+      <data key="d1">Pohjois-Savon luonnonsuojelupiiri</data>
       <data key="d2">FI</data>
       <data key="d23">jarjesto</data>
     </node>
-    <node id="upm-kymmene-oyj">
+    <node id="upm-kymmene">
       <data key="d0">organisaatio</data>
-      <data key="d1">UPM-Kymmene Oyj</data>
+      <data key="d1">UPM-Kymmene</data>
       <data key="d2">FI</data>
-      <data key="d23">yritys</data>
+      <data key="d23">viranomainen</data>
     </node>
     <node id="mittuniversitetet">
       <data key="d0">organisaatio</data>
@@ -3089,9 +3089,9 @@
       <data key="d2">FI</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="linttipower-oy">
+    <node id="linttipower">
       <data key="d0">organisaatio</data>
-      <data key="d1">LinttiPower Oy</data>
+      <data key="d1">LinttiPower</data>
       <data key="d2">FI</data>
       <data key="d23">yritys</data>
     </node>
@@ -3101,15 +3101,15 @@
       <data key="d2">FI</data>
       <data key="d23">jarjesto</data>
     </node>
-    <node id="luontokollektiivi-ry">
+    <node id="luontokollektiivi">
       <data key="d0">organisaatio</data>
-      <data key="d1">Luontokollektiivi ry</data>
+      <data key="d1">Luontokollektiivi</data>
       <data key="d2">FI</data>
       <data key="d23">jarjesto</data>
     </node>
     <node id="kokemaenjoen-vesiston-vesiensuojeluyhdis">
       <data key="d0">organisaatio</data>
-      <data key="d1">Kokemäenjoen vesistön vesiensuojeluyhdistys ry</data>
+      <data key="d1">Kokemäenjoen vesistön vesiensuojeluyhdistys</data>
       <data key="d2">FI</data>
       <data key="d23">jarjesto</data>
     </node>
@@ -3131,15 +3131,15 @@
       <data key="d2">FI</data>
       <data key="d23">yliopisto</data>
     </node>
-    <node id="jyvaskylan-ammattikorkeakoulu-oy">
+    <node id="jyvaskylan-ammattikorkeakoulu">
       <data key="d0">organisaatio</data>
-      <data key="d1">Jyväskylän Ammattikorkeakoulu Oy</data>
+      <data key="d1">Jyväskylän Ammattikorkeakoulu</data>
       <data key="d2">FI</data>
       <data key="d23">amk</data>
     </node>
     <node id="maaseudun-sivistysliiton-vaara-karjalan-">
       <data key="d0">organisaatio</data>
-      <data key="d1">Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry</data>
+      <data key="d1">Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys</data>
       <data key="d2">FI</data>
       <data key="d23">jarjesto</data>
     </node>
@@ -3155,9 +3155,9 @@
       <data key="d2">FI</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="tapio-oy">
+    <node id="tapio">
       <data key="d0">organisaatio</data>
-      <data key="d1">Tapio Oy</data>
+      <data key="d1">Tapio</data>
       <data key="d2">FI</data>
       <data key="d23">tutkimuslaitos</data>
     </node>
@@ -3191,29 +3191,29 @@
       <data key="d2">IE</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="ecochip-energy-ltd">
+    <node id="ecochip-energy">
       <data key="d0">organisaatio</data>
-      <data key="d1">Ecochip Energy Ltd</data>
+      <data key="d1">Ecochip Energy</data>
+      <data key="d2">IE</data>
+      <data key="d23">viranomainen</data>
+    </node>
+    <node id="kelly-s-nursery">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Kelly's Nursery</data>
       <data key="d2">IE</data>
       <data key="d23">yritys</data>
     </node>
-    <node id="kelly-s-nursery-ltd">
+    <node id="derrymore-peat">
       <data key="d0">organisaatio</data>
-      <data key="d1">Kelly's Nursery Ltd</data>
+      <data key="d1">Derrymore Peat</data>
       <data key="d2">IE</data>
-      <data key="d23">yritys</data>
+      <data key="d23">viranomainen</data>
     </node>
-    <node id="derrymore-peat-ltd">
+    <node id="strawchip">
       <data key="d0">organisaatio</data>
-      <data key="d1">Derrymore Peat Ltd</data>
+      <data key="d1">Strawchip</data>
       <data key="d2">IE</data>
-      <data key="d23">yritys</data>
-    </node>
-    <node id="strawchip-ltd">
-      <data key="d0">organisaatio</data>
-      <data key="d1">Strawchip Ltd</data>
-      <data key="d2">IE</data>
-      <data key="d23">yritys</data>
+      <data key="d23">viranomainen</data>
     </node>
     <node id="biedriba-latvijas-biologiskas-lauksaimni">
       <data key="d0">organisaatio</data>
@@ -3383,9 +3383,9 @@
       <data key="d2">SE</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="allogro-ab">
+    <node id="allogro">
       <data key="d0">organisaatio</data>
-      <data key="d1">Allogro AB</data>
+      <data key="d1">Allogro</data>
       <data key="d2">SE</data>
       <data key="d23">viranomainen</data>
     </node>
@@ -3407,15 +3407,15 @@
       <data key="d2">SE</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="miljomatematik-malmo-ab">
+    <node id="miljomatematik-malmo">
       <data key="d0">organisaatio</data>
-      <data key="d1">Miljömatematik Malmö AB</data>
+      <data key="d1">Miljömatematik Malmö</data>
       <data key="d2">SE</data>
       <data key="d23">viranomainen</data>
     </node>
-    <node id="archaea-ab">
+    <node id="archaea">
       <data key="d0">organisaatio</data>
-      <data key="d1">Archaea AB</data>
+      <data key="d1">Archaea</data>
       <data key="d2">SE</data>
       <data key="d23">viranomainen</data>
     </node>
@@ -3430,12 +3430,6 @@
       <data key="d1">Ilmatieteen Laitos</data>
       <data key="d2">FI</data>
       <data key="d23">viranomainen</data>
-    </node>
-    <node id="kaakkois-suomen-ammattikorkeakoulu">
-      <data key="d0">organisaatio</data>
-      <data key="d1">Kaakkois-Suomen Ammattikorkeakoulu</data>
-      <data key="d2">FI</data>
-      <data key="d23">amk</data>
     </node>
     <node id="J1">
       <data key="d0">julkaisu</data>
@@ -6601,14 +6595,14 @@
       <data key="d32">https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en</data>
       <data key="d33">partneri</data>
     </edge>
-    <edge source="bonk-baumschulen-handels-gmbh" target="E-DE-NI-3e4b" id="0">
+    <edge source="bonk-baumschulen-handels" target="E-DE-NI-3e4b" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en</data>
       <data key="d33">partneri</data>
     </edge>
-    <edge source="baumschul-beratungsring-weser-ems-e-v" target="E-DE-NI-3e4b" id="0">
+    <edge source="baumschul-beratungsring-weser-ems" target="E-DE-NI-3e4b" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -6741,21 +6735,21 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7262159</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="nabu-kreisverband-gifhorn-e-v" target="K-DE-NI-c1d3" id="0">
+    <edge source="nabu-kreisverband-gifhorn" target="K-DE-NI-c1d3" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7262114</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="nabu-kreisverband-gifhorn-e-v" target="K-DE-NI-0e2b" id="0">
+    <edge source="nabu-kreisverband-gifhorn" target="K-DE-NI-0e2b" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7262112</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="nabu-kreisverband-gifhorn-e-v" target="K-DE-NI-61e6" id="0">
+    <edge source="nabu-kreisverband-gifhorn" target="K-DE-NI-61e6" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -6818,7 +6812,7 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7735330</data>
       <data key="d33">partneri</data>
     </edge>
-    <edge source="constellr-gmbh" target="K-DE-NI-d14f" id="0">
+    <edge source="constellr" target="K-DE-NI-d14f" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -6916,56 +6910,56 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440758</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="kaakkois-suomen-ammattikorkeakoulu-oy" target="K-FI-050e" id="0">
+    <edge source="kaakkois-suomen-ammattikorkeakoulu" target="K-FI-050e" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7441340</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="kaakkois-suomen-ammattikorkeakoulu-oy" target="K-FI-b38f" id="0">
+    <edge source="kaakkois-suomen-ammattikorkeakoulu" target="K-FI-b38f" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7441315</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="lapin-ammattikorkeakoulu-oy" target="K-FI-a45d" id="0">
+    <edge source="lapin-ammattikorkeakoulu" target="K-FI-a45d" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q3754768</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="lapin-ammattikorkeakoulu-oy" target="K-FI-1d92" id="0">
+    <edge source="lapin-ammattikorkeakoulu" target="K-FI-1d92" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7735782</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="lansirannikon-koulutus-oy" target="R-FI-d4ba" id="0">
+    <edge source="lansirannikon-koulutus" target="R-FI-d4ba" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J11668</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="savonia-ammattikorkeakoulu-oy" target="K-FI-1fcb" id="0">
+    <edge source="savonia-ammattikorkeakoulu" target="K-FI-1fcb" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440981</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="pohjois-savon-luonnonsuojelupiiri-ry" target="K-FI-2fcc" id="0">
+    <edge source="pohjois-savon-luonnonsuojelupiiri" target="K-FI-2fcc" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7441349</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="upm-kymmene-oyj" target="K-FI-6c73" id="0">
+    <edge source="upm-kymmene" target="K-FI-6c73" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -6993,7 +6987,7 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440774</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="linttipower-oy" target="K-FI-8d28" id="0">
+    <edge source="linttipower" target="K-FI-8d28" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -7014,7 +7008,7 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7441283</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="luontokollektiivi-ry" target="K-FI-cb20" id="0">
+    <edge source="luontokollektiivi" target="K-FI-cb20" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -7056,7 +7050,7 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440084</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="jyvaskylan-ammattikorkeakoulu-oy" target="K-FI-6f20" id="0">
+    <edge source="jyvaskylan-ammattikorkeakoulu" target="K-FI-6f20" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -7084,7 +7078,7 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7440782</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="tapio-oy" target="K-FI-ceda" id="0">
+    <edge source="tapio" target="K-FI-ceda" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -7126,28 +7120,28 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q4298217</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="ecochip-energy-ltd" target="K-IE-cee8" id="0">
+    <edge source="ecochip-energy" target="K-IE-cee8" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7361336</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="kelly-s-nursery-ltd" target="K-IE-0814" id="0">
+    <edge source="kelly-s-nursery" target="K-IE-0814" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7361334</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="derrymore-peat-ltd" target="K-IE-d7ff" id="0">
+    <edge source="derrymore-peat" target="K-IE-d7ff" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7361330</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="strawchip-ltd" target="K-IE-8525" id="0">
+    <edge source="strawchip" target="K-IE-8525" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -7350,7 +7344,7 @@
       <data key="d32">https://kohesio.ec.europa.eu/en/projects/Q7362157</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="allogro-ab" target="J-SE-5a7e" id="0">
+    <edge source="allogro" target="J-SE-5a7e" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -7378,14 +7372,14 @@
       <data key="d32">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/kolsanksrattermedbiokol.4.29196bdf172db848a9e55c1e.html</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="miljomatematik-malmo-ab" target="J-SE-50cf" id="0">
+    <edge source="miljomatematik-malmo" target="J-SE-50cf" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/svenskklimatkompensationjordbruketsomkolsanka.4.fe0924f1720ee68d5b4a14e.html</data>
       <data key="d33">edunsaaja</data>
     </edge>
-    <edge source="archaea-ab" target="J-SE-a3d4" id="0">
+    <edge source="archaea" target="J-SE-a3d4" id="0">
       <data key="d29">osallistuu</data>
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
@@ -7411,13 +7405,6 @@
       <data key="d30">1.0</data>
       <data key="d31">lähde</data>
       <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J11297</data>
-      <data key="d33">edunsaaja</data>
-    </edge>
-    <edge source="kaakkois-suomen-ammattikorkeakoulu" target="K-FI-050e" id="0">
-      <data key="d29">osallistuu</data>
-      <data key="d30">1.0</data>
-      <data key="d31">lähde</data>
-      <data key="d32">https://eura2021.fi/hanketietopalvelu?koodi=J11491</data>
       <data key="d33">edunsaaja</data>
     </edge>
     <edge source="J1" target="T7" id="0">

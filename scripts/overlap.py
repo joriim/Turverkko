@@ -99,6 +99,16 @@ def vectors(items):
     return vec
 
 
+def concept_vectors(items):
+    """Pelkät käsitesanat (kieliriippumaton): {id: {käsite: 1/√n}}."""
+    out = {}
+    for i, t in items.items():
+        c = sorted({w for w in tokens(t) if w.startswith("#")})
+        if c:
+            out[i] = {w: 1 / math.sqrt(len(c)) for w in c}
+    return out
+
+
 def cosine(a, b):
     if len(a) > len(b):
         a, b = b, a

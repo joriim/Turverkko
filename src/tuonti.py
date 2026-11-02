@@ -210,6 +210,7 @@ def org_of(who):
     if m and re.search(ORG_WORDS, _fold(m.group(2))) and not re.search(ORG_WORDS, _fold(m.group(1))):
         name = m.group(2)
     f = _fold(name)
+    name = re.sub(r"[\s,]+(oy|oyj|ab|gmbh|ltd|limited|ry|as|sia|e\.\s?v\.)\.?$", "", name, flags=re.I).strip() or name
     for sub, oid in ORG_CONTAINS:
         if sub in f:
             return oid, name

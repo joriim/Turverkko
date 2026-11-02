@@ -3012,18 +3012,18 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "bonk-baumschulen-handels-gmbh",
+   "id": "bonk-baumschulen-handels",
    "kind": "organisaatio",
-   "label": "Bonk Baumschulen Handels GmbH",
+   "label": "Bonk Baumschulen Handels",
    "country": "DE-NI",
-   "org_type": "yritys"
+   "org_type": "viranomainen"
   },
   {
-   "id": "baumschul-beratungsring-weser-ems-e-v",
+   "id": "baumschul-beratungsring-weser-ems",
    "kind": "organisaatio",
-   "label": "Baumschul-Beratungsring Weser-Ems e.V.",
+   "label": "Baumschul-Beratungsring Weser-Ems",
    "country": "DE-NI",
-   "org_type": "jarjesto"
+   "org_type": "viranomainen"
   },
   {
    "id": "hochschule-hannover",
@@ -3117,9 +3117,9 @@
    "org_type": "jarjesto"
   },
   {
-   "id": "nabu-kreisverband-gifhorn-e-v",
+   "id": "nabu-kreisverband-gifhorn",
    "kind": "organisaatio",
-   "label": "NABU Kreisverband Gifhorn e.V.",
+   "label": "NABU Kreisverband Gifhorn",
    "country": "DE-NI",
    "org_type": "jarjesto"
   },
@@ -3168,7 +3168,7 @@
   {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
    "kind": "organisaatio",
-   "label": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
+   "label": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie",
    "country": "DE-NI",
    "org_type": "tutkimuslaitos"
   },
@@ -3180,11 +3180,11 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "constellr-gmbh",
+   "id": "constellr",
    "kind": "organisaatio",
-   "label": "constellr GmbH",
+   "label": "constellr",
    "country": "DE-NI",
-   "org_type": "yritys"
+   "org_type": "viranomainen"
   },
   {
    "id": "eigen-vermogen-van-het-instituut-voor-la",
@@ -3203,7 +3203,7 @@
   {
    "id": "europaisches-fachzentrum-moor-und-klima-",
    "kind": "organisaatio",
-   "label": "Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH",
+   "label": "Europäisches Fachzentrum Moor und Klima Wagenfeld",
    "country": "DE-NI",
    "org_type": "tutkimuslaitos"
   },
@@ -3257,46 +3257,46 @@
    "org_type": "jarjesto"
   },
   {
-   "id": "kaakkois-suomen-ammattikorkeakoulu-oy",
+   "id": "kaakkois-suomen-ammattikorkeakoulu",
    "kind": "organisaatio",
-   "label": "Kaakkois-Suomen Ammattikorkeakoulu Oy",
+   "label": "Kaakkois-Suomen Ammattikorkeakoulu",
    "country": "FI",
    "org_type": "amk"
   },
   {
-   "id": "lapin-ammattikorkeakoulu-oy",
+   "id": "lapin-ammattikorkeakoulu",
    "kind": "organisaatio",
-   "label": "Lapin ammattikorkeakoulu Oy",
+   "label": "Lapin ammattikorkeakoulu",
    "country": "FI",
    "org_type": "amk"
   },
   {
-   "id": "lansirannikon-koulutus-oy",
+   "id": "lansirannikon-koulutus",
    "kind": "organisaatio",
-   "label": "Länsirannikon Koulutus Oy",
+   "label": "Länsirannikon Koulutus",
    "country": "FI",
-   "org_type": "yritys"
+   "org_type": "viranomainen"
   },
   {
-   "id": "savonia-ammattikorkeakoulu-oy",
+   "id": "savonia-ammattikorkeakoulu",
    "kind": "organisaatio",
-   "label": "Savonia-ammattikorkeakoulu oy",
+   "label": "Savonia-ammattikorkeakoulu",
    "country": "FI",
    "org_type": "amk"
   },
   {
-   "id": "pohjois-savon-luonnonsuojelupiiri-ry",
+   "id": "pohjois-savon-luonnonsuojelupiiri",
    "kind": "organisaatio",
-   "label": "Pohjois-Savon luonnonsuojelupiiri ry",
+   "label": "Pohjois-Savon luonnonsuojelupiiri",
    "country": "FI",
    "org_type": "jarjesto"
   },
   {
-   "id": "upm-kymmene-oyj",
+   "id": "upm-kymmene",
    "kind": "organisaatio",
-   "label": "UPM-Kymmene Oyj",
+   "label": "UPM-Kymmene",
    "country": "FI",
-   "org_type": "yritys"
+   "org_type": "viranomainen"
   },
   {
    "id": "mittuniversitetet",
@@ -3320,9 +3320,9 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "linttipower-oy",
+   "id": "linttipower",
    "kind": "organisaatio",
-   "label": "LinttiPower Oy",
+   "label": "LinttiPower",
    "country": "FI",
    "org_type": "yritys"
   },
@@ -3334,16 +3334,16 @@
    "org_type": "jarjesto"
   },
   {
-   "id": "luontokollektiivi-ry",
+   "id": "luontokollektiivi",
    "kind": "organisaatio",
-   "label": "Luontokollektiivi ry",
+   "label": "Luontokollektiivi",
    "country": "FI",
    "org_type": "jarjesto"
   },
   {
    "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
    "kind": "organisaatio",
-   "label": "Kokemäenjoen vesistön vesiensuojeluyhdistys ry",
+   "label": "Kokemäenjoen vesistön vesiensuojeluyhdistys",
    "country": "FI",
    "org_type": "jarjesto"
   },
@@ -3369,16 +3369,16 @@
    "org_type": "yliopisto"
   },
   {
-   "id": "jyvaskylan-ammattikorkeakoulu-oy",
+   "id": "jyvaskylan-ammattikorkeakoulu",
    "kind": "organisaatio",
-   "label": "Jyväskylän Ammattikorkeakoulu Oy",
+   "label": "Jyväskylän Ammattikorkeakoulu",
    "country": "FI",
    "org_type": "amk"
   },
   {
    "id": "maaseudun-sivistysliiton-vaara-karjalan-",
    "kind": "organisaatio",
-   "label": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry",
+   "label": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys",
    "country": "FI",
    "org_type": "jarjesto"
   },
@@ -3397,9 +3397,9 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "tapio-oy",
+   "id": "tapio",
    "kind": "organisaatio",
-   "label": "Tapio Oy",
+   "label": "Tapio",
    "country": "FI",
    "org_type": "tutkimuslaitos"
   },
@@ -3439,32 +3439,32 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "ecochip-energy-ltd",
+   "id": "ecochip-energy",
    "kind": "organisaatio",
-   "label": "Ecochip Energy Ltd",
+   "label": "Ecochip Energy",
+   "country": "IE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "kelly-s-nursery",
+   "kind": "organisaatio",
+   "label": "Kelly's Nursery",
    "country": "IE",
    "org_type": "yritys"
   },
   {
-   "id": "kelly-s-nursery-ltd",
+   "id": "derrymore-peat",
    "kind": "organisaatio",
-   "label": "Kelly's Nursery Ltd",
+   "label": "Derrymore Peat",
    "country": "IE",
-   "org_type": "yritys"
+   "org_type": "viranomainen"
   },
   {
-   "id": "derrymore-peat-ltd",
+   "id": "strawchip",
    "kind": "organisaatio",
-   "label": "Derrymore Peat Ltd",
+   "label": "Strawchip",
    "country": "IE",
-   "org_type": "yritys"
-  },
-  {
-   "id": "strawchip-ltd",
-   "kind": "organisaatio",
-   "label": "Strawchip Ltd",
-   "country": "IE",
-   "org_type": "yritys"
+   "org_type": "viranomainen"
   },
   {
    "id": "biedriba-latvijas-biologiskas-lauksaimni",
@@ -3663,9 +3663,9 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "allogro-ab",
+   "id": "allogro",
    "kind": "organisaatio",
-   "label": "Allogro AB",
+   "label": "Allogro",
    "country": "SE",
    "org_type": "viranomainen"
   },
@@ -3691,16 +3691,16 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "miljomatematik-malmo-ab",
+   "id": "miljomatematik-malmo",
    "kind": "organisaatio",
-   "label": "Miljömatematik Malmö AB",
+   "label": "Miljömatematik Malmö",
    "country": "SE",
    "org_type": "viranomainen"
   },
   {
-   "id": "archaea-ab",
+   "id": "archaea",
    "kind": "organisaatio",
-   "label": "Archaea AB",
+   "label": "Archaea",
    "country": "SE",
    "org_type": "viranomainen"
   },
@@ -3717,13 +3717,6 @@
    "label": "Ilmatieteen Laitos",
    "country": "FI",
    "org_type": "viranomainen"
-  },
-  {
-   "id": "kaakkois-suomen-ammattikorkeakoulu",
-   "kind": "organisaatio",
-   "label": "Kaakkois-Suomen Ammattikorkeakoulu",
-   "country": "FI",
-   "org_type": "amk"
   },
   {
    "id": "J1",
@@ -7279,7 +7272,7 @@
    "note": "partneri"
   },
   {
-   "source": "bonk-baumschulen-handels-gmbh",
+   "source": "bonk-baumschulen-handels",
    "target": "E-DE-NI-3e4b",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7288,7 +7281,7 @@
    "note": "partneri"
   },
   {
-   "source": "baumschul-beratungsring-weser-ems-e-v",
+   "source": "baumschul-beratungsring-weser-ems",
    "target": "E-DE-NI-3e4b",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7522,7 +7515,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "nabu-kreisverband-gifhorn-e-v",
+   "source": "nabu-kreisverband-gifhorn",
    "target": "K-DE-NI-c1d3",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7567,7 +7560,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "nabu-kreisverband-gifhorn-e-v",
+   "source": "nabu-kreisverband-gifhorn",
    "target": "K-DE-NI-0e2b",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7630,7 +7623,7 @@
    "note": "partneri"
   },
   {
-   "source": "constellr-gmbh",
+   "source": "constellr",
    "target": "K-DE-NI-d14f",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7684,7 +7677,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "nabu-kreisverband-gifhorn-e-v",
+   "source": "nabu-kreisverband-gifhorn",
    "target": "K-DE-NI-61e6",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7783,7 +7776,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "kaakkois-suomen-ammattikorkeakoulu-oy",
+   "source": "kaakkois-suomen-ammattikorkeakoulu",
    "target": "K-FI-050e",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7792,7 +7785,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "lapin-ammattikorkeakoulu-oy",
+   "source": "lapin-ammattikorkeakoulu",
    "target": "K-FI-a45d",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7810,7 +7803,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "lansirannikon-koulutus-oy",
+   "source": "lansirannikon-koulutus",
    "target": "R-FI-d4ba",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7846,7 +7839,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "savonia-ammattikorkeakoulu-oy",
+   "source": "savonia-ammattikorkeakoulu",
    "target": "K-FI-1fcb",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7855,7 +7848,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "pohjois-savon-luonnonsuojelupiiri-ry",
+   "source": "pohjois-savon-luonnonsuojelupiiri",
    "target": "K-FI-2fcc",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7864,7 +7857,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "upm-kymmene-oyj",
+   "source": "upm-kymmene",
    "target": "K-FI-6c73",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7873,7 +7866,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "lapin-ammattikorkeakoulu-oy",
+   "source": "lapin-ammattikorkeakoulu",
    "target": "K-FI-1d92",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7945,7 +7938,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "linttipower-oy",
+   "source": "linttipower",
    "target": "K-FI-8d28",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7963,7 +7956,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "luontokollektiivi-ry",
+   "source": "luontokollektiivi",
    "target": "K-FI-cb20",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8053,7 +8046,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "kaakkois-suomen-ammattikorkeakoulu-oy",
+   "source": "kaakkois-suomen-ammattikorkeakoulu",
    "target": "K-FI-b38f",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8071,7 +8064,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "jyvaskylan-ammattikorkeakoulu-oy",
+   "source": "jyvaskylan-ammattikorkeakoulu",
    "target": "K-FI-6f20",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8125,7 +8118,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "tapio-oy",
+   "source": "tapio",
    "target": "K-FI-ceda",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8269,7 +8262,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "ecochip-energy-ltd",
+   "source": "ecochip-energy",
    "target": "K-IE-cee8",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8278,7 +8271,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "kelly-s-nursery-ltd",
+   "source": "kelly-s-nursery",
    "target": "K-IE-0814",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8296,7 +8289,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "derrymore-peat-ltd",
+   "source": "derrymore-peat",
    "target": "K-IE-d7ff",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8305,7 +8298,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "strawchip-ltd",
+   "source": "strawchip",
    "target": "K-IE-8525",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8719,7 +8712,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "allogro-ab",
+   "source": "allogro",
    "target": "J-SE-5a7e",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8755,7 +8748,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "miljomatematik-malmo-ab",
+   "source": "miljomatematik-malmo",
    "target": "J-SE-50cf",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8764,7 +8757,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "archaea-ab",
+   "source": "archaea",
    "target": "J-SE-a3d4",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8825,15 +8818,6 @@
    "evidence": "lähde",
    "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11297",
    "note": "partneri"
-  },
-  {
-   "source": "kaakkois-suomen-ammattikorkeakoulu",
-   "target": "K-FI-050e",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11491",
-   "note": "edunsaaja"
   },
   {
    "source": "luke",

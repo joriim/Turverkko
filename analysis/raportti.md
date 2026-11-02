@@ -4,7 +4,7 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 
 ## Yhteenveto
 
-- Toimijoita yhteistyöverkossa: **307**, vahvistettuja yhteistyösärmiä **248** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
+- Toimijoita yhteistyöverkossa: **306**, vahvistettuja yhteistyösärmiä **247** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
 - Erillisiä yhteistyösaarekkeita: **81**. Suurin kattaa 92 toimijaa.
 - Usean maan saarekkeita: **2**. Maiden välisiä vahvistettuja yhteistyösärmiä: **8**.
 - Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ 0.2, 148 vertailtavaa hanketta): **102**. Niistä
@@ -13,6 +13,7 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
   - puuttuvia maiden välisiä yhteyksiä: **5**
   - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **14**
   - saman hankekokonaisuuden osia: **3**
+- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **2**. Ne tarkistetaan ja yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla (`analysis/kaksoisehdokkaat.csv`).
 
 ## Maiden väliset yhteydet
 
@@ -27,15 +28,15 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 
 | Organisaatio | Maa | Hankkeita | Keskuksia | Välityskeskeisyys |
 |---|---|---|---|---|
-| Luonnonvarakeskus (Luke) | FI | 9 | 1 | 0.0497 |
-| LSFRI Silava | LV | 9 | 1 | 0.0273 |
-| Seinäjoen ammattikorkeakoulu (SeAMK) | FI | 7 | 1 | 0.0172 |
-| Oulun yliopisto | FI | 5 | 1 | 0.0118 |
-| Latvian yliopisto | LV | 4 | 1 | 0.0116 |
-| Institute of Horticulture (LatHort) | LV | 2 | 1 | 0.0109 |
+| Luonnonvarakeskus (Luke) | FI | 9 | 1 | 0.05 |
+| LSFRI Silava | LV | 9 | 1 | 0.0275 |
+| Seinäjoen ammattikorkeakoulu (SeAMK) | FI | 7 | 1 | 0.0173 |
+| Oulun yliopisto | FI | 5 | 1 | 0.0119 |
+| Latvian yliopisto | LV | 4 | 1 | 0.0117 |
+| Institute of Horticulture (LatHort) | LV | 2 | 1 | 0.011 |
 | Itä-Suomen yliopisto | FI | 4 | 1 | 0.01 |
 | Suomen ympäristökeskus (Syke) | FI | 4 | 0 | 0.0068 |
-| Helsingin yliopisto | FI | 5 | 2 | 0.0056 |
+| Helsingin yliopisto | FI | 5 | 2 | 0.0057 |
 | Institute of Agricultural Resources and Economics | LV | 2 | 1 | 0.0034 |
 
 ## Osaamiskeskusten yhteiset organisaatiot
@@ -150,16 +151,16 @@ Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään va
 | 8 | 4 | DE-NI | E-DE-NI-b06d |
 | 9 | 4 | DE-NI | K-DE-NI-0e2b K-DE-NI-61e6 K-DE-NI-c1d3 |
 | 10 | 4 | FI | K-FI-06b9 K-FI-b095 |
-| 11 | 4 | FI | K-FI-050e K-FI-b38f |
-| 12 | 3 | LV | LV-02 |
-| 13 | 3 | DE-NI | K-DE-NI-1746 K-DE-NI-dab1 |
-| 14 | 3 | DE-NI | K-DE-NI-a450 K-DE-NI-accd |
-| 15 | 3 | DE-NI | K-DE-NI-0499 K-DE-NI-77b2 |
-| 16 | 3 | DE-NI | K-DE-NI-1847 K-DE-NI-34e3 |
-| 17 | 3 | DE-NI | K-DE-NI-3eb1 K-DE-NI-ee94 |
-| 18 | 3 | DE-NI | K-DE-NI-bf71 K-DE-NI-d8d1 |
-| 19 | 3 | DE-NI | K-DE-NI-03c5 K-DE-NI-6c80 |
-| 20 | 3 | EU | T-EU-73cb T-EU-88fc |
+| 11 | 3 | LV | LV-02 |
+| 12 | 3 | DE-NI | K-DE-NI-1746 K-DE-NI-dab1 |
+| 13 | 3 | DE-NI | K-DE-NI-a450 K-DE-NI-accd |
+| 14 | 3 | DE-NI | K-DE-NI-0499 K-DE-NI-77b2 |
+| 15 | 3 | DE-NI | K-DE-NI-1847 K-DE-NI-34e3 |
+| 16 | 3 | DE-NI | K-DE-NI-3eb1 K-DE-NI-ee94 |
+| 17 | 3 | DE-NI | K-DE-NI-bf71 K-DE-NI-d8d1 |
+| 18 | 3 | DE-NI | K-DE-NI-03c5 K-DE-NI-6c80 |
+| 19 | 3 | EU | T-EU-73cb T-EU-88fc |
+| 20 | 3 | FI | K-FI-050e K-FI-b38f |
 | 21 | 3 | FI | K-FI-665a K-FI-9cd5 |
 | 22 | 3 | FI | K-FI-6f20 |
 | 23 | 3 | SE | K-SE-8b1e K-SE-be89 |

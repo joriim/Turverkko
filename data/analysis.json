@@ -6,8 +6,8 @@
   "compared_projects": 148
  },
  "summary": {
-  "actors": 307,
-  "collab_edges": 248,
+  "actors": 306,
+  "collab_edges": 247,
   "unverified_edges": 3,
   "components": 81,
   "largest_component": 92,
@@ -20,6 +20,7 @@
   "sequential_unlinked": 5,
   "overlap_connected": 14,
   "overlap_family": 3,
+  "duplicate_candidates": 2,
   "theme_country_pairs": 72,
   "theme_country_pairs_unlinked": 66
  },
@@ -96,73 +97,73 @@
   },
   {
    "komponentti": 11,
-   "solmuja": 4,
-   "maita": 1,
-   "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
-  },
-  {
-   "komponentti": 12,
    "solmuja": 3,
    "maita": 1,
    "maat": "LV",
    "hankkeet_ja_keskukset": "LV-02"
   },
   {
-   "komponentti": 13,
+   "komponentti": 12,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-1746 K-DE-NI-dab1"
   },
   {
-   "komponentti": 14,
+   "komponentti": 13,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-a450 K-DE-NI-accd"
   },
   {
-   "komponentti": 15,
+   "komponentti": 14,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-0499 K-DE-NI-77b2"
   },
   {
-   "komponentti": 16,
+   "komponentti": 15,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-1847 K-DE-NI-34e3"
   },
   {
-   "komponentti": 17,
+   "komponentti": 16,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-3eb1 K-DE-NI-ee94"
   },
   {
-   "komponentti": 18,
+   "komponentti": 17,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-bf71 K-DE-NI-d8d1"
   },
   {
-   "komponentti": 19,
+   "komponentti": 18,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-03c5 K-DE-NI-6c80"
   },
   {
-   "komponentti": 20,
+   "komponentti": 19,
    "solmuja": 3,
    "maita": 1,
    "maat": "EU",
    "hankkeet_ja_keskukset": "T-EU-73cb T-EU-88fc"
+  },
+  {
+   "komponentti": 20,
+   "solmuja": 3,
+   "maita": 1,
+   "maat": "FI",
+   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
   },
   {
    "komponentti": 21,
@@ -602,7 +603,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 4,
-   "valityskeskeisyys": 0.0497,
+   "valityskeskeisyys": 0.05,
    "komponentti": 1
   },
   {
@@ -614,7 +615,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0273,
+   "valityskeskeisyys": 0.0275,
    "komponentti": 1
   },
   {
@@ -626,7 +627,7 @@
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0172,
+   "valityskeskeisyys": 0.0173,
    "komponentti": 1
   },
   {
@@ -638,7 +639,7 @@
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0118,
+   "valityskeskeisyys": 0.0119,
    "komponentti": 1
   },
   {
@@ -650,7 +651,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0116,
+   "valityskeskeisyys": 0.0117,
    "komponentti": 1
   },
   {
@@ -662,7 +663,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0109,
+   "valityskeskeisyys": 0.011,
    "komponentti": 1
   },
   {
@@ -698,7 +699,7 @@
    "keskuksia": 2,
    "keskukset": "H-FI H-FI-AKA",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0056,
+   "valityskeskeisyys": 0.0057,
    "komponentti": 1
   },
   {
@@ -722,7 +723,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.003,
+   "valityskeskeisyys": 0.0031,
    "komponentti": 1
   },
   {
@@ -774,8 +775,8 @@
    "komponentti": 1
   },
   {
-   "id": "lapin-ammattikorkeakoulu-oy",
-   "nimi": "Lapin ammattikorkeakoulu Oy",
+   "id": "lapin-ammattikorkeakoulu",
+   "nimi": "Lapin ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 2,
@@ -870,8 +871,8 @@
    "komponentti": 5
   },
   {
-   "id": "nabu-kreisverband-gifhorn-e-v",
-   "nimi": "NABU Kreisverband Gifhorn e.V.",
+   "id": "nabu-kreisverband-gifhorn",
+   "nimi": "NABU Kreisverband Gifhorn",
    "maa": "DE-NI",
    "tyyppi": "jarjesto",
    "hankkeita": 3,
@@ -903,7 +904,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 13
+   "komponentti": 12
   },
   {
    "id": "bund-fur-umwelt-und-naturschutz",
@@ -915,7 +916,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 14
+   "komponentti": 13
   },
   {
    "id": "universitat-greifswald",
@@ -927,7 +928,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 15
+   "komponentti": 14
   },
   {
    "id": "landkreis-cuxhaven",
@@ -939,7 +940,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 16
+   "komponentti": 15
   },
   {
    "id": "landkreis-emsland",
@@ -951,7 +952,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 17
+   "komponentti": 16
   },
   {
    "id": "landkreis-osterholz",
@@ -963,7 +964,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 18
+   "komponentti": 17
   },
   {
    "id": "landkreis-friesland",
@@ -975,7 +976,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 19
+   "komponentti": 18
   },
   {
    "id": "gate-21",
@@ -987,7 +988,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 20
+   "komponentti": 19
   },
   {
    "id": "john-nurmisen-saatio-sr",
@@ -1014,8 +1015,8 @@
    "komponentti": 10
   },
   {
-   "id": "kaakkois-suomen-ammattikorkeakoulu-oy",
-   "nimi": "Kaakkois-Suomen Ammattikorkeakoulu Oy",
+   "id": "kaakkois-suomen-ammattikorkeakoulu",
+   "nimi": "Kaakkois-Suomen Ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 2,
@@ -1023,7 +1024,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 11
+   "komponentti": 20
   },
   {
    "id": "suomen-riistanhoito-saatio-sr",
@@ -1179,7 +1180,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 12
+   "komponentti": 11
   },
   {
    "id": "lv-regions",
@@ -1191,7 +1192,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 12
+   "komponentti": 11
   },
   {
    "id": "nbas",
@@ -1374,10 +1375,10 @@
    "komponentti": 7
   },
   {
-   "id": "bonk-baumschulen-handels-gmbh",
-   "nimi": "Bonk Baumschulen Handels GmbH",
+   "id": "bonk-baumschulen-handels",
+   "nimi": "Bonk Baumschulen Handels",
    "maa": "DE-NI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1386,10 +1387,10 @@
    "komponentti": 7
   },
   {
-   "id": "baumschul-beratungsring-weser-ems-e-v",
-   "nimi": "Baumschul-Beratungsring Weser-Ems e.V.",
+   "id": "baumschul-beratungsring-weser-ems",
+   "nimi": "Baumschul-Beratungsring Weser-Ems",
    "maa": "DE-NI",
-   "tyyppi": "jarjesto",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1567,7 +1568,7 @@
   },
   {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
-   "nimi": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
+   "nimi": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie",
    "maa": "DE-NI",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1590,10 +1591,10 @@
    "komponentti": 2
   },
   {
-   "id": "constellr-gmbh",
-   "nimi": "constellr GmbH",
+   "id": "constellr",
+   "nimi": "constellr",
    "maa": "DE-NI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1627,7 +1628,7 @@
   },
   {
    "id": "europaisches-fachzentrum-moor-und-klima-",
-   "nimi": "Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH",
+   "nimi": "Europäisches Fachzentrum Moor und Klima Wagenfeld",
    "maa": "DE-NI",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1686,10 +1687,10 @@
    "komponentti": 43
   },
   {
-   "id": "lansirannikon-koulutus-oy",
-   "nimi": "Länsirannikon Koulutus Oy",
+   "id": "lansirannikon-koulutus",
+   "nimi": "Länsirannikon Koulutus",
    "maa": "FI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1698,8 +1699,8 @@
    "komponentti": 44
   },
   {
-   "id": "savonia-ammattikorkeakoulu-oy",
-   "nimi": "Savonia-ammattikorkeakoulu oy",
+   "id": "savonia-ammattikorkeakoulu",
+   "nimi": "Savonia-ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 1,
@@ -1710,8 +1711,8 @@
    "komponentti": 45
   },
   {
-   "id": "pohjois-savon-luonnonsuojelupiiri-ry",
-   "nimi": "Pohjois-Savon luonnonsuojelupiiri ry",
+   "id": "pohjois-savon-luonnonsuojelupiiri",
+   "nimi": "Pohjois-Savon luonnonsuojelupiiri",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1722,10 +1723,10 @@
    "komponentti": 46
   },
   {
-   "id": "upm-kymmene-oyj",
-   "nimi": "UPM-Kymmene Oyj",
+   "id": "upm-kymmene",
+   "nimi": "UPM-Kymmene",
    "maa": "FI",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1770,8 +1771,8 @@
    "komponentti": 48
   },
   {
-   "id": "linttipower-oy",
-   "nimi": "LinttiPower Oy",
+   "id": "linttipower",
+   "nimi": "LinttiPower",
    "maa": "FI",
    "tyyppi": "yritys",
    "hankkeita": 1,
@@ -1782,8 +1783,8 @@
    "komponentti": 49
   },
   {
-   "id": "luontokollektiivi-ry",
-   "nimi": "Luontokollektiivi ry",
+   "id": "luontokollektiivi",
+   "nimi": "Luontokollektiivi",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1795,7 +1796,7 @@
   },
   {
    "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
-   "nimi": "Kokemäenjoen vesistön vesiensuojeluyhdistys ry",
+   "nimi": "Kokemäenjoen vesistön vesiensuojeluyhdistys",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1830,8 +1831,8 @@
    "komponentti": 22
   },
   {
-   "id": "jyvaskylan-ammattikorkeakoulu-oy",
-   "nimi": "Jyväskylän Ammattikorkeakoulu Oy",
+   "id": "jyvaskylan-ammattikorkeakoulu",
+   "nimi": "Jyväskylän Ammattikorkeakoulu",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 1,
@@ -1843,7 +1844,7 @@
   },
   {
    "id": "maaseudun-sivistysliiton-vaara-karjalan-",
-   "nimi": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry",
+   "nimi": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys",
    "maa": "FI",
    "tyyppi": "jarjesto",
    "hankkeita": 1,
@@ -1878,8 +1879,8 @@
    "komponentti": 53
   },
   {
-   "id": "tapio-oy",
-   "nimi": "Tapio Oy",
+   "id": "tapio",
+   "nimi": "Tapio",
    "maa": "FI",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1950,10 +1951,10 @@
    "komponentti": 56
   },
   {
-   "id": "ecochip-energy-ltd",
-   "nimi": "Ecochip Energy Ltd",
+   "id": "ecochip-energy",
+   "nimi": "Ecochip Energy",
    "maa": "IE",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1962,8 +1963,8 @@
    "komponentti": 57
   },
   {
-   "id": "kelly-s-nursery-ltd",
-   "nimi": "Kelly's Nursery Ltd",
+   "id": "kelly-s-nursery",
+   "nimi": "Kelly's Nursery",
    "maa": "IE",
    "tyyppi": "yritys",
    "hankkeita": 1,
@@ -1974,10 +1975,10 @@
    "komponentti": 58
   },
   {
-   "id": "derrymore-peat-ltd",
-   "nimi": "Derrymore Peat Ltd",
+   "id": "derrymore-peat",
+   "nimi": "Derrymore Peat",
    "maa": "IE",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -1986,10 +1987,10 @@
    "komponentti": 59
   },
   {
-   "id": "strawchip-ltd",
-   "nimi": "Strawchip Ltd",
+   "id": "strawchip",
+   "nimi": "Strawchip",
    "maa": "IE",
-   "tyyppi": "yritys",
+   "tyyppi": "viranomainen",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
@@ -2334,8 +2335,8 @@
    "komponentti": 64
   },
   {
-   "id": "allogro-ab",
-   "nimi": "Allogro AB",
+   "id": "allogro",
+   "nimi": "Allogro",
    "maa": "SE",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -2382,8 +2383,8 @@
    "komponentti": 68
   },
   {
-   "id": "miljomatematik-malmo-ab",
-   "nimi": "Miljömatematik Malmö AB",
+   "id": "miljomatematik-malmo",
+   "nimi": "Miljömatematik Malmö",
    "maa": "SE",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -2394,8 +2395,8 @@
    "komponentti": 69
   },
   {
-   "id": "archaea-ab",
-   "nimi": "Archaea AB",
+   "id": "archaea",
+   "nimi": "Archaea",
    "maa": "SE",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -2416,18 +2417,6 @@
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
    "komponentti": 1
-  },
-  {
-   "id": "kaakkois-suomen-ammattikorkeakoulu",
-   "nimi": "Kaakkois-Suomen Ammattikorkeakoulu",
-   "maa": "FI",
-   "tyyppi": "amk",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 11
   }
  ],
  "overlaps": [
@@ -2805,7 +2794,7 @@
    "score": 0.284,
    "yhteiset": "near, gifhorn, moor, peat, turve",
    "samaan_aikaan": "kyllä",
-   "yhteiset_toimijat": "nabu-kreisverband-gifhorn-e-v",
+   "yhteiset_toimijat": "nabu-kreisverband-gifhorn",
    "etaisyys": 2,
    "tyyppi": "yhteydessä"
   },
@@ -5200,6 +5189,34 @@
   "puuttuva yhteys": "eri maat, ei yhteistyöpolkua",
   "yhteydessä": "yhteinen toimija tai yhteistyöpolku enintään kolme askelta"
  },
+ "duplicate_candidates": [
+  {
+   "a": "FI-06",
+   "a_nimi": "Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu",
+   "a_lahde": "käsin",
+   "b": "K-FI-0ac6",
+   "b_nimi": "Value from the carbon market for the next land use of peat production areas",
+   "b_lahde": "1",
+   "vuodet": "2023–2026",
+   "yhteiset_toimijat": "seamk",
+   "samankaltaisuus": 0.199,
+   "kasitteet": 0.566,
+   "peruste": "yhteinen toimija ja samat vuodet"
+  },
+  {
+   "a": "FI-07",
+   "a_nimi": "TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi",
+   "a_lahde": "käsin",
+   "b": "K-FI-6894",
+   "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
+   "b_lahde": "1",
+   "vuodet": "2024–2026",
+   "yhteiset_toimijat": "oy",
+   "samankaltaisuus": 0.07,
+   "kasitteet": 0.676,
+   "peruste": "yhteinen toimija ja samat vuodet"
+  }
+ ],
  "cross_country": {
   "FI–LV": 1,
   "DE-NI–IE": 2,
