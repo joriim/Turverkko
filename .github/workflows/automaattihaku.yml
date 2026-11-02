@@ -13,6 +13,10 @@ on:
         description: "Tulosta raakavastausten otteet lokiin (jäsentimien kehitys)"
         type: boolean
         default: false
+      kokeilu:
+        description: "Aja vain rajapintakokeilu (kehitys)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -31,27 +35,37 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+      - name: Rajapintakokeilu
+        if: ${{ inputs.kokeilu }}
+        run: python scripts/haku/kokeile_oa.py
       - name: Saavutettavuus
+        if: ${{ !inputs.kokeilu }}
         env:
           NAYTTEET: ${{ inputs.naytteet && 'naytteet' || '' }}
         run: python scripts/haku/probe.py
       - name: Näytteiden otteet lokiin
-        if: ${{ inputs.naytteet }}
+        if: ${{ !inputs.kokeilu && inputs.naytteet }}
         run: python scripts/haku/nayte.py naytteet
       - name: OpenAIRE (lähde 22)
+        if: ${{ !inputs.kokeilu }}
         run: python scripts/haku/openaire.py
       - name: Julkaisuehdokkaat hankkeille (OpenAIRE)
+        if: ${{ !inputs.kokeilu }}
         continue-on-error: true
         run: python scripts/haku/julkaisut.py ${{ inputs.naytteet && '--nayte' || '' }}
       - name: CORDIS – Horizon 2020 ja Horizon Europe (lähde 23)
+        if: ${{ !inputs.kokeilu }}
         continue-on-error: true
         run: python scripts/haku/cordis.py
       - name: ROR-tunnisteet ja yhteisjulkaisut (ROR, OpenAIRE)
+        if: ${{ !inputs.kokeilu }}
         continue-on-error: true
         run: python scripts/haku/yhteisjulkaisut.py ${{ inputs.naytteet && '--nayte' || '' }}
       - name: Hakukattavuus tunnetuilla hankkeilla
+        if: ${{ !inputs.kokeilu }}
         run: python scripts/kattavuus.py
       - name: Pull request
+        if: ${{ !inputs.kokeilu }}
         continue-on-error: true  # jos Actions ei saa luoda PR:ää, tulokset jäävät haaraan automaattihaku
         uses: peter-evans/create-pull-request@v7
         with:

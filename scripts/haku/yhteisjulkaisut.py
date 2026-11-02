@@ -24,15 +24,33 @@ def say(*a):
     print(*a, file=sys.stderr, flush=True)
 
 
-def ror_match(name, cc):
-    d = get(ROR, {"affiliation": name})
-    for it in d.get("items") or []:
-        org = it.get("organization") or {}
-        loc = ((org.get("locations") or [{}])[0].get("geonames_details") or {}).get("country_code")
-        if it.get("chosen") and (not cc or loc == cc):
+def variants(o):
+    """Nimimuodot ROR-hakuun: koko nimi, ilman sulkeita, sulkeiden sisältö ja tuonnin tuntemat viralliset nimet."""
+    import re
+    sys.path.insert(0, str(ROOT / "src"))
+    import tuonti
+    name = o["name"]
+    out = [name, re.sub(r"\s*\([^)]*\)", "", name).strip()]
+    out += re.findall(r"\(([^)]{4,})\)", name)
+    out += [sub for sub, oid in tuonti.ORG_CONTAINS if oid == o["id"] and len(sub) > 8]
+    return list(dict.fromkeys(v for v in out if v))
+
+
+def ror_match(o, cc):
+    best = None
+    for q in variants(o):
+        d = get(ROR, {"affiliation": q})
+        for it in d.get("items") or []:
+            org = it.get("organization") or {}
+            loc = ((org.get("locations") or [{}])[0].get("geonames_details") or {}).get("country_code")
+            if cc and loc != cc:
+                continue
             disp = next((n["value"] for n in org.get("names", []) if "ror_display" in n.get("types", [])), "")
-            return org.get("id"), disp, it.get("score")
-    return None
+            if it.get("chosen"):
+                return org.get("id"), disp, it.get("score"), q
+            if (it.get("score") or 0) >= 0.9 and not best:
+                best = (org.get("id"), disp, it.get("score"), q + " (ei chosen)")
+    return best
 
 
 def oa_org(ror_id):
@@ -77,7 +95,7 @@ def main():
         rid = known_ror.get(o["id"])
         if not rid:
             try:
-                m = ror_match(o["name"], cc)
+                m = ror_match(o, cc)
             except Exception as e:  # noqa: BLE001
                 say(f"ROR {o['id']}: {e}"); m = None
             if a.nayte and not ror_rows:
@@ -86,7 +104,7 @@ def main():
                 say(f"ROR {o['id']} ({o['name']}): ei varmaa osumaa")
                 continue
             rid = m[0]
-            ror_rows.append(dict(org_id=o["id"], nimi=o["name"], maa=o.get("country", ""), ror=rid, ror_nimi=m[1], pisteet=m[2]))
+            ror_rows.append(dict(org_id=o["id"], nimi=o["name"], maa=o.get("country", ""), ror=rid, ror_nimi=m[1], pisteet=m[2], haku=m[3]))
         try:
             oid = oa_org(rid)
             if a.nayte and oid and not prods:
