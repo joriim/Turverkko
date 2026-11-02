@@ -27,8 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
       - name: Saavutettavuus
@@ -41,6 +41,7 @@ jobs:
       - name: OpenAIRE (lähde 22)
         run: python scripts/haku/openaire.py
       - name: Pull request
+        continue-on-error: true  # jos Actions ei saa luoda PR:ää, tulokset jäävät haaraan automaattihaku
         uses: peter-evans/create-pull-request@v7
         with:
           branch: automaattihaku
