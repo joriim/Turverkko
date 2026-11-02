@@ -24,6 +24,9 @@ jobs:
         env:
           NAYTTEET: ${{ inputs.naytteet && 'naytteet' || '' }}
         run: python scripts/haku/probe.py
+      - name: Näytteiden otteet lokiin
+        if: ${{ inputs.naytteet }}
+        run: python scripts/haku/nayte.py naytteet
       - name: Näytteet artefaktiksi
         if: ${{ inputs.naytteet }}
         uses: actions/upload-artifact@v4
