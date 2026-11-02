@@ -133,7 +133,8 @@ function show() {
   if (x.urls && x.urls.length > 1) add("Lähteet", x.urls.map((u, i) => `<a href="${u}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · "));
   if (x.rajaus === "maaperä") add("Rajaus", `<span class="pill">muu maaperä</span> ${TV.esc(x.rajaus_peruste)}`);
   if (x.auto_themes) add("Luokittelu", `<span class="pill unv">teemat luokiteltu automaattisesti</span> <span class="note">tuotu: ${TV.esc(x.imported_from || "")}</span>`);
-  add("Näyttöaste", x.evidence != null ? `${TV.evbar(x.evidence)} ${TV.EV[x.evidence]}` : "");
+  add("Näyttöaste", x.evidence != null ? `${TV.evbar(x.evidence)} ${TV.EV[x.evidence]}` + (x.evidence_basis && x.evidence_basis.length
+    ? `<ul class="basis">${x.evidence_basis.map(b => `<li>${TV.esc(b)}</li>`).join("")}</ul>` : "") : "");
   add("Tekijät", TV.esc(x.authors));
   add("Julkaisu", TV.esc([x.venue, x.year].filter(Boolean).join(", ")));
   add("Julkaisutyyppi", x.type && `<span class="pill">${TV.esc(x.type)}</span>${x.verified === false ? ' <span class="pill unv">metatiedot avaamatta</span>' : ""}`);

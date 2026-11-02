@@ -4054,7 +4054,7 @@
    "yhteiset_toimijat": "",
    "etaisyys": "ei polkua",
    "tyyppi": "rinnakkainen ilman yhteyttä",
-   "paras_naytto": 1
+   "paras_naytto": 2
   },
   {
    "a": "K-FI-8d28",
@@ -4399,7 +4399,7 @@
    "yhteiset_toimijat": "",
    "etaisyys": "ei polkua",
    "tyyppi": "rinnakkainen ilman yhteyttä",
-   "paras_naytto": 1
+   "paras_naytto": 2
   },
   {
    "a": "FI-02",
@@ -5059,7 +5059,7 @@
    "yhteiset_toimijat": "",
    "etaisyys": "ei polkua",
    "tyyppi": "rinnakkainen ilman yhteyttä",
-   "paras_naytto": 1
+   "paras_naytto": 2
   },
   {
    "a": "K-FI-6c73",
@@ -5089,7 +5089,7 @@
    "yhteiset_toimijat": "",
    "etaisyys": "ei polkua",
    "tyyppi": "puuttuva yhteys",
-   "paras_naytto": 1
+   "paras_naytto": 3
   },
   {
    "a": "K-DE-NI-f3b0",

@@ -293,6 +293,33 @@ def _evidence(row):
     return 1 if (out.strip() or row["kuvaus"].strip()) else 0
 
 
+PUB_FIELDS = ["hanke_id", "otsikko", "tekijat", "vuosi", "tyyppi", "julkaisija", "doi", "url", "avoin", "lahde", "haettu"]
+PUB_TYPES = {"vertaisarvioitu", "raportti", "aineisto", "ammattijulkaisu", "opinnäyte", "konferenssiabstrakti", "muu"}
+
+
+def load_pubs(known_projects):
+    """Tarkistetut julkaisut kansiosta hakulahteet/tulokset/julkaisut/ (muoto: julkaisupohja.csv)."""
+    out = []
+    for f in sorted((RESULTS / "julkaisut").glob("*.csv")):
+        with open(f, encoding="utf-8-sig") as fh:
+            for r in csv.DictReader(fh):
+                pid = r["hanke_id"].strip()
+                if pid not in known_projects:
+                    raise SystemExit(f"{f.name}: tuntematon hanke_id {pid!r}")
+                typ = r["tyyppi"].strip().lower() or "muu"
+                if typ not in PUB_TYPES:
+                    raise SystemExit(f"{f.name}: tuntematon tyyppi {typ!r} ({sorted(PUB_TYPES)})")
+                doi = r["doi"].strip().removeprefix("https://doi.org/")
+                key = doi or r["url"].strip() or r["otsikko"].strip()
+                out.append(dict(id="J-" + hashlib.sha1(key.encode()).hexdigest()[:6], project=pid, hub=None,
+                                year=int(r["vuosi"]) if r["vuosi"].strip().isdigit() else None, type=typ, verified=True,
+                                authors=r["tekijat"].strip(), title=r["otsikko"].strip(), venue=r["julkaisija"].strip(),
+                                themes=[], url=f"https://doi.org/{doi}" if doi else r["url"].strip(),
+                                open_access=r["avoin"].strip().lower() in ("kyllä", "kylla", "yes", "true", "1"),
+                                source=r["lahde"].strip(), imported_from=f.name))
+    return out
+
+
 def load():
     """Palauttaa (uudet hankkeet, uudet organisaatiot, osallistumiset, täydennykset, poistetut)."""
     rows = []
@@ -347,7 +374,7 @@ def load():
             eur_total=sum(b for b in budgets if b) or None, eur_eu=sum(e for e in eus if e) or None,
             themes=THEME_OVERRIDE.get(name) or _themes(text), auto_themes=name not in THEME_OVERRIDE, outputs=r0["tuotokset"] or r0["kuvaus"], description=" ".join(dict.fromkeys(r["kuvaus"].strip() for r in rs if r["kuvaus"].strip())),
             evidence=_evidence(r0), url=r0["url"], urls=[r["url"] for r in rs],
-            programme=r0["ohjelmakausi"], imported_from=r0["_file"], rajaus="maaperä" if name in MAAPERA else "turvemaa", rajaus_peruste=MAAPERA.get(name, ""),
+            programme=r0["ohjelmakausi"], imported_from=r0["_file"], acronym=r0.get("lyhenne", "").strip(), rajaus="maaperä" if name in MAAPERA else "turvemaa", rajaus_peruste=MAAPERA.get(name, ""),
             partners_note="; ".join(p for p in [r0["partnerit"]] if p) if c == "EU" else ""))
         for i, who in enumerate([r["toteuttaja"] for r in rs] + partners_listed):
             if not who.strip():

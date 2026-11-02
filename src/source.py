@@ -475,3 +475,13 @@ _byid["FI-02"].update(
     name="PohjaNeva – Vauhtia pohjalaismaakuntien JTF-ennallistamisiin",
     start=2024, end=2027,
     outputs="Pohjalaismaakuntien turvetuotantoalueiden ennallistamisen vauhdittaminen; esimerkkinä Myllynevan 10 ha:n kosteikko (Alavus, 12 722 €)")
+
+# Tarkistetut julkaisut hakulähteistä (hakulahteet/tulokset/julkaisut/) ja tuotosten näyttöaste
+_known_pids = {p["id"] for p in PROJECTS + CONTEXT}
+_have = {p["id"] for p in PUBS}
+PUBS += [p for p in _tuonti.load_pubs(_known_pids) if p["id"] not in _have]
+for _pub in PUBS:
+    _pub.setdefault("themes", [])
+import naytto as _naytto  # noqa: E402
+_naytto.apply(PROJECTS, PUBS)
+

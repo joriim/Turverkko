@@ -119,3 +119,6 @@ pre{background:var(--sunk);border-radius:6px;padding:14px;overflow-x:auto;margin
   .nav .gh{display:none}
   .brand{font-size:17px}
 }
+
+.basis{margin:6px 0 0;padding-left:18px;font-size:13px;color:var(--muted)}
+.basis li{margin:2px 0;overflow-wrap:anywhere}

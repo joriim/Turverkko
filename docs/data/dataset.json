@@ -172,9 +172,17 @@
     "T4"
    ],
    "outputs": "Klusteri, 21 jäsenorganisaatiota; testialueet EP ja KP",
-   "evidence": 1,
+   "evidence": 3,
    "url": "https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "linkitetty ammattijulkaisu J1 (ammattijulkaisu)",
+    "linkitetty tuotos J4 (ammattijulkaisu, tarkistamatta)",
+    "linkitetty tuotos J5 (ammattijulkaisu, tarkistamatta)",
+    "linkitetty tuotos J6 (ammattijulkaisu, tarkistamatta)"
+   ],
+   "pubs_n": 4
   },
   {
    "id": "FI-02",
@@ -199,7 +207,12 @@
    "urls": [
     "https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&lang=fi",
     "https://kohesio.ec.europa.eu/en/projects/Q7440094"
-   ]
+   ],
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “merkkinä Myllynevan 10 ha:n kosteikko (Alavus, 12 722 €”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "FI-03",
@@ -219,7 +232,11 @@
    "outputs": "Kohteiden tunnistus, esiselvitykset, toteuttajien haku, vesistökunnostussuunnitelmat",
    "evidence": 1,
    "url": "https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&lang=fi",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "EE-02",
@@ -244,7 +261,13 @@
    "urls": [
     "https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid",
     "https://kohesio.ec.europa.eu/en/projects/Q3079298"
-   ]
+   ],
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “2 000 ha hylättyjä turvetuotantoalueit”",
+    "raportoitu toteuma: “u (Kohesio); Laiuse saavutti tavoitevedenpinnan (ERR 2021)”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "LV-01",
@@ -266,9 +289,16 @@
     "T8"
    ],
    "outputs": "≥50 artikkelia (≥5 Q1); >30 KHK-seurantakohdetta; ≥10 kasvualustareseptiä; ≥4 kemiallista prototyyppiä; ≥1 patentti; Centre of Excellence",
-   "evidence": 2,
+   "evidence": 3,
    "url": "https://www.silava.lv/en/research/projects/PeatTransform",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “≥50 artikkelia (≥5 Q1); >30 KHK-seurantakohd”",
+    "linkitetty konferenssiabstrakti J7 (konferenssiabstrakti)",
+    "linkitetty tapahtuma J8 (tapahtuma)"
+   ],
+   "pubs_n": 2
   },
   {
    "id": "LV-02",
@@ -294,7 +324,12 @@
    "urls": [
     "https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund",
     "https://kohesio.ec.europa.eu/en/projects/Q7432533"
-   ]
+   ],
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “≥9 000 ha inventointi; turvepolttolaito”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "LV-03",
@@ -315,7 +350,12 @@
    "outputs": "Jälkikäyttöskenaariot 4 turvealueelle; paludikulttuuriratkaisut",
    "evidence": 2,
    "url": "https://silava.lv/en/projects/climate-policy-adapted-solutions-for-extracted-peatlands-and-paludiculture-implementation",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "käsin arvioitu taso 2"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "IE-01",
@@ -341,7 +381,13 @@
    "urls": [
     "https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf",
     "https://eu-cap-network.ec.europa.eu/projects/farm-carbon-eip_en"
-   ]
+   ],
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “23 tilaa; vettäminen ~95 ha + 40 ha su”",
+    "käsin arvioitu taso 3"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "IE-02",
@@ -367,7 +413,12 @@
    "urls": [
     "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de",
     "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_en"
-   ]
+   ],
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "käsin arvioitu taso 2"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "NI-01",
@@ -389,7 +440,11 @@
    "outputs": "12 vettämis-, 12 valmistelu- ja 9 kestävän käytön hanketta",
    "evidence": 1,
    "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "NI-02",
@@ -407,14 +462,18 @@
     "T3"
    ],
    "outputs": "Lähde ei raportoi",
-   "evidence": 0,
+   "evidence": 1,
    "url": "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html",
    "rajaus": "turvemaa",
    "description_extra": "Development of sustainable product chains from paludiculture biomass from wetlands and their ecological and economic evaluation.",
    "urls": [
     "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html",
     "https://kohesio.ec.europa.eu/en/projects/Q7262189"
-   ]
+   ],
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "NI-03",
@@ -434,7 +493,12 @@
    "outputs": "Sitoumukset 4,78 M€ (2017) ja 4,03 M€ (2018), pääosin maanostoihin",
    "evidence": 2,
    "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "käsin arvioitu taso 2"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "FI-06",
@@ -457,7 +521,11 @@
    "outputs": "Jälkikäyttösuunnitelmat maanomistajille, kosteikko- ja soistamiskohteet, sopimusmallit",
    "evidence": 1,
    "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "FI-07",
@@ -480,7 +548,13 @@
    "outputs": "Naarasnevan jatkuva CO2/N2O/CH4-asema + >80 kammiopistettä; vertaisarvioitu kannattavuustutkimus (Suo 2025)",
    "evidence": 4,
    "url": "https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "linkitetty vertaisarvioitu julkaisu J2 (vertaisarvioitu)",
+    "linkitetty tiedote / mittausasema J3 (tiedote / mittausasema)"
+   ],
+   "pubs_n": 2
   },
   {
    "id": "FI-08",
@@ -501,7 +575,11 @@
    "outputs": "Rahkasammal- ja osmankäämipilotti entisellä turvetuotantoalueella; turpeen korvaajien kokeet",
    "evidence": 1,
    "url": "https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "FI-09",
@@ -521,9 +599,14 @@
     "T8"
    ],
    "outputs": "Kaupallisesti kannattavat suonpohjien viljelymallit; tutustuminen Silavaan 8/2025",
-   "evidence": 1,
+   "evidence": 3,
    "url": "https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "linkitetty tapahtuma J9 (tapahtuma)"
+   ],
+   "pubs_n": 1
   },
   {
    "id": "FI-10",
@@ -541,9 +624,13 @@
     "T3"
    ],
    "outputs": "Lähde mainitsee vain hankkeen nimen ja aiheen",
-   "evidence": 0,
+   "evidence": 1,
    "url": "https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana",
-   "rajaus": "turvemaa"
+   "rajaus": "turvemaa",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-1746",
@@ -570,9 +657,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-accd",
@@ -600,9 +692,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-f620",
@@ -630,9 +727,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-e147",
@@ -659,9 +761,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-7a94",
@@ -689,9 +796,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-209b",
@@ -718,9 +830,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-36d2",
@@ -747,9 +864,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-dab1",
@@ -778,9 +900,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-f68e",
@@ -808,9 +935,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-DE-NI-3e4b",
@@ -837,9 +969,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "FloraGPT",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-c05c",
@@ -867,9 +1004,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-e715",
@@ -896,9 +1038,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-DE-NI-b06d",
@@ -926,9 +1073,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "I-ROBI",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-cf1c",
@@ -955,9 +1107,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-af02",
@@ -984,9 +1141,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-d90f",
@@ -1013,9 +1175,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "MOORIS",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-44a1",
@@ -1043,9 +1210,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "MOOSWEIT",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-77b2",
@@ -1072,9 +1244,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "MOOSWEIT",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-bd6b",
@@ -1101,9 +1278,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "MOOSWEIT",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-410f",
@@ -1131,9 +1313,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-9595",
@@ -1160,9 +1347,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-cc25",
@@ -1190,9 +1382,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-1c15",
@@ -1220,9 +1417,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-34e3",
@@ -1250,9 +1452,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-ee94",
@@ -1279,9 +1486,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "EL-MIS",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-bf71",
@@ -1308,9 +1520,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-03c5",
@@ -1337,9 +1554,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-9163",
@@ -1367,9 +1589,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-a450",
@@ -1397,9 +1624,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-ca87",
@@ -1426,9 +1658,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "Mäh4Moor",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-1847",
@@ -1455,9 +1692,14 @@
    ],
    "programme": "2021-2027 (Niedersachsen - DE - ERDF/ESF+)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-0499",
@@ -1485,9 +1727,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "OptiMOOS",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-3eb1",
@@ -1514,9 +1761,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-a456",
@@ -1543,9 +1795,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-b8d9",
@@ -1572,9 +1829,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-6c80",
@@ -1601,9 +1863,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-c1d3",
@@ -1630,9 +1897,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-9d56",
@@ -1659,9 +1931,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-d3d6",
@@ -1689,9 +1966,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-d8d1",
@@ -1720,9 +2002,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-8755",
@@ -1749,9 +2036,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-0e2b",
@@ -1779,9 +2071,15 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “fhorn on an area of 150 ha south of the Sauerbach Rewett”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-04a5",
@@ -1809,9 +2107,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-c57b",
@@ -1838,9 +2141,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-3ac3",
@@ -1860,16 +2168,22 @@
    "auto_themes": true,
    "outputs": "Renaturation of a complex of 72 ha from high moor, spring moor and hill moor areas with organic and mineral wet soils.",
    "description": "Renaturation of a complex of 72 ha from high moor, spring moor and hill moor areas with organic and mineral wet soils.",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262182",
    "urls": [
     "https://kohesio.ec.europa.eu/en/projects/Q7262182"
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “ion of a complex of 72 ha from high moor, spring moor a”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-6f11",
@@ -1896,9 +2210,15 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “Restoration of a 30 ha complex from spring and hill”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-e128",
@@ -1925,9 +2245,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-d14f",
@@ -1948,16 +2273,22 @@
    "auto_themes": true,
    "outputs": "SCF tests and deploys solutions on 15 pilot farms in 5 NWE countries that obtain accurate results at farm level and cover various regional contexts.",
    "description": "The EU agricultural sector ( 8.7M jobs) is under threat (62% farms closed by 2040) and needs to innovate to stay competitive and reach net zero by 2050.",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
    "urls": [
     "https://kohesio.ec.europa.eu/en/projects/Q7735330"
    ],
    "programme": "2021-2027 (Interreg VI-B - North West Europe)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “eploys solutions on 15 pilot farms in 5 NWE countries that”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-cad6",
@@ -1984,9 +2315,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-f3b0",
@@ -2013,9 +2349,14 @@
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-DE-NI-61e6",
@@ -2036,16 +2377,22 @@
    "auto_themes": true,
    "outputs": "On former peat extraction areas of the Large Moor natural area, approximately 3 hectares of area with pump-controlled water regimes are to be re-wetted.",
    "description": "On former peat extraction areas of the Large Moor natural area, approximately 3 hectares of area with pump-controlled water regimes are to be re-wetted.",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262113",
    "urls": [
     "https://kohesio.ec.europa.eu/en/projects/Q7262113"
    ],
    "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “area, approximately 3 hectares of area with pump-controlled”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-EU-5a7e",
@@ -2073,9 +2420,14 @@
    ],
    "programme": "2021-2027 (Interreg VI-C - Interreg Europe)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": "Câmara Municipal de Braga; Regio Zugspitzregion e.V.; Region Midtjylland; Regional Development Agency of Odesa Region; Savivaldybės įmonė “Susisiekimo paslaugos”; Stad Aalst"
+   "partners_note": "Câmara Municipal de Braga; Regio Zugspitzregion e.V.; Region Midtjylland; Regional Development Agency of Odesa Region; Savivaldybės įmonė “Susisiekimo paslaugos”; Stad Aalst",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-EU-0882",
@@ -2103,9 +2455,14 @@
    ],
    "programme": "2021-2027 (Interreg VI-B - North West Europe)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": "BeeOdiversity; Bioclear earth B.V.; Chambres Régionales d’agriculture de Bretagne; Gemeente Midden-Groningen; Gemeente Westerkwartier; HAEDES BV; Hanzehogeschool Groningen; Hoch Schule Emden Leer; HTCL-Innovationsgesellschaft mbH; La Chambre d’agriculture de Normandie; La Chambre d’agriculture des Pays de la Loire; Natuurpunt Beheer vzw; Patchview Designated Activity Company; Philipps-Universität Marburg; Provincie Groningen; Provincie West-Vlaanderen; South Kerry Development Partnership CLG; Stiftung Ökowerk Emden; Universität Vechta; Vlaamse Landmaatschappij"
+   "partners_note": "BeeOdiversity; Bioclear earth B.V.; Chambres Régionales d’agriculture de Bretagne; Gemeente Midden-Groningen; Gemeente Westerkwartier; HAEDES BV; Hanzehogeschool Groningen; Hoch Schule Emden Leer; HTCL-Innovationsgesellschaft mbH; La Chambre d’agriculture de Normandie; La Chambre d’agriculture des Pays de la Loire; Natuurpunt Beheer vzw; Patchview Designated Activity Company; Philipps-Universität Marburg; Provincie Groningen; Provincie West-Vlaanderen; South Kerry Development Partnership CLG; Stiftung Ökowerk Emden; Universität Vechta; Vlaamse Landmaatschappij",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-EU-48f5",
@@ -2133,9 +2490,14 @@
    ],
    "programme": "2014-2020 (Interreg V-B - North West Europe)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-EU-f426",
@@ -2162,9 +2524,14 @@
    ],
    "programme": "2014-2020 (Interreg V-B - North Sea)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "T-EU-88fc",
@@ -2193,9 +2560,14 @@
    ],
    "programme": "2021-2027",
    "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": "SVERIGES LANTBRUKSUNIVERSITET"
+   "partners_note": "SVERIGES LANTBRUKSUNIVERSITET",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "T-EU-73cb",
@@ -2223,9 +2595,14 @@
    ],
    "programme": "2021-2027",
    "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": "Den Danske Klimaskovfond;FALKENBERGS KOMMUN;Faxe Kommune;Guldborgsund Kommune;HÄSSLEHOLMS KOMMUN;KRISTIANSTADS KOMMUN;Kalundborg Kommune;Københavns Universitet;LUNDS KOMMUN;Lejre Kommune;Lolland Kommune;OSBY KOMMUN;Roskilde Kommune;SKOGSSTYRELSEN;SVERIGES LANTBRUKSUNIVERSITET"
+   "partners_note": "Den Danske Klimaskovfond;FALKENBERGS KOMMUN;Faxe Kommune;Guldborgsund Kommune;HÄSSLEHOLMS KOMMUN;KRISTIANSTADS KOMMUN;Kalundborg Kommune;Københavns Universitet;LUNDS KOMMUN;Lejre Kommune;Lolland Kommune;OSBY KOMMUN;Roskilde Kommune;SKOGSSTYRELSEN;SVERIGES LANTBRUKSUNIVERSITET",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-EU-2e51",
@@ -2253,10 +2630,15 @@
    ],
    "programme": "2021-2027 (Interreg VI-A - Sweden-Finland-Norway (AURORA))",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "PRESERVE",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
    "partners_note": "LUKE Luonnonvarakeskus; Sveriges Lantbruksuniversitet",
-   "description_extra": "The PRESERVE project aims to address the critical challenges of peatland degradation in the Aurora and sub-Arctic regions, with a focus on Natura 2000 areas in Finnish Lapland and Västerbotten, Sweden. Program: Interreg Aurora Peatland restoration monitoring approach; four peer-reviewed open access articles"
+   "description_extra": "The PRESERVE project aims to address the critical challenges of peatland degradation in the Aurora and sub-Arctic regions, with a focus on Natura 2000 areas in Finnish Lapland and Västerbotten, Sweden. Program: Interreg Aurora Peatland restoration monitoring approach; four peer-reviewed open access articles",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-b095",
@@ -2286,9 +2668,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “at production area (139 ha) in the municipality of Muhos”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-e8b3",
@@ -2315,9 +2703,14 @@
    ],
    "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-050e",
@@ -2337,7 +2730,7 @@
    "auto_themes": true,
    "outputs": "BioKas - Growth from Biochar – Towards the Peat-Free Society project is focused on developing novel peat-free growing media and product prototypes made from organic materials for soil improvement.",
    "description": "BioKas - Growth from Biochar – Towards the Peat-Free Society project is focused on developing novel peat-free growing media and product prototypes made from organic materials for soil improvement.",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441340",
    "urls": [
     "https://kohesio.ec.europa.eu/en/projects/Q7441340",
@@ -2345,10 +2738,16 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
    "partners_note": "",
-   "description_extra": "Rahoittaja: Etelä-Savon maakuntaliitto. Kehitetään orgaanisista materiaaleista valmistettuja turpeettomia kasvualustoja ja tuoteaihioita maanparannukseen; testataan biohiilipohjaista kasvualustakonseptia mobiili-pilot-biohiililaitteistolla. Tavoite: 4 innovaatiota/tuotetta/palvelua, 2 innovaatioita tekevää pk-yritystä, 5 yritystä yhteistyössä tutkimuslaitosten kanssa, 1 tutkimusorganisaatio; mobiilipilotti-investointi ja koeajot"
+   "description_extra": "Rahoittaja: Etelä-Savon maakuntaliitto. Kehitetään orgaanisista materiaaleista valmistettuja turpeettomia kasvualustoja ja tuoteaihioita maanparannukseen; testataan biohiilipohjaista kasvualustakonseptia mobiili-pilot-biohiililaitteistolla. Tavoite: 4 innovaatiota/tuotetta/palvelua, 2 innovaatioita tekevää pk-yritystä, 5 yritystä yhteistyössä tutkimuslaitosten kanssa, 1 tutkimusorganisaatio; mobiilipilotti-investointi ja koeajot",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “teistolla. Tavoite: 4 innovaatiota/tuotetta/palvelua, 2 inno”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-a45d",
@@ -2375,9 +2774,14 @@
    ],
    "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-879d",
@@ -2405,9 +2809,14 @@
    ],
    "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "R-FI-d4ba",
@@ -2428,16 +2837,22 @@
    "auto_themes": false,
    "outputs": "Opetusmateriaaleja maarakennuskoneiden simulaatioharjoitteluun; ENNO/ENNOS-hankkeiden yhteiset verkkosivut; tavoite: 1 innovaatio/tuote/palvelu",
    "description": "Rahoittaja: Satakuntaliitto. WinNovan maarakennusalalle luodaan hybridioppimisympäristö, jossa turvetuotantoalueiden ja niihin liittyvien vesien ennallistamistöitä harjoitellaan kaivinkonesimulaattorilla. Investoinnit rinnakkaisessa ENNOS-hankkeessa.",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://eura2021.fi/hanketietopalvelu?koodi=J11668",
    "urls": [
     "https://eura2021.fi/hanketietopalvelu?koodi=J11668"
    ],
    "programme": "2021–2027",
    "imported_from": "5-eura2021-2026-11-02.csv",
+   "acronym": "ENNO",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “rkkosivut; tavoite: 1 innovaatio/tuote/palvelu Rahoittaja: S”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-6894",
@@ -2468,9 +2883,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-1fcb",
@@ -2499,9 +2919,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "metsien hiilinielu ja maankäyttösektorin velvoitteet",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-2fcc",
@@ -2529,9 +2954,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “store approximately 18 hectares of drained peatland forest a”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-6c73",
@@ -2559,9 +2990,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “ea is approximately 30 hectares. UPM seeks to have a restora”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-1d92",
@@ -2589,10 +3026,15 @@
    ],
    "programme": "2021-2027 (Interreg VI-A - Sweden-Finland-Norway (AURORA))",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "MEQAL",
    "rajaus": "maaperä",
    "rajaus_peruste": "metaanipäästöjen mittaus (MRV), mukana maatalous ja soiden ennallistaminen",
    "partners_note": "",
-   "description_extra": "A new method that detects, localizes and quantifies unintentional methane emissions to support methane recovery and leakage prevention in waste management, biogas production, agriculture and peatland restoration. Program: Interreg Aurora"
+   "description_extra": "A new method that detects, localizes and quantifies unintentional methane emissions to support methane recovery and leakage prevention in waste management, biogas production, agriculture and peatland restoration. Program: Interreg Aurora",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-56cf",
@@ -2620,9 +3062,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "NEVALA",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-561d",
@@ -2652,9 +3099,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-6978",
@@ -2682,9 +3134,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “a peat bog covering 12 hectares, along with stream restorati”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-e290",
@@ -2712,9 +3170,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “y reuse and restore 500 hectares and in South Karelia 250 he”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-8d28",
@@ -2742,9 +3206,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-9cd5",
@@ -2774,9 +3243,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “n will create about 75 hectares of open water area in the fo”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-cb20",
@@ -2804,9 +3279,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “to be restored is a 70 hectares area of meliorated mire at L”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-16d2",
@@ -2834,9 +3315,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-7c34",
@@ -2865,9 +3351,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-9511",
@@ -2889,7 +3380,7 @@
    "auto_themes": true,
    "outputs": "The AurinkoSuo project produces research data on the environmental impacts of solar power plants on former cutover peatlands. This information is highly relevant for Central and Western Finland as well as for the entire country in the pursuit of carbon neutrality and in efforts to reduce emissions…",
    "description": "The AurinkoSuo project produces research data on the environmental impacts of solar power plants on former cutover peatlands. This information is highly relevant for Central and Western Finland as well as for the entire country in the pursuit of carbon neutrality and in efforts to reduce emissions…",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441173",
    "urls": [
     "https://kohesio.ec.europa.eu/en/projects/Q7441173",
@@ -2898,10 +3389,16 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
    "partners_note": "",
-   "description_extra": "Rahoittaja: Keski-Suomen elinvoimakeskus. Tutkitaan aurinkovoimaloiden ympäristövaikutuksia suonpohjilla: paneelien vaikutukset maaperän ja kasvillisuuden säteily-, lämpötila- ja kosteusoloihin sekä kasvihuonekaasupäästöihin kahdella turvesuolle perustettavalla paneelikentällä. Suonpohjan CO2-, N2O- ja CH4-vuot, hiilitase ennen ja jälkeen paneelikentän, vesistövaikutukset; 1–2 tieteellistä ja 1–2 ammatillista julkaisua; avoimet mittausaineistot (FAIR); tavoite: 3 yritystä yhteistyössä, 3 tutkimusorganisaatiota Rahoittaja: Keski-Suomen elinvoimakeskus. AurinkoSuo-hankeparin investointiosa: turvetuotannosta poistuneelle suopohjalle perustetaan koekenttä ja hankitaan mittauslaitteita. Samat tulostavoitteet kuin kehittämisosassa (kaasuvuot, hiilitase, vesistövaikutukset, julkaisut, avoimet aineistot); tavoite: 3 yritystä yhteistyössä, 3 tutkimusorganisaatiota"
+   "description_extra": "Rahoittaja: Keski-Suomen elinvoimakeskus. Tutkitaan aurinkovoimaloiden ympäristövaikutuksia suonpohjilla: paneelien vaikutukset maaperän ja kasvillisuuden säteily-, lämpötila- ja kosteusoloihin sekä kasvihuonekaasupäästöihin kahdella turvesuolle perustettavalla paneelikentällä. Suonpohjan CO2-, N2O- ja CH4-vuot, hiilitase ennen ja jälkeen paneelikentän, vesistövaikutukset; 1–2 tieteellistä ja 1–2 ammatillista julkaisua; avoimet mittausaineistot (FAIR); tavoite: 3 yritystä yhteistyössä, 3 tutkimusorganisaatiota Rahoittaja: Keski-Suomen elinvoimakeskus. AurinkoSuo-hankeparin investointiosa: turvetuotannosta poistuneelle suopohjalle perustetaan koekenttä ja hankitaan mittauslaitteita. Samat tulostavoitteet kuin kehittämisosassa (kaasuvuot, hiilitase, vesistövaikutukset, julkaisut, avoimet aineistot); tavoite: 3 yritystä yhteistyössä, 3 tutkimusorganisaatiota",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “ot (FAIR); tavoite: 3 yritystä yhteistyössä, 3 tutkimusorgan”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "R-FI-70e5",
@@ -2921,16 +3418,22 @@
    "auto_themes": false,
    "outputs": "Riskinhallintamalli ja kartoitus-/tunnistusmenetelmäohjeet; kartat, oppaat ja artikkelit GTK:n Hakku-portaalissa; tavoite: 1 innovaatio/tuote/palvelu, 1 ilmastonmuutokseen sopeutumisen uusi ratkaisu",
    "description": "Rahoittaja: Pohjois-Suomen elinvoimakeskus. Tunnistetaan mustaliuskeiden esiintymiä kohdekohtaisesti ja määritetään niiden haitta-ainepitoisuuksia ja haponmuodostuskykyä kalliossa, maaperässä ja pintavesissä maankäytön, esim. metsäojitusten ja suometsien ennallistamisen, tueksi.",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://eura2021.fi/hanketietopalvelu?koodi=A81861",
    "urls": [
     "https://eura2021.fi/hanketietopalvelu?koodi=A81861"
    ],
    "programme": "2021–2027",
    "imported_from": "5-eura2021-2026-11-02.csv",
+   "acronym": "SOLMU",
    "rajaus": "maaperä",
    "rajaus_peruste": "maaperän haitta-aineriskit maankäytössä (mustaliuske) ja ilmastosopeutus",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “rtaalissa; tavoite: 1 innovaatio/tuote/palvelu, 1 ilmastonmu”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-06b9",
@@ -2960,9 +3463,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “ion sites (in total 200 ha) located in Ranua municipalit”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-b38f",
@@ -2991,9 +3500,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “st couple of years, 1000 ha have gone out of production.”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-6f20",
@@ -3021,9 +3536,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "TURBITS",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-006d",
@@ -3052,9 +3572,14 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-3bb2",
@@ -3082,9 +3607,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “re is approximately 5 hectares of land to be drained or conv”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-c4ea",
@@ -3113,9 +3644,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “tion in the area of 42 ha. In the years 2016–2019, the”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-ceda",
@@ -3142,9 +3679,14 @@
    ],
    "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "TurVI",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-9061",
@@ -3171,9 +3713,14 @@
    ],
    "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "hitu-D",
    "rajaus": "maaperä",
    "rajaus_peruste": "maatilan päästöjen ja maaperän hiilen tutkimus",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-519c",
@@ -3200,9 +3747,14 @@
    ],
    "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "hitu-I",
    "rajaus": "maaperä",
    "rajaus_peruste": "maatilan päästöjen ja maaperän hiilen tutkimusinfrastruktuuri",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-665a",
@@ -3231,9 +3783,15 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “reate approximately 55 hectares of open water area by raisin”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "R-FI-b45a",
@@ -3254,16 +3812,22 @@
    "auto_themes": false,
    "outputs": "Tavoite: 2 innovaatiota/tuotetta/palvelua, 3 innovaatioita tekevää pk-yritystä, 6 yritystä yhteistyössä tutkimuslaitosten kanssa; tulokset julkisesti saatavilla mm. Turvemaiden osaamisklusterin kanavilla",
    "description": "Rahoittaja: Etelä-Pohjanmaan liitto. Etsitään turpeelle korvaavia materiaaleja kuivikkeiksi ja kasvualustoiksi ja selvitetään, voiko turvetuotannosta vapautuvilla alueilla vettämällä tai muuten kestävästi viljellä turvetta korvaavia kasveja; tarkastellaan turvevapaan ruokaketjun arvoketjuja.",
-   "evidence": 1,
+   "evidence": 2,
    "url": "https://eura2021.fi/hanketietopalvelu?koodi=J10741",
    "urls": [
     "https://eura2021.fi/hanketietopalvelu?koodi=J10741"
    ],
    "programme": "2021–2027",
    "imported_from": "5-eura2021-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “Tavoite: 2 innovaatiota/tuotetta/palvelua, 3 innovaat”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-FI-0ac6",
@@ -3287,7 +3851,7 @@
    "auto_themes": true,
    "outputs": "1. Background The need to reduce Finland's and the European Union's greenhouse gas emissions increases the pressure to direct areas to land use forms that preserve carbon reserves and to build systems where the landowner receives compensation for reducing emissions.",
    "description": "1. Background The need to reduce Finland's and the European Union's greenhouse gas emissions increases the pressure to direct areas to land use forms that preserve carbon reserves and to build systems where the landowner receives compensation for reducing emissions.",
-   "evidence": 1,
+   "evidence": 3,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440188",
    "urls": [
     "https://kohesio.ec.europa.eu/en/projects/Q7440188",
@@ -3298,10 +3862,17 @@
    ],
    "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
    "partners_note": "",
-   "description_extra": "Rahoittaja: Keski-Suomen elinvoimakeskus. Selvitetään luonnontieteellis-tekniset, oikeudellis-hallinnolliset ja taloudelliset edellytykset saada maanomistajalle lisäarvoa turvetuotannosta poistettujen alueiden hiilivaraston säilyttämisestä ja hiilensidonnasta kosteikkoviljelyn ja ennallistamisen avulla. Ilmastoystävällisiä jälkikäytön maankäyttömalleja; tavoite/toteuma: innovaatiot 5/6, kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha, yritykset yhteistyössä tutkimuslaitosten kanssa 5/5, tutkimusorganisaatiot 4/4"
+   "description_extra": "Rahoittaja: Keski-Suomen elinvoimakeskus. Selvitetään luonnontieteellis-tekniset, oikeudellis-hallinnolliset ja taloudelliset edellytykset saada maanomistajalle lisäarvoa turvetuotannosta poistettujen alueiden hiilivaraston säilyttämisestä ja hiilensidonnasta kosteikkoviljelyn ja ennallistamisen avulla. Ilmastoystävällisiä jälkikäytön maankäyttömalleja; tavoite/toteuma: innovaatiot 5/6, kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha, yritykset yhteistyössä tutkimuslaitosten kanssa 5/5, tutkimusorganisaatiot 4/4",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “ön otettu maaperä 8/1 ha, yritykset yhteistyössä tutki”",
+    "raportoitu toteuma: “ttömalleja; tavoite/toteuma: innovaatiot 5/6, kunnostettu”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-IE-9275",
@@ -3329,9 +3900,14 @@
    ],
    "programme": "Rural Development Programme 2014-2020",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-IE-e6ef",
@@ -3359,9 +3935,14 @@
    ],
    "programme": "Rural Development Programme 2014-2020",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "BFF",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-IE-06fb",
@@ -3388,9 +3969,15 @@
    ],
    "programme": "2014-2020 (Interreg V-A - United Kingdom-Ireland (Ireland-Wales))",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “plans and ensuring 2,2228 ha of habitats are supported to”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-IE-0b63",
@@ -3418,9 +4005,14 @@
    ],
    "programme": "2014-2020 (Interreg V-A - United Kingdom-Ireland (Ireland-Wales))",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-IE-cee8",
@@ -3447,9 +4039,14 @@
    ],
    "programme": "2021-2027 (Just Transition - IE – JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-IE-2cb2",
@@ -3477,9 +4074,14 @@
    ],
    "programme": "Rural Development Programme 2014-2020",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-IE-0814",
@@ -3506,9 +4108,14 @@
    ],
    "programme": "2021-2027 (Just Transition - IE – JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-IE-7fa4",
@@ -3536,9 +4143,14 @@
    ],
    "programme": "2021-2027 (Just Transition - IE – JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-IE-d7ff",
@@ -3568,9 +4180,14 @@
    ],
    "programme": "2021-2027 (Just Transition - IE – JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-IE-9676",
@@ -3597,9 +4214,14 @@
    ],
    "programme": "Rural Development Programme 2014-2020",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-IE-8525",
@@ -3626,9 +4248,14 @@
    ],
    "programme": "2021-2027 (Just Transition - IE – JTF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-LV-c39d",
@@ -3656,9 +4283,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "maaperän KHK-päästöt ja kasvukunto",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-LV-6430",
@@ -3687,9 +4319,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-LV-4390",
@@ -3717,9 +4354,14 @@
    ],
    "programme": "2014-2020 (Growth and Employment - LV - ERDF/ESF/CF/YEI)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-LV-9406",
@@ -3747,9 +4389,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-LV-74bd",
@@ -3778,9 +4425,14 @@
    ],
    "programme": "2014-2020 (Growth and Employment - LV - ERDF/ESF/CF/YEI)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-LV-2fac",
@@ -3807,9 +4459,14 @@
    ],
    "programme": "2021-2027 (Cohesion policy funding - LV – ERDF/CF/ESF+)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-LV-37ba",
@@ -3837,9 +4494,14 @@
    ],
    "programme": "2021-2027 (Interreg VI-A - Latvia-Lithuania)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-LV-8eeb",
@@ -3867,9 +4529,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-LV-d12c",
@@ -3896,9 +4563,14 @@
    ],
    "programme": "Rural Development Programme 2014-2020",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-LV-cbb2",
@@ -3926,9 +4598,15 @@
    ],
    "programme": "2021-2027 (Cohesion policy funding - LV – ERDF/CF/ESF+)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “an area of at least 1500 hectares on national lands located ”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-LV-e70c",
@@ -3957,9 +4635,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "E-LV-b130",
@@ -3986,9 +4669,14 @@
    ],
    "programme": "CAP Strategic Plans 2023-2027",
    "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-SE-dbb8",
@@ -4016,10 +4704,16 @@
    ],
    "programme": "2021-2027 (Upper Norrland – ERDF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
    "partners_note": "",
-   "description_extra": "Projektet restaurerar minst 1000 hektar dikade myrars hydrologi som del i klimatanpassningen. Med grävmaskiner fylls och pluggas diken på prioriterade myrar och effekterna av återvätningen följs. Total kostnad SEK 29 958 060; EU SEK 11 983 224 (40 %) Minst 1000 ha dikade myrar restaureras; uppföljning av återvätningens effekter"
+   "description_extra": "Projektet restaurerar minst 1000 hektar dikade myrars hydrologi som del i klimatanpassningen. Med grävmaskiner fylls och pluggas diken på prioriterade myrar och effekterna av återvätningen följs. Total kostnad SEK 29 958 060; EU SEK 11 983 224 (40 %) Minst 1000 ha dikade myrar restaureras; uppföljning av återvätningens effekter",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “\" restores at least 1000 hectares of ditched ants hydrology ”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "T-SE-bda3",
@@ -4046,9 +4740,14 @@
    ],
    "programme": "2021-2027",
    "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "acronym": "CircularGreens",
    "rajaus": "maaperä",
    "rajaus_peruste": "turpeen korvaaminen yksi tavoitteista, painopiste jätevirtojen maanparannuksessa",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "J-SE-0e6e",
@@ -4076,9 +4775,14 @@
    ],
    "programme": "",
    "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "maan kasvukunto ja hiilensidonnan mittaus",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "J-SE-5a7e",
@@ -4105,9 +4809,15 @@
    ],
    "programme": "",
    "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä",
+    "määrällinen tavoite tai tuotos: “h bevattning med 25–50 %; projektet tar fram recept fö”"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "J-SE-b073",
@@ -4135,9 +4845,14 @@
    ],
    "programme": "",
    "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "maatalousmaan vesitalous ja ilmastosopeutus",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "T-SE-5e29",
@@ -4166,9 +4881,14 @@
    ],
    "programme": "2021-2027",
    "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "maatalousmaan hiilensidonta",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "J-SE-2f3b",
@@ -4196,9 +4916,14 @@
    ],
    "programme": "2014-2020",
    "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "kivennäismaan hiilensidonta ja hiilimarkkina",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "J-SE-50cf",
@@ -4226,9 +4951,14 @@
    ],
    "programme": "2014-2020",
    "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "kivennäismaan hiilensidonta ja hiilimarkkina",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "J-SE-a3d4",
@@ -4256,9 +4986,14 @@
    ],
    "programme": "",
    "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "maaperä",
    "rajaus_peruste": "maan kasvukunto ja hiilensidonnan mittaus",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-SE-be89",
@@ -4285,9 +5020,14 @@
    ],
    "programme": "2014-2020 (Interreg V-B - Baltic Sea)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   },
   {
    "id": "K-SE-8b1e",
@@ -4314,9 +5054,14 @@
    ],
    "programme": "2014-2020 (Interreg V-B - Baltic Sea)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "acronym": "",
    "rajaus": "turvemaa",
    "rajaus_peruste": "",
-   "partners_note": ""
+   "partners_note": "",
+   "evidence_basis": [
+    "kuvaus toimenpiteistä"
+   ],
+   "pubs_n": 0
   }
  ],
  "context": [
