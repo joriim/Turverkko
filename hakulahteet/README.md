@@ -23,8 +23,8 @@ Työnkulku:
 | 5 | EURA 2021 / EURA 2014 | EAKR, ESR+, JTF Suomessa | FI | [eura2021.fi](https://eura2021.fi) → | **1** |
 | 6 | Maaseutu.fi ja Leader | Maaseuturahasto, EIP, Leader | FI | [maaseutu.fi](https://maaseutu.fi) → | 2 |
 | 7 | Tiedejatutkimus.fi | Suomen Akatemia ja säätiöt | FI | [research.fi/fi/results/fundings](https://research.fi/fi/results/fundings) ✓ | 2 |
-| 8 | Tillväxtverket Projektbanken | Regionalfonden, JTF | SE | [tillvaxtverket.se](https://tillvaxtverket.se) → | **1** |
-| 9 | Jordbruksverket – EIP | EIP-innovationsprojekt | SE | [jordbruksverket.se](https://jordbruksverket.se/languages/english/swedish-board-of-agriculture/rural-development-support/european-innovation-partnership-scheme) ✓ | **1** |
+| 8 | Tillväxtverket Projektbanken | Regionalfonden, JTF | SE | [tillvaxtverket.se](https://tillvaxtverket.se) → | ✅ haettu 2.11.2026 (3 osumaa) |
+| 9 | Jordbruksverket – EIP | EIP-innovationsprojekt | SE | [jordbruksverket.se](https://jordbruksverket.se/languages/english/swedish-board-of-agriculture/rural-development-support/european-innovation-partnership-scheme) ✓ | ✅ haettu 2.11.2026 (2 osumaa, landsbygdsnatverket.se) |
 | 10 | SweCRIS | Ruotsin tutkimusrahoitus | SE | [vr.se/swecris](https://www.vr.se/swecris) → | 3 |
 | 11 | KIK – rahoitetut hankkeet | KF, EAKR ympäristö | EE | [kik.ee/en/projects](https://kik.ee/en/projects) ✓ | **1** |
 | 12 | RTK ja struktuurivarat | EAKR, JTF Virossa | EE | [rtk.ee](https://www.rtk.ee) → | 2 |

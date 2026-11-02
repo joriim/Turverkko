@@ -1979,6 +1979,33 @@
    "partners_note": ""
   },
   {
+   "id": "T-EU-73cb",
+   "country": "EU",
+   "region": "Öresund-Kattegat-Skagerrak; Halland, Skåne, Köpenhamns omnejd, Köpenhamns stad, Vest- och Sydsjälland, Östsjälland",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "name": "Land4Climate",
+   "lead": "Gate 21",
+   "start": 2024,
+   "end": 2027,
+   "eur_total": 3392192,
+   "eur_eu": 2035314,
+   "themes": [
+    "T2",
+    "T6"
+   ],
+   "auto_themes": false,
+   "outputs": "Lavbundsjorder kan tilbageholde store mængder vand. I Danmark og Sverige er der fokus på udtagning af lavbundsarealer ved at hæve vandstanden så kulstofrig jord vandmættes, hvilket reducerer CO2-udledning. Program: Interreg ÖKS",
+   "evidence": 1,
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "urls": [
+    "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e"
+   ],
+   "programme": "2021-2027",
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "partners_note": "Den Danske Klimaskovfond;FALKENBERGS KOMMUN;Faxe Kommune;Guldborgsund Kommune;HÄSSLEHOLMS KOMMUN;KRISTIANSTADS KOMMUN;Kalundborg Kommune;Københavns Universitet;LUNDS KOMMUN;Lejre Kommune;Lolland Kommune;OSBY KOMMUN;Roskilde Kommune;SKOGSSTYRELSEN;SVERIGES LANTBRUKSUNIVERSITET"
+  },
+  {
    "id": "K-EU-2e51",
    "country": "EU",
    "region": "useita maita",
@@ -3363,10 +3390,92 @@
    "evidence": 2,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7362157",
    "urls": [
-    "https://kohesio.ec.europa.eu/en/projects/Q7362157"
+    "https://kohesio.ec.europa.eu/en/projects/Q7362157",
+    "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e"
    ],
    "programme": "2021-2027 (Upper Norrland – ERDF)",
    "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "J-SE-5a7e",
+   "country": "SE",
+   "region": "",
+   "fund": "EIP",
+   "period": "2021–27",
+   "name": "Fossil-free growing media",
+   "lead": "Allogro AB",
+   "start": null,
+   "end": 2027,
+   "eur_total": null,
+   "eur_eu": null,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": false,
+   "outputs": "Pilottester: modifierad biomassa kan minska behovet av näring och bevattning med 25–50 %; projektet tar fram recept för färdiga torvfria jordblandningar",
+   "evidence": 2,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html",
+   "urls": [
+    "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html"
+   ],
+   "programme": "",
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "J-SE-b073",
+   "country": "SE",
+   "region": "",
+   "fund": "EIP",
+   "period": "2021–27",
+   "name": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "lead": "Hushållningssällskapet i Norrbotten-Västerbotten",
+   "start": null,
+   "end": 2027,
+   "eur_total": null,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T6"
+   ],
+   "auto_themes": false,
+   "outputs": "Mål: testa metoden (utvecklad i USA och Finland) under norrsvenska förhållanden och anpassa den till lokala förutsättningar",
+   "evidence": 1,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html",
+   "urls": [
+    "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html"
+   ],
+   "programme": "",
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "T-SE-5e29",
+   "country": "SE",
+   "region": "Östra Mellansverige; Södermanland, Västmanland, Örebro, Östergötland",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "name": "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS",
+   "lead": "Agroöst Ideell Förening",
+   "start": 2026,
+   "end": 2029,
+   "eur_total": null,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T6",
+    "T8"
+   ],
+   "auto_themes": false,
+   "outputs": "Samverkansmodell; åtgärder för ökad kolinlagring, biodiversitet och förbättrad jordhälsa",
+   "evidence": 1,
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "urls": [
+    "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e"
+   ],
+   "programme": "2021-2027",
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv",
    "partners_note": ""
   },
   {
@@ -4354,6 +4463,12 @@
    "type": "viranomainen"
   },
   {
+   "id": "gate-21",
+   "name": "Gate 21",
+   "country": "",
+   "type": "viranomainen"
+  },
+  {
    "id": "john-nurmisen-saatio-sr",
    "name": "John Nurmisen Säätiö sr",
    "country": "FI",
@@ -4660,14 +4775,26 @@
    "type": "viranomainen"
   },
   {
-   "id": "skogsstyrelsen",
-   "name": "Skogsstyrelsen",
+   "id": "allogro-ab",
+   "name": "Allogro AB",
    "country": "SE",
    "type": "viranomainen"
   },
   {
-   "id": "swedish-forest-agency",
-   "name": "Swedish Forest Agency",
+   "id": "hushallningssallskapet-i-norrbotten-vast",
+   "name": "Hushållningssällskapet i Norrbotten-Västerbotten",
+   "country": "SE",
+   "type": "viranomainen"
+  },
+  {
+   "id": "agroost-ideell-forening",
+   "name": "Agroöst Ideell Förening",
+   "country": "SE",
+   "type": "viranomainen"
+  },
+  {
+   "id": "skogsstyrelsen",
+   "name": "Skogsstyrelsen",
    "country": "SE",
    "type": "viranomainen"
   }

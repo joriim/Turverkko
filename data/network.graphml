@@ -1221,6 +1221,21 @@
       <data key="d13">True</data>
       <data key="d14">1-kohesio-2026-11-02.csv</data>
     </node>
+    <node id="T-EU-73cb">
+      <data key="d0">hanke</data>
+      <data key="d1">Land4Climate</data>
+      <data key="d2">EU</data>
+      <data key="d3">Interreg</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">3392192</data>
+      <data key="d15">2035314</data>
+      <data key="d10">1</data>
+      <data key="d11">2024</data>
+      <data key="d12">2027</data>
+      <data key="d5">https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e</data>
+      <data key="d13">False</data>
+      <data key="d14">8-tillvaxtverket-2026-11-02.csv</data>
+    </node>
     <node id="K-EU-2e51">
       <data key="d0">hanke</data>
       <data key="d1">PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites</data>
@@ -1986,6 +2001,51 @@
       <data key="d13">True</data>
       <data key="d14">1-kohesio-2026-11-02.csv</data>
     </node>
+    <node id="J-SE-5a7e">
+      <data key="d0">hanke</data>
+      <data key="d1">Fossil-free growing media</data>
+      <data key="d2">SE</data>
+      <data key="d3">EIP</data>
+      <data key="d7">2021–27</data>
+      <data key="d16" />
+      <data key="d9" />
+      <data key="d10">2</data>
+      <data key="d19" />
+      <data key="d12">2027</data>
+      <data key="d5">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html</data>
+      <data key="d13">False</data>
+      <data key="d14">9-jordbruksverket-eip-2026-11-02.csv</data>
+    </node>
+    <node id="J-SE-b073">
+      <data key="d0">hanke</data>
+      <data key="d1">Klimatanpassad grundvatten-reglering i norrländskt jordbruk</data>
+      <data key="d2">SE</data>
+      <data key="d3">EIP</data>
+      <data key="d7">2021–27</data>
+      <data key="d16" />
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d19" />
+      <data key="d12">2027</data>
+      <data key="d5">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html</data>
+      <data key="d13">False</data>
+      <data key="d14">9-jordbruksverket-eip-2026-11-02.csv</data>
+    </node>
+    <node id="T-SE-5e29">
+      <data key="d0">hanke</data>
+      <data key="d1">Klimatskörd - samverkansmodell för ett cirkulärt ÖMS</data>
+      <data key="d2">SE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2021–27</data>
+      <data key="d16" />
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11">2026</data>
+      <data key="d12">2029</data>
+      <data key="d5">https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e</data>
+      <data key="d13">False</data>
+      <data key="d14">8-tillvaxtverket-2026-11-02.csv</data>
+    </node>
     <node id="K-SE-be89">
       <data key="d0">hanke</data>
       <data key="d1">Water Management in Baltic Forests - Tool box</data>
@@ -2591,6 +2651,12 @@
       <data key="d2" />
       <data key="d22">viranomainen</data>
     </node>
+    <node id="gate-21">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Gate 21</data>
+      <data key="d2" />
+      <data key="d22">viranomainen</data>
+    </node>
     <node id="john-nurmisen-saatio-sr">
       <data key="d0">organisaatio</data>
       <data key="d1">John Nurmisen Säätiö sr</data>
@@ -2897,15 +2963,27 @@
       <data key="d2">SE</data>
       <data key="d22">viranomainen</data>
     </node>
-    <node id="skogsstyrelsen">
+    <node id="allogro-ab">
       <data key="d0">organisaatio</data>
-      <data key="d1">Skogsstyrelsen</data>
+      <data key="d1">Allogro AB</data>
       <data key="d2">SE</data>
       <data key="d22">viranomainen</data>
     </node>
-    <node id="swedish-forest-agency">
+    <node id="hushallningssallskapet-i-norrbotten-vast">
       <data key="d0">organisaatio</data>
-      <data key="d1">Swedish Forest Agency</data>
+      <data key="d1">Hushållningssällskapet i Norrbotten-Västerbotten</data>
+      <data key="d2">SE</data>
+      <data key="d22">viranomainen</data>
+    </node>
+    <node id="agroost-ideell-forening">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Agroöst Ideell Förening</data>
+      <data key="d2">SE</data>
+      <data key="d22">viranomainen</data>
+    </node>
+    <node id="skogsstyrelsen">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Skogsstyrelsen</data>
       <data key="d2">SE</data>
       <data key="d22">viranomainen</data>
     </node>
@@ -3420,6 +3498,13 @@
       <data key="d31" />
       <data key="d32">T2,T6</data>
     </edge>
+    <edge source="IE-01" target="T-EU-73cb" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="IE-01" target="K-FI-9511" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
@@ -3442,6 +3527,20 @@
       <data key="d32">T2,T6</data>
     </edge>
     <edge source="IE-01" target="E-LV-e70c" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="IE-01" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="IE-01" target="T-SE-5e29" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
       <data key="d30">laskettu</data>
@@ -4113,6 +4212,13 @@
       <data key="d31" />
       <data key="d32">T2,T6</data>
     </edge>
+    <edge source="K-DE-NI-7a94" target="T-EU-73cb" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="K-DE-NI-7a94" target="K-FI-9511" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
@@ -4135,6 +4241,20 @@
       <data key="d32">T2,T6</data>
     </edge>
     <edge source="K-DE-NI-7a94" target="E-LV-e70c" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="K-DE-NI-7a94" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="K-DE-NI-7a94" target="T-SE-5e29" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
       <data key="d30">laskettu</data>
@@ -4254,6 +4374,13 @@
       <data key="d32">T6,T8</data>
     </edge>
     <edge source="K-DE-NI-c05c" target="K-LV-74bd" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T6,T8</data>
+    </edge>
+    <edge source="K-DE-NI-c05c" target="T-SE-5e29" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
       <data key="d30">laskettu</data>
@@ -4421,6 +4548,13 @@
       <data key="d31" />
       <data key="d32">T2,T6</data>
     </edge>
+    <edge source="K-DE-NI-cc25" target="T-EU-73cb" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="K-DE-NI-cc25" target="K-FI-9511" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
@@ -4443,6 +4577,20 @@
       <data key="d32">T2,T6</data>
     </edge>
     <edge source="K-DE-NI-cc25" target="E-LV-e70c" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="K-DE-NI-cc25" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="K-DE-NI-cc25" target="T-SE-5e29" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
       <data key="d30">laskettu</data>
@@ -5212,6 +5360,13 @@
       <data key="d31" />
       <data key="d32">T2,T6</data>
     </edge>
+    <edge source="K-DE-NI-d14f" target="T-EU-73cb" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="K-DE-NI-d14f" target="K-FI-9511" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
@@ -5234,6 +5389,20 @@
       <data key="d32">T2,T6</data>
     </edge>
     <edge source="K-DE-NI-d14f" target="E-LV-e70c" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="K-DE-NI-d14f" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="K-DE-NI-d14f" target="T-SE-5e29" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
       <data key="d30">laskettu</data>
@@ -5499,6 +5668,13 @@
       <data key="d31" />
       <data key="d32" />
     </edge>
+    <edge source="K-EU-48f5" target="T-EU-73cb" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="K-EU-48f5" target="K-FI-9511" id="0">
       <data key="d28">teemapaallekkaisyys</data>
       <data key="d29">0.67</data>
@@ -5527,12 +5703,82 @@
       <data key="d31" />
       <data key="d32">T2,T6</data>
     </edge>
+    <edge source="K-EU-48f5" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="K-EU-48f5" target="T-SE-5e29" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="K-EU-f426" target="T6" id="0">
       <data key="d28">teema</data>
       <data key="d29">1.0</data>
       <data key="d30" />
       <data key="d31" />
       <data key="d32" />
+    </edge>
+    <edge source="T-EU-73cb" target="T2" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="T-EU-73cb" target="T6" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="T-EU-73cb" target="K-FI-9511" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="T-EU-73cb" target="K-FI-c4ea" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="T-EU-73cb" target="E-LV-6430" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="T-EU-73cb" target="E-LV-e70c" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="T-EU-73cb" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="T-EU-73cb" target="T-SE-5e29" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
     </edge>
     <edge source="K-EU-2e51" target="T5" id="0">
       <data key="d28">teema</data>
@@ -6640,6 +6886,13 @@
       <data key="d31" />
       <data key="d32">T1,T6</data>
     </edge>
+    <edge source="K-FI-9511" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="K-FI-06b9" target="T1" id="0">
       <data key="d28">teema</data>
       <data key="d29">1.0</data>
@@ -6849,6 +7102,13 @@
       <data key="d30">laskettu</data>
       <data key="d31" />
       <data key="d32">T1,T6</data>
+    </edge>
+    <edge source="K-FI-c4ea" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
     </edge>
     <edge source="K-FI-ceda" target="T4" id="0">
       <data key="d28">teema</data>
@@ -7144,6 +7404,20 @@
       <data key="d31" />
       <data key="d32" />
     </edge>
+    <edge source="E-LV-6430" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="E-LV-6430" target="T-SE-5e29" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">1.0</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6,T8</data>
+    </edge>
     <edge source="K-LV-4390" target="T4" id="0">
       <data key="d28">teema</data>
       <data key="d29">1.0</data>
@@ -7305,6 +7579,13 @@
       <data key="d31" />
       <data key="d32" />
     </edge>
+    <edge source="E-LV-e70c" target="J-SE-b073" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
     <edge source="E-LV-b130" target="T3" id="0">
       <data key="d28">teema</data>
       <data key="d29">1.0</data>
@@ -7313,6 +7594,55 @@
       <data key="d32" />
     </edge>
     <edge source="K-SE-dbb8" target="T5" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="J-SE-5a7e" target="T3" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="J-SE-b073" target="T2" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="J-SE-b073" target="T6" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="J-SE-b073" target="T-SE-5e29" id="0">
+      <data key="d28">teemapaallekkaisyys</data>
+      <data key="d29">0.67</data>
+      <data key="d30">laskettu</data>
+      <data key="d31" />
+      <data key="d32">T2,T6</data>
+    </edge>
+    <edge source="T-SE-5e29" target="T2" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="T-SE-5e29" target="T6" id="0">
+      <data key="d28">teema</data>
+      <data key="d29">1.0</data>
+      <data key="d30" />
+      <data key="d31" />
+      <data key="d32" />
+    </edge>
+    <edge source="T-SE-5e29" target="T8" id="0">
       <data key="d28">teema</data>
       <data key="d29">1.0</data>
       <data key="d30" />
@@ -8572,6 +8902,13 @@
       <data key="d31">https://kohesio.ec.europa.eu/en/projects/Q4298213</data>
       <data key="d32">edunsaaja</data>
     </edge>
+    <edge source="gate-21" target="T-EU-73cb" id="0">
+      <data key="d28">osallistuu</data>
+      <data key="d29">1.0</data>
+      <data key="d30">lähde</data>
+      <data key="d31">https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e</data>
+      <data key="d32">edunsaaja</data>
+    </edge>
     <edge source="john-nurmisen-saatio-sr" target="K-FI-b095" id="0">
       <data key="d28">osallistuu</data>
       <data key="d29">1.0</data>
@@ -8957,6 +9294,27 @@
       <data key="d31">https://kohesio.ec.europa.eu/en/projects/Q7362157</data>
       <data key="d32">edunsaaja</data>
     </edge>
+    <edge source="allogro-ab" target="J-SE-5a7e" id="0">
+      <data key="d28">osallistuu</data>
+      <data key="d29">1.0</data>
+      <data key="d30">lähde</data>
+      <data key="d31">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html</data>
+      <data key="d32">edunsaaja</data>
+    </edge>
+    <edge source="hushallningssallskapet-i-norrbotten-vast" target="J-SE-b073" id="0">
+      <data key="d28">osallistuu</data>
+      <data key="d29">1.0</data>
+      <data key="d30">lähde</data>
+      <data key="d31">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html</data>
+      <data key="d32">edunsaaja</data>
+    </edge>
+    <edge source="agroost-ideell-forening" target="T-SE-5e29" id="0">
+      <data key="d28">osallistuu</data>
+      <data key="d29">1.0</data>
+      <data key="d30">lähde</data>
+      <data key="d31">https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e</data>
+      <data key="d32">edunsaaja</data>
+    </edge>
     <edge source="skogsstyrelsen" target="K-SE-be89" id="0">
       <data key="d28">osallistuu</data>
       <data key="d29">1.0</data>
@@ -8964,7 +9322,7 @@
       <data key="d31">https://kohesio.ec.europa.eu/en/projects/Q4299112</data>
       <data key="d32">edunsaaja</data>
     </edge>
-    <edge source="swedish-forest-agency" target="K-SE-8b1e" id="0">
+    <edge source="skogsstyrelsen" target="K-SE-8b1e" id="0">
       <data key="d28">osallistuu</data>
       <data key="d29">1.0</data>
       <data key="d30">lähde</data>

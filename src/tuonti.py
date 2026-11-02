@@ -14,7 +14,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "hakulahteet" / "tulokset"
 
-COUNTRY_MAP = {"Finland": "FI", "Sweden": "SE", "Estonia": "EE", "Latvia": "LV", "Ireland": "IE", "Germany": "DE-NI"}
+COUNTRY_MAP = {"Finland": "FI", "Sweden": "SE", "Estonia": "EE", "Latvia": "LV", "Ireland": "IE", "Germany": "DE-NI",
+               "Suomi": "FI", "Ruotsi": "SE", "Viro": "EE", "Irlanti": "IE"}
 
 # Rivit, jotka jäävät rajauksen ulkopuolelle (hankkeen nimi → peruste)
 EXCLUDE = {
@@ -34,7 +35,7 @@ EXCLUDE = {
 EXCLUDE_COUNTRY = {"DE": "Saksa, muu osavaltio kuin Niedersachsen (aluerajauksen ulkopuolella)"}
 
 # Lähteen numero → tunnisteen etuliite (K = Kohesio, E = EU CAP Network / EIP)
-SOURCE_PREFIX = {"1": "K", "2": "E"}
+SOURCE_PREFIX = {"1": "K", "2": "E", "8": "T", "9": "J"}  # T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
 
 # Rivit, jotka ovat jo aineistossa olevia hankkeita (nimi → olemassa oleva tunniste).
 # Rivin tiedot täydentävät olemassa olevaa hanketta eivätkä luo uutta.
@@ -45,6 +46,7 @@ MATCH_EXISTING = {
     "Restoration of drained, exhausted and abandoned peatlands": "EE-02",
     "Farm Carbon EIP": "IE-01",
     "FarmPEAT (Farm Payments for Ecological and Agricultural Transitions) Project": "IE-02",
+    "Myrrestaurering i Norrbottens län": "K-SE-dbb8",
     "Our Moor Future Oldenburger Graben - Cooperative moorland in the Oldenburger Graben in Schleswig-Holstein for climate protection and agricultural added value": "X-DE-SH",
 }
 
@@ -62,6 +64,11 @@ THEME_OVERRIDE = {
     "Inishowen Upland Farmers Project": ["T2", "T5"],
     "FloraGPT: Artificial intelligence- and sensor-controlled irrigation with a user-friendly interface for cultivation methods optimized for peat replacement": ["T3"],
     "Industrial raw material using bog sites – I-ROBI": ["T2", "T3"],
+    # Ruotsi (lähteet 8 ja 9). Klimatskörd ja grundvattenreglering ovat rajatapauksia: maatalousmaan hiili ja vesitalous, ei nimetysti turvemaata.
+    "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS": ["T2", "T6", "T8"],
+    "Land4Climate": ["T2", "T6"],
+    "Fossil-free growing media": ["T3"],
+    "Klimatanpassad grundvatten-reglering i norrländskt jordbruk": ["T2", "T6"],
 }
 
 # Organisaation tunnistus nimen osasta (taivutettu, pienet kirjaimet) → olemassa oleva tunniste
@@ -70,7 +77,8 @@ ORG_CONTAINS = [("silava", "silava"), ("latvijas universit", "lu"), ("lauksaimni
                 ("green restoration ireland", "gri"), ("nature based agri", "nbas"), ("irish rural link", "irl"),
                 ("umeras", "umeras"), ("helsingin yliopisto", "hy"), ("ita-suomen yliopisto", "uef"),
                 ("luonnonvarakeskus", "luke"), ("seinajoen ammattikorkeakoulu", "seamk"), ("oulun yliopisto", "oy"),
-                ("offis", "offis"), ("hochschule hannover", "hochschule-hannover"), ("biokunststoffe", "hochschule-hannover")]
+                ("offis", "offis"), ("hochschule hannover", "hochschule-hannover"), ("biokunststoffe", "hochschule-hannover"),
+                ("skogsstyrelsen", "skogsstyrelsen"), ("swedish forest agency", "skogsstyrelsen")]
 
 # Organisaatioksi tunnistettavat sanat; muut nimet tulkitaan henkilöiksi eikä niistä tehdä solmuja
 ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij|fonds|centrs|saimnieciba|komercsabiedr|apvieniba|"
@@ -79,6 +87,7 @@ ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij
              r"biolat|gourmet|kolkanrinne|epira|\btmi\b|council|authority|agency|ministry|association|foundation|stiftung|landkreis|"
              r"forst|verband|nabu|bund |nlwkn|yliopisto|ammattikorkeakoulu|keskus|saatio|kaupunki|metsahallitus|\bab\b|\bas\b|"
              r"lansstyrelsen|skogsstyrelsen|riigimetsa|regions|pasvaldiba|departamentas|chambres|larenstein|kompetenzzentrum|peat ltd|"
+             r"kommun|universitet|fond\b|forening|gate 21|sallskap|\bab\b|"
              r"rspb|broads|zid|archehof|schmedt|torfwerk|forstamt|landesforsten|moorverwaltung|fachzentrum|naturschutz")
 
 # Konekäännösvirheiden korjaus (Kohesion englanninkielinen nimi → oikea nimi)
@@ -162,7 +171,7 @@ def _period(s):
 
 
 def _fund(row):
-    if "Interreg" in row["ohjelmakausi"]:
+    if "Interreg" in row["ohjelmakausi"] or "Interreg" in row["kuvaus"]:
         return "Interreg"
     return {"EAKR": "EAKR", "JTF": "JTF", "KF": "KF", "ESR+": "ESR+"}.get(row["rahasto"], row["rahasto"])
 
@@ -248,11 +257,15 @@ def load():
         groups.setdefault(key, []).append(r)
 
     projects, orgs, part = [], {}, []
+    # Jos usea hanke jakaa saman (yleisen hakusivun) osoitteen, tiivisteeseen lisätään nimi
+    url_n = {}
+    for rs in groups.values():
+        url_n[rs[0]["url"]] = url_n.get(rs[0]["url"], 0) + 1
     for (name, _), rs in sorted(groups.items(), key=lambda kv: (_country(kv[1][0]), kv[0][0])):
         r0 = rs[0]
         c = _country(r0)
         # Pysyvä tunniste: lähde + maa + tiiviste hankesivun osoitteesta (ei muutu, kun aineistoa lisätään)
-        pid = f"{SOURCE_PREFIX.get(r0['lahde'].strip(), 'H')}-{c}-{hashlib.sha1(r0['url'].encode()).hexdigest()[:4]}"
+        pid = f"{SOURCE_PREFIX.get(r0['lahde'].strip(), 'H')}-{c}-{hashlib.sha1((r0['url'] if url_n[r0['url']] == 1 else r0['url'] + '|' + name).encode()).hexdigest()[:4]}"
         text = " ".join([name, r0["kuvaus"], r0["tuotokset"], r0["hakusana"]])
         budgets = [_num(r["budjetti_eur"]) for r in rs]
         eus = [_num(r["eu_osuus_eur"]) for r in rs]
@@ -262,7 +275,7 @@ def load():
         partners_listed = [p.strip() for p in r0["partnerit"].split(";") if p.strip()] if c != "EU" else []
         projects.append(dict(
             id=pid, country=c, region=r0["alue"] or ("useita maita" if c == "EU" else ""), fund=_fund(r0),
-            period=_period(r0["ohjelmakausi"]), name=NAME_FIX.get(name, name),
+            period=_period(r0["ohjelmakausi"]) or ("2021–27" if r0["loppu"][:4].isdigit() and int(r0["loppu"][:4]) >= 2024 else ""), name=NAME_FIX.get(name, name),
             lead=lead + (f" + {len(others)} muuta edunsaajaa" if others else ""),
             start=int(r0["alku"][:4]) if r0["alku"][:4].isdigit() else None,
             end=int(r0["loppu"][:4]) if r0["loppu"][:4].isdigit() else None,

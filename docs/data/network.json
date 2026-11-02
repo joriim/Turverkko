@@ -1276,6 +1276,22 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
+   "id": "T-EU-73cb",
+   "kind": "hanke",
+   "label": "Land4Climate",
+   "country": "EU",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 3392192,
+   "eur_eu": 2035314,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2027,
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "auto_themes": false,
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv"
+  },
+  {
    "id": "K-EU-2e51",
    "kind": "hanke",
    "label": "PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites",
@@ -2092,6 +2108,54 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
+   "id": "J-SE-5a7e",
+   "kind": "hanke",
+   "label": "Fossil-free growing media",
+   "country": "SE",
+   "fund": "EIP",
+   "period": "2021–27",
+   "eur_total": "",
+   "eur_eu": "",
+   "evidence_level": 2,
+   "start": "",
+   "end": 2027,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html",
+   "auto_themes": false,
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv"
+  },
+  {
+   "id": "J-SE-b073",
+   "kind": "hanke",
+   "label": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "country": "SE",
+   "fund": "EIP",
+   "period": "2021–27",
+   "eur_total": "",
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": "",
+   "end": 2027,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html",
+   "auto_themes": false,
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv"
+  },
+  {
+   "id": "T-SE-5e29",
+   "kind": "hanke",
+   "label": "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS",
+   "country": "SE",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "eur_total": "",
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2026,
+   "end": 2029,
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "auto_themes": false,
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv"
+  },
+  {
    "id": "K-SE-be89",
    "kind": "hanke",
    "label": "Water Management in Baltic Forests - Tool box",
@@ -2791,6 +2855,13 @@
    "org_type": "viranomainen"
   },
   {
+   "id": "gate-21",
+   "kind": "organisaatio",
+   "label": "Gate 21",
+   "country": "",
+   "org_type": "viranomainen"
+  },
+  {
    "id": "john-nurmisen-saatio-sr",
    "kind": "organisaatio",
    "label": "John Nurmisen Säätiö sr",
@@ -3148,16 +3219,30 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "skogsstyrelsen",
+   "id": "allogro-ab",
    "kind": "organisaatio",
-   "label": "Skogsstyrelsen",
+   "label": "Allogro AB",
    "country": "SE",
    "org_type": "viranomainen"
   },
   {
-   "id": "swedish-forest-agency",
+   "id": "hushallningssallskapet-i-norrbotten-vast",
    "kind": "organisaatio",
-   "label": "Swedish Forest Agency",
+   "label": "Hushållningssällskapet i Norrbotten-Västerbotten",
+   "country": "SE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "agroost-ideell-forening",
+   "kind": "organisaatio",
+   "label": "Agroöst Ideell Förening",
+   "country": "SE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "skogsstyrelsen",
+   "kind": "organisaatio",
+   "label": "Skogsstyrelsen",
    "country": "SE",
    "org_type": "viranomainen"
   },
@@ -4366,6 +4451,24 @@
    "note": ""
   },
   {
+   "source": "T-EU-73cb",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "K-EU-2e51",
    "target": "T5",
    "kind": "teema",
@@ -5295,6 +5398,60 @@
   {
    "source": "K-SE-dbb8",
    "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-5a7e",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-b073",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-b073",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "T-SE-5e29",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "T-SE-5e29",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "T-SE-5e29",
+   "target": "T8",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -6868,6 +7025,15 @@
    "note": "edunsaaja"
   },
   {
+   "source": "gate-21",
+   "target": "T-EU-73cb",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "edunsaaja"
+  },
+  {
    "source": "uef",
    "target": "K-EU-2e51",
    "kind": "osallistuu",
@@ -7633,6 +7799,33 @@
    "note": "edunsaaja"
   },
   {
+   "source": "allogro-ab",
+   "target": "J-SE-5a7e",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "hushallningssallskapet-i-norrbotten-vast",
+   "target": "J-SE-b073",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "agroost-ideell-forening",
+   "target": "T-SE-5e29",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "edunsaaja"
+  },
+  {
    "source": "skogsstyrelsen",
    "target": "K-SE-be89",
    "kind": "osallistuu",
@@ -7642,7 +7835,7 @@
    "note": "edunsaaja"
   },
   {
-   "source": "swedish-forest-agency",
+   "source": "skogsstyrelsen",
    "target": "K-SE-8b1e",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -8003,6 +8196,15 @@
   },
   {
    "source": "IE-01",
+   "target": "T-EU-73cb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
    "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8031,6 +8233,24 @@
   {
    "source": "IE-01",
    "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8597,6 +8817,15 @@
   },
   {
    "source": "K-DE-NI-7a94",
+   "target": "T-EU-73cb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
    "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8625,6 +8854,24 @@
   {
    "source": "K-DE-NI-7a94",
    "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
+   "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8688,6 +8935,15 @@
   {
    "source": "K-DE-NI-c05c",
    "target": "K-LV-74bd",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-c05c",
+   "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8768,6 +9024,15 @@
   },
   {
    "source": "K-DE-NI-cc25",
+   "target": "T-EU-73cb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
    "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8796,6 +9061,24 @@
   {
    "source": "K-DE-NI-cc25",
    "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
+   "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9452,6 +9735,15 @@
   },
   {
    "source": "K-DE-NI-d14f",
+   "target": "T-EU-73cb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
    "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9480,6 +9772,24 @@
   {
    "source": "K-DE-NI-d14f",
    "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
+   "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9731,6 +10041,15 @@
   },
   {
    "source": "K-EU-48f5",
+   "target": "T-EU-73cb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
    "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9759,6 +10078,78 @@
   {
    "source": "K-EU-48f5",
    "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
+   "target": "T-SE-5e29",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "K-FI-9511",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "K-FI-c4ea",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -10828,6 +11219,15 @@
    "note": "T1,T6"
   },
   {
+   "source": "K-FI-9511",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
    "source": "K-FI-06b9",
    "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
@@ -10981,6 +11381,15 @@
    "note": "T1,T6"
   },
   {
+   "source": "K-FI-c4ea",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
    "source": "K-FI-665a",
    "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
@@ -11080,6 +11489,24 @@
    "note": "T5,T7"
   },
   {
+   "source": "E-LV-6430",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-6430",
+   "target": "T-SE-5e29",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6,T8"
+  },
+  {
    "source": "K-LV-74bd",
    "target": "E-LV-8eeb",
    "kind": "teemapaallekkaisyys",
@@ -11123,6 +11550,24 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T5"
+  },
+  {
+   "source": "E-LV-e70c",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "J-SE-b073",
+   "target": "T-SE-5e29",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
   },
   {
    "source": "X-FI-PEATRESC",
