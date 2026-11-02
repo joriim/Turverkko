@@ -325,7 +325,11 @@
    ],
    "outputs": "23 tilaa; vettäminen ~95 ha + 40 ha suo; arvio 320–690 tCO2e vältetty; KHK-perustaso mitattu; Irish Peatland Code -luonnos",
    "evidence": 3,
-   "url": "https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf"
+   "url": "https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf",
+    "https://eu-cap-network.ec.europa.eu/projects/farm-carbon-eip_en"
+   ]
   },
   {
    "id": "IE-02",
@@ -345,7 +349,11 @@
    ],
    "outputs": "8 aluetta; elinympäristöjen pisteytys 0–10; koulutus",
    "evidence": 2,
-   "url": "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de"
+   "url": "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de",
+    "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_en"
+   ]
   },
   {
    "id": "NI-01",
@@ -515,7 +523,7 @@
    "url": "https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana"
   },
   {
-   "id": "K-DE-NI-01",
+   "id": "K-DE-NI-1746",
    "country": "DE-NI",
    "region": "Stade",
    "fund": "EAKR",
@@ -541,7 +549,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-02",
+   "id": "K-DE-NI-accd",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -568,7 +576,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-03",
+   "id": "K-DE-NI-f620",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -595,7 +603,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-04",
+   "id": "K-DE-NI-e147",
    "country": "DE-NI",
    "region": "Lüneburg",
    "fund": "EAKR",
@@ -621,7 +629,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-05",
+   "id": "K-DE-NI-7a94",
    "country": "DE-NI",
    "region": "Rotenburg (Wümme) district",
    "fund": "EAKR",
@@ -648,7 +656,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-06",
+   "id": "K-DE-NI-209b",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -674,13 +682,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-07",
+   "id": "K-DE-NI-36d2",
    "country": "DE-NI",
    "region": "Brunswick",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Demolition Mathildenhof",
-   "lead": "NLWKN Betriebsstelle Süd, GB IV",
+   "lead": "NLWKN Betriebsstelle Süd",
    "start": 2016,
    "end": 2018,
    "eur_total": 216482,
@@ -700,7 +708,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-08",
+   "id": "K-DE-NI-dab1",
    "country": "DE-NI",
    "region": "Stade",
    "fund": "EAKR",
@@ -728,13 +736,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-09",
+   "id": "K-DE-NI-f68e",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Establishment of a “Paludiculture Competence Centre”",
-   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz",
+   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft",
    "start": 2017,
    "end": 2022,
    "eur_total": 516520,
@@ -755,7 +763,33 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-10",
+   "id": "E-DE-NI-3e4b",
+   "country": "DE-NI",
+   "region": "Oldenburg (Niedersachsen)",
+   "fund": "EIP",
+   "period": "2023–27",
+   "name": "FloraGPT: Artificial intelligence- and sensor-controlled irrigation with a user-friendly interface for cultivation methods optimized for peat replacement",
+   "lead": "OFFIS Institut für Informatik",
+   "start": 2024,
+   "end": 2027,
+   "eur_total": 610974,
+   "eur_eu": 498744,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": false,
+   "outputs": "Our project vision is to create an intuitive artificial intelligence solution that not only allows companies to efficiently adapt their irrigation to the peat replacement substrates, but also to regulate them fully automatically. In addition, the interaction with such a complex system should be…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en"
+   ],
+   "programme": "CAP Strategic Plans 2023-2027",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-c05c",
    "country": "DE-NI",
    "region": "Rotenburg (Wümme) district",
    "fund": "EAKR",
@@ -782,13 +816,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-11",
+   "id": "K-DE-NI-e715",
    "country": "DE-NI",
    "region": "Diepholz",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Implementation and testing of hydrological optimisation measures in high moor",
-   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz",
+   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft",
    "start": 2020,
    "end": 2023,
    "eur_total": 1081485,
@@ -808,7 +842,34 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-12",
+   "id": "E-DE-NI-b06d",
+   "country": "DE-NI",
+   "region": "Emsland (Niedersachsen)",
+   "fund": "EIP",
+   "period": "2023–27",
+   "name": "Industrial raw material using bog sites – I-ROBI",
+   "lead": "Hochschule Hannover",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 286831,
+   "eur_eu": 286831,
+   "themes": [
+    "T2",
+    "T3"
+   ],
+   "auto_themes": false,
+   "outputs": "Further development of agricultural farming systems and the downstream value chain with a view to improving greenhouse gas (GHG) balance. This could include, for example, innovative crop-growing concepts or the cultivation of torfer feedstocks. This project aims at a competitive and…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/industrial-raw-material-using-bog-sites-i-robi_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/industrial-raw-material-using-bog-sites-i-robi_en"
+   ],
+   "programme": "CAP Strategic Plans 2023-2027",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-cf1c",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -834,7 +895,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-13",
+   "id": "K-DE-NI-af02",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -860,7 +921,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-14",
+   "id": "K-DE-NI-d90f",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -886,7 +947,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-15",
+   "id": "K-DE-NI-44a1",
    "country": "DE-NI",
    "region": "Ammerland",
    "fund": "EAKR",
@@ -913,7 +974,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-16",
+   "id": "K-DE-NI-77b2",
    "country": "DE-NI",
    "region": "Ammerland",
    "fund": "EAKR",
@@ -939,7 +1000,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-17",
+   "id": "K-DE-NI-bd6b",
    "country": "DE-NI",
    "region": "Cloppenburg",
    "fund": "EAKR",
@@ -965,7 +1026,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-18",
+   "id": "K-DE-NI-410f",
    "country": "DE-NI",
    "region": "Diepholz",
    "fund": "EAKR",
@@ -992,7 +1053,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-19",
+   "id": "K-DE-NI-9595",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -1018,7 +1079,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-20",
+   "id": "K-DE-NI-cc25",
    "country": "DE-NI",
    "region": "Rotenburg (Wümme) district",
    "fund": "EAKR",
@@ -1045,7 +1106,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-21",
+   "id": "K-DE-NI-1c15",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -1072,7 +1133,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-22",
+   "id": "K-DE-NI-34e3",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -1099,7 +1160,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-23",
+   "id": "K-DE-NI-ee94",
    "country": "DE-NI",
    "region": "Emsland",
    "fund": "EAKR",
@@ -1125,7 +1186,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-24",
+   "id": "K-DE-NI-bf71",
    "country": "DE-NI",
    "region": "Osterholz",
    "fund": "EAKR",
@@ -1151,7 +1212,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-25",
+   "id": "K-DE-NI-03c5",
    "country": "DE-NI",
    "region": "Friesland (district)",
    "fund": "EAKR",
@@ -1177,7 +1238,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-26",
+   "id": "K-DE-NI-9163",
    "country": "DE-NI",
    "region": "Vechta",
    "fund": "EAKR",
@@ -1204,7 +1265,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-27",
+   "id": "K-DE-NI-a450",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -1231,7 +1292,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-28",
+   "id": "K-DE-NI-ca87",
    "country": "DE-NI",
    "region": "County of Bentheim",
    "fund": "EAKR",
@@ -1257,7 +1318,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-29",
+   "id": "K-DE-NI-1847",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -1283,7 +1344,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-30",
+   "id": "K-DE-NI-0499",
    "country": "DE-NI",
    "region": "Ammerland",
    "fund": "EAKR",
@@ -1310,7 +1371,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-31",
+   "id": "K-DE-NI-3eb1",
    "country": "DE-NI",
    "region": "Emsland",
    "fund": "EAKR",
@@ -1336,13 +1397,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-32",
+   "id": "K-DE-NI-a456",
    "country": "DE-NI",
    "region": "Diepholz",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Optimisation of water balance in high bogs of the Diepholzer Moorniederung",
-   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz",
+   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft",
    "start": 2016,
    "end": 2020,
    "eur_total": 462010,
@@ -1362,13 +1423,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-33",
+   "id": "K-DE-NI-b8d9",
    "country": "DE-NI",
    "region": "Brunswick",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Optimisation of water balance in selected bogs of the Südheide",
-   "lead": "NLWKN Betriebsstelle Süd, GB IV",
+   "lead": "NLWKN Betriebsstelle Süd",
    "start": 2020,
    "end": 2023,
    "eur_total": 3726486,
@@ -1388,7 +1449,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-34",
+   "id": "K-DE-NI-6c80",
    "country": "DE-NI",
    "region": "Friesland (district)",
    "fund": "EAKR",
@@ -1414,7 +1475,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-35",
+   "id": "K-DE-NI-c1d3",
    "country": "DE-NI",
    "region": "Gifhorn",
    "fund": "EAKR",
@@ -1440,7 +1501,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-36",
+   "id": "K-DE-NI-9d56",
    "country": "DE-NI",
    "region": "Oldenburg",
    "fund": "EAKR",
@@ -1466,7 +1527,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-37",
+   "id": "K-DE-NI-d3d6",
    "country": "DE-NI",
    "region": "Vechta",
    "fund": "EAKR",
@@ -1493,7 +1554,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-38",
+   "id": "K-DE-NI-d8d1",
    "country": "DE-NI",
    "region": "Osterholz",
    "fund": "EAKR",
@@ -1521,13 +1582,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-39",
+   "id": "K-DE-NI-8755",
    "country": "DE-NI",
    "region": "Emsland",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Restoration of land-owned moors",
-   "lead": "ArL W-E, Staatliche Moorverwaltung",
+   "lead": "Staatliche Moorverwaltung",
    "start": 2018,
    "end": 2022,
    "eur_total": 845000,
@@ -1547,7 +1608,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-40",
+   "id": "K-DE-NI-0e2b",
    "country": "DE-NI",
    "region": "Gifhorn",
    "fund": "EAKR",
@@ -1574,7 +1635,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-41",
+   "id": "K-DE-NI-04a5",
    "country": "DE-NI",
    "region": "Verden",
    "fund": "EAKR",
@@ -1601,7 +1662,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-42",
+   "id": "K-DE-NI-c57b",
    "country": "DE-NI",
    "region": "Göttingen",
    "fund": "EAKR",
@@ -1627,7 +1688,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-43",
+   "id": "K-DE-NI-3ac3",
    "country": "DE-NI",
    "region": "Holzminden",
    "fund": "EAKR",
@@ -1653,7 +1714,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-44",
+   "id": "K-DE-NI-6f11",
    "country": "DE-NI",
    "region": "Northeim",
    "fund": "EAKR",
@@ -1679,7 +1740,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-45",
+   "id": "K-DE-NI-e128",
    "country": "DE-NI",
    "region": "Cuxhaven district",
    "fund": "EAKR",
@@ -1705,7 +1766,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-46",
+   "id": "K-DE-NI-d14f",
    "country": "DE-NI",
    "region": "",
    "fund": "Interreg",
@@ -1732,7 +1793,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-47",
+   "id": "K-DE-NI-cad6",
    "country": "DE-NI",
    "region": "Ammerland",
    "fund": "EAKR",
@@ -1758,7 +1819,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-48",
+   "id": "K-DE-NI-f3b0",
    "country": "DE-NI",
    "region": "Diepholz",
    "fund": "EAKR",
@@ -1784,7 +1845,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-DE-NI-49",
+   "id": "K-DE-NI-61e6",
    "country": "DE-NI",
    "region": "Gifhorn",
    "fund": "EAKR",
@@ -1811,7 +1872,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-EU-01",
+   "id": "K-EU-5a7e",
    "country": "EU",
    "region": "useita maita",
    "fund": "Interreg",
@@ -1838,7 +1899,7 @@
    "partners_note": "Câmara Municipal de Braga; Regio Zugspitzregion e.V.; Region Midtjylland; Regional Development Agency of Odesa Region; Savivaldybės įmonė “Susisiekimo paslaugos”; Stad Aalst"
   },
   {
-   "id": "K-EU-02",
+   "id": "K-EU-0882",
    "country": "EU",
    "region": "useita maita",
    "fund": "Interreg",
@@ -1865,7 +1926,7 @@
    "partners_note": "BeeOdiversity; Bioclear earth B.V.; Chambres Régionales d’agriculture de Bretagne; Gemeente Midden-Groningen; Gemeente Westerkwartier; HAEDES BV; Hanzehogeschool Groningen; Hoch Schule Emden Leer; HTCL-Innovationsgesellschaft mbH; La Chambre d’agriculture de Normandie; La Chambre d’agriculture des Pays de la Loire; Natuurpunt Beheer vzw; Patchview Designated Activity Company; Philipps-Universität Marburg; Provincie Groningen; Provincie West-Vlaanderen; South Kerry Development Partnership CLG; Stiftung Ökowerk Emden; Universität Vechta; Vlaamse Landmaatschappij"
   },
   {
-   "id": "K-EU-03",
+   "id": "K-EU-48f5",
    "country": "EU",
    "region": "useita maita",
    "fund": "Interreg",
@@ -1892,7 +1953,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-EU-04",
+   "id": "K-EU-f426",
    "country": "EU",
    "region": "useita maita",
    "fund": "Interreg",
@@ -1918,7 +1979,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-EU-05",
+   "id": "K-EU-2e51",
    "country": "EU",
    "region": "useita maita",
    "fund": "Interreg",
@@ -1944,7 +2005,7 @@
    "partners_note": "LUKE Luonnonvarakeskus; Sveriges Lantbruksuniversitet"
   },
   {
-   "id": "K-FI-01",
+   "id": "K-FI-b095",
    "country": "FI",
    "region": "Pohjois-Pohjanmaa",
    "fund": "JTF",
@@ -1973,7 +2034,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-02",
+   "id": "K-FI-e8b3",
    "country": "FI",
    "region": "",
    "fund": "EAKR",
@@ -1999,7 +2060,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-03",
+   "id": "K-FI-050e",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2025,7 +2086,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-04",
+   "id": "K-FI-a45d",
    "country": "FI",
    "region": "",
    "fund": "EAKR",
@@ -2051,7 +2112,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-05",
+   "id": "K-FI-879d",
    "country": "FI",
    "region": "",
    "fund": "EAKR",
@@ -2078,7 +2139,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-06",
+   "id": "K-FI-6894",
    "country": "FI",
    "region": "Pohjois-Pohjanmaa",
    "fund": "JTF",
@@ -2108,7 +2169,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-07",
+   "id": "K-FI-2fcc",
    "country": "FI",
    "region": "North Savo",
    "fund": "JTF",
@@ -2135,7 +2196,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-08",
+   "id": "K-FI-6c73",
    "country": "FI",
    "region": "South Ostrobothnia",
    "fund": "JTF",
@@ -2162,13 +2223,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-09",
+   "id": "K-FI-56cf",
    "country": "FI",
    "region": "",
    "fund": "JTF",
    "period": "2021–27",
    "name": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
-   "lead": "Elinkeino-, liikenne- ja ympäristökeskusten kehittämis- ja hallintokeskus",
+   "lead": "liikenne- ja ympäristökeskusten kehittämis- ja hallintokeskus",
    "start": 2023,
    "end": 2027,
    "eur_total": 648909,
@@ -2189,7 +2250,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-10",
+   "id": "K-FI-561d",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2218,7 +2279,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-11",
+   "id": "K-FI-6978",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2245,13 +2306,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-12",
+   "id": "K-FI-e290",
    "country": "FI",
    "region": "Kymenlaakso",
    "fund": "JTF",
    "period": "2021–27",
    "name": "Restoration and water protection project of South-Eastern Finland",
-   "lead": "Elinkeino-, liikenne- ja ympäristökeskusten kehittämis- ja hallintokeskus",
+   "lead": "liikenne- ja ympäristökeskusten kehittämis- ja hallintokeskus",
    "start": 2025,
    "end": 2027,
    "eur_total": 923512,
@@ -2272,7 +2333,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-13",
+   "id": "K-FI-8d28",
    "country": "FI",
    "region": "Central Ostrobothnia",
    "fund": "JTF",
@@ -2299,7 +2360,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-14",
+   "id": "K-FI-9cd5",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2328,7 +2389,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-15",
+   "id": "K-FI-cb20",
    "country": "FI",
    "region": "North Karelia",
    "fund": "JTF",
@@ -2355,7 +2416,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-16",
+   "id": "K-FI-16d2",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2382,7 +2443,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-17",
+   "id": "K-FI-7c34",
    "country": "FI",
    "region": "Satakunta",
    "fund": "JTF",
@@ -2410,7 +2471,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-18",
+   "id": "K-FI-9511",
    "country": "FI",
    "region": "Uusimaa",
    "fund": "JTF",
@@ -2438,7 +2499,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-19",
+   "id": "K-FI-06b9",
    "country": "FI",
    "region": "Lapland",
    "fund": "JTF",
@@ -2467,7 +2528,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-20",
+   "id": "K-FI-b38f",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2495,7 +2556,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-21",
+   "id": "K-FI-6f20",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2522,7 +2583,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-22",
+   "id": "K-FI-006d",
    "country": "FI",
    "region": "North Karelia",
    "fund": "JTF",
@@ -2550,7 +2611,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-23",
+   "id": "K-FI-3bb2",
    "country": "FI",
    "region": "Pohjois-Pohjanmaa",
    "fund": "JTF",
@@ -2577,7 +2638,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-24",
+   "id": "K-FI-c4ea",
    "country": "FI",
    "region": "",
    "fund": "JTF",
@@ -2605,7 +2666,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-25",
+   "id": "K-FI-ceda",
    "country": "FI",
    "region": "",
    "fund": "EAKR",
@@ -2631,7 +2692,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-26",
+   "id": "K-FI-665a",
    "country": "FI",
    "region": "Pohjois-Pohjanmaa",
    "fund": "JTF",
@@ -2659,7 +2720,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-FI-27",
+   "id": "K-FI-0ac6",
    "country": "FI",
    "region": "North Karelia",
    "fund": "JTF",
@@ -2692,7 +2753,61 @@
    "partners_note": ""
   },
   {
-   "id": "K-IE-01",
+   "id": "E-IE-9275",
+   "country": "IE",
+   "region": "South-West (IE)",
+   "fund": "EIP",
+   "period": "2014–20",
+   "name": "A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks",
+   "lead": "Noel Spillane",
+   "start": 2018,
+   "end": 2021,
+   "eur_total": 950000,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T5"
+   ],
+   "auto_themes": false,
+   "outputs": "The project aims to improve the economic viability of farming in the MacGillycuddy Reeks through the development of practical, achievable actions and innovative solutions to address the issues facing farmers on the Reeks. The following objectives will be perused: -Develop, in collaboration with…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-agricultural-plan-macgillycuddy-reeks-conservation-and-restoration-upland_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/sustainable-agricultural-plan-macgillycuddy-reeks-conservation-and-restoration-upland_en"
+   ],
+   "programme": "Rural Development Programme 2014-2020",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "E-IE-e6ef",
+   "country": "IE",
+   "region": "South-East (IE)",
+   "fund": "EIP",
+   "period": "2014–20",
+   "name": "Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains",
+   "lead": "Blackstairs Farming Group",
+   "start": 2018,
+   "end": 2023,
+   "eur_total": 1500000,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T5"
+   ],
+   "auto_themes": false,
+   "outputs": "The project objective is to adopt innovative approaches to add value to the Blackstairs hill farming system whilst simultaneously improving habitat condition. The Blackstairs Farming Futures (BFF) EIP pilot proposes to develop and trial four innovations: A Results Based Agri-Environment Payment…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/blackstairs-farming-futures-bff-sustainable-farming-project-blackstairs-mountains_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/blackstairs-farming-futures-bff-sustainable-farming-project-blackstairs-mountains_en"
+   ],
+   "programme": "Rural Development Programme 2014-2020",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-06fb",
    "country": "IE",
    "region": "",
    "fund": "Interreg",
@@ -2718,13 +2833,13 @@
    "partners_note": ""
   },
   {
-   "id": "K-IE-02",
+   "id": "K-IE-0b63",
    "country": "IE",
    "region": "",
    "fund": "Interreg",
    "period": "2014–20",
    "name": "Collaborative Action for the Natural Network",
-   "lead": "Newry, Mourne and Down District Council",
+   "lead": "Mourne and Down District Council",
    "start": 2017,
    "end": 2021,
    "eur_total": 8349688,
@@ -2745,7 +2860,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-IE-03",
+   "id": "K-IE-cee8",
    "country": "IE",
    "region": "",
    "fund": "JTF",
@@ -2771,7 +2886,34 @@
    "partners_note": ""
   },
   {
-   "id": "K-IE-04",
+   "id": "E-IE-2cb2",
+   "country": "IE",
+   "region": "Border",
+   "fund": "EIP",
+   "period": "2014–20",
+   "name": "Inishowen Upland Farmers Project",
+   "lead": "Mr Henry O’ Donnell",
+   "start": 2019,
+   "end": 2023,
+   "eur_total": 989500,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T5"
+   ],
+   "auto_themes": false,
+   "outputs": "This project aims to improve the economic sustainability of farming High Nature Value (HNV) land in Inishowen through the implementation of a range of innovative measures which also deliver on environmental sustainability by increasing biodiversity, improving water quality and combating climate…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/inishowen-upland-farmers-project_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/inishowen-upland-farmers-project_en"
+   ],
+   "programme": "Rural Development Programme 2014-2020",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-0814",
    "country": "IE",
    "region": "",
    "fund": "JTF",
@@ -2797,7 +2939,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-IE-05",
+   "id": "K-IE-7fa4",
    "country": "IE",
    "region": "",
    "fund": "JTF",
@@ -2824,7 +2966,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-IE-06",
+   "id": "K-IE-d7ff",
    "country": "IE",
    "region": "",
    "fund": "JTF",
@@ -2853,7 +2995,33 @@
    "partners_note": ""
   },
   {
-   "id": "K-IE-07",
+   "id": "E-IE-9676",
+   "country": "IE",
+   "region": "Border",
+   "fund": "EIP",
+   "period": "2014–20",
+   "name": "The Conservation of Breeding Curlew in Ireland",
+   "lead": "Dr Anita Donaghy",
+   "start": 2018,
+   "end": 2021,
+   "eur_total": 1100000,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": false,
+   "outputs": "The project aims to prevent further losses to the Irish Curlew population through the protection and enhancement of known Curlew breeding sites in Ireland, and also to educate and compensate farmers and rural dwellers for creating and managing Curlew habitats. The following objectives will be…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/conservation-breeding-curlew-ireland_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/conservation-breeding-curlew-ireland_en"
+   ],
+   "programme": "Rural Development Programme 2014-2020",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-8525",
    "country": "IE",
    "region": "Mid-East Region",
    "fund": "JTF",
@@ -2879,13 +3047,41 @@
    "partners_note": ""
   },
   {
-   "id": "K-LV-01",
+   "id": "E-LV-6430",
+   "country": "LV",
+   "region": "Zemgale; Rīga",
+   "fund": "EIP",
+   "period": "2023–27",
+   "name": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "lead": "Olga Šteinberga; SIA \"Latvijas Lauku konsultāciju un izglītības centrs",
+   "start": 2026,
+   "end": 2028,
+   "eur_total": 299859,
+   "eur_eu": 269873,
+   "themes": [
+    "T2",
+    "T6",
+    "T8"
+   ],
+   "auto_themes": false,
+   "outputs": "The project aims to develop and practically test a multi-purpose digital tool that models bothfinancial results and environmental benefits - biodiversity, carbon sequestration and soil health -at the farm and field levels. It will provide recommendations for optimal land use, including incases…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en"
+   ],
+   "programme": "CAP Strategic Plans 2023-2027",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-4390",
    "country": "LV",
    "region": "Riga",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Development of a storm damage risk assessment tool for peat soils",
-   "lead": "Atvasināta publiska persona \"Latvijas Valsts mežzinātnes institūts \"Silava\"\"",
+   "lead": "Atvasināta publiska persona \"Latvijas Valsts mežzinātnes institūts \"Silava",
    "start": 2017,
    "end": 2020,
    "eur_total": 551425,
@@ -2906,13 +3102,40 @@
    "partners_note": ""
   },
   {
-   "id": "K-LV-02",
+   "id": "E-LV-9406",
+   "country": "LV",
+   "region": "Rīga; Zemgale",
+   "fund": "EIP",
+   "period": "2023–27",
+   "name": "Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations",
+   "lead": "Latvijas Universitāte",
+   "start": 2024,
+   "end": 2027,
+   "eur_total": 99314,
+   "eur_eu": 69520,
+   "themes": [
+    "T1",
+    "T3"
+   ],
+   "auto_themes": false,
+   "outputs": "The project aims to investigate and determine the optimal conditions for the vegetative propagation of the cloudberry variety 'Nyby' in a greenhouse and growing seedlings in an extracted peat bog under field conditions. Within the framework of the project, cooperation and knowledge transfer…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/development-cloudberry-propagation-and-cultivation-technologies-recultivation-peat-bogs_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/development-cloudberry-propagation-and-cultivation-technologies-recultivation-peat-bogs_en"
+   ],
+   "programme": "CAP Strategic Plans 2023-2027",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-74bd",
    "country": "LV",
    "region": "Pierīga",
    "fund": "EAKR",
    "period": "2014–20",
    "name": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
-   "lead": "Atvasināta publiska persona \"Latvijas Valsts mežzinātnes institūts \"Silava\"\"",
+   "lead": "Atvasināta publiska persona \"Latvijas Valsts mežzinātnes institūts \"Silava",
    "start": 2020,
    "end": 2023,
    "eur_total": 675371,
@@ -2934,7 +3157,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-LV-03",
+   "id": "K-LV-2fac",
    "country": "LV",
    "region": "Vidzeme",
    "fund": "EAKR",
@@ -2960,7 +3183,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-LV-04",
+   "id": "K-LV-37ba",
    "country": "LV",
    "region": "",
    "fund": "Interreg",
@@ -2987,13 +3210,66 @@
    "partners_note": ""
   },
   {
-   "id": "K-LV-05",
+   "id": "E-LV-8eeb",
+   "country": "LV",
+   "region": "Pierīga; Latgale; Rīga",
+   "fund": "EIP",
+   "period": "2023–27",
+   "name": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "lead": "Latvijas Valsts mežzinātnes institūts \"Silava",
+   "start": 2025,
+   "end": 2028,
+   "eur_total": 82645,
+   "eur_eu": 57851,
+   "themes": [
+    "T1",
+    "T6"
+   ],
+   "auto_themes": false,
+   "outputs": "The project aims to develop and test an innovative agrivoltaic system for blackberry cultivation on peat soils by integrating semi-transparent solar panel mock-ups as part of a multifunctional horticultural infrastructure. The objective is to simultaneously address several challenges in Latvian…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-agrivoltaic-system-blackberry-plantation-peat-soil-integration-renewable-energy_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/innovative-agrivoltaic-system-blackberry-plantation-peat-soil-integration-renewable-energy_en"
+   ],
+   "programme": "CAP Strategic Plans 2023-2027",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "E-LV-d12c",
+   "country": "LV",
+   "region": "Rīga",
+   "fund": "EIP",
+   "period": "2014–20",
+   "name": "Innovative organic fertilizer, containing microorganisms",
+   "lead": "Biedrība \"Latvijas kūdras asociācija",
+   "start": 2022,
+   "end": 2025,
+   "eur_total": 402246,
+   "eur_eu": null,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": false,
+   "outputs": "Project objective is, using biotechnologies, to produce an organic long-acting fertilizer, which is composed of manure, peat and special microorganisms.",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en"
+   ],
+   "programme": "Rural Development Programme 2014-2020",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-cbb2",
    "country": "LV",
    "region": "",
    "fund": "JTF",
    "period": "2021–27",
    "name": "Restoration of bog ecosystems in SACs",
-   "lead": "Akciju sabiedrība \"Latvijas valsts meži\"",
+   "lead": "Akciju sabiedrība \"Latvijas valsts meži",
    "start": 2024,
    "end": null,
    "eur_total": 7058824,
@@ -3014,7 +3290,61 @@
    "partners_note": ""
   },
   {
-   "id": "K-SE-01",
+   "id": "E-LV-e70c",
+   "country": "LV",
+   "region": "Pierīga; Kurzeme",
+   "fund": "EIP",
+   "period": "2023–27",
+   "name": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "lead": "Latvijas Valsts mežzinātnes institūts \"Silava",
+   "start": 2025,
+   "end": 2026,
+   "eur_total": 79410,
+   "eur_eu": 55587,
+   "themes": [
+    "T2",
+    "T4",
+    "T6"
+   ],
+   "auto_themes": false,
+   "outputs": "The enrichment of degraded organic soils with organic matter enhances soil health, promotes the development of macrofauna, mesofauna, and microbiota, and improves soil fertility and biodiversity. Perennial crops and plantations not only provide economic returns but also enhance soil structure,…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-management-degraded-organic-soils-impact-legume-and-digestate-use-carbon_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/sustainable-management-degraded-organic-soils-impact-legume-and-digestate-use-carbon_en"
+   ],
+   "programme": "CAP Strategic Plans 2023-2027",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "E-LV-b130",
+   "country": "LV",
+   "region": "Pierīga; Vidzeme",
+   "fund": "EIP",
+   "period": "2023–27",
+   "name": "Waste-free recycling of coniferous green biomass in a biodegradable planter container system",
+   "lead": "LVMI Silava",
+   "start": 2026,
+   "end": 2029,
+   "eur_total": 299989,
+   "eur_eu": 269990,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": false,
+   "outputs": "The project aims to develop and validate biodegradable plant pot and pellet composites fromextracted coniferous biomass with integrated humic substances to replace the use of plastic andpeat substrate in seedling cultivation. During the decomposition of the pot, the controlled releaseof organic…",
+   "evidence": 1,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en"
+   ],
+   "programme": "CAP Strategic Plans 2023-2027",
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-SE-dbb8",
    "country": "SE",
    "region": "Norrbotten County",
    "fund": "EAKR",
@@ -3040,7 +3370,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-SE-02",
+   "id": "K-SE-be89",
    "country": "SE",
    "region": "Västra Götaland County",
    "fund": "Interreg",
@@ -3066,7 +3396,7 @@
    "partners_note": ""
   },
   {
-   "id": "K-SE-03",
+   "id": "K-SE-8b1e",
    "country": "SE",
    "region": "Blekinge County",
    "fund": "Interreg",
@@ -3156,7 +3486,11 @@
     "T7"
    ],
    "note": "Naapurialue; suoyhteisön vyöhykejako ≈ TUKKA-klusterin tavoite",
-   "url": "https://eu-cap-network.ec.europa.eu/projects/our-moor-future-oldenburger-graben-cooperative-moorland-oldenburger-graben-schleswig_de"
+   "url": "https://eu-cap-network.ec.europa.eu/projects/our-moor-future-oldenburger-graben-cooperative-moorland-oldenburger-graben-schleswig_de",
+   "urls": [
+    "https://eu-cap-network.ec.europa.eu/projects/our-moor-future-oldenburger-graben-cooperative-moorland-oldenburger-graben-schleswig_de",
+    "https://eu-cap-network.ec.europa.eu/projects/our-moor-future-oldenburger-graben-cooperative-moorland-oldenburger-graben-schleswig_en"
+   ]
   }
  ],
  "hubs": [
@@ -3816,8 +4150,44 @@
    "type": "viranomainen"
   },
   {
-   "id": "landesamt-f-bergbau-energie-u-geologie",
-   "name": "Landesamt f. Bergbau, Energie u Geologie",
+   "id": "offis",
+   "name": "OFFIS Institut für Informatik",
+   "country": "DE-NI",
+   "type": "tutkimuslaitos"
+  },
+  {
+   "id": "thorkas-ug-i-g",
+   "name": "Thorkas UG i.G.",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "bonk-baumschulen-handels-gmbh",
+   "name": "Bonk Baumschulen Handels GmbH",
+   "country": "DE-NI",
+   "type": "yritys"
+  },
+  {
+   "id": "baumschul-beratungsring-weser-ems-e-v",
+   "name": "Baumschul-Beratungsring Weser-Ems e.V.",
+   "country": "DE-NI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "hochschule-hannover",
+   "name": "Hochschule Hannover",
+   "country": "DE-NI",
+   "type": "amk"
+  },
+  {
+   "id": "dammtechnik-neuhaus",
+   "name": "Dämmtechnik Neuhaus",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "wester-gbr",
+   "name": "Wester GbR",
    "country": "DE-NI",
    "type": "viranomainen"
   },
@@ -3894,8 +4264,8 @@
    "type": "viranomainen"
   },
   {
-   "id": "arl-w-e-staatliche-moorverwaltung",
-   "name": "ArL W-E, Staatliche Moorverwaltung",
+   "id": "staatliche-moorverwaltung",
+   "name": "Staatliche Moorverwaltung",
    "country": "DE-NI",
    "type": "viranomainen"
   },
@@ -3924,12 +4294,6 @@
    "type": "viranomainen"
   },
   {
-   "id": "region-hannover",
-   "name": "Region Hannover",
-   "country": "DE-NI",
-   "type": "viranomainen"
-  },
-  {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
    "name": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
    "country": "DE-NI",
@@ -3950,48 +4314,6 @@
   {
    "id": "eigen-vermogen-van-het-instituut-voor-la",
    "name": "Eigen Vermogen van het Instituut voor Landbouw- en Visserijonderzoek",
-   "country": "DE-NI",
-   "type": "viranomainen"
-  },
-  {
-   "id": "green-restoration-ireland-co-operative-s",
-   "name": "Green Restoration Ireland Co-Operative Society Ltd",
-   "country": "DE-NI",
-   "type": "yritys"
-  },
-  {
-   "id": "multitel-asbl",
-   "name": "Multitel asbl",
-   "country": "DE-NI",
-   "type": "viranomainen"
-  },
-  {
-   "id": "ontwikkelingsmaatschappij-oost-nederland",
-   "name": "Ontwikkelingsmaatschappij Oost-Nederland NV",
-   "country": "DE-NI",
-   "type": "viranomainen"
-  },
-  {
-   "id": "teagasc-agriculture-and-food-development",
-   "name": "Teagasc – Agriculture and Food Development Authority",
-   "country": "DE-NI",
-   "type": "viranomainen"
-  },
-  {
-   "id": "tgo-ag",
-   "name": "Tgo AG",
-   "country": "DE-NI",
-   "type": "viranomainen"
-  },
-  {
-   "id": "ver-de-terre-production",
-   "name": "Ver de Terre Production",
-   "country": "DE-NI",
-   "type": "viranomainen"
-  },
-  {
-   "id": "zuidelijke-land-en-tuinbouw-organisatie",
-   "name": "Zuidelijke Land- en Tuinbouw Organisatie",
    "country": "DE-NI",
    "type": "viranomainen"
   },
@@ -4152,14 +4474,26 @@
    "type": "tutkimuslaitos"
   },
   {
+   "id": "blackstairs-farming-group",
+   "name": "Blackstairs Farming Group",
+   "country": "IE",
+   "type": "viranomainen"
+  },
+  {
+   "id": "galway-mayo-institute-of-technology",
+   "name": "Galway Mayo Institute of Technology",
+   "country": "IE",
+   "type": "tutkimuslaitos"
+  },
+  {
    "id": "rspb-ni",
    "name": "Rspb Ni",
    "country": "IE",
    "type": "jarjesto"
   },
   {
-   "id": "newry-mourne-and-down-district-council",
-   "name": "Newry, Mourne and Down District Council",
+   "id": "mourne-and-down-district-council",
+   "name": "Mourne and Down District Council",
    "country": "IE",
    "type": "viranomainen"
   },
@@ -4188,6 +4522,42 @@
    "type": "yritys"
   },
   {
+   "id": "olga-steinberga-sia-latvijas-lauku-konsu",
+   "name": "Olga Šteinberga; SIA \"Latvijas Lauku konsultāciju un izglītības centrs",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "mpks-mezsaimnieks",
+   "name": "MPKS „Mežsaimnieks”",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "zs-lielvaiceni",
+   "name": "ZS Lielvaicēni",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "biedriba-preilu-lauksaimnieku-apvieniba",
+   "name": "Biedrība \"Preiļu lauksaimnieku apvienība",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "zemnieku-saimnieciba-kaigi",
+   "name": "zemnieku saimniecība “Kaigi”",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "sia-komercsabiedriba-arosa-r",
+   "name": "SIA komercsabiedrība “Arosa R”",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
    "id": "valmieras-novada-pasvaldiba",
    "name": "Valmieras novada pašvaldība",
    "country": "LV",
@@ -4200,16 +4570,88 @@
    "type": "viranomainen"
   },
   {
-   "id": "valsts-ugunsdzesibas-un-glabsanas-dienes",
-   "name": "Valsts ugunsdzēsības un glābšanas dienests",
+   "id": "biedriba-baltijas-krasti",
+   "name": "Biedrība “Baltijas krasti”",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "z-s-kaleji",
+   "name": "Z/S Kalēji",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "biedriba-latvijas-kudras-asociacija",
+   "name": "Biedrība \"Latvijas kūdras asociācija",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "llu-macibu-un-petijumu-saimnieciba-vecau",
+   "name": "LLU mācību un pētījumu saimniecība \"Vecauce",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "latvijas-cuku-audzetaju-asociacija",
+   "name": "Latvijas Cūku audzētāju asociācija",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "lauksaimniecibas-statutsabiedribu-asocia",
+   "name": "Lauksaimniecības statūtsabiedrību asociācija",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "stadu-un-kudras-inovaciju-fonds-skif",
+   "name": "Stādu un kūdras inovāciju fonds SKIF",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "zs-baltini",
+   "name": "ZS \"Baltiņi",
    "country": "LV",
    "type": "viranomainen"
   },
   {
    "id": "akciju-sabiedriba-latvijas-valsts-mezi",
-   "name": "Akciju sabiedrība \"Latvijas valsts meži\"",
+   "name": "Akciju sabiedrība \"Latvijas valsts meži",
    "country": "LV",
    "type": "yritys"
+  },
+  {
+   "id": "z-s-kiburi",
+   "name": "Z/S Ķīburi",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "z-s-andrupeni",
+   "name": "Z/S Andrupēni",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "biolat",
+   "name": "Biolat",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "gourmet-industries",
+   "name": "Gourmet Industries",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "stadu-un-kudras-inovaciju-fonds",
+   "name": "Stādu Un Kūdras Inovāciju Fonds",
+   "country": "LV",
+   "type": "viranomainen"
   },
   {
    "id": "lansstyrelsen-i-norrbottens-lan",

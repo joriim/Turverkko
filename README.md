@@ -16,13 +16,13 @@ Aineistolla on kolme tehtävää:
 
 Luvut on generoitu tiedostoon [`analysis/raportti.md`](analysis/raportti.md). Ne päivittyvät, kun aineisto kasvaa.
 
-Aineistossa on 113 hanketta, joista 96 on tuotu Kohesiosta 2.11.2026 ([hakulahteet/tulokset/](hakulahteet/tulokset/)). Lisäksi mukana on 6 osaamiskeskusta ja 116 organisaatiota.
+Aineistossa on 125 hanketta: Kohesiosta tuotiin 96 ja EU CAP Networkin EIP-hankkeista 12 (2.11.2026, [hakulahteet/tulokset/](hakulahteet/tulokset/)). Lisäksi mukana on 6 osaamiskeskusta ja 134 organisaatiota.
 
-- **Toimijat ovat erillisissä saarekkeissa.** 240 toimijaa jakautuu 67 yhteistyösaarekkeeseen. Vain yksi niistä ylittää maarajan: Suomen turvemaatoimijat, Latvian Silava-verkosto ja PRESERVE-Interreg-hanke. Lähteellä vahvistettuja maiden välisiä yhteyksiä on kaksi.
-- **Samoja teemoja ilman yhteyttä.** 53 maaparista, joilla on hankkeita samassa teemassa, 50:ltä puuttuu vahvistettu yhteistyöpolku. Suurimmat aukot ovat soiden suojelussa ja ennallistamisessa Niedersachsenin (31 hanketta) ja Suomen (18) välillä sekä maankäyttösektorin päästöissä samojen alueiden välillä.
+- **Toimijat ovat erillisissä saarekkeissa.** 270 toimijaa jakautuu 74 yhteistyösaarekkeeseen. Maarajan ylittää kaksi: Suomi–Latvia–Interreg (Silava, PRESERVE, SuoLiike) ja Niedersachsen–Irlanti (Smart Carbon Farming -Interreg, jossa mukana Green Restoration Ireland ja Teagasc). Lähteellä vahvistettuja maiden välisiä yhteyksiä on 4.
+- **Samoja teemoja ilman yhteyttä.** 56 maaparista, joilla on hankkeita samassa teemassa, 51:ltä puuttuu vahvistettu yhteistyöpolku. Suurin aukko on soiden suojelussa ja ennallistamisessa Niedersachsenin ja Suomen välillä.
 - **Niedersachsen ennallistaa, Suomi suunnittelee.** Niedersachsenin 49 EFRE-hanketta 2014–20 ovat pääosin toteutettuja vettämisiä ja suojelualueiden vesitalouden korjauksia. Suomen 27 JTF- ja EAKR-hanketta ovat pääosin jälkikäytön suunnittelua ja esiselvityksiä.
 - **Suomen turvepainotteinen JTF-rahoitus Kohesiossa on pieni.** Kohesiosta löytyi 23 suomalaista JTF-turvemaahanketta, yhteensä 7,6 M€, kun Suomen koko JTF-allokaatio on 465 M€. Luku kattaa vain hakusanoilla löytyneet hankkeet.
-- **Tuotokset jäävät tavoitteiksi.** 85 hanketta 113:sta kuvaa vain toimenpiteet (näyttöaste 1). Mitattuja tai vertaisarvioituja tuloksia on kolmella.
+- **Tuotokset jäävät tavoitteiksi.** 97 hanketta 125:stä kuvaa vain toimenpiteet (näyttöaste 1). Mitattuja tai vertaisarvioituja tuloksia on kolmella.
 - **Aukko:** Ruotsista on vain kolme hanketta. Ruotsin turvemaiden vettäminen rahoitetaan pitkälti kansallisesti, ja se on seuraava täydennettävä kohta ([hakulähteet 8–10](hakulahteet/README.md)).
 
 ## Rakenne

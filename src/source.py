@@ -434,22 +434,28 @@ PROJECTS += _new
 PARTICIPATION += _part
 REMOVED += _removed
 
-# Kohesio-rivit, jotka täydentävät olemassa olevia hankkeita
-_byid = {p["id"]: p for p in PROJECTS}
+# Hakulähteiden rivit, jotka täydentävät olemassa olevia hankkeita tai vertailukohteita
+_byid = {p["id"]: p for p in PROJECTS + CONTEXT}
 for _pid, _rows in _enrich.items():
     _p = _byid[_pid]
     _b = sum(_tuonti._num(r["budjetti_eur"]) or 0 for r in _rows) or None
     _e = sum(_tuonti._num(r["eu_osuus_eur"]) or 0 for r in _rows) or None
-    _p["eur_total"] = _p["eur_total"] or _b
-    _p["eur_eu"] = _p["eur_eu"] or _e
+    if "eur_total" in _p:
+        _p["eur_total"] = _p["eur_total"] or _b
+        _p["eur_eu"] = _p["eur_eu"] or _e
     _p.setdefault("urls", [_p["url"]])
-    _p["urls"] += [r["url"] for r in _rows]
+    _p["urls"] += [r["url"] for r in _rows if r["url"] not in _p["urls"]]
     for r in _rows:
-        _oid = _tuonti.ORG_ALIAS.get(r["toteuttaja"].strip().lower()) or _tuonti._slug(r["toteuttaja"])
-        if _oid not in {o["id"] for o in ORGS}:
-            ORGS.append(dict(id=_oid, name=r["toteuttaja"].strip(), country=_p["country"], type=_tuonti.org_type(r["toteuttaja"])))
-        if (_oid, _pid) not in {(x[0], x[1]) for x in PARTICIPATION}:
-            PARTICIPATION.append((_oid, _pid, "edunsaaja", r["url"]))
+        _who = [(r["toteuttaja"], "edunsaaja")] + [(x, "partneri") for x in r["partnerit"].split(";") if x.strip()]
+        for _w, _role in _who:
+            _o = _tuonti.org_of(_w)
+            if not _o:
+                continue
+            _oid, _oname = _o
+            if _oid not in {o["id"] for o in ORGS}:
+                ORGS.append(dict(id=_oid, name=_oname, country=_p["country"], type=_tuonti.org_type(_oname)))
+            if (_oid, _pid) not in {(x[0], x[1]) for x in PARTICIPATION}:
+                PARTICIPATION.append((_oid, _pid, _role, r["url"]))
 
 # Viro: aiempi EE-02-rivi käytti ohjelmatason summaa (KF 81 M€ koko maalle); Kohesio antaa hankkeen omat luvut
 _ee = next(r for r in _enrich.get("EE-02", []))

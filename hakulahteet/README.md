@@ -17,7 +17,7 @@ Työnkulku:
 | # | Lähde | Kattaa | Maat | Osoite | Prioriteetti |
 |---|---|---|---|---|---|
 | 1 | Kohesio | EAKR, ESR+, JTF, KF, Interreg | kaikki | [kohesio.ec.europa.eu](https://kohesio.ec.europa.eu/fi/projects) ✓ | ✅ haettu 2.11.2026 |
-| 2 | EU CAP Network – hankkeet | EIP-AGRI-toimintaryhmät | kaikki | [eu-cap-network.ec.europa.eu/projects](https://eu-cap-network.ec.europa.eu/projects_en) ✓ | **1** |
+| 2 | EU CAP Network – hankkeet | EIP-AGRI-toimintaryhmät | kaikki | [eu-cap-network.ec.europa.eu/projects](https://eu-cap-network.ec.europa.eu/projects_en) ✓ | ✅ haettu 2.11.2026 |
 | 3 | LIFE-hankehaku | LIFE | kaikki | [webgate.ec.europa.eu/life](https://webgate.ec.europa.eu/life/publicWebsite/search) ✓ | 2 |
 | 4 | keep.eu | Interreg | kaikki | [keep.eu](https://keep.eu) ✓ | 3 |
 | 5 | EURA 2021 / EURA 2014 | EAKR, ESR+, JTF Suomessa | FI | [eura2021.fi](https://eura2021.fi) → | **1** |

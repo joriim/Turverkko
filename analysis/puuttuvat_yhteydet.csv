@@ -1,184 +1,216 @@
 a,a_nimi,a_maa,b,b_nimi,b_maa,jaccard,yhteiset_teemat,etaisyys,tyyppi,paras_naytto
-IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-DE-NI-05,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,1.0,"T2,T6",ei polkua,maiden välinen,3
-IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-DE-NI-20,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,1.0,"T2,T6",ei polkua,maiden välinen,3
-IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-DE-NI-46,Smart Carbon Farming,DE-NI,1.0,"T2,T6",ei polkua,maiden välinen,3
-IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-EU-03,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,3
-LV-02,Historiallisten turvealueiden elvyttäminen,LV,K-FI-17,Satakunta peatlands: from peat production to new livelihoods and meanings,FI,1.0,"T1,T8",ei polkua,maiden välinen,2
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-DE-NI-7a94,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,1.0,"T2,T6",ei polkua,maiden välinen,3
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-DE-NI-cc25,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,1.0,"T2,T6",ei polkua,maiden välinen,3
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-EU-48f5,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,3
+LV-02,Historiallisten turvealueiden elvyttäminen,LV,K-FI-7c34,Satakunta peatlands: from peat production to new livelihoods and meanings,FI,1.0,"T1,T8",ei polkua,maiden välinen,2
 LV-02,Historiallisten turvealueiden elvyttäminen,LV,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,1.0,"T1,T8",ei polkua,maiden välinen,2
-IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,K-DE-NI-18,Maintenance of wet grassland in the EU – Bird protection area,DE-NI,1.0,"T2,T5",ei polkua,maiden välinen,2
-IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,K-DE-NI-26,"Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",DE-NI,1.0,"T2,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-08,Konttisuo restoration plan,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-09,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-11,Peat Bogs to Wetlands,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-12,Restoration and water protection project of South-Eastern Finland,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-13,Restoration of Linttiräme after Peat Production,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-15,Restoration of the Western Valkeasuo Mire,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-16,"Restoration plan for the bog Pirttineva, previous peat production site",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-23,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-08,Konttisuo restoration plan,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-11,Peat Bogs to Wetlands,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-12,Restoration and water protection project of South-Eastern Finland,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-15,Restoration of the Western Valkeasuo Mire,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-23,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-08,Konttisuo restoration plan,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-11,Peat Bogs to Wetlands,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-12,Restoration and water protection project of South-Eastern Finland,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-15,Restoration of the Western Valkeasuo Mire,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-23,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-07,Heinäpuro restoration project,FI,K-LV-01,Development of a storm damage risk assessment tool for peat soils,LV,1.0,"T4,T5",ei polkua,maiden välinen,2
-K-FI-08,Konttisuo restoration plan,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-09,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-11,Peat Bogs to Wetlands,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-12,Restoration and water protection project of South-Eastern Finland,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-13,Restoration of Linttiräme after Peat Production,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-15,Restoration of the Western Valkeasuo Mire,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-16,"Restoration plan for the bog Pirttineva, previous peat production site",FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-FI-23,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-05,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,K-EU-03,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,1
-K-DE-NI-20,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,K-EU-03,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,1
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-09,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-13,Restoration of Linttiräme after Peat Production,FI,1.0,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-16,"Restoration plan for the bog Pirttineva, previous peat production site",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-46,Smart Carbon Farming,DE-NI,K-EU-03,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,1
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-09,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-13,Restoration of Linttiräme after Peat Production,FI,1.0,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-16,"Restoration plan for the bog Pirttineva, previous peat production site",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
-K-EU-01,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,K-IE-02,Collaborative Action for the Natural Network,IE,1.0,"T5,T7",ei polkua,maiden välinen,1
-K-EU-01,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,K-LV-04,Improving cross border cooperation in the field of peat fire prevention and response,LV,1.0,"T5,T7",ei polkua,maiden välinen,1
-K-FI-17,Satakunta peatlands: from peat production to new livelihoods and meanings,FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,1.0,"T1,T8",ei polkua,maiden välinen,1
-K-IE-02,Collaborative Action for the Natural Network,IE,K-LV-04,Improving cross border cooperation in the field of peat fire prevention and response,LV,1.0,"T5,T7",ei polkua,maiden välinen,1
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-14,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,0.75,"T1,T2,T5",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-14,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,0.75,"T1,T4,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-IE-06,Sphagnum Farming,IE,0.75,"T1,T2,T5",ei polkua,maiden välinen,1
+IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,K-DE-NI-410f,Maintenance of wet grassland in the EU – Bird protection area,DE-NI,1.0,"T2,T5",ei polkua,maiden välinen,2
+IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,K-DE-NI-9163,"Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",DE-NI,1.0,"T2,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-6c73,Konttisuo restoration plan,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-56cf,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-6978,Peat Bogs to Wetlands,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-8d28,Restoration of Linttiräme after Peat Production,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-16d2,"Restoration plan for the bog Pirttineva, previous peat production site",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-6c73,Konttisuo restoration plan,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-6978,Peat Bogs to Wetlands,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-6c73,Konttisuo restoration plan,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-6978,Peat Bogs to Wetlands,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-2fcc,Heinäpuro restoration project,FI,K-LV-4390,Development of a storm damage risk assessment tool for peat soils,LV,1.0,"T4,T5",ei polkua,maiden välinen,2
+K-FI-6c73,Konttisuo restoration plan,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-56cf,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-6978,Peat Bogs to Wetlands,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-8d28,Restoration of Linttiräme after Peat Production,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-16d2,"Restoration plan for the bog Pirttineva, previous peat production site",FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,1.0,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-7a94,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,K-EU-48f5,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,1
+E-DE-NI-b06d,Industrial raw material using bog sites – I-ROBI,DE-NI,K-IE-7fa4,Peatlands For Prosperity Project: Cultivating Paludiculture for Resilience,IE,1.0,"T2,T3",ei polkua,maiden välinen,1
+K-DE-NI-410f,Maintenance of wet grassland in the EU – Bird protection area,DE-NI,E-IE-9275,A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks,IE,1.0,"T2,T5",ei polkua,maiden välinen,1
+K-DE-NI-410f,Maintenance of wet grassland in the EU – Bird protection area,DE-NI,E-IE-e6ef,Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains,IE,1.0,"T2,T5",ei polkua,maiden välinen,1
+K-DE-NI-410f,Maintenance of wet grassland in the EU – Bird protection area,DE-NI,E-IE-2cb2,Inishowen Upland Farmers Project,IE,1.0,"T2,T5",ei polkua,maiden välinen,1
+K-DE-NI-cc25,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,K-EU-48f5,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-9163,"Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",DE-NI,E-IE-9275,A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks,IE,1.0,"T2,T5",ei polkua,maiden välinen,1
+K-DE-NI-9163,"Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",DE-NI,E-IE-e6ef,Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains,IE,1.0,"T2,T5",ei polkua,maiden välinen,1
+K-DE-NI-9163,"Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",DE-NI,E-IE-2cb2,Inishowen Upland Farmers Project,IE,1.0,"T2,T5",ei polkua,maiden välinen,1
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,1.0,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-56cf,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-8d28,Restoration of Linttiräme after Peat Production,FI,1.0,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-16d2,"Restoration plan for the bog Pirttineva, previous peat production site",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-d14f,Smart Carbon Farming,DE-NI,K-EU-48f5,Carbon Connects,EU,1.0,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-56cf,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-8d28,Restoration of Linttiräme after Peat Production,FI,1.0,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-16d2,"Restoration plan for the bog Pirttineva, previous peat production site",FI,1.0,"T1,T5",ei polkua,maiden välinen,1
+K-EU-5a7e,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,K-IE-0b63,Collaborative Action for the Natural Network,IE,1.0,"T5,T7",ei polkua,maiden välinen,1
+K-EU-5a7e,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,K-LV-37ba,Improving cross border cooperation in the field of peat fire prevention and response,LV,1.0,"T5,T7",ei polkua,maiden välinen,1
+K-FI-7c34,Satakunta peatlands: from peat production to new livelihoods and meanings,FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,1.0,"T1,T8",ei polkua,maiden välinen,1
+K-IE-0b63,Collaborative Action for the Natural Network,IE,K-LV-37ba,Improving cross border cooperation in the field of peat fire prevention and response,LV,1.0,"T5,T7",ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-9cd5,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,0.75,"T1,T2,T5",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-9cd5,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,0.75,"T1,T4,T5",ei polkua,maiden välinen,2
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-IE-d7ff,Sphagnum Farming,IE,0.75,"T1,T2,T5",ei polkua,maiden välinen,1
 X-FI-PEATRESC,"PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.75,"T1,T5,T7",ei polkua,maiden välinen,0
 X-FI-PEATRESC,"PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)",FI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.75,"T5,T6,T7",ei polkua,maiden välinen,0
-IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-FI-18,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,3
-IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-FI-24,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,3
-LV-01,PeatTransform – turvesektorin TKI-pohjainen siirtymä,LV,K-FI-27,Value from the carbon market for the next land use of peat production areas,FI,0.67,"T1,T3,T6,T8",4,maiden välinen,2
+FI-07,TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",8,maiden välinen,4
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-FI-9511,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,3
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,K-FI-c4ea,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,3
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,E-LV-6430,"Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",LV,0.67,"T2,T6",ei polkua,maiden välinen,3
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,E-LV-e70c,Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating,LV,0.67,"T2,T6",ei polkua,maiden välinen,3
+LV-01,PeatTransform – turvesektorin TKI-pohjainen siirtymä,LV,K-FI-0ac6,Value from the carbon market for the next land use of peat production areas,FI,0.67,"T1,T3,T6,T8",4,maiden välinen,2
 LV-02,Historiallisten turvealueiden elvyttäminen,LV,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.67,"T1,T8",ei polkua,maiden välinen,2
 LV-02,Historiallisten turvealueiden elvyttäminen,LV,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,0.67,"T1,T8",ei polkua,maiden välinen,2
 LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.67,"T1,T3",8,maiden välinen,2
 LV-03,Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri,LV,FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,0.67,"T1,T3",4,maiden välinen,2
 IE-02,FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille,IE,NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,0.67,"T2,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-08,Konttisuo restoration plan,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-11,Peat Bogs to Wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-12,Restoration and water protection project of South-Eastern Finland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-15,Restoration of the Western Valkeasuo Mire,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-23,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-05,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,K-FI-24,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
-K-DE-NI-20,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,K-FI-24,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-07,Heinäpuro restoration project,FI,0.67,"T4,T5",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-08,Konttisuo restoration plan,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-11,Peat Bogs to Wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-12,Restoration and water protection project of South-Eastern Finland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-15,Restoration of the Western Valkeasuo Mire,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-23,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-40,Rewetting Sauerbach,DE-NI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-46,Smart Carbon Farming,DE-NI,K-FI-24,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
-K-EU-03,Carbon Connects,EU,K-FI-24,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
-K-FI-01,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-08,Konttisuo restoration plan,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-11,Peat Bogs to Wetlands,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-12,Restoration and water protection project of South-Eastern Finland,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-15,Restoration of the Western Valkeasuo Mire,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-19,Suokeidas - From peat production to diverse wetlands,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-20,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-23,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-FI-26,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,K-LV-05,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
-K-LV-05,Restoration of bog ecosystems in SACs,LV,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-09,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-13,Restoration of Linttiräme after Peat Production,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-16,"Restoration plan for the bog Pirttineva, previous peat production site",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-6c73,Konttisuo restoration plan,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-6978,Peat Bogs to Wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-7a94,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,K-FI-c4ea,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
+K-DE-NI-cc25,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,K-FI-c4ea,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-2fcc,Heinäpuro restoration project,FI,0.67,"T4,T5",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-6c73,Konttisuo restoration plan,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-6978,Peat Bogs to Wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-d14f,Smart Carbon Farming,DE-NI,K-FI-c4ea,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,0.67,"T5,T6",ei polkua,maiden välinen,2
+K-EU-48f5,Carbon Connects,EU,K-FI-c4ea,The water protection wetland of the former peat production area of Kovalansuo,FI,0.67,"T2,T6",ei polkua,maiden välinen,2
+K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",ei polkua,maiden välinen,2
+K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-6c73,Konttisuo restoration plan,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-6978,Peat Bogs to Wetlands,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",ei polkua,maiden välinen,2
+K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",ei polkua,maiden välinen,2
+K-FI-b38f,Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-FI-c4ea,The water protection wetland of the former peat production area of Kovalansuo,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",ei polkua,maiden välinen,2
+K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",ei polkua,maiden välinen,2
+K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,0.67,"T1,T5",ei polkua,maiden välinen,2
+K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,2
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-56cf,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-8d28,Restoration of Linttiräme after Peat Production,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,K-FI-16d2,"Restoration plan for the bog Pirttineva, previous peat production site",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,E-IE-9275,A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks,IE,0.67,"T2,T5",ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,E-IE-e6ef,Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains,IE,0.67,"T2,T5",ei polkua,maiden välinen,1
+NI-01,"KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",DE-NI,E-IE-2cb2,Inishowen Upland Farmers Project,IE,0.67,"T2,T5",ei polkua,maiden välinen,1
+FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,E-LV-9406,Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations,LV,0.67,"T1,T3",8,maiden välinen,1
 FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.67,"T1,T8",ei polkua,maiden välinen,1
+FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,E-LV-9406,Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations,LV,0.67,"T1,T3",4,maiden välinen,1
 FI-09,SuoLiike – suonpohjien uusi viljelyliiketoiminta,FI,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.67,"T1,T8",ei polkua,maiden välinen,1
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-02,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-03,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-05,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,K-FI-18,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
-K-DE-NI-08,Development of priorities in moor and climate protection in the district of Stade,DE-NI,K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-10,Gnarrenburger Moor – Area concept and water management,DE-NI,K-LV-02,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,0.67,"T6,T8",ei polkua,maiden välinen,1
-K-DE-NI-20,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,K-FI-18,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
-K-DE-NI-21,Monitoring of moor water levels,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T6,T7",ei polkua,maiden välinen,1
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-27,Moorland® – Climate donation Lower Saxony,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-37,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-09,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-13,Restoration of Linttiräme after Peat Production,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-16,"Restoration plan for the bog Pirttineva, previous peat production site",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-38,Regeneration of a moorland in the Günnemoor,DE-NI,K-LV-01,Development of a storm damage risk assessment tool for peat soils,LV,0.67,"T4,T5",ei polkua,maiden välinen,1
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-41,Wiedervernässung des Weißen Moores,DE-NI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-46,Smart Carbon Farming,DE-NI,K-FI-18,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-DE-NI-49,Wetting area at Westerbeck,DE-NI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-EU-01,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T5,T7",ei polkua,maiden välinen,1
-K-EU-01,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T7",ei polkua,maiden välinen,1
-K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-06,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-10,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-EU-02,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
-K-EU-03,Carbon Connects,EU,K-FI-18,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
-K-FI-09,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-FI-13,Restoration of Linttiräme after Peat Production,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-FI-16,"Restoration plan for the bog Pirttineva, previous peat production site",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
-K-FI-17,Satakunta peatlands: from peat production to new livelihoods and meanings,FI,K-LV-02,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,0.67,"T1,T8",8,maiden välinen,1
-K-LV-02,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.67,"T1,T8",ei polkua,maiden välinen,1
-K-LV-04,Improving cross border cooperation in the field of peat fire prevention and response,LV,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T5,T7",ei polkua,maiden välinen,1
-K-LV-04,Improving cross border cooperation in the field of peat fire prevention and response,LV,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T7",ei polkua,maiden välinen,1
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-accd,Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-f620,Climate protection and species protection through area protection in the tunschlickers Moor,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-7a94,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,K-FI-9511,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-7a94,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,E-LV-6430,"Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-7a94,Climate protection-oriented agriculture in the Gnarrenburg Moor,DE-NI,E-LV-e70c,Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating,LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-dab1,Development of priorities in moor and climate protection in the district of Stade,DE-NI,K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-c05c,Gnarrenburger Moor – Area concept and water management,DE-NI,E-LV-6430,"Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",LV,0.67,"T6,T8",ei polkua,maiden välinen,1
+K-DE-NI-c05c,Gnarrenburger Moor – Area concept and water management,DE-NI,K-LV-74bd,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,0.67,"T6,T8",ei polkua,maiden välinen,1
+K-DE-NI-cc25,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,K-FI-9511,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-cc25,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,E-LV-6430,"Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-cc25,Model project Gnarrenburger Moor – Underfloor irrigation in a practical test,DE-NI,E-LV-e70c,Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating,LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-1c15,Monitoring of moor water levels,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T6,T7",ei polkua,maiden välinen,1
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-a450,Moorland® – Climate donation Lower Saxony,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-d3d6,Preliminary study on the climate protection project Steinfelder Moor,DE-NI,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-56cf,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-8d28,Restoration of Linttiräme after Peat Production,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-FI-16d2,"Restoration plan for the bog Pirttineva, previous peat production site",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-d8d1,Regeneration of a moorland in the Günnemoor,DE-NI,K-LV-4390,Development of a storm damage risk assessment tool for peat soils,LV,0.67,"T4,T5",ei polkua,maiden välinen,1
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-04a5,Wiedervernässung des Weißen Moores,DE-NI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-d14f,Smart Carbon Farming,DE-NI,K-FI-9511,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-d14f,Smart Carbon Farming,DE-NI,E-LV-6430,"Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-d14f,Smart Carbon Farming,DE-NI,E-LV-e70c,Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating,LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-EU-5a7e,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T5,T7",ei polkua,maiden välinen,1
+K-EU-5a7e,"Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",EU,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T7",ei polkua,maiden välinen,1
+K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-EU-0882,BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation,EU,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T6",ei polkua,maiden välinen,1
+K-EU-48f5,Carbon Connects,EU,K-FI-9511,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-EU-48f5,Carbon Connects,EU,E-LV-6430,"Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-EU-48f5,Carbon Connects,EU,E-LV-e70c,Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating,LV,0.67,"T2,T6",ei polkua,maiden välinen,1
+K-FI-879d,Carbon-wise peatland forest management,FI,E-LV-e70c,Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating,LV,0.67,"T4,T6",10,maiden välinen,1
+K-FI-6894,"Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",6,maiden välinen,1
+K-FI-56cf,"NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-FI-561d,Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",10,maiden välinen,1
+K-FI-8d28,Restoration of Linttiräme after Peat Production,FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-FI-16d2,"Restoration plan for the bog Pirttineva, previous peat production site",FI,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T1,T5",ei polkua,maiden välinen,1
+K-FI-7c34,Satakunta peatlands: from peat production to new livelihoods and meanings,FI,K-LV-74bd,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,0.67,"T1,T8",8,maiden välinen,1
+K-FI-9511,Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions,FI,E-LV-8eeb,Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions,LV,0.67,"T1,T6",10,maiden välinen,1
+K-LV-74bd,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,X-IE-NAT,"Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",IE,0.67,"T1,T8",ei polkua,maiden välinen,1
+K-LV-37ba,Improving cross border cooperation in the field of peat fire prevention and response,LV,X-IE-LIFE,"LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)",IE,0.67,"T5,T7",ei polkua,maiden välinen,1
+K-LV-37ba,Improving cross border cooperation in the field of peat fire prevention and response,LV,X-IE-GAL,All-Ireland Peatlands CoE ja RePEAT (Galway),IE,0.67,"T5,T7",ei polkua,maiden välinen,1
 LV-01,PeatTransform – turvesektorin TKI-pohjainen siirtymä,LV,FI-06,Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu,FI,0.6,"T1,T3,T8",6,maiden välinen,2
-K-FI-14,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,K-IE-06,Sphagnum Farming,IE,0.6,"T1,T2,T5",ei polkua,maiden välinen,2
+K-FI-9cd5,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,K-IE-d7ff,Sphagnum Farming,IE,0.6,"T1,T2,T5",ei polkua,maiden välinen,2
 FI-01,TUKKA – Turvemaiden kestävän käytön osaamisklusteri,FI,X-DE-SH,"Our Moor Future Oldenburger Graben (Schleswig-Holstein, 0,5 M€)",DE-SH,0.6,"T2,T7,T8",ei polkua,maiden välinen,1
-K-DE-NI-08,Development of priorities in moor and climate protection in the district of Stade,DE-NI,K-FI-27,Value from the carbon market for the next land use of peat production areas,FI,0.6,"T5,T6,T8",ei polkua,maiden välinen,1
-K-FI-27,Value from the carbon market for the next land use of peat production areas,FI,K-LV-02,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,0.6,"T1,T6,T8",6,maiden välinen,1
+K-DE-NI-dab1,Development of priorities in moor and climate protection in the district of Stade,DE-NI,K-FI-0ac6,Value from the carbon market for the next land use of peat production areas,FI,0.6,"T5,T6,T8",ei polkua,maiden välinen,1
+K-FI-0ac6,Value from the carbon market for the next land use of peat production areas,FI,K-LV-74bd,Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction,LV,0.6,"T1,T6,T8",6,maiden välinen,1

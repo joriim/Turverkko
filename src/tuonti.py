@@ -8,7 +8,7 @@ listoina, jotta ne voi tarkistaa ja korjata.
 Teemat luokitellaan avainsanasäännöillä (THEME_RULES). Automaattisesti luokitellut hankkeet
 merkitään kentällä auto_themes=True, ja ne kannattaa tarkistaa käsin.
 """
-import csv, re, unicodedata
+import csv, hashlib, re, unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,7 +25,16 @@ EXCLUDE = {
     "Investment project/Utilisation of biomass-based materials as fertilisers on forest land": "tuhkalannoitus metsämaille yleisesti, ei turvemaapainotusta",
     "Forest plan for responsible forest owners": "yleinen metsäsuunnittelu, ei turvemaapainotusta",
     "MEQAL-Methane Quantization and Localization": "jätehuollon metaanipäästöt, ei maankäyttöä",
+    # EU CAP Network (lähde 2)
+    "Utilization of by-product of grain drying as material and energy": "viljankuivauksen sivuvirta, ei turvemaata",
+    "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility": "yleinen maan kasvukunto ja kompostointi, ei turvemaata",
 }
+
+# Saksan hankkeet muista osavaltioista kuin Niedersachsen jäävät aluerajauksen ulkopuolelle
+EXCLUDE_COUNTRY = {"DE": "Saksa, muu osavaltio kuin Niedersachsen (aluerajauksen ulkopuolella)"}
+
+# Lähteen numero → tunnisteen etuliite (K = Kohesio, E = EU CAP Network / EIP)
+SOURCE_PREFIX = {"1": "K", "2": "E"}
 
 # Rivit, jotka ovat jo aineistossa olevia hankkeita (nimi → olemassa oleva tunniste).
 # Rivin tiedot täydentävät olemassa olevaa hanketta eivätkä luo uutta.
@@ -34,7 +43,43 @@ MATCH_EXISTING = {
     "Product chains of low bog biomass": "NI-02",
     "Aid for the revitalisation of historical peat extraction sites": "LV-02",
     "Restoration of drained, exhausted and abandoned peatlands": "EE-02",
+    "Farm Carbon EIP": "IE-01",
+    "FarmPEAT (Farm Payments for Ecological and Agricultural Transitions) Project": "IE-02",
+    "Our Moor Future Oldenburger Graben - Cooperative moorland in the Oldenburger Graben in Schleswig-Holstein for climate protection and agricultural added value": "X-DE-SH",
 }
+
+# Käsin tarkistetut teemat (ohittavat avainsanasäännöt)
+THEME_OVERRIDE = {
+    "Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations": ["T1", "T3"],
+    "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions": ["T1", "T6"],
+    "Innovative organic fertilizer, containing microorganisms": ["T3"],
+    "Waste-free recycling of coniferous green biomass in a biodegradable planter container system": ["T3"],
+    "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data": ["T2", "T6", "T8"],
+    "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating": ["T2", "T4", "T6"],
+    "The Conservation of Breeding Curlew in Ireland": ["T5"],
+    "Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains": ["T2", "T5"],
+    "A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks": ["T2", "T5"],
+    "Inishowen Upland Farmers Project": ["T2", "T5"],
+    "FloraGPT: Artificial intelligence- and sensor-controlled irrigation with a user-friendly interface for cultivation methods optimized for peat replacement": ["T3"],
+    "Industrial raw material using bog sites – I-ROBI": ["T2", "T3"],
+}
+
+# Organisaation tunnistus nimen osasta (taivutettu, pienet kirjaimet) → olemassa oleva tunniste
+ORG_CONTAINS = [("silava", "silava"), ("latvijas universit", "lu"), ("lauksaimniecibas universit", "lbtu"),
+                ("darzkopibas instit", "lathort"), ("agroresursu un ekonomikas", "arei"), ("teagasc", "teagasc"),
+                ("green restoration ireland", "gri"), ("nature based agri", "nbas"), ("irish rural link", "irl"),
+                ("umeras", "umeras"), ("helsingin yliopisto", "hy"), ("ita-suomen yliopisto", "uef"),
+                ("luonnonvarakeskus", "luke"), ("seinajoen ammattikorkeakoulu", "seamk"), ("oulun yliopisto", "oy"),
+                ("offis", "offis"), ("hochschule hannover", "hochschule-hannover"), ("biokunststoffe", "hochschule-hannover")]
+
+# Organisaatioksi tunnistettavat sanat; muut nimet tulkitaan henkilöiksi eikä niistä tehdä solmuja
+ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij|fonds|centrs|saimnieciba|komercsabiedr|apvieniba|"
+             r"\bmpks\b|\bapp\b|gmbh|e\.\s?v\.|\bug\b|\bgbr\b|\bltd\b|limited|\boy\b|oyj|cooperative|society|group|teagasc|"
+             r"technology|hochschule|offis|\bkg\b|\bry\b|project|rural link|community|baumschul|beratungsring|dammtechnik|"
+             r"biolat|gourmet|kolkanrinne|epira|\btmi\b|council|authority|agency|ministry|association|foundation|stiftung|landkreis|"
+             r"forst|verband|nabu|bund |nlwkn|yliopisto|ammattikorkeakoulu|keskus|saatio|kaupunki|metsahallitus|\bab\b|\bas\b|"
+             r"lansstyrelsen|skogsstyrelsen|riigimetsa|regions|pasvaldiba|departamentas|chambres|larenstein|kompetenzzentrum|peat ltd|"
+             r"rspb|broads|zid|archehof|schmedt|torfwerk|forstamt|landesforsten|moorverwaltung|fachzentrum|naturschutz")
 
 # Konekäännösvirheiden korjaus (Kohesion englanninkielinen nimi → oikea nimi)
 NAME_FIX = {
@@ -86,8 +131,33 @@ def _num(v):
         return None
 
 
+def _fold(s):
+    s = unicodedata.normalize("NFKD", s.lower())
+    return "".join(c for c in s if not unicodedata.combining(c))
+
+
+def org_of(who):
+    """Palauttaa (tunniste, nimi) organisaatiolle tai None, jos merkintä on pelkkä henkilö.
+    Käsittelee muodot "Henkilö, Organisaatio", "Organisaatio (Henkilö)" ja "Organisaatio, Henkilö"."""
+    who = re.sub(r"\s*\([^)]*\)", lambda m: "" if not re.search(ORG_WORDS, _fold(m.group(0))) else m.group(0), who.strip())
+    parts = [p.strip(" ;") for p in re.split(r",(?![^(]*\))", who) if p.strip(" ;")]
+    cands = [p for p in parts if re.search(ORG_WORDS, _fold(p))]
+    if not cands:
+        return None
+    name = cands[0].strip().strip('"').strip()
+    m = re.match(r"^(.*?)\s*\((.+)\)$", name)
+    if m and re.search(ORG_WORDS, _fold(m.group(2))) and not re.search(ORG_WORDS, _fold(m.group(1))):
+        name = m.group(2)
+    f = _fold(name)
+    for sub, oid in ORG_CONTAINS:
+        if sub in f:
+            return oid, name
+    oid = ORG_ALIAS.get(name.lower()) or ORG_ALIAS.get(who.strip().lower())
+    return (oid or _slug(_org_name(name))), _org_name(name)
+
+
 def _period(s):
-    m = re.match(r"(20\d\d)-(20\d\d)", s or "")
+    m = re.search(r"(20\d\d)-(20\d\d)", s or "")
     return f"{m.group(1)}–{m.group(2)[2:]}" if m else (s or "")
 
 
@@ -110,6 +180,8 @@ COUNTRY_OVERRIDE = {
 
 def _country(row):
     name = row["hanke_nimi"].strip()
+    if row["maa"].strip() in ("FI", "SE", "EE", "LV", "IE", "DE-NI", "DE-SH", "EU", "DE"):
+        return row["maa"].strip()
     for k, v in COUNTRY_OVERRIDE.items():
         if name.startswith(k):
             return v
@@ -166,6 +238,9 @@ def load():
         if name in EXCLUDE:
             removed.append(dict(id=f"kohesio:{_slug(name)}", name=name, reason=EXCLUDE[name]))
             continue
+        if _country(r) in EXCLUDE_COUNTRY and name not in MATCH_EXISTING:
+            removed.append(dict(id=f"rajattu:{_slug(name)}", name=name, reason=EXCLUDE_COUNTRY[_country(r)]))
+            continue
         if name in MATCH_EXISTING:
             enrich.setdefault(MATCH_EXISTING[name], []).append(r)
             continue
@@ -173,17 +248,17 @@ def load():
         groups.setdefault(key, []).append(r)
 
     projects, orgs, part = [], {}, []
-    counters = {}
     for (name, _), rs in sorted(groups.items(), key=lambda kv: (_country(kv[1][0]), kv[0][0])):
         r0 = rs[0]
         c = _country(r0)
-        counters[c] = counters.get(c, 0) + 1
-        pid = f"K-{c}-{counters[c]:02d}"
+        # Pysyvä tunniste: lähde + maa + tiiviste hankesivun osoitteesta (ei muutu, kun aineistoa lisätään)
+        pid = f"{SOURCE_PREFIX.get(r0['lahde'].strip(), 'H')}-{c}-{hashlib.sha1(r0['url'].encode()).hexdigest()[:4]}"
         text = " ".join([name, r0["kuvaus"], r0["tuotokset"], r0["hakusana"]])
         budgets = [_num(r["budjetti_eur"]) for r in rs]
         eus = [_num(r["eu_osuus_eur"]) for r in rs]
-        lead = _org_name(r0["toteuttaja"])
-        others = sorted({_org_name(r["toteuttaja"]) for r in rs[1:]} - {lead})
+        _lo = org_of(r0["toteuttaja"])
+        lead = _lo[1] if _lo else _org_name(r0["toteuttaja"])
+        others = sorted({(org_of(r["toteuttaja"]) or (None, _org_name(r["toteuttaja"])))[1] for r in rs[1:]} - {lead})
         partners_listed = [p.strip() for p in r0["partnerit"].split(";") if p.strip()] if c != "EU" else []
         projects.append(dict(
             id=pid, country=c, region=r0["alue"] or ("useita maita" if c == "EU" else ""), fund=_fund(r0),
@@ -192,17 +267,18 @@ def load():
             start=int(r0["alku"][:4]) if r0["alku"][:4].isdigit() else None,
             end=int(r0["loppu"][:4]) if r0["loppu"][:4].isdigit() else None,
             eur_total=sum(b for b in budgets if b) or None, eur_eu=sum(e for e in eus if e) or None,
-            themes=_themes(text), auto_themes=True, outputs=(r0["tuotokset"] or r0["kuvaus"])[:400],
+            themes=THEME_OVERRIDE.get(name) or _themes(text), auto_themes=name not in THEME_OVERRIDE, outputs=(r0["tuotokset"] or r0["kuvaus"])[:400],
             evidence=_evidence(r0), url=r0["url"], urls=[r["url"] for r in rs],
             programme=r0["ohjelmakausi"], imported_from=r0["_file"],
             partners_note="; ".join(p for p in [r0["partnerit"]] if p) if c == "EU" else ""))
         for i, who in enumerate([r["toteuttaja"] for r in rs] + partners_listed):
             if not who.strip():
                 continue
-            oid = ORG_ALIAS.get(who.strip().lower())
-            if not oid:
-                oid = _slug(_org_name(who))
-                orgs.setdefault(oid, dict(id=oid, name=_org_name(who), country=c if c != "EU" else "", type=org_type(who)))
+            o = org_of(who)
+            if not o:
+                continue  # henkilö: ei solmua
+            oid, oname = o
+            orgs.setdefault(oid, dict(id=oid, name=oname, country=c if c != "EU" else "", type=org_type(oname)))
             role = "edunsaaja" if i < len(rs) else "partneri"
             url = rs[i]["url"] if i < len(rs) else r0["url"]
             if (oid, pid) not in {(p[0], p[1]) for p in part}:

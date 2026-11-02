@@ -396,7 +396,7 @@
    "imported_from": ""
   },
   {
-   "id": "K-DE-NI-01",
+   "id": "K-DE-NI-1746",
    "kind": "hanke",
    "label": "Care and development concept Meckelmoor Landkreis Stade",
    "country": "DE-NI",
@@ -412,7 +412,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-02",
+   "id": "K-DE-NI-accd",
    "kind": "hanke",
    "label": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "country": "DE-NI",
@@ -428,7 +428,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-03",
+   "id": "K-DE-NI-f620",
    "kind": "hanke",
    "label": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "country": "DE-NI",
@@ -444,7 +444,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-04",
+   "id": "K-DE-NI-e147",
    "kind": "hanke",
    "label": "Climate protection through the Dahlenburger Moor",
    "country": "DE-NI",
@@ -460,7 +460,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-05",
+   "id": "K-DE-NI-7a94",
    "kind": "hanke",
    "label": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
    "country": "DE-NI",
@@ -476,7 +476,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-06",
+   "id": "K-DE-NI-209b",
    "kind": "hanke",
    "label": "Completion of the area backdrop for the protection of the ahlenmoor",
    "country": "DE-NI",
@@ -492,7 +492,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-07",
+   "id": "K-DE-NI-36d2",
    "kind": "hanke",
    "label": "Demolition Mathildenhof",
    "country": "DE-NI",
@@ -508,7 +508,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-08",
+   "id": "K-DE-NI-dab1",
    "kind": "hanke",
    "label": "Development of priorities in moor and climate protection in the district of Stade",
    "country": "DE-NI",
@@ -524,7 +524,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-09",
+   "id": "K-DE-NI-f68e",
    "kind": "hanke",
    "label": "Establishment of a “Paludiculture Competence Centre”",
    "country": "DE-NI",
@@ -540,7 +540,23 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-10",
+   "id": "E-DE-NI-3e4b",
+   "kind": "hanke",
+   "label": "FloraGPT: Artificial intelligence- and sensor-controlled irrigation with a user-friendly interface for cultivation methods optimized for peat replacement",
+   "country": "DE-NI",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 610974,
+   "eur_eu": 498744,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2027,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-c05c",
    "kind": "hanke",
    "label": "Gnarrenburger Moor – Area concept and water management",
    "country": "DE-NI",
@@ -556,7 +572,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-11",
+   "id": "K-DE-NI-e715",
    "kind": "hanke",
    "label": "Implementation and testing of hydrological optimisation measures in high moor",
    "country": "DE-NI",
@@ -572,7 +588,23 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-12",
+   "id": "E-DE-NI-b06d",
+   "kind": "hanke",
+   "label": "Industrial raw material using bog sites – I-ROBI",
+   "country": "DE-NI",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 286831,
+   "eur_eu": 286831,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/industrial-raw-material-using-bog-sites-i-robi_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-cf1c",
    "kind": "hanke",
    "label": "Land protection in the nature reserve “Bülter See und Randmoore” – North",
    "country": "DE-NI",
@@ -588,7 +620,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-13",
+   "id": "K-DE-NI-af02",
    "kind": "hanke",
    "label": "Land protection in the nature reserve “Bülter See und Randmoore” – South",
    "country": "DE-NI",
@@ -604,7 +636,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-14",
+   "id": "K-DE-NI-d90f",
    "kind": "hanke",
    "label": "MOORIS",
    "country": "DE-NI",
@@ -620,7 +652,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-15",
+   "id": "K-DE-NI-44a1",
    "kind": "hanke",
    "label": "MOOSWEIT TV3 – GHG balance of cultivation and harvest",
    "country": "DE-NI",
@@ -636,7 +668,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-16",
+   "id": "K-DE-NI-77b2",
    "kind": "hanke",
    "label": "MOOSWEIT, Subproject 2",
    "country": "DE-NI",
@@ -652,7 +684,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-17",
+   "id": "K-DE-NI-bd6b",
    "kind": "hanke",
    "label": "MOOSWEIT, Subproject 5",
    "country": "DE-NI",
@@ -668,7 +700,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-18",
+   "id": "K-DE-NI-410f",
    "kind": "hanke",
    "label": "Maintenance of wet grassland in the EU – Bird protection area",
    "country": "DE-NI",
@@ -684,7 +716,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-19",
+   "id": "K-DE-NI-9595",
    "kind": "hanke",
    "label": "Management of moorland areas",
    "country": "DE-NI",
@@ -700,7 +732,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-20",
+   "id": "K-DE-NI-cc25",
    "kind": "hanke",
    "label": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
    "country": "DE-NI",
@@ -716,7 +748,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-21",
+   "id": "K-DE-NI-1c15",
    "kind": "hanke",
    "label": "Monitoring of moor water levels",
    "country": "DE-NI",
@@ -732,7 +764,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-22",
+   "id": "K-DE-NI-34e3",
    "kind": "hanke",
    "label": "Monitoring of the peat moss field in the Ahlenmoor",
    "country": "DE-NI",
@@ -748,7 +780,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-23",
+   "id": "K-DE-NI-ee94",
    "kind": "hanke",
    "label": "Moor Information System for the District of Emsland (EL-MIS)",
    "country": "DE-NI",
@@ -764,7 +796,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-24",
+   "id": "K-DE-NI-bf71",
    "kind": "hanke",
    "label": "Moor wetting Ahrensfelder Moor",
    "country": "DE-NI",
@@ -780,7 +812,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-25",
+   "id": "K-DE-NI-03c5",
    "kind": "hanke",
    "label": "Moorhausen moor area, test and demonstration areas",
    "country": "DE-NI",
@@ -796,7 +828,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-26",
+   "id": "K-DE-NI-9163",
    "kind": "hanke",
    "label": "Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",
    "country": "DE-NI",
@@ -812,7 +844,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-27",
+   "id": "K-DE-NI-a450",
    "kind": "hanke",
    "label": "Moorland® – Climate donation Lower Saxony",
    "country": "DE-NI",
@@ -828,7 +860,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-28",
+   "id": "K-DE-NI-ca87",
    "kind": "hanke",
    "label": "Mäh4Moor – Sustainable moor development through sheep farming",
    "country": "DE-NI",
@@ -844,7 +876,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-29",
+   "id": "K-DE-NI-1847",
    "kind": "hanke",
    "label": "Network Moor Care and Moor Management Elbe-Weser (Network Moor)",
    "country": "DE-NI",
@@ -860,7 +892,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-30",
+   "id": "K-DE-NI-0499",
    "kind": "hanke",
    "label": "OptiMOOS – Subproject vegetation development and water management",
    "country": "DE-NI",
@@ -876,7 +908,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-31",
+   "id": "K-DE-NI-3eb1",
    "kind": "hanke",
    "label": "Optimisation of the wetting of the nature reserve “Bockholter Dose”",
    "country": "DE-NI",
@@ -892,7 +924,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-32",
+   "id": "K-DE-NI-a456",
    "kind": "hanke",
    "label": "Optimisation of water balance in high bogs of the Diepholzer Moorniederung",
    "country": "DE-NI",
@@ -908,7 +940,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-33",
+   "id": "K-DE-NI-b8d9",
    "kind": "hanke",
    "label": "Optimisation of water balance in selected bogs of the Südheide",
    "country": "DE-NI",
@@ -924,7 +956,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-34",
+   "id": "K-DE-NI-6c80",
    "kind": "hanke",
    "label": "Optimisation of water management in the moor area of Moorhausen (Varel)",
    "country": "DE-NI",
@@ -940,7 +972,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-35",
+   "id": "K-DE-NI-c1d3",
    "kind": "hanke",
    "label": "Pilot study of peat moss in the Great Moor near Gifhorn",
    "country": "DE-NI",
@@ -956,7 +988,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-36",
+   "id": "K-DE-NI-9d56",
    "kind": "hanke",
    "label": "Planning for the renaturation of the Steinmoor",
    "country": "DE-NI",
@@ -972,7 +1004,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-37",
+   "id": "K-DE-NI-d3d6",
    "kind": "hanke",
    "label": "Preliminary study on the climate protection project Steinfelder Moor",
    "country": "DE-NI",
@@ -988,7 +1020,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-38",
+   "id": "K-DE-NI-d8d1",
    "kind": "hanke",
    "label": "Regeneration of a moorland in the Günnemoor",
    "country": "DE-NI",
@@ -1004,7 +1036,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-39",
+   "id": "K-DE-NI-8755",
    "kind": "hanke",
    "label": "Restoration of land-owned moors",
    "country": "DE-NI",
@@ -1020,7 +1052,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-40",
+   "id": "K-DE-NI-0e2b",
    "kind": "hanke",
    "label": "Rewetting Sauerbach",
    "country": "DE-NI",
@@ -1036,7 +1068,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-41",
+   "id": "K-DE-NI-04a5",
    "kind": "hanke",
    "label": "Wiedervernässung des Weißen Moores",
    "country": "DE-NI",
@@ -1052,7 +1084,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-42",
+   "id": "K-DE-NI-c57b",
    "kind": "hanke",
    "label": "Rewetting of the hill moor at the forest town of Wurmberg/Böser Hund",
    "country": "DE-NI",
@@ -1068,7 +1100,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-43",
+   "id": "K-DE-NI-3ac3",
    "kind": "hanke",
    "label": "Rewetting of the hill moor in the forest town of Wildenkiel",
    "country": "DE-NI",
@@ -1084,7 +1116,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-44",
+   "id": "K-DE-NI-6f11",
    "kind": "hanke",
    "label": "Rewetting of the slope moor Friedrichshäuser Bruch",
    "country": "DE-NI",
@@ -1100,7 +1132,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-45",
+   "id": "K-DE-NI-e128",
    "kind": "hanke",
    "label": "Wiedervernässung des Toten Moores",
    "country": "DE-NI",
@@ -1116,7 +1148,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-46",
+   "id": "K-DE-NI-d14f",
    "kind": "hanke",
    "label": "Smart Carbon Farming",
    "country": "DE-NI",
@@ -1132,7 +1164,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-47",
+   "id": "K-DE-NI-cad6",
    "kind": "hanke",
    "label": "Succession of the dragonfly fauna of a peat moss culture",
    "country": "DE-NI",
@@ -1148,7 +1180,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-48",
+   "id": "K-DE-NI-f3b0",
    "kind": "hanke",
    "label": "WetWeb Organic Soils – Networked Research for Moor and Climate",
    "country": "DE-NI",
@@ -1164,7 +1196,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-DE-NI-49",
+   "id": "K-DE-NI-61e6",
    "kind": "hanke",
    "label": "Wetting area at Westerbeck",
    "country": "DE-NI",
@@ -1180,7 +1212,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-EU-01",
+   "id": "K-EU-5a7e",
    "kind": "hanke",
    "label": "Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",
    "country": "EU",
@@ -1196,7 +1228,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-EU-02",
+   "id": "K-EU-0882",
    "kind": "hanke",
    "label": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "country": "EU",
@@ -1212,7 +1244,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-EU-03",
+   "id": "K-EU-48f5",
    "kind": "hanke",
    "label": "Carbon Connects",
    "country": "EU",
@@ -1228,7 +1260,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-EU-04",
+   "id": "K-EU-f426",
    "kind": "hanke",
    "label": "Creating A New Approach to Peatland Ecosystems",
    "country": "EU",
@@ -1244,7 +1276,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-EU-05",
+   "id": "K-EU-2e51",
    "kind": "hanke",
    "label": "PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites",
    "country": "EU",
@@ -1260,7 +1292,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-01",
+   "id": "K-FI-b095",
    "kind": "hanke",
    "label": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "country": "FI",
@@ -1276,7 +1308,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-02",
+   "id": "K-FI-e8b3",
    "kind": "hanke",
    "label": "Approaches for anticipating acidity and risk management in peat production areas (Sulfa II)",
    "country": "FI",
@@ -1292,7 +1324,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-03",
+   "id": "K-FI-050e",
    "kind": "hanke",
    "label": "Biokas - Growth from Biochar - Towards the Peat-Free Society",
    "country": "FI",
@@ -1308,7 +1340,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-04",
+   "id": "K-FI-a45d",
    "kind": "hanke",
    "label": "CLT boards to strengthen ground load capacity in logging",
    "country": "FI",
@@ -1324,7 +1356,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-05",
+   "id": "K-FI-879d",
    "kind": "hanke",
    "label": "Carbon-wise peatland forest management",
    "country": "FI",
@@ -1340,7 +1372,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-06",
+   "id": "K-FI-6894",
    "kind": "hanke",
    "label": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "country": "FI",
@@ -1356,7 +1388,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-07",
+   "id": "K-FI-2fcc",
    "kind": "hanke",
    "label": "Heinäpuro restoration project",
    "country": "FI",
@@ -1372,7 +1404,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-08",
+   "id": "K-FI-6c73",
    "kind": "hanke",
    "label": "Konttisuo restoration plan",
    "country": "FI",
@@ -1388,7 +1420,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-09",
+   "id": "K-FI-56cf",
    "kind": "hanke",
    "label": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "country": "FI",
@@ -1404,7 +1436,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-10",
+   "id": "K-FI-561d",
    "kind": "hanke",
    "label": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "country": "FI",
@@ -1420,7 +1452,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-11",
+   "id": "K-FI-6978",
    "kind": "hanke",
    "label": "Peat Bogs to Wetlands",
    "country": "FI",
@@ -1436,7 +1468,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-12",
+   "id": "K-FI-e290",
    "kind": "hanke",
    "label": "Restoration and water protection project of South-Eastern Finland",
    "country": "FI",
@@ -1452,7 +1484,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-13",
+   "id": "K-FI-8d28",
    "kind": "hanke",
    "label": "Restoration of Linttiräme after Peat Production",
    "country": "FI",
@@ -1468,7 +1500,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-14",
+   "id": "K-FI-9cd5",
    "kind": "hanke",
    "label": "Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026",
    "country": "FI",
@@ -1484,7 +1516,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-15",
+   "id": "K-FI-cb20",
    "kind": "hanke",
    "label": "Restoration of the Western Valkeasuo Mire",
    "country": "FI",
@@ -1500,7 +1532,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-16",
+   "id": "K-FI-16d2",
    "kind": "hanke",
    "label": "Restoration plan for the bog Pirttineva, previous peat production site",
    "country": "FI",
@@ -1516,7 +1548,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-17",
+   "id": "K-FI-7c34",
    "kind": "hanke",
    "label": "Satakunta peatlands: from peat production to new livelihoods and meanings",
    "country": "FI",
@@ -1532,7 +1564,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-18",
+   "id": "K-FI-9511",
    "kind": "hanke",
    "label": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "country": "FI",
@@ -1548,7 +1580,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-19",
+   "id": "K-FI-06b9",
    "kind": "hanke",
    "label": "Suokeidas - From peat production to diverse wetlands",
    "country": "FI",
@@ -1564,7 +1596,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-20",
+   "id": "K-FI-b38f",
    "kind": "hanke",
    "label": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "country": "FI",
@@ -1580,7 +1612,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-21",
+   "id": "K-FI-6f20",
    "kind": "hanke",
    "label": "TURBITS, New Cultivated Plants and bioside streams: Production Chains, Valuables and Circular economy",
    "country": "FI",
@@ -1596,7 +1628,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-22",
+   "id": "K-FI-006d",
    "kind": "hanke",
    "label": "The Bog 2.0 - Vitality to Ilomantsi with overall sustainability",
    "country": "FI",
@@ -1612,7 +1644,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-23",
+   "id": "K-FI-3bb2",
    "kind": "hanke",
    "label": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "country": "FI",
@@ -1628,7 +1660,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-24",
+   "id": "K-FI-c4ea",
    "kind": "hanke",
    "label": "The water protection wetland of the former peat production area of Kovalansuo",
    "country": "FI",
@@ -1644,7 +1676,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-25",
+   "id": "K-FI-ceda",
    "kind": "hanke",
    "label": "Tools and methods for combating the effects of peatland forests on water and climate (TurVI)",
    "country": "FI",
@@ -1660,7 +1692,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-26",
+   "id": "K-FI-665a",
    "kind": "hanke",
    "label": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "country": "FI",
@@ -1676,7 +1708,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-FI-27",
+   "id": "K-FI-0ac6",
    "kind": "hanke",
    "label": "Value from the carbon market for the next land use of peat production areas",
    "country": "FI",
@@ -1692,7 +1724,39 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-IE-01",
+   "id": "E-IE-9275",
+   "kind": "hanke",
+   "label": "A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks",
+   "country": "IE",
+   "fund": "EIP",
+   "period": "2014–20",
+   "eur_total": 950000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2021,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-agricultural-plan-macgillycuddy-reeks-conservation-and-restoration-upland_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "E-IE-e6ef",
+   "kind": "hanke",
+   "label": "Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains",
+   "country": "IE",
+   "fund": "EIP",
+   "period": "2014–20",
+   "eur_total": 1500000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2023,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/blackstairs-farming-futures-bff-sustainable-farming-project-blackstairs-mountains_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-06fb",
    "kind": "hanke",
    "label": "Co-operation Across Borders for Biodiversity",
    "country": "IE",
@@ -1708,7 +1772,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-IE-02",
+   "id": "K-IE-0b63",
    "kind": "hanke",
    "label": "Collaborative Action for the Natural Network",
    "country": "IE",
@@ -1724,7 +1788,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-IE-03",
+   "id": "K-IE-cee8",
    "kind": "hanke",
    "label": "Composting Bark for the Horticultural Market",
    "country": "IE",
@@ -1740,7 +1804,23 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-IE-04",
+   "id": "E-IE-2cb2",
+   "kind": "hanke",
+   "label": "Inishowen Upland Farmers Project",
+   "country": "IE",
+   "fund": "EIP",
+   "period": "2014–20",
+   "eur_total": 989500,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2023,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/inishowen-upland-farmers-project_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-0814",
    "kind": "hanke",
    "label": "Initiative for the recycling of green waste and the recycling of used/waste compost, to extend its usable lifespan.",
    "country": "IE",
@@ -1756,7 +1836,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-IE-05",
+   "id": "K-IE-7fa4",
    "kind": "hanke",
    "label": "Peatlands For Prosperity Project: Cultivating Paludiculture for Resilience",
    "country": "IE",
@@ -1772,7 +1852,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-IE-06",
+   "id": "K-IE-d7ff",
    "kind": "hanke",
    "label": "Sphagnum Farming",
    "country": "IE",
@@ -1788,7 +1868,23 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-IE-07",
+   "id": "E-IE-9676",
+   "kind": "hanke",
+   "label": "The Conservation of Breeding Curlew in Ireland",
+   "country": "IE",
+   "fund": "EIP",
+   "period": "2014–20",
+   "eur_total": 1100000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2021,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/conservation-breeding-curlew-ireland_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-8525",
    "kind": "hanke",
    "label": "To introduce a new format straw product to market that can be used as a horticultural peat replacement",
    "country": "IE",
@@ -1804,7 +1900,23 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-LV-01",
+   "id": "E-LV-6430",
+   "kind": "hanke",
+   "label": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "country": "LV",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 299859,
+   "eur_eu": 269873,
+   "evidence_level": 1,
+   "start": 2026,
+   "end": 2028,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-4390",
    "kind": "hanke",
    "label": "Development of a storm damage risk assessment tool for peat soils",
    "country": "LV",
@@ -1820,7 +1932,23 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-LV-02",
+   "id": "E-LV-9406",
+   "kind": "hanke",
+   "label": "Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations",
+   "country": "LV",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 99314,
+   "eur_eu": 69520,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2027,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/development-cloudberry-propagation-and-cultivation-technologies-recultivation-peat-bogs_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-74bd",
    "kind": "hanke",
    "label": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
    "country": "LV",
@@ -1836,7 +1964,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-LV-03",
+   "id": "K-LV-2fac",
    "kind": "hanke",
    "label": "Development of nature management plan for nature reserve \"Sedas purvs\"",
    "country": "LV",
@@ -1852,7 +1980,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-LV-04",
+   "id": "K-LV-37ba",
    "kind": "hanke",
    "label": "Improving cross border cooperation in the field of peat fire prevention and response",
    "country": "LV",
@@ -1868,7 +1996,39 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-LV-05",
+   "id": "E-LV-8eeb",
+   "kind": "hanke",
+   "label": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "country": "LV",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 82645,
+   "eur_eu": 57851,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2028,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-agrivoltaic-system-blackberry-plantation-peat-soil-integration-renewable-energy_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "E-LV-d12c",
+   "kind": "hanke",
+   "label": "Innovative organic fertilizer, containing microorganisms",
+   "country": "LV",
+   "fund": "EIP",
+   "period": "2014–20",
+   "eur_total": 402246,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2022,
+   "end": 2025,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-cbb2",
    "kind": "hanke",
    "label": "Restoration of bog ecosystems in SACs",
    "country": "LV",
@@ -1884,7 +2044,39 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-SE-01",
+   "id": "E-LV-e70c",
+   "kind": "hanke",
+   "label": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "country": "LV",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 79410,
+   "eur_eu": 55587,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2026,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-management-degraded-organic-soils-impact-legume-and-digestate-use-carbon_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "E-LV-b130",
+   "kind": "hanke",
+   "label": "Waste-free recycling of coniferous green biomass in a biodegradable planter container system",
+   "country": "LV",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 299989,
+   "eur_eu": 269990,
+   "evidence_level": 1,
+   "start": 2026,
+   "end": 2029,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+  },
+  {
+   "id": "K-SE-dbb8",
    "kind": "hanke",
    "label": "Myrrestaurering i Norrbottens län (MyreN) – soiden ennallistaminen",
    "country": "SE",
@@ -1900,7 +2092,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-SE-02",
+   "id": "K-SE-be89",
    "kind": "hanke",
    "label": "Water Management in Baltic Forests - Tool box",
    "country": "SE",
@@ -1916,7 +2108,7 @@
    "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
-   "id": "K-SE-03",
+   "id": "K-SE-8b1e",
    "kind": "hanke",
    "label": "Water Management in Baltic forests",
    "country": "SE",
@@ -2361,9 +2553,51 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "landesamt-f-bergbau-energie-u-geologie",
+   "id": "offis",
    "kind": "organisaatio",
-   "label": "Landesamt f. Bergbau, Energie u Geologie",
+   "label": "OFFIS Institut für Informatik",
+   "country": "DE-NI",
+   "org_type": "tutkimuslaitos"
+  },
+  {
+   "id": "thorkas-ug-i-g",
+   "kind": "organisaatio",
+   "label": "Thorkas UG i.G.",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "bonk-baumschulen-handels-gmbh",
+   "kind": "organisaatio",
+   "label": "Bonk Baumschulen Handels GmbH",
+   "country": "DE-NI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "baumschul-beratungsring-weser-ems-e-v",
+   "kind": "organisaatio",
+   "label": "Baumschul-Beratungsring Weser-Ems e.V.",
+   "country": "DE-NI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "hochschule-hannover",
+   "kind": "organisaatio",
+   "label": "Hochschule Hannover",
+   "country": "DE-NI",
+   "org_type": "amk"
+  },
+  {
+   "id": "dammtechnik-neuhaus",
+   "kind": "organisaatio",
+   "label": "Dämmtechnik Neuhaus",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "wester-gbr",
+   "kind": "organisaatio",
+   "label": "Wester GbR",
    "country": "DE-NI",
    "org_type": "viranomainen"
   },
@@ -2452,9 +2686,9 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "arl-w-e-staatliche-moorverwaltung",
+   "id": "staatliche-moorverwaltung",
    "kind": "organisaatio",
-   "label": "ArL W-E, Staatliche Moorverwaltung",
+   "label": "Staatliche Moorverwaltung",
    "country": "DE-NI",
    "org_type": "viranomainen"
   },
@@ -2487,13 +2721,6 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "region-hannover",
-   "kind": "organisaatio",
-   "label": "Region Hannover",
-   "country": "DE-NI",
-   "org_type": "viranomainen"
-  },
-  {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
    "kind": "organisaatio",
    "label": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
@@ -2518,55 +2745,6 @@
    "id": "eigen-vermogen-van-het-instituut-voor-la",
    "kind": "organisaatio",
    "label": "Eigen Vermogen van het Instituut voor Landbouw- en Visserijonderzoek",
-   "country": "DE-NI",
-   "org_type": "viranomainen"
-  },
-  {
-   "id": "green-restoration-ireland-co-operative-s",
-   "kind": "organisaatio",
-   "label": "Green Restoration Ireland Co-Operative Society Ltd",
-   "country": "DE-NI",
-   "org_type": "yritys"
-  },
-  {
-   "id": "multitel-asbl",
-   "kind": "organisaatio",
-   "label": "Multitel asbl",
-   "country": "DE-NI",
-   "org_type": "viranomainen"
-  },
-  {
-   "id": "ontwikkelingsmaatschappij-oost-nederland",
-   "kind": "organisaatio",
-   "label": "Ontwikkelingsmaatschappij Oost-Nederland NV",
-   "country": "DE-NI",
-   "org_type": "viranomainen"
-  },
-  {
-   "id": "teagasc-agriculture-and-food-development",
-   "kind": "organisaatio",
-   "label": "Teagasc – Agriculture and Food Development Authority",
-   "country": "DE-NI",
-   "org_type": "viranomainen"
-  },
-  {
-   "id": "tgo-ag",
-   "kind": "organisaatio",
-   "label": "Tgo AG",
-   "country": "DE-NI",
-   "org_type": "viranomainen"
-  },
-  {
-   "id": "ver-de-terre-production",
-   "kind": "organisaatio",
-   "label": "Ver de Terre Production",
-   "country": "DE-NI",
-   "org_type": "viranomainen"
-  },
-  {
-   "id": "zuidelijke-land-en-tuinbouw-organisatie",
-   "kind": "organisaatio",
-   "label": "Zuidelijke Land- en Tuinbouw Organisatie",
    "country": "DE-NI",
    "org_type": "viranomainen"
   },
@@ -2753,6 +2931,20 @@
    "org_type": "tutkimuslaitos"
   },
   {
+   "id": "blackstairs-farming-group",
+   "kind": "organisaatio",
+   "label": "Blackstairs Farming Group",
+   "country": "IE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "galway-mayo-institute-of-technology",
+   "kind": "organisaatio",
+   "label": "Galway Mayo Institute of Technology",
+   "country": "IE",
+   "org_type": "tutkimuslaitos"
+  },
+  {
    "id": "rspb-ni",
    "kind": "organisaatio",
    "label": "Rspb Ni",
@@ -2760,9 +2952,9 @@
    "org_type": "jarjesto"
   },
   {
-   "id": "newry-mourne-and-down-district-council",
+   "id": "mourne-and-down-district-council",
    "kind": "organisaatio",
-   "label": "Newry, Mourne and Down District Council",
+   "label": "Mourne and Down District Council",
    "country": "IE",
    "org_type": "viranomainen"
   },
@@ -2795,6 +2987,48 @@
    "org_type": "yritys"
   },
   {
+   "id": "olga-steinberga-sia-latvijas-lauku-konsu",
+   "kind": "organisaatio",
+   "label": "Olga Šteinberga; SIA \"Latvijas Lauku konsultāciju un izglītības centrs",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "mpks-mezsaimnieks",
+   "kind": "organisaatio",
+   "label": "MPKS „Mežsaimnieks”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "zs-lielvaiceni",
+   "kind": "organisaatio",
+   "label": "ZS Lielvaicēni",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "biedriba-preilu-lauksaimnieku-apvieniba",
+   "kind": "organisaatio",
+   "label": "Biedrība \"Preiļu lauksaimnieku apvienība",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "zemnieku-saimnieciba-kaigi",
+   "kind": "organisaatio",
+   "label": "zemnieku saimniecība “Kaigi”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "sia-komercsabiedriba-arosa-r",
+   "kind": "organisaatio",
+   "label": "SIA komercsabiedrība “Arosa R”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
    "id": "valmieras-novada-pasvaldiba",
    "kind": "organisaatio",
    "label": "Valmieras novada pašvaldība",
@@ -2809,18 +3043,102 @@
    "org_type": "viranomainen"
   },
   {
-   "id": "valsts-ugunsdzesibas-un-glabsanas-dienes",
+   "id": "biedriba-baltijas-krasti",
    "kind": "organisaatio",
-   "label": "Valsts ugunsdzēsības un glābšanas dienests",
+   "label": "Biedrība “Baltijas krasti”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "z-s-kaleji",
+   "kind": "organisaatio",
+   "label": "Z/S Kalēji",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "biedriba-latvijas-kudras-asociacija",
+   "kind": "organisaatio",
+   "label": "Biedrība \"Latvijas kūdras asociācija",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "llu-macibu-un-petijumu-saimnieciba-vecau",
+   "kind": "organisaatio",
+   "label": "LLU mācību un pētījumu saimniecība \"Vecauce",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "latvijas-cuku-audzetaju-asociacija",
+   "kind": "organisaatio",
+   "label": "Latvijas Cūku audzētāju asociācija",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "lauksaimniecibas-statutsabiedribu-asocia",
+   "kind": "organisaatio",
+   "label": "Lauksaimniecības statūtsabiedrību asociācija",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "stadu-un-kudras-inovaciju-fonds-skif",
+   "kind": "organisaatio",
+   "label": "Stādu un kūdras inovāciju fonds SKIF",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "zs-baltini",
+   "kind": "organisaatio",
+   "label": "ZS \"Baltiņi",
    "country": "LV",
    "org_type": "viranomainen"
   },
   {
    "id": "akciju-sabiedriba-latvijas-valsts-mezi",
    "kind": "organisaatio",
-   "label": "Akciju sabiedrība \"Latvijas valsts meži\"",
+   "label": "Akciju sabiedrība \"Latvijas valsts meži",
    "country": "LV",
    "org_type": "yritys"
+  },
+  {
+   "id": "z-s-kiburi",
+   "kind": "organisaatio",
+   "label": "Z/S Ķīburi",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "z-s-andrupeni",
+   "kind": "organisaatio",
+   "label": "Z/S Andrupēni",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "biolat",
+   "kind": "organisaatio",
+   "label": "Biolat",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "gourmet-industries",
+   "kind": "organisaatio",
+   "label": "Gourmet Industries",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "stadu-un-kudras-inovaciju-fonds",
+   "kind": "organisaatio",
+   "label": "Stādu Un Kūdras Inovāciju Fonds",
+   "country": "LV",
+   "org_type": "viranomainen"
   },
   {
    "id": "lansstyrelsen-i-norrbottens-lan",
@@ -3319,7 +3637,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-01",
+   "source": "K-DE-NI-1746",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -3328,7 +3646,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-02",
+   "source": "K-DE-NI-accd",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3337,7 +3655,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-02",
+   "source": "K-DE-NI-accd",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3346,7 +3664,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-03",
+   "source": "K-DE-NI-f620",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3355,7 +3673,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-03",
+   "source": "K-DE-NI-f620",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3364,7 +3682,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-04",
+   "source": "K-DE-NI-e147",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3373,7 +3691,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-05",
+   "source": "K-DE-NI-7a94",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -3382,7 +3700,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-05",
+   "source": "K-DE-NI-7a94",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3391,7 +3709,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-06",
+   "source": "K-DE-NI-209b",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3400,7 +3718,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-07",
+   "source": "K-DE-NI-36d2",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3409,7 +3727,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-08",
+   "source": "K-DE-NI-dab1",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3418,7 +3736,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-08",
+   "source": "K-DE-NI-dab1",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3427,7 +3745,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-08",
+   "source": "K-DE-NI-dab1",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -3436,7 +3754,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-09",
+   "source": "K-DE-NI-f68e",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -3445,7 +3763,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-09",
+   "source": "K-DE-NI-f68e",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -3454,7 +3772,16 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-10",
+   "source": "E-DE-NI-3e4b",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-c05c",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3463,7 +3790,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-10",
+   "source": "K-DE-NI-c05c",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -3472,7 +3799,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-11",
+   "source": "K-DE-NI-e715",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3481,70 +3808,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-12",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-13",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-14",
-   "target": "T7",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-15",
-   "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-15",
-   "target": "T6",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-16",
-   "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-17",
-   "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-18",
+   "source": "E-DE-NI-b06d",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -3553,61 +3817,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-18",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-19",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-20",
-   "target": "T2",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-20",
-   "target": "T6",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-21",
-   "target": "T6",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-21",
-   "target": "T7",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-22",
+   "source": "E-DE-NI-b06d",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -3616,8 +3826,8 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-22",
-   "target": "T6",
+   "source": "K-DE-NI-cf1c",
+   "target": "T5",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -3625,7 +3835,16 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-23",
+   "source": "K-DE-NI-af02",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-d90f",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -3634,8 +3853,8 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-24",
-   "target": "T5",
+   "source": "K-DE-NI-44a1",
+   "target": "T3",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -3643,7 +3862,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-25",
+   "source": "K-DE-NI-44a1",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3652,7 +3871,25 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-26",
+   "source": "K-DE-NI-77b2",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-bd6b",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-410f",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -3661,7 +3898,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-26",
+   "source": "K-DE-NI-410f",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3670,7 +3907,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-27",
+   "source": "K-DE-NI-9595",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3679,7 +3916,16 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-27",
+   "source": "K-DE-NI-cc25",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-cc25",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3688,8 +3934,8 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-28",
-   "target": "T2",
+   "source": "K-DE-NI-1c15",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -3697,7 +3943,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-29",
+   "source": "K-DE-NI-1c15",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -3706,7 +3952,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-30",
+   "source": "K-DE-NI-34e3",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -3715,79 +3961,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-30",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-31",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-32",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-33",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-34",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-35",
-   "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-36",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-37",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-DE-NI-37",
+   "source": "K-DE-NI-34e3",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3796,7 +3970,178 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-38",
+   "source": "K-DE-NI-ee94",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-bf71",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-03c5",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-9163",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-9163",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-a450",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-a450",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-ca87",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-1847",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-0499",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-0499",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-3eb1",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-a456",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-b8d9",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-6c80",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-c1d3",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-9d56",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-d3d6",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-d3d6",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-d8d1",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -3805,7 +4150,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-38",
+   "source": "K-DE-NI-d8d1",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -3814,7 +4159,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-38",
+   "source": "K-DE-NI-d8d1",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3823,7 +4168,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-39",
+   "source": "K-DE-NI-8755",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3832,7 +4177,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-40",
+   "source": "K-DE-NI-0e2b",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -3841,7 +4186,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-40",
+   "source": "K-DE-NI-0e2b",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3850,7 +4195,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-41",
+   "source": "K-DE-NI-04a5",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -3859,7 +4204,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-41",
+   "source": "K-DE-NI-04a5",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3868,7 +4213,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-42",
+   "source": "K-DE-NI-c57b",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3877,7 +4222,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-43",
+   "source": "K-DE-NI-3ac3",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3886,7 +4231,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-44",
+   "source": "K-DE-NI-6f11",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3895,7 +4240,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-45",
+   "source": "K-DE-NI-e128",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3904,7 +4249,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-46",
+   "source": "K-DE-NI-d14f",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -3913,7 +4258,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-46",
+   "source": "K-DE-NI-d14f",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3922,7 +4267,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-47",
+   "source": "K-DE-NI-cad6",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -3931,7 +4276,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-48",
+   "source": "K-DE-NI-f3b0",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -3940,7 +4285,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-49",
+   "source": "K-DE-NI-61e6",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -3949,7 +4294,7 @@
    "note": ""
   },
   {
-   "source": "K-DE-NI-49",
+   "source": "K-DE-NI-61e6",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3958,7 +4303,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-01",
+   "source": "K-EU-5a7e",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3967,7 +4312,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-01",
+   "source": "K-EU-5a7e",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -3976,7 +4321,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-02",
+   "source": "K-EU-0882",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -3985,7 +4330,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-02",
+   "source": "K-EU-0882",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -3994,7 +4339,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-03",
+   "source": "K-EU-48f5",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -4003,7 +4348,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-03",
+   "source": "K-EU-48f5",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4012,7 +4357,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-04",
+   "source": "K-EU-f426",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4021,7 +4366,7 @@
    "note": ""
   },
   {
-   "source": "K-EU-05",
+   "source": "K-EU-2e51",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4030,7 +4375,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-01",
+   "source": "K-FI-b095",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4039,7 +4384,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-01",
+   "source": "K-FI-b095",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4048,7 +4393,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-01",
+   "source": "K-FI-b095",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4057,7 +4402,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-02",
+   "source": "K-FI-e8b3",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4066,7 +4411,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-03",
+   "source": "K-FI-050e",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -4075,7 +4420,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-04",
+   "source": "K-FI-a45d",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -4084,7 +4429,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-05",
+   "source": "K-FI-879d",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -4093,7 +4438,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-05",
+   "source": "K-FI-879d",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4102,7 +4447,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-06",
+   "source": "K-FI-6894",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4111,7 +4456,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-06",
+   "source": "K-FI-6894",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4120,7 +4465,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-06",
+   "source": "K-FI-6894",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4129,7 +4474,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-07",
+   "source": "K-FI-2fcc",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -4138,7 +4483,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-07",
+   "source": "K-FI-2fcc",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4147,7 +4492,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-08",
+   "source": "K-FI-6c73",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4156,7 +4501,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-08",
+   "source": "K-FI-6c73",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4165,7 +4510,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-09",
+   "source": "K-FI-56cf",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4174,7 +4519,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-09",
+   "source": "K-FI-56cf",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4183,7 +4528,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-10",
+   "source": "K-FI-561d",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4192,7 +4537,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-10",
+   "source": "K-FI-561d",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4201,7 +4546,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-10",
+   "source": "K-FI-561d",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4210,7 +4555,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-11",
+   "source": "K-FI-6978",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4219,7 +4564,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-11",
+   "source": "K-FI-6978",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4228,7 +4573,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-12",
+   "source": "K-FI-e290",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4237,7 +4582,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-12",
+   "source": "K-FI-e290",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4246,7 +4591,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-13",
+   "source": "K-FI-8d28",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4255,7 +4600,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-13",
+   "source": "K-FI-8d28",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4264,7 +4609,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-14",
+   "source": "K-FI-9cd5",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4273,7 +4618,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-14",
+   "source": "K-FI-9cd5",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -4282,7 +4627,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-14",
+   "source": "K-FI-9cd5",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -4291,7 +4636,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-14",
+   "source": "K-FI-9cd5",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4300,7 +4645,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-15",
+   "source": "K-FI-cb20",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4309,7 +4654,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-15",
+   "source": "K-FI-cb20",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4318,7 +4663,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-16",
+   "source": "K-FI-16d2",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4327,7 +4672,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-16",
+   "source": "K-FI-16d2",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4336,7 +4681,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-17",
+   "source": "K-FI-7c34",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4345,7 +4690,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-17",
+   "source": "K-FI-7c34",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -4354,7 +4699,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-18",
+   "source": "K-FI-9511",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4363,7 +4708,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-18",
+   "source": "K-FI-9511",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -4372,7 +4717,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-18",
+   "source": "K-FI-9511",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4381,7 +4726,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-19",
+   "source": "K-FI-06b9",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4390,7 +4735,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-19",
+   "source": "K-FI-06b9",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4399,7 +4744,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-19",
+   "source": "K-FI-06b9",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4408,7 +4753,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-20",
+   "source": "K-FI-b38f",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4417,7 +4762,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-20",
+   "source": "K-FI-b38f",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4426,7 +4771,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-20",
+   "source": "K-FI-b38f",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4435,7 +4780,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-21",
+   "source": "K-FI-6f20",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -4444,7 +4789,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-22",
+   "source": "K-FI-006d",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -4453,7 +4798,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-23",
+   "source": "K-FI-3bb2",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4462,7 +4807,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-23",
+   "source": "K-FI-3bb2",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4471,7 +4816,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-24",
+   "source": "K-FI-c4ea",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4480,7 +4825,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-24",
+   "source": "K-FI-c4ea",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -4489,7 +4834,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-24",
+   "source": "K-FI-c4ea",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4498,7 +4843,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-25",
+   "source": "K-FI-ceda",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -4507,7 +4852,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-26",
+   "source": "K-FI-665a",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4516,7 +4861,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-26",
+   "source": "K-FI-665a",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4525,7 +4870,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-26",
+   "source": "K-FI-665a",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4534,7 +4879,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-27",
+   "source": "K-FI-0ac6",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4543,7 +4888,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-27",
+   "source": "K-FI-0ac6",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -4552,7 +4897,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-27",
+   "source": "K-FI-0ac6",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4561,7 +4906,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-27",
+   "source": "K-FI-0ac6",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4570,7 +4915,7 @@
    "note": ""
   },
   {
-   "source": "K-FI-27",
+   "source": "K-FI-0ac6",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -4579,7 +4924,16 @@
    "note": ""
   },
   {
-   "source": "K-IE-01",
+   "source": "E-IE-9275",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-IE-9275",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4588,7 +4942,16 @@
    "note": ""
   },
   {
-   "source": "K-IE-02",
+   "source": "E-IE-e6ef",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-IE-e6ef",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -4597,7 +4960,25 @@
    "note": ""
   },
   {
-   "source": "K-IE-02",
+   "source": "K-IE-06fb",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-0b63",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-0b63",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -4606,7 +4987,7 @@
    "note": ""
   },
   {
-   "source": "K-IE-03",
+   "source": "K-IE-cee8",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -4615,16 +4996,7 @@
    "note": ""
   },
   {
-   "source": "K-IE-04",
-   "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-IE-05",
+   "source": "E-IE-2cb2",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -4633,7 +5005,16 @@
    "note": ""
   },
   {
-   "source": "K-IE-05",
+   "source": "E-IE-2cb2",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-0814",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -4642,16 +5023,7 @@
    "note": ""
   },
   {
-   "source": "K-IE-06",
-   "target": "T1",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-IE-06",
+   "source": "K-IE-7fa4",
    "target": "T2",
    "kind": "teema",
    "weight": 1.0,
@@ -4660,7 +5032,7 @@
    "note": ""
   },
   {
-   "source": "K-IE-06",
+   "source": "K-IE-7fa4",
    "target": "T3",
    "kind": "teema",
    "weight": 1.0,
@@ -4669,43 +5041,7 @@
    "note": ""
   },
   {
-   "source": "K-IE-06",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-IE-07",
-   "target": "T3",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-LV-01",
-   "target": "T4",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-LV-01",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-LV-02",
+   "source": "K-IE-d7ff",
    "target": "T1",
    "kind": "teema",
    "weight": 1.0,
@@ -4714,7 +5050,61 @@
    "note": ""
   },
   {
-   "source": "K-LV-02",
+   "source": "K-IE-d7ff",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-d7ff",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-d7ff",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-IE-9676",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-8525",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-6430",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-6430",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -4723,7 +5113,7 @@
    "note": ""
   },
   {
-   "source": "K-LV-02",
+   "source": "E-LV-6430",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -4732,61 +5122,7 @@
    "note": ""
   },
   {
-   "source": "K-LV-03",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-LV-04",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-LV-04",
-   "target": "T7",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-LV-05",
-   "target": "T1",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-LV-05",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-SE-01",
-   "target": "T5",
-   "kind": "teema",
-   "weight": 1.0,
-   "evidence": "",
-   "url": "",
-   "note": ""
-  },
-  {
-   "source": "K-SE-02",
+   "source": "K-LV-4390",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -4795,7 +5131,187 @@
    "note": ""
   },
   {
-   "source": "K-SE-03",
+   "source": "K-LV-4390",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-9406",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-9406",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-74bd",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-74bd",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-74bd",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-2fac",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-37ba",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-37ba",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-8eeb",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-8eeb",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-d12c",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-cbb2",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-cbb2",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-e70c",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-e70c",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-e70c",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-b130",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-SE-dbb8",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-SE-be89",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-SE-8b1e",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -5813,7 +6329,7 @@
   },
   {
    "source": "landkreis-stade",
-   "target": "K-DE-NI-01",
+   "target": "K-DE-NI-1746",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5822,7 +6338,7 @@
   },
   {
    "source": "bund-fur-umwelt-und-naturschutz",
-   "target": "K-DE-NI-02",
+   "target": "K-DE-NI-accd",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5831,7 +6347,7 @@
   },
   {
    "source": "naturschutzstiftung-des-landkreises-cuxh",
-   "target": "K-DE-NI-03",
+   "target": "K-DE-NI-f620",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5840,7 +6356,7 @@
   },
   {
    "source": "landkreis-luneburg",
-   "target": "K-DE-NI-04",
+   "target": "K-DE-NI-e147",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5848,17 +6364,8 @@
    "note": "edunsaaja"
   },
   {
-   "source": "landesamt-f-bergbau-energie-u-geologie",
-   "target": "K-DE-NI-05",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261820",
-   "note": "edunsaaja"
-  },
-  {
    "source": "naturschutzstiftung-des-landkreises-cuxh",
-   "target": "K-DE-NI-06",
+   "target": "K-DE-NI-209b",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5867,7 +6374,7 @@
   },
   {
    "source": "nlwkn",
-   "target": "K-DE-NI-07",
+   "target": "K-DE-NI-36d2",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5876,7 +6383,7 @@
   },
   {
    "source": "landkreis-stade",
-   "target": "K-DE-NI-08",
+   "target": "K-DE-NI-dab1",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5885,7 +6392,7 @@
   },
   {
    "source": "nlwkn",
-   "target": "K-DE-NI-09",
+   "target": "K-DE-NI-f68e",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5893,17 +6400,44 @@
    "note": "edunsaaja"
   },
   {
-   "source": "landesamt-f-bergbau-energie-u-geologie",
-   "target": "K-DE-NI-10",
+   "source": "offis",
+   "target": "E-DE-NI-3e4b",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261822",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en",
    "note": "edunsaaja"
   },
   {
+   "source": "thorkas-ug-i-g",
+   "target": "E-DE-NI-3e4b",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en",
+   "note": "partneri"
+  },
+  {
+   "source": "bonk-baumschulen-handels-gmbh",
+   "target": "E-DE-NI-3e4b",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en",
+   "note": "partneri"
+  },
+  {
+   "source": "baumschul-beratungsring-weser-ems-e-v",
+   "target": "E-DE-NI-3e4b",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en",
+   "note": "partneri"
+  },
+  {
    "source": "nlwkn",
-   "target": "K-DE-NI-11",
+   "target": "K-DE-NI-e715",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5911,8 +6445,35 @@
    "note": "edunsaaja"
   },
   {
+   "source": "hochschule-hannover",
+   "target": "E-DE-NI-b06d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/industrial-raw-material-using-bog-sites-i-robi_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "dammtechnik-neuhaus",
+   "target": "E-DE-NI-b06d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/industrial-raw-material-using-bog-sites-i-robi_en",
+   "note": "partneri"
+  },
+  {
+   "source": "wester-gbr",
+   "target": "E-DE-NI-b06d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/industrial-raw-material-using-bog-sites-i-robi_en",
+   "note": "partneri"
+  },
+  {
    "source": "naturschutzstiftung-des-landkreises-cuxh",
-   "target": "K-DE-NI-12",
+   "target": "K-DE-NI-cf1c",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5921,7 +6482,7 @@
   },
   {
    "source": "naturschutzstiftung-des-landkreises-cuxh",
-   "target": "K-DE-NI-13",
+   "target": "K-DE-NI-af02",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5929,17 +6490,8 @@
    "note": "edunsaaja"
   },
   {
-   "source": "landesamt-f-bergbau-energie-u-geologie",
-   "target": "K-DE-NI-14",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261821",
-   "note": "edunsaaja"
-  },
-  {
    "source": "universitat-rostock",
-   "target": "K-DE-NI-15",
+   "target": "K-DE-NI-44a1",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5948,7 +6500,7 @@
   },
   {
    "source": "universitat-greifswald",
-   "target": "K-DE-NI-16",
+   "target": "K-DE-NI-77b2",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5957,7 +6509,7 @@
   },
   {
    "source": "torfwerk-moorkultur-ramsloh-werner-koch-",
-   "target": "K-DE-NI-17",
+   "target": "K-DE-NI-bd6b",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5966,7 +6518,7 @@
   },
   {
    "source": "schmedt",
-   "target": "K-DE-NI-18",
+   "target": "K-DE-NI-410f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5975,7 +6527,7 @@
   },
   {
    "source": "naturschutzstiftung-des-landkreises-cuxh",
-   "target": "K-DE-NI-19",
+   "target": "K-DE-NI-9595",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -5983,17 +6535,8 @@
    "note": "edunsaaja"
   },
   {
-   "source": "landesamt-f-bergbau-energie-u-geologie",
-   "target": "K-DE-NI-20",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261819",
-   "note": "edunsaaja"
-  },
-  {
    "source": "naturschutzstiftung-des-landkreises-cuxh",
-   "target": "K-DE-NI-21",
+   "target": "K-DE-NI-1c15",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6002,7 +6545,7 @@
   },
   {
    "source": "landkreis-cuxhaven",
-   "target": "K-DE-NI-22",
+   "target": "K-DE-NI-34e3",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6011,7 +6554,7 @@
   },
   {
    "source": "landkreis-emsland",
-   "target": "K-DE-NI-23",
+   "target": "K-DE-NI-ee94",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6020,7 +6563,7 @@
   },
   {
    "source": "landkreis-osterholz",
-   "target": "K-DE-NI-24",
+   "target": "K-DE-NI-bf71",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6029,7 +6572,7 @@
   },
   {
    "source": "landkreis-friesland",
-   "target": "K-DE-NI-25",
+   "target": "K-DE-NI-03c5",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6038,7 +6581,7 @@
   },
   {
    "source": "archehof-rolfes",
-   "target": "K-DE-NI-26",
+   "target": "K-DE-NI-9163",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6047,7 +6590,7 @@
   },
   {
    "source": "bund-fur-umwelt-und-naturschutz",
-   "target": "K-DE-NI-27",
+   "target": "K-DE-NI-a450",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6056,7 +6599,7 @@
   },
   {
    "source": "naturschutzstiftung-grafschaft-bentheim",
-   "target": "K-DE-NI-28",
+   "target": "K-DE-NI-ca87",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6065,7 +6608,7 @@
   },
   {
    "source": "landkreis-cuxhaven",
-   "target": "K-DE-NI-29",
+   "target": "K-DE-NI-1847",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6074,7 +6617,7 @@
   },
   {
    "source": "universitat-greifswald",
-   "target": "K-DE-NI-30",
+   "target": "K-DE-NI-0499",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6083,7 +6626,7 @@
   },
   {
    "source": "landkreis-emsland",
-   "target": "K-DE-NI-31",
+   "target": "K-DE-NI-3eb1",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6092,7 +6635,7 @@
   },
   {
    "source": "nlwkn",
-   "target": "K-DE-NI-32",
+   "target": "K-DE-NI-a456",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6101,7 +6644,7 @@
   },
   {
    "source": "nlwkn",
-   "target": "K-DE-NI-33",
+   "target": "K-DE-NI-b8d9",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6110,7 +6653,7 @@
   },
   {
    "source": "landkreis-friesland",
-   "target": "K-DE-NI-34",
+   "target": "K-DE-NI-6c80",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6119,7 +6662,7 @@
   },
   {
    "source": "nabu-kreisverband-gifhorn-e-v",
-   "target": "K-DE-NI-35",
+   "target": "K-DE-NI-c1d3",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6128,7 +6671,7 @@
   },
   {
    "source": "nlwkn",
-   "target": "K-DE-NI-36",
+   "target": "K-DE-NI-9d56",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6137,7 +6680,7 @@
   },
   {
    "source": "landkreis-vechta",
-   "target": "K-DE-NI-37",
+   "target": "K-DE-NI-d3d6",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6146,7 +6689,7 @@
   },
   {
    "source": "landkreis-osterholz",
-   "target": "K-DE-NI-38",
+   "target": "K-DE-NI-d8d1",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6154,8 +6697,8 @@
    "note": "edunsaaja"
   },
   {
-   "source": "arl-w-e-staatliche-moorverwaltung",
-   "target": "K-DE-NI-39",
+   "source": "staatliche-moorverwaltung",
+   "target": "K-DE-NI-8755",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6164,7 +6707,7 @@
   },
   {
    "source": "nabu-kreisverband-gifhorn-e-v",
-   "target": "K-DE-NI-40",
+   "target": "K-DE-NI-0e2b",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6173,7 +6716,7 @@
   },
   {
    "source": "landkreis-verden",
-   "target": "K-DE-NI-41",
+   "target": "K-DE-NI-04a5",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6182,7 +6725,7 @@
   },
   {
    "source": "niedersachsische-landesforsten-aor",
-   "target": "K-DE-NI-42",
+   "target": "K-DE-NI-c57b",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6191,7 +6734,7 @@
   },
   {
    "source": "niedersachsische-landesforsten-aor-forst",
-   "target": "K-DE-NI-43",
+   "target": "K-DE-NI-3ac3",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6200,7 +6743,7 @@
   },
   {
    "source": "niedersachsische-landesforsten-a-o-r-for",
-   "target": "K-DE-NI-44",
+   "target": "K-DE-NI-6f11",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6208,17 +6751,8 @@
    "note": "edunsaaja"
   },
   {
-   "source": "region-hannover",
-   "target": "K-DE-NI-45",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262400",
-   "note": "edunsaaja"
-  },
-  {
    "source": "3n-kompetenzzentrum-niedersachsen-netzwe",
-   "target": "K-DE-NI-46",
+   "target": "K-DE-NI-d14f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6227,7 +6761,7 @@
   },
   {
    "source": "boerenbond-projecten-vzw",
-   "target": "K-DE-NI-46",
+   "target": "K-DE-NI-d14f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6236,7 +6770,7 @@
   },
   {
    "source": "constellr-gmbh",
-   "target": "K-DE-NI-46",
+   "target": "K-DE-NI-d14f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6245,7 +6779,7 @@
   },
   {
    "source": "eigen-vermogen-van-het-instituut-voor-la",
-   "target": "K-DE-NI-46",
+   "target": "K-DE-NI-d14f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6253,8 +6787,8 @@
    "note": "partneri"
   },
   {
-   "source": "green-restoration-ireland-co-operative-s",
-   "target": "K-DE-NI-46",
+   "source": "gri",
+   "target": "K-DE-NI-d14f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6262,53 +6796,8 @@
    "note": "partneri"
   },
   {
-   "source": "multitel-asbl",
-   "target": "K-DE-NI-46",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
-   "note": "partneri"
-  },
-  {
-   "source": "ontwikkelingsmaatschappij-oost-nederland",
-   "target": "K-DE-NI-46",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
-   "note": "partneri"
-  },
-  {
-   "source": "teagasc-agriculture-and-food-development",
-   "target": "K-DE-NI-46",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
-   "note": "partneri"
-  },
-  {
-   "source": "tgo-ag",
-   "target": "K-DE-NI-46",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
-   "note": "partneri"
-  },
-  {
-   "source": "ver-de-terre-production",
-   "target": "K-DE-NI-46",
-   "kind": "osallistuu",
-   "weight": 1.0,
-   "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
-   "note": "partneri"
-  },
-  {
-   "source": "zuidelijke-land-en-tuinbouw-organisatie",
-   "target": "K-DE-NI-46",
+   "source": "teagasc",
+   "target": "K-DE-NI-d14f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6317,7 +6806,7 @@
   },
   {
    "source": "carl-von-ossietzky-universitat-oldenburg",
-   "target": "K-DE-NI-47",
+   "target": "K-DE-NI-cad6",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6326,7 +6815,7 @@
   },
   {
    "source": "europaisches-fachzentrum-moor-und-klima-",
-   "target": "K-DE-NI-48",
+   "target": "K-DE-NI-f3b0",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6335,7 +6824,7 @@
   },
   {
    "source": "nabu-kreisverband-gifhorn-e-v",
-   "target": "K-DE-NI-49",
+   "target": "K-DE-NI-61e6",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6344,7 +6833,7 @@
   },
   {
    "source": "akcelerator-drustvenih-promjena-zid",
-   "target": "K-EU-01",
+   "target": "K-EU-5a7e",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6353,7 +6842,7 @@
   },
   {
    "source": "association-des-chambres-d-agriculture-d",
-   "target": "K-EU-02",
+   "target": "K-EU-0882",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6362,7 +6851,7 @@
   },
   {
    "source": "van-hall-larenstein-university-of-applie",
-   "target": "K-EU-03",
+   "target": "K-EU-48f5",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6371,7 +6860,7 @@
   },
   {
    "source": "broads-authority",
-   "target": "K-EU-04",
+   "target": "K-EU-f426",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6380,7 +6869,7 @@
   },
   {
    "source": "uef",
-   "target": "K-EU-05",
+   "target": "K-EU-2e51",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6389,7 +6878,7 @@
   },
   {
    "source": "john-nurmisen-saatio-sr",
-   "target": "K-FI-01",
+   "target": "K-FI-b095",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6398,7 +6887,7 @@
   },
   {
    "source": "luonnonperintosaatio-sr",
-   "target": "K-FI-01",
+   "target": "K-FI-b095",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6407,7 +6896,7 @@
   },
   {
    "source": "syke",
-   "target": "K-FI-02",
+   "target": "K-FI-e8b3",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6416,7 +6905,7 @@
   },
   {
    "source": "kaakkois-suomen-ammattikorkeakoulu-oy",
-   "target": "K-FI-03",
+   "target": "K-FI-050e",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6425,7 +6914,7 @@
   },
   {
    "source": "lapin-ammattikorkeakoulu-oy",
-   "target": "K-FI-04",
+   "target": "K-FI-a45d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6434,7 +6923,7 @@
   },
   {
    "source": "metsakeskus",
-   "target": "K-FI-05",
+   "target": "K-FI-879d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6443,7 +6932,7 @@
   },
   {
    "source": "syke",
-   "target": "K-FI-06",
+   "target": "K-FI-6894",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6452,7 +6941,7 @@
   },
   {
    "source": "luke",
-   "target": "K-FI-06",
+   "target": "K-FI-6894",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6461,7 +6950,7 @@
   },
   {
    "source": "oy",
-   "target": "K-FI-06",
+   "target": "K-FI-6894",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6470,7 +6959,7 @@
   },
   {
    "source": "pohjois-savon-luonnonsuojelupiiri-ry",
-   "target": "K-FI-07",
+   "target": "K-FI-2fcc",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6479,7 +6968,7 @@
   },
   {
    "source": "upm-kymmene-oyj",
-   "target": "K-FI-08",
+   "target": "K-FI-6c73",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6488,7 +6977,7 @@
   },
   {
    "source": "keha",
-   "target": "K-FI-09",
+   "target": "K-FI-56cf",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6497,7 +6986,7 @@
   },
   {
    "source": "lappeenrannan-lahden-teknillinen-yliopis",
-   "target": "K-FI-10",
+   "target": "K-FI-561d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6506,7 +6995,7 @@
   },
   {
    "source": "hy",
-   "target": "K-FI-10",
+   "target": "K-FI-561d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6515,7 +7004,7 @@
   },
   {
    "source": "metsahallitus",
-   "target": "K-FI-11",
+   "target": "K-FI-6978",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6524,7 +7013,7 @@
   },
   {
    "source": "keha",
-   "target": "K-FI-12",
+   "target": "K-FI-e290",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6533,7 +7022,7 @@
   },
   {
    "source": "linttipower-oy",
-   "target": "K-FI-13",
+   "target": "K-FI-8d28",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6542,7 +7031,7 @@
   },
   {
    "source": "suomen-riistanhoito-saatio-sr",
-   "target": "K-FI-14",
+   "target": "K-FI-9cd5",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6551,7 +7040,7 @@
   },
   {
    "source": "luontokollektiivi-ry",
-   "target": "K-FI-15",
+   "target": "K-FI-cb20",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6560,7 +7049,7 @@
   },
   {
    "source": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
-   "target": "K-FI-16",
+   "target": "K-FI-16d2",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6569,7 +7058,7 @@
   },
   {
    "source": "turun-yliopisto",
-   "target": "K-FI-17",
+   "target": "K-FI-7c34",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6578,7 +7067,7 @@
   },
   {
    "source": "syke",
-   "target": "K-FI-17",
+   "target": "K-FI-7c34",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6587,7 +7076,7 @@
   },
   {
    "source": "hy",
-   "target": "K-FI-18",
+   "target": "K-FI-9511",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6596,7 +7085,7 @@
   },
   {
    "source": "john-nurmisen-saatio-sr",
-   "target": "K-FI-19",
+   "target": "K-FI-06b9",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6605,7 +7094,7 @@
   },
   {
    "source": "luonnonperintosaatio-sr",
-   "target": "K-FI-19",
+   "target": "K-FI-06b9",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6614,7 +7103,7 @@
   },
   {
    "source": "kaakkois-suomen-ammattikorkeakoulu-oy",
-   "target": "K-FI-20",
+   "target": "K-FI-b38f",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6623,7 +7112,7 @@
   },
   {
    "source": "jyvaskylan-yliopisto",
-   "target": "K-FI-21",
+   "target": "K-FI-6f20",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6632,7 +7121,7 @@
   },
   {
    "source": "jyvaskylan-ammattikorkeakoulu-oy",
-   "target": "K-FI-21",
+   "target": "K-FI-6f20",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6641,7 +7130,7 @@
   },
   {
    "source": "uef",
-   "target": "K-FI-22",
+   "target": "K-FI-006d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6650,7 +7139,7 @@
   },
   {
    "source": "maaseudun-sivistysliiton-vaara-karjalan-",
-   "target": "K-FI-22",
+   "target": "K-FI-006d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6659,7 +7148,7 @@
   },
   {
    "source": "syke",
-   "target": "K-FI-22",
+   "target": "K-FI-006d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6668,7 +7157,7 @@
   },
   {
    "source": "oulun-kaupunki",
-   "target": "K-FI-23",
+   "target": "K-FI-3bb2",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6677,7 +7166,7 @@
   },
   {
    "source": "mikkelin-kaupunki",
-   "target": "K-FI-24",
+   "target": "K-FI-c4ea",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6686,7 +7175,7 @@
   },
   {
    "source": "tapio-oy",
-   "target": "K-FI-25",
+   "target": "K-FI-ceda",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6695,7 +7184,7 @@
   },
   {
    "source": "suomen-riistanhoito-saatio-sr",
-   "target": "K-FI-26",
+   "target": "K-FI-665a",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6704,7 +7193,7 @@
   },
   {
    "source": "uef",
-   "target": "K-FI-27",
+   "target": "K-FI-0ac6",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6713,7 +7202,7 @@
   },
   {
    "source": "geologian-tutkimuskeskus",
-   "target": "K-FI-27",
+   "target": "K-FI-0ac6",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6722,7 +7211,7 @@
   },
   {
    "source": "luke",
-   "target": "K-FI-27",
+   "target": "K-FI-0ac6",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6731,7 +7220,7 @@
   },
   {
    "source": "seamk",
-   "target": "K-FI-27",
+   "target": "K-FI-0ac6",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6739,8 +7228,35 @@
    "note": "edunsaaja"
   },
   {
+   "source": "blackstairs-farming-group",
+   "target": "E-IE-e6ef",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/blackstairs-farming-futures-bff-sustainable-farming-project-blackstairs-mountains_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "galway-mayo-institute-of-technology",
+   "target": "E-IE-e6ef",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/blackstairs-farming-futures-bff-sustainable-farming-project-blackstairs-mountains_en",
+   "note": "partneri"
+  },
+  {
+   "source": "teagasc",
+   "target": "E-IE-e6ef",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/blackstairs-farming-futures-bff-sustainable-farming-project-blackstairs-mountains_en",
+   "note": "partneri"
+  },
+  {
    "source": "rspb-ni",
-   "target": "K-IE-01",
+   "target": "K-IE-06fb",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6748,8 +7264,8 @@
    "note": "edunsaaja"
   },
   {
-   "source": "newry-mourne-and-down-district-council",
-   "target": "K-IE-02",
+   "source": "mourne-and-down-district-council",
+   "target": "K-IE-0b63",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6758,7 +7274,7 @@
   },
   {
    "source": "ecochip-energy-ltd",
-   "target": "K-IE-03",
+   "target": "K-IE-cee8",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6767,7 +7283,7 @@
   },
   {
    "source": "kelly-s-nursery-ltd",
-   "target": "K-IE-04",
+   "target": "K-IE-0814",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6776,7 +7292,7 @@
   },
   {
    "source": "gri",
-   "target": "K-IE-05",
+   "target": "K-IE-7fa4",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6785,7 +7301,7 @@
   },
   {
    "source": "derrymore-peat-ltd",
-   "target": "K-IE-06",
+   "target": "K-IE-d7ff",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6794,7 +7310,7 @@
   },
   {
    "source": "strawchip-ltd",
-   "target": "K-IE-07",
+   "target": "K-IE-8525",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6802,8 +7318,62 @@
    "note": "edunsaaja"
   },
   {
+   "source": "olga-steinberga-sia-latvijas-lauku-konsu",
+   "target": "E-LV-6430",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "note": "edunsaaja"
+  },
+  {
    "source": "silava",
-   "target": "K-LV-01",
+   "target": "E-LV-6430",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "note": "partneri"
+  },
+  {
+   "source": "mpks-mezsaimnieks",
+   "target": "E-LV-6430",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "note": "partneri"
+  },
+  {
+   "source": "arei",
+   "target": "E-LV-6430",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "note": "partneri"
+  },
+  {
+   "source": "zs-lielvaiceni",
+   "target": "E-LV-6430",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "note": "partneri"
+  },
+  {
+   "source": "biedriba-preilu-lauksaimnieku-apvieniba",
+   "target": "E-LV-6430",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
+   "note": "partneri"
+  },
+  {
+   "source": "silava",
+   "target": "K-LV-4390",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6811,8 +7381,35 @@
    "note": "edunsaaja"
   },
   {
+   "source": "lu",
+   "target": "E-LV-9406",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/development-cloudberry-propagation-and-cultivation-technologies-recultivation-peat-bogs_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "zemnieku-saimnieciba-kaigi",
+   "target": "E-LV-9406",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/development-cloudberry-propagation-and-cultivation-technologies-recultivation-peat-bogs_en",
+   "note": "partneri"
+  },
+  {
+   "source": "sia-komercsabiedriba-arosa-r",
+   "target": "E-LV-9406",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/development-cloudberry-propagation-and-cultivation-technologies-recultivation-peat-bogs_en",
+   "note": "partneri"
+  },
+  {
    "source": "silava",
-   "target": "K-LV-02",
+   "target": "K-LV-74bd",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6821,7 +7418,7 @@
   },
   {
    "source": "valmieras-novada-pasvaldiba",
-   "target": "K-LV-03",
+   "target": "K-LV-2fac",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6830,7 +7427,7 @@
   },
   {
    "source": "priesgaisrines-apsaugos-ir-gelbejimo-dep",
-   "target": "K-LV-04",
+   "target": "K-LV-37ba",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6838,17 +7435,116 @@
    "note": "edunsaaja"
   },
   {
-   "source": "valsts-ugunsdzesibas-un-glabsanas-dienes",
-   "target": "K-LV-04",
+   "source": "silava",
+   "target": "E-LV-8eeb",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://kohesio.ec.europa.eu/en/projects/Q7737164",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-agrivoltaic-system-blackberry-plantation-peat-soil-integration-renewable-energy_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "biedriba-baltijas-krasti",
+   "target": "E-LV-8eeb",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-agrivoltaic-system-blackberry-plantation-peat-soil-integration-renewable-energy_en",
+   "note": "partneri"
+  },
+  {
+   "source": "z-s-kaleji",
+   "target": "E-LV-8eeb",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-agrivoltaic-system-blackberry-plantation-peat-soil-integration-renewable-energy_en",
+   "note": "partneri"
+  },
+  {
+   "source": "biedriba-latvijas-kudras-asociacija",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "llu-macibu-un-petijumu-saimnieciba-vecau",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "partneri"
+  },
+  {
+   "source": "latvijas-cuku-audzetaju-asociacija",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "partneri"
+  },
+  {
+   "source": "lbtu",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "partneri"
+  },
+  {
+   "source": "lu",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "partneri"
+  },
+  {
+   "source": "silava",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "partneri"
+  },
+  {
+   "source": "lauksaimniecibas-statutsabiedribu-asocia",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "partneri"
+  },
+  {
+   "source": "stadu-un-kudras-inovaciju-fonds-skif",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
+   "note": "partneri"
+  },
+  {
+   "source": "zs-baltini",
+   "target": "E-LV-d12c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
    "note": "partneri"
   },
   {
    "source": "akciju-sabiedriba-latvijas-valsts-mezi",
-   "target": "K-LV-05",
+   "target": "K-LV-cbb2",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6856,8 +7552,80 @@
    "note": "edunsaaja"
   },
   {
+   "source": "silava",
+   "target": "E-LV-e70c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-management-degraded-organic-soils-impact-legume-and-digestate-use-carbon_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "z-s-kiburi",
+   "target": "E-LV-e70c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-management-degraded-organic-soils-impact-legume-and-digestate-use-carbon_en",
+   "note": "partneri"
+  },
+  {
+   "source": "z-s-andrupeni",
+   "target": "E-LV-e70c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-management-degraded-organic-soils-impact-legume-and-digestate-use-carbon_en",
+   "note": "partneri"
+  },
+  {
+   "source": "silava",
+   "target": "E-LV-b130",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "lu",
+   "target": "E-LV-b130",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
+   "note": "partneri"
+  },
+  {
+   "source": "biolat",
+   "target": "E-LV-b130",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
+   "note": "partneri"
+  },
+  {
+   "source": "gourmet-industries",
+   "target": "E-LV-b130",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
+   "note": "partneri"
+  },
+  {
+   "source": "stadu-un-kudras-inovaciju-fonds",
+   "target": "E-LV-b130",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
+   "note": "partneri"
+  },
+  {
    "source": "lansstyrelsen-i-norrbottens-lan",
-   "target": "K-SE-01",
+   "target": "K-SE-dbb8",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6866,7 +7634,7 @@
   },
   {
    "source": "skogsstyrelsen",
-   "target": "K-SE-02",
+   "target": "K-SE-be89",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -6875,7 +7643,7 @@
   },
   {
    "source": "swedish-forest-agency",
-   "target": "K-SE-03",
+   "target": "K-SE-8b1e",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
@@ -7109,7 +7877,7 @@
   },
   {
    "source": "LV-01",
-   "target": "K-FI-27",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7118,7 +7886,7 @@
   },
   {
    "source": "LV-01",
-   "target": "K-LV-02",
+   "target": "K-LV-74bd",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -7145,7 +7913,7 @@
   },
   {
    "source": "LV-02",
-   "target": "K-FI-17",
+   "target": "K-FI-7c34",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7154,7 +7922,7 @@
   },
   {
    "source": "LV-02",
-   "target": "K-LV-02",
+   "target": "K-LV-74bd",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7189,8 +7957,17 @@
    "note": "T1,T3"
   },
   {
+   "source": "LV-03",
+   "target": "E-LV-9406",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3"
+  },
+  {
    "source": "IE-01",
-   "target": "K-DE-NI-05",
+   "target": "K-DE-NI-7a94",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7199,7 +7976,7 @@
   },
   {
    "source": "IE-01",
-   "target": "K-DE-NI-20",
+   "target": "K-DE-NI-cc25",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7208,7 +7985,7 @@
   },
   {
    "source": "IE-01",
-   "target": "K-DE-NI-46",
+   "target": "K-DE-NI-d14f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7217,7 +7994,7 @@
   },
   {
    "source": "IE-01",
-   "target": "K-EU-03",
+   "target": "K-EU-48f5",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7226,7 +8003,7 @@
   },
   {
    "source": "IE-01",
-   "target": "K-FI-18",
+   "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7235,7 +8012,25 @@
   },
   {
    "source": "IE-01",
-   "target": "K-FI-24",
+   "target": "K-FI-c4ea",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "E-LV-e70c",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7253,7 +8048,7 @@
   },
   {
    "source": "IE-02",
-   "target": "K-DE-NI-18",
+   "target": "K-DE-NI-410f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7262,7 +8057,34 @@
   },
   {
    "source": "IE-02",
-   "target": "K-DE-NI-26",
+   "target": "K-DE-NI-9163",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "IE-02",
+   "target": "E-IE-9275",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "IE-02",
+   "target": "E-IE-e6ef",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "IE-02",
+   "target": "E-IE-2cb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7271,7 +8093,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-DE-NI-18",
+   "target": "K-DE-NI-410f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7280,7 +8102,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-DE-NI-26",
+   "target": "K-DE-NI-9163",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7289,7 +8111,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-DE-NI-40",
+   "target": "K-DE-NI-0e2b",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7298,7 +8120,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-DE-NI-41",
+   "target": "K-DE-NI-04a5",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7307,7 +8129,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-DE-NI-49",
+   "target": "K-DE-NI-61e6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7316,7 +8138,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-08",
+   "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7325,7 +8147,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-09",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7334,7 +8156,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-11",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7343,7 +8165,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-12",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7352,7 +8174,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-13",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7361,7 +8183,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-14",
+   "target": "K-FI-9cd5",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
    "evidence": "laskettu",
@@ -7370,7 +8192,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-15",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7379,7 +8201,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-16",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7388,7 +8210,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-FI-23",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7397,7 +8219,34 @@
   },
   {
    "source": "NI-01",
-   "target": "K-IE-06",
+   "target": "E-IE-9275",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "E-IE-e6ef",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "E-IE-2cb2",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-IE-d7ff",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
    "evidence": "laskettu",
@@ -7406,7 +8255,7 @@
   },
   {
    "source": "NI-01",
-   "target": "K-LV-05",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7424,7 +8273,7 @@
   },
   {
    "source": "FI-06",
-   "target": "K-FI-17",
+   "target": "K-FI-7c34",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7433,12 +8282,21 @@
   },
   {
    "source": "FI-06",
-   "target": "K-FI-27",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T3,T8"
+  },
+  {
+   "source": "FI-06",
+   "target": "E-LV-9406",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3"
   },
   {
    "source": "FI-06",
@@ -7451,7 +8309,7 @@
   },
   {
    "source": "FI-07",
-   "target": "K-FI-05",
+   "target": "K-FI-879d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7459,8 +8317,17 @@
    "note": "T4,T6"
   },
   {
+   "source": "FI-07",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
    "source": "FI-09",
-   "target": "K-FI-17",
+   "target": "K-FI-7c34",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7469,7 +8336,7 @@
   },
   {
    "source": "FI-09",
-   "target": "K-FI-27",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -7478,6 +8345,15 @@
   },
   {
    "source": "FI-09",
+   "target": "E-LV-9406",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3"
+  },
+  {
+   "source": "FI-09",
    "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -7486,8 +8362,8 @@
    "note": "T1,T8"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-DE-NI-03",
+   "source": "K-DE-NI-accd",
+   "target": "K-DE-NI-f620",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7495,8 +8371,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-DE-NI-08",
+   "source": "K-DE-NI-accd",
+   "target": "K-DE-NI-dab1",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7504,8 +8380,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-DE-NI-27",
+   "source": "K-DE-NI-accd",
+   "target": "K-DE-NI-a450",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7513,8 +8389,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-DE-NI-37",
+   "source": "K-DE-NI-accd",
+   "target": "K-DE-NI-d3d6",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7522,8 +8398,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-EU-02",
+   "source": "K-DE-NI-accd",
+   "target": "K-EU-0882",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7531,8 +8407,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-FI-01",
+   "source": "K-DE-NI-accd",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7540,8 +8416,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-FI-06",
+   "source": "K-DE-NI-accd",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7549,8 +8425,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-FI-10",
+   "source": "K-DE-NI-accd",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7558,8 +8434,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-FI-19",
+   "source": "K-DE-NI-accd",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7567,8 +8443,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-FI-20",
+   "source": "K-DE-NI-accd",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7576,8 +8452,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
-   "target": "K-FI-26",
+   "source": "K-DE-NI-accd",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7585,7 +8461,7 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-02",
+   "source": "K-DE-NI-accd",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -7594,8 +8470,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-DE-NI-08",
+   "source": "K-DE-NI-f620",
+   "target": "K-DE-NI-dab1",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7603,8 +8479,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-DE-NI-27",
+   "source": "K-DE-NI-f620",
+   "target": "K-DE-NI-a450",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7612,8 +8488,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-DE-NI-37",
+   "source": "K-DE-NI-f620",
+   "target": "K-DE-NI-d3d6",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7621,8 +8497,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-EU-02",
+   "source": "K-DE-NI-f620",
+   "target": "K-EU-0882",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7630,8 +8506,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-FI-01",
+   "source": "K-DE-NI-f620",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7639,8 +8515,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-FI-06",
+   "source": "K-DE-NI-f620",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7648,8 +8524,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-FI-10",
+   "source": "K-DE-NI-f620",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7657,8 +8533,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-FI-19",
+   "source": "K-DE-NI-f620",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7666,8 +8542,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-FI-20",
+   "source": "K-DE-NI-f620",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7675,8 +8551,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
-   "target": "K-FI-26",
+   "source": "K-DE-NI-f620",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7684,7 +8560,7 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-03",
+   "source": "K-DE-NI-f620",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -7693,8 +8569,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-05",
-   "target": "K-DE-NI-20",
+   "source": "K-DE-NI-7a94",
+   "target": "K-DE-NI-cc25",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7702,8 +8578,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-05",
-   "target": "K-DE-NI-46",
+   "source": "K-DE-NI-7a94",
+   "target": "K-DE-NI-d14f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7711,8 +8587,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-05",
-   "target": "K-EU-03",
+   "source": "K-DE-NI-7a94",
+   "target": "K-EU-48f5",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7720,8 +8596,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-05",
-   "target": "K-FI-18",
+   "source": "K-DE-NI-7a94",
+   "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7729,8 +8605,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-05",
-   "target": "K-FI-24",
+   "source": "K-DE-NI-7a94",
+   "target": "K-FI-c4ea",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7738,8 +8614,26 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-08",
-   "target": "K-DE-NI-10",
+   "source": "K-DE-NI-7a94",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
+   "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-dab1",
+   "target": "K-DE-NI-c05c",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7747,8 +8641,8 @@
    "note": "T6,T8"
   },
   {
-   "source": "K-DE-NI-08",
-   "target": "K-DE-NI-27",
+   "source": "K-DE-NI-dab1",
+   "target": "K-DE-NI-a450",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7756,8 +8650,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-08",
-   "target": "K-DE-NI-37",
+   "source": "K-DE-NI-dab1",
+   "target": "K-DE-NI-d3d6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7765,8 +8659,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-08",
-   "target": "K-EU-02",
+   "source": "K-DE-NI-dab1",
+   "target": "K-EU-0882",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7774,8 +8668,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-08",
-   "target": "K-FI-27",
+   "source": "K-DE-NI-dab1",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -7783,8 +8677,8 @@
    "note": "T5,T6,T8"
   },
   {
-   "source": "K-DE-NI-10",
-   "target": "K-LV-02",
+   "source": "K-DE-NI-c05c",
+   "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7792,8 +8686,26 @@
    "note": "T6,T8"
   },
   {
-   "source": "K-DE-NI-15",
-   "target": "K-DE-NI-22",
+   "source": "K-DE-NI-c05c",
+   "target": "K-LV-74bd",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "E-DE-NI-b06d",
+   "target": "K-IE-7fa4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T3"
+  },
+  {
+   "source": "K-DE-NI-44a1",
+   "target": "K-DE-NI-34e3",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7801,8 +8713,8 @@
    "note": "T3,T6"
   },
   {
-   "source": "K-DE-NI-18",
-   "target": "K-DE-NI-26",
+   "source": "K-DE-NI-410f",
+   "target": "K-DE-NI-9163",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7810,8 +8722,35 @@
    "note": "T2,T5"
   },
   {
-   "source": "K-DE-NI-20",
-   "target": "K-DE-NI-46",
+   "source": "K-DE-NI-410f",
+   "target": "E-IE-9275",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-DE-NI-410f",
+   "target": "E-IE-e6ef",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-DE-NI-410f",
+   "target": "E-IE-2cb2",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-DE-NI-cc25",
+   "target": "K-DE-NI-d14f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7819,8 +8758,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-20",
-   "target": "K-EU-03",
+   "source": "K-DE-NI-cc25",
+   "target": "K-EU-48f5",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7828,8 +8767,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-20",
-   "target": "K-FI-18",
+   "source": "K-DE-NI-cc25",
+   "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7837,8 +8776,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-20",
-   "target": "K-FI-24",
+   "source": "K-DE-NI-cc25",
+   "target": "K-FI-c4ea",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7846,7 +8785,25 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-21",
+   "source": "K-DE-NI-cc25",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
+   "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-1c15",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -7855,8 +8812,35 @@
    "note": "T6,T7"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-DE-NI-37",
+   "source": "K-DE-NI-9163",
+   "target": "E-IE-9275",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-DE-NI-9163",
+   "target": "E-IE-e6ef",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-DE-NI-9163",
+   "target": "E-IE-2cb2",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-DE-NI-a450",
+   "target": "K-DE-NI-d3d6",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7864,8 +8848,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-EU-02",
+   "source": "K-DE-NI-a450",
+   "target": "K-EU-0882",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7873,8 +8857,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-FI-01",
+   "source": "K-DE-NI-a450",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7882,8 +8866,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-FI-06",
+   "source": "K-DE-NI-a450",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7891,8 +8875,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-FI-10",
+   "source": "K-DE-NI-a450",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7900,8 +8884,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-FI-19",
+   "source": "K-DE-NI-a450",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7909,8 +8893,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-FI-20",
+   "source": "K-DE-NI-a450",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7918,8 +8902,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
-   "target": "K-FI-26",
+   "source": "K-DE-NI-a450",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7927,7 +8911,7 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-27",
+   "source": "K-DE-NI-a450",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -7936,8 +8920,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
-   "target": "K-EU-02",
+   "source": "K-DE-NI-d3d6",
+   "target": "K-EU-0882",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -7945,8 +8929,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
-   "target": "K-FI-01",
+   "source": "K-DE-NI-d3d6",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7954,8 +8938,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
-   "target": "K-FI-06",
+   "source": "K-DE-NI-d3d6",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7963,8 +8947,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
-   "target": "K-FI-10",
+   "source": "K-DE-NI-d3d6",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7972,8 +8956,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
-   "target": "K-FI-19",
+   "source": "K-DE-NI-d3d6",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7981,8 +8965,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
-   "target": "K-FI-20",
+   "source": "K-DE-NI-d3d6",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7990,8 +8974,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
-   "target": "K-FI-26",
+   "source": "K-DE-NI-d3d6",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -7999,7 +8983,7 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-37",
+   "source": "K-DE-NI-d3d6",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8008,8 +8992,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-DE-NI-40",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-DE-NI-0e2b",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8017,8 +9001,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-DE-NI-41",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-DE-NI-04a5",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8026,8 +9010,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-DE-NI-49",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-DE-NI-61e6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8035,8 +9019,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-07",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-2fcc",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8044,8 +9028,8 @@
    "note": "T4,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-08",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8053,8 +9037,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-09",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8062,8 +9046,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-11",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8071,8 +9055,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-12",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8080,8 +9064,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-13",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8089,8 +9073,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-14",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-9cd5",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
    "evidence": "laskettu",
@@ -8098,8 +9082,8 @@
    "note": "T1,T4,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-15",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8107,8 +9091,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-16",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8116,8 +9100,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-FI-23",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8125,8 +9109,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-LV-01",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-LV-4390",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8134,8 +9118,8 @@
    "note": "T4,T5"
   },
   {
-   "source": "K-DE-NI-38",
-   "target": "K-LV-05",
+   "source": "K-DE-NI-d8d1",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8143,8 +9127,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-DE-NI-41",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-DE-NI-04a5",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8152,8 +9136,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-DE-NI-49",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-DE-NI-61e6",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8161,8 +9145,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-01",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8170,8 +9154,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-06",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8179,8 +9163,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-08",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8188,8 +9172,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-09",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8197,8 +9181,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-10",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8206,8 +9190,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-11",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8215,8 +9199,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-12",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8224,8 +9208,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-13",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8233,8 +9217,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-15",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8242,8 +9226,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-16",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8251,8 +9235,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-19",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8260,8 +9244,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-20",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8269,8 +9253,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-23",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8278,8 +9262,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-FI-26",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8287,8 +9271,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
-   "target": "K-LV-05",
+   "source": "K-DE-NI-0e2b",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8296,7 +9280,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-40",
+   "source": "K-DE-NI-0e2b",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8305,8 +9289,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-DE-NI-49",
+   "source": "K-DE-NI-04a5",
+   "target": "K-DE-NI-61e6",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8314,8 +9298,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-01",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8323,8 +9307,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-06",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8332,8 +9316,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-08",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8341,8 +9325,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-09",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8350,8 +9334,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-10",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8359,8 +9343,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-11",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8368,8 +9352,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-12",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8377,8 +9361,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-13",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8386,8 +9370,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-15",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8395,8 +9379,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-16",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8404,8 +9388,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-19",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8413,8 +9397,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-20",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8422,8 +9406,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-23",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8431,8 +9415,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-FI-26",
+   "source": "K-DE-NI-04a5",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8440,8 +9424,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
-   "target": "K-LV-05",
+   "source": "K-DE-NI-04a5",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8449,7 +9433,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-41",
+   "source": "K-DE-NI-04a5",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8458,8 +9442,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-46",
-   "target": "K-EU-03",
+   "source": "K-DE-NI-d14f",
+   "target": "K-EU-48f5",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8467,8 +9451,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-46",
-   "target": "K-FI-18",
+   "source": "K-DE-NI-d14f",
+   "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8476,8 +9460,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-46",
-   "target": "K-FI-24",
+   "source": "K-DE-NI-d14f",
+   "target": "K-FI-c4ea",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8485,8 +9469,26 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-01",
+   "source": "K-DE-NI-d14f",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
+   "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8494,8 +9496,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-06",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8503,8 +9505,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-08",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8512,8 +9514,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-09",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8521,8 +9523,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-10",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8530,8 +9532,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-11",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8539,8 +9541,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-12",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8548,8 +9550,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-13",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8557,8 +9559,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-15",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8566,8 +9568,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-16",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8575,8 +9577,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-19",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8584,8 +9586,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-20",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8593,8 +9595,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-23",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8602,8 +9604,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-FI-26",
+   "source": "K-DE-NI-61e6",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8611,8 +9613,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
-   "target": "K-LV-05",
+   "source": "K-DE-NI-61e6",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8620,7 +9622,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-DE-NI-49",
+   "source": "K-DE-NI-61e6",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8629,8 +9631,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-EU-01",
-   "target": "K-IE-02",
+   "source": "K-EU-5a7e",
+   "target": "K-IE-0b63",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8638,8 +9640,8 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-EU-01",
-   "target": "K-LV-04",
+   "source": "K-EU-5a7e",
+   "target": "K-LV-37ba",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8647,7 +9649,7 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-EU-01",
+   "source": "K-EU-5a7e",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8656,7 +9658,7 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-EU-01",
+   "source": "K-EU-5a7e",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8665,8 +9667,8 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-EU-02",
-   "target": "K-FI-01",
+   "source": "K-EU-0882",
+   "target": "K-FI-b095",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8674,8 +9676,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-EU-02",
-   "target": "K-FI-06",
+   "source": "K-EU-0882",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8683,8 +9685,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-EU-02",
-   "target": "K-FI-10",
+   "source": "K-EU-0882",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8692,8 +9694,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-EU-02",
-   "target": "K-FI-19",
+   "source": "K-EU-0882",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8701,8 +9703,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-EU-02",
-   "target": "K-FI-20",
+   "source": "K-EU-0882",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8710,8 +9712,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-EU-02",
-   "target": "K-FI-26",
+   "source": "K-EU-0882",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8719,7 +9721,7 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-EU-02",
+   "source": "K-EU-0882",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8728,8 +9730,8 @@
    "note": "T5,T6"
   },
   {
-   "source": "K-EU-03",
-   "target": "K-FI-18",
+   "source": "K-EU-48f5",
+   "target": "K-FI-9511",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8737,8 +9739,8 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-EU-03",
-   "target": "K-FI-24",
+   "source": "K-EU-48f5",
+   "target": "K-FI-c4ea",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8746,8 +9748,26 @@
    "note": "T2,T6"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-06",
+   "source": "K-EU-48f5",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
+   "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-b095",
+   "target": "K-FI-6894",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8755,8 +9775,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-08",
+   "source": "K-FI-b095",
+   "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8764,8 +9784,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-09",
+   "source": "K-FI-b095",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8773,8 +9793,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-10",
+   "source": "K-FI-b095",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8782,8 +9802,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-11",
+   "source": "K-FI-b095",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8791,8 +9811,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-12",
+   "source": "K-FI-b095",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8800,8 +9820,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-13",
+   "source": "K-FI-b095",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8809,8 +9829,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-15",
+   "source": "K-FI-b095",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8818,8 +9838,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-16",
+   "source": "K-FI-b095",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8827,8 +9847,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-19",
+   "source": "K-FI-b095",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8836,8 +9856,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-20",
+   "source": "K-FI-b095",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8845,8 +9865,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-23",
+   "source": "K-FI-b095",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8854,8 +9874,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-26",
+   "source": "K-FI-b095",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8863,8 +9883,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-FI-27",
+   "source": "K-FI-b095",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -8872,8 +9892,17 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-01",
-   "target": "K-LV-05",
+   "source": "K-FI-b095",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-b095",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8881,7 +9910,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-01",
+   "source": "K-FI-b095",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
@@ -8890,8 +9919,17 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-08",
+   "source": "K-FI-879d",
+   "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T4,T6"
+  },
+  {
+   "source": "K-FI-6894",
+   "target": "K-FI-6c73",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8899,8 +9937,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-09",
+   "source": "K-FI-6894",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8908,8 +9946,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-10",
+   "source": "K-FI-6894",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8917,8 +9955,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-11",
+   "source": "K-FI-6894",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8926,8 +9964,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-12",
+   "source": "K-FI-6894",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8935,8 +9973,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-13",
+   "source": "K-FI-6894",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8944,8 +9982,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-15",
+   "source": "K-FI-6894",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8953,8 +9991,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-16",
+   "source": "K-FI-6894",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8962,8 +10000,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-19",
+   "source": "K-FI-6894",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8971,8 +10009,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-20",
+   "source": "K-FI-6894",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8980,8 +10018,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-23",
+   "source": "K-FI-6894",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -8989,8 +10027,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-26",
+   "source": "K-FI-6894",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -8998,8 +10036,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-FI-27",
+   "source": "K-FI-6894",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -9007,8 +10045,17 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-06",
-   "target": "K-LV-05",
+   "source": "K-FI-6894",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-6894",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9016,7 +10063,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-06",
+   "source": "K-FI-6894",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
@@ -9025,8 +10072,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-07",
-   "target": "K-LV-01",
+   "source": "K-FI-2fcc",
+   "target": "K-LV-4390",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9034,8 +10081,8 @@
    "note": "T4,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-09",
+   "source": "K-FI-6c73",
+   "target": "K-FI-56cf",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9043,8 +10090,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-10",
+   "source": "K-FI-6c73",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9052,8 +10099,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-11",
+   "source": "K-FI-6c73",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9061,8 +10108,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-12",
+   "source": "K-FI-6c73",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9070,8 +10117,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-13",
+   "source": "K-FI-6c73",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9079,8 +10126,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-15",
+   "source": "K-FI-6c73",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9088,8 +10135,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-16",
+   "source": "K-FI-6c73",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9097,8 +10144,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-19",
+   "source": "K-FI-6c73",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9106,8 +10153,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-20",
+   "source": "K-FI-6c73",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9115,8 +10162,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-23",
+   "source": "K-FI-6c73",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9124,8 +10171,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-FI-26",
+   "source": "K-FI-6c73",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9133,8 +10180,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
-   "target": "K-LV-05",
+   "source": "K-FI-6c73",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9142,7 +10189,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-08",
+   "source": "K-FI-6c73",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9151,8 +10198,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-10",
+   "source": "K-FI-56cf",
+   "target": "K-FI-561d",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9160,8 +10207,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-11",
+   "source": "K-FI-56cf",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9169,8 +10216,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-12",
+   "source": "K-FI-56cf",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9178,8 +10225,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-13",
+   "source": "K-FI-56cf",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9187,8 +10234,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-15",
+   "source": "K-FI-56cf",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9196,8 +10243,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-16",
+   "source": "K-FI-56cf",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9205,8 +10252,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-19",
+   "source": "K-FI-56cf",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9214,8 +10261,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-20",
+   "source": "K-FI-56cf",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9223,8 +10270,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-23",
+   "source": "K-FI-56cf",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9232,8 +10279,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-FI-26",
+   "source": "K-FI-56cf",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9241,8 +10288,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
-   "target": "K-LV-05",
+   "source": "K-FI-56cf",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9250,7 +10297,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-09",
+   "source": "K-FI-56cf",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9259,8 +10306,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-11",
+   "source": "K-FI-561d",
+   "target": "K-FI-6978",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9268,8 +10315,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-12",
+   "source": "K-FI-561d",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9277,8 +10324,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-13",
+   "source": "K-FI-561d",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9286,8 +10333,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-15",
+   "source": "K-FI-561d",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9295,8 +10342,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-16",
+   "source": "K-FI-561d",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9304,8 +10351,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-19",
+   "source": "K-FI-561d",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9313,8 +10360,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-20",
+   "source": "K-FI-561d",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9322,8 +10369,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-23",
+   "source": "K-FI-561d",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9331,8 +10378,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-26",
+   "source": "K-FI-561d",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9340,8 +10387,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-FI-27",
+   "source": "K-FI-561d",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -9349,8 +10396,17 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-10",
-   "target": "K-LV-05",
+   "source": "K-FI-561d",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-561d",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9358,7 +10414,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-10",
+   "source": "K-FI-561d",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
@@ -9367,8 +10423,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-12",
+   "source": "K-FI-6978",
+   "target": "K-FI-e290",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9376,8 +10432,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-13",
+   "source": "K-FI-6978",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9385,8 +10441,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-15",
+   "source": "K-FI-6978",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9394,8 +10450,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-16",
+   "source": "K-FI-6978",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9403,8 +10459,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-19",
+   "source": "K-FI-6978",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9412,8 +10468,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-20",
+   "source": "K-FI-6978",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9421,8 +10477,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-23",
+   "source": "K-FI-6978",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9430,8 +10486,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-FI-26",
+   "source": "K-FI-6978",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9439,8 +10495,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
-   "target": "K-LV-05",
+   "source": "K-FI-6978",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9448,7 +10504,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-11",
+   "source": "K-FI-6978",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9457,8 +10513,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-FI-13",
+   "source": "K-FI-e290",
+   "target": "K-FI-8d28",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9466,8 +10522,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-FI-15",
+   "source": "K-FI-e290",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9475,8 +10531,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-FI-16",
+   "source": "K-FI-e290",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9484,8 +10540,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-FI-19",
+   "source": "K-FI-e290",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9493,8 +10549,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-FI-20",
+   "source": "K-FI-e290",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9502,8 +10558,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-FI-23",
+   "source": "K-FI-e290",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9511,8 +10567,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-FI-26",
+   "source": "K-FI-e290",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9520,8 +10576,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
-   "target": "K-LV-05",
+   "source": "K-FI-e290",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9529,7 +10585,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-12",
+   "source": "K-FI-e290",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9538,8 +10594,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
-   "target": "K-FI-15",
+   "source": "K-FI-8d28",
+   "target": "K-FI-cb20",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9547,8 +10603,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
-   "target": "K-FI-16",
+   "source": "K-FI-8d28",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9556,8 +10612,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
-   "target": "K-FI-19",
+   "source": "K-FI-8d28",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9565,8 +10621,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
-   "target": "K-FI-20",
+   "source": "K-FI-8d28",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9574,8 +10630,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
-   "target": "K-FI-23",
+   "source": "K-FI-8d28",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9583,8 +10639,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
-   "target": "K-FI-26",
+   "source": "K-FI-8d28",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9592,8 +10648,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
-   "target": "K-LV-05",
+   "source": "K-FI-8d28",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9601,7 +10657,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-13",
+   "source": "K-FI-8d28",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9610,8 +10666,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-14",
-   "target": "K-IE-06",
+   "source": "K-FI-9cd5",
+   "target": "K-IE-d7ff",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -9619,8 +10675,8 @@
    "note": "T1,T2,T5"
   },
   {
-   "source": "K-FI-15",
-   "target": "K-FI-16",
+   "source": "K-FI-cb20",
+   "target": "K-FI-16d2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9628,8 +10684,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-15",
-   "target": "K-FI-19",
+   "source": "K-FI-cb20",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9637,8 +10693,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-15",
-   "target": "K-FI-20",
+   "source": "K-FI-cb20",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9646,8 +10702,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-15",
-   "target": "K-FI-23",
+   "source": "K-FI-cb20",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9655,8 +10711,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-15",
-   "target": "K-FI-26",
+   "source": "K-FI-cb20",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9664,8 +10720,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-15",
-   "target": "K-LV-05",
+   "source": "K-FI-cb20",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9673,7 +10729,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-15",
+   "source": "K-FI-cb20",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9682,8 +10738,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-16",
-   "target": "K-FI-19",
+   "source": "K-FI-16d2",
+   "target": "K-FI-06b9",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9691,8 +10747,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-16",
-   "target": "K-FI-20",
+   "source": "K-FI-16d2",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9700,8 +10756,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-16",
-   "target": "K-FI-23",
+   "source": "K-FI-16d2",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9709,8 +10765,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-16",
-   "target": "K-FI-26",
+   "source": "K-FI-16d2",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9718,8 +10774,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-16",
-   "target": "K-LV-05",
+   "source": "K-FI-16d2",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9727,7 +10783,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-16",
+   "source": "K-FI-16d2",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9736,8 +10792,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-17",
-   "target": "K-LV-02",
+   "source": "K-FI-7c34",
+   "target": "K-LV-74bd",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9745,7 +10801,7 @@
    "note": "T1,T8"
   },
   {
-   "source": "K-FI-17",
+   "source": "K-FI-7c34",
    "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -9754,8 +10810,8 @@
    "note": "T1,T8"
   },
   {
-   "source": "K-FI-18",
-   "target": "K-FI-24",
+   "source": "K-FI-9511",
+   "target": "K-FI-c4ea",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9763,8 +10819,17 @@
    "note": "T1,T2,T6"
   },
   {
-   "source": "K-FI-19",
-   "target": "K-FI-20",
+   "source": "K-FI-9511",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-06b9",
+   "target": "K-FI-b38f",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9772,8 +10837,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-19",
-   "target": "K-FI-23",
+   "source": "K-FI-06b9",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9781,8 +10846,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-19",
-   "target": "K-FI-26",
+   "source": "K-FI-06b9",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9790,8 +10855,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-19",
-   "target": "K-FI-27",
+   "source": "K-FI-06b9",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -9799,8 +10864,17 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-19",
-   "target": "K-LV-05",
+   "source": "K-FI-06b9",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-06b9",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9808,7 +10882,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-19",
+   "source": "K-FI-06b9",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
@@ -9817,8 +10891,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-20",
-   "target": "K-FI-23",
+   "source": "K-FI-b38f",
+   "target": "K-FI-3bb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9826,8 +10900,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-20",
-   "target": "K-FI-26",
+   "source": "K-FI-b38f",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9835,8 +10909,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-20",
-   "target": "K-FI-27",
+   "source": "K-FI-b38f",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -9844,8 +10918,17 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-20",
-   "target": "K-LV-05",
+   "source": "K-FI-b38f",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-b38f",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9853,7 +10936,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-20",
+   "source": "K-FI-b38f",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
@@ -9862,8 +10945,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-23",
-   "target": "K-FI-26",
+   "source": "K-FI-3bb2",
+   "target": "K-FI-665a",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9871,8 +10954,8 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-23",
-   "target": "K-LV-05",
+   "source": "K-FI-3bb2",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9880,7 +10963,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-23",
+   "source": "K-FI-3bb2",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9889,8 +10972,17 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-26",
-   "target": "K-FI-27",
+   "source": "K-FI-c4ea",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-665a",
+   "target": "K-FI-0ac6",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -9898,8 +10990,17 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-26",
-   "target": "K-LV-05",
+   "source": "K-FI-665a",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-FI-665a",
+   "target": "K-LV-cbb2",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -9907,7 +11008,7 @@
    "note": "T1,T5"
   },
   {
-   "source": "K-FI-26",
+   "source": "K-FI-665a",
    "target": "X-FI-PEATRESC",
    "kind": "teemapaallekkaisyys",
    "weight": 0.75,
@@ -9916,8 +11017,8 @@
    "note": "T1,T5,T6"
   },
   {
-   "source": "K-FI-27",
-   "target": "K-LV-02",
+   "source": "K-FI-0ac6",
+   "target": "K-LV-74bd",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
    "evidence": "laskettu",
@@ -9925,8 +11026,35 @@
    "note": "T1,T6,T8"
   },
   {
-   "source": "K-IE-02",
-   "target": "K-LV-04",
+   "source": "E-IE-9275",
+   "target": "E-IE-e6ef",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "E-IE-9275",
+   "target": "E-IE-2cb2",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "E-IE-e6ef",
+   "target": "E-IE-2cb2",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-IE-0b63",
+   "target": "K-LV-37ba",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
    "evidence": "laskettu",
@@ -9934,7 +11062,7 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-IE-02",
+   "source": "K-IE-0b63",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9943,7 +11071,7 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-IE-02",
+   "source": "K-IE-0b63",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9952,7 +11080,16 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-LV-02",
+   "source": "K-LV-74bd",
+   "target": "E-LV-8eeb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6"
+  },
+  {
+   "source": "K-LV-74bd",
    "target": "X-IE-NAT",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9961,7 +11098,7 @@
    "note": "T1,T8"
   },
   {
-   "source": "K-LV-04",
+   "source": "K-LV-37ba",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9970,7 +11107,7 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-LV-04",
+   "source": "K-LV-37ba",
    "target": "X-IE-GAL",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9979,7 +11116,7 @@
    "note": "T5,T7"
   },
   {
-   "source": "K-LV-05",
+   "source": "K-LV-cbb2",
    "target": "X-IE-LIFE",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,

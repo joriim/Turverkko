@@ -4,88 +4,88 @@
   "missing_min_jaccard": 0.6
  },
  "summary": {
-  "actors": 240,
-  "collab_edges": 184,
+  "actors": 270,
+  "collab_edges": 212,
   "unverified_edges": 3,
-  "components": 67,
-  "largest_component": 47,
-  "multi_country_components": 1,
-  "cross_country_edges": 2,
-  "missing_links": 183,
-  "missing_cross_country": 183,
-  "theme_country_pairs": 53,
-  "theme_country_pairs_unlinked": 50
+  "components": 74,
+  "largest_component": 72,
+  "multi_country_components": 2,
+  "cross_country_edges": 4,
+  "missing_links": 215,
+  "missing_cross_country": 215,
+  "theme_country_pairs": 56,
+  "theme_country_pairs_unlinked": 51
  },
  "components": [
   {
    "komponentti": 1,
-   "solmuja": 47,
+   "solmuja": 72,
    "maita": 3,
    "maat": "EU FI LV",
-   "hankkeet_ja_keskukset": "FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV K-EU-05 K-FI-02 K-FI-05 K-FI-06 K-FI-10 K-FI-17 K-FI-18 K-FI-22 K-FI-27 K-LV-01 K-LV-02 LV-01 LV-03 X-FI-PEATRESC"
+   "hankkeet_ja_keskukset": "E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-561d K-FI-6894 K-FI-7c34 K-FI-879d K-FI-9511 K-FI-e8b3 K-LV-4390 K-LV-74bd LV-01 LV-03 X-FI-PEATRESC"
   },
   {
    "komponentti": 2,
-   "solmuja": 15,
-   "maita": 1,
-   "maat": "IE",
-   "hankkeet_ja_keskukset": "H-IE-GAL H-IE-LIFE IE-01 K-IE-05 X-IE-GAL X-IE-LIFE X-IE-NAT"
+   "solmuja": 23,
+   "maita": 2,
+   "maat": "DE-NI IE",
+   "hankkeet_ja_keskukset": "E-IE-e6ef H-IE-GAL H-IE-LIFE IE-01 K-DE-NI-d14f K-IE-7fa4 X-IE-GAL X-IE-LIFE X-IE-NAT"
   },
   {
    "komponentti": 3,
    "solmuja": 12,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-07 K-DE-NI-09 K-DE-NI-11 K-DE-NI-32 K-DE-NI-33 K-DE-NI-36 NI-01 NI-02 NI-03"
+   "hankkeet_ja_keskukset": "K-DE-NI-36d2 K-DE-NI-9d56 K-DE-NI-a456 K-DE-NI-b8d9 K-DE-NI-e715 K-DE-NI-f68e NI-01 NI-02 NI-03"
   },
   {
    "komponentti": 4,
-   "solmuja": 12,
-   "maita": 1,
-   "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-46"
-  },
-  {
-   "komponentti": 5,
    "solmuja": 7,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-03 K-DE-NI-06 K-DE-NI-12 K-DE-NI-13 K-DE-NI-19 K-DE-NI-21"
+   "hankkeet_ja_keskukset": "K-DE-NI-1c15 K-DE-NI-209b K-DE-NI-9595 K-DE-NI-af02 K-DE-NI-cf1c K-DE-NI-f620"
   },
   {
-   "komponentti": 6,
+   "komponentti": 5,
    "solmuja": 5,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "FI-02 K-FI-09 K-FI-12"
+   "hankkeet_ja_keskukset": "FI-02 K-FI-56cf K-FI-e290"
   },
   {
-   "komponentti": 7,
+   "komponentti": 6,
    "solmuja": 5,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "IE-02"
   },
   {
-   "komponentti": 8,
+   "komponentti": 7,
    "solmuja": 5,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-05 K-DE-NI-10 K-DE-NI-14 K-DE-NI-20"
+   "hankkeet_ja_keskukset": "E-DE-NI-3e4b"
+  },
+  {
+   "komponentti": 8,
+   "solmuja": 4,
+   "maita": 1,
+   "maat": "DE-NI",
+   "hankkeet_ja_keskukset": "E-DE-NI-b06d"
   },
   {
    "komponentti": 9,
    "solmuja": 4,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-35 K-DE-NI-40 K-DE-NI-49"
+   "hankkeet_ja_keskukset": "K-DE-NI-0e2b K-DE-NI-61e6 K-DE-NI-c1d3"
   },
   {
    "komponentti": 10,
    "solmuja": 4,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-01 K-FI-19"
+   "hankkeet_ja_keskukset": "K-FI-06b9 K-FI-b095"
   },
   {
    "komponentti": 11,
@@ -99,388 +99,437 @@
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-01 K-DE-NI-08"
+   "hankkeet_ja_keskukset": "K-DE-NI-1746 K-DE-NI-dab1"
   },
   {
    "komponentti": 13,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-02 K-DE-NI-27"
+   "hankkeet_ja_keskukset": "K-DE-NI-a450 K-DE-NI-accd"
   },
   {
    "komponentti": 14,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-16 K-DE-NI-30"
+   "hankkeet_ja_keskukset": "K-DE-NI-0499 K-DE-NI-77b2"
   },
   {
    "komponentti": 15,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-22 K-DE-NI-29"
+   "hankkeet_ja_keskukset": "K-DE-NI-1847 K-DE-NI-34e3"
   },
   {
    "komponentti": 16,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-23 K-DE-NI-31"
+   "hankkeet_ja_keskukset": "K-DE-NI-3eb1 K-DE-NI-ee94"
   },
   {
    "komponentti": 17,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-24 K-DE-NI-38"
+   "hankkeet_ja_keskukset": "K-DE-NI-bf71 K-DE-NI-d8d1"
   },
   {
    "komponentti": 18,
    "solmuja": 3,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-25 K-DE-NI-34"
+   "hankkeet_ja_keskukset": "K-DE-NI-03c5 K-DE-NI-6c80"
   },
   {
    "komponentti": 19,
    "solmuja": 3,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-03 K-FI-20"
+   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
   },
   {
    "komponentti": 20,
    "solmuja": 3,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-14 K-FI-26"
+   "hankkeet_ja_keskukset": "K-FI-665a K-FI-9cd5"
   },
   {
    "komponentti": 21,
    "solmuja": 3,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-21"
+   "hankkeet_ja_keskukset": "K-FI-6f20"
   },
   {
    "komponentti": 22,
-   "solmuja": 3,
-   "maita": 1,
-   "maat": "LV",
-   "hankkeet_ja_keskukset": "K-LV-04"
-  },
-  {
-   "komponentti": 23,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
    "hankkeet_ja_keskukset": "FI-03"
   },
   {
-   "komponentti": 24,
+   "komponentti": 23,
    "solmuja": 2,
    "maita": 1,
    "maat": "EE",
    "hankkeet_ja_keskukset": "EE-02"
   },
   {
+   "komponentti": 24,
+   "solmuja": 2,
+   "maita": 1,
+   "maat": "DE-NI",
+   "hankkeet_ja_keskukset": "K-DE-NI-e147"
+  },
+  {
    "komponentti": 25,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-04"
+   "hankkeet_ja_keskukset": "K-DE-NI-44a1"
   },
   {
    "komponentti": 26,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-15"
+   "hankkeet_ja_keskukset": "K-DE-NI-bd6b"
   },
   {
    "komponentti": 27,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-17"
+   "hankkeet_ja_keskukset": "K-DE-NI-410f"
   },
   {
    "komponentti": 28,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-18"
+   "hankkeet_ja_keskukset": "K-DE-NI-9163"
   },
   {
    "komponentti": 29,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-26"
+   "hankkeet_ja_keskukset": "K-DE-NI-ca87"
   },
   {
    "komponentti": 30,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-28"
+   "hankkeet_ja_keskukset": "K-DE-NI-d3d6"
   },
   {
    "komponentti": 31,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-37"
+   "hankkeet_ja_keskukset": "K-DE-NI-8755"
   },
   {
    "komponentti": 32,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-39"
+   "hankkeet_ja_keskukset": "K-DE-NI-04a5"
   },
   {
    "komponentti": 33,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-41"
+   "hankkeet_ja_keskukset": "K-DE-NI-c57b"
   },
   {
    "komponentti": 34,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-42"
+   "hankkeet_ja_keskukset": "K-DE-NI-3ac3"
   },
   {
    "komponentti": 35,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-43"
+   "hankkeet_ja_keskukset": "K-DE-NI-6f11"
   },
   {
    "komponentti": 36,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-44"
+   "hankkeet_ja_keskukset": "K-DE-NI-cad6"
   },
   {
    "komponentti": 37,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-45"
+   "hankkeet_ja_keskukset": "K-DE-NI-f3b0"
   },
   {
    "komponentti": 38,
    "solmuja": 2,
    "maita": 1,
-   "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-47"
+   "maat": "EU",
+   "hankkeet_ja_keskukset": "K-EU-5a7e"
   },
   {
    "komponentti": 39,
    "solmuja": 2,
    "maita": 1,
-   "maat": "DE-NI",
-   "hankkeet_ja_keskukset": "K-DE-NI-48"
+   "maat": "EU",
+   "hankkeet_ja_keskukset": "K-EU-0882"
   },
   {
    "komponentti": 40,
    "solmuja": 2,
    "maita": 1,
    "maat": "EU",
-   "hankkeet_ja_keskukset": "K-EU-01"
+   "hankkeet_ja_keskukset": "K-EU-48f5"
   },
   {
    "komponentti": 41,
    "solmuja": 2,
    "maita": 1,
    "maat": "EU",
-   "hankkeet_ja_keskukset": "K-EU-02"
+   "hankkeet_ja_keskukset": "K-EU-f426"
   },
   {
    "komponentti": 42,
    "solmuja": 2,
    "maita": 1,
-   "maat": "EU",
-   "hankkeet_ja_keskukset": "K-EU-03"
+   "maat": "FI",
+   "hankkeet_ja_keskukset": "K-FI-a45d"
   },
   {
    "komponentti": 43,
    "solmuja": 2,
    "maita": 1,
-   "maat": "EU",
-   "hankkeet_ja_keskukset": "K-EU-04"
+   "maat": "FI",
+   "hankkeet_ja_keskukset": "K-FI-2fcc"
   },
   {
    "komponentti": 44,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-04"
+   "hankkeet_ja_keskukset": "K-FI-6c73"
   },
   {
    "komponentti": 45,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-07"
+   "hankkeet_ja_keskukset": "K-FI-6978"
   },
   {
    "komponentti": 46,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-08"
+   "hankkeet_ja_keskukset": "K-FI-8d28"
   },
   {
    "komponentti": 47,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-11"
+   "hankkeet_ja_keskukset": "K-FI-cb20"
   },
   {
    "komponentti": 48,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-13"
+   "hankkeet_ja_keskukset": "K-FI-16d2"
   },
   {
    "komponentti": 49,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-15"
+   "hankkeet_ja_keskukset": "K-FI-3bb2"
   },
   {
    "komponentti": 50,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-16"
+   "hankkeet_ja_keskukset": "K-FI-c4ea"
   },
   {
    "komponentti": 51,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-23"
+   "hankkeet_ja_keskukset": "K-FI-ceda"
   },
   {
    "komponentti": 52,
    "solmuja": 2,
    "maita": 1,
-   "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-24"
+   "maat": "IE",
+   "hankkeet_ja_keskukset": "K-IE-06fb"
   },
   {
    "komponentti": 53,
    "solmuja": 2,
    "maita": 1,
-   "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-25"
+   "maat": "IE",
+   "hankkeet_ja_keskukset": "K-IE-0b63"
   },
   {
    "komponentti": 54,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-01"
+   "hankkeet_ja_keskukset": "K-IE-cee8"
   },
   {
    "komponentti": 55,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-02"
+   "hankkeet_ja_keskukset": "K-IE-0814"
   },
   {
    "komponentti": 56,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-03"
+   "hankkeet_ja_keskukset": "K-IE-d7ff"
   },
   {
    "komponentti": 57,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-04"
+   "hankkeet_ja_keskukset": "K-IE-8525"
   },
   {
    "komponentti": 58,
    "solmuja": 2,
    "maita": 1,
-   "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-06"
+   "maat": "LV",
+   "hankkeet_ja_keskukset": "K-LV-2fac"
   },
   {
    "komponentti": 59,
    "solmuja": 2,
    "maita": 1,
-   "maat": "IE",
-   "hankkeet_ja_keskukset": "K-IE-07"
+   "maat": "LV",
+   "hankkeet_ja_keskukset": "K-LV-37ba"
   },
   {
    "komponentti": 60,
    "solmuja": 2,
    "maita": 1,
    "maat": "LV",
-   "hankkeet_ja_keskukset": "K-LV-03"
+   "hankkeet_ja_keskukset": "K-LV-cbb2"
   },
   {
    "komponentti": 61,
    "solmuja": 2,
    "maita": 1,
-   "maat": "LV",
-   "hankkeet_ja_keskukset": "K-LV-05"
+   "maat": "SE",
+   "hankkeet_ja_keskukset": "K-SE-dbb8"
   },
   {
    "komponentti": 62,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "K-SE-01"
+   "hankkeet_ja_keskukset": "K-SE-be89"
   },
   {
    "komponentti": 63,
    "solmuja": 2,
    "maita": 1,
    "maat": "SE",
-   "hankkeet_ja_keskukset": "K-SE-02"
+   "hankkeet_ja_keskukset": "K-SE-8b1e"
   },
   {
    "komponentti": 64,
-   "solmuja": 2,
-   "maita": 1,
-   "maat": "SE",
-   "hankkeet_ja_keskukset": "K-SE-03"
-  },
-  {
-   "komponentti": 65,
    "solmuja": 2,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "H-IE-JTF"
   },
   {
-   "komponentti": 66,
+   "komponentti": 65,
    "solmuja": 1,
    "maita": 1,
    "maat": "FI",
    "hankkeet_ja_keskukset": "FI-10"
   },
   {
+   "komponentti": 66,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "DE-NI",
+   "hankkeet_ja_keskukset": "K-DE-NI-7a94"
+  },
+  {
    "komponentti": 67,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "DE-NI",
+   "hankkeet_ja_keskukset": "K-DE-NI-c05c"
+  },
+  {
+   "komponentti": 68,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "DE-NI",
+   "hankkeet_ja_keskukset": "K-DE-NI-d90f"
+  },
+  {
+   "komponentti": 69,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "DE-NI",
+   "hankkeet_ja_keskukset": "K-DE-NI-cc25"
+  },
+  {
+   "komponentti": 70,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "DE-NI",
+   "hankkeet_ja_keskukset": "K-DE-NI-e128"
+  },
+  {
+   "komponentti": 71,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "IE",
+   "hankkeet_ja_keskukset": "E-IE-9275"
+  },
+  {
+   "komponentti": 72,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "IE",
+   "hankkeet_ja_keskukset": "E-IE-2cb2"
+  },
+  {
+   "komponentti": 73,
+   "solmuja": 1,
+   "maita": 1,
+   "maat": "IE",
+   "hankkeet_ja_keskukset": "E-IE-9676"
+  },
+  {
+   "komponentti": 74,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-SH",
@@ -497,7 +546,19 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.017,
+   "valityskeskeisyys": 0.0349,
+   "komponentti": 1
+  },
+  {
+   "id": "silava",
+   "nimi": "LSFRI Silava",
+   "maa": "LV",
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 9,
+   "keskuksia": 1,
+   "keskukset": "H-LV",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0265,
    "komponentti": 1
   },
   {
@@ -509,7 +570,7 @@
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0091,
+   "valityskeskeisyys": 0.0146,
    "komponentti": 1
   },
   {
@@ -521,19 +582,19 @@
    "keskuksia": 1,
    "keskukset": "H-FI-AKA",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0085,
+   "valityskeskeisyys": 0.0118,
    "komponentti": 1
   },
   {
-   "id": "hy",
-   "nimi": "Helsingin yliopisto",
-   "maa": "FI",
+   "id": "lu",
+   "nimi": "Latvian yliopisto",
+   "maa": "LV",
    "tyyppi": "yliopisto",
-   "hankkeita": 5,
-   "keskuksia": 2,
-   "keskukset": "H-FI H-FI-AKA",
+   "hankkeita": 4,
+   "keskuksia": 1,
+   "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0059,
+   "valityskeskeisyys": 0.011,
    "komponentti": 1
   },
   {
@@ -545,31 +606,19 @@
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0054,
+   "valityskeskeisyys": 0.007,
    "komponentti": 1
   },
   {
-   "id": "silava",
-   "nimi": "LSFRI Silava",
-   "maa": "LV",
-   "tyyppi": "tutkimuslaitos",
-   "hankkeita": 4,
-   "keskuksia": 1,
-   "keskukset": "H-LV",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0046,
-   "komponentti": 1
-  },
-  {
-   "id": "oy",
-   "nimi": "Oulun yliopisto",
+   "id": "hy",
+   "nimi": "Helsingin yliopisto",
    "maa": "FI",
    "tyyppi": "yliopisto",
-   "hankkeita": 2,
-   "keskuksia": 1,
-   "keskukset": "H-FI",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0029,
+   "hankkeita": 5,
+   "keskuksia": 2,
+   "keskukset": "H-FI H-FI-AKA",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0068,
    "komponentti": 1
   },
   {
@@ -580,21 +629,57 @@
    "hankkeita": 3,
    "keskuksia": 2,
    "keskukset": "H-IE-GAL H-IE-LIFE",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0018,
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0037,
    "komponentti": 2
   },
   {
-   "id": "nlwkn",
-   "nimi": "NLWKN",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 8,
+   "id": "oy",
+   "nimi": "Oulun yliopisto",
+   "maa": "FI",
+   "tyyppi": "yliopisto",
+   "hankkeita": 2,
+   "keskuksia": 1,
+   "keskukset": "H-FI",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0037,
+   "komponentti": 1
+  },
+  {
+   "id": "arei",
+   "nimi": "Institute of Agricultural Resources and Economics",
+   "maa": "LV",
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 2,
+   "keskuksia": 1,
+   "keskukset": "H-LV",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.003,
+   "komponentti": 1
+  },
+  {
+   "id": "lbtu",
+   "nimi": "Latvia University of Life Sciences and Technologies",
+   "maa": "LV",
+   "tyyppi": "yliopisto",
+   "hankkeita": 2,
+   "keskuksia": 1,
+   "keskukset": "H-LV",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0026,
+   "komponentti": 1
+  },
+  {
+   "id": "teagasc",
+   "nimi": "Teagasc",
+   "maa": "IE",
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 3,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0017,
-   "komponentti": 3
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0024,
+   "komponentti": 2
   },
   {
    "id": "metsakeskus",
@@ -605,43 +690,31 @@
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0016,
+   "valityskeskeisyys": 0.0019,
    "komponentti": 1
   },
   {
-   "id": "nmu",
-   "nimi": "Niedersächsisches Umweltministerium",
+   "id": "nlwkn",
+   "nimi": "NLWKN",
    "maa": "DE-NI",
    "tyyppi": "viranomainen",
-   "hankkeita": 2,
+   "hankkeita": 8,
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0006,
+   "valityskeskeisyys": 0.0014,
    "komponentti": 3
-  },
-  {
-   "id": "naturschutzstiftung-des-landkreises-cuxh",
-   "nimi": "Naturschutzstiftung des Landkreises Cuxhaven",
-   "maa": "DE-NI",
-   "tyyppi": "jarjesto",
-   "hankkeita": 6,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0005,
-   "komponentti": 5
   },
   {
    "id": "gri",
    "nimi": "Green Restoration Ireland",
    "maa": "IE",
    "tyyppi": "jarjesto",
-   "hankkeita": 2,
+   "hankkeita": 3,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0005,
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0014,
    "komponentti": 2
   },
   {
@@ -653,32 +726,32 @@
    "keskuksia": 1,
    "keskukset": "H-IE-LIFE",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0005,
+   "valityskeskeisyys": 0.0006,
    "komponentti": 2
   },
   {
-   "id": "landesamt-f-bergbau-energie-u-geologie",
-   "nimi": "Landesamt f. Bergbau, Energie u Geologie",
+   "id": "nmu",
+   "nimi": "Niedersächsisches Umweltministerium",
    "maa": "DE-NI",
    "tyyppi": "viranomainen",
-   "hankkeita": 4,
+   "hankkeita": 2,
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0002,
-   "komponentti": 8
+   "valityskeskeisyys": 0.0005,
+   "komponentti": 3
   },
   {
-   "id": "keha",
-   "nimi": "ELY-keskusten kehittämis- ja hallintokeskus (KEHA)",
-   "maa": "FI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 3,
+   "id": "naturschutzstiftung-des-landkreises-cuxh",
+   "nimi": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "maa": "DE-NI",
+   "tyyppi": "jarjesto",
+   "hankkeita": 6,
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0002,
-   "komponentti": 6
+   "valityskeskeisyys": 0.0004,
+   "komponentti": 4
   },
   {
    "id": "il",
@@ -691,6 +764,18 @@
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0002,
    "komponentti": 1
+  },
+  {
+   "id": "keha",
+   "nimi": "ELY-keskusten kehittämis- ja hallintokeskus (KEHA)",
+   "maa": "FI",
+   "tyyppi": "viranomainen",
+   "hankkeita": 3,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0001,
+   "komponentti": 5
   },
   {
    "id": "nabu-kreisverband-gifhorn-e-v",
@@ -870,7 +955,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 6
+   "komponentti": 5
   },
   {
    "id": "pp-ely",
@@ -882,7 +967,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 23
+   "komponentti": 22
   },
   {
    "id": "ks-ely",
@@ -933,32 +1018,8 @@
    "komponentti": 1
   },
   {
-   "id": "lu",
-   "nimi": "Latvian yliopisto",
-   "maa": "LV",
-   "tyyppi": "yliopisto",
-   "hankkeita": 1,
-   "keskuksia": 1,
-   "keskukset": "H-LV",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 1
-  },
-  {
    "id": "rtu",
    "nimi": "Riga Technical University",
-   "maa": "LV",
-   "tyyppi": "yliopisto",
-   "hankkeita": 1,
-   "keskuksia": 1,
-   "keskukset": "H-LV",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 1
-  },
-  {
-   "id": "lbtu",
-   "nimi": "Latvia University of Life Sciences and Technologies",
    "maa": "LV",
    "tyyppi": "yliopisto",
    "hankkeita": 1,
@@ -983,18 +1044,6 @@
   {
    "id": "lathort",
    "nimi": "Institute of Horticulture (LatHort)",
-   "maa": "LV",
-   "tyyppi": "tutkimuslaitos",
-   "hankkeita": 1,
-   "keskuksia": 1,
-   "keskukset": "H-LV",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 1
-  },
-  {
-   "id": "arei",
-   "nimi": "Institute of Agricultural Resources and Economics",
    "maa": "LV",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1038,7 +1087,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 7
+   "komponentti": 6
   },
   {
    "id": "wsi",
@@ -1050,7 +1099,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 7
+   "komponentti": 6
   },
   {
    "id": "irl",
@@ -1062,7 +1111,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 7
+   "komponentti": 6
   },
   {
    "id": "umeras",
@@ -1074,19 +1123,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 7
-  },
-  {
-   "id": "teagasc",
-   "nimi": "Teagasc",
-   "maa": "IE",
-   "tyyppi": "tutkimuslaitos",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 2
+   "komponentti": 6
   },
   {
    "id": "tcd",
@@ -1146,7 +1183,7 @@
    "keskukset": "H-FI H-IE-JTF",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 65
+   "komponentti": 64
   },
   {
    "id": "ml-ni",
@@ -1170,7 +1207,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 24
+   "komponentti": 23
   },
   {
    "id": "landkreis-luneburg",
@@ -1182,7 +1219,91 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 25
+   "komponentti": 24
+  },
+  {
+   "id": "offis",
+   "nimi": "OFFIS Institut für Informatik",
+   "maa": "DE-NI",
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 7
+  },
+  {
+   "id": "thorkas-ug-i-g",
+   "nimi": "Thorkas UG i.G.",
+   "maa": "DE-NI",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 7
+  },
+  {
+   "id": "bonk-baumschulen-handels-gmbh",
+   "nimi": "Bonk Baumschulen Handels GmbH",
+   "maa": "DE-NI",
+   "tyyppi": "yritys",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 7
+  },
+  {
+   "id": "baumschul-beratungsring-weser-ems-e-v",
+   "nimi": "Baumschul-Beratungsring Weser-Ems e.V.",
+   "maa": "DE-NI",
+   "tyyppi": "jarjesto",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 7
+  },
+  {
+   "id": "hochschule-hannover",
+   "nimi": "Hochschule Hannover",
+   "maa": "DE-NI",
+   "tyyppi": "amk",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 8
+  },
+  {
+   "id": "dammtechnik-neuhaus",
+   "nimi": "Dämmtechnik Neuhaus",
+   "maa": "DE-NI",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 8
+  },
+  {
+   "id": "wester-gbr",
+   "nimi": "Wester GbR",
+   "maa": "DE-NI",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 8
   },
   {
    "id": "universitat-rostock",
@@ -1194,7 +1315,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 26
+   "komponentti": 25
   },
   {
    "id": "torfwerk-moorkultur-ramsloh-werner-koch-",
@@ -1206,7 +1327,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 27
+   "komponentti": 26
   },
   {
    "id": "schmedt",
@@ -1218,7 +1339,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 28
+   "komponentti": 27
   },
   {
    "id": "archehof-rolfes",
@@ -1230,7 +1351,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 29
+   "komponentti": 28
   },
   {
    "id": "naturschutzstiftung-grafschaft-bentheim",
@@ -1242,7 +1363,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 30
+   "komponentti": 29
   },
   {
    "id": "landkreis-vechta",
@@ -1254,11 +1375,11 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 31
+   "komponentti": 30
   },
   {
-   "id": "arl-w-e-staatliche-moorverwaltung",
-   "nimi": "ArL W-E, Staatliche Moorverwaltung",
+   "id": "staatliche-moorverwaltung",
+   "nimi": "Staatliche Moorverwaltung",
    "maa": "DE-NI",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -1266,7 +1387,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 32
+   "komponentti": 31
   },
   {
    "id": "landkreis-verden",
@@ -1278,7 +1399,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 33
+   "komponentti": 32
   },
   {
    "id": "niedersachsische-landesforsten-aor",
@@ -1290,7 +1411,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 34
+   "komponentti": 33
   },
   {
    "id": "niedersachsische-landesforsten-aor-forst",
@@ -1302,7 +1423,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 35
+   "komponentti": 34
   },
   {
    "id": "niedersachsische-landesforsten-a-o-r-for",
@@ -1314,19 +1435,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 36
-  },
-  {
-   "id": "region-hannover",
-   "nimi": "Region Hannover",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 37
+   "komponentti": 35
   },
   {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
@@ -1336,9 +1445,9 @@
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
+   "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 4
+   "komponentti": 2
   },
   {
    "id": "boerenbond-projecten-vzw",
@@ -1348,9 +1457,9 @@
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
+   "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 4
+   "komponentti": 2
   },
   {
    "id": "constellr-gmbh",
@@ -1360,9 +1469,9 @@
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
+   "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 4
+   "komponentti": 2
   },
   {
    "id": "eigen-vermogen-van-het-instituut-voor-la",
@@ -1372,93 +1481,9 @@
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
+   "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 4
-  },
-  {
-   "id": "green-restoration-ireland-co-operative-s",
-   "nimi": "Green Restoration Ireland Co-Operative Society Ltd",
-   "maa": "DE-NI",
-   "tyyppi": "yritys",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 4
-  },
-  {
-   "id": "multitel-asbl",
-   "nimi": "Multitel asbl",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 4
-  },
-  {
-   "id": "ontwikkelingsmaatschappij-oost-nederland",
-   "nimi": "Ontwikkelingsmaatschappij Oost-Nederland NV",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 4
-  },
-  {
-   "id": "teagasc-agriculture-and-food-development",
-   "nimi": "Teagasc – Agriculture and Food Development Authority",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 4
-  },
-  {
-   "id": "tgo-ag",
-   "nimi": "Tgo AG",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 4
-  },
-  {
-   "id": "ver-de-terre-production",
-   "nimi": "Ver de Terre Production",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 4
-  },
-  {
-   "id": "zuidelijke-land-en-tuinbouw-organisatie",
-   "nimi": "Zuidelijke Land- en Tuinbouw Organisatie",
-   "maa": "DE-NI",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 4
+   "komponentti": 2
   },
   {
    "id": "carl-von-ossietzky-universitat-oldenburg",
@@ -1470,7 +1495,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 38
+   "komponentti": 36
   },
   {
    "id": "europaisches-fachzentrum-moor-und-klima-",
@@ -1482,7 +1507,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 39
+   "komponentti": 37
   },
   {
    "id": "akcelerator-drustvenih-promjena-zid",
@@ -1494,7 +1519,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 40
+   "komponentti": 38
   },
   {
    "id": "association-des-chambres-d-agriculture-d",
@@ -1506,7 +1531,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 41
+   "komponentti": 39
   },
   {
    "id": "van-hall-larenstein-university-of-applie",
@@ -1518,7 +1543,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 42
+   "komponentti": 40
   },
   {
    "id": "broads-authority",
@@ -1530,7 +1555,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 43
+   "komponentti": 41
   },
   {
    "id": "lapin-ammattikorkeakoulu-oy",
@@ -1542,7 +1567,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 44
+   "komponentti": 42
   },
   {
    "id": "pohjois-savon-luonnonsuojelupiiri-ry",
@@ -1554,7 +1579,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 45
+   "komponentti": 43
   },
   {
    "id": "upm-kymmene-oyj",
@@ -1566,7 +1591,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 46
+   "komponentti": 44
   },
   {
    "id": "lappeenrannan-lahden-teknillinen-yliopis",
@@ -1590,7 +1615,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 47
+   "komponentti": 45
   },
   {
    "id": "linttipower-oy",
@@ -1602,7 +1627,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 48
+   "komponentti": 46
   },
   {
    "id": "luontokollektiivi-ry",
@@ -1614,7 +1639,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 49
+   "komponentti": 47
   },
   {
    "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
@@ -1626,7 +1651,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 50
+   "komponentti": 48
   },
   {
    "id": "turun-yliopisto",
@@ -1686,7 +1711,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 51
+   "komponentti": 49
   },
   {
    "id": "mikkelin-kaupunki",
@@ -1698,7 +1723,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 52
+   "komponentti": 50
   },
   {
    "id": "tapio-oy",
@@ -1710,7 +1735,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 53
+   "komponentti": 51
   },
   {
    "id": "geologian-tutkimuskeskus",
@@ -1725,6 +1750,30 @@
    "komponentti": 1
   },
   {
+   "id": "blackstairs-farming-group",
+   "nimi": "Blackstairs Farming Group",
+   "maa": "IE",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 2
+  },
+  {
+   "id": "galway-mayo-institute-of-technology",
+   "nimi": "Galway Mayo Institute of Technology",
+   "maa": "IE",
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 2
+  },
+  {
    "id": "rspb-ni",
    "nimi": "Rspb Ni",
    "maa": "IE",
@@ -1734,11 +1783,11 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 54
+   "komponentti": 52
   },
   {
-   "id": "newry-mourne-and-down-district-council",
-   "nimi": "Newry, Mourne and Down District Council",
+   "id": "mourne-and-down-district-council",
+   "nimi": "Mourne and Down District Council",
    "maa": "IE",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -1746,7 +1795,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 55
+   "komponentti": 53
   },
   {
    "id": "ecochip-energy-ltd",
@@ -1758,7 +1807,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 56
+   "komponentti": 54
   },
   {
    "id": "kelly-s-nursery-ltd",
@@ -1770,7 +1819,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 57
+   "komponentti": 55
   },
   {
    "id": "derrymore-peat-ltd",
@@ -1782,7 +1831,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 58
+   "komponentti": 56
   },
   {
    "id": "strawchip-ltd",
@@ -1794,7 +1843,79 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 59
+   "komponentti": 57
+  },
+  {
+   "id": "olga-steinberga-sia-latvijas-lauku-konsu",
+   "nimi": "Olga Šteinberga; SIA \"Latvijas Lauku konsultāciju un izglītības centrs",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "mpks-mezsaimnieks",
+   "nimi": "MPKS „Mežsaimnieks”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "zs-lielvaiceni",
+   "nimi": "ZS Lielvaicēni",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "biedriba-preilu-lauksaimnieku-apvieniba",
+   "nimi": "Biedrība \"Preiļu lauksaimnieku apvienība",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "zemnieku-saimnieciba-kaigi",
+   "nimi": "zemnieku saimniecība “Kaigi”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "sia-komercsabiedriba-arosa-r",
+   "nimi": "SIA komercsabiedrība “Arosa R”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
   },
   {
    "id": "valmieras-novada-pasvaldiba",
@@ -1806,7 +1927,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 60
+   "komponentti": 58
   },
   {
    "id": "priesgaisrines-apsaugos-ir-gelbejimo-dep",
@@ -1818,11 +1939,11 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 22
+   "komponentti": 59
   },
   {
-   "id": "valsts-ugunsdzesibas-un-glabsanas-dienes",
-   "nimi": "Valsts ugunsdzēsības un glābšanas dienests",
+   "id": "biedriba-baltijas-krasti",
+   "nimi": "Biedrība “Baltijas krasti”",
    "maa": "LV",
    "tyyppi": "viranomainen",
    "hankkeita": 1,
@@ -1830,11 +1951,95 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 22
+   "komponentti": 1
+  },
+  {
+   "id": "z-s-kaleji",
+   "nimi": "Z/S Kalēji",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "biedriba-latvijas-kudras-asociacija",
+   "nimi": "Biedrība \"Latvijas kūdras asociācija",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "llu-macibu-un-petijumu-saimnieciba-vecau",
+   "nimi": "LLU mācību un pētījumu saimniecība \"Vecauce",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "latvijas-cuku-audzetaju-asociacija",
+   "nimi": "Latvijas Cūku audzētāju asociācija",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "lauksaimniecibas-statutsabiedribu-asocia",
+   "nimi": "Lauksaimniecības statūtsabiedrību asociācija",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "stadu-un-kudras-inovaciju-fonds-skif",
+   "nimi": "Stādu un kūdras inovāciju fonds SKIF",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "zs-baltini",
+   "nimi": "ZS \"Baltiņi",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
   },
   {
    "id": "akciju-sabiedriba-latvijas-valsts-mezi",
-   "nimi": "Akciju sabiedrība \"Latvijas valsts meži\"",
+   "nimi": "Akciju sabiedrība \"Latvijas valsts meži",
    "maa": "LV",
    "tyyppi": "yritys",
    "hankkeita": 1,
@@ -1842,7 +2047,67 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 61
+   "komponentti": 60
+  },
+  {
+   "id": "z-s-kiburi",
+   "nimi": "Z/S Ķīburi",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "z-s-andrupeni",
+   "nimi": "Z/S Andrupēni",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "biolat",
+   "nimi": "Biolat",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "gourmet-industries",
+   "nimi": "Gourmet Industries",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "stadu-un-kudras-inovaciju-fonds",
+   "nimi": "Stādu Un Kūdras Inovāciju Fonds",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
   },
   {
    "id": "lansstyrelsen-i-norrbottens-lan",
@@ -1854,7 +2119,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 62
+   "komponentti": 61
   },
   {
    "id": "skogsstyrelsen",
@@ -1866,7 +2131,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 63
+   "komponentti": 62
   },
   {
    "id": "swedish-forest-agency",
@@ -1878,7 +2143,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 64
+   "komponentti": 63
   }
  ],
  "missing_links": [
@@ -1886,7 +2151,7 @@
    "a": "IE-01",
    "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
    "a_maa": "IE",
-   "b": "K-DE-NI-05",
+   "b": "K-DE-NI-7a94",
    "b_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
    "b_maa": "DE-NI",
    "jaccard": 1.0,
@@ -1899,7 +2164,7 @@
    "a": "IE-01",
    "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
    "a_maa": "IE",
-   "b": "K-DE-NI-20",
+   "b": "K-DE-NI-cc25",
    "b_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
    "b_maa": "DE-NI",
    "jaccard": 1.0,
@@ -1912,20 +2177,7 @@
    "a": "IE-01",
    "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
    "a_maa": "IE",
-   "b": "K-DE-NI-46",
-   "b_nimi": "Smart Carbon Farming",
-   "b_maa": "DE-NI",
-   "jaccard": 1.0,
-   "yhteiset_teemat": "T2,T6",
-   "etaisyys": "ei polkua",
-   "tyyppi": "maiden välinen",
-   "paras_naytto": 3
-  },
-  {
-   "a": "IE-01",
-   "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
-   "a_maa": "IE",
-   "b": "K-EU-03",
+   "b": "K-EU-48f5",
    "b_nimi": "Carbon Connects",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -1938,7 +2190,7 @@
    "a": "LV-02",
    "a_nimi": "Historiallisten turvealueiden elvyttäminen",
    "a_maa": "LV",
-   "b": "K-FI-17",
+   "b": "K-FI-7c34",
    "b_nimi": "Satakunta peatlands: from peat production to new livelihoods and meanings",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -1964,7 +2216,7 @@
    "a": "IE-02",
    "a_nimi": "FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille",
    "a_maa": "IE",
-   "b": "K-DE-NI-18",
+   "b": "K-DE-NI-410f",
    "b_nimi": "Maintenance of wet grassland in the EU – Bird protection area",
    "b_maa": "DE-NI",
    "jaccard": 1.0,
@@ -1977,7 +2229,7 @@
    "a": "IE-02",
    "a_nimi": "FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille",
    "a_maa": "IE",
-   "b": "K-DE-NI-26",
+   "b": "K-DE-NI-9163",
    "b_nimi": "Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",
    "b_maa": "DE-NI",
    "jaccard": 1.0,
@@ -1987,10 +2239,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-08",
+   "b": "K-FI-6c73",
    "b_nimi": "Konttisuo restoration plan",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2000,10 +2252,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-09",
+   "b": "K-FI-56cf",
    "b_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2013,10 +2265,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-11",
+   "b": "K-FI-6978",
    "b_nimi": "Peat Bogs to Wetlands",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2026,10 +2278,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-12",
+   "b": "K-FI-e290",
    "b_nimi": "Restoration and water protection project of South-Eastern Finland",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2039,10 +2291,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-13",
+   "b": "K-FI-8d28",
    "b_nimi": "Restoration of Linttiräme after Peat Production",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2052,10 +2304,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-15",
+   "b": "K-FI-cb20",
    "b_nimi": "Restoration of the Western Valkeasuo Mire",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2065,10 +2317,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-16",
+   "b": "K-FI-16d2",
    "b_nimi": "Restoration plan for the bog Pirttineva, previous peat production site",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2078,10 +2330,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-23",
+   "b": "K-FI-3bb2",
    "b_nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2091,10 +2343,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2104,10 +2356,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-08",
+   "b": "K-FI-6c73",
    "b_nimi": "Konttisuo restoration plan",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2117,10 +2369,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-11",
+   "b": "K-FI-6978",
    "b_nimi": "Peat Bogs to Wetlands",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2130,10 +2382,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-12",
+   "b": "K-FI-e290",
    "b_nimi": "Restoration and water protection project of South-Eastern Finland",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2143,10 +2395,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-15",
+   "b": "K-FI-cb20",
    "b_nimi": "Restoration of the Western Valkeasuo Mire",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2156,10 +2408,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-23",
+   "b": "K-FI-3bb2",
    "b_nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2169,10 +2421,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2182,10 +2434,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-08",
+   "b": "K-FI-6c73",
    "b_nimi": "Konttisuo restoration plan",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2195,10 +2447,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-11",
+   "b": "K-FI-6978",
    "b_nimi": "Peat Bogs to Wetlands",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2208,10 +2460,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-12",
+   "b": "K-FI-e290",
    "b_nimi": "Restoration and water protection project of South-Eastern Finland",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2221,10 +2473,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-15",
+   "b": "K-FI-cb20",
    "b_nimi": "Restoration of the Western Valkeasuo Mire",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2234,10 +2486,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-23",
+   "b": "K-FI-3bb2",
    "b_nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2247,10 +2499,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2260,10 +2512,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-07",
+   "a": "K-FI-2fcc",
    "a_nimi": "Heinäpuro restoration project",
    "a_maa": "FI",
-   "b": "K-LV-01",
+   "b": "K-LV-4390",
    "b_nimi": "Development of a storm damage risk assessment tool for peat soils",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2273,10 +2525,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-08",
+   "a": "K-FI-6c73",
    "a_nimi": "Konttisuo restoration plan",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2286,10 +2538,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-09",
+   "a": "K-FI-56cf",
    "a_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2299,10 +2551,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-11",
+   "a": "K-FI-6978",
    "a_nimi": "Peat Bogs to Wetlands",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2312,10 +2564,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-12",
+   "a": "K-FI-e290",
    "a_nimi": "Restoration and water protection project of South-Eastern Finland",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2325,10 +2577,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-13",
+   "a": "K-FI-8d28",
    "a_nimi": "Restoration of Linttiräme after Peat Production",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2338,10 +2590,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-15",
+   "a": "K-FI-cb20",
    "a_nimi": "Restoration of the Western Valkeasuo Mire",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2351,10 +2603,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-16",
+   "a": "K-FI-16d2",
    "a_nimi": "Restoration plan for the bog Pirttineva, previous peat production site",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2364,10 +2616,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-23",
+   "a": "K-FI-3bb2",
    "a_nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2377,10 +2629,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
-   "b": "K-EU-02",
+   "b": "K-EU-0882",
    "b_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -2390,10 +2642,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
-   "b": "K-EU-02",
+   "b": "K-EU-0882",
    "b_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -2403,10 +2655,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-05",
+   "a": "K-DE-NI-7a94",
    "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
    "a_maa": "DE-NI",
-   "b": "K-EU-03",
+   "b": "K-EU-48f5",
    "b_nimi": "Carbon Connects",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -2416,10 +2668,62 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-20",
+   "a": "E-DE-NI-b06d",
+   "a_nimi": "Industrial raw material using bog sites – I-ROBI",
+   "a_maa": "DE-NI",
+   "b": "K-IE-7fa4",
+   "b_nimi": "Peatlands For Prosperity Project: Cultivating Paludiculture for Resilience",
+   "b_maa": "IE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T3",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-410f",
+   "a_nimi": "Maintenance of wet grassland in the EU – Bird protection area",
+   "a_maa": "DE-NI",
+   "b": "E-IE-9275",
+   "b_nimi": "A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks",
+   "b_maa": "IE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-410f",
+   "a_nimi": "Maintenance of wet grassland in the EU – Bird protection area",
+   "a_maa": "DE-NI",
+   "b": "E-IE-e6ef",
+   "b_nimi": "Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains",
+   "b_maa": "IE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-410f",
+   "a_nimi": "Maintenance of wet grassland in the EU – Bird protection area",
+   "a_maa": "DE-NI",
+   "b": "E-IE-2cb2",
+   "b_nimi": "Inishowen Upland Farmers Project",
+   "b_maa": "IE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-cc25",
    "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
    "a_maa": "DE-NI",
-   "b": "K-EU-03",
+   "b": "K-EU-48f5",
    "b_nimi": "Carbon Connects",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -2429,10 +2733,49 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-9163",
+   "a_nimi": "Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",
+   "a_maa": "DE-NI",
+   "b": "E-IE-9275",
+   "b_nimi": "A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks",
+   "b_maa": "IE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-9163",
+   "a_nimi": "Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",
+   "a_maa": "DE-NI",
+   "b": "E-IE-e6ef",
+   "b_nimi": "Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains",
+   "b_maa": "IE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-9163",
+   "a_nimi": "Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",
+   "a_maa": "DE-NI",
+   "b": "E-IE-2cb2",
+   "b_nimi": "Inishowen Upland Farmers Project",
+   "b_maa": "IE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
-   "b": "K-EU-02",
+   "b": "K-EU-0882",
    "b_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -2442,10 +2785,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
-   "b": "K-EU-02",
+   "b": "K-EU-0882",
    "b_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -2455,10 +2798,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-09",
+   "b": "K-FI-56cf",
    "b_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2468,10 +2811,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-13",
+   "b": "K-FI-8d28",
    "b_nimi": "Restoration of Linttiräme after Peat Production",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2481,10 +2824,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-16",
+   "b": "K-FI-16d2",
    "b_nimi": "Restoration plan for the bog Pirttineva, previous peat production site",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2494,10 +2837,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-46",
+   "a": "K-DE-NI-d14f",
    "a_nimi": "Smart Carbon Farming",
    "a_maa": "DE-NI",
-   "b": "K-EU-03",
+   "b": "K-EU-48f5",
    "b_nimi": "Carbon Connects",
    "b_maa": "EU",
    "jaccard": 1.0,
@@ -2507,10 +2850,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-09",
+   "b": "K-FI-56cf",
    "b_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2520,10 +2863,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-13",
+   "b": "K-FI-8d28",
    "b_nimi": "Restoration of Linttiräme after Peat Production",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2533,10 +2876,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-16",
+   "b": "K-FI-16d2",
    "b_nimi": "Restoration plan for the bog Pirttineva, previous peat production site",
    "b_maa": "FI",
    "jaccard": 1.0,
@@ -2546,10 +2889,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-01",
+   "a": "K-EU-5a7e",
    "a_nimi": "Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",
    "a_maa": "EU",
-   "b": "K-IE-02",
+   "b": "K-IE-0b63",
    "b_nimi": "Collaborative Action for the Natural Network",
    "b_maa": "IE",
    "jaccard": 1.0,
@@ -2559,10 +2902,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-01",
+   "a": "K-EU-5a7e",
    "a_nimi": "Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",
    "a_maa": "EU",
-   "b": "K-LV-04",
+   "b": "K-LV-37ba",
    "b_nimi": "Improving cross border cooperation in the field of peat fire prevention and response",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2572,7 +2915,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-FI-17",
+   "a": "K-FI-7c34",
    "a_nimi": "Satakunta peatlands: from peat production to new livelihoods and meanings",
    "a_maa": "FI",
    "b": "X-IE-NAT",
@@ -2585,10 +2928,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-IE-02",
+   "a": "K-IE-0b63",
    "a_nimi": "Collaborative Action for the Natural Network",
    "a_maa": "IE",
-   "b": "K-LV-04",
+   "b": "K-LV-37ba",
    "b_nimi": "Improving cross border cooperation in the field of peat fire prevention and response",
    "b_maa": "LV",
    "jaccard": 1.0,
@@ -2601,7 +2944,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-14",
+   "b": "K-FI-9cd5",
    "b_nimi": "Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026",
    "b_maa": "FI",
    "jaccard": 0.75,
@@ -2611,10 +2954,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-14",
+   "b": "K-FI-9cd5",
    "b_nimi": "Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026",
    "b_maa": "FI",
    "jaccard": 0.75,
@@ -2627,7 +2970,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-IE-06",
+   "b": "K-IE-d7ff",
    "b_nimi": "Sphagnum Farming",
    "b_maa": "IE",
    "jaccard": 0.75,
@@ -2663,10 +3006,23 @@
    "paras_naytto": 0
   },
   {
+   "a": "FI-07",
+   "a_nimi": "TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi",
+   "a_maa": "FI",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": 8,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 4
+  },
+  {
    "a": "IE-01",
    "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
    "a_maa": "IE",
-   "b": "K-FI-18",
+   "b": "K-FI-9511",
    "b_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2679,9 +3035,35 @@
    "a": "IE-01",
    "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
    "a_maa": "IE",
-   "b": "K-FI-24",
+   "b": "K-FI-c4ea",
    "b_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
    "b_maa": "FI",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 3
+  },
+  {
+   "a": "IE-01",
+   "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
+   "a_maa": "IE",
+   "b": "E-LV-6430",
+   "b_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 3
+  },
+  {
+   "a": "IE-01",
+   "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
+   "a_maa": "IE",
+   "b": "E-LV-e70c",
+   "b_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "b_maa": "LV",
    "jaccard": 0.67,
    "yhteiset_teemat": "T2,T6",
    "etaisyys": "ei polkua",
@@ -2692,7 +3074,7 @@
    "a": "LV-01",
    "a_nimi": "PeatTransform – turvesektorin TKI-pohjainen siirtymä",
    "a_maa": "LV",
-   "b": "K-FI-27",
+   "b": "K-FI-0ac6",
    "b_nimi": "Value from the carbon market for the next land use of peat production areas",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2770,7 +3152,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-08",
+   "b": "K-FI-6c73",
    "b_nimi": "Konttisuo restoration plan",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2783,7 +3165,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-11",
+   "b": "K-FI-6978",
    "b_nimi": "Peat Bogs to Wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2796,7 +3178,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-12",
+   "b": "K-FI-e290",
    "b_nimi": "Restoration and water protection project of South-Eastern Finland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2809,7 +3191,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-15",
+   "b": "K-FI-cb20",
    "b_nimi": "Restoration of the Western Valkeasuo Mire",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2822,7 +3204,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-23",
+   "b": "K-FI-3bb2",
    "b_nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2835,7 +3217,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -2845,10 +3227,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2858,10 +3240,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2871,10 +3253,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2884,10 +3266,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2897,10 +3279,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2910,10 +3292,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2923,10 +3305,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2936,10 +3318,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2949,10 +3331,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-05",
+   "a": "K-DE-NI-7a94",
    "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-24",
+   "b": "K-FI-c4ea",
    "b_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2962,10 +3344,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-20",
+   "a": "K-DE-NI-cc25",
    "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
    "a_maa": "DE-NI",
-   "b": "K-FI-24",
+   "b": "K-FI-c4ea",
    "b_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2975,10 +3357,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -2988,10 +3370,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3001,10 +3383,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3014,10 +3396,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3027,10 +3409,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3040,10 +3422,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3053,10 +3435,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3066,10 +3448,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3079,10 +3461,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-07",
+   "b": "K-FI-2fcc",
    "b_nimi": "Heinäpuro restoration project",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3092,10 +3474,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-08",
+   "b": "K-FI-6c73",
    "b_nimi": "Konttisuo restoration plan",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3105,10 +3487,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-11",
+   "b": "K-FI-6978",
    "b_nimi": "Peat Bogs to Wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3118,10 +3500,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-12",
+   "b": "K-FI-e290",
    "b_nimi": "Restoration and water protection project of South-Eastern Finland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3131,10 +3513,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-15",
+   "b": "K-FI-cb20",
    "b_nimi": "Restoration of the Western Valkeasuo Mire",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3144,10 +3526,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-23",
+   "b": "K-FI-3bb2",
    "b_nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3157,10 +3539,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3170,10 +3552,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3183,10 +3565,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3196,10 +3578,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3209,10 +3591,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3222,10 +3604,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3235,10 +3617,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3248,7 +3630,7 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-40",
+   "a": "K-DE-NI-0e2b",
    "a_nimi": "Rewetting Sauerbach",
    "a_maa": "DE-NI",
    "b": "X-IE-LIFE",
@@ -3261,10 +3643,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3274,10 +3656,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3287,10 +3669,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3300,10 +3682,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3313,10 +3695,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-46",
+   "a": "K-DE-NI-d14f",
    "a_nimi": "Smart Carbon Farming",
    "a_maa": "DE-NI",
-   "b": "K-FI-24",
+   "b": "K-FI-c4ea",
    "b_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3326,10 +3708,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3339,10 +3721,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3352,10 +3734,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3365,10 +3747,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3378,10 +3760,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-EU-02",
+   "a": "K-EU-0882",
    "a_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "a_maa": "EU",
-   "b": "K-FI-01",
+   "b": "K-FI-b095",
    "b_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3391,10 +3773,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-EU-02",
+   "a": "K-EU-0882",
    "a_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "a_maa": "EU",
-   "b": "K-FI-19",
+   "b": "K-FI-06b9",
    "b_nimi": "Suokeidas - From peat production to diverse wetlands",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3404,10 +3786,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-EU-02",
+   "a": "K-EU-0882",
    "a_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "a_maa": "EU",
-   "b": "K-FI-20",
+   "b": "K-FI-b38f",
    "b_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3417,10 +3799,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-EU-02",
+   "a": "K-EU-0882",
    "a_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "a_maa": "EU",
-   "b": "K-FI-26",
+   "b": "K-FI-665a",
    "b_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3430,10 +3812,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-EU-03",
+   "a": "K-EU-48f5",
    "a_nimi": "Carbon Connects",
    "a_maa": "EU",
-   "b": "K-FI-24",
+   "b": "K-FI-c4ea",
    "b_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3443,10 +3825,23 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-01",
+   "a": "K-FI-b095",
    "a_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-b095",
+   "a_nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
+   "a_maa": "FI",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3456,10 +3851,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-06",
+   "a": "K-FI-6894",
    "a_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3469,7 +3864,7 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-08",
+   "a": "K-FI-6c73",
    "a_nimi": "Konttisuo restoration plan",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -3482,10 +3877,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-10",
+   "a": "K-FI-561d",
    "a_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3495,7 +3890,7 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-11",
+   "a": "K-FI-6978",
    "a_nimi": "Peat Bogs to Wetlands",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -3508,7 +3903,7 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-12",
+   "a": "K-FI-e290",
    "a_nimi": "Restoration and water protection project of South-Eastern Finland",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -3521,7 +3916,7 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-15",
+   "a": "K-FI-cb20",
    "a_nimi": "Restoration of the Western Valkeasuo Mire",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -3534,10 +3929,23 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-19",
+   "a": "K-FI-06b9",
    "a_nimi": "Suokeidas - From peat production to diverse wetlands",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-06b9",
+   "a_nimi": "Suokeidas - From peat production to diverse wetlands",
+   "a_maa": "FI",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3547,10 +3955,23 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-20",
+   "a": "K-FI-b38f",
    "a_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-b38f",
+   "a_nimi": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
+   "a_maa": "FI",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3560,7 +3981,7 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-23",
+   "a": "K-FI-3bb2",
    "a_nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -3573,10 +3994,36 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-26",
+   "a": "K-FI-c4ea",
+   "a_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
+   "a_maa": "FI",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-665a",
    "a_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
    "a_maa": "FI",
-   "b": "K-LV-05",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-665a",
+   "a_nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
+   "a_maa": "FI",
+   "b": "K-LV-cbb2",
    "b_nimi": "Restoration of bog ecosystems in SACs",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3586,7 +4033,7 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-LV-05",
+   "a": "K-LV-cbb2",
    "a_nimi": "Restoration of bog ecosystems in SACs",
    "a_maa": "LV",
    "b": "X-IE-LIFE",
@@ -3602,7 +4049,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-09",
+   "b": "K-FI-56cf",
    "b_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3615,7 +4062,7 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-13",
+   "b": "K-FI-8d28",
    "b_nimi": "Restoration of Linttiräme after Peat Production",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3628,12 +4075,64 @@
    "a": "NI-01",
    "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
    "a_maa": "DE-NI",
-   "b": "K-FI-16",
+   "b": "K-FI-16d2",
    "b_nimi": "Restoration plan for the bog Pirttineva, previous peat production site",
    "b_maa": "FI",
    "jaccard": 0.67,
    "yhteiset_teemat": "T1,T5",
    "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "NI-01",
+   "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
+   "a_maa": "DE-NI",
+   "b": "E-IE-9275",
+   "b_nimi": "A Sustainable Agricultural Plan for the MacGillycuddy Reeks - Conservation and restoration of Upland Habitat in the MacGillycuddy Reeks",
+   "b_maa": "IE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "NI-01",
+   "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
+   "a_maa": "DE-NI",
+   "b": "E-IE-e6ef",
+   "b_nimi": "Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains",
+   "b_maa": "IE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "NI-01",
+   "a_nimi": "KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)",
+   "a_maa": "DE-NI",
+   "b": "E-IE-2cb2",
+   "b_nimi": "Inishowen Upland Farmers Project",
+   "b_maa": "IE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T5",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "FI-06",
+   "a_nimi": "Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu",
+   "a_maa": "FI",
+   "b": "E-LV-9406",
+   "b_nimi": "Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T3",
+   "etaisyys": 8,
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
   },
@@ -3654,6 +4153,19 @@
    "a": "FI-09",
    "a_nimi": "SuoLiike – suonpohjien uusi viljelyliiketoiminta",
    "a_maa": "FI",
+   "b": "E-LV-9406",
+   "b_nimi": "Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T3",
+   "etaisyys": 4,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "FI-09",
+   "a_nimi": "SuoLiike – suonpohjien uusi viljelyliiketoiminta",
+   "a_maa": "FI",
    "b": "X-IE-NAT",
    "b_nimi": "Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)",
    "b_maa": "IE",
@@ -3664,10 +4176,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3677,10 +4189,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3690,7 +4202,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-02",
+   "a": "K-DE-NI-accd",
    "a_nimi": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
    "a_maa": "DE-NI",
    "b": "X-IE-GAL",
@@ -3703,10 +4215,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3716,10 +4228,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3729,7 +4241,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-03",
+   "a": "K-DE-NI-f620",
    "a_nimi": "Climate protection and species protection through area protection in the tunschlickers Moor",
    "a_maa": "DE-NI",
    "b": "X-IE-GAL",
@@ -3742,10 +4254,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-05",
+   "a": "K-DE-NI-7a94",
    "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-18",
+   "b": "K-FI-9511",
    "b_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3755,10 +4267,36 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-08",
+   "a": "K-DE-NI-7a94",
+   "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "a_maa": "DE-NI",
+   "b": "E-LV-6430",
+   "b_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-7a94",
+   "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "a_maa": "DE-NI",
+   "b": "E-LV-e70c",
+   "b_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-dab1",
    "a_nimi": "Development of priorities in moor and climate protection in the district of Stade",
    "a_maa": "DE-NI",
-   "b": "K-EU-02",
+   "b": "K-EU-0882",
    "b_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "b_maa": "EU",
    "jaccard": 0.67,
@@ -3768,10 +4306,23 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-10",
+   "a": "K-DE-NI-c05c",
    "a_nimi": "Gnarrenburger Moor – Area concept and water management",
    "a_maa": "DE-NI",
-   "b": "K-LV-02",
+   "b": "E-LV-6430",
+   "b_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-c05c",
+   "a_nimi": "Gnarrenburger Moor – Area concept and water management",
+   "a_maa": "DE-NI",
+   "b": "K-LV-74bd",
    "b_nimi": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3781,10 +4332,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-20",
+   "a": "K-DE-NI-cc25",
    "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
    "a_maa": "DE-NI",
-   "b": "K-FI-18",
+   "b": "K-FI-9511",
    "b_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3794,7 +4345,33 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-21",
+   "a": "K-DE-NI-cc25",
+   "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "a_maa": "DE-NI",
+   "b": "E-LV-6430",
+   "b_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-cc25",
+   "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "a_maa": "DE-NI",
+   "b": "E-LV-e70c",
+   "b_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-1c15",
    "a_nimi": "Monitoring of moor water levels",
    "a_maa": "DE-NI",
    "b": "X-IE-GAL",
@@ -3807,10 +4384,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3820,10 +4397,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3833,7 +4410,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-27",
+   "a": "K-DE-NI-a450",
    "a_nimi": "Moorland® – Climate donation Lower Saxony",
    "a_maa": "DE-NI",
    "b": "X-IE-GAL",
@@ -3846,10 +4423,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3859,10 +4436,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3872,7 +4449,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-37",
+   "a": "K-DE-NI-d3d6",
    "a_nimi": "Preliminary study on the climate protection project Steinfelder Moor",
    "a_maa": "DE-NI",
    "b": "X-IE-GAL",
@@ -3885,10 +4462,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-09",
+   "b": "K-FI-56cf",
    "b_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3898,10 +4475,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-13",
+   "b": "K-FI-8d28",
    "b_nimi": "Restoration of Linttiräme after Peat Production",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3911,10 +4488,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-FI-16",
+   "b": "K-FI-16d2",
    "b_nimi": "Restoration plan for the bog Pirttineva, previous peat production site",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3924,10 +4501,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-38",
+   "a": "K-DE-NI-d8d1",
    "a_nimi": "Regeneration of a moorland in the Günnemoor",
    "a_maa": "DE-NI",
-   "b": "K-LV-01",
+   "b": "K-LV-4390",
    "b_nimi": "Development of a storm damage risk assessment tool for peat soils",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -3937,10 +4514,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3950,10 +4527,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3963,7 +4540,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-41",
+   "a": "K-DE-NI-04a5",
    "a_nimi": "Wiedervernässung des Weißen Moores",
    "a_maa": "DE-NI",
    "b": "X-IE-LIFE",
@@ -3976,10 +4553,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-46",
+   "a": "K-DE-NI-d14f",
    "a_nimi": "Smart Carbon Farming",
    "a_maa": "DE-NI",
-   "b": "K-FI-18",
+   "b": "K-FI-9511",
    "b_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -3989,10 +4566,36 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-d14f",
+   "a_nimi": "Smart Carbon Farming",
+   "a_maa": "DE-NI",
+   "b": "E-LV-6430",
+   "b_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-d14f",
+   "a_nimi": "Smart Carbon Farming",
+   "a_maa": "DE-NI",
+   "b": "E-LV-e70c",
+   "b_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -4002,10 +4605,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -4015,7 +4618,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-49",
+   "a": "K-DE-NI-61e6",
    "a_nimi": "Wetting area at Westerbeck",
    "a_maa": "DE-NI",
    "b": "X-IE-LIFE",
@@ -4028,7 +4631,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-01",
+   "a": "K-EU-5a7e",
    "a_nimi": "Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",
    "a_maa": "EU",
    "b": "X-IE-LIFE",
@@ -4041,7 +4644,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-01",
+   "a": "K-EU-5a7e",
    "a_nimi": "Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",
    "a_maa": "EU",
    "b": "X-IE-GAL",
@@ -4054,10 +4657,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-02",
+   "a": "K-EU-0882",
    "a_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "a_maa": "EU",
-   "b": "K-FI-06",
+   "b": "K-FI-6894",
    "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -4067,10 +4670,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-02",
+   "a": "K-EU-0882",
    "a_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "a_maa": "EU",
-   "b": "K-FI-10",
+   "b": "K-FI-561d",
    "b_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -4080,7 +4683,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-02",
+   "a": "K-EU-0882",
    "a_nimi": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
    "a_maa": "EU",
    "b": "X-IE-GAL",
@@ -4093,10 +4696,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-EU-03",
+   "a": "K-EU-48f5",
    "a_nimi": "Carbon Connects",
    "a_maa": "EU",
-   "b": "K-FI-18",
+   "b": "K-FI-9511",
    "b_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "b_maa": "FI",
    "jaccard": 0.67,
@@ -4106,7 +4709,59 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-FI-09",
+   "a": "K-EU-48f5",
+   "a_nimi": "Carbon Connects",
+   "a_maa": "EU",
+   "b": "E-LV-6430",
+   "b_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-EU-48f5",
+   "a_nimi": "Carbon Connects",
+   "a_maa": "EU",
+   "b": "E-LV-e70c",
+   "b_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-FI-879d",
+   "a_nimi": "Carbon-wise peatland forest management",
+   "a_maa": "FI",
+   "b": "E-LV-e70c",
+   "b_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T4,T6",
+   "etaisyys": 10,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-FI-6894",
+   "a_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
+   "a_maa": "FI",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": 6,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-FI-56cf",
    "a_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -4119,7 +4774,20 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-FI-13",
+   "a": "K-FI-561d",
+   "a_nimi": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
+   "a_maa": "FI",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": 10,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-FI-8d28",
    "a_nimi": "Restoration of Linttiräme after Peat Production",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -4132,7 +4800,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-FI-16",
+   "a": "K-FI-16d2",
    "a_nimi": "Restoration plan for the bog Pirttineva, previous peat production site",
    "a_maa": "FI",
    "b": "X-IE-LIFE",
@@ -4145,10 +4813,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-FI-17",
+   "a": "K-FI-7c34",
    "a_nimi": "Satakunta peatlands: from peat production to new livelihoods and meanings",
    "a_maa": "FI",
-   "b": "K-LV-02",
+   "b": "K-LV-74bd",
    "b_nimi": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
    "b_maa": "LV",
    "jaccard": 0.67,
@@ -4158,7 +4826,20 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-LV-02",
+   "a": "K-FI-9511",
+   "a_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
+   "a_maa": "FI",
+   "b": "E-LV-8eeb",
+   "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T1,T6",
+   "etaisyys": 10,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-LV-74bd",
    "a_nimi": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
    "a_maa": "LV",
    "b": "X-IE-NAT",
@@ -4171,7 +4852,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-LV-04",
+   "a": "K-LV-37ba",
    "a_nimi": "Improving cross border cooperation in the field of peat fire prevention and response",
    "a_maa": "LV",
    "b": "X-IE-LIFE",
@@ -4184,7 +4865,7 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-LV-04",
+   "a": "K-LV-37ba",
    "a_nimi": "Improving cross border cooperation in the field of peat fire prevention and response",
    "a_maa": "LV",
    "b": "X-IE-GAL",
@@ -4210,10 +4891,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "K-FI-14",
+   "a": "K-FI-9cd5",
    "a_nimi": "Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026",
    "a_maa": "FI",
-   "b": "K-IE-06",
+   "b": "K-IE-d7ff",
    "b_nimi": "Sphagnum Farming",
    "b_maa": "IE",
    "jaccard": 0.6,
@@ -4236,10 +4917,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-DE-NI-08",
+   "a": "K-DE-NI-dab1",
    "a_nimi": "Development of priorities in moor and climate protection in the district of Stade",
    "a_maa": "DE-NI",
-   "b": "K-FI-27",
+   "b": "K-FI-0ac6",
    "b_nimi": "Value from the carbon market for the next land use of peat production areas",
    "b_maa": "FI",
    "jaccard": 0.6,
@@ -4249,10 +4930,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "K-FI-27",
+   "a": "K-FI-0ac6",
    "a_nimi": "Value from the carbon market for the next land use of peat production areas",
    "a_maa": "FI",
-   "b": "K-LV-02",
+   "b": "K-LV-74bd",
    "b_nimi": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
    "b_maa": "LV",
    "jaccard": 0.6,
@@ -4264,6 +4945,7 @@
  ],
  "cross_country": {
   "FI–LV": 1,
+  "DE-NI–IE": 2,
   "EU–FI": 1
  },
  "cross_country_unverified": {
@@ -4300,7 +4982,15 @@
    "a": "DE-NI",
    "b": "IE",
    "hankkeita_a": 31,
-   "hankkeita_b": 6,
+   "hankkeita_b": 10,
+   "yhteys": false
+  },
+  {
+   "teema": "T5",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 18,
+   "hankkeita_b": 10,
    "yhteys": false
   },
   {
@@ -4328,19 +5018,19 @@
    "yhteys": false
   },
   {
-   "teema": "T5",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 18,
-   "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
    "teema": "T1",
    "a": "FI",
    "b": "IE",
    "hankkeita_a": 27,
    "hankkeita_b": 3,
+   "yhteys": false
+  },
+  {
+   "teema": "T3",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 11,
+   "hankkeita_b": 7,
    "yhteys": false
   },
   {
@@ -4352,19 +5042,51 @@
    "yhteys": false
   },
   {
-   "teema": "T3",
+   "teema": "T6",
    "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 9,
-   "hankkeita_b": 7,
+   "b": "LV",
+   "hankkeita_a": 14,
+   "hankkeita_b": 5,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 12,
+   "hankkeita_b": 5,
    "yhteys": false
   },
   {
    "teema": "T3",
    "a": "DE-NI",
    "b": "IE",
-   "hankkeita_a": 9,
+   "hankkeita_a": 11,
    "hankkeita_b": 5,
+   "yhteys": false
+  },
+  {
+   "teema": "T3",
+   "a": "DE-NI",
+   "b": "LV",
+   "hankkeita_a": 11,
+   "hankkeita_b": 5,
+   "yhteys": false
+  },
+  {
+   "teema": "T5",
+   "a": "IE",
+   "b": "LV",
+   "hankkeita_a": 10,
+   "hankkeita_b": 4,
+   "yhteys": false
+  },
+  {
+   "teema": "T1",
+   "a": "DE-NI",
+   "b": "LV",
+   "hankkeita_a": 5,
+   "hankkeita_b": 7,
    "yhteys": false
   },
   {
@@ -4373,6 +5095,14 @@
    "b": "IE",
    "hankkeita_a": 7,
    "hankkeita_b": 5,
+   "yhteys": false
+  },
+  {
+   "teema": "T2",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 8,
+   "hankkeita_b": 4,
    "yhteys": false
   },
   {
@@ -4385,34 +5115,10 @@
   },
   {
    "teema": "T2",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 7,
-   "hankkeita_b": 4,
-   "yhteys": false
-  },
-  {
-   "teema": "T2",
-   "a": "DE-NI",
+   "a": "FI",
    "b": "IE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 4,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "DE-NI",
-   "b": "IE",
-   "hankkeita_a": 14,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "DE-NI",
-   "b": "LV",
-   "hankkeita_a": 14,
-   "hankkeita_b": 2,
+   "hankkeita_a": 4,
+   "hankkeita_b": 7,
    "yhteys": false
   },
   {
@@ -4424,19 +5130,11 @@
    "yhteys": false
   },
   {
-   "teema": "T1",
-   "a": "DE-NI",
+   "teema": "T3",
+   "a": "IE",
    "b": "LV",
    "hankkeita_a": 5,
    "hankkeita_b": 5,
-   "yhteys": false
-  },
-  {
-   "teema": "T5",
-   "a": "IE",
-   "b": "LV",
-   "hankkeita_a": 6,
-   "hankkeita_b": 4,
    "yhteys": false
   },
   {
@@ -4448,19 +5146,11 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "FI",
+   "teema": "T1",
+   "a": "IE",
    "b": "LV",
-   "hankkeita_a": 12,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "DE-NI",
-   "b": "LV",
-   "hankkeita_a": 9,
-   "hankkeita_b": 2,
+   "hankkeita_a": 3,
+   "hankkeita_b": 7,
    "yhteys": false
   },
   {
@@ -4489,10 +5179,10 @@
   },
   {
    "teema": "T2",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 4,
-   "hankkeita_b": 4,
+   "a": "DE-NI",
+   "b": "LV",
+   "hankkeita_a": 8,
+   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -4504,11 +5194,19 @@
    "yhteys": false
   },
   {
-   "teema": "T1",
+   "teema": "T2",
    "a": "IE",
    "b": "LV",
-   "hankkeita_a": 3,
-   "hankkeita_b": 5,
+   "hankkeita_a": 7,
+   "hankkeita_b": 2,
+   "yhteys": false
+  },
+  {
+   "teema": "T4",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 7,
+   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -4532,14 +5230,6 @@
    "a": "DE-NI",
    "b": "LV",
    "hankkeita_a": 6,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "IE",
-   "b": "LV",
-   "hankkeita_a": 5,
    "hankkeita_b": 2,
    "yhteys": false
   },
@@ -4548,7 +5238,39 @@
    "a": "DE-NI",
    "b": "LV",
    "hankkeita_a": 3,
-   "hankkeita_b": 3,
+   "hankkeita_b": 4,
+   "yhteys": false
+  },
+  {
+   "teema": "T5",
+   "a": "IE",
+   "b": "SE",
+   "hankkeita_a": 10,
+   "hankkeita_b": 1,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "IE",
+   "b": "LV",
+   "hankkeita_a": 2,
+   "hankkeita_b": 5,
+   "yhteys": false
+  },
+  {
+   "teema": "T2",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 4,
+   "hankkeita_b": 2,
+   "yhteys": false
+  },
+  {
+   "teema": "T1",
+   "a": "EE",
+   "b": "LV",
+   "hankkeita_a": 1,
+   "hankkeita_b": 7,
    "yhteys": false
   },
   {
@@ -4557,22 +5279,6 @@
    "b": "FI",
    "hankkeita_a": 1,
    "hankkeita_b": 7,
-   "yhteys": false
-  },
-  {
-   "teema": "T4",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 7,
-   "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
-   "teema": "T5",
-   "a": "IE",
-   "b": "SE",
-   "hankkeita_a": 6,
-   "hankkeita_b": 1,
    "yhteys": false
   },
   {
@@ -4608,11 +5314,11 @@
    "yhteys": false
   },
   {
-   "teema": "T1",
-   "a": "EE",
-   "b": "LV",
-   "hankkeita_a": 1,
-   "hankkeita_b": 5,
+   "teema": "T4",
+   "a": "LV",
+   "b": "SE",
+   "hankkeita_a": 2,
+   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -4624,19 +5330,19 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "IE",
+   "teema": "T7",
+   "a": "FI",
    "b": "LV",
    "hankkeita_a": 2,
    "hankkeita_b": 2,
    "yhteys": false
   },
   {
-   "teema": "T7",
-   "a": "FI",
+   "teema": "T8",
+   "a": "IE",
    "b": "LV",
-   "hankkeita_a": 2,
-   "hankkeita_b": 2,
+   "hankkeita_a": 1,
+   "hankkeita_b": 4,
    "yhteys": false
   },
   {
@@ -4656,11 +5362,11 @@
    "yhteys": false
   },
   {
-   "teema": "T8",
-   "a": "IE",
+   "teema": "T4",
+   "a": "DE-NI",
    "b": "LV",
    "hankkeita_a": 1,
-   "hankkeita_b": 3,
+   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -4669,22 +5375,6 @@
    "b": "SE",
    "hankkeita_a": 1,
    "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T4",
-   "a": "LV",
-   "b": "SE",
-   "hankkeita_a": 1,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T4",
-   "a": "DE-NI",
-   "b": "LV",
-   "hankkeita_a": 1,
-   "hankkeita_b": 1,
    "yhteys": false
   },
   {
@@ -4692,15 +5382,15 @@
    "a": "FI",
    "b": "LV",
    "hankkeita_a": 27,
-   "hankkeita_b": 5,
+   "hankkeita_b": 7,
    "yhteys": true
   },
   {
-   "teema": "T8",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 6,
-   "hankkeita_b": 3,
+   "teema": "T2",
+   "a": "DE-NI",
+   "b": "IE",
+   "hankkeita_a": 8,
+   "hankkeita_b": 7,
    "yhteys": true
   },
   {
@@ -4708,850 +5398,958 @@
    "a": "FI",
    "b": "LV",
    "hankkeita_a": 7,
+   "hankkeita_b": 5,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "DE-NI",
+   "b": "IE",
+   "hankkeita_a": 14,
    "hankkeita_b": 2,
+   "yhteys": true
+  },
+  {
+   "teema": "T8",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 6,
+   "hankkeita_b": 4,
    "yhteys": true
   }
  ],
  "positions": {
   "3n-kompetenzzentrum-niedersachsen-netzwe": [
-   -0.1588,
-   0.4994
+   0.0011,
+   -0.3532
+  ],
+  "E-DE-NI-3e4b": [
+   -0.2393,
+   0.5269
+  ],
+  "E-DE-NI-b06d": [
+   -0.1661,
+   0.7595
+  ],
+  "E-IE-2cb2": [
+   0.5175,
+   0.2911
+  ],
+  "E-IE-9275": [
+   0.7759,
+   0.5143
+  ],
+  "E-IE-9676": [
+   0.4197,
+   0.5243
+  ],
+  "E-IE-e6ef": [
+   0.0641,
+   -0.3811
+  ],
+  "E-LV-6430": [
+   -0.2675,
+   0.1301
+  ],
+  "E-LV-8eeb": [
+   -0.3302,
+   0.2402
+  ],
+  "E-LV-9406": [
+   -0.2795,
+   0.2569
+  ],
+  "E-LV-b130": [
+   -0.3324,
+   0.2164
+  ],
+  "E-LV-d12c": [
+   -0.3106,
+   0.1463
+  ],
+  "E-LV-e70c": [
+   -0.3628,
+   0.1773
   ],
   "EE-02": [
    0.0664,
    -0.7176
   ],
   "FI-01": [
-   -0.0665,
-   0.0716
+   0.2669,
+   0.037
   ],
   "FI-02": [
-   -0.5987,
-   -0.0986
+   -0.4977,
+   -0.1064
   ],
   "FI-03": [
    -0.4985,
    -0.3181
   ],
   "FI-06": [
-   -0.08,
-   0.0699
+   0.2306,
+   0.025
   ],
   "FI-07": [
-   -0.0352,
-   0.0917
+   0.2355,
+   0.0659
   ],
   "FI-08": [
-   -0.069,
-   0.0859
+   0.2164,
+   0.0275
   ],
   "FI-09": [
-   0.1677,
-   -0.0516
+   -0.013,
+   0.176
   ],
   "FI-10": [
    -0.3666,
    0.0048
   ],
   "H-FI": [
-   -0.1045,
-   0.1015
+   0.2337,
+   -0.0058
   ],
   "H-FI-AKA": [
-   -0.0585,
-   0.1234
+   0.2509,
+   0.0502
   ],
   "H-IE-GAL": [
-   -0.1624,
-   0.1322
+   0.204,
+   -0.0728
   ],
   "H-IE-JTF": [
-   -0.1407,
-   0.0847
+   0.266,
+   -0.0348
   ],
   "H-IE-LIFE": [
-   -0.178,
-   0.1185
+   0.2181,
+   -0.0841
   ],
   "H-LV": [
-   0.2227,
-   -0.1074
+   -0.1163,
+   0.1816
   ],
   "IE-01": [
-   -0.3131,
-   0.2069
+   0.1008,
+   -0.2718
   ],
   "IE-02": [
-   0.5999,
-   0.45
+   0.6001,
+   0.4501
   ],
-  "K-DE-NI-01": [
-   -0.0284,
-   0.66
+  "K-DE-NI-03c5": [
+   -0.1621,
+   0.6627
   ],
-  "K-DE-NI-02": [
-   -0.2211,
-   0.8817
-  ],
-  "K-DE-NI-03": [
-   -0.3781,
-   0.5049
-  ],
-  "K-DE-NI-04": [
-   -0.4943,
-   0.4394
-  ],
-  "K-DE-NI-05": [
-   -0.1015,
-   0.6103
-  ],
-  "K-DE-NI-06": [
-   -0.1003,
-   0.5487
-  ],
-  "K-DE-NI-07": [
-   -0.2627,
-   0.7523
-  ],
-  "K-DE-NI-08": [
-   -0.2006,
-   0.4676
-  ],
-  "K-DE-NI-09": [
-   -0.2367,
-   0.6938
-  ],
-  "K-DE-NI-10": [
-   -0.2308,
-   0.9086
-  ],
-  "K-DE-NI-11": [
-   -0.2993,
-   0.7495
-  ],
-  "K-DE-NI-12": [
-   -0.3275,
-   0.6362
-  ],
-  "K-DE-NI-13": [
-   -0.2897,
-   0.3956
-  ],
-  "K-DE-NI-14": [
-   -0.017,
-   0.824
-  ],
-  "K-DE-NI-15": [
-   0.0156,
-   0.4955
-  ],
-  "K-DE-NI-16": [
-   -0.3215,
-   0.3923
-  ],
-  "K-DE-NI-17": [
-   -0.4963,
-   0.8608
-  ],
-  "K-DE-NI-18": [
-   -0.1927,
-   0.4961
-  ],
-  "K-DE-NI-19": [
-   -0.1886,
-   0.6581
-  ],
-  "K-DE-NI-20": [
-   -0.3151,
-   0.6949
-  ],
-  "K-DE-NI-21": [
-   -0.1508,
-   0.4174
-  ],
-  "K-DE-NI-22": [
-   -0.1603,
-   0.7638
-  ],
-  "K-DE-NI-23": [
-   -0.526,
-   0.7779
-  ],
-  "K-DE-NI-24": [
-   -0.1854,
-   0.3697
-  ],
-  "K-DE-NI-25": [
-   -0.2097,
-   0.7422
-  ],
-  "K-DE-NI-26": [
-   -0.0549,
-   0.688
-  ],
-  "K-DE-NI-27": [
+  "K-DE-NI-0499": [
    -0.3674,
    0.7471
   ],
-  "K-DE-NI-28": [
+  "K-DE-NI-04a5": [
+   -0.4943,
+   0.4394
+  ],
+  "K-DE-NI-0e2b": [
+   -0.3191,
+   0.7033
+  ],
+  "K-DE-NI-1746": [
+   -0.2148,
+   0.438
+  ],
+  "K-DE-NI-1847": [
+   -0.0607,
+   0.6054
+  ],
+  "K-DE-NI-1c15": [
+   -0.189,
+   0.7079
+  ],
+  "K-DE-NI-209b": [
+   -0.4659,
+   0.7341
+  ],
+  "K-DE-NI-34e3": [
+   -0.0875,
+   0.8233
+  ],
+  "K-DE-NI-36d2": [
+   -0.2968,
+   0.5606
+  ],
+  "K-DE-NI-3ac3": [
+   0.0156,
+   0.4955
+  ],
+  "K-DE-NI-3eb1": [
+   -0.4151,
+   0.8526
+  ],
+  "K-DE-NI-410f": [
+   -0.4963,
+   0.8608
+  ],
+  "K-DE-NI-44a1": [
+   -0.1927,
+   0.4961
+  ],
+  "K-DE-NI-61e6": [
+   -0.3682,
+   0.5161
+  ],
+  "K-DE-NI-6c80": [
+   -0.0669,
+   0.4649
+  ],
+  "K-DE-NI-6f11": [
+   -0.0549,
+   0.688
+  ],
+  "K-DE-NI-77b2": [
+   -0.2211,
+   0.8817
+  ],
+  "K-DE-NI-7a94": [
+   0.0129,
+   0.5288
+  ],
+  "K-DE-NI-8755": [
    -0.5965,
    0.7196
   ],
-  "K-DE-NI-29": [
-   0.0121,
-   0.6648
-  ],
-  "K-DE-NI-30": [
-   -0.3435,
-   0.5899
-  ],
-  "K-DE-NI-31": [
-   -0.3344,
-   0.6707
-  ],
-  "K-DE-NI-32": [
-   -0.2905,
-   0.659
-  ],
-  "K-DE-NI-33": [
-   -0.3196,
-   0.6813
-  ],
-  "K-DE-NI-34": [
-   -0.1652,
-   0.9572
-  ],
-  "K-DE-NI-35": [
-   -0.3699,
-   0.7321
-  ],
-  "K-DE-NI-36": [
-   -0.2386,
-   0.7274
-  ],
-  "K-DE-NI-37": [
+  "K-DE-NI-9163": [
    0.0358,
    0.5194
   ],
-  "K-DE-NI-38": [
-   -0.143,
-   0.564
+  "K-DE-NI-9595": [
+   -0.408,
+   0.6076
   ],
-  "K-DE-NI-39": [
-   -0.2884,
-   0.7915
+  "K-DE-NI-9d56": [
+   -0.2612,
+   0.5559
   ],
-  "K-DE-NI-40": [
-   -0.3177,
-   0.5456
+  "K-DE-NI-a450": [
+   -0.2641,
+   0.4212
   ],
-  "K-DE-NI-41": [
+  "K-DE-NI-a456": [
+   -0.2258,
+   0.6148
+  ],
+  "K-DE-NI-accd": [
+   -0.0644,
+   0.5124
+  ],
+  "K-DE-NI-af02": [
+   -0.2695,
+   0.5944
+  ],
+  "K-DE-NI-b8d9": [
+   -0.3222,
+   0.624
+  ],
+  "K-DE-NI-bd6b": [
+   -0.2356,
+   1.0203
+  ],
+  "K-DE-NI-bf71": [
+   -0.0607,
+   0.8738
+  ],
+  "K-DE-NI-c05c": [
+   -0.3637,
+   0.9209
+  ],
+  "K-DE-NI-c1d3": [
+   -0.5059,
+   0.6521
+  ],
+  "K-DE-NI-c57b": [
    -0.4939,
    0.5382
   ],
-  "K-DE-NI-42": [
+  "K-DE-NI-ca87": [
    -0.1032,
    0.6764
   ],
-  "K-DE-NI-43": [
-   -0.411,
-   0.9045
+  "K-DE-NI-cad6": [
+   -0.5343,
+   0.7047
   ],
-  "K-DE-NI-44": [
+  "K-DE-NI-cc25": [
+   -0.3506,
+   0.3694
+  ],
+  "K-DE-NI-cf1c": [
+   -0.2469,
+   0.8342
+  ],
+  "K-DE-NI-d14f": [
+   0.0309,
+   -0.3492
+  ],
+  "K-DE-NI-d3d6": [
    -0.2333,
    0.4898
   ],
-  "K-DE-NI-45": [
-   -0.2246,
-   0.9222
+  "K-DE-NI-d8d1": [
+   -0.3143,
+   0.8255
   ],
-  "K-DE-NI-46": [
-   -0.25,
-   0.65
+  "K-DE-NI-d90f": [
+   0.0175,
+   0.7909
   ],
-  "K-DE-NI-47": [
-   -0.431,
-   0.638
+  "K-DE-NI-dab1": [
+   -0.4501,
+   0.5442
   ],
-  "K-DE-NI-48": [
-   0.006,
-   0.646
+  "K-DE-NI-e128": [
+   -0.5464,
+   0.7278
   ],
-  "K-DE-NI-49": [
-   -0.5055,
-   0.5938
+  "K-DE-NI-e147": [
+   0.003,
+   0.8647
   ],
-  "K-EU-01": [
+  "K-DE-NI-e715": [
+   -0.3211,
+   0.5871
+  ],
+  "K-DE-NI-ee94": [
+   -0.4455,
+   0.5962
+  ],
+  "K-DE-NI-f3b0": [
+   -0.6119,
+   0.4883
+  ],
+  "K-DE-NI-f620": [
+   -0.3853,
+   0.8474
+  ],
+  "K-DE-NI-f68e": [
+   -0.2304,
+   0.576
+  ],
+  "K-EU-0882": [
    -0.1933,
    0.1021
   ],
-  "K-EU-02": [
+  "K-EU-2e51": [
+   0.2406,
+   0.1749
+  ],
+  "K-EU-48f5": [
    0.0642,
    0.0314
   ],
-  "K-EU-03": [
+  "K-EU-5a7e": [
    0.1367,
    0.0546
   ],
-  "K-EU-04": [
+  "K-EU-f426": [
    -0.0319,
    0.0045
   ],
-  "K-EU-05": [
-   0.068,
-   0.1253
+  "K-FI-006d": [
+   0.2191,
+   0.2017
   ],
-  "K-FI-01": [
-   -0.5611,
-   -0.1747
-  ],
-  "K-FI-02": [
-   0.1593,
-   0.0918
-  ],
-  "K-FI-03": [
+  "K-FI-050e": [
    -0.4885,
    -0.1545
   ],
-  "K-FI-04": [
-   -0.6106,
-   0.1306
+  "K-FI-06b9": [
+   -0.5251,
+   -0.0373
   ],
-  "K-FI-05": [
-   -0.0974,
-   -0.0049
+  "K-FI-0ac6": [
+   0.1666,
+   0.1274
   ],
-  "K-FI-06": [
-   0.0883,
-   0.0576
+  "K-FI-16d2": [
+   -0.5778,
+   -0.1019
   ],
-  "K-FI-07": [
-   -0.529,
-   -0.3644
+  "K-FI-2fcc": [
+   -0.736,
+   -0.2535
   ],
-  "K-FI-08": [
+  "K-FI-3bb2": [
    -0.2682,
    -0.035
   ],
-  "K-FI-09": [
-   -0.4304,
-   -0.1721
+  "K-FI-561d": [
+   0.3369,
+   0.0898
   ],
-  "K-FI-10": [
-   -0.0501,
-   0.1634
+  "K-FI-56cf": [
+   -0.667,
+   -0.1576
   ],
-  "K-FI-11": [
+  "K-FI-665a": [
+   -0.3574,
+   -0.0249
+  ],
+  "K-FI-6894": [
+   0.1561,
+   0.1711
+  ],
+  "K-FI-6978": [
    -0.7086,
    0.0397
   ],
-  "K-FI-12": [
-   -0.5345,
-   -0.2706
+  "K-FI-6c73": [
+   -0.384,
+   -0.4189
   ],
-  "K-FI-13": [
-   -0.5444,
-   -0.2475
-  ],
-  "K-FI-14": [
-   -0.5319,
-   0.0706
-  ],
-  "K-FI-15": [
-   -0.604,
-   0.0356
-  ],
-  "K-FI-16": [
-   -0.7943,
-   -0.3606
-  ],
-  "K-FI-17": [
-   0.1708,
-   0.1123
-  ],
-  "K-FI-18": [
-   -0.0261,
-   0.1111
-  ],
-  "K-FI-19": [
-   -0.6936,
-   0.0165
-  ],
-  "K-FI-20": [
-   -0.5899,
-   -0.3919
-  ],
-  "K-FI-21": [
+  "K-FI-6f20": [
    -0.6977,
    -0.1761
   ],
-  "K-FI-22": [
-   0.0986,
-   0.1109
+  "K-FI-7c34": [
+   0.2046,
+   0.269
   ],
-  "K-FI-23": [
+  "K-FI-879d": [
+   0.3511,
+   0.0166
+  ],
+  "K-FI-8d28": [
+   -0.3709,
+   0.0637
+  ],
+  "K-FI-9511": [
+   0.3185,
+   0.0823
+  ],
+  "K-FI-9cd5": [
+   -0.5747,
+   -0.0561
+  ],
+  "K-FI-a45d": [
+   -0.6792,
+   -0.156
+  ],
+  "K-FI-b095": [
+   -0.7096,
+   -0.0051
+  ],
+  "K-FI-b38f": [
+   -0.5899,
+   -0.3919
+  ],
+  "K-FI-c4ea": [
    -0.3814,
    -0.0907
   ],
-  "K-FI-24": [
-   -0.5665,
-   0.0127
+  "K-FI-cb20": [
+   -0.7963,
+   0.0608
   ],
-  "K-FI-25": [
+  "K-FI-ceda": [
    -0.4927,
    -0.3039
   ],
-  "K-FI-26": [
-   -0.4003,
-   -0.1516
+  "K-FI-e290": [
+   -0.5783,
+   -0.2638
   ],
-  "K-FI-27": [
-   0.0441,
-   0.0489
+  "K-FI-e8b3": [
+   0.1877,
+   0.2538
   ],
-  "K-IE-01": [
+  "K-IE-06fb": [
    0.6385,
    0.5397
   ],
-  "K-IE-02": [
+  "K-IE-0814": [
    0.5575,
    0.2223
   ],
-  "K-IE-03": [
+  "K-IE-0b63": [
    0.6311,
    0.6643
   ],
-  "K-IE-04": [
+  "K-IE-7fa4": [
+   0.0842,
+   -0.3373
+  ],
+  "K-IE-8525": [
    0.5681,
    0.4045
   ],
-  "K-IE-05": [
-   -0.38,
-   0.2422
-  ],
-  "K-IE-06": [
+  "K-IE-cee8": [
    0.6515,
    0.2819
   ],
-  "K-IE-07": [
+  "K-IE-d7ff": [
    0.5722,
    0.4981
   ],
-  "K-LV-01": [
-   0.3466,
-   -0.2167
+  "K-LV-2fac": [
+   0.5385,
+   -0.4103
   ],
-  "K-LV-02": [
-   0.3205,
-   -0.2385
-  ],
-  "K-LV-03": [
+  "K-LV-37ba": [
    0.5642,
    -0.5186
   ],
-  "K-LV-04": [
-   0.5,
-   -0.4999
+  "K-LV-4390": [
+   -0.3219,
+   0.1994
   ],
-  "K-LV-05": [
-   0.6367,
-   -0.4954
+  "K-LV-74bd": [
+   -0.302,
+   0.2134
   ],
-  "K-SE-01": [
-   -0.1164,
-   -0.8324
+  "K-LV-cbb2": [
+   0.5311,
+   -0.2857
   ],
-  "K-SE-02": [
+  "K-SE-8b1e": [
+   -0.2836,
+   -0.6676
+  ],
+  "K-SE-be89": [
    -0.3933,
    -0.6979
   ],
-  "K-SE-03": [
-   -0.1358,
-   -0.7686
+  "K-SE-dbb8": [
+   -0.2425,
+   -0.9777
   ],
   "LV-01": [
-   0.2768,
-   -0.1621
+   -0.2207,
+   0.1851
   ],
   "LV-02": [
-   0.4226,
-   -0.429
+   0.5,
+   -0.5
   ],
   "LV-03": [
-   0.3376,
-   -0.2324
+   -0.327,
+   0.1809
   ],
   "NI-01": [
-   -0.3543,
-   0.729
+   -0.2361,
+   0.6764
   ],
   "NI-02": [
-   -0.2567,
-   0.6666
+   -0.293,
+   0.65
   ],
   "NI-03": [
-   -0.4653,
-   0.7624
+   -0.1786,
+   0.7857
   ],
   "X-DE-SH": [
    0.25,
    0.85
   ],
   "X-FI-PEATRESC": [
-   -0.0045,
-   0.1306
+   0.2618,
+   0.107
   ],
   "X-IE-GAL": [
-   -0.2148,
-   0.1623
+   0.1731,
+   -0.137
   ],
   "X-IE-LIFE": [
-   -0.2495,
-   0.1319
+   0.2021,
+   -0.1608
   ],
   "X-IE-NAT": [
-   -0.3288,
-   0.1145
+   0.2489,
+   -0.2256
   ],
   "aalto": [
-   0.0159,
-   0.1572
+   0.2821,
+   0.1346
   ],
   "akcelerator-drustvenih-promjena-zid": [
+   0.0311,
+   0.2643
+  ],
+  "akciju-sabiedriba-latvijas-valsts-mezi": [
+   0.6367,
+   -0.4954
+  ],
+  "archehof-rolfes": [
+   -0.1799,
+   0.4268
+  ],
+  "arei": [
+   -0.2373,
+   0.1534
+  ],
+  "association-des-chambres-d-agriculture-d": [
    0.0385,
    0.1397
   ],
-  "akciju-sabiedriba-latvijas-valsts-mezi": [
-   0.5311,
-   -0.2857
+  "baumschul-beratungsring-weser-ems-e-v": [
+   -0.3794,
+   0.6089
   ],
-  "archehof-rolfes": [
-   -0.0782,
-   0.9216
+  "biedriba-baltijas-krasti": [
+   -0.3575,
+   0.2699
   ],
-  "arei": [
-   0.2724,
-   -0.1919
+  "biedriba-latvijas-kudras-asociacija": [
+   -0.3385,
+   0.1149
   ],
-  "arl-w-e-staatliche-moorverwaltung": [
-   -0.2356,
-   1.0203
+  "biedriba-preilu-lauksaimnieku-apvieniba": [
+   -0.2683,
+   0.0934
   ],
-  "association-des-chambres-d-agriculture-d": [
-   -0.0425,
-   -0.1777
+  "biolat": [
+   -0.3681,
+   0.2349
+  ],
+  "blackstairs-farming-group": [
+   0.0545,
+   -0.4132
   ],
   "bnm": [
-   -0.2961,
-   0.1216
+   0.2292,
+   -0.1989
   ],
   "boerenbond-projecten-vzw": [
-   -0.1138,
-   0.7616
+   0.004,
+   -0.3762
+  ],
+  "bonk-baumschulen-handels-gmbh": [
+   -0.099,
+   0.4448
   ],
   "broads-authority": [
    -0.2635,
    0.0432
   ],
   "bund-fur-umwelt-und-naturschutz": [
-   -0.2942,
-   0.8144
+   -0.1641,
+   0.4668
   ],
   "carl-von-ossietzky-universitat-oldenburg": [
-   -0.6119,
-   0.4883
+   -0.411,
+   0.9045
   ],
   "cfla": [
-   0.4404,
-   -0.3208
+   0.4021,
+   -0.4159
   ],
   "chydenius": [
-   -0.067,
-   0.0412
+   0.2952,
+   0.0256
   ],
   "constellr-gmbh": [
-   -0.3493,
-   0.5042
+   0.0124,
+   -0.3664
+  ],
+  "dammtechnik-neuhaus": [
+   -0.2352,
+   0.6716
   ],
   "derrymore-peat-ltd": [
+   0.5394,
+   0.7306
+  ],
+  "dhlgh": [
+   0.1967,
+   -0.1885
+  ],
+  "ecochip-energy-ltd": [
    0.8196,
    0.4458
   ],
-  "dhlgh": [
-   -0.2752,
-   0.1461
-  ],
-  "ecochip-energy-ltd": [
-   0.7367,
-   0.4546
-  ],
   "eigen-vermogen-van-het-instituut-voor-la": [
-   -0.1958,
-   0.8178
+   0.0243,
+   -0.3807
   ],
   "emra": [
-   -0.1669,
-   0.0683
+   0.2921,
+   -0.0548
   ],
   "ep-ely": [
-   -0.6621,
-   -0.0316
+   -0.4294,
+   -0.0493
   ],
   "epa-ie": [
-   -0.2682,
-   0.1091
+   0.2151,
+   -0.1849
   ],
   "europaisches-fachzentrum-moor-und-klima-": [
-   0.0198,
-   0.4117
+   -0.431,
+   0.638
   ],
   "galway": [
-   -0.2652,
-   0.1741
+   0.1504,
+   -0.1998
+  ],
+  "galway-mayo-institute-of-technology": [
+   0.0731,
+   -0.4123
   ],
   "geologian-tutkimuskeskus": [
-   0.054,
-   0.0223
+   0.1497,
+   0.1434
   ],
-  "green-restoration-ireland-co-operative-s": [
-   -0.4238,
-   0.6798
+  "gourmet-industries": [
+   -0.3563,
+   0.2436
   ],
   "gri": [
-   -0.3524,
-   0.2268
+   0.0678,
+   -0.3142
   ],
   "hiiliporssi": [
-   0.0002,
-   0.1649
+   0.2931,
+   0.1231
+  ],
+  "hochschule-hannover": [
+   -0.2077,
+   0.8633
   ],
   "hy": [
-   -0.0418,
-   0.1176
+   0.2865,
+   0.0766
   ],
   "ies": [
-   0.3074,
-   -0.1554
+   -0.2141,
+   0.2139
   ],
   "il": [
-   -0.0149,
-   0.1162
+   0.2522,
+   0.0896
   ],
   "intrigo": [
-   -0.2765,
-   0.1272
+   0.2296,
+   -0.1708
   ],
   "irl": [
-   0.7205,
-   0.5023
+   0.4794,
+   0.543
   ],
   "john-nurmisen-saatio-sr": [
-   -0.7231,
-   -0.1453
+   -0.7109,
+   -0.1242
   ],
   "jyvaskylan-ammattikorkeakoulu-oy": [
-   -0.7494,
-   -0.273
-  ],
-  "jyvaskylan-yliopisto": [
    -0.6461,
    -0.0793
+  ],
+  "jyvaskylan-yliopisto": [
+   -0.7494,
+   -0.273
   ],
   "kaakkois-suomen-ammattikorkeakoulu-oy": [
    -0.5392,
    -0.2731
   ],
   "keha": [
-   -0.5244,
-   -0.1771
+   -0.5776,
+   -0.173
   ],
   "kelly-s-nursery-ltd": [
-   0.3365,
-   0.4432
+   0.6642,
+   0.4314
   ],
   "kinno": [
-   0.1738,
-   -0.0752
+   -0.0233,
+   0.1975
   ],
   "kokemaenjoen-vesiston-vesiensuojeluyhdis": [
-   -0.6792,
-   -0.156
+   -0.6106,
+   0.1306
   ],
   "ks-ely": [
-   -0.1051,
-   0.0501
-  ],
-  "landesamt-f-bergbau-energie-u-geologie": [
-   -0.166,
-   0.7595
+   0.2494,
+   0.0057
   ],
   "landkreis-cuxhaven": [
    -0.0741,
-   0.7143
+   0.7142
   ],
   "landkreis-emsland": [
    -0.4303,
-   0.7244
+   0.7243
   ],
   "landkreis-friesland": [
-   -0.1875,
-   0.8496
+   -0.1144,
+   0.5638
   ],
   "landkreis-luneburg": [
+   -0.2246,
+   0.9222
+  ],
+  "landkreis-osterholz": [
+   -0.1874,
+   0.8497
+  ],
+  "landkreis-stade": [
+   -0.3325,
+   0.4911
+  ],
+  "landkreis-vechta": [
+   -0.1451,
+   0.2722
+  ],
+  "landkreis-verden": [
    -0.3792,
    0.644
   ],
-  "landkreis-osterholz": [
-   -0.1642,
-   0.4667
-  ],
-  "landkreis-stade": [
-   -0.1144,
-   0.5639
-  ],
-  "landkreis-vechta": [
-   -0.1799,
-   0.4268
-  ],
-  "landkreis-verden": [
-   -0.3406,
-   0.3604
-  ],
   "lansstyrelsen-i-norrbottens-lan": [
-   -0.2836,
-   -0.6676
+   -0.1358,
+   -0.7686
   ],
   "lapin-ammattikorkeakoulu-oy": [
-   -0.5778,
-   -0.1019
+   -0.7943,
+   -0.3606
   ],
   "lappeenrannan-lahden-teknillinen-yliopis": [
-   -0.0548,
-   0.1971
+   0.3724,
+   0.099
   ],
   "lathort": [
-   0.2588,
-   -0.1787
+   -0.1947,
+   0.1852
+  ],
+  "latvijas-cuku-audzetaju-asociacija": [
+   -0.3322,
+   0.1296
+  ],
+  "lauksaimniecibas-statutsabiedribu-asocia": [
+   -0.3247,
+   0.109
   ],
   "lbtu": [
-   0.2931,
-   -0.1434
+   -0.264,
+   0.1648
   ],
   "linttipower-oy": [
-   -0.384,
-   -0.4189
+   -0.604,
+   0.0356
+  ],
+  "llu-macibu-un-petijumu-saimnieciba-vecau": [
+   -0.3478,
+   0.1286
   ],
   "lu": [
-   0.2901,
-   -0.1858
+   -0.2816,
+   0.2004
   ],
   "luke": [
-   0.1069,
-   0.0085
+   0.0897,
+   0.1603
   ],
   "luonnonperintosaatio-sr": [
-   -0.5319,
-   -0.0128
+   -0.5642,
+   -0.1498
   ],
   "luontokollektiivi-ry": [
-   -0.3709,
-   0.0637
+   -0.5665,
+   0.0127
   ],
   "lv-regions": [
-   0.4047,
-   -0.5374
+   0.5979,
+   -0.5841
   ],
   "maaseudun-sivistysliiton-vaara-karjalan-": [
-   0.1207,
-   0.1346
+   0.2393,
+   0.2292
   ],
   "metsahallitus": [
    -0.752,
    -0.191
   ],
   "metsakeskus": [
-   -0.0844,
-   0.0269
+   0.3159,
+   0.0251
   ],
   "mikkelin-kaupunki": [
-   -0.7963,
-   0.0608
-  ],
-  "ml-ni": [
-   -0.5061,
-   0.7747
-  ],
-  "multitel-asbl": [
-   -0.2547,
-   0.4741
-  ],
-  "nabu-kreisverband-gifhorn-e-v": [
-   -0.3977,
-   0.6239
-  ],
-  "naturschutzstiftung-des-landkreises-cuxh": [
-   -0.2392,
-   0.5269
-  ],
-  "naturschutzstiftung-grafschaft-bentheim": [
-   -0.3942,
-   0.6004
-  ],
-  "nbas": [
-   0.4794,
-   0.3977
-  ],
-  "newry-mourne-and-down-district-council": [
-   0.6642,
-   0.4314
-  ],
-  "niedersachsische-landesforsten-a-o-r-for": [
-   -0.1451,
-   0.2722
-  ],
-  "niedersachsische-landesforsten-aor": [
-   0.1308,
-   0.695
-  ],
-  "niedersachsische-landesforsten-aor-forst": [
-   -0.5343,
-   0.7047
-  ],
-  "nlwkn": [
-   -0.2852,
-   0.7082
-  ],
-  "nmu": [
-   -0.414,
-   0.7469
-  ],
-  "ontwikkelingsmaatschappij-oost-nederland": [
-   -0.2951,
-   0.8202
-  ],
-  "oulun-kaupunki": [
    -0.2844,
    -0.3045
   ],
+  "ml-ni": [
+   -0.1575,
+   0.8259
+  ],
+  "mourne-and-down-district-council": [
+   0.7367,
+   0.4546
+  ],
+  "mpks-mezsaimnieks": [
+   -0.2551,
+   0.0999
+  ],
+  "nabu-kreisverband-gifhorn-e-v": [
+   -0.3977,
+   0.6238
+  ],
+  "naturschutzstiftung-des-landkreises-cuxh": [
+   -0.3274,
+   0.7209
+  ],
+  "naturschutzstiftung-grafschaft-bentheim": [
+   0.1308,
+   0.695
+  ],
+  "nbas": [
+   0.7205,
+   0.3569
+  ],
+  "niedersachsische-landesforsten-a-o-r-for": [
+   -0.0782,
+   0.9216
+  ],
+  "niedersachsische-landesforsten-aor": [
+   -0.3406,
+   0.3604
+  ],
+  "niedersachsische-landesforsten-aor-forst": [
+   -0.0814,
+   0.7093
+  ],
+  "nlwkn": [
+   -0.2718,
+   0.6085
+  ],
+  "nmu": [
+   -0.2053,
+   0.7351
+  ],
+  "offis": [
+   -0.157,
+   0.6671
+  ],
+  "olga-steinberga-sia-latvijas-lauku-konsu": [
+   -0.2807,
+   0.1009
+  ],
+  "oulun-kaupunki": [
+   -0.48,
+   -0.1364
+  ],
   "oy": [
-   0.0276,
-   0.0734
+   0.1962,
+   0.12
   ],
   "pohjois-savon-luonnonsuojelupiiri-ry": [
-   -0.736,
-   -0.2535
+   -0.529,
+   -0.3644
   ],
   "pp-ely": [
    -0.3304,
    -0.1542
   ],
   "priesgaisrines-apsaugos-ir-gelbejimo-dep": [
-   0.4827,
-   -0.5979
-  ],
-  "region-hannover": [
-   0.003,
-   0.8647
+   0.4575,
+   -0.7277
   ],
   "rmk": [
    0.2336,
@@ -5562,116 +6360,144 @@
    0.5021
   ],
   "rtu": [
-   0.3043,
-   -0.1723
+   -0.1984,
+   0.205
   ],
   "schmedt": [
-   -0.3673,
-   0.3392
+   -0.2665,
+   0.8127
   ],
   "seamk": [
-   -0.0295,
+   0.215,
    0.0659
   ],
+  "sia-komercsabiedriba-arosa-r": [
+   -0.2888,
+   0.2916
+  ],
   "silava": [
-   0.3156,
-   -0.2072
+   -0.3005,
+   0.1849
   ],
   "skogsstyrelsen": [
    -0.1615,
    -0.6603
   ],
+  "staatliche-moorverwaltung": [
+   -0.3942,
+   0.6004
+  ],
+  "stadu-un-kudras-inovaciju-fonds": [
+   -0.3685,
+   0.2205
+  ],
+  "stadu-un-kudras-inovaciju-fonds-skif": [
+   -0.3134,
+   0.1178
+  ],
   "strawchip-ltd": [
-   0.5394,
-   0.7306
+   0.3365,
+   0.4432
   ],
   "suomen-riistanhoito-saatio-sr": [
-   -0.466,
-   -0.0406
+   -0.4661,
+   -0.0405
   ],
   "swedish-forest-agency": [
-   -0.2425,
-   -0.9777
+   -0.1164,
+   -0.8324
   ],
   "syke": [
-   0.1301,
-   0.0914
+   0.1884,
+   0.2233
   ],
   "sykli": [
-   0.1924,
-   -0.0552
+   -0.0031,
+   0.1985
   ],
   "tapio-oy": [
    -0.6673,
    -0.4608
   ],
   "tcd": [
-   -0.2255,
-   0.1898
+   0.1562,
+   -0.1537
   ],
   "teagasc": [
-   -0.3307,
-   0.2293
+   0.0678,
+   -0.3295
   ],
-  "teagasc-agriculture-and-food-development": [
-   -0.38,
-   0.7689
-  ],
-  "tgo-ag": [
-   -0.075,
-   0.6703
+  "thorkas-ug-i-g": [
+   -0.3212,
+   0.3865
   ],
   "torfwerk-moorkultur-ramsloh-werner-koch-": [
-   -0.2665,
-   0.8127
+   -0.2884,
+   0.7915
   ],
   "turun-yliopisto": [
-   0.2002,
-   0.1272
+   0.2164,
+   0.3015
   ],
   "uef": [
-   0.0491,
-   0.1029
+   0.221,
+   0.1509
   ],
   "umeras": [
-   0.6524,
-   0.3294
-  ],
-  "universitat-greifswald": [
-   -0.3325,
-   0.491
-  ],
-  "universitat-rostock": [
-   -0.0814,
-   0.7093
-  ],
-  "upm-kymmene-oyj": [
-   -0.48,
-   -0.1364
-  ],
-  "valmieras-novada-pasvaldiba": [
-   0.4575,
-   -0.7277
-  ],
-  "valsts-ugunsdzesibas-un-glabsanas-dienes": [
-   0.5172,
-   -0.4021
-  ],
-  "van-hall-larenstein-university-of-applie": [
-   0.0311,
-   0.2643
-  ],
-  "ver-de-terre-production": [
-   -0.4117,
-   0.5813
-  ],
-  "wsi": [
-   0.5477,
+   0.693,
    0.5706
   ],
-  "zuidelijke-land-en-tuinbouw-organisatie": [
-   -0.092,
-   0.5726
+  "universitat-greifswald": [
+   -0.2942,
+   0.8144
+  ],
+  "universitat-rostock": [
+   -0.3673,
+   0.3392
+  ],
+  "upm-kymmene-oyj": [
+   -0.5444,
+   -0.2475
+  ],
+  "valmieras-novada-pasvaldiba": [
+   0.3067,
+   -0.4479
+  ],
+  "van-hall-larenstein-university-of-applie": [
+   -0.0425,
+   -0.1777
+  ],
+  "wester-gbr": [
+   -0.0553,
+   0.7436
+  ],
+  "wsi": [
+   0.507,
+   0.3294
+  ],
+  "z-s-andrupeni": [
+   -0.3994,
+   0.1657
+  ],
+  "z-s-kaleji": [
+   -0.3425,
+   0.2763
+  ],
+  "z-s-kiburi": [
+   -0.4012,
+   0.1825
+  ],
+  "zemnieku-saimnieciba-kaigi": [
+   -0.2719,
+   0.2905
+  ],
+  "zs-baltini": [
+   -0.3443,
+   0.1448
+  ],
+  "zs-lielvaiceni": [
+   -0.2457,
+   0.1129
   ]
  }
 }
