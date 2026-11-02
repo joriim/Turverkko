@@ -46,7 +46,12 @@ pip install -r requirements.txt
 python scripts/build.py && python scripts/analyze.py && python scripts/site.py
 ```
 
-Verkoston voi avata Gephissä tai Cytoscapessa tiedostosta `data/network.graphml`. Taulukkona se löytyy tiedostoista `data/nodes.csv` ja `data/edges.csv`.
+Verkoston voi avata suoraan selaimessa:
+
+- **Gephi Lite:** [avaa Turverkko](https://gephi.org/gephi-lite/?file=https%3A%2F%2Fjoriim.github.io%2FTurverkko%2Fdata%2Fturverkko.gexf)
+- **Cytoscape Web:** [avaa Turverkko](https://web.cytoscape.org/?import=https%3A%2F%2Fjoriim.github.io%2FTurverkko%2Fdata%2Fturverkko.cx2)
+
+Linkit lataavat sivuston tiedostot `turverkko.gexf` ja `turverkko.cx2`, jotka `scripts/site.py` tuottaa jokaisella julkaisulla. Gephi- ja Cytoscape-työpöytäversioihin ne voi ladata samoista osoitteista. Koko verkosto teemoineen on tiedostossa `data/network.graphml`. Taulukkona se löytyy tiedostoista `data/nodes.csv` ja `data/edges.csv`.
 
 ## Aineistomalli lyhyesti
 

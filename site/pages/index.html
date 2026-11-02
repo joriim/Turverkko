@@ -77,11 +77,19 @@
         <p class="note" id="doi-note">DOI lisätään ensimmäisen Zenodo-julkaisun jälkeen. Siihen asti viittaa repon osoitteeseen.</p>
       </div>
       <div class="stack">
-        <h2>Lataa aineisto</h2>
+        <h2>Avaa verkostotyökalussa</h2>
+        <div class="chips" style="gap:10px">
+          <a class="btn" id="open-gephi" href="https://gephi.org/gephi-lite/" target="_blank" rel="noopener">Avaa Gephi Litessä ↗</a>
+          <a class="btn ghost" id="open-cyto" href="https://web.cytoscape.org/" target="_blank" rel="noopener">Avaa Cytoscape Webissä ↗</a>
+        </div>
+        <p class="note">Avautuu selaimessa ilman asennusta. Mukana ovat toimijat, julkaisut, yhteistyö- ja tuotosyhteydet sekä lasketut puuttuvat yhteydet (reunan tyyppi <code>puuttuva_yhteys</code>), värit maittain ja sijainnit valmiina. Gephi- ja Cytoscape-työpöytäversioihin: lataa <a href="data/turverkko.gexf" download>turverkko.gexf</a> tai <a href="data/turverkko.cx2" download>turverkko.cx2</a>.</p>
+        <h2 style="margin-top:12px">Lataa aineisto</h2>
         <div class="panel dl">
+          <a href="data/turverkko.gexf" download><span>Yhteistyöverkko Gephiin (värit, koot, sijainnit)</span><span>turverkko.gexf</span></a>
+          <a href="data/turverkko.cx2" download><span>Yhteistyöverkko Cytoscapeen</span><span>turverkko.cx2</span></a>
           <a href="data/nodes.csv" download><span>Solmut (organisaatiot, hankkeet, keskukset, julkaisut)</span><span>nodes.csv</span></a>
           <a href="data/edges.csv" download><span>Yhteydet lähteineen ja näyttöluokkineen</span><span>edges.csv</span></a>
-          <a href="data/network.graphml" download><span>Koko verkosto Gephiin tai Cytoscapeen</span><span>network.graphml</span></a>
+          <a href="data/network.graphml" download><span>Koko verkosto teemoineen ja rahoitussuhteineen</span><span>network.graphml</span></a>
           <a href="data/analysis.json" download><span>Analyysin tulokset</span><span>analysis.json</span></a>
           <a href="data/dataset.json" download><span>Rakenteinen hankeaineisto</span><span>dataset.json</span></a>
         </div>
@@ -109,6 +117,9 @@
 <script src="assets/common.js"></script>
 <script>
 TV.nav("index.html"); TV.footer();
+{ const abs = f => new URL("data/" + f, location.href).href;
+  document.getElementById("open-gephi").href = "https://gephi.org/gephi-lite/?file=" + encodeURIComponent(abs("turverkko.gexf"));
+  document.getElementById("open-cyto").href = "https://web.cytoscape.org/?import=" + encodeURIComponent(abs("turverkko.cx2")); }
 const CITE = {
   apa: `Jääskeläinen, M. (2026). Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu (Versio 1.0.0) [Ohjelmisto]. Seinäjoen ammattikorkeakoulu. ${TV.REPO}`,
   bib: `@software{jaaskelainen_turverkko_2026,
