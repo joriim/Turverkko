@@ -10,7 +10,7 @@ Aineistolla on kolme tehtävää:
 2. **Yhteysverkoston dokumentointi.** Kuka osallistuu mihinkin, ja jokaiselle yhteydelle lähde.
 3. **Yhteyksien analyysi.** Välittäjäorganisaatiot, erilliset yhteistyösaarekkeet ja puuttuvat yhteydet eli toimijat, jotka tekevät samaa mutta eivät tunne toisiaan.
 
-**Sivusto:** `https://joriim.github.io/Turverkko/` (GitHub Pages, kansio `docs/`)
+**Sivusto:** [joriim.github.io/Turverkko](https://joriim.github.io/Turverkko/): etusivu, kartta ja verkosto, haku hankekortteineen sekä ehdotuslomake. Julkaistaan automaattisesti GitHub Actionsilla.
 
 ## Keskeiset havainnot (31.10.2026)
 
@@ -30,7 +30,9 @@ src/source.py          Ainoa käsin muokattava tiedosto: hankkeet, ohjelmat, kes
                        julkaisut, organisaatiot, osallistumiset ja kytkökset lähteineen
 scripts/build.py       → data/nodes.csv, edges.csv, network.graphml, network.json, dataset.json
 scripts/analyze.py     → analysis/*.csv, analysis/raportti.md, data/analysis.json
-scripts/site.py        → docs/index.html (+ docs/data/ ladattaviksi)
+scripts/site.py        → docs/: etusivu, kartta, haku, ehdotuslomake (+ docs/data/)
+site/pages/            Etusivun, haun ja lomakkeen lähdetiedostot
+hakulahteet/           Hakuopas aineiston laajentamiseen (Claude in Chrome)
 site/template.html     Sivun pohja
 site/repo.txt          Repon osoite sivun linkkejä varten
 ```
@@ -56,6 +58,9 @@ Teemat T1–T8 on kuvattu [SCHEMA.md](SCHEMA.md):ssa. Solmutyypit ovat teema, oh
 - **Puuttuva yhteys** tarkoittaa, että teemat ovat lähes samat (Jaccard ≥ 0,5) eikä vahvistettua polkua ole kolmen askeleen sisällä. Se kertoo, että yhteyttä ei löytynyt julkisista lähteistä. Se ei todista, ettei yhteyttä ole. Tämä on aineiston tärkein korjattava kohta: jos tiedät yhteyden, lisää se.
 
 ## Osallistuminen
+
+Aineiston laajentamiseen on valmis hakuopas: [hakulahteet/](hakulahteet/README.md) listaa 22 avointa hanketietokantaa ja antaa jokaiselle hakuohjeen Claude in Chromelle. Sivustolla on myös [ehdotuslomake](https://joriim.github.io/Turverkko/ehdota.html).
+
 
 Puuttuva hanke, organisaatio tai yhteys on tervetullut. Ohje: [CONTRIBUTING.md](CONTRIBUTING.md). Jokainen lisäys tarvitsee julkisen lähteen.
 

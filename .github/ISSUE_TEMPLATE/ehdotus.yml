@@ -1,0 +1,83 @@
+name: Ehdota lisäystä tai korjausta
+description: Puuttuva hanke, organisaatio, osallistuminen, yhteys tai julkaisu – tai korjaus olemassa olevaan tietoon.
+title: "[Ehdotus] "
+labels: ["ehdotus"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Kiitos! Jokainen lisäys tarvitsee **julkisen lähteen**. Ylläpitäjä tarkistaa ehdotuksen ja lisää sen tiedostoon `src/source.py`.
+        Lomakkeen voi täyttää myös sivulla [Ehdota lisäystä](https://joriim.github.io/Turverkko/ehdota.html).
+  - type: dropdown
+    id: tyyppi
+    attributes:
+      label: Ehdotuksen tyyppi
+      options:
+        - Uusi hanke
+        - Uusi organisaatio
+        - Osallistuminen (organisaatio mukana hankkeessa)
+        - Yhteistyö (kahden hankkeen tai keskuksen välinen)
+        - Uusi julkaisu tai tuotos
+        - Korjaus olemassa olevaan tietoon
+    validations:
+      required: true
+  - type: input
+    id: kohde
+    attributes:
+      label: Kohteen tunniste
+      description: Olemassa olevan hankkeen, keskuksen tai organisaation tunniste (esim. FI-07, H-LV, seamk), jos ehdotus koskee sitä.
+  - type: input
+    id: nimi
+    attributes:
+      label: Nimi
+      description: Hankkeen, organisaation tai julkaisun nimi. Yhteydessä molemmat osapuolet.
+    validations:
+      required: true
+  - type: dropdown
+    id: maa
+    attributes:
+      label: Maa
+      options:
+        - Suomi
+        - Ruotsi
+        - Viro
+        - Latvia
+        - Irlanti
+        - Niedersachsen
+        - Muu
+  - type: input
+    id: rahasto
+    attributes:
+      label: Rahasto ja ohjelmakausi
+      description: esim. JTF 2021–27, EIP-AGRI, EAKR 2014–20
+  - type: input
+    id: teemat
+    attributes:
+      label: Teemat (T1–T8)
+      description: "T1 ennallistaminen · T2 turvepellot · T3 kosteikkoviljely · T4 suometsät · T5 soiden suojelu · T6 maankäyttösektorin päästöt · T7 osaamiskeskittymät · T8 maanomistajat ja suunnittelu"
+  - type: textarea
+    id: kuvaus
+    attributes:
+      label: Kuvaus
+      description: Mitä lisätään tai korjataan. Hankkeesta toteuttaja, partnerit, budjetti, kausi ja tuotokset, jos lähde ne kertoo.
+    validations:
+      required: true
+  - type: input
+    id: lahde
+    attributes:
+      label: Lähde (URL)
+      description: Julkinen sivu, josta tieto on tarkistettavissa.
+    validations:
+      required: true
+  - type: input
+    id: ehdottaja
+    attributes:
+      label: Ehdottaja (vapaaehtoinen)
+      description: Nimi ja organisaatio, jos haluat tulla mainituksi.
+  - type: checkboxes
+    id: vahvistus
+    attributes:
+      label: Vahvistus
+      options:
+        - label: Tieto on julkisesta lähteestä, ja lähde kertoo sen suoraan.
+          required: true

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Turverkko</title>
+<meta name="description" content="Turvemaihin ja maaperään liittyvän julkisen TKI-rahoituksen toimijaverkosto kuudella EU:n turvemaa-alueella.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.hero{padding-block:56px 32px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center}
+@media (max-width:860px){.hero{grid-template-columns:minmax(0,1fr)}}
+.hero .stack{gap:18px}
+.mini{width:100%;height:auto;max-width:440px;justify-self:center}
+.cite-tabs{display:flex;gap:4px}
+.cite-tabs button{font:500 13px var(--f-mono);background:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px;color:var(--muted);cursor:pointer}
+.cite-tabs button[aria-selected="true"]{color:var(--fg);border-color:var(--accent)}
+.dl{display:flex;flex-direction:column}
+.dl a{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--fg)}
+.dl a:last-child{border-bottom:0}
+.dl a span:last-child{font:12px var(--f-mono);color:var(--muted);white-space:nowrap}
+.themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:8px 24px}
+.themes div{display:flex;gap:10px;align-items:baseline}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <section class="hero">
+    <div class="stack">
+      <div class="eyebrow">JTF · EAKR · ESR+ · maaseuturahasto · EIP-AGRI — 2014–20 ja 2021–27</div>
+      <h1>Kuka tekee turvemaiden TKI-työtä, ja kenen kanssa?</h1>
+      <p class="lede">Turverkko dokumentoi turvemaihin, turvepeltoihin, suometsiin, kosteikkoviljelyyn, ennallistamiseen ja maankäyttösektorin päästöihin liittyvän julkisen TKI-rahoituksen kuudella EU:n turvemaa-alueella. Se näyttää, missä samaa työtä tehdään rinnakkain ilman yhteyttä.</p>
+      <div class="chips" style="gap:10px">
+        <a class="btn" href="kartta.html">Avaa kartta ja verkosto</a>
+        <a class="btn ghost" href="ehdota.html">Ehdota puuttuvaa yhteyttä</a>
+      </div>
+    </div>
+    <svg class="mini" id="mini" viewBox="-230 -200 460 400" role="img" aria-label="Pienoiskuva yhteistyöverkosta"></svg>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="Aineisto lukuina"></section>
+
+  <section class="section">
+    <div class="grid3">
+      <a class="door" href="kartta.html"><span class="eyebrow">Visualisointi</span><h3>Kartta ja verkosto</h3><p>Käsitekartta teemoittain, yhteysverkosto, osaamiskeskukset, teemamatriisi ja tuotosten näyttöaste.</p><span class="go">kartta.html →</span></a>
+      <a class="door" href="haku.html"><span class="eyebrow">Selaa</span><h3>Haku ja hankekortit</h3><p>Hae hankkeita, organisaatioita, keskuksia ja julkaisuja. Jokaisella on oma kortti lähteineen ja linkkeineen.</p><span class="go">haku.html →</span></a>
+      <a class="door" href="ehdota.html"><span class="eyebrow">Osallistu</span><h3>Ehdota lisäystä</h3><p>Puuttuuko hanke tai yhteys? Lomake tekee valmiin ehdotuksen, joka tarkistetaan ennen lisäämistä.</p><span class="go">ehdota.html →</span></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="stack">
+        <h2>Havainnot</h2>
+        <div class="prose" id="findings"><p class="note">Ladataan…</p></div>
+        <p class="note">Luvut lasketaan automaattisesti aineistosta. Täysi raportti: <a href="__REPO_URL__/blob/main/analysis/raportti.md">analysis/raportti.md</a>.</p>
+      </div>
+      <div class="stack">
+        <h2>Teemat</h2>
+        <div class="themes" id="themes"></div>
+        <p class="note">Rajattu pois: vety, energiaratkaisut, yleinen yritystuki ja matkailu.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="stack">
+        <h2>Viittaa näin</h2>
+        <div class="cite-tabs" role="tablist" aria-label="Viittausmuoto">
+          <button role="tab" aria-selected="true" data-fmt="apa" id="cite-apa">APA</button>
+          <button role="tab" aria-selected="false" data-fmt="bib" id="cite-bib">BibTeX</button>
+        </div>
+        <pre id="cite"></pre>
+        <div class="chips"><button class="btn ghost" id="copy-cite" type="button">Kopioi</button><span class="note" id="copy-msg" aria-live="polite"></span></div>
+        <p class="note" id="doi-note">DOI lisätään ensimmäisen Zenodo-julkaisun jälkeen. Siihen asti viittaa repon osoitteeseen.</p>
+      </div>
+      <div class="stack">
+        <h2>Lataa aineisto</h2>
+        <div class="panel dl">
+          <a href="data/nodes.csv" download><span>Solmut (organisaatiot, hankkeet, keskukset, julkaisut)</span><span>nodes.csv</span></a>
+          <a href="data/edges.csv" download><span>Yhteydet lähteineen ja näyttöluokkineen</span><span>edges.csv</span></a>
+          <a href="data/network.graphml" download><span>Koko verkosto Gephiin tai Cytoscapeen</span><span>network.graphml</span></a>
+          <a href="data/analysis.json" download><span>Analyysin tulokset</span><span>analysis.json</span></a>
+          <a href="data/dataset.json" download><span>Rakenteinen hankeaineisto</span><span>dataset.json</span></a>
+        </div>
+        <p class="note">Aineisto CC BY 4.0, koodi MIT. Aineistomalli: <a href="__REPO_URL__/blob/main/SCHEMA.md">SCHEMA.md</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="prose">
+        <h2>Menetelmä ja rajoitukset</h2>
+        <p>Aineisto on lähteillä varmennettu otos, ei koko populaatio. Hanketaso on koottu kansallisista rekistereistä, EU CAP Networkin hankesivuilta, ohjelmatiedotteista ja tutkimusportaaleista. Jokaisella yhteydellä on lähde ja näyttöluokka: lähde, päätelty tai vahvistamatta.</p>
+        <p>Yhteistyöverkkoon kuuluvat vain osallistuminen, keskukseen kuuluminen ja dokumentoitu yhteistyö. <b>Puuttuva yhteys</b> tarkoittaa, että toimijoiden teemat ovat lähes samat (Jaccard ≥ 0,5) eikä vahvistettua polkua ole kolmen askeleen sisällä. Se kertoo, ettei yhteyttä löytynyt julkisista lähteistä. Se ei todista, ettei sitä ole.</p>
+      </div>
+      <div class="prose">
+        <h2>Tekijä</h2>
+        <p>Miiro Jääskeläinen, Seinäjoen ammattikorkeakoulu · <a href="https://orcid.org/0000-0002-0683-8352">ORCID 0000-0002-0683-8352</a></p>
+        <p>Työ on tehty tekoälyavusteisesti tekijän ohjauksessa. Tekijän panos on tutkimuskysymys ja rajaus, asiantuntijatarkistus ja julkaisupäätökset. Tarkemmin: <a href="__REPO_URL__#tekijä-ja-tekijän-panos">README</a>.</p>
+        <p>Repoa saa forkata ja kehittää lisenssien ehdoin.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="assets/common.js"></script>
+<script>
+TV.nav("index.html"); TV.footer();
+const CITE = {
+  apa: `Jääskeläinen, M. (2026). Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu (Versio 1.0.0) [Ohjelmisto]. Seinäjoen ammattikorkeakoulu. ${TV.REPO}`,
+  bib: `@software{jaaskelainen_turverkko_2026,
+  author    = {Jääskeläinen, Miiro},
+  title     = {Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu},
+  year      = {2026},
+  version   = {1.0.0},
+  publisher = {Seinäjoen ammattikorkeakoulu},
+  url       = {${TV.REPO}},
+  license   = {MIT, CC-BY-4.0}
+}`};
+let fmt = "apa";
+const citeEl = document.getElementById("cite");
+const showCite = () => { citeEl.textContent = CITE[fmt]; document.querySelectorAll(".cite-tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.fmt === fmt)); };
+document.querySelectorAll(".cite-tabs button").forEach(b => b.onclick = () => { fmt = b.dataset.fmt; showCite(); });
+showCite();
+document.getElementById("copy-cite").onclick = async () => {
+  const msg = document.getElementById("copy-msg");
+  try { await navigator.clipboard.writeText(CITE[fmt]); msg.textContent = "Kopioitu."; }
+  catch { const r = document.createRange(); r.selectNodeContents(citeEl); const s = getSelection(); s.removeAllRanges(); s.addRange(r); msg.textContent = "Valittu – kopioi Ctrl+C."; }
+};
+
+TV.load().then(({ds, net, an}) => {
+  const s = an.summary;
+  const jtf = ds.programmes.filter(p => p.fund === "JTF" && p.focus.length && p.id !== "P-FI-PP-JTF").reduce((a, p) => a + p.eur, 0);
+  document.getElementById("kpis").innerHTML = [
+    [ds.projects.length, "turvemaahanketta otoksessa"],
+    [ds.hubs.length, "osaamiskeskusta"],
+    [s.actors, "toimijaa yhteistyöverkossa"],
+    [s.components, "erillistä yhteistyösaareketta"],
+    [s.missing_cross_country, "maiden välistä puuttuvaa yhteyttä"],
+    [TV.eur(jtf), "turvepainotteista JTF-rahoitusta"],
+  ].map(([b, t]) => `<div class="kpi"><b>${b}</b><span>${t}</span></div>`).join("");
+
+  const top = an.missing_links.filter(m => m.tyyppi === "maiden välinen").slice(0, 3);
+  const brokers = an.organisations.filter(o => o.valityskeskeisyys > 0).slice(0, 3).map(o => o.nimi.replace(/ \(.*\)/, ""));
+  const multi = an.components.filter(c => c.maita > 1);
+  document.getElementById("findings").innerHTML = `
+    <p><b>${s.actors} toimijaa jakautuu ${s.components} erilliseen yhteistyösaarekkeeseen.</b> Maarajan ylittää ${multi.length === 1 ? "vain yksi saareke" : multi.length + " saareketta"}${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, ja lähteellä vahvistettuja maiden välisiä yhteyksiä on ${s.cross_country_edges}.</p>
+    <p><b>Vahvimmat puuttuvat yhteydet:</b> ${top.map(m => `<a href="haku.html#${encodeURIComponent(m.a)}">${TV.esc(m.a_nimi.replace(/ –.*/, ""))}</a> ja <a href="haku.html#${encodeURIComponent(m.b)}">${TV.esc(m.b_nimi.replace(/ –.*/, ""))}</a>`).join("; ")}.</p>
+    <p><b>Välittäjäorganisaatiot</b> eli ne, joiden kautta eri hankkeet kytkeytyvät: ${brokers.map(TV.esc).join(", ")}.</p>`;
+  document.getElementById("themes").innerHTML = Object.entries(ds.themes).map(([k, v]) => {
+    const n = ds.projects.filter(p => p.themes.includes(k)).length;
+    return `<div><span class="pill mono">${k}</span><span>${TV.esc(v)} <span class="note mono">${n}</span></span></div>`;
+  }).join("");
+
+  // Pienoisverkko
+  const P = an.positions, act = new Set(["organisaatio","hanke","osaamiskeskus","vertailukohde"]);
+  const pos = id => P[id] && [P[id][0] * 190, P[id][1] * 165];
+  let g = "";
+  net.edges.filter(e => ["osallistuu","kuuluu_keskukseen","yhteistyo"].includes(e.kind) && e.evidence !== "vahvistamatta").forEach(e => {
+    const a = pos(e.source), b = pos(e.target); if (a && b) g += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--muted)" stroke-opacity=".35"/>`;
+  });
+  an.missing_links.slice(0, 12).forEach(m => { const a = pos(m.a), b = pos(m.b); if (a && b) g += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--hot)" stroke-opacity=".5" stroke-dasharray="4 3"/>`; });
+  net.nodes.filter(n => act.has(n.kind) && P[n.id]).forEach(n => {
+    const [x, y] = pos(n.id);
+    g += n.kind === "osaamiskeskus" ? `<circle cx="${x}" cy="${y}" r="7" fill="var(--bg)" stroke="${TV.ccol(n.country)}" stroke-width="3"/>`
+       : n.kind === "organisaatio" ? `<circle cx="${x}" cy="${y}" r="3.5" fill="${TV.ccol(n.country)}"/>`
+       : `<rect x="${x-4}" y="${y-4}" width="8" height="8" fill="${TV.ccol(n.country)}"/>`;
+  });
+  document.getElementById("mini").innerHTML = g;
+}).catch(err => TV.fail(document.getElementById("kpis"), err));
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* Turverkko – yhteinen tyyli. Sama värimaailma kuin kartassa: rahkasammal, turve, suovesi. */
+:root{
+  --bg:#f3f5ef; --surface:#ffffff; --sunk:#e6eadf; --fg:#1d2419; --muted:#5d6a57; --line:#cfd6c6;
+  --accent:#5b7f2a; --accent-ink:#ffffff; --peat:#7a4b2a; --water:#2f6f86;
+  --c-FI:#2f6f86; --c-SE:#b38a14; --c-EE:#3d7a5a; --c-LV:#8b3a52; --c-IE:#5b7f2a; --c-DE-NI:#7a4b2a; --c-X:#8a8f86;
+  --hot:#b8452a; --warm:#d9a441; --ok:#3d7a5a;
+  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#131711; --surface:#1b2018; --sunk:#232a1f; --fg:#e7ecdf; --muted:#9aa591; --line:#333c2d;
+  --accent:#9cc25a; --accent-ink:#131711; --peat:#c08a5e; --water:#6fb3cc;
+  --c-FI:#6fb3cc; --c-SE:#e0b84a; --c-EE:#6cc093; --c-LV:#d37a95; --c-IE:#9cc25a; --c-DE-NI:#c08a5e; --c-X:#7d8478;
+  --hot:#e8775a; --warm:#e8c06a; --ok:#6cc093; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#131711; --surface:#1b2018; --sunk:#232a1f; --fg:#e7ecdf; --muted:#9aa591; --line:#333c2d;
+  --accent:#9cc25a; --accent-ink:#131711; --peat:#c08a5e; --water:#6fb3cc;
+  --c-FI:#6fb3cc; --c-SE:#e0b84a; --c-EE:#6cc093; --c-LV:#d37a95; --c-IE:#9cc25a; --c-DE-NI:#c08a5e; --c-X:#7d8478;
+  --hot:#e8775a; --warm:#e8c06a; --ok:#6cc093; color-scheme:dark}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 var(--f-body)}
+a{color:var(--water)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+
+/* Navigaatio */
+.nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.nav .nav-in{max-width:1180px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px));display:flex;align-items:center;gap:20px;min-height:56px;flex-wrap:wrap}
+.brand{font:700 20px/1 var(--f-display);color:var(--fg);text-decoration:none;display:flex;align-items:center;gap:8px}
+.brand svg{flex:none}
+.nav ul{list-style:none;display:flex;gap:4px;margin:0;padding:0;flex-wrap:wrap}
+.nav ul a{display:block;padding:8px 12px;border-radius:6px;color:var(--muted);text-decoration:none;font-weight:500}
+.nav ul a:hover{background:var(--sunk);color:var(--fg)}
+.nav ul a[aria-current="page"]{color:var(--fg);background:var(--sunk)}
+.nav .gh{margin-left:auto;font:500 13px var(--f-mono);color:var(--muted);text-decoration:none}
+
+/* Typografia */
+h1{font:700 clamp(30px,5vw,52px)/1.04 var(--f-display);letter-spacing:-.015em;margin:0;text-wrap:balance}
+h2{font:700 24px/1.2 var(--f-display);margin:0;text-wrap:balance}
+h3{font:600 16px/1.35 var(--f-body);margin:0}
+p{margin:0}
+.lede{font-size:18px;color:var(--muted);max-width:62ch}
+.eyebrow{font:500 11px/1.2 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.note{font-size:13px;color:var(--muted)}
+.prose{max-width:68ch;display:flex;flex-direction:column;gap:12px}
+
+/* Rakenne */
+.stack{display:flex;flex-direction:column;gap:16px}
+.section{padding-block:40px;display:flex;flex-direction:column;gap:20px}
+.section + .section{border-top:1px solid var(--line)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:20px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:20px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.kpi{background:var(--surface);padding:16px 18px;display:flex;flex-direction:column;gap:4px}
+.kpi b{font:700 30px/1 var(--f-display);font-variant-numeric:tabular-nums}
+.kpi span{font-size:13px;color:var(--muted)}
+
+/* Ohjauskortit */
+.door{display:flex;flex-direction:column;gap:8px;padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--fg);transition:border-color .15s,transform .15s}
+.door:hover{border-color:var(--accent);transform:translateY(-1px)}
+.door h3{font:700 20px/1.2 var(--f-display)}
+.door p{color:var(--muted);font-size:14px}
+.door .go{margin-top:auto;font:500 13px var(--f-mono);color:var(--accent)}
+
+/* Pillerit, merkit */
+.pill{font:500 11px/1.4 var(--f-mono);border-radius:4px;padding:2px 7px;border:1px solid var(--line);white-space:nowrap;display:inline-block;max-width:100%;overflow:hidden;text-overflow:ellipsis;vertical-align:middle}
+.chips .pill{white-space:normal}
+.pill.hot{border-color:var(--hot);color:var(--hot)}
+.pill.ok{border-color:var(--ok);color:var(--ok)}
+.pill.unv{border-style:dashed;color:var(--muted)}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none;vertical-align:baseline}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.ev{display:inline-flex;gap:2px;vertical-align:middle}
+.ev i{width:10px;height:10px;border-radius:2px;background:var(--sunk);display:block}
+.ev i.f{background:var(--accent)}
+
+/* Lomakkeet */
+label{font-weight:500;font-size:14px;display:flex;flex-direction:column;gap:6px}
+label .hint{font-weight:400;color:var(--muted);font-size:13px}
+input[type=text],input[type=url],input[type=search],select,textarea{font:15px/1.4 var(--f-body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:0;border-color:var(--accent)}
+fieldset{border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:0;display:flex;flex-wrap:wrap;gap:8px 16px}
+legend{font-weight:500;font-size:14px;padding:0 6px}
+fieldset label{flex-direction:row;align-items:center;gap:6px;font-weight:400}
+.btn{font:600 15px var(--f-body);border:0;border-radius:6px;padding:11px 18px;cursor:pointer;background:var(--accent);color:var(--accent-ink);text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn.ghost{background:none;color:var(--fg);border:1px solid var(--line)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.error{color:var(--hot);font-size:13px}
+
+/* Taulukot */
+.tablebox{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+
+/* Koodi ja viittaus */
+pre,code{font-family:var(--f-mono);font-size:13px}
+pre{background:var(--sunk);border-radius:6px;padding:14px;overflow-x:auto;margin:0;white-space:pre-wrap;word-break:break-word}
+
+.footer{border-top:1px solid var(--line);padding-block:28px 48px;margin-top:20px}
+.footer .foot-in{max-width:1180px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px));display:flex;flex-wrap:wrap;gap:12px 28px;font-size:13px;color:var(--muted)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Puhelin: navigaatio yhdellä rivillä, vieritettävä */
+@media (max-width:640px){
+  .nav .nav-in{flex-wrap:nowrap;gap:10px;min-height:52px}
+  .nav ul{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;min-width:0}
+  .nav ul::-webkit-scrollbar{display:none}
+  .nav ul a{padding:7px 9px;white-space:nowrap;font-size:14px}
+  .nav .gh{display:none}
+  .brand{font-size:17px}
+}

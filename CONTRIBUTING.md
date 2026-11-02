@@ -9,6 +9,10 @@ Aineisto kasvaa lisäyksillä. Tärkeimpiä ovat yhteydet, joita analyysi pitä�
 - **Henkilöt eivät ole solmuja.** Jos yhteys perustuu yhteiseen tutkijaan, mainitse se kytköksen `note`-kentässä ammatillisessa roolissa.
 - **Summat lähteen mukaan.** Erottele kokonaisbudjetti (`eur_total`) ja EU-osuus (`eur_eu`). Tuntematon arvo on `None`.
 
+## Mistä etsiä
+
+[hakulahteet/README.md](hakulahteet/README.md) listaa hanketietokannat maittain ja rahastoittain valmiine hakuohjeineen. Yksittäisen ehdotuksen voi tehdä myös sivuston lomakkeella, joka luo valmiin issuen.
+
 ## Näin lisäät
 
 Kaikki muutokset tehdään tiedostoon `src/source.py`.

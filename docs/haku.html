@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Haku – Turverkko</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:24px;align-items:start;padding-block:28px}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
+.controls{display:flex;flex-direction:column;gap:12px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,140px),1fr));gap:8px}
+.results{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow:hidden}
+.res{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:4px 12px;padding:12px 14px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--fg);align-items:baseline}
+.res:last-child{border-bottom:0}
+.res:hover,.res[aria-current="true"]{background:var(--sunk)}
+.res .t{font-weight:500;min-width:0;overflow-wrap:anywhere}
+.res .k{font:11px var(--f-mono);color:var(--muted);white-space:nowrap}
+.res .s{grid-column:2/4;font-size:13px;color:var(--muted)}
+.card{position:sticky;top:72px}
+@media (max-width:900px){.card{position:static}}
+.kv{display:grid;grid-template-columns:120px minmax(0,1fr);gap:6px 12px;font-size:14px;margin:0}
+.kv dt{color:var(--muted)} .kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.rel{display:flex;flex-direction:column}
+.rel > div{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;padding:8px 0;border-top:1px solid var(--line);font-size:14px}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="layout">
+    <section class="stack" aria-label="Haku">
+      <div class="stack" style="gap:8px">
+        <h1 style="font-size:clamp(28px,4vw,40px)">Haku</h1>
+        <p class="note">Hae nimellä, organisaatiolla, paikalla tai aiheella. Valitse tulos nähdäksesi kortin, yhteydet ja lähteet.</p>
+      </div>
+      <div class="controls">
+        <label for="q"><span class="sr">Hakusana</span>
+          <input type="search" id="q" placeholder="esim. ennallistaminen, SeAMK, Latvia, paludikulttuuri" autocomplete="off">
+        </label>
+        <div class="row">
+          <select id="f-kind" aria-label="Tyyppi"><option value="">Kaikki tyypit</option></select>
+          <select id="f-country" aria-label="Maa"><option value="">Kaikki maat</option></select>
+          <select id="f-theme" aria-label="Teema"><option value="">Kaikki teemat</option></select>
+        </div>
+      </div>
+      <p class="note mono" id="count" aria-live="polite"></p>
+      <div class="results" id="results"></div>
+    </section>
+    <aside class="panel card" id="card" aria-live="polite"></aside>
+  </div>
+</main>
+<script src="assets/common.js"></script>
+<script>
+TV.nav("haku.html"); TV.footer();
+const $ = id => document.getElementById(id);
+const COLLAB = ["osallistuu","kuuluu_keskukseen","yhteistyo"];
+let D, items = [];
+
+TV.load().then(d => {
+  D = d;
+  const ds = d.ds;
+  const detail = {};
+  ds.projects.forEach(p => detail[p.id] = {...p, _kind:"hanke"});
+  ds.context.forEach(p => detail[p.id] = {...p, _kind:"vertailukohde"});
+  ds.hubs.forEach(p => detail[p.id] = {...p, _kind:"osaamiskeskus"});
+  ds.orgs.forEach(p => detail[p.id] = {...p, _kind:"organisaatio"});
+  ds.pubs.forEach(p => detail[p.id] = {...p, name:p.title, _kind:"julkaisu"});
+  ds.programmes.forEach(p => detail[p.id] = {...p, name:`${p.fund} ${TV.COUNTRY[p.country]||p.country} ${p.period}`, _kind:"ohjelma"});
+  items = Object.values(detail).map(x => ({
+    id:x.id, kind:x._kind, name:x.name, country:x.country || "", themes:x.themes || x.focus || [], raw:x,
+    hay:[x.id, x.name, x.lead, x.region, x.outputs, x.note, x.target, x.members, x.authors, x.venue, x.scope, x.targets,
+         (x.themes||[]).map(t => ds.themes[t]).join(" "), TV.COUNTRY[x.country]].filter(Boolean).join(" ").toLowerCase()
+  }));
+  const kinds = ["hanke","osaamiskeskus","organisaatio","julkaisu","ohjelma","vertailukohde"];
+  $("f-kind").innerHTML += kinds.map(k => `<option value="${k}">${TV.KIND[k]} (${items.filter(i => i.kind === k).length})</option>`).join("");
+  $("f-country").innerHTML += Object.entries(TV.COUNTRY).filter(([c]) => items.some(i => i.country === c)).map(([c, n]) => `<option value="${c}">${n}</option>`).join("");
+  $("f-theme").innerHTML += Object.entries(ds.themes).map(([k, v]) => `<option value="${k}">${k} ${TV.esc(v)}</option>`).join("");
+  const params = new URLSearchParams(location.search);
+  if (params.get("q")) $("q").value = params.get("q");
+  ["q","f-kind","f-country","f-theme"].forEach(id => $(id).addEventListener("input", list));
+  list(); show();
+  window.addEventListener("hashchange", show);
+}).catch(err => TV.fail($("results"), err));
+
+function list() {
+  const q = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const k = $("f-kind").value, c = $("f-country").value, t = $("f-theme").value;
+  const order = {osaamiskeskus:0, hanke:1, vertailukohde:2, julkaisu:3, organisaatio:4, ohjelma:5};
+  const hits = items.filter(i => (!k || i.kind === k) && (!c || i.country === c) && (!t || i.themes.includes(t)) && q.every(w => i.hay.includes(w)))
+    .sort((a, b) => order[a.kind] - order[b.kind] || a.name.localeCompare(b.name, "fi"));
+  $("count").textContent = `${hits.length} / ${items.length} tulosta`;
+  const cur = decodeURIComponent(location.hash.slice(1));
+  $("results").innerHTML = hits.length ? hits.map(i => `<a class="res" href="#${encodeURIComponent(i.id)}"${i.id === cur ? ' aria-current="true"' : ""}>
+      ${TV.dot(i.country)}<span class="t">${TV.esc(i.name)}</span><span class="k">${TV.KIND[i.kind]}</span>
+      <span class="s">${TV.esc([TV.COUNTRY[i.country], i.raw.fund && TV.FUND[i.raw.fund] ? i.raw.fund : "", i.raw.lead || i.raw.org_type || i.raw.venue || i.raw.years || ""].filter(Boolean).join(" · "))}</span></a>`).join("")
+    : `<div class="empty">Ei tuloksia. Puuttuuko jotain? <a href="ehdota.html">Ehdota lisäystä</a>.</div>`;
+}
+
+function show() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  document.querySelectorAll(".res").forEach(a => a.setAttribute("aria-current", a.getAttribute("href") === "#" + encodeURIComponent(id)));
+  const it = items.find(i => i.id === id);
+  if (!it) {
+    $("card").innerHTML = `<div class="eyebrow">Kortti</div><h2>Valitse tulos</h2><p class="note">Kortti näyttää rahoituksen, toteuttajat, tuotokset, yhteydet muihin toimijoihin ja jokaisen tiedon lähteen. Kortin osoitteen voi jakaa.</p>`;
+    document.title = "Haku – Turverkko"; return;
+  }
+  document.title = `${it.name} – Turverkko`;
+  const x = it.raw, ds = D.ds, E = D.net.edges, N = D.byId;
+  const name = i => (N[i] && N[i].label) || i;
+  const link = i => `<a href="#${encodeURIComponent(i)}">${TV.esc(name(i))}</a>`;
+  const kv = [];
+  const add = (k, v) => { if (v != null && v !== "" && v !== "—") kv.push(`<dt>${k}</dt><dd>${v}</dd>`); };
+  add("Tyyppi", TV.KIND[it.kind]);
+  add("Maa", TV.COUNTRY[x.country]);
+  add("Alue", TV.esc(x.region || x.scope));
+  add("Rahasto", x.fund && (TV.FUND[x.fund] || TV.esc(x.fund)));
+  add("Kausi", x.period ? `<span class="mono">${x.start ?? "?"}–${x.end ?? "?"} (${x.period})</span>` : x.years && `<span class="mono">${TV.esc(x.years)}</span>`);
+  add("Toteuttaja", TV.esc(x.lead));
+  add("Budjetti", x.eur_total != null ? `<span class="mono">${TV.eur(x.eur_total)}</span>` : x.budget && TV.esc(x.budget));
+  add("EU-osuus", x.eur_eu != null ? `<span class="mono">${TV.eur(x.eur_eu)}</span>` : "");
+  add("Allokaatio", x.eur ? `<span class="mono">${TV.eur(x.eur)}</span>` : "");
+  add("Tila", x.status && `<span class="pill">${TV.esc(x.status)}</span>`);
+  add("Toimijat", TV.esc(x.members));
+  add("Tavoite", TV.esc(x.target || x.targets));
+  add("Toteuma", TV.esc(x.realised));
+  add("Tuotokset", TV.esc(x.outputs));
+  add("Näyttöaste", x.evidence != null ? `${TV.evbar(x.evidence)} ${TV.EV[x.evidence]}` : "");
+  add("Tekijät", TV.esc(x.authors));
+  add("Julkaisu", TV.esc([x.venue, x.year].filter(Boolean).join(", ")));
+  add("Julkaisutyyppi", x.type && `<span class="pill">${TV.esc(x.type)}</span>${x.verified === false ? ' <span class="pill unv">metatiedot avaamatta</span>' : ""}`);
+  add("Organisaatiotyyppi", TV.esc(x.org_type));
+  add("Huomio", TV.esc(x.note));
+  const nd = N[it.id]; if (nd && nd.duplicate_note) add("Kaksoiskirjaus", TV.esc(nd.duplicate_note));
+
+  const ev = e => `<span class="pill ${e.evidence === "lähde" ? "ok" : e.evidence === "päätelty" || e.evidence === "vahvistamatta" ? "unv" : ""}">${TV.esc(e.evidence || "–")}</span>${e.url ? ` <a class="note" href="${e.url}" target="_blank" rel="noopener">lähde ↗</a>` : ""}`;
+  const KN = {osallistuu:"osallistuu", kuuluu_keskukseen:"kuuluu keskukseen", yhteistyo:"yhteistyö", ei_kytkosta:"ei löydettyä kytköstä", rahoittaa:"rahoittaa", tuotos:"tuotos"};
+  const rels = E.filter(e => (e.source === it.id || e.target === it.id) && (COLLAB.includes(e.kind) || ["ei_kytkosta","rahoittaa","tuotos"].includes(e.kind)));
+  const groups = {};
+  rels.forEach(e => { const o = e.source === it.id ? e.target : e.source; const g = e.kind === "tuotos" ? "Tuotokset ja julkaisut" : e.kind === "rahoittaa" ? "Rahoitus" : N[o] && N[o].kind === "organisaatio" ? "Organisaatiot" : "Hankkeet ja keskukset"; (groups[g] ||= []).push([e, o]); });
+  let relHtml = Object.entries(groups).map(([g, list]) => `<div class="eyebrow">${g} (${list.length})</div><div class="rel">${list.map(([e, o]) =>
+    `<div>${N[o] ? TV.dot(N[o].country) : ""} ${link(o)} <span class="note">${KN[e.kind]}${e.note ? " · " + TV.esc(e.note) : ""}</span> ${ev(e)}</div>`).join("")}</div>`).join("");
+
+  const miss = D.an.missing_links.filter(m => m.a === it.id || m.b === it.id);
+  if (miss.length) relHtml += `<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div><p class="note">Samat teemat, ei löydettyä yhteistyöpolkua.</p><div class="rel">${miss.map(m => {
+    const o = m.a === it.id ? m.b : m.a; return `<div>${TV.dot(N[o] && N[o].country)} ${link(o)} <span class="pill hot">${Number(m.jaccard).toFixed(2)}</span> <span class="note">${m.yhteiset_teemat}</span></div>`; }).join("")}</div>`;
+  const org = D.an.organisations.find(o => o.id === it.id);
+  if (org) add("Välityskeskeisyys", `<span class="mono">${org.valityskeskeisyys}</span> <span class="note">· saareke ${org.komponentti}</span>`);
+
+  $("card").innerHTML = `<div class="eyebrow">${TV.KIND[it.kind]} · <span class="mono">${TV.esc(it.id)}</span></div>
+    <h2>${TV.esc(it.name)}</h2>
+    ${it.themes.length ? `<div class="chips">${it.themes.map(t => `<span class="pill" title="${TV.esc(ds.themes[t])}">${t} ${TV.esc(ds.themes[t] || "")}</span>`).join("")}</div>` : ""}
+    <dl class="kv">${kv.join("")}</dl>
+    ${relHtml}
+    <div class="chips" style="margin-top:8px">${x.url ? `<a class="btn ghost" href="${x.url}" target="_blank" rel="noopener">Lähde ↗</a>` : ""}
+      <a class="btn ghost" href="ehdota.html?kohde=${encodeURIComponent(it.id)}">Ehdota korjausta tai yhteyttä</a></div>`;
+  if (innerWidth < 900) $("card").scrollIntoView({behavior: "smooth", block: "start"});
+}
+</script>
+<style>.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}</style>
+</body>
+</html>
