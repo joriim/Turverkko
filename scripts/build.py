@@ -115,7 +115,7 @@ def write(nodes, edges):
         G.add_node(n["id"], **{k: ("" if v is None else v) for k, v in n.items() if k != "id"})
     for e in edges:
         G.add_edge(e["source"], e["target"], **{k: ("" if v is None else v) for k, v in e.items() if k not in ("source", "target")})
-    nx.write_graphml(G, data / "network.graphml")
+    nx.write_graphml_xml(G, data / "network.graphml")  # ElementTree: sama tulos lxml:n kanssa ja ilman
 
     dataset = dict(themes=S.THEMES, countries=S.COUNTRIES, programmes=S.PROGRAMMES, projects=S.PROJECTS,
                    context=S.CONTEXT, hubs=S.HUBS, pubs=S.PUBS, links=S.LINKS, duplicates=S.DUPLICATES,
