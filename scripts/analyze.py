@@ -24,6 +24,7 @@ import overlap as OV
 ROOT = Path(__file__).resolve().parents[1]
 ACTOR_KINDS = {"organisaatio", "hanke", "osaamiskeskus", "vertailukohde"}
 COLLAB_EDGES = {"osallistuu", "kuuluu_keskukseen", "yhteistyo"}
+COPUB_EDGE = "yhteisjulkaisu"   # organisaatioiden yhteisjulkaisut: erillinen näyttö, raportoidaan rinnakkain
 MAX_HOPS = 3          # polku ≤ 3 askelta = toimijat tuntevat toisensa (esim. yhteinen organisaatio = 2)
 
 
@@ -32,13 +33,13 @@ def load():
     return {n["id"]: n for n in net["nodes"]}, net["edges"]
 
 
-def collab_graph(nodes, edges, include_unverified=True):
+def collab_graph(nodes, edges, include_unverified=True, copubs=False):
     G = nx.Graph()
     for i, n in nodes.items():
         if n["kind"] in ACTOR_KINDS:
             G.add_node(i, **n)
     for e in edges:
-        if e["kind"] in COLLAB_EDGES and e["source"] in G and e["target"] in G:
+        if (e["kind"] in COLLAB_EDGES or (copubs and e["kind"] == COPUB_EDGE)) and e["source"] in G and e["target"] in G:
             if not include_unverified and e["evidence"] == "vahvistamatta":
                 continue
             G.add_edge(e["source"], e["target"], kind=e["kind"], evidence=e["evidence"])
@@ -75,6 +76,9 @@ def main():
     nodes, edges = load()
     G = collab_graph(nodes, edges)
     Gv = collab_graph(nodes, edges, include_unverified=False)
+    Gp = collab_graph(nodes, edges, include_unverified=False, copubs=True)  # hankkeet + yhteisjulkaisut
+    comps_p = list(nx.connected_components(Gp))
+    copub_cross = sum(1 for e in edges if e["kind"] == COPUB_EDGE and nodes[e["source"]].get("country") != nodes[e["target"]].get("country"))
     out = ROOT / "analysis"; out.mkdir(exist_ok=True)
 
     # 1. Komponentit
@@ -116,9 +120,9 @@ def main():
         if e["kind"] == "osallistuu" and nodes.get(e["source"], {}).get("kind") == "organisaatio":
             actors[e["target"]].add(e["source"])
 
-    def distance(a, b):
+    def distance(a, b):  # yhteys hankkeiden tai yhteisjulkaisujen kautta
         try:
-            return nx.shortest_path_length(Gv, a, b)
+            return nx.shortest_path_length(Gp, a, b)
         except (nx.NetworkXNoPath, nx.NodeNotFound):
             return None
 
@@ -192,7 +196,10 @@ def main():
                      sequential_unlinked=sum(1 for m in miss if m["tyyppi"] == "peräkkäiset samassa maassa"),
                      overlap_connected=sum(1 for m in pairs if m["tyyppi"] == "yhteydessä"),
                      overlap_family=sum(1 for m in pairs if m["tyyppi"] == "saman kokonaisuuden osat"),
-                     duplicate_candidates=len(dups), theme_country_pairs=len(gaps), theme_country_pairs_unlinked=sum(1 for g in gaps if not g["yhteys"])),
+                     duplicate_candidates=len(dups),
+                     copub_edges=sum(1 for e in edges if e["kind"] == COPUB_EDGE), copub_cross_country=copub_cross,
+                     components_with_copubs=len(comps_p),
+                     multi_country_components_with_copubs=sum(1 for c in comps_p if len({nodes[i].get("country") for i in c} - {"", None}) > 1), theme_country_pairs=len(gaps), theme_country_pairs_unlinked=sum(1 for g in gaps if not g["yhteys"])),
         components=comp_rows, organisations=org_rows, overlaps=pairs, missing_links=miss, sensitivity=sensitivity,
         overlap_types=OV.TYPES, duplicate_candidates=dups,
         cross_country={f"{a}–{b}": n for (a, b), n in cross.items()},
@@ -258,6 +265,7 @@ def report(a, nodes):
          f"- Toimijoita yhteistyöverkossa: **{s['actors']}**, vahvistettuja yhteistyösärmiä **{s['collab_edges']}** (lisäksi {s['unverified_edges']} vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).",
          f"- Erillisiä yhteistyösaarekkeita: **{s['components']}**. Suurin kattaa {s['largest_component']} toimijaa.",
          f"- Usean maan saarekkeita: **{s['multi_country_components']}**. Maiden välisiä vahvistettuja yhteistyösärmiä: **{s['cross_country_edges']}**.",
+         f"- Yhteisjulkaisut mukaan lukien (organisaatioiden yhteiset turvemaa- ja maaperäjulkaisut, OpenAIRE): yhteisjulkaisusärmiä **{s['copub_edges']}**, joista maiden välisiä **{s['copub_cross_country']}**; saarekkeita **{s['components_with_copubs']}**, joista usean maan **{s['multi_country_components_with_copubs']}**. Päällekkäisyysparien yhteys lasketaan tässä verkossa.",
          f"- Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ {a['params']['overlap_threshold']}, {a['params']['compared_projects']} vertailtavaa hanketta): **{s['overlap_pairs']}**. Niistä",
          f"  - rinnakkaisia ilman yhteyttä (sama maa, samaan aikaan, ei yhteistä toimijaa eikä polkua ≤ {a['params']['max_hops']}); kohdekohtaisissa toteutushankkeissa tämä on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön: **{s["parallel_unlinked"]}**",
          f"  - peräkkäisiä samassa maassa ilman yhteyttä: **{s['sequential_unlinked']}**",

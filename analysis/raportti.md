@@ -7,6 +7,7 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 - Toimijoita yhteistyöverkossa: **306**, vahvistettuja yhteistyösärmiä **247** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
 - Erillisiä yhteistyösaarekkeita: **81**. Suurin kattaa 92 toimijaa.
 - Usean maan saarekkeita: **2**. Maiden välisiä vahvistettuja yhteistyösärmiä: **8**.
+- Yhteisjulkaisut mukaan lukien (organisaatioiden yhteiset turvemaa- ja maaperäjulkaisut, OpenAIRE): yhteisjulkaisusärmiä **0**, joista maiden välisiä **0**; saarekkeita **81**, joista usean maan **2**. Päällekkäisyysparien yhteys lasketaan tässä verkossa.
 - Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ 0.2, 148 vertailtavaa hanketta): **102**. Niistä
   - rinnakkaisia ilman yhteyttä (sama maa, samaan aikaan, ei yhteistä toimijaa eikä polkua ≤ 3); kohdekohtaisissa toteutushankkeissa tämä on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön: **75**
   - peräkkäisiä samassa maassa ilman yhteyttä: **5**

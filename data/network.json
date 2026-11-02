@@ -2659,1064 +2659,1216 @@
    "kind": "organisaatio",
    "label": "Seinäjoen ammattikorkeakoulu (SeAMK)",
    "country": "FI",
-   "org_type": "amk"
+   "org_type": "amk",
+   "ror": ""
   },
   {
    "id": "hy",
    "kind": "organisaatio",
    "label": "Helsingin yliopisto",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "il",
    "kind": "organisaatio",
    "label": "Ilmatieteen laitos",
    "country": "FI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "uef",
    "kind": "organisaatio",
    "label": "Itä-Suomen yliopisto",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "aalto",
    "kind": "organisaatio",
    "label": "Aalto-yliopisto",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "oy",
    "kind": "organisaatio",
    "label": "Oulun yliopisto",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "luke",
    "kind": "organisaatio",
    "label": "Luonnonvarakeskus (Luke)",
    "country": "FI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "metsakeskus",
    "kind": "organisaatio",
    "label": "Suomen metsäkeskus",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "chydenius",
    "kind": "organisaatio",
    "label": "Kokkolan yliopistokeskus Chydenius",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "ep-ely",
    "kind": "organisaatio",
    "label": "Etelä-Pohjanmaan ELY-keskus",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "pp-ely",
    "kind": "organisaatio",
    "label": "Pohjois-Pohjanmaan ELY-keskus",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "ks-ely",
    "kind": "organisaatio",
    "label": "Keski-Suomen ELY-keskus",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "kinno",
    "kind": "organisaatio",
    "label": "Kouvola Innovation Oy (Kinno)",
    "country": "FI",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "sykli",
    "kind": "organisaatio",
    "label": "SYKLI Environmental School of Finland",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "hiiliporssi",
    "kind": "organisaatio",
    "label": "Hiilipörssi Oy",
    "country": "FI",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "silava",
    "kind": "organisaatio",
    "label": "LSFRI Silava",
    "country": "LV",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "lu",
    "kind": "organisaatio",
    "label": "Latvian yliopisto",
    "country": "LV",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "rtu",
    "kind": "organisaatio",
    "label": "Riga Technical University",
    "country": "LV",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "lbtu",
    "kind": "organisaatio",
    "label": "Latvia University of Life Sciences and Technologies",
    "country": "LV",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "ies",
    "kind": "organisaatio",
    "label": "Institute for Environmental Solutions",
    "country": "LV",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "lathort",
    "kind": "organisaatio",
    "label": "Institute of Horticulture (LatHort)",
    "country": "LV",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "arei",
    "kind": "organisaatio",
    "label": "Institute of Agricultural Resources and Economics",
    "country": "LV",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "cfla",
    "kind": "organisaatio",
    "label": "Central Finance and Contracting Agency",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "lv-regions",
    "kind": "organisaatio",
    "label": "Latvian suunnittelualueet",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "gri",
    "kind": "organisaatio",
    "label": "Green Restoration Ireland",
    "country": "IE",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "nbas",
    "kind": "organisaatio",
    "label": "Nature Based Agri Solutions (FarmPEAT)",
    "country": "IE",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "wsi",
    "kind": "organisaatio",
    "label": "Wetland Surveys Ireland",
    "country": "IE",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "irl",
    "kind": "organisaatio",
    "label": "Irish Rural Link",
    "country": "IE",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "umeras",
    "kind": "organisaatio",
    "label": "Umeras Community Development Group",
    "country": "IE",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "galway",
    "kind": "organisaatio",
    "label": "University of Galway",
    "country": "IE",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "teagasc",
    "kind": "organisaatio",
    "label": "Teagasc",
    "country": "IE",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "tcd",
    "kind": "organisaatio",
    "label": "Trinity College Dublin",
    "country": "IE",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "bnm",
    "kind": "organisaatio",
    "label": "Bord na Móna",
    "country": "IE",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "epa-ie",
    "kind": "organisaatio",
    "label": "Environmental Protection Agency (IE)",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "dhlgh",
    "kind": "organisaatio",
    "label": "Department of Housing, Local Government and Heritage",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "intrigo",
    "kind": "organisaatio",
    "label": "Intrigo Ltd",
    "country": "IE",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "emra",
    "kind": "organisaatio",
    "label": "Eastern and Midland Regional Assembly",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "nmu",
    "kind": "organisaatio",
    "label": "Niedersächsisches Umweltministerium",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "ml-ni",
    "kind": "organisaatio",
    "label": "Niedersächsisches Landwirtschaftsministerium",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "nlwkn",
    "kind": "organisaatio",
    "label": "NLWKN",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "syke",
    "kind": "organisaatio",
    "label": "Suomen ympäristökeskus (Syke)",
    "country": "FI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "keha",
    "kind": "organisaatio",
    "label": "ELY-keskusten kehittämis- ja hallintokeskus (KEHA)",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "rmk",
    "kind": "organisaatio",
    "label": "Riigimetsa Majandamise Keskus (RMK)",
    "country": "EE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "slu",
    "kind": "organisaatio",
    "label": "Sveriges lantbruksuniversitet (SLU)",
    "country": "SE",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "ltu",
    "kind": "organisaatio",
    "label": "Luleå tekniska universitet",
    "country": "SE",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "landkreis-stade",
    "kind": "organisaatio",
    "label": "Landkreis Stade",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "bund-fur-umwelt-und-naturschutz",
    "kind": "organisaatio",
    "label": "Bund für Umwelt und Naturschutz",
    "country": "DE-NI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "naturschutzstiftung-des-landkreises-cuxh",
    "kind": "organisaatio",
    "label": "Naturschutzstiftung des Landkreises Cuxhaven",
    "country": "DE-NI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "landkreis-luneburg",
    "kind": "organisaatio",
    "label": "Landkreis Lüneburg",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "offis",
    "kind": "organisaatio",
    "label": "OFFIS Institut für Informatik",
    "country": "DE-NI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "thorkas-ug-i-g",
    "kind": "organisaatio",
    "label": "Thorkas UG i.G.",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "bonk-baumschulen-handels",
    "kind": "organisaatio",
    "label": "Bonk Baumschulen Handels",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "baumschul-beratungsring-weser-ems",
    "kind": "organisaatio",
    "label": "Baumschul-Beratungsring Weser-Ems",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "hochschule-hannover",
    "kind": "organisaatio",
    "label": "Hochschule Hannover",
    "country": "DE-NI",
-   "org_type": "amk"
+   "org_type": "amk",
+   "ror": ""
   },
   {
    "id": "dammtechnik-neuhaus",
    "kind": "organisaatio",
    "label": "Dämmtechnik Neuhaus",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "wester-gbr",
    "kind": "organisaatio",
    "label": "Wester GbR",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "universitat-rostock",
    "kind": "organisaatio",
    "label": "Universität Rostock",
    "country": "DE-NI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "universitat-greifswald",
    "kind": "organisaatio",
    "label": "Universität Greifswald",
    "country": "DE-NI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "torfwerk-moorkultur-ramsloh-werner-koch-",
    "kind": "organisaatio",
    "label": "Torfwerk Moorkultur Ramsloh Werner Koch GmbH & Co. KG",
    "country": "DE-NI",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "schmedt",
    "kind": "organisaatio",
    "label": "Schmedt",
    "country": "DE-NI",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "landkreis-cuxhaven",
    "kind": "organisaatio",
    "label": "Landkreis Cuxhaven",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "landkreis-emsland",
    "kind": "organisaatio",
    "label": "Landkreis Emsland",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "landkreis-osterholz",
    "kind": "organisaatio",
    "label": "Landkreis Osterholz",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "landkreis-friesland",
    "kind": "organisaatio",
    "label": "Landkreis Friesland",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "archehof-rolfes",
    "kind": "organisaatio",
    "label": "Archehof Rolfes",
    "country": "DE-NI",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "naturschutzstiftung-grafschaft-bentheim",
    "kind": "organisaatio",
    "label": "Naturschutzstiftung Grafschaft Bentheim",
    "country": "DE-NI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "nabu-kreisverband-gifhorn",
    "kind": "organisaatio",
    "label": "NABU Kreisverband Gifhorn",
    "country": "DE-NI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "landkreis-vechta",
    "kind": "organisaatio",
    "label": "Landkreis Vechta",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "staatliche-moorverwaltung",
    "kind": "organisaatio",
    "label": "Staatliche Moorverwaltung",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "landkreis-verden",
    "kind": "organisaatio",
    "label": "Landkreis Verden",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "niedersachsische-landesforsten-aor",
    "kind": "organisaatio",
    "label": "Niedersächsische Landesforsten AöR",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "niedersachsische-landesforsten-aor-forst",
    "kind": "organisaatio",
    "label": "Niedersächsische Landesforsten AöR Forstamt Neuhaus",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "niedersachsische-landesforsten-a-o-r-for",
    "kind": "organisaatio",
    "label": "Niedersächsische Landesforsten A.ö.R. Forstamt Dassel",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
    "kind": "organisaatio",
    "label": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie",
    "country": "DE-NI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "boerenbond-projecten-vzw",
    "kind": "organisaatio",
    "label": "Boerenbond Projecten vzw",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "constellr",
    "kind": "organisaatio",
    "label": "constellr",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "eigen-vermogen-van-het-instituut-voor-la",
    "kind": "organisaatio",
    "label": "Eigen Vermogen van het Instituut voor Landbouw- en Visserijonderzoek",
    "country": "DE-NI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "carl-von-ossietzky-universitat-oldenburg",
    "kind": "organisaatio",
    "label": "Carl von Ossietzky Universität Oldenburg",
    "country": "DE-NI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "europaisches-fachzentrum-moor-und-klima-",
    "kind": "organisaatio",
    "label": "Europäisches Fachzentrum Moor und Klima Wagenfeld",
    "country": "DE-NI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "akcelerator-drustvenih-promjena-zid",
    "kind": "organisaatio",
    "label": "Akcelerator Društvenih Promjena-Zid",
    "country": "",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "association-des-chambres-d-agriculture-d",
    "kind": "organisaatio",
    "label": "Association des Chambres d'Agriculture de l'Arc Atlantique",
    "country": "",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "van-hall-larenstein-university-of-applie",
    "kind": "organisaatio",
    "label": "Van Hall Larenstein University of Applied Sciences",
    "country": "",
-   "org_type": "amk"
+   "org_type": "amk",
+   "ror": ""
   },
   {
    "id": "broads-authority",
    "kind": "organisaatio",
    "label": "Broads Authority",
    "country": "",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "gate-21",
    "kind": "organisaatio",
    "label": "Gate 21",
    "country": "",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "john-nurmisen-saatio-sr",
    "kind": "organisaatio",
    "label": "John Nurmisen Säätiö sr",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "luonnonperintosaatio-sr",
    "kind": "organisaatio",
    "label": "Luonnonperintösäätiö sr",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "kaakkois-suomen-ammattikorkeakoulu",
    "kind": "organisaatio",
    "label": "Kaakkois-Suomen Ammattikorkeakoulu",
    "country": "FI",
-   "org_type": "amk"
+   "org_type": "amk",
+   "ror": ""
   },
   {
    "id": "lapin-ammattikorkeakoulu",
    "kind": "organisaatio",
    "label": "Lapin ammattikorkeakoulu",
    "country": "FI",
-   "org_type": "amk"
+   "org_type": "amk",
+   "ror": ""
   },
   {
    "id": "lansirannikon-koulutus",
    "kind": "organisaatio",
    "label": "Länsirannikon Koulutus",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "savonia-ammattikorkeakoulu",
    "kind": "organisaatio",
    "label": "Savonia-ammattikorkeakoulu",
    "country": "FI",
-   "org_type": "amk"
+   "org_type": "amk",
+   "ror": ""
   },
   {
    "id": "pohjois-savon-luonnonsuojelupiiri",
    "kind": "organisaatio",
    "label": "Pohjois-Savon luonnonsuojelupiiri",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "upm-kymmene",
    "kind": "organisaatio",
    "label": "UPM-Kymmene",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "mittuniversitetet",
    "kind": "organisaatio",
    "label": "Mittuniversitetet",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "lappeenrannan-lahden-teknillinen-yliopis",
    "kind": "organisaatio",
    "label": "Lappeenrannan-Lahden teknillinen yliopisto LUT",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "metsahallitus",
    "kind": "organisaatio",
    "label": "Metsähallitus",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "linttipower",
    "kind": "organisaatio",
    "label": "LinttiPower",
    "country": "FI",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "suomen-riistanhoito-saatio-sr",
    "kind": "organisaatio",
    "label": "Suomen Riistanhoito-Säätiö sr",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "luontokollektiivi",
    "kind": "organisaatio",
    "label": "Luontokollektiivi",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
    "kind": "organisaatio",
    "label": "Kokemäenjoen vesistön vesiensuojeluyhdistys",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "turun-yliopisto",
    "kind": "organisaatio",
    "label": "Turun yliopisto",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "geologian-tutkimuskeskus",
    "kind": "organisaatio",
    "label": "Geologian Tutkimuskeskus",
    "country": "FI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "jyvaskylan-yliopisto",
    "kind": "organisaatio",
    "label": "Jyväskylän yliopisto",
    "country": "FI",
-   "org_type": "yliopisto"
+   "org_type": "yliopisto",
+   "ror": ""
   },
   {
    "id": "jyvaskylan-ammattikorkeakoulu",
    "kind": "organisaatio",
    "label": "Jyväskylän Ammattikorkeakoulu",
    "country": "FI",
-   "org_type": "amk"
+   "org_type": "amk",
+   "ror": ""
   },
   {
    "id": "maaseudun-sivistysliiton-vaara-karjalan-",
    "kind": "organisaatio",
    "label": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys",
    "country": "FI",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "oulun-kaupunki",
    "kind": "organisaatio",
    "label": "Oulun kaupunki",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "mikkelin-kaupunki",
    "kind": "organisaatio",
    "label": "Mikkelin kaupunki",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "tapio",
    "kind": "organisaatio",
    "label": "Tapio",
    "country": "FI",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "jarviseudun-koulutuskuntayhtyma",
    "kind": "organisaatio",
    "label": "Järviseudun Koulutuskuntayhtymä",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "blackstairs-farming-group",
    "kind": "organisaatio",
    "label": "Blackstairs Farming Group",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "galway-mayo-institute-of-technology",
    "kind": "organisaatio",
    "label": "Galway Mayo Institute of Technology",
    "country": "IE",
-   "org_type": "tutkimuslaitos"
+   "org_type": "tutkimuslaitos",
+   "ror": ""
   },
   {
    "id": "rspb-ni",
    "kind": "organisaatio",
    "label": "Rspb Ni",
    "country": "IE",
-   "org_type": "jarjesto"
+   "org_type": "jarjesto",
+   "ror": ""
   },
   {
    "id": "mourne-and-down-district-council",
    "kind": "organisaatio",
    "label": "Mourne and Down District Council",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "ecochip-energy",
    "kind": "organisaatio",
    "label": "Ecochip Energy",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "kelly-s-nursery",
    "kind": "organisaatio",
    "label": "Kelly's Nursery",
    "country": "IE",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "derrymore-peat",
    "kind": "organisaatio",
    "label": "Derrymore Peat",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "strawchip",
    "kind": "organisaatio",
    "label": "Strawchip",
    "country": "IE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "biedriba-latvijas-biologiskas-lauksaimni",
    "kind": "organisaatio",
    "label": "biedrība “Latvijas Bioloģiskās lauksaimniecības asociācija”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "sia-latvijas-lauku-konsultaciju-un-izgli",
    "kind": "organisaatio",
    "label": "SIA “Latvijas Lauku konsultāciju un izglītības centrs”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "sia-lm-product",
    "kind": "organisaatio",
    "label": "SIA “LM Product”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "zs-atvases",
    "kind": "organisaatio",
    "label": "ZS “Atvases”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "sia-eko-darzs",
    "kind": "organisaatio",
    "label": "Sia “Eko Dārzs”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "olga-steinberga-sia-latvijas-lauku-konsu",
    "kind": "organisaatio",
    "label": "Olga Šteinberga; SIA \"Latvijas Lauku konsultāciju un izglītības centrs",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "mpks-mezsaimnieks",
    "kind": "organisaatio",
    "label": "MPKS „Mežsaimnieks”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "zs-lielvaiceni",
    "kind": "organisaatio",
    "label": "ZS Lielvaicēni",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "biedriba-preilu-lauksaimnieku-apvieniba",
    "kind": "organisaatio",
    "label": "Biedrība \"Preiļu lauksaimnieku apvienība",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "zemnieku-saimnieciba-kaigi",
    "kind": "organisaatio",
    "label": "zemnieku saimniecība “Kaigi”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "sia-komercsabiedriba-arosa-r",
    "kind": "organisaatio",
    "label": "SIA komercsabiedrība “Arosa R”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "valmieras-novada-pasvaldiba",
    "kind": "organisaatio",
    "label": "Valmieras novada pašvaldība",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "priesgaisrines-apsaugos-ir-gelbejimo-dep",
    "kind": "organisaatio",
    "label": "Priešgaisrinės apsaugos ir gelbėjimo departamentas prie Vidaus reikalų ministerijos",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "biedriba-baltijas-krasti",
    "kind": "organisaatio",
    "label": "Biedrība “Baltijas krasti”",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "z-s-kaleji",
    "kind": "organisaatio",
    "label": "Z/S Kalēji",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "biedriba-latvijas-kudras-asociacija",
    "kind": "organisaatio",
    "label": "Biedrība \"Latvijas kūdras asociācija",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "llu-macibu-un-petijumu-saimnieciba-vecau",
    "kind": "organisaatio",
    "label": "LLU mācību un pētījumu saimniecība \"Vecauce",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "latvijas-cuku-audzetaju-asociacija",
    "kind": "organisaatio",
    "label": "Latvijas Cūku audzētāju asociācija",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "lauksaimniecibas-statutsabiedribu-asocia",
    "kind": "organisaatio",
    "label": "Lauksaimniecības statūtsabiedrību asociācija",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "stadu-un-kudras-inovaciju-fonds-skif",
    "kind": "organisaatio",
    "label": "Stādu un kūdras inovāciju fonds SKIF",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "zs-baltini",
    "kind": "organisaatio",
    "label": "ZS \"Baltiņi",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "akciju-sabiedriba-latvijas-valsts-mezi",
    "kind": "organisaatio",
    "label": "Akciju sabiedrība \"Latvijas valsts meži",
    "country": "LV",
-   "org_type": "yritys"
+   "org_type": "yritys",
+   "ror": ""
   },
   {
    "id": "z-s-kiburi",
    "kind": "organisaatio",
    "label": "Z/S Ķīburi",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "z-s-andrupeni",
    "kind": "organisaatio",
    "label": "Z/S Andrupēni",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "biolat",
    "kind": "organisaatio",
    "label": "Biolat",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "gourmet-industries",
    "kind": "organisaatio",
    "label": "Gourmet Industries",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "stadu-un-kudras-inovaciju-fonds",
    "kind": "organisaatio",
    "label": "Stādu Un Kūdras Inovāciju Fonds",
    "country": "LV",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "lansstyrelsen-i-norrbottens-lan",
    "kind": "organisaatio",
    "label": "Länsstyrelsen i Norrbottens län",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "allogro",
    "kind": "organisaatio",
    "label": "Allogro",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "hushallningssallskapet-i-norrbotten-vast",
    "kind": "organisaatio",
    "label": "Hushållningssällskapet i Norrbotten-Västerbotten",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "agroost-ideell-forening",
    "kind": "organisaatio",
    "label": "Agroöst Ideell Förening",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "hushallningssallskapet-sjuharad",
    "kind": "organisaatio",
    "label": "Hushållningssällskapet Sjuhärad",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "miljomatematik-malmo",
    "kind": "organisaatio",
    "label": "Miljömatematik Malmö",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "archaea",
    "kind": "organisaatio",
    "label": "Archaea",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "skogsstyrelsen",
    "kind": "organisaatio",
    "label": "Skogsstyrelsen",
    "country": "SE",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "ilmatieteen-laitos",
    "kind": "organisaatio",
    "label": "Ilmatieteen Laitos",
    "country": "FI",
-   "org_type": "viranomainen"
+   "org_type": "viranomainen",
+   "ror": ""
   },
   {
    "id": "J1",

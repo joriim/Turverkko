@@ -485,3 +485,14 @@ for _pub in PUBS:
 import naytto as _naytto  # noqa: E402
 _naytto.apply(PROJECTS, PUBS)
 
+# ROR-tunnisteet ja yhteisjulkaisut (tarkistetut automaattihaun tulokset)
+import csv as _csv  # noqa: E402
+_ror_file = _tuonti.RESULTS / "ror.csv"
+if _ror_file.exists():
+    _ror = {r["org_id"]: r["ror"] for r in _csv.DictReader(open(_ror_file, encoding="utf-8-sig")) if r.get("ror")}
+    for _o in ORGS:
+        if _o["id"] in _ror:
+            _o["ror"] = _ror[_o["id"]]
+_cp_file = _tuonti.RESULTS / "yhteisjulkaisut.csv"
+COPUBS = list(_csv.DictReader(open(_cp_file, encoding="utf-8-sig"))) if _cp_file.exists() else []
+

@@ -60,7 +60,7 @@ def build():
         for pid in h["projects"]:
             edge(pid, h["id"], "kuuluu_keskukseen", evidence="lähde", url=h["url"])
     for o in S.ORGS:
-        node(o["id"], "organisaatio", o["name"], country=o["country"], org_type=o["type"])
+        node(o["id"], "organisaatio", o["name"], country=o["country"], org_type=o["type"], ror=o.get("ror", ""))
     for pub in S.PUBS:
         node(pub["id"], "julkaisu", pub["title"], year=pub["year"] or "", pub_type=pub["type"],
              verified=pub["verified"], venue=pub["venue"], url=pub["url"])
@@ -87,7 +87,13 @@ def build():
         if n["id"] in dup:
             n["duplicate_note"] = dup[n["id"]]
 
-    items = S.PROJECTS + S.CONTEXT
+    # Yhteisjulkaisut (tarkistetut, hakulahteet/tulokset/yhteisjulkaisut.csv): organisaatioiden välinen yhteistyönäyttö
+    org_ids = {o["id"] for o in S.ORGS}
+    for r in S.COPUBS:
+        if r["org_a"] in org_ids and r["org_b"] in org_ids:
+            edge(r["org_a"], r["org_b"], "yhteisjulkaisu", evidence="lähde", weight=int(r["yhteisjulkaisuja"]),
+                 note=f'{r["yhteisjulkaisuja"]} yhteisjulkaisua {r.get("vuodet", "")}'.strip(),
+                 url="https://explore.openaire.eu/")
 
     ids = {n["id"] for n in nodes}
     bad = [e for e in edges if e["source"] not in ids or e["target"] not in ids]

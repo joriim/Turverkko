@@ -16,7 +16,9 @@ from yhteinen import ROOT, OUT, SCOPE, fold, get
 ROR = "https://api.ror.org/v2/organizations"
 OA = "https://api.openaire.eu/graph/v1"
 RESEARCH_TYPES = {"yliopisto", "amk", "tutkimuslaitos"}
-TOPIC = "peat OR peatland OR peatlands OR bog OR mire OR fen OR rewetting OR paludiculture OR sphagnum OR histosol OR turvemaa OR torvmark OR Moor"
+# OpenAIRE sallii enintään neljä loogista operaattoria hakua kohden, joten aiheet haetaan viiden sanan ryhminä
+TOPICS = ["peat OR peatland OR peatlands OR bog OR mire", "fen OR rewetting OR paludiculture OR sphagnum OR histosol",
+          "turvemaa OR torvmark OR Moorboden OR Wiedervernässung OR kūdra"]
 COUNTRY = {"FI": "FI", "SE": "SE", "EE": "EE", "LV": "LV", "IE": "IE", "DE-NI": "DE", "DE-SH": "DE", "DE": "DE"}
 
 
@@ -61,9 +63,16 @@ def oa_org(ror_id):
 
 def products(oa_id, max_pages):
     out = {}
+    for topic in TOPICS:
+        out.update(_products(oa_id, topic, max_pages))
+    return out
+
+
+def _products(oa_id, topic, max_pages):
+    out = {}
     cursor = "*"
     for _ in range(max_pages):
-        d = get(f"{OA}/researchProducts", {"relOrganizationId": oa_id, "search": TOPIC, "pageSize": 50, "cursor": cursor})
+        d = get(f"{OA}/researchProducts", {"relOrganizationId": oa_id, "search": topic, "pageSize": 50, "cursor": cursor})
         for r in d.get("results") or []:
             t = (r.get("mainTitle") or "") + " " + " ".join(x if isinstance(x, str) else "" for x in r.get("descriptions") or [])
             y = (r.get("publicationDate") or "")[:4]

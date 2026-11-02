@@ -21,6 +21,10 @@
   "overlap_connected": 14,
   "overlap_family": 3,
   "duplicate_candidates": 2,
+  "copub_edges": 0,
+  "copub_cross_country": 0,
+  "components_with_copubs": 81,
+  "multi_country_components_with_copubs": 2,
   "theme_country_pairs": 72,
   "theme_country_pairs_unlinked": 66
  },
