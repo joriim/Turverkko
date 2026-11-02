@@ -31,7 +31,7 @@ EXCLUDE = {
 EXCLUDE_COUNTRY = {"DE": "Saksa, muu osavaltio kuin Niedersachsen (aluerajauksen ulkopuolella)"}
 
 # Lähteen numero → tunnisteen etuliite (K = Kohesio, E = EU CAP Network / EIP)
-SOURCE_PREFIX = {"1": "K", "2": "E", "5": "R", "8": "T", "9": "J", "22": "O"}  # R = EURA 2021, O = OpenAIRE, T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
+SOURCE_PREFIX = {"1": "K", "2": "E", "5": "R", "8": "T", "9": "J", "22": "O", "23": "H"}  # R = EURA 2021, O = OpenAIRE, H = CORDIS (Horizon), T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
 
 # Rivit, jotka ovat jo aineistossa olevia hankkeita (nimi → olemassa oleva tunniste).
 # Rivin tiedot täydentävät olemassa olevaa hanketta eivätkä luo uutta.
@@ -118,7 +118,19 @@ ORG_CONTAINS = [("silava", "silava"), ("latvijas universit", "lu"), ("lauksaimni
                 ("luonnonvarakeskus", "luke"), ("seinajoen ammattikorkeakoulu", "seamk"), ("oulun yliopisto", "oy"),
                 ("offis", "offis"), ("hochschule hannover", "hochschule-hannover"), ("biokunststoffe", "hochschule-hannover"),
                 ("skogsstyrelsen", "skogsstyrelsen"), ("swedish forest agency", "skogsstyrelsen"),
-                ("sveriges lantbruksuniversitet", "slu"), ("lulea tekniska universitet", "ltu")]
+                ("sveriges lantbruksuniversitet", "slu"), ("lulea tekniska universitet", "ltu"),
+                # CORDISin ja OpenAIREn englanninkieliset viralliset nimet
+                ("natural resources institute finland", "luke"), ("luonnonvarakeskus", "luke"),
+                ("university of helsinki", "hy"), ("helsingin yliopisto", "hy"),
+                ("university of eastern finland", "uef"), ("ita-suomen yliopisto", "uef"),
+                ("university of oulu", "oy"), ("oulun yliopisto", "oy"),
+                ("finnish environment institute", "syke"), ("suomen ymparistokeskus", "syke"),
+                ("swedish university of agricultural sciences", "slu"), ("lulea university of technology", "ltu"),
+                ("latvijas valsts mezzinatnes", "silava"), ("latvian state forest research", "silava"),
+                ("university of latvia", "lu"), ("latvia university of life sciences", "lbtu"),
+                ("university of galway", "galway"), ("national university of ireland galway", "galway"),
+                ("trinity college dublin", "tcd"), ("universitat greifswald", "universitat-greifswald"),
+                ("riigimetsa majandamise", "rmk"), ("seinajoen ammattikorkeakoulu", "seamk")]
 
 # Organisaatioksi tunnistettavat sanat; muut nimet tulkitaan henkilöiksi eikä niistä tehdä solmuja
 ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij|fonds|centrs|saimnieciba|komercsabiedr|apvieniba|"
@@ -228,6 +240,14 @@ COUNTRY_OVERRIDE = {
 }
 
 
+# Organisaation maa nimen perässä: "University of Oulu (FI)" tai "Teagasc (Ireland)"
+CC_SUFFIX = re.compile(r"\s*\((FI|SE|EE|LV|IE|DE-NI|DE-SH|Finland|Sweden|Estonia|Latvia|Ireland|Suomi|Ruotsi|Viro|Irlanti)\)\s*$")
+
+
+def _cc(s):
+    return COUNTRY_MAP.get(s, s)
+
+
 def _country(row):
     name = row["hanke_nimi"].strip()
     if row["maa"].strip() in ("FI", "SE", "EE", "LV", "IE", "DE-NI", "DE-SH", "EU", "DE"):
@@ -316,7 +336,8 @@ def load():
         _lo = org_of(r0["toteuttaja"])
         lead = _lo[1] if _lo else _org_name(r0["toteuttaja"])
         others = sorted({(org_of(r["toteuttaja"]) or (None, _org_name(r["toteuttaja"])))[1] for r in rs[1:]} - {lead})
-        partners_listed = [p.strip() for p in r0["partnerit"].split(";") if p.strip()] if c != "EU" else []
+        # Monen maan hankkeissa partnereista otetaan mukaan ne, joiden maa on merkitty ("Nimi (FI)")
+        partners_listed = [p.strip() for p in r0["partnerit"].split(";") if p.strip() and (c != "EU" or CC_SUFFIX.search(p))]
         projects.append(dict(
             id=pid, country=c, region=r0["alue"] or ("useita maita" if c == "EU" else ""), fund=_fund(r0),
             period=_period(r0["ohjelmakausi"]) or ("2021–27" if r0["loppu"][:4].isdigit() and int(r0["loppu"][:4]) >= 2024 else ""), name=NAME_FIX.get(name, name),
@@ -331,11 +352,13 @@ def load():
         for i, who in enumerate([r["toteuttaja"] for r in rs] + partners_listed):
             if not who.strip():
                 continue
-            o = org_of(who)
+            m = CC_SUFFIX.search(who)
+            occ = _cc(m.group(1)) if m else (c if c != "EU" else "")
+            o = org_of(CC_SUFFIX.sub("", who) if m else who)
             if not o:
                 continue  # henkilö: ei solmua
             oid, oname = o
-            orgs.setdefault(oid, dict(id=oid, name=oname, country=c if c != "EU" else "", type=org_type(oname)))
+            orgs.setdefault(oid, dict(id=oid, name=oname, country=occ, type=org_type(oname)))
             role = "edunsaaja" if i < len(rs) else "partneri"
             url = rs[i]["url"] if i < len(rs) else r0["url"]
             if (oid, pid) not in {(p[0], p[1]) for p in part}:

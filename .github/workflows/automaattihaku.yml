@@ -40,6 +40,9 @@ jobs:
         run: python scripts/haku/nayte.py naytteet
       - name: OpenAIRE (lähde 22)
         run: python scripts/haku/openaire.py
+      - name: CORDIS – Horizon 2020 ja Horizon Europe (lähde 23)
+        continue-on-error: true
+        run: python scripts/haku/cordis.py
       - name: Pull request
         continue-on-error: true  # jos Actions ei saa luoda PR:ää, tulokset jäävät haaraan automaattihaku
         uses: peter-evans/create-pull-request@v7

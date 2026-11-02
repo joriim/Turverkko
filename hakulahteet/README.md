@@ -39,11 +39,12 @@ Työnkulku:
 | 19 | Europa für Niedersachsen | EFRE, ESF+, ELER | DE-NI | [europa-fuer-niedersachsen.niedersachsen.de](https://www.europa-fuer-niedersachsen.niedersachsen.de) ✓ → | **1** |
 | 20 | DVS GAP-Netzwerk – EIP | EIP-Agrar Saksassa | DE | [dvs-gap-netzwerk.de](https://www.dvs-gap-netzwerk.de) ✓ → | **1** |
 | 21 | Förderkatalog des Bundes | Liittovaltion hankkeet | DE | [foerderportal.bund.de/foekat](https://foerderportal.bund.de/foekat) → | 3 |
-| 22 | OpenAIRE Explore | Julkaisut ja hankeyhteydet | kaikki | [explore.openaire.eu](https://explore.openaire.eu) → | 2 (julkaisut) |
+| 22 | OpenAIRE | Kansalliset tutkimusrahoittajat, julkaisut | kaikki | [explore.openaire.eu](https://explore.openaire.eu) → | automaattinen (viikoittain) |
+| 23 | CORDIS | Horizon 2020, Horizon Europe | kaikki | [cordis.europa.eu](https://cordis.europa.eu/projects) → | automaattinen (viikoittain) |
 
 Prioriteetti 1 täyttää aineiston suurimmat aukot: Ruotsin turvemaahankkeet puuttuvat kokonaan, ja Kohesiosta saadaan EAKR- ja JTF-hankkeiden koko populaatio. Prioriteetti 2 täydentää rahoitusmuodot ja julkaisut. Prioriteetti 3 on valinnainen.
 
-**Rajauksen ulkopuolella:** Horizon Europe ja CORDIS jätettiin katsauksesta pois. Vety- ja energiahankkeita ei kerätä.
+**Horizon:** Horizon 2020 ja Horizon Europe otettiin rajaukseen 2.11.2026. Ne haetaan automaattisesti CORDISin avoimista CSV-vienneistä (lähde 23). Vety- ja energiahankkeita ei kerätä.
 
 ---
 
@@ -524,6 +525,21 @@ Kirjaa jokainen löytynyt julkaisu omaksi rivikseen:
 hanke_nimi = Turverkon hanke, johon julkaisu kuuluu; kuvaus = julkaisun otsikko,
 tekijät ja lehti; tuotokset = julkaisutyyppi (vertaisarvioitu artikkeli, raportti,
 aineisto) ja DOI; url = DOI-linkki. Jätä rahasto- ja summakentät tyhjiksi.
+```
+
+### 23. CORDIS (Horizon 2020 ja Horizon Europe)
+
+Haetaan automaattisesti ([automaattihaku/README.md](automaattihaku/README.md)): skripti `scripts/haku/cordis.py` lataa CORDISin avoimet CSV-viennit, rajaa hankkeet turvemaa- ja maaperätermeillä ja pitää ne, joissa on osallistuja rajauksen maista. Niedersachsen tunnistetaan osallistujan NUTS-koodista (DE9). Selainhaku tarvitaan vain tarkistukseen.
+
+```text
+LÄHDE 23: CORDIS. Avaa https://cordis.europa.eu/projects ja hae hakusanoilla peatland,
+peat, bog, mire, fen, rewetting, paludiculture, organic soil, soil carbon, carbon farming,
+soil health, LULUCF. Rajaa "Programme" = Horizon 2020 tai Horizon Europe ja
+"Country" = Finland, Sweden, Estonia, Latvia, Ireland tai Germany. Kirjaa rahasto =
+"Horizon", ohjelmakausi = "Horizon 2020 (2014-2020)" tai "Horizon Europe (2021-2027)",
+toteuttaja = koordinaattori muodossa "Nimi (maa)", partnerit = vain rajauksen maiden
+osallistujat muodossa "Nimi (maa)", budjetti_eur = "Total cost", eu_osuus_eur = "EU
+contribution", url = https://cordis.europa.eu/project/id/<numero>.
 ```
 
 ---

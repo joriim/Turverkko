@@ -3,7 +3,7 @@ const TV = (() => {
   const REPO = "https://github.com/joriim/Turverkko";
   const COUNTRY = {FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (Interreg)"};
   const FUND = {JTF:"JTF – oikeudenmukainen siirtymä", EAKR:"EAKR / EFRE / ERDF", EIP:"EIP-AGRI", MSR:"Maaseuturahasto (EAFRD)",
-                KF:"Koheesiorahasto", Interreg:"Interreg (EAKR)", "ESR+":"ESR+", LIFE:"LIFE", Kansallinen:"Kansallinen", "?":"EU-osarahoitteinen, rahasto ei lähteessä", "—":"—"};
+                KF:"Koheesiorahasto", Interreg:"Interreg (EAKR)", "ESR+":"ESR+", LIFE:"LIFE", Horizon:"Horizon 2020 / Horizon Europe", Kansallinen:"Kansallinen", "?":"EU-osarahoitteinen, rahasto ei lähteessä", "—":"—"};
   const KIND = {hanke:"Hanke", osaamiskeskus:"Osaamiskeskus", vertailukohde:"Vertailukohde", organisaatio:"Organisaatio",
                 julkaisu:"Julkaisu", ohjelma:"Ohjelma", teema:"Teema"};
   const EV = ["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"];

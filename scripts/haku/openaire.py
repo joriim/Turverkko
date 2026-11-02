@@ -1,7 +1,7 @@
 """OpenAIRE Graph API -haku (lähde 22): kansallisten rahoittajien turvemaa- ja maaperähankkeet.
 
 Hakee https://api.openaire.eu/graph/v1/projects -rajapinnasta hakusanoilla, rajaa rahoittajan maan
-Turverkon maihin ja jättää EU:n tutkimuksen puiteohjelmat (Horizon, rahoittaja EC) pois.
+Turverkon maihin. Horizon-hankkeet (rahoittaja EC) haetaan CORDISista (cordis.py), joten ne ohitetaan tässä.
 Tulos: hakulahteet/automaattihaku/22-openaire-<pvm>.csv tarkistettavaksi. Ei muuta aineistoa.
 
 Aja:  python scripts/haku/openaire.py [--max-sivut 5]
@@ -11,7 +11,7 @@ from yhteinen import SCOPE, EXCLUDE, fold, get, known, write
 
 API = "https://api.openaire.eu/graph/v1"
 COUNTRIES = {"FI": "FI", "SE": "SE", "EE": "EE", "LV": "LV", "IE": "IE", "DE": "DE"}
-SKIP_FUNDERS = {"EC"}  # Horizon ja edeltäjät eivät kuulu rajaukseen
+SKIP_FUNDERS = {"EC"}  # Horizon haetaan CORDISista, jossa on osallistujien maat ja roolit
 TERMS = ["peatland", "peat", "bog", "mire", "fen", "rewetting", "paludiculture", "sphagnum", "organic soil",
          "histosol", "drained peatland", "peatland forest", "soil organic carbon", "soil carbon", "carbon farming",
          "soil greenhouse gas", "nitrous oxide soil", "methane wetland", "LULUCF", "emission factor soil",

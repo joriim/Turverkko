@@ -190,7 +190,7 @@ a{color:var(--water)}
 const D = __DATA__;
 const CN = D.countries, TH = D.themes;
 const FUNDS = ["JTF","EAKR","Interreg","EIP","MSR","KF","?"];
-const FUNDNAME = {JTF:"JTF – oikeudenmukainen siirtymä",EAKR:"EAKR / EFRE / ERDF",EIP:"EIP-AGRI (MSR)",MSR:"MSR / EAFRD muu",KF:"Koheesiorahasto",Interreg:"Interreg (EAKR)","?":"EU-osarahoitteinen, rahasto ei lähteessä",LIFE:"LIFE",Kansallinen:"Kansallinen","—":"—"};
+const FUNDNAME = {JTF:"JTF – oikeudenmukainen siirtymä",EAKR:"EAKR / EFRE / ERDF",EIP:"EIP-AGRI (MSR)",MSR:"MSR / EAFRD muu",KF:"Koheesiorahasto",Interreg:"Interreg (EAKR)","?":"EU-osarahoitteinen, rahasto ei lähteessä",LIFE:"LIFE",Horizon:"Horizon 2020 / Horizon Europe",Kansallinen:"Kansallinen","—":"—"};
 const EVTXT = ["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"];
 const state = {view:"map", countries:new Set(Object.keys(CN)), funds:new Set(FUNDS), sel:null};
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();

@@ -30,7 +30,7 @@
       <node id="FI-01" label="TUKKA – Turvemaiden kestävän käytön osaamisklusteri" start="2023" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-151.2" y="15.8" z="0.0" />
+        <viz:position x="72.6" y="161.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -45,7 +45,7 @@
       <node id="FI-02" label="PohjaNeva – Vauhtia pohjalaismaakuntien JTF-ennallistamisiin" start="2024" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-602.3" y="108.1" z="0.0" />
+        <viz:position x="-602.3" y="135.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -61,7 +61,7 @@
       <node id="FI-03" label="PUHTI – Turvetuotantoalueiden ennallistamisten vauhdittaminen" start="2025">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-330.4" y="154.2" z="0.0" />
+        <viz:position x="-498.5" y="318.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -75,7 +75,7 @@
       <node id="EE-02" label="Jääkturvealueiden korjaaminen (mm. Laiuse)" start="2016" end="2023">
         <viz:color r="61" g="122" b="90" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="66.4" y="717.6" z="0.0" />
+        <viz:position x="233.6" y="882.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="EE" />
@@ -91,7 +91,7 @@
       <node id="LV-01" label="PeatTransform – turvesektorin TKI-pohjainen siirtymä" start="2025" end="2029">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="244.5" y="-148.8" z="0.0" />
+        <viz:position x="-159.7" y="-322.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -107,7 +107,7 @@
       <node id="LV-02" label="Historiallisten turvealueiden elvyttäminen" start="2024" end="2026">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="500.0" y="499.9" z="0.0" />
+        <viz:position x="500.0" y="500.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -123,7 +123,7 @@
       <node id="LV-03" label="Ilmastopolitiikkaan sovitetut ratkaisut nostetuille turvemaille ja paludikulttuuri" start="2021" end="2023">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="318.2" y="-174.5" z="0.0" />
+        <viz:position x="-138.4" y="-437.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -137,7 +137,7 @@
       <node id="IE-01" label="Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn" start="2021" end="2023">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-405.2" y="-51.0" z="0.0" />
+        <viz:position x="383.3" y="252.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="IE" />
@@ -152,7 +152,7 @@
       <node id="IE-02" label="FarmPEAT – tulosperusteinen ympäristöohjelma kohosoiden ympärille" start="2021" end="2023">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="600.1" y="-450.1" z="0.0" />
+        <viz:position x="599.9" y="-450.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="IE" />
@@ -167,7 +167,7 @@
       <node id="NI-01" label="KliMo – Klimaschutz durch Moorentwicklung (ohjelma, 33 hanketta)" start="2016" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-246.5" y="-676.4" z="0.0" />
+        <viz:position x="-259.7" y="-623.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -181,7 +181,7 @@
       <node id="NI-02" label="Produktketten aus Niedermoorbiomasse (paludikulttuuri)">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-302.5" y="-606.0" z="0.0" />
+        <viz:position x="-191.4" y="-717.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -196,7 +196,7 @@
       <node id="NI-03" label="FKU – maanhankinnat suokohteille (ELER)" start="2017" end="2020">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-232.1" y="-785.8" z="0.0" />
+        <viz:position x="-299.7" y="-514.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -211,7 +211,7 @@
       <node id="FI-06" label="Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu" start="2023" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-150.6" y="32.1" z="0.0" />
+        <viz:position x="90.5" y="124.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -226,7 +226,7 @@
       <node id="FI-07" label="TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi" start="2024" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-114.0" y="49.8" z="0.0" />
+        <viz:position x="39.8" y="133.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -240,7 +240,7 @@
       <node id="FI-08" label="Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-144.4" y="33.9" z="0.0" />
+        <viz:position x="81.1" y="132.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -254,7 +254,7 @@
       <node id="FI-09" label="SuoLiike – suonpohjien uusi viljelyliiketoiminta">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="86.9" y="-32.5" z="0.0" />
+        <viz:position x="-88.2" y="-102.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -282,7 +282,7 @@
       <node id="K-DE-NI-1746" label="Care and development concept Meckelmoor Landkreis Stade" start="2017" end="2019">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-214.8" y="-438.0" z="0.0" />
+        <viz:position x="-412.5" y="-415.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -297,7 +297,7 @@
       <node id="K-DE-NI-accd" label="Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung" start="2016" end="2021">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-64.4" y="-512.4" z="0.0" />
+        <viz:position x="-185.4" y="-369.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -312,7 +312,7 @@
       <node id="K-DE-NI-f620" label="Climate protection and species protection through area protection in the tunschlickers Moor" start="2021" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-186.5" y="-731.0" z="0.0" />
+        <viz:position x="-423.2" y="-825.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -357,7 +357,7 @@
       <node id="K-DE-NI-209b" label="Completion of the area backdrop for the protection of the ahlenmoor" start="2021" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-406.6" y="-838.0" z="0.0" />
+        <viz:position x="-466.0" y="-690.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -372,7 +372,7 @@
       <node id="K-DE-NI-36d2" label="Demolition Mathildenhof" start="2016" end="2018">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-285.9" y="-636.7" z="0.0" />
+        <viz:position x="-277.2" y="-679.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -387,7 +387,7 @@
       <node id="K-DE-NI-dab1" label="Development of priorities in moor and climate protection in the district of Stade" start="2019" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-450.1" y="-544.2" z="0.0" />
+        <viz:position x="-252.5" y="-566.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -402,7 +402,7 @@
       <node id="K-DE-NI-f68e" label="Establishment of a “Paludiculture Competence Centre”" start="2017" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-210.7" y="-594.0" z="0.0" />
+        <viz:position x="-251.2" y="-739.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -417,7 +417,7 @@
       <node id="E-DE-NI-3e4b" label="FloraGPT: Artificial intelligence- and sensor-controlled irrigation with a user-friendly interface for cultivation methods optimized for peat replacement" start="2024" end="2027">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-239.2" y="-526.9" z="0.0" />
+        <viz:position x="-239.3" y="-526.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -448,7 +448,7 @@
       <node id="K-DE-NI-e715" label="Implementation and testing of hydrological optimisation measures in high moor" start="2020" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-290.3" y="-575.4" z="0.0" />
+        <viz:position x="-277.5" y="-716.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -479,7 +479,7 @@
       <node id="K-DE-NI-cf1c" label="Land protection in the nature reserve “Bülter See und Randmoore” – North" start="2021" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-248.2" y="-603.8" z="0.0" />
+        <viz:position x="-188.9" y="-751.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -494,7 +494,7 @@
       <node id="K-DE-NI-af02" label="Land protection in the nature reserve “Bülter See und Randmoore” – South" start="2021" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-265.7" y="-848.1" z="0.0" />
+        <viz:position x="-370.0" y="-585.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -524,7 +524,7 @@
       <node id="K-DE-NI-44a1" label="MOOSWEIT TV3 – GHG balance of cultivation and harvest" start="2017" end="2019">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-192.7" y="-496.1" z="0.0" />
+        <viz:position x="-367.3" y="-339.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -539,7 +539,7 @@
       <node id="K-DE-NI-77b2" label="MOOSWEIT, Subproject 2" start="2016" end="2019">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-267.5" y="-688.1" z="0.0" />
+        <viz:position x="-221.1" y="-881.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -584,7 +584,7 @@
       <node id="K-DE-NI-9595" label="Management of moorland areas" start="2016" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-468.3" y="-710.9" z="0.0" />
+        <viz:position x="-231.6" y="-616.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -614,7 +614,7 @@
       <node id="K-DE-NI-1c15" label="Monitoring of moor water levels" start="2019" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-389.2" y="-593.8" z="0.0" />
+        <viz:position x="-284.9" y="-856.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -629,7 +629,7 @@
       <node id="K-DE-NI-34e3" label="Monitoring of the peat moss field in the Ahlenmoor" start="2016" end="2021">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-60.7" y="-605.4" z="0.0" />
+        <viz:position x="-186.5" y="-650.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -644,7 +644,7 @@
       <node id="K-DE-NI-ee94" label="Moor Information System for the District of Emsland (EL-MIS)" start="2017" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-445.5" y="-596.2" z="0.0" />
+        <viz:position x="-415.1" y="-852.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -674,7 +674,7 @@
       <node id="K-DE-NI-03c5" label="Moorhausen moor area, test and demonstration areas" start="2018" end="2020">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-28.4" y="-660.0" z="0.0" />
+        <viz:position x="-162.1" y="-662.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -704,7 +704,7 @@
       <node id="K-DE-NI-a450" label="Moorland® – Climate donation Lower Saxony" start="2018" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-264.1" y="-421.2" z="0.0" />
+        <viz:position x="-143.0" y="-564.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -734,7 +734,7 @@
       <node id="K-DE-NI-1847" label="Network Moor Care and Moor Management Elbe-Weser (Network Moor)" start="2024" end="2027">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-87.5" y="-823.3" z="0.0" />
+        <viz:position x="38.2" y="-777.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -750,7 +750,7 @@
       <node id="K-DE-NI-0499" label="OptiMOOS – Subproject vegetation development and water management" start="2019" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-320.9" y="-940.7" z="0.0" />
+        <viz:position x="-367.4" y="-747.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -765,7 +765,7 @@
       <node id="K-DE-NI-3eb1" label="Optimisation of the wetting of the nature reserve “Bockholter Dose”" start="2019" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-415.1" y="-852.6" z="0.0" />
+        <viz:position x="-445.5" y="-596.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -780,7 +780,7 @@
       <node id="K-DE-NI-a456" label="Optimisation of water balance in high bogs of the Diepholzer Moorniederung" start="2016" end="2020">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-218.9" y="-627.9" z="0.0" />
+        <viz:position x="-185.8" y="-683.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -795,7 +795,7 @@
       <node id="K-DE-NI-b8d9" label="Optimisation of water balance in selected bogs of the Südheide" start="2020" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-230.4" y="-567.6" z="0.0" />
+        <viz:position x="-210.0" y="-655.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -810,7 +810,7 @@
       <node id="K-DE-NI-6c80" label="Optimisation of water management in the moor area of Moorhausen (Varel)" start="2020" end="2023">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-200.6" y="-467.6" z="0.0" />
+        <viz:position x="-66.9" y="-464.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -825,7 +825,7 @@
       <node id="K-DE-NI-c1d3" label="Pilot study of peat moss in the Great Moor near Gifhorn" start="2016" end="2021">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-479.6" y="-700.8" z="0.0" />
+        <viz:position x="-369.9" y="-732.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -840,7 +840,7 @@
       <node id="K-DE-NI-9d56" label="Planning for the renaturation of the Steinmoor" start="2021" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-261.8" y="-560.6" z="0.0" />
+        <viz:position x="-217.3" y="-739.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -855,7 +855,7 @@
       <node id="K-DE-NI-d3d6" label="Preliminary study on the climate protection project Steinfelder Moor" start="2016" end="2018">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-145.1" y="-272.2" z="0.0" />
+        <viz:position x="-233.3" y="-489.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -885,7 +885,7 @@
       <node id="K-DE-NI-8755" label="Restoration of land-owned moors" start="2018" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-596.5" y="-719.6" z="0.0" />
+        <viz:position x="-394.2" y="-600.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -900,7 +900,7 @@
       <node id="K-DE-NI-0e2b" label="Rewetting Sauerbach" start="2017" end="2021">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-423.3" y="-514.6" z="0.0" />
+        <viz:position x="-317.7" y="-545.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -990,7 +990,7 @@
       <node id="K-DE-NI-d14f" label="Smart Carbon Farming" start="2024" end="2027">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-479.5" y="-79.0" z="0.0" />
+        <viz:position x="475.5" y="269.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -1021,7 +1021,7 @@
       <node id="K-DE-NI-f3b0" label="WetWeb Organic Soils – Networked Research for Moor and Climate" start="2019" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-431.0" y="-638.0" z="0.0" />
+        <viz:position x="-611.9" y="-488.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -1036,7 +1036,7 @@
       <node id="K-DE-NI-61e6" label="Wetting area at Westerbeck" start="2020" end="2022">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-290.2" y="-656.2" z="0.0" />
+        <viz:position x="-505.5" y="-593.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="DE-NI" />
@@ -1051,7 +1051,7 @@
       <node id="K-EU-5a7e" label="Ambitious policies for peatland restoration, conservation, and sustainable management in Europe" start="2025" end="2029">
         <viz:color r="90" g="107" b="140" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-31.9" y="-4.5" z="0.0" />
+        <viz:position x="-263.5" y="-43.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="EU" />
@@ -1099,7 +1099,7 @@
       <node id="K-EU-f426" label="Creating A New Approach to Peatland Ecosystems" start="2017" end="2022">
         <viz:color r="90" g="107" b="140" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="219.6" y="-45.8" z="0.0" />
+        <viz:position x="51.5" y="118.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="EU" />
@@ -1115,7 +1115,7 @@
       <node id="T-EU-88fc" label="Land-4-Climate" start="2023" end="2024">
         <viz:color r="90" g="107" b="140" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-203.1" y="-91.7" z="0.0" />
+        <viz:position x="-95.3" y="-12.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="EU" />
@@ -1131,7 +1131,7 @@
       <node id="T-EU-73cb" label="Land4Climate" start="2024" end="2027">
         <viz:color r="90" g="107" b="140" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="48.3" y="-150.2" z="0.0" />
+        <viz:position x="-59.6" y="-229.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="EU" />
@@ -1147,7 +1147,7 @@
       <node id="K-EU-2e51" label="PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites" start="2025" end="2028">
         <viz:color r="90" g="107" b="140" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-26.5" y="60.0" z="0.0" />
+        <viz:position x="-67.3" y="52.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="EU" />
@@ -1163,7 +1163,7 @@
       <node id="K-FI-b095" label="Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland" start="2025" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-617.2" y="262.5" z="0.0" />
+        <viz:position x="-430.9" y="250.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1179,7 +1179,7 @@
       <node id="K-FI-e8b3" label="Approaches for anticipating acidity and risk management in peat production areas (Sulfa II)" start="2016" end="2019">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-24.7" y="154.2" z="0.0" />
+        <viz:position x="-148.3" y="97.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1195,7 +1195,7 @@
       <node id="K-FI-050e" label="Biokas - Growth from Biochar - Towards the Peat-Free Society" start="2025" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-619.3" y="36.6" z="0.0" />
+        <viz:position x="-668.2" y="97.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1211,7 +1211,7 @@
       <node id="K-FI-a45d" label="CLT boards to strengthen ground load capacity in logging" start="2020" end="2023">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="27.7" y="170.5" z="0.0" />
+        <viz:position x="-117.0" y="207.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1227,7 +1227,7 @@
       <node id="K-FI-879d" label="Carbon-wise peatland forest management" start="2020" end="2022">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-190.0" y="-32.9" z="0.0" />
+        <viz:position x="90.5" y="237.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1259,7 +1259,7 @@
       <node id="K-FI-6894" label="Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams" start="2024" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-15.4" y="76.4" z="0.0" />
+        <viz:position x="-70.3" y="66.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1323,7 +1323,7 @@
       <node id="K-FI-1d92" label="MEQAL-Methane Quantization and Localization" start="2025" end="2028">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-9.5" y="111.8" z="0.0" />
+        <viz:position x="-66.9" y="144.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1339,7 +1339,7 @@
       <node id="K-FI-56cf" label="NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces" start="2023" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-434.8" y="155.2" z="0.0" />
+        <viz:position x="-462.6" y="117.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1355,7 +1355,7 @@
       <node id="K-FI-561d" label="Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo" start="2023" end="2025">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-136.6" y="-4.8" z="0.0" />
+        <viz:position x="28.2" y="215.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1387,7 +1387,7 @@
       <node id="K-FI-e290" label="Restoration and water protection project of South-Eastern Finland" start="2025" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-519.9" y="261.3" z="0.0" />
+        <viz:position x="-492.1" y="223.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1403,7 +1403,7 @@
       <node id="K-FI-8d28" label="Restoration of Linttiräme after Peat Production" start="2025" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-794.3" y="360.6" z="0.0" />
+        <viz:position x="-679.2" y="156.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1419,7 +1419,7 @@
       <node id="K-FI-9cd5" label="Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026" start="2024" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-357.4" y="24.9" z="0.0" />
+        <viz:position x="-531.9" y="-70.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1435,7 +1435,7 @@
       <node id="K-FI-cb20" label="Restoration of the Western Valkeasuo Mire" start="2024" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-796.3" y="-60.8" z="0.0" />
+        <viz:position x="-566.5" y="-12.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1451,7 +1451,7 @@
       <node id="K-FI-16d2" label="Restoration plan for the bog Pirttineva, previous peat production site" start="2025" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-610.6" y="-130.6" z="0.0" />
+        <viz:position x="-577.8" y="101.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1467,7 +1467,7 @@
       <node id="K-FI-7c34" label="Satakunta peatlands: from peat production to new livelihoods and meanings" start="2023" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-24.3" y="169.3" z="0.0" />
+        <viz:position x="-161.7" y="110.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1483,7 +1483,7 @@
       <node id="K-FI-9511" label="Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions" start="2025" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-114.1" y="7.1" z="0.0" />
+        <viz:position x="43.3" y="149.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1499,7 +1499,7 @@
       <node id="R-FI-70e5" label="Sopeutumiskeinoja mustaliuskealueiden maankäyttöön muuttuvassa ilmastossa (SOLMU)" start="2026" end="2028">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-19.9" y="44.0" z="0.0" />
+        <viz:position x="-38.6" y="54.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1515,7 +1515,7 @@
       <node id="K-FI-06b9" label="Suokeidas - From peat production to diverse wetlands" start="2024" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-537.5" y="351.8" z="0.0" />
+        <viz:position x="-566.0" y="380.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1531,7 +1531,7 @@
       <node id="K-FI-b38f" label="Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area" start="2025" end="2027">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-650.3" y="198.7" z="0.0" />
+        <viz:position x="-512.5" y="26.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1563,7 +1563,7 @@
       <node id="K-FI-006d" label="The Bog 2.0 - Vitality to Ilomantsi with overall sustainability" start="2024" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-55.6" y="113.1" z="0.0" />
+        <viz:position x="-89.0" y="107.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1627,7 +1627,7 @@
       <node id="K-FI-9061" label="Towards a carbon-neutral research farm — Development project (hitu-D)" start="2020" end="2022">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="21.2" y="10.3" z="0.0" />
+        <viz:position x="-68.1" y="-9.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1643,7 +1643,7 @@
       <node id="K-FI-519c" label="Towards a carbon-neutral research farm — Investment project (hitu-I)" start="2020" end="2022">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="27.9" y="24.9" z="0.0" />
+        <viz:position x="-49.6" y="-16.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1659,7 +1659,7 @@
       <node id="K-FI-665a" label="Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2" start="2025" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-574.7" y="56.1" z="0.0" />
+        <viz:position x="-400.3" y="151.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1675,7 +1675,7 @@
       <node id="R-FI-b45a" label="Turvevapaa ruokaketju" start="2024" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-50.1" y="18.1" z="0.0" />
+        <viz:position x="3.7" y="53.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1691,7 +1691,7 @@
       <node id="K-FI-0ac6" label="Value from the carbon market for the next land use of peat production areas" start="2023" end="2026">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-51.9" y="36.9" z="0.0" />
+        <viz:position x="-12.4" y="68.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="FI" />
@@ -1722,7 +1722,7 @@
       <node id="E-IE-e6ef" label="Blackstairs farming Futures (BFF) Sustainable farming project in the Blackstairs Mountains" start="2018" end="2023">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-462.1" y="-116.5" z="0.0" />
+        <viz:position x="464.6" y="317.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="IE" />
@@ -1816,7 +1816,7 @@
       <node id="K-IE-7fa4" label="Peatlands For Prosperity Project: Cultivating Paludiculture for Resilience" start="2024" end="2026">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-466.4" y="-52.4" z="0.0" />
+        <viz:position x="454.2" y="248.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="IE" />
@@ -1863,7 +1863,7 @@
       <node id="K-IE-8525" label="To introduce a new format straw product to market that can be used as a horticultural peat replacement" start="2024" end="2026">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="568.1" y="-404.5" z="0.0" />
+        <viz:position x="336.5" y="-443.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="IE" />
@@ -1879,7 +1879,7 @@
       <node id="E-LV-c39d" label="Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility" start="2024" end="2029">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="204.4" y="-259.2" z="0.0" />
+        <viz:position x="-294.7" y="-313.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -1895,7 +1895,7 @@
       <node id="E-LV-6430" label="Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data" start="2026" end="2028">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="305.7" y="-213.7" z="0.0" />
+        <viz:position x="-202.8" y="-416.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -1911,7 +1911,7 @@
       <node id="K-LV-4390" label="Development of a storm damage risk assessment tool for peat soils" start="2017" end="2020">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="312.6" y="-187.5" z="0.0" />
+        <viz:position x="-153.4" y="-434.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -1927,7 +1927,7 @@
       <node id="E-LV-9406" label="Development of cloudberry propagation and cultivation technologies for recultivation of peat bogs by establishing commercial plantations" start="2024" end="2027">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="359.4" y="-150.5" z="0.0" />
+        <viz:position x="-206.3" y="-378.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -1943,7 +1943,7 @@
       <node id="K-LV-74bd" label="Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction" start="2020" end="2023">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="294.7" y="-187.4" z="0.0" />
+        <viz:position x="-129.5" y="-425.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -1959,7 +1959,7 @@
       <node id="K-LV-2fac" label="Development of nature management plan for nature reserve &quot;Sedas purvs&quot;" start="2024">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="306.7" y="447.9" z="0.0" />
+        <viz:position x="538.5" y="410.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -1991,7 +1991,7 @@
       <node id="E-LV-8eeb" label="Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions" start="2025" end="2028">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="295.8" y="-134.2" z="0.0" />
+        <viz:position x="-145.9" y="-469.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -2007,7 +2007,7 @@
       <node id="E-LV-d12c" label="Innovative organic fertilizer, containing microorganisms" start="2022" end="2025">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="323.3" y="-128.9" z="0.0" />
+        <viz:position x="-111.8" y="-388.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -2022,7 +2022,7 @@
       <node id="K-LV-cbb2" label="Restoration of bog ecosystems in SACs" start="2024">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="531.1" y="285.7" z="0.0" />
+        <viz:position x="636.7" y="495.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -2038,7 +2038,7 @@
       <node id="E-LV-e70c" label="Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating" start="2025" end="2026">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="286.6" y="-211.2" z="0.0" />
+        <viz:position x="-116.8" y="-458.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -2054,7 +2054,7 @@
       <node id="E-LV-b130" label="Waste-free recycling of coniferous green biomass in a biodegradable planter container system" start="2026" end="2029">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="338.6" y="-177.5" z="0.0" />
+        <viz:position x="-173.6" y="-431.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="LV" />
@@ -2070,7 +2070,7 @@
       <node id="K-SE-dbb8" label="Myrrestaurering i Norrbottens län (MyreN) – soiden ennallistaminen" start="2024" end="2027">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-260.6" y="469.4" z="0.0" />
+        <viz:position x="-227.8" y="701.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2086,7 +2086,7 @@
       <node id="T-SE-bda3" label="CircularGreens: From Waste to Soil, From Risk to Trust" start="2026" end="2029">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-6.4" y="54.7" z="0.0" />
+        <viz:position x="-38.0" y="45.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2102,7 +2102,7 @@
       <node id="J-SE-0e6e" label="Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga" end="2025">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-22.3" y="113.7" z="0.0" />
+        <viz:position x="-136.3" y="35.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2116,7 +2116,7 @@
       <node id="J-SE-5a7e" label="Fossil-free growing media" end="2027">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-168.9" y="535.7" z="0.0" />
+        <viz:position x="-63.3" y="745.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2130,7 +2130,7 @@
       <node id="J-SE-b073" label="Klimatanpassad grundvatten-reglering i norrländskt jordbruk" end="2027">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="19.6" y="754.2" z="0.0" />
+        <viz:position x="-148.5" y="918.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2144,7 +2144,7 @@
       <node id="T-SE-5e29" label="Klimatskörd - samverkansmodell för ett cirkulärt ÖMS" start="2026" end="2029">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-386.0" y="853.5" z="0.0" />
+        <viz:position x="-179.0" y="964.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2172,7 +2172,7 @@
       <node id="J-SE-50cf" label="Svensk klimatkompensation - jordbruket som kolsänka" start="2019" end="2023">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-242.5" y="977.7" z="0.0" />
+        <viz:position x="-135.8" y="768.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2186,7 +2186,7 @@
       <node id="J-SE-a3d4" label="Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring" end="2025">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-463.5" y="756.8" z="0.0" />
+        <viz:position x="-231.9" y="795.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2200,7 +2200,7 @@
       <node id="K-SE-be89" label="Water Management in Baltic Forests - Tool box" start="2019" end="2021">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-217.3" y="847.9" z="0.0" />
+        <viz:position x="-102.1" y="834.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2216,7 +2216,7 @@
       <node id="K-SE-8b1e" label="Water Management in Baltic forests" start="2016" end="2019">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-182.8" y="652.1" z="0.0" />
+        <viz:position x="-297.9" y="665.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="hanke" />
           <attvalue for="1" value="SE" />
@@ -2232,7 +2232,7 @@
       <node id="X-FI-PEATRESC" label="PeatResC – Akatemian turvemaiden huippuyksikkö (5 M€, 2026–33)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-119.0" y="67.7" z="0.0" />
+        <viz:position x="5.4" y="147.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="vertailukohde" />
           <attvalue for="1" value="FI" />
@@ -2244,7 +2244,7 @@
       <node id="X-IE-LIFE" label="LIFE IP Peatlands and People (EU 9,9 M€ / 27,4 M€)">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-315.0" y="16.5" z="0.0" />
+        <viz:position x="263.2" y="198.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="vertailukohde" />
           <attvalue for="1" value="IE" />
@@ -2256,7 +2256,7 @@
       <node id="X-IE-GAL" label="All-Ireland Peatlands CoE ja RePEAT (Galway)">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-296.2" y="-5.2" z="0.0" />
+        <viz:position x="244.9" y="215.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="vertailukohde" />
           <attvalue for="1" value="IE" />
@@ -2268,7 +2268,7 @@
       <node id="X-IE-NAT" label="Midlands Just Transition -ohjelma (135,8 M€, 47 hanketta, 2020)">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="6" />
-        <viz:position x="-372.2" y="44.8" z="0.0" />
+        <viz:position x="329.6" y="184.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="vertailukohde" />
           <attvalue for="1" value="IE" />
@@ -2292,7 +2292,7 @@
       <node id="H-FI-AKA" label="PeatResC – Suot, ilmastonmuutos ja ennallistaminen (Akatemian huippuyksikkö)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="14" />
-        <viz:position x="-156.3" y="58.6" z="0.0" />
+        <viz:position x="60.7" y="155.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="osaamiskeskus" />
           <attvalue for="1" value="FI" />
@@ -2305,7 +2305,7 @@
       <node id="H-FI" label="Turvemaaklusteri (TUKKA)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="14" />
-        <viz:position x="-183.6" y="35.2" z="0.0" />
+        <viz:position x="113.4" y="159.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="osaamiskeskus" />
           <attvalue for="1" value="FI" />
@@ -2318,7 +2318,7 @@
       <node id="H-LV" label="PeatTransform Centre of Excellence">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="14" />
-        <viz:position x="165.7" y="-90.5" z="0.0" />
+        <viz:position x="-124.0" y="-212.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="osaamiskeskus" />
           <attvalue for="1" value="LV" />
@@ -2331,7 +2331,7 @@
       <node id="H-IE-JTF" label="JTF Centre of Excellence (kestävä maankäyttö)">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="14" />
-        <viz:position x="-212.0" y="56.3" z="0.0" />
+        <viz:position x="137.9" y="188.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="osaamiskeskus" />
           <attvalue for="1" value="IE" />
@@ -2344,7 +2344,7 @@
       <node id="H-IE-LIFE" label="Peatlands and People – Centre of Excellence -osio">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="14" />
-        <viz:position x="-250.7" y="26.0" z="0.0" />
+        <viz:position x="190.1" y="179.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="osaamiskeskus" />
           <attvalue for="1" value="IE" />
@@ -2357,7 +2357,7 @@
       <node id="H-IE-GAL" label="All-Ireland Peatlands Centre of Excellence (Galway)">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="14" />
-        <viz:position x="-242.0" y="15.5" z="0.0" />
+        <viz:position x="180.8" y="188.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="osaamiskeskus" />
           <attvalue for="1" value="IE" />
@@ -2370,7 +2370,7 @@
       <node id="seamk" label="Seinäjoen ammattikorkeakoulu (SeAMK)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-105.4" y="27.1" z="0.0" />
+        <viz:position x="41.9" y="109.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2381,7 +2381,7 @@
       <node id="hy" label="Helsingin yliopisto">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-127.1" y="28.5" z="0.0" />
+        <viz:position x="35.7" y="169.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2392,7 +2392,7 @@
       <node id="il" label="Ilmatieteen laitos">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-113.9" y="73.7" z="0.0" />
+        <viz:position x="20.8" y="143.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2403,7 +2403,7 @@
       <node id="uef" label="Itä-Suomen yliopisto">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-67.2" y="72.0" z="0.0" />
+        <viz:position x="-40.9" y="99.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2414,7 +2414,7 @@
       <node id="aalto" label="Aalto-yliopisto">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-125.6" y="95.1" z="0.0" />
+        <viz:position x="-15.4" y="169.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2425,7 +2425,7 @@
       <node id="oy" label="Oulun yliopisto">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-44.0" y="69.1" z="0.0" />
+        <viz:position x="-28.8" y="96.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2436,7 +2436,7 @@
       <node id="luke" label="Luonnonvarakeskus (Luke)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="4.0" y="25.0" z="0.0" />
+        <viz:position x="-50.1" y="10.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2447,7 +2447,7 @@
       <node id="metsakeskus" label="Suomen metsäkeskus">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-173.8" y="-12.6" z="0.0" />
+        <viz:position x="83.5" y="205.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2458,7 +2458,7 @@
       <node id="chydenius" label="Kokkolan yliopistokeskus Chydenius">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-172.2" y="4.8" z="0.0" />
+        <viz:position x="90.6" y="183.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2469,7 +2469,7 @@
       <node id="ep-ely" label="Etelä-Pohjanmaan ELY-keskus">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-670.6" y="53.3" z="0.0" />
+        <viz:position x="-670.6" y="116.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2480,7 +2480,7 @@
       <node id="pp-ely" label="Pohjois-Pohjanmaan ELY-keskus">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-498.5" y="318.1" z="0.0" />
+        <viz:position x="-330.4" y="154.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2491,7 +2491,7 @@
       <node id="ks-ely" label="Keski-Suomen ELY-keskus">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-171.1" y="37.2" z="0.0" />
+        <viz:position x="117.0" y="111.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2502,7 +2502,7 @@
       <node id="kinno" label="Kouvola Innovation Oy (Kinno)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="104.9" y="-25.7" z="0.0" />
+        <viz:position x="-107.6" y="-111.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2513,7 +2513,7 @@
       <node id="sykli" label="SYKLI Environmental School of Finland">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="99.4" y="-44.7" z="0.0" />
+        <viz:position x="-85.6" y="-122.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2524,7 +2524,7 @@
       <node id="hiiliporssi" label="Hiilipörssi Oy">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-136.8" y="89.5" z="0.0" />
+        <viz:position x="-4.0" y="177.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2535,7 +2535,7 @@
       <node id="silava" label="LSFRI Silava">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="297.9" y="-170.5" z="0.0" />
+        <viz:position x="-149.2" y="-410.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2546,7 +2546,7 @@
       <node id="lu" label="Latvian yliopisto">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="309.1" y="-152.0" z="0.0" />
+        <viz:position x="-161.4" y="-378.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2557,7 +2557,7 @@
       <node id="rtu" label="Riga Technical University">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="230.5" y="-136.1" z="0.0" />
+        <viz:position x="-152.6" y="-302.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2568,7 +2568,7 @@
       <node id="lbtu" label="Latvia University of Life Sciences and Technologies">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="282.0" y="-136.5" z="0.0" />
+        <viz:position x="-132.3" y="-352.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2579,7 +2579,7 @@
       <node id="ies" label="Institute for Environmental Solutions">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="226.6" y="-155.2" z="0.0" />
+        <viz:position x="-174.3" y="-305.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2590,7 +2590,7 @@
       <node id="lathort" label="Institute of Horticulture (LatHort)">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="221.9" y="-204.8" z="0.0" />
+        <viz:position x="-228.7" y="-315.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2601,7 +2601,7 @@
       <node id="arei" label="Institute of Agricultural Resources and Economics">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="271.9" y="-183.7" z="0.0" />
+        <viz:position x="-183.8" y="-367.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2612,7 +2612,7 @@
       <node id="cfla" label="Central Finance and Contracting Agency">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="517.2" y="402.1" z="0.0" />
+        <viz:position x="597.9" y="584.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2623,7 +2623,7 @@
       <node id="lv-regions" label="Latvian suunnittelualueet">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="482.7" y="597.9" z="0.0" />
+        <viz:position x="402.1" y="415.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -2634,7 +2634,7 @@
       <node id="gri" label="Green Restoration Ireland">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-446.8" y="-61.5" z="0.0" />
+        <viz:position x="433.3" y="257.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2645,7 +2645,7 @@
       <node id="nbas" label="Nature Based Agri Solutions (FarmPEAT)">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="720.5" y="-356.9" z="0.0" />
+        <viz:position x="652.4" y="-329.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2656,7 +2656,7 @@
       <node id="wsi" label="Wetland Surveys Ireland">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="479.4" y="-543.0" z="0.0" />
+        <viz:position x="479.4" y="-397.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2667,7 +2667,7 @@
       <node id="irl" label="Irish Rural Link">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="693.0" y="-570.6" z="0.0" />
+        <viz:position x="720.5" y="-502.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2678,7 +2678,7 @@
       <node id="umeras" label="Umeras Community Development Group">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="507.0" y="-329.4" z="0.0" />
+        <viz:position x="547.7" y="-570.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2689,7 +2689,7 @@
       <node id="galway" label="University of Galway">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-347.1" y="-18.9" z="0.0" />
+        <viz:position x="308.4" y="227.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2700,7 +2700,7 @@
       <node id="teagasc" label="Teagasc">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-444.4" y="-81.9" z="0.0" />
+        <viz:position x="436.0" y="279.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2711,7 +2711,7 @@
       <node id="tcd" label="Trinity College Dublin">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-311.3" y="-20.7" z="0.0" />
+        <viz:position x="254.2" y="241.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2722,7 +2722,7 @@
       <node id="bnm" label="Bord na Móna">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-348.6" y="33.0" z="0.0" />
+        <viz:position x="301.7" y="189.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2733,7 +2733,7 @@
       <node id="epa-ie" label="Environmental Protection Agency (IE)">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-336.6" y="22.7" z="0.0" />
+        <viz:position x="287.1" y="206.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2744,7 +2744,7 @@
       <node id="dhlgh" label="Department of Housing, Local Government and Heritage">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-336.8" y="9.3" z="0.0" />
+        <viz:position x="278.5" y="221.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2755,7 +2755,7 @@
       <node id="intrigo" label="Intrigo Ltd">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-328.2" y="35.5" z="0.0" />
+        <viz:position x="281.6" y="184.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2766,7 +2766,7 @@
       <node id="emra" label="Eastern and Midland Regional Assembly">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-231.6" y="73.3" z="0.0" />
+        <viz:position x="152.8" y="213.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -2777,7 +2777,7 @@
       <node id="nmu" label="Niedersächsisches Umweltministerium">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-238.8" y="-735.2" z="0.0" />
+        <viz:position x="-281.1" y="-564.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2788,7 +2788,7 @@
       <node id="ml-ni" label="Niedersächsisches Landwirtschaftsministerium">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-226.7" y="-825.9" z="0.0" />
+        <viz:position x="-314.4" y="-474.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2799,7 +2799,7 @@
       <node id="nlwkn" label="NLWKN">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-255.5" y="-608.5" z="0.0" />
+        <viz:position x="-234.8" y="-691.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2810,7 +2810,7 @@
       <node id="syke" label="Suomen ympäristökeskus (Syke)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-27.5" y="127.8" z="0.0" />
+        <viz:position x="-118.7" y="93.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2821,7 +2821,7 @@
       <node id="keha" label="ELY-keskusten kehittämis- ja hallintokeskus (KEHA)">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-522.4" y="172.1" z="0.0" />
+        <viz:position x="-522.4" y="157.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -2832,7 +2832,7 @@
       <node id="rmk" label="Riigimetsa Majandamise Keskus (RMK)">
         <viz:color r="61" g="122" b="90" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="233.6" y="882.4" z="0.0" />
+        <viz:position x="66.4" y="717.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="EE" />
@@ -2843,7 +2843,7 @@
       <node id="slu" label="Sveriges lantbruksuniversitet (SLU)">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-21.4" y="90.6" z="0.0" />
+        <viz:position x="-106.8" y="42.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -2854,7 +2854,7 @@
       <node id="ltu" label="Luleå tekniska universitet">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="18.1" y="63.8" z="0.0" />
+        <viz:position x="-31.7" y="20.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -2865,7 +2865,7 @@
       <node id="landkreis-stade" label="Landkreis Stade">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-332.5" y="-491.1" z="0.0" />
+        <viz:position x="-332.4" y="-491.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2876,7 +2876,7 @@
       <node id="bund-fur-umwelt-und-naturschutz" label="Bund für Umwelt und Naturschutz">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-164.1" y="-466.8" z="0.0" />
+        <viz:position x="-164.2" y="-466.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2909,7 +2909,7 @@
       <node id="offis" label="OFFIS Institut für Informatik">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-223.5" y="-405.4" z="0.0" />
+        <viz:position x="-99.0" y="-444.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2920,7 +2920,7 @@
       <node id="thorkas-ug-i-g" label="Thorkas UG i.G.">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-254.9" y="-648.2" z="0.0" />
+        <viz:position x="-379.4" y="-608.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2931,7 +2931,7 @@
       <node id="bonk-baumschulen-handels-gmbh" label="Bonk Baumschulen Handels GmbH">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-117.7" y="-542.5" z="0.0" />
+        <viz:position x="-321.2" y="-386.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2942,7 +2942,7 @@
       <node id="baumschul-beratungsring-weser-ems-e-v" label="Baumschul-Beratungsring Weser-Ems e.V.">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-360.7" y="-511.1" z="0.0" />
+        <viz:position x="-157.0" y="-667.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2953,7 +2953,7 @@
       <node id="hochschule-hannover" label="Hochschule Hannover">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-62.8" y="-803.4" z="0.0" />
+        <viz:position x="-276.7" y="-775.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2964,7 +2964,7 @@
       <node id="dammtechnik-neuhaus" label="Dämmtechnik Neuhaus">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-255.7" y="-827.0" z="0.0" />
+        <viz:position x="-96.7" y="-847.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2975,7 +2975,7 @@
       <node id="wester-gbr" label="Wester GbR">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-179.8" y="-648.0" z="0.0" />
+        <viz:position x="-125.0" y="-655.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2986,7 +2986,7 @@
       <node id="universitat-rostock" label="Universität Rostock">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-367.3" y="-339.2" z="0.0" />
+        <viz:position x="-192.7" y="-496.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -2997,7 +2997,7 @@
       <node id="universitat-greifswald" label="Universität Greifswald">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-294.2" y="-814.3" z="0.0" />
+        <viz:position x="-294.2" y="-814.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3030,7 +3030,7 @@
       <node id="landkreis-cuxhaven" label="Landkreis Cuxhaven">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-74.1" y="-714.2" z="0.0" />
+        <viz:position x="-74.0" y="-714.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3063,7 +3063,7 @@
       <node id="landkreis-friesland" label="Landkreis Friesland">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-114.4" y="-563.9" z="0.0" />
+        <viz:position x="-114.4" y="-563.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3096,7 +3096,7 @@
       <node id="nabu-kreisverband-gifhorn-e-v" label="NABU Kreisverband Gifhorn e.V.">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-397.7" y="-623.8" z="0.0" />
+        <viz:position x="-397.7" y="-623.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3107,7 +3107,7 @@
       <node id="landkreis-vechta" label="Landkreis Vechta">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-233.3" y="-489.8" z="0.0" />
+        <viz:position x="-145.1" y="-272.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3118,7 +3118,7 @@
       <node id="staatliche-moorverwaltung" label="Staatliche Moorverwaltung">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-394.2" y="-600.4" z="0.0" />
+        <viz:position x="-596.5" y="-719.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3173,7 +3173,7 @@
       <node id="3n-kompetenzzentrum-niedersachsen-netzwe" label="3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-504.6" y="-89.3" z="0.0" />
+        <viz:position x="496.2" y="289.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3184,7 +3184,7 @@
       <node id="boerenbond-projecten-vzw" label="Boerenbond Projecten vzw">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-506.7" y="-78.2" z="0.0" />
+        <viz:position x="505.9" y="279.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3195,7 +3195,7 @@
       <node id="constellr-gmbh" label="constellr GmbH">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-495.5" y="-96.3" z="0.0" />
+        <viz:position x="506.7" y="266.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3206,7 +3206,7 @@
       <node id="eigen-vermogen-van-het-instituut-voor-la" label="Eigen Vermogen van het Instituut voor Landbouw- en Visserijonderzoek">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-501.7" y="-67.6" z="0.0" />
+        <viz:position x="499.1" y="254.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3228,7 +3228,7 @@
       <node id="europaisches-fachzentrum-moor-und-klima-" label="Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH">
         <viz:color r="122" g="75" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-611.9" y="-488.3" z="0.0" />
+        <viz:position x="-431.0" y="-638.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="DE-NI" />
@@ -3239,7 +3239,7 @@
       <node id="akcelerator-drustvenih-promjena-zid" label="Akcelerator Društvenih Promjena-Zid">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-263.5" y="-43.2" z="0.0" />
+        <viz:position x="-31.9" y="-4.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="10" value="viranomainen" />
@@ -3269,7 +3269,7 @@
       <node id="broads-authority" label="Broads Authority">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="51.5" y="118.1" z="0.0" />
+        <viz:position x="219.6" y="-45.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="10" value="viranomainen" />
@@ -3279,7 +3279,7 @@
       <node id="gate-21" label="Gate 21">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-77.5" y="-120.9" z="0.0" />
+        <viz:position x="-77.4" y="-121.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="10" value="viranomainen" />
@@ -3289,7 +3289,7 @@
       <node id="john-nurmisen-saatio-sr" label="John Nurmisen Säätiö sr">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-436.1" y="312.0" z="0.0" />
+        <viz:position x="-526.2" y="179.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3300,7 +3300,7 @@
       <node id="luonnonperintosaatio-sr" label="Luonnonperintösäätiö sr">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-566.0" y="166.3" z="0.0" />
+        <viz:position x="-633.6" y="282.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3311,7 +3311,7 @@
       <node id="kaakkois-suomen-ammattikorkeakoulu-oy" label="Kaakkois-Suomen Ammattikorkeakoulu Oy">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-635.6" y="121.6" z="0.0" />
+        <viz:position x="-586.6" y="60.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3322,7 +3322,7 @@
       <node id="lapin-ammattikorkeakoulu-oy" label="Lapin ammattikorkeakoulu Oy">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="12.5" y="146.1" z="0.0" />
+        <viz:position x="-96.2" y="181.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3377,7 +3377,7 @@
       <node id="mittuniversitetet" label="Mittuniversitetet">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="9.6" y="129.9" z="0.0" />
+        <viz:position x="-84.8" y="167.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3388,7 +3388,7 @@
       <node id="lappeenrannan-lahden-teknillinen-yliopis" label="Lappeenrannan-Lahden teknillinen yliopisto LUT">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-143.5" y="-30.2" z="0.0" />
+        <viz:position x="22.6" y="248.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3410,7 +3410,7 @@
       <node id="linttipower-oy" label="LinttiPower Oy">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-679.2" y="156.0" z="0.0" />
+        <viz:position x="-794.3" y="360.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3421,7 +3421,7 @@
       <node id="suomen-riistanhoito-saatio-sr" label="Suomen Riistanhoito-Säätiö sr">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-466.1" y="40.5" z="0.0" />
+        <viz:position x="-466.0" y="40.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3432,7 +3432,7 @@
       <node id="luontokollektiivi-ry" label="Luontokollektiivi ry">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-566.5" y="-12.7" z="0.0" />
+        <viz:position x="-796.3" y="-60.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3443,7 +3443,7 @@
       <node id="kokemaenjoen-vesiston-vesiensuojeluyhdis" label="Kokemäenjoen vesistön vesiensuojeluyhdistys ry">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-577.8" y="101.9" z="0.0" />
+        <viz:position x="-610.6" y="-130.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3454,7 +3454,7 @@
       <node id="turun-yliopisto" label="Turun yliopisto">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-21.9" y="198.3" z="0.0" />
+        <viz:position x="-191.9" y="123.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3465,7 +3465,7 @@
       <node id="geologian-tutkimuskeskus" label="Geologian Tutkimuskeskus">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-32.7" y="33.1" z="0.0" />
+        <viz:position x="-19.4" y="51.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3498,7 +3498,7 @@
       <node id="maaseudun-sivistysliiton-vaara-karjalan-" label="Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-63.7" y="139.8" z="0.0" />
+        <viz:position x="-114.4" y="125.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3542,7 +3542,7 @@
       <node id="jarviseudun-koulutuskuntayhtyma" label="Järviseudun Koulutuskuntayhtymä">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-45.0" y="-4.5" z="0.0" />
+        <viz:position x="23.9" y="33.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -3553,7 +3553,7 @@
       <node id="blackstairs-farming-group" label="Blackstairs Farming Group">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-469.0" y="-139.7" z="0.0" />
+        <viz:position x="476.3" y="344.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -3564,7 +3564,7 @@
       <node id="galway-mayo-institute-of-technology" label="Galway Mayo Institute of Technology">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-480.9" y="-133.2" z="0.0" />
+        <viz:position x="489.0" y="334.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -3630,7 +3630,7 @@
       <node id="strawchip-ltd" label="Strawchip Ltd">
         <viz:color r="91" g="127" b="42" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="336.5" y="-443.2" z="0.0" />
+        <viz:position x="568.1" y="-404.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="IE" />
@@ -3641,7 +3641,7 @@
       <node id="biedriba-latvijas-biologiskas-lauksaimni" label="biedrība “Latvijas Bioloģiskās lauksaimniecības asociācija”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="196.9" y="-286.1" z="0.0" />
+        <viz:position x="-317.7" y="-308.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3652,7 +3652,7 @@
       <node id="sia-latvijas-lauku-konsultaciju-un-izgli" label="SIA “Latvijas Lauku konsultāciju un izglītības centrs”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="184.9" y="-269.6" z="0.0" />
+        <viz:position x="-315.8" y="-293.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3663,7 +3663,7 @@
       <node id="sia-lm-product" label="SIA “LM Product”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="207.3" y="-287.7" z="0.0" />
+        <viz:position x="-316.7" y="-332.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3674,7 +3674,7 @@
       <node id="zs-atvases" label="ZS “Atvases”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="188.1" y="-280.8" z="0.0" />
+        <viz:position x="-329.9" y="-308.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3685,7 +3685,7 @@
       <node id="sia-eko-darzs" label="Sia “Eko Dārzs”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="215.2" y="-279.9" z="0.0" />
+        <viz:position x="-327.0" y="-323.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3696,7 +3696,7 @@
       <node id="olga-steinberga-sia-latvijas-lauku-konsu" label="Olga Šteinberga; SIA &quot;Latvijas Lauku konsultāciju un izglītības centrs">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="330.1" y="-227.9" z="0.0" />
+        <viz:position x="-229.3" y="-443.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3707,7 +3707,7 @@
       <node id="mpks-mezsaimnieks" label="MPKS „Mežsaimnieks”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="326.6" y="-237.4" z="0.0" />
+        <viz:position x="-234.7" y="-432.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3718,7 +3718,7 @@
       <node id="zs-lielvaiceni" label="ZS Lielvaicēni">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="308.1" y="-241.8" z="0.0" />
+        <viz:position x="-233.0" y="-420.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3729,7 +3729,7 @@
       <node id="biedriba-preilu-lauksaimnieku-apvieniba" label="Biedrība &quot;Preiļu lauksaimnieku apvienība">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="318.1" y="-242.5" z="0.0" />
+        <viz:position x="-217.8" y="-443.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3740,7 +3740,7 @@
       <node id="zemnieku-saimnieciba-kaigi" label="zemnieku saimniecība “Kaigi”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="389.4" y="-142.9" z="0.0" />
+        <viz:position x="-233.1" y="-371.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3751,7 +3751,7 @@
       <node id="sia-komercsabiedriba-arosa-r" label="SIA komercsabiedrība “Arosa R”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="390.1" y="-155.1" z="0.0" />
+        <viz:position x="-235.1" y="-386.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3762,7 +3762,7 @@
       <node id="valmieras-novada-pasvaldiba" label="Valmieras novada pašvaldība">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="538.5" y="410.3" z="0.0" />
+        <viz:position x="306.7" y="447.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3784,7 +3784,7 @@
       <node id="biedriba-baltijas-krasti" label="Biedrība “Baltijas krasti”">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="288.5" y="-112.0" z="0.0" />
+        <viz:position x="-152.8" y="-505.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3795,7 +3795,7 @@
       <node id="z-s-kaleji" label="Z/S Kalēji">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="301.2" y="-110.8" z="0.0" />
+        <viz:position x="-138.4" y="-504.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3806,7 +3806,7 @@
       <node id="biedriba-latvijas-kudras-asociacija" label="Biedrība &quot;Latvijas kūdras asociācija">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="353.5" y="-119.4" z="0.0" />
+        <viz:position x="-96.9" y="-412.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3817,7 +3817,7 @@
       <node id="llu-macibu-un-petijumu-saimnieciba-vecau" label="LLU mācību un pētījumu saimniecība &quot;Vecauce">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="348.7" y="-129.9" z="0.0" />
+        <viz:position x="-83.3" y="-409.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3828,7 +3828,7 @@
       <node id="latvijas-cuku-audzetaju-asociacija" label="Latvijas Cūku audzētāju asociācija">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="338.4" y="-101.8" z="0.0" />
+        <viz:position x="-93.1" y="-371.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3839,7 +3839,7 @@
       <node id="lauksaimniecibas-statutsabiedribu-asocia" label="Lauksaimniecības statūtsabiedrību asociācija">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="340.2" y="-115.3" z="0.0" />
+        <viz:position x="-90.0" y="-394.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3850,7 +3850,7 @@
       <node id="stadu-un-kudras-inovaciju-fonds-skif" label="Stādu un kūdras inovāciju fonds SKIF">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="327.2" y="-102.9" z="0.0" />
+        <viz:position x="-81.2" y="-380.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3861,7 +3861,7 @@
       <node id="zs-baltini" label="ZS &quot;Baltiņi">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="349.1" y="-108.1" z="0.0" />
+        <viz:position x="-76.6" y="-395.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3872,7 +3872,7 @@
       <node id="akciju-sabiedriba-latvijas-valsts-mezi" label="Akciju sabiedrība &quot;Latvijas valsts meži">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="636.7" y="495.4" z="0.0" />
+        <viz:position x="531.1" y="285.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3883,7 +3883,7 @@
       <node id="z-s-kiburi" label="Z/S Ķīburi">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="287.9" y="-238.3" z="0.0" />
+        <viz:position x="-104.9" y="-491.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3894,7 +3894,7 @@
       <node id="z-s-andrupeni" label="Z/S Andrupēni">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="276.3" y="-234.2" z="0.0" />
+        <viz:position x="-92.9" y="-483.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3905,7 +3905,7 @@
       <node id="biolat" label="Biolat">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="367.5" y="-190.8" z="0.0" />
+        <viz:position x="-174.7" y="-463.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3916,7 +3916,7 @@
       <node id="gourmet-industries" label="Gourmet Industries">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="367.5" y="-180.2" z="0.0" />
+        <viz:position x="-193.9" y="-455.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3927,7 +3927,7 @@
       <node id="stadu-un-kudras-inovaciju-fonds" label="Stādu Un Kūdras Inovāciju Fonds">
         <viz:color r="139" g="58" b="82" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="359.4" y="-197.8" z="0.0" />
+        <viz:position x="-187.1" y="-466.3" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="LV" />
@@ -3938,7 +3938,7 @@
       <node id="lansstyrelsen-i-norrbottens-lan" label="Länsstyrelsen i Norrbottens län">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-227.8" y="701.9" z="0.0" />
+        <viz:position x="-260.6" y="469.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -3949,7 +3949,7 @@
       <node id="allogro-ab" label="Allogro AB">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-63.3" y="745.4" z="0.0" />
+        <viz:position x="-168.9" y="535.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -3960,7 +3960,7 @@
       <node id="hushallningssallskapet-i-norrbotten-vast" label="Hushållningssällskapet i Norrbotten-Västerbotten">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-148.5" y="918.1" z="0.0" />
+        <viz:position x="19.6" y="754.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -3971,7 +3971,7 @@
       <node id="agroost-ideell-forening" label="Agroöst Ideell Förening">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-179.0" y="964.4" z="0.0" />
+        <viz:position x="-386.0" y="853.5" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -3993,7 +3993,7 @@
       <node id="miljomatematik-malmo-ab" label="Miljömatematik Malmö AB">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-135.8" y="768.6" z="0.0" />
+        <viz:position x="-242.5" y="977.7" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -4004,7 +4004,7 @@
       <node id="archaea-ab" label="Archaea AB">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-231.9" y="795.5" z="0.0" />
+        <viz:position x="-463.5" y="756.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -4015,7 +4015,7 @@
       <node id="skogsstyrelsen" label="Skogsstyrelsen">
         <viz:color r="179" g="138" b="20" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-200.0" y="749.9" z="0.0" />
+        <viz:position x="-200.0" y="750.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="SE" />
@@ -4026,7 +4026,7 @@
       <node id="ilmatieteen-laitos" label="Ilmatieteen Laitos">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-111.6" y="-17.2" z="0.0" />
+        <viz:position x="47.1" y="181.0" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -4037,7 +4037,7 @@
       <node id="kaakkois-suomen-ammattikorkeakoulu" label="Kaakkois-Suomen Ammattikorkeakoulu">
         <viz:color r="47" g="111" b="134" a="1.0" />
         <viz:size value="5" />
-        <viz:position x="-604.5" y="-40.5" z="0.0" />
+        <viz:position x="-742.3" y="131.2" z="0.0" />
         <attvalues>
           <attvalue for="0" value="organisaatio" />
           <attvalue for="1" value="FI" />
@@ -4048,7 +4048,7 @@
       <node id="J1" label="Etelä-Pohjanmaan turvemailla on käynnissä haastava kestävyyskoe">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-151.2" y="-4.2" z="0.0" />
+        <viz:position x="72.6" y="141.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2025" />
@@ -4060,7 +4060,7 @@
       <node id="J2" label="Metsityksen taloudellinen kannattavuus paksuturpeisilla suonpohjilla">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-102.0" y="29.8" z="0.0" />
+        <viz:position x="51.8" y="113.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2025" />
@@ -4072,7 +4072,7 @@
       <node id="J3" label="Naarasnevalla alkaa suonpohjien metsityksen monimuotoisuus- ja N2O-seuranta">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-90.0" y="29.8" z="0.0" />
+        <viz:position x="63.8" y="113.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2024" />
@@ -4084,7 +4084,7 @@
       <node id="J4" label="Irlantilaiset asiantuntijat vierailulla Suomessa: yhteisiä haasteita, erilaisia ratkaisuja">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-175.2" y="-4.2" z="0.0" />
+        <viz:position x="48.6" y="141.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="12" value="ammattijulkaisu" />
@@ -4095,7 +4095,7 @@
       <node id="J5" label="Yhteistyö Irlannin kanssa auttaa laajentamaan ymmärrystä eurooppalaisista turvemaista">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-163.2" y="-4.2" z="0.0" />
+        <viz:position x="60.6" y="141.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="12" value="ammattijulkaisu" />
@@ -4106,7 +4106,7 @@
       <node id="J6" label="Suolla soi moniääninen muutos: turvemaiden kestävä käyttö rakentuu alhaalta ylöspäin">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-151.2" y="-4.2" z="0.0" />
+        <viz:position x="72.6" y="141.9" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="12" value="ammattijulkaisu" />
@@ -4117,7 +4117,7 @@
       <node id="J7" label="PeatTransform: Supporting the Transition of the Peat Sector towards Climate Neutrality in Latvia">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="256.5" y="-168.8" z="0.0" />
+        <viz:position x="-147.7" y="-342.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2026" />
@@ -4129,7 +4129,7 @@
       <node id="J8" label="PeatTransform-seminaari: viisi tutkimussuuntaa, ~100 osallistujaa">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="268.5" y="-168.8" z="0.0" />
+        <viz:position x="-135.7" y="-342.6" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2026" />
@@ -4141,7 +4141,7 @@
       <node id="J9" label="Suomalainen SuoLiike-hanke Silavassa: paludikulttuurin päästöt, kuitupohjaiset kasvualustat">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="62.9" y="-52.5" z="0.0" />
+        <viz:position x="-112.2" y="-122.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2025" />
@@ -4153,7 +4153,7 @@
       <node id="J10" label="Stakeholder Engagement and Partnership Report for Phase 1, EU LIFE Peatlands and People">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-327.0" y="-3.5" z="0.0" />
+        <viz:position x="251.2" y="178.8" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2022" />
@@ -4165,7 +4165,7 @@
       <node id="J11" label="Bog Commissioner -karttojen digitointi (1810–1814): &gt;200 000 ha entistä turvemaata tunnistettu">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-296.2" y="-25.2" z="0.0" />
+        <viz:position x="244.9" y="195.1" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2025" />
@@ -4177,7 +4177,7 @@
       <node id="J12" label="Restoration of forestry-drained oligotrophic peatlands can bring climate change mitigation within a few decades">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-107.0" y="47.7" z="0.0" />
+        <viz:position x="17.4" y="127.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2026" />
@@ -4189,7 +4189,7 @@
       <node id="J13" label="Piitsonsuo: kolmen ennallistamismenetelmän vertailu, lampareiden vertailu Siikanevaan">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-95.0" y="47.7" z="0.0" />
+        <viz:position x="29.4" y="127.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2026" />
@@ -4201,7 +4201,7 @@
       <node id="J14" label="Kyyrönsuo (Kontiolahti): rahkasammalviljelyn tutkimus entisellä turvetuotantoalueella">
         <viz:color r="138" g="143" b="134" a="1.0" />
         <viz:size value="3" />
-        <viz:position x="-143.0" y="47.7" z="0.0" />
+        <viz:position x="-18.6" y="127.4" z="0.0" />
         <attvalues>
           <attvalue for="0" value="julkaisu" />
           <attvalue for="11" value="2026" />
