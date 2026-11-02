@@ -4,6 +4,10 @@ GitHub Actions -työnkulku [`automaattihaku.yml`](../../.github/workflows/automa
 
 Tämän kansion tiedostot eivät tule aineistoon automaattisesti. Tuonti (`src/tuonti.py`) lukee vain kansion [`../tulokset/`](../tulokset/).
 
+## Pull requestin salliminen
+
+Työnkulku tarvitsee luvan avata pull request. Ota se käyttöön kerran: repon **Settings → Actions → General → Workflow permissions** → valitse **Allow GitHub Actions to create and approve pull requests** → Save. Ilman lupaa tulokset jäävät haaraan [`automaattihaku`](https://github.com/joriim/Turverkko/tree/automaattihaku/hakulahteet/automaattihaku), josta PR:n voi avata käsin.
+
 ## Tarkistus
 
 1. Avaa PR:n CSV-tiedosto. Rivit ovat samassa muodossa kuin [`../tuontipohja.csv`](../tuontipohja.csv).
@@ -16,7 +20,7 @@ Tämän kansion tiedostot eivät tule aineistoon automaattisesti. Tuonti (`src/t
 
 | Lähde | Tapa | Tila |
 |---|---|---|
-| 22 OpenAIRE | [Graph API](https://graph.openaire.eu/docs/apis/graph-api/), ei avainta | käytössä: kansalliset rahoittajat FI, SE, EE, LV, IE, DE; Horizon (EC) rajattu pois |
+| 22 OpenAIRE | [Graph API](https://graph.openaire.eu/docs/apis/graph-api/) ja Search API (osallistujat), ei avainta | käytössä: kansalliset rahoittajat FI, SE, EE, LV, IE, DE, hanke päättyy 2014 tai myöhemmin; Horizon (EC) rajattu pois. Turvemaahankkeet ovat tiedoston alussa, muut maaperähankkeet sen jälkeen |
 | 1 Kohesio | estää GitHubin palvelimet (HTTP 403) | selainagentti omalla koneella |
 | 10 SweCRIS | REST-rajapinta, vaatii avaimen | odottaa avainta (repon salaisuus `SWECRIS_TOKEN`) |
 | 4 keep.eu | avoimen datan rajapinta, vaatii avaimen | odottaa avainta (keep.support@interact.eu, salaisuus `KEEP_KEY`) |
