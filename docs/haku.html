@@ -138,16 +138,17 @@ function show() {
     ? `<ul class="basis">${x.evidence_basis.map(b => `<li>${TV.esc(b)}</li>`).join("")}</ul>` : "") : "");
   add("Tekijät", TV.esc(x.authors));
   add("Julkaisu", TV.esc([x.venue, x.year].filter(Boolean).join(", ")));
-  add("Julkaisutyyppi", x.type && `<span class="pill">${TV.esc(x.type)}</span>${x.verified === false ? ' <span class="pill unv">metatiedot avaamatta</span>' : ""}`);
-  add("Organisaatiotyyppi", TV.esc(x.org_type));
+  add(it.kind === "organisaatio" ? "Organisaatiotyyppi" : "Julkaisutyyppi", x.type && `<span class="pill">${TV.esc(x.type)}</span>${x.verified === false ? ' <span class="pill unv">metatiedot avaamatta</span>' : ""}`);
+  if (it.kind !== "organisaatio") add("Organisaatiotyyppi", TV.esc(x.org_type));
+  add("ROR", x.ror ? `<a href="${TV.esc(x.ror)}" target="_blank" rel="noopener" class="mono">${TV.esc(x.ror.replace("https://ror.org/", ""))}</a>` : "");
   add("Huomio", TV.esc(x.note));
   const nd = N[it.id]; if (nd && nd.duplicate_note) add("Kaksoiskirjaus", TV.esc(nd.duplicate_note));
 
   const ev = e => `<span class="pill ${e.evidence === "lähde" ? "ok" : e.evidence === "päätelty" || e.evidence === "vahvistamatta" ? "unv" : ""}">${TV.esc(e.evidence || "–")}</span>${e.url ? ` <a class="note" href="${e.url}" target="_blank" rel="noopener">lähde ↗</a>` : ""}`;
-  const KN = {osallistuu:"osallistuu", kuuluu_keskukseen:"kuuluu keskukseen", yhteistyo:"yhteistyö", ei_kytkosta:"ei löydettyä kytköstä", rahoittaa:"rahoittaa", tuotos:"tuotos"};
-  const rels = E.filter(e => (e.source === it.id || e.target === it.id) && (COLLAB.includes(e.kind) || ["ei_kytkosta","rahoittaa","tuotos"].includes(e.kind)));
+  const KN = {osallistuu:"osallistuu", kuuluu_keskukseen:"kuuluu keskukseen", yhteistyo:"yhteistyö", ei_kytkosta:"ei löydettyä kytköstä", rahoittaa:"rahoittaa", tuotos:"tuotos", yhteisjulkaisu:"yhteisjulkaisut"};
+  const rels = E.filter(e => (e.source === it.id || e.target === it.id) && (COLLAB.includes(e.kind) || ["ei_kytkosta","rahoittaa","tuotos","yhteisjulkaisu"].includes(e.kind)));
   const groups = {};
-  rels.forEach(e => { const o = e.source === it.id ? e.target : e.source; const g = e.kind === "tuotos" ? "Tuotokset ja julkaisut" : e.kind === "rahoittaa" ? "Rahoitus" : N[o] && N[o].kind === "organisaatio" ? "Organisaatiot" : "Hankkeet ja keskukset"; (groups[g] ||= []).push([e, o]); });
+  rels.forEach(e => { const o = e.source === it.id ? e.target : e.source; const g = e.kind === "yhteisjulkaisu" ? "Yhteisjulkaisut (OpenAIRE)" : e.kind === "tuotos" ? "Tuotokset ja julkaisut" : e.kind === "rahoittaa" ? "Rahoitus" : N[o] && N[o].kind === "organisaatio" ? "Organisaatiot" : "Hankkeet ja keskukset"; (groups[g] ||= []).push([e, o]); });
   let relHtml = Object.entries(groups).map(([g, list]) => `<div class="eyebrow">${g} (${list.length})</div><div class="rel">${list.map(([e, o]) =>
     `<div>${N[o] ? TV.dot(N[o].country) : ""} ${link(o)} <span class="note">${KN[e.kind]}${e.note ? " · " + TV.esc(e.note) : ""}</span> ${ev(e)}</div>`).join("")}</div>`).join("");
 

@@ -6,7 +6,7 @@
 2. OpenAIRE: ROR-tunnisteella haetaan OpenAIRE-organisaatio ja sen rajausaiheiset tutkimustuotokset.
    Kahden organisaation yhteisjulkaisu = sama tuotos molempien listalla.
 Tulos: hakulahteet/automaattihaku/ror-<pvm>.csv ja yhteisjulkaisut-<pvm>.csv tarkistettavaksi.
-Hyväksytyt: hakulahteet/tulokset/ror.csv ja hakulahteet/tulokset/yhteisjulkaisut.csv.
+Hyväksytyt: hakulahteet/tulokset/verkosto/ror.csv ja hakulahteet/tulokset/verkosto/yhteisjulkaisut.csv.
 
 Aja:  python scripts/haku/yhteisjulkaisut.py [--nayte] [--max-sivut 5]
 """
@@ -93,7 +93,7 @@ def main():
     today = datetime.date.today().isoformat()
     ds = json.loads((ROOT / "data" / "dataset.json").read_text(encoding="utf-8"))
     known_ror = {}
-    f = ROOT / "hakulahteet" / "tulokset" / "ror.csv"
+    f = ROOT / "hakulahteet" / "tulokset" / "verkosto" / "ror.csv"
     if f.exists():
         known_ror = {r["org_id"]: r["ror"] for r in csv.DictReader(open(f, encoding="utf-8-sig")) if r.get("ror")}
     orgs = [o for o in ds["orgs"] if o.get("type") in RESEARCH_TYPES]

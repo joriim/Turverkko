@@ -26,7 +26,7 @@ nabu-kreisverband-gifhorn,NABU Kreisverband Gifhorn,DE-NI,jarjesto,3,0,,1,0.0001
 geologian-tutkimuskeskus,Geologian Tutkimuskeskus,FI,tutkimuslaitos,2,0,,3,0.0001,1
 landkreis-stade,Landkreis Stade,DE-NI,viranomainen,2,0,,1,0.0,12
 bund-fur-umwelt-und-naturschutz,Bund für Umwelt und Naturschutz,DE-NI,jarjesto,2,0,,1,0.0,13
-universitat-greifswald,Universität Greifswald,DE-NI,yliopisto,2,0,,1,0.0,14
+universitat-greifswald,Universität Greifswald,DE,yliopisto,2,0,,2,0.0,14
 landkreis-cuxhaven,Landkreis Cuxhaven,DE-NI,viranomainen,2,0,,1,0.0,15
 landkreis-emsland,Landkreis Emsland,DE-NI,viranomainen,2,0,,1,0.0,16
 landkreis-osterholz,Landkreis Osterholz,DE-NI,viranomainen,2,0,,1,0.0,17
@@ -69,7 +69,7 @@ baumschul-beratungsring-weser-ems,Baumschul-Beratungsring Weser-Ems,DE-NI,virano
 hochschule-hannover,Hochschule Hannover,DE-NI,amk,1,0,,1,0.0,8
 dammtechnik-neuhaus,Dämmtechnik Neuhaus,DE-NI,viranomainen,1,0,,1,0.0,8
 wester-gbr,Wester GbR,DE-NI,viranomainen,1,0,,1,0.0,8
-universitat-rostock,Universität Rostock,DE-NI,yliopisto,1,0,,1,0.0,27
+universitat-rostock,Universität Rostock,DE,yliopisto,1,0,,2,0.0,27
 torfwerk-moorkultur-ramsloh-werner-koch-,Torfwerk Moorkultur Ramsloh Werner Koch GmbH & Co. KG,DE-NI,yritys,1,0,,1,0.0,28
 schmedt,Schmedt,DE-NI,yritys,1,0,,1,0.0,29
 archehof-rolfes,Archehof Rolfes,DE-NI,yritys,1,0,,1,0.0,30

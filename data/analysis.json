@@ -11,8 +11,8 @@
   "unverified_edges": 3,
   "components": 81,
   "largest_component": 92,
-  "multi_country_components": 2,
-  "cross_country_edges": 8,
+  "multi_country_components": 4,
+  "cross_country_edges": 11,
   "overlap_pairs": 102,
   "missing_links": 85,
   "missing_cross_country": 5,
@@ -21,10 +21,10 @@
   "overlap_connected": 14,
   "overlap_family": 3,
   "duplicate_candidates": 2,
-  "copub_edges": 0,
-  "copub_cross_country": 0,
-  "components_with_copubs": 81,
-  "multi_country_components_with_copubs": 2,
+  "copub_edges": 97,
+  "copub_cross_country": 54,
+  "components_with_copubs": 74,
+  "multi_country_components_with_copubs": 1,
   "theme_country_pairs": 72,
   "theme_country_pairs_unlinked": 66
  },
@@ -123,8 +123,8 @@
   {
    "komponentti": 14,
    "solmuja": 3,
-   "maita": 1,
-   "maat": "DE-NI",
+   "maita": 2,
+   "maat": "DE DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-0499 K-DE-NI-77b2"
   },
   {
@@ -214,8 +214,8 @@
   {
    "komponentti": 27,
    "solmuja": 2,
-   "maita": 1,
-   "maat": "DE-NI",
+   "maita": 2,
+   "maat": "DE DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-44a1"
   },
   {
@@ -925,12 +925,12 @@
   {
    "id": "universitat-greifswald",
    "nimi": "Universität Greifswald",
-   "maa": "DE-NI",
+   "maa": "DE",
    "tyyppi": "yliopisto",
    "hankkeita": 2,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
+   "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
    "komponentti": 14
   },
@@ -1441,12 +1441,12 @@
   {
    "id": "universitat-rostock",
    "nimi": "Universität Rostock",
-   "maa": "DE-NI",
+   "maa": "DE",
    "tyyppi": "yliopisto",
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 1,
+   "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
    "komponentti": 27
   },
@@ -2603,7 +2603,7 @@
    "yhteiset": "hankhau, harvest, moss, cultiva, mooswei, moor",
    "samaan_aikaan": "kyllä",
    "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
+   "etaisyys": 3,
    "tyyppi": "saman kokonaisuuden osat"
   },
   {
@@ -3093,7 +3093,7 @@
    "yhteiset": "yrityst, innovaa, kasvualusta, kasvual, liiketoiminta, tutkimu",
    "samaan_aikaan": "kyllä",
    "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
+   "etaisyys": 4,
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
@@ -3121,7 +3121,7 @@
    "yhteiset": "energy, emissio, trading, peat, paastot, increas",
    "samaan_aikaan": "kyllä",
    "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
+   "etaisyys": 4,
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
@@ -4390,7 +4390,7 @@
    "yhteiset": "yrityst, innovaa, kasvualusta, kasvual, liiketoiminta, tutkimu",
    "samaan_aikaan": "kyllä",
    "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
+   "etaisyys": 4,
    "tyyppi": "rinnakkainen ilman yhteyttä",
    "paras_naytto": 2
   },
@@ -4420,7 +4420,7 @@
    "yhteiset": "energy, emissio, trading, peat, paastot, increas",
    "samaan_aikaan": "kyllä",
    "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
+   "etaisyys": 4,
    "tyyppi": "rinnakkainen ilman yhteyttä",
    "paras_naytto": 2
   },
@@ -5135,10 +5135,10 @@
    "kynnys": 0.15,
    "pareja": 251,
    "saman kokonaisuuden osat": 3,
-   "rinnakkainen ilman yhteyttä": 157,
+   "rinnakkainen ilman yhteyttä": 152,
    "peräkkäiset samassa maassa": 25,
-   "puuttuva yhteys": 38,
-   "yhteydessä": 28
+   "puuttuva yhteys": 37,
+   "yhteydessä": 34
   },
   {
    "kynnys": 0.2,
@@ -5223,6 +5223,7 @@
  ],
  "cross_country": {
   "FI–LV": 1,
+  "DE–DE-NI": 3,
   "DE-NI–IE": 2,
   "EU–FI": 2,
   "EU–SE": 1,

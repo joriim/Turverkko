@@ -9,7 +9,7 @@
 | `hanke` | Rajauksen sisällä oleva hanke | `FI-07` | country, fund, period, eur_total, eur_eu, evidence_level, start, end |
 | `osaamiskeskus` | CoE, klusteri tai huippuyksikkö | `H-FI`, `H-LV` | country, fund, status, years |
 | `vertailukohde` | Rajauksen ulkopuolinen hanke (LIFE, kansallinen, naapurialue) | `X-IE-LIFE` | country, fund |
-| `organisaatio` | Toteuttaja tai partneri | lyhyt slug, esim. `seamk` | country, org_type |
+| `organisaatio` | Toteuttaja tai partneri | lyhyt slug, esim. `seamk` | country, org_type, ror (ROR-tunniste) |
 | `julkaisu` | Julkaisu, aineisto, kenttäkohde tai tapahtuma | `J1` | year, pub_type, verified, venue |
 
 Maakoodit: `FI`, `SE`, `EE`, `LV`, `IE`, `DE-NI` (Niedersachsen), `DE-SH` (vain vertailu).
@@ -67,6 +67,7 @@ Rajauksen ulkopuolelle jäävät vety, energia, matkailu, yleinen yritystuki, j�
 | `osallistuu` | organisaatio → hanke/keskus | kyllä | `note` = rooli (koordinaattori, partneri, rahoituksen välittäjä, kenttäkumppani) |
 | `kuuluu_keskukseen` | hanke → keskus | kyllä | Hanke on osa keskuksen verkostoa |
 | `yhteistyo` | keskus/hanke ↔ keskus | kyllä | Dokumentoitu vierailu, yhteinen tutkija, yhteishanke |
+| `yhteisjulkaisu` | organisaatio ↔ organisaatio | erillinen näyttö | Organisaatioilla on yhteisiä turvemaa- tai maaperäjulkaisuja vuodesta 2014 (OpenAIRE, organisaatiot ROR-tunnisteella). `weight` = julkaisujen määrä. Analyysi raportoi saarekkeet ilman ja kanssa yhteisjulkaisujen; päällekkäisyysparien yhteys lasketaan niiden kanssa. |
 | `ei_kytkosta` | keskus ↔ keskus | ei | Haettu, ei löytynyt; kirjataan, jotta haku on toistettavissa |
 | `rahoittaa` | ohjelma → hanke | ei | Varmistettu rahoitussuhde |
 | `tuotos` | hanke → julkaisu | ei | |

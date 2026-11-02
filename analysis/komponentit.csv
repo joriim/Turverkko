@@ -12,7 +12,7 @@ komponentti,solmuja,maita,maat,hankkeet_ja_keskukset
 11,3,1,LV,LV-02
 12,3,1,DE-NI,K-DE-NI-1746 K-DE-NI-dab1
 13,3,1,DE-NI,K-DE-NI-a450 K-DE-NI-accd
-14,3,1,DE-NI,K-DE-NI-0499 K-DE-NI-77b2
+14,3,2,DE DE-NI,K-DE-NI-0499 K-DE-NI-77b2
 15,3,1,DE-NI,K-DE-NI-1847 K-DE-NI-34e3
 16,3,1,DE-NI,K-DE-NI-3eb1 K-DE-NI-ee94
 17,3,1,DE-NI,K-DE-NI-bf71 K-DE-NI-d8d1
@@ -25,7 +25,7 @@ komponentti,solmuja,maita,maat,hankkeet_ja_keskukset
 24,2,1,FI,FI-03
 25,2,1,EE,EE-02
 26,2,1,DE-NI,K-DE-NI-e147
-27,2,1,DE-NI,K-DE-NI-44a1
+27,2,2,DE DE-NI,K-DE-NI-44a1
 28,2,1,DE-NI,K-DE-NI-bd6b
 29,2,1,DE-NI,K-DE-NI-410f
 30,2,1,DE-NI,K-DE-NI-9163

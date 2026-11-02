@@ -5640,43 +5640,50 @@
    "id": "seamk",
    "name": "Seinäjoen ammattikorkeakoulu (SeAMK)",
    "country": "FI",
-   "type": "amk"
+   "type": "amk",
+   "ror": "https://ror.org/036je1b38"
   },
   {
    "id": "hy",
    "name": "Helsingin yliopisto",
    "country": "FI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/040af2s02"
   },
   {
    "id": "il",
    "name": "Ilmatieteen laitos",
    "country": "FI",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/05hppb561"
   },
   {
    "id": "uef",
    "name": "Itä-Suomen yliopisto",
    "country": "FI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/00cyydd11"
   },
   {
    "id": "aalto",
    "name": "Aalto-yliopisto",
    "country": "FI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/020hwjq30"
   },
   {
    "id": "oy",
    "name": "Oulun yliopisto",
    "country": "FI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/03yj89h83"
   },
   {
    "id": "luke",
    "name": "Luonnonvarakeskus (Luke)",
    "country": "FI",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/02hb7bm88"
   },
   {
    "id": "metsakeskus",
@@ -5736,37 +5743,43 @@
    "id": "lu",
    "name": "Latvian yliopisto",
    "country": "LV",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/05g3mes96"
   },
   {
    "id": "rtu",
    "name": "Riga Technical University",
    "country": "LV",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/00twb6c09"
   },
   {
    "id": "lbtu",
    "name": "Latvia University of Life Sciences and Technologies",
    "country": "LV",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/03f077y84"
   },
   {
    "id": "ies",
    "name": "Institute for Environmental Solutions",
    "country": "LV",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/0055m7z56"
   },
   {
    "id": "lathort",
    "name": "Institute of Horticulture (LatHort)",
    "country": "LV",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/018t9wj74"
   },
   {
    "id": "arei",
    "name": "Institute of Agricultural Resources and Economics",
    "country": "LV",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/01c8z0k91"
   },
   {
    "id": "cfla",
@@ -5814,19 +5827,22 @@
    "id": "galway",
    "name": "University of Galway",
    "country": "IE",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/03bea9k73"
   },
   {
    "id": "teagasc",
    "name": "Teagasc",
    "country": "IE",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/03sx84n71"
   },
   {
    "id": "tcd",
    "name": "Trinity College Dublin",
    "country": "IE",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/02tyrky19"
   },
   {
    "id": "bnm",
@@ -5880,7 +5896,8 @@
    "id": "syke",
    "name": "Suomen ympäristökeskus (Syke)",
    "country": "FI",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/013nat269"
   },
   {
    "id": "keha",
@@ -5898,13 +5915,15 @@
    "id": "slu",
    "name": "Sveriges lantbruksuniversitet (SLU)",
    "country": "SE",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/02yy8x990"
   },
   {
    "id": "ltu",
    "name": "Luleå tekniska universitet",
    "country": "SE",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/016st3p78"
   },
   {
    "id": "landkreis-stade",
@@ -5958,7 +5977,8 @@
    "id": "hochschule-hannover",
    "name": "Hochschule Hannover",
    "country": "DE-NI",
-   "type": "amk"
+   "type": "amk",
+   "ror": "https://ror.org/03m2kj587"
   },
   {
    "id": "dammtechnik-neuhaus",
@@ -5975,14 +5995,16 @@
   {
    "id": "universitat-rostock",
    "name": "Universität Rostock",
-   "country": "DE-NI",
-   "type": "yliopisto"
+   "country": "DE",
+   "type": "yliopisto",
+   "ror": "https://ror.org/03zdwsf69"
   },
   {
    "id": "universitat-greifswald",
    "name": "Universität Greifswald",
-   "country": "DE-NI",
-   "type": "yliopisto"
+   "country": "DE",
+   "type": "yliopisto",
+   "ror": "https://ror.org/00r1edq15"
   },
   {
    "id": "torfwerk-moorkultur-ramsloh-werner-koch-",
@@ -6102,7 +6124,8 @@
    "id": "carl-von-ossietzky-universitat-oldenburg",
    "name": "Carl von Ossietzky Universität Oldenburg",
    "country": "DE-NI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/033n9gh91"
   },
   {
    "id": "europaisches-fachzentrum-moor-und-klima-",
@@ -6126,7 +6149,8 @@
    "id": "van-hall-larenstein-university-of-applie",
    "name": "Van Hall Larenstein University of Applied Sciences",
    "country": "",
-   "type": "amk"
+   "type": "amk",
+   "ror": "https://ror.org/02mdbnd10"
   },
   {
    "id": "broads-authority",
@@ -6156,13 +6180,15 @@
    "id": "kaakkois-suomen-ammattikorkeakoulu",
    "name": "Kaakkois-Suomen Ammattikorkeakoulu",
    "country": "FI",
-   "type": "amk"
+   "type": "amk",
+   "ror": "https://ror.org/051v6v138"
   },
   {
    "id": "lapin-ammattikorkeakoulu",
    "name": "Lapin ammattikorkeakoulu",
    "country": "FI",
-   "type": "amk"
+   "type": "amk",
+   "ror": "https://ror.org/047h64h89"
   },
   {
    "id": "lansirannikon-koulutus",
@@ -6174,7 +6200,8 @@
    "id": "savonia-ammattikorkeakoulu",
    "name": "Savonia-ammattikorkeakoulu",
    "country": "FI",
-   "type": "amk"
+   "type": "amk",
+   "ror": "https://ror.org/0238fqd79"
   },
   {
    "id": "pohjois-savon-luonnonsuojelupiiri",
@@ -6198,7 +6225,8 @@
    "id": "lappeenrannan-lahden-teknillinen-yliopis",
    "name": "Lappeenrannan-Lahden teknillinen yliopisto LUT",
    "country": "FI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/0208vgz68"
   },
   {
    "id": "metsahallitus",
@@ -6234,25 +6262,29 @@
    "id": "turun-yliopisto",
    "name": "Turun yliopisto",
    "country": "FI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/05vghhr25"
   },
   {
    "id": "geologian-tutkimuskeskus",
    "name": "Geologian Tutkimuskeskus",
    "country": "FI",
-   "type": "tutkimuslaitos"
+   "type": "tutkimuslaitos",
+   "ror": "https://ror.org/03vjnqy43"
   },
   {
    "id": "jyvaskylan-yliopisto",
    "name": "Jyväskylän yliopisto",
    "country": "FI",
-   "type": "yliopisto"
+   "type": "yliopisto",
+   "ror": "https://ror.org/05n3dz165"
   },
   {
    "id": "jyvaskylan-ammattikorkeakoulu",
    "name": "Jyväskylän Ammattikorkeakoulu",
    "country": "FI",
-   "type": "amk"
+   "type": "amk",
+   "ror": "https://ror.org/01dn2ng71"
   },
   {
    "id": "maaseudun-sivistysliiton-vaara-karjalan-",

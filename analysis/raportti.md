@@ -6,8 +6,8 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 
 - Toimijoita yhteistyöverkossa: **306**, vahvistettuja yhteistyösärmiä **247** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
 - Erillisiä yhteistyösaarekkeita: **81**. Suurin kattaa 92 toimijaa.
-- Usean maan saarekkeita: **2**. Maiden välisiä vahvistettuja yhteistyösärmiä: **8**.
-- Yhteisjulkaisut mukaan lukien (organisaatioiden yhteiset turvemaa- ja maaperäjulkaisut, OpenAIRE): yhteisjulkaisusärmiä **0**, joista maiden välisiä **0**; saarekkeita **81**, joista usean maan **2**. Päällekkäisyysparien yhteys lasketaan tässä verkossa.
+- Usean maan saarekkeita: **4**. Maiden välisiä vahvistettuja yhteistyösärmiä: **11**.
+- Yhteisjulkaisut mukaan lukien (organisaatioiden yhteiset turvemaa- ja maaperäjulkaisut, OpenAIRE): yhteisjulkaisusärmiä **97**, joista maiden välisiä **54**; saarekkeita **74**, joista usean maan **1**. Päällekkäisyysparien yhteys lasketaan tässä verkossa.
 - Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ 0.2, 148 vertailtavaa hanketta): **102**. Niistä
   - rinnakkaisia ilman yhteyttä (sama maa, samaan aikaan, ei yhteistä toimijaa eikä polkua ≤ 3); kohdekohtaisissa toteutushankkeissa tämä on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön: **75**
   - peräkkäisiä samassa maassa ilman yhteyttä: **5**
@@ -19,6 +19,7 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 ## Maiden väliset yhteydet
 
 - DE-NI–IE: 2 (lähteellä vahvistettu)
+- DE–DE-NI: 3 (lähteellä vahvistettu)
 - EU–FI: 2 (lähteellä vahvistettu)
 - EU–SE: 1 (lähteellä vahvistettu)
 - FI–LV: 1 (lähteellä vahvistettu)
@@ -53,7 +54,7 @@ Lähdeaineiston kuvaukset ovat lyhyitä (keskimäärin noin 200 merkkiä), mikä
 
 | Kynnys | Pareja | saman kokonaisuuden osat | rinnakkainen ilman yhteyttä | peräkkäiset samassa maassa | puuttuva yhteys | yhteydessä |
 |---|---|---|---|---|---|---|
-| 0.15 | 251 | 3 | 157 | 25 | 38 | 28 |
+| 0.15 | 251 | 3 | 152 | 25 | 37 | 34 |
 | 0.2 | 102 | 3 | 75 | 5 | 5 | 14 |
 | 0.25 | 43 | 3 | 29 | 1 | 1 | 9 |
 | 0.3 | 22 | 3 | 12 | 0 | 0 | 7 |
@@ -155,7 +156,7 @@ Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään va
 | 11 | 3 | LV | LV-02 |
 | 12 | 3 | DE-NI | K-DE-NI-1746 K-DE-NI-dab1 |
 | 13 | 3 | DE-NI | K-DE-NI-a450 K-DE-NI-accd |
-| 14 | 3 | DE-NI | K-DE-NI-0499 K-DE-NI-77b2 |
+| 14 | 3 | DE DE-NI | K-DE-NI-0499 K-DE-NI-77b2 |
 | 15 | 3 | DE-NI | K-DE-NI-1847 K-DE-NI-34e3 |
 | 16 | 3 | DE-NI | K-DE-NI-3eb1 K-DE-NI-ee94 |
 | 17 | 3 | DE-NI | K-DE-NI-bf71 K-DE-NI-d8d1 |
@@ -168,7 +169,7 @@ Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään va
 | 24 | 2 | FI | FI-03 |
 | 25 | 2 | EE | EE-02 |
 | 26 | 2 | DE-NI | K-DE-NI-e147 |
-| 27 | 2 | DE-NI | K-DE-NI-44a1 |
+| 27 | 2 | DE DE-NI | K-DE-NI-44a1 |
 | 28 | 2 | DE-NI | K-DE-NI-bd6b |
 | 29 | 2 | DE-NI | K-DE-NI-410f |
 | 30 | 2 | DE-NI | K-DE-NI-9163 |

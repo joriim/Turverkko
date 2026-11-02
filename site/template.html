@@ -130,6 +130,7 @@ a{color:var(--water)}
       <button class="chip" id="net-unv" aria-pressed="true">vahvistamattomat yhteydet</button>
       <button class="chip" id="net-miss" aria-pressed="false">puuttuvat yhteydet</button>
       <button class="chip" id="net-pubs" aria-pressed="false">julkaisut</button>
+      <button class="chip" id="net-copub" aria-pressed="false">yhteisjulkaisut</button>
     </div>
     <div class="grid">
       <div class="mapbox">
@@ -346,7 +347,7 @@ function renderHubs(){
 
 
 /* Yhteysverkosto */
-const NET = {unv:true, miss:false, pubs:false, sel:null};
+const NET = {unv:true, miss:false, pubs:false, copub:false, sel:null};
 function renderNet(){
   const A = D.analysis, N = D.network; const byId = Object.fromEntries(N.nodes.map(n=>[n.id,n]));
   const P = A.positions; const S = 430;
@@ -355,6 +356,9 @@ function renderNet(){
   const vis = n => !n.country || state.countries.has(n.country) || !CN[n.country];
   let lines = "", dots = "", labels = "";
   const collab = N.edges.filter(e=>["osallistuu","kuuluu_keskukseen","yhteistyo"].includes(e.kind));
+  if(NET.copub) N.edges.filter(e=>e.kind==="yhteisjulkaisu").forEach(e=>{const a=pos(e.source), b=pos(e.target); if(!a||!b) return;
+    if(!vis(byId[e.source])||!vis(byId[e.target])) return;
+    lines += `<line class="nl" data-a="${e.source}" data-b="${e.target}" x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--warm)" stroke-opacity=".55" stroke-width="${1+Math.min(Math.log2(e.weight+1),4)}"><title>${esc(byId[e.source].label)} ↔ ${esc(byId[e.target].label)} · ${esc(e.note)}</title></line>`;});
   collab.forEach(e=>{
     const a=pos(e.source), b=pos(e.target); if(!a||!b) return;
     const unv = e.evidence==="vahvistamatta";
@@ -411,10 +415,10 @@ function netDetail(){
   const el = document.getElementById("net-detail"); const N=D.network; const byId = Object.fromEntries(N.nodes.map(n=>[n.id,n]));
   if(!NET.sel){ el.innerHTML = `<div class="eyebrow">Valitse solmu</div><h2>Kuka tekee yhteistyötä kenen kanssa</h2><p class="note">Napauta organisaatiota, hanketta tai osaamiskeskusta. Paneeli näyttää sen yhteydet ja jokaisen yhteyden lähteen.</p><p class="note">Verkossa ovat mukana vain yhteistyösuhteet: osallistuminen hankkeeseen, hankkeen kuuluminen keskukseen ja dokumentoitu yhteistyö. Rahoitus ja teemojen samankaltaisuus eivät ole yhteistyötä.</p>`; return; }
   const n = byId[NET.sel];
-  const es = N.edges.filter(e=>(e.source===n.id||e.target===n.id) && ["osallistuu","kuuluu_keskukseen","yhteistyo","ei_kytkosta"].includes(e.kind));
+  const es = N.edges.filter(e=>(e.source===n.id||e.target===n.id) && ["osallistuu","kuuluu_keskukseen","yhteistyo","ei_kytkosta","yhteisjulkaisu"].includes(e.kind));
   const org = D.analysis.organisations.find(r=>r.id===n.id);
   const miss = D.analysis.missing_links.filter(m=>m.a===n.id||m.b===n.id);
-  const KIND = {osallistuu:"osallistuu",kuuluu_keskukseen:"kuuluu keskukseen",yhteistyo:"yhteistyö",ei_kytkosta:"ei löydettyä kytköstä"};
+  const KIND = {osallistuu:"osallistuu",kuuluu_keskukseen:"kuuluu keskukseen",yhteistyo:"yhteistyö",ei_kytkosta:"ei löydettyä kytköstä",yhteisjulkaisu:"yhteisjulkaisut"};
   el.innerHTML = `<div class="eyebrow">${esc(n.kind)} · ${CN[n.country]||n.country||""}</div><h2>${esc(n.label)}</h2>`
     + (org?`<dl class="kv"><dt>Hankkeita</dt><dd class="mono">${org.hankkeita}</dd><dt>Keskuksia</dt><dd class="mono">${org.keskuksia}</dd><dt>Välitys&shy;keskeisyys</dt><dd class="mono">${org.valityskeskeisyys}</dd><dt>Saareke</dt><dd class="mono">${org.komponentti}</dd></dl>`:"")
     + `<div class="eyebrow">Yhteydet (${es.length})</div>`
@@ -424,7 +428,7 @@ function netDetail(){
     + (n.url?`<a href="${n.url}" target="_blank" rel="noopener">Lähde ↗</a>`:"");
   el.querySelectorAll("[data-net]").forEach(a=>a.onclick=e=>{e.preventDefault(); NET.sel=a.dataset.net; netDetail(); netHighlight();});
 }
-["unv","miss","pubs"].forEach(k=>{ const b=document.getElementById("net-"+k); b.onclick=()=>{NET[k]=!NET[k]; b.setAttribute("aria-pressed",NET[k]); renderNet();}; });
+["unv","miss","pubs","copub"].forEach(k=>{ const b=document.getElementById("net-"+k); b.onclick=()=>{NET[k]=!NET[k]; b.setAttribute("aria-pressed",NET[k]); renderNet();}; });
 
 /* Matrix */
 function renderMatrix(){

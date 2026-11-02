@@ -487,12 +487,17 @@ _naytto.apply(PROJECTS, PUBS)
 
 # ROR-tunnisteet ja yhteisjulkaisut (tarkistetut automaattihaun tulokset)
 import csv as _csv  # noqa: E402
-_ror_file = _tuonti.RESULTS / "ror.csv"
+_ror_file = _tuonti.RESULTS / "verkosto" / "ror.csv"
 if _ror_file.exists():
     _ror = {r["org_id"]: r["ror"] for r in _csv.DictReader(open(_ror_file, encoding="utf-8-sig")) if r.get("ror")}
     for _o in ORGS:
         if _o["id"] in _ror:
             _o["ror"] = _ror[_o["id"]]
-_cp_file = _tuonti.RESULTS / "yhteisjulkaisut.csv"
+# Organisaation maa, kun tuonti on perinyt sen hankkeelta väärin (esim. Mecklenburg-Vorpommernin yliopistot Niedersachsenin hankkeissa)
+ORG_COUNTRY_FIX = {"universitat-greifswald": "DE", "universitat-rostock": "DE"}
+for _o in ORGS:
+    if _o["id"] in ORG_COUNTRY_FIX:
+        _o["country"] = ORG_COUNTRY_FIX[_o["id"]]
+_cp_file = _tuonti.RESULTS / "verkosto" / "yhteisjulkaisut.csv"
 COPUBS = list(_csv.DictReader(open(_cp_file, encoding="utf-8-sig"))) if _cp_file.exists() else []
 
