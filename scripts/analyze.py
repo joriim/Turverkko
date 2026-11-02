@@ -23,7 +23,8 @@ ROOT = Path(__file__).resolve().parents[1]
 ACTOR_KINDS = {"organisaatio", "hanke", "osaamiskeskus", "vertailukohde"}
 COLLAB_EDGES = {"osallistuu", "kuuluu_keskukseen", "yhteistyo"}
 MAX_HOPS = 3          # polku ≤ 3 askelta = toimijat tuntevat toisensa (esim. yhteinen organisaatio = 2)
-MISSING_MIN_J = 0.5   # teemojen Jaccard-raja puuttuvalle yhteydelle
+MISSING_MIN_J = 0.6   # teemojen Jaccard-raja puuttuvalle yhteydelle (ja ≥2 yhteistä teemaa, ks. build.py)
+CROSS_COUNTRY_ONLY = True  # puuttuvat yhteydet vain maiden välillä
 
 
 def load():
@@ -89,8 +90,10 @@ def main():
             d = nx.shortest_path_length(Gv, a, b)
         except (nx.NetworkXNoPath, nx.NodeNotFound):
             d = None
+        na, nb = nodes[a], nodes[b]
+        if CROSS_COUNTRY_ONLY and na.get("country") == nb.get("country"):
+            continue
         if d is None or d > MAX_HOPS:
-            na, nb = nodes[a], nodes[b]
             ev = max(int(na.get("evidence_level") or 0), int(nb.get("evidence_level") or 0))
             miss.append(dict(a=a, a_nimi=na["label"], a_maa=na.get("country"), b=b, b_nimi=nb["label"],
                              b_maa=nb.get("country"), jaccard=e["weight"], yhteiset_teemat=e["note"],
@@ -129,15 +132,36 @@ def main():
             if s:
                 shared.append(dict(a=a, b=b, organisaatiot=sorted(s)))
 
+    # 6. Teema × maapari: onko maiden toimijoiden välillä yhtään vahvistettua yhteistyötä teemassa
+    theme_of = defaultdict(set)
+    for e in edges:
+        if e["kind"] == "teema" and nodes[e["source"]]["kind"] in ("hanke", "vertailukohde"):
+            theme_of[e["source"]].add(e["target"])
+    countries = sorted({n.get("country") for n in nodes.values() if n["kind"] == "hanke" and n.get("country") not in (None, "", "EU")})
+    gaps = []
+    for t in sorted({t for s in theme_of.values() for t in s}):
+        per = {c: [p for p, ts in theme_of.items() if t in ts and nodes[p].get("country") == c] for c in countries}
+        for i, ca in enumerate(countries):
+            for cb in countries[i + 1:]:
+                A, B = per[ca], per[cb]
+                if not A or not B:
+                    continue
+                linked = any(nx.has_path(Gv, x, y) and nx.shortest_path_length(Gv, x, y) <= MAX_HOPS
+                             for x in A for y in B if x in Gv and y in Gv)
+                gaps.append(dict(teema=t, a=ca, b=cb, hankkeita_a=len(A), hankkeita_b=len(B), yhteys=linked))
+    gaps.sort(key=lambda g: (g["yhteys"], -(g["hankkeita_a"] * g["hankkeita_b"])))
+
     analysis = dict(
         params=dict(max_hops=MAX_HOPS, missing_min_jaccard=MISSING_MIN_J),
         summary=dict(actors=Gv.number_of_nodes(), collab_edges=Gv.number_of_edges(), unverified_edges=G.number_of_edges() - Gv.number_of_edges(), components=len(comps),
                      largest_component=len(comps[0]), multi_country_components=sum(1 for r in comp_rows if r["maita"] > 1),
                      cross_country_edges=sum(cross.values()), missing_links=len(miss),
-                     missing_cross_country=sum(1 for m in miss if m["tyyppi"] == "maiden välinen")),
+                     missing_cross_country=sum(1 for m in miss if m["tyyppi"] == "maiden välinen"),
+                     theme_country_pairs=len(gaps), theme_country_pairs_unlinked=sum(1 for g in gaps if not g["yhteys"])),
         components=comp_rows, organisations=org_rows, missing_links=miss,
         cross_country={f"{a}–{b}": n for (a, b), n in cross.items()},
         cross_country_unverified={f"{a}–{b}": n for (a, b), n in cross_unv.items()}, hub_shared_orgs=shared,
+        theme_country_gaps=gaps,
         positions=layout(G),
     )
     (ROOT / "data" / "analysis.json").write_text(json.dumps(analysis, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -145,10 +169,39 @@ def main():
     print(json.dumps(analysis["summary"], ensure_ascii=False))
 
 
+# Maiden ankkuripisteet asettelussa (x, y välillä −1…1): saarekkeet ryhmittyvät maittain
+ANCHORS = {"FI": (-0.55, -0.15), "SE": (-0.2, -0.75), "EE": (0.15, -0.8), "LV": (0.5, -0.5),
+           "EU": (0.0, 0.05), "IE": (0.6, 0.45), "DE-NI": (-0.25, 0.65), "DE-SH": (0.25, 0.85)}
+
+
 def layout(G):
-    """Vakaa asettelu visualisointia varten (sama tulos joka ajolla)."""
-    pos = nx.spring_layout(G, seed=42, k=0.35, iterations=300)
-    return {k: [round(float(v[0]), 4), round(float(v[1]), 4)] for k, v in pos.items()}
+    """Vakaa asettelu: jokainen yhteistyösaareke asetellaan erikseen ja sijoitetaan
+    hallitsevan maansa ankkurin ympärille spiraaliin. Sama tulos joka ajolla."""
+    import math
+    comps = sorted(nx.connected_components(G), key=lambda c: (-len(c), sorted(c)[0]))
+    placed = {k: 0 for k in ANCHORS}
+    pos = {}
+    for c in comps:
+        sub = G.subgraph(c)
+        countries = Counter(G.nodes[n].get("country") for n in c if G.nodes[n].get("country") in ANCHORS)
+        home = countries.most_common(1)[0][0] if countries else "EU"
+        if len(countries) > 1:
+            home = "EU" if "EU" in countries else home
+        ax, ay = ANCHORS[home]
+        k = placed[home]; placed[home] += 1
+        ang = k * 2.4; rad = 0.0 if k == 0 else 0.06 + 0.045 * math.sqrt(k)
+        cx, cy = ax + rad * math.cos(ang), ay + rad * math.sin(ang)
+        scale = 0.02 + 0.045 * math.sqrt(len(c))
+        if len(c) == 1:
+            p = {next(iter(c)): (0.0, 0.0)}
+        else:
+            p = nx.spring_layout(sub, seed=42, k=1.8 / math.sqrt(len(c)), iterations=200)
+        rot = ang * 1.7  # kierretään saarekkeita, jotta pienet parit eivät osoita samaan suuntaan
+        cr, sr = math.cos(rot), math.sin(rot)
+        for n, (x0, y0) in p.items():
+            x, y = x0 * cr - y0 * sr, x0 * sr + y0 * cr
+            pos[n] = [round(float(cx + x * scale), 4), round(float(cy + y * scale), 4)]
+    return pos
 
 
 def write_csv(path, rows):
@@ -180,6 +233,11 @@ def report(a, nodes):
           "| A | B | Jaccard | Yhteiset teemat | Tyyppi |", "|---|---|---|---|---|"]
     for m in a["missing_links"][:20]:
         L.append(f"| {m['a']} {m['a_nimi'][:45]} | {m['b']} {m['b_nimi'][:45]} | {m['jaccard']} | {m['yhteiset_teemat']} | {m['tyyppi']} |")
+    L += ["", "## Teema × maapari", "",
+          f"Maaparit, joilla on hankkeita samassa teemassa: **{s['theme_country_pairs']}**, joista ilman yhtään vahvistettua yhteistyöpolkua **{s['theme_country_pairs_unlinked']}**.", "",
+          "| Teema | Maat | Hankkeita | Yhteys |", "|---|---|---|---|"]
+    for g in a["theme_country_gaps"][:25]:
+        L.append(f"| {g['teema']} | {g['a']}–{g['b']} | {g['hankkeita_a']} + {g['hankkeita_b']} | {'kyllä' if g['yhteys'] else 'ei'} |")
     L += ["", "## Saarekkeet", "", "| # | Solmuja | Maat | Hankkeet ja keskukset |", "|---|---|---|---|"]
     for c in a["components"]:
         L.append(f"| {c['komponentti']} | {c['solmuja']} | {c['maat']} | {c['hankkeet_ja_keskukset']} |")

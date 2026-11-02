@@ -135,7 +135,7 @@ TV.load().then(({ds, net, an}) => {
   const s = an.summary;
   const jtf = ds.programmes.filter(p => p.fund === "JTF" && p.focus.length && p.id !== "P-FI-PP-JTF").reduce((a, p) => a + p.eur, 0);
   document.getElementById("kpis").innerHTML = [
-    [ds.projects.length, "turvemaahanketta otoksessa"],
+    [ds.projects.length, "turvemaahanketta"],
     [ds.hubs.length, "osaamiskeskusta"],
     [s.actors, "toimijaa yhteistyöverkossa"],
     [s.components, "erillistä yhteistyösaareketta"],
@@ -149,6 +149,7 @@ TV.load().then(({ds, net, an}) => {
   document.getElementById("findings").innerHTML = `
     <p><b>${s.actors} toimijaa jakautuu ${s.components} erilliseen yhteistyösaarekkeeseen.</b> Maarajan ylittää ${multi.length === 1 ? "vain yksi saareke" : multi.length + " saareketta"}${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, ja lähteellä vahvistettuja maiden välisiä yhteyksiä on ${s.cross_country_edges}.</p>
     <p><b>Vahvimmat puuttuvat yhteydet:</b> ${top.map(m => `<a href="haku.html#${encodeURIComponent(m.a)}">${TV.esc(m.a_nimi.replace(/ –.*/, ""))}</a> ja <a href="haku.html#${encodeURIComponent(m.b)}">${TV.esc(m.b_nimi.replace(/ –.*/, ""))}</a>`).join("; ")}.</p>
+    <p><b>Teemoittain:</b> ${s.theme_country_pairs} maaparilla on hankkeita samassa teemassa, ja niistä ${s.theme_country_pairs_unlinked} ilman yhtään vahvistettua yhteistyöpolkua.</p>
     <p><b>Välittäjäorganisaatiot</b> eli ne, joiden kautta eri hankkeet kytkeytyvät: ${brokers.map(TV.esc).join(", ")}.</p>`;
   document.getElementById("themes").innerHTML = Object.entries(ds.themes).map(([k, v]) => {
     const n = ds.projects.filter(p => p.themes.includes(k)).length;

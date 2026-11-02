@@ -16,7 +16,7 @@ THEMES = {
 
 COUNTRIES = {
     "FI": "Suomi", "SE": "Ruotsi", "EE": "Viro", "LV": "Latvia",
-    "IE": "Irlanti", "DE-NI": "Niedersachsen",
+    "IE": "Irlanti", "DE-NI": "Niedersachsen", "EU": "Ylikansallinen (Interreg)",
 }
 
 # Ohjelmataso (allokaatiot ja tavoitteet)
@@ -414,3 +414,51 @@ REMOVED = [
     dict(id="EE-01", name="Harvinaisten maametallien magneettitehdas, Narva", reason="teollisuusinvestointi"),
     dict(id="SE-01", name="H2-Labs – vedyn testilaitos, Piteå", reason="vety"),
 ]
+
+# ---------------------------------------------------------------------------
+# Hakulähteiden tulokset (hakulahteet/tulokset/*.csv), ks. src/tuonti.py
+import tuonti as _tuonti  # noqa: E402
+
+_ORG_EXTRA = [
+    dict(id="syke", name="Suomen ympäristökeskus (Syke)", country="FI", type="tutkimuslaitos"),
+    dict(id="keha", name="ELY-keskusten kehittämis- ja hallintokeskus (KEHA)", country="FI", type="viranomainen"),
+    dict(id="rmk", name="Riigimetsa Majandamise Keskus (RMK)", country="EE", type="viranomainen"),
+]
+_known = {o["id"] for o in ORGS}
+ORGS += [o for o in _ORG_EXTRA if o["id"] not in _known]
+
+_new, _orgs, _part, _enrich, _removed = _tuonti.load()
+_known = {o["id"] for o in ORGS}
+ORGS += [o for o in _orgs if o["id"] not in _known]
+PROJECTS += _new
+PARTICIPATION += _part
+REMOVED += _removed
+
+# Kohesio-rivit, jotka täydentävät olemassa olevia hankkeita
+_byid = {p["id"]: p for p in PROJECTS}
+for _pid, _rows in _enrich.items():
+    _p = _byid[_pid]
+    _b = sum(_tuonti._num(r["budjetti_eur"]) or 0 for r in _rows) or None
+    _e = sum(_tuonti._num(r["eu_osuus_eur"]) or 0 for r in _rows) or None
+    _p["eur_total"] = _p["eur_total"] or _b
+    _p["eur_eu"] = _p["eur_eu"] or _e
+    _p.setdefault("urls", [_p["url"]])
+    _p["urls"] += [r["url"] for r in _rows]
+    for r in _rows:
+        _oid = _tuonti.ORG_ALIAS.get(r["toteuttaja"].strip().lower()) or _tuonti._slug(r["toteuttaja"])
+        if _oid not in {o["id"] for o in ORGS}:
+            ORGS.append(dict(id=_oid, name=r["toteuttaja"].strip(), country=_p["country"], type=_tuonti.org_type(r["toteuttaja"])))
+        if (_oid, _pid) not in {(x[0], x[1]) for x in PARTICIPATION}:
+            PARTICIPATION.append((_oid, _pid, "edunsaaja", r["url"]))
+
+# Viro: aiempi EE-02-rivi käytti ohjelmatason summaa (KF 81 M€ koko maalle); Kohesio antaa hankkeen omat luvut
+_ee = next(r for r in _enrich.get("EE-02", []))
+_byid["EE-02"].update(lead="Riigimetsa Majandamise Keskus (RMK)", start=2016, end=2023,
+    eur_total=_tuonti._num(_ee["budjetti_eur"]), eur_eu=_tuonti._num(_ee["eu_osuus_eur"]),
+    outputs="2 000 ha hylättyjä turvetuotantoalueita ennallistettu (Kohesio); Laiuse saavutti tavoitevedenpinnan (ERR 2021). Koko KF-ohjelman jääksoiden korjaamiseen varattiin 81 M€.")
+
+# PohjaNeva: Kohesio kertoo koko hankkeen, aiempi rivi vain Myllynevan osakohteen
+_byid["FI-02"].update(
+    name="PohjaNeva – Vauhtia pohjalaismaakuntien JTF-ennallistamisiin",
+    start=2024, end=2027,
+    outputs="Pohjalaismaakuntien turvetuotantoalueiden ennallistamisen vauhdittaminen; esimerkkinä Myllynevan 10 ha:n kosteikko (Alavus, 12 722 €)")

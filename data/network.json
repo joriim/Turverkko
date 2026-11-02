@@ -133,21 +133,25 @@
    "evidence_level": 1,
    "start": 2023,
    "end": 2027,
-   "url": "https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/"
+   "url": "https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "FI-02",
    "kind": "hanke",
-   "label": "PohjaNeva – Myllynevan ennallistaminen (Alavus)",
+   "label": "PohjaNeva – Vauhtia pohjalaismaakuntien JTF-ennallistamisiin",
    "country": "FI",
    "fund": "JTF",
    "period": "2021–27",
    "eur_total": 12722,
-   "eur_eu": "",
+   "eur_eu": 407280,
    "evidence_level": 2,
    "start": 2024,
-   "end": "",
-   "url": "https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&lang=fi"
+   "end": 2027,
+   "url": "https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&lang=fi",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "FI-03",
@@ -161,7 +165,9 @@
    "evidence_level": 1,
    "start": 2025,
    "end": "",
-   "url": "https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&lang=fi"
+   "url": "https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&lang=fi",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "EE-02",
@@ -170,12 +176,14 @@
    "country": "EE",
    "fund": "KF",
    "period": "2014–20",
-   "eur_total": "",
-   "eur_eu": 81000000,
+   "eur_total": 3262985,
+   "eur_eu": 2773537,
    "evidence_level": 3,
    "start": 2016,
    "end": 2023,
-   "url": "https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid"
+   "url": "https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "LV-01",
@@ -189,7 +197,9 @@
    "evidence_level": 2,
    "start": 2025,
    "end": 2029,
-   "url": "https://www.silava.lv/en/research/projects/PeatTransform"
+   "url": "https://www.silava.lv/en/research/projects/PeatTransform",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "LV-02",
@@ -203,7 +213,9 @@
    "evidence_level": 2,
    "start": 2024,
    "end": 2026,
-   "url": "https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund"
+   "url": "https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "LV-03",
@@ -217,7 +229,9 @@
    "evidence_level": 2,
    "start": 2021,
    "end": 2023,
-   "url": "https://silava.lv/en/projects/climate-policy-adapted-solutions-for-extracted-peatlands-and-paludiculture-implementation"
+   "url": "https://silava.lv/en/projects/climate-policy-adapted-solutions-for-extracted-peatlands-and-paludiculture-implementation",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "IE-01",
@@ -232,6 +246,8 @@
    "start": 2021,
    "end": 2023,
    "url": "https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf",
+   "auto_themes": false,
+   "imported_from": "",
    "duplicate_note": "Green Restoration Ireland, 1 050 646 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ CAP Network -rekisterin 1 147 000 €"
   },
   {
@@ -247,6 +263,8 @@
    "start": 2021,
    "end": 2023,
    "url": "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de",
+   "auto_themes": false,
+   "imported_from": "",
    "duplicate_note": "Wetland Surveys Ireland, 1 113 800 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ rekisterin 1 213 800 €"
   },
   {
@@ -261,7 +279,9 @@
    "evidence_level": 1,
    "start": 2016,
    "end": 2023,
-   "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf"
+   "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "NI-02",
@@ -270,12 +290,14 @@
    "country": "DE-NI",
    "fund": "EAKR",
    "period": "2014–20",
-   "eur_total": "",
+   "eur_total": 1822604,
    "eur_eu": "",
    "evidence_level": 0,
    "start": "",
    "end": "",
-   "url": "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html"
+   "url": "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "NI-03",
@@ -289,7 +311,9 @@
    "evidence_level": 2,
    "start": 2017,
    "end": 2020,
-   "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf"
+   "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "FI-06",
@@ -303,7 +327,9 @@
    "evidence_level": 1,
    "start": 2023,
    "end": 2026,
-   "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf"
+   "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "FI-07",
@@ -317,7 +343,9 @@
    "evidence_level": 4,
    "start": 2024,
    "end": 2026,
-   "url": "https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf"
+   "url": "https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "FI-08",
@@ -331,7 +359,9 @@
    "evidence_level": 1,
    "start": "",
    "end": "",
-   "url": "https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf"
+   "url": "https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "FI-09",
@@ -345,7 +375,9 @@
    "evidence_level": 1,
    "start": "",
    "end": "",
-   "url": "https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange"
+   "url": "https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange",
+   "auto_themes": false,
+   "imported_from": ""
   },
   {
    "id": "FI-10",
@@ -359,7 +391,1545 @@
    "evidence_level": 0,
    "start": "",
    "end": "",
-   "url": "https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana"
+   "url": "https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana",
+   "auto_themes": false,
+   "imported_from": ""
+  },
+  {
+   "id": "K-DE-NI-01",
+   "kind": "hanke",
+   "label": "Care and development concept Meckelmoor Landkreis Stade",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 18000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2019,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261898",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-02",
+   "kind": "hanke",
+   "label": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1853955,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260718",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-03",
+   "kind": "hanke",
+   "label": "Climate protection and species protection through area protection in the tunschlickers Moor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 528000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2021,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262153",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-04",
+   "kind": "hanke",
+   "label": "Climate protection through the Dahlenburger Moor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 58625,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2021,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261887",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-05",
+   "kind": "hanke",
+   "label": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1848184,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2015,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261820",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-06",
+   "kind": "hanke",
+   "label": "Completion of the area backdrop for the protection of the ahlenmoor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 517000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2021,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262150",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-07",
+   "kind": "hanke",
+   "label": "Demolition Mathildenhof",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 216482,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2018,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262198",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-08",
+   "kind": "hanke",
+   "label": "Development of priorities in moor and climate protection in the district of Stade",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 266917,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261897",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-09",
+   "kind": "hanke",
+   "label": "Establishment of a “Paludiculture Competence Centre”",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 516520,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262186",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-10",
+   "kind": "hanke",
+   "label": "Gnarrenburger Moor – Area concept and water management",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 976679,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261822",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-11",
+   "kind": "hanke",
+   "label": "Implementation and testing of hydrological optimisation measures in high moor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1081485,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262187",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-12",
+   "kind": "hanke",
+   "label": "Land protection in the nature reserve “Bülter See und Randmoore” – North",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 632500,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2021,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262156",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-13",
+   "kind": "hanke",
+   "label": "Land protection in the nature reserve “Bülter See und Randmoore” – South",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 689700,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2021,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262152",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-14",
+   "kind": "hanke",
+   "label": "MOORIS",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1067288,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261821",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-15",
+   "kind": "hanke",
+   "label": "MOOSWEIT TV3 – GHG balance of cultivation and harvest",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 166445,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2019,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263543",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-16",
+   "kind": "hanke",
+   "label": "MOOSWEIT, Subproject 2",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 457323,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2019,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263539",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-17",
+   "kind": "hanke",
+   "label": "MOOSWEIT, Subproject 5",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1162170,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2015,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263502",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-18",
+   "kind": "hanke",
+   "label": "Maintenance of wet grassland in the EU – Bird protection area",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 134391,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2019,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262561",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-19",
+   "kind": "hanke",
+   "label": "Management of moorland areas",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 614286,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262151",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-20",
+   "kind": "hanke",
+   "label": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 609085,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261819",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-21",
+   "kind": "hanke",
+   "label": "Monitoring of moor water levels",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 752500,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262154",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-22",
+   "kind": "hanke",
+   "label": "Monitoring of the peat moss field in the Ahlenmoor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 58179,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261839",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-23",
+   "kind": "hanke",
+   "label": "Moor Information System for the District of Emsland (EL-MIS)",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1356034,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261856",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-24",
+   "kind": "hanke",
+   "label": "Moor wetting Ahrensfelder Moor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 27486,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2015,
+   "end": 2016,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261894",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-25",
+   "kind": "hanke",
+   "label": "Moorhausen moor area, test and demonstration areas",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 167527,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2020,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261858",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-26",
+   "kind": "hanke",
+   "label": "Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 43790,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2020,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260564",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-27",
+   "kind": "hanke",
+   "label": "Moorland® – Climate donation Lower Saxony",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 706289,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260719",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-28",
+   "kind": "hanke",
+   "label": "Mäh4Moor – Sustainable moor development through sheep farming",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1076125,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262159",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-29",
+   "kind": "hanke",
+   "label": "Network Moor Care and Moor Management Elbe-Weser (Network Moor)",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "eur_total": 585000,
+   "eur_eu": 351000,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7716339",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-30",
+   "kind": "hanke",
+   "label": "OptiMOOS – Subproject vegetation development and water management",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1509113,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263538",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-31",
+   "kind": "hanke",
+   "label": "Optimisation of the wetting of the nature reserve “Bockholter Dose”",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 812463,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261855",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-32",
+   "kind": "hanke",
+   "label": "Optimisation of water balance in high bogs of the Diepholzer Moorniederung",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 462010,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2020,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262188",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-33",
+   "kind": "hanke",
+   "label": "Optimisation of water balance in selected bogs of the Südheide",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 3726486,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262197",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-34",
+   "kind": "hanke",
+   "label": "Optimisation of water management in the moor area of Moorhausen (Varel)",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 130122,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261857",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-35",
+   "kind": "hanke",
+   "label": "Pilot study of peat moss in the Great Moor near Gifhorn",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 395468,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262114",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-36",
+   "kind": "hanke",
+   "label": "Planning for the renaturation of the Steinmoor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 53000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2021,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262191",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-37",
+   "kind": "hanke",
+   "label": "Preliminary study on the climate protection project Steinfelder Moor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 12886,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2018,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261902",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-38",
+   "kind": "hanke",
+   "label": "Regeneration of a moorland in the Günnemoor",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 83297,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2015,
+   "end": 2018,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261892",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-39",
+   "kind": "hanke",
+   "label": "Restoration of land-owned moors",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 845000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260567",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-40",
+   "kind": "hanke",
+   "label": "Rewetting Sauerbach",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 103403,
+   "eur_eu": "",
+   "evidence_level": 2,
+   "start": 2017,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262112",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-41",
+   "kind": "hanke",
+   "label": "Wiedervernässung des Weißen Moores",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 165000,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2021,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261904",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-42",
+   "kind": "hanke",
+   "label": "Rewetting of the hill moor at the forest town of Wurmberg/Böser Hund",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 589940,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262179",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-43",
+   "kind": "hanke",
+   "label": "Rewetting of the hill moor in the forest town of Wildenkiel",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1263983,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262182",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-44",
+   "kind": "hanke",
+   "label": "Rewetting of the slope moor Friedrichshäuser Bruch",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1166300,
+   "eur_eu": "",
+   "evidence_level": 2,
+   "start": 2019,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262178",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-45",
+   "kind": "hanke",
+   "label": "Wiedervernässung des Toten Moores",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1485714,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262400",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-46",
+   "kind": "hanke",
+   "label": "Smart Carbon Farming",
+   "country": "DE-NI",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 4610773,
+   "eur_eu": 2766464,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-47",
+   "kind": "hanke",
+   "label": "Succession of the dragonfly fauna of a peat moss culture",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 31770,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2019,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260730",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-48",
+   "kind": "hanke",
+   "label": "WetWeb Organic Soils – Networked Research for Moor and Climate",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 472512,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260949",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-DE-NI-49",
+   "kind": "hanke",
+   "label": "Wetting area at Westerbeck",
+   "country": "DE-NI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 130895,
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262113",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-EU-01",
+   "kind": "hanke",
+   "label": "Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",
+   "country": "EU",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 1995592,
+   "eur_eu": 1542479,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2029,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7739085",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-EU-02",
+   "kind": "hanke",
+   "label": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
+   "country": "EU",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 9742962,
+   "eur_eu": 5845777,
+   "evidence_level": 1,
+   "start": 2023,
+   "end": 2028,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735237",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-EU-03",
+   "kind": "hanke",
+   "label": "Carbon Connects",
+   "country": "EU",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "eur_total": 5414426,
+   "eur_eu": 3248655,
+   "evidence_level": 1,
+   "start": 2018,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4302509",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-EU-04",
+   "kind": "hanke",
+   "label": "Creating A New Approach to Peatland Ecosystems",
+   "country": "EU",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "eur_total": 5545105,
+   "eur_eu": 2772551,
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298213",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-EU-05",
+   "kind": "hanke",
+   "label": "PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites",
+   "country": "EU",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 639950,
+   "eur_eu": 415969,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2028,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7738425",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-01",
+   "kind": "hanke",
+   "label": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 287815,
+   "eur_eu": 201471,
+   "evidence_level": 2,
+   "start": 2025,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441449",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-02",
+   "kind": "hanke",
+   "label": "Approaches for anticipating acidity and risk management in peat production areas (Sulfa II)",
+   "country": "FI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 405000,
+   "eur_eu": 200000,
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2019,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3749915",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-03",
+   "kind": "hanke",
+   "label": "Biokas - Growth from Biochar - Towards the Peat-Free Society",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 289175,
+   "eur_eu": 202423,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441340",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-04",
+   "kind": "hanke",
+   "label": "CLT boards to strengthen ground load capacity in logging",
+   "country": "FI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 482418,
+   "eur_eu": 175944,
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3754768",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-05",
+   "kind": "hanke",
+   "label": "Carbon-wise peatland forest management",
+   "country": "FI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 452878,
+   "eur_eu": 110482,
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3755406",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-06",
+   "kind": "hanke",
+   "label": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 408015,
+   "eur_eu": 285610,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440725",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-07",
+   "kind": "hanke",
+   "label": "Heinäpuro restoration project",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 41210,
+   "eur_eu": 28847,
+   "evidence_level": 2,
+   "start": 2025,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441349",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-08",
+   "kind": "hanke",
+   "label": "Konttisuo restoration plan",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 3200,
+   "eur_eu": 2240,
+   "evidence_level": 2,
+   "start": 2025,
+   "end": 2025,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441313",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-09",
+   "kind": "hanke",
+   "label": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 648909,
+   "eur_eu": 454236,
+   "evidence_level": 1,
+   "start": 2023,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440068",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-10",
+   "kind": "hanke",
+   "label": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 155140,
+   "eur_eu": 108598,
+   "evidence_level": 1,
+   "start": 2023,
+   "end": 2025,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440098",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-11",
+   "kind": "hanke",
+   "label": "Peat Bogs to Wetlands",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 397904,
+   "eur_eu": 278533,
+   "evidence_level": 2,
+   "start": 2024,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440774",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-12",
+   "kind": "hanke",
+   "label": "Restoration and water protection project of South-Eastern Finland",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 923512,
+   "eur_eu": 646458,
+   "evidence_level": 2,
+   "start": 2025,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441245",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-13",
+   "kind": "hanke",
+   "label": "Restoration of Linttiräme after Peat Production",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 81821,
+   "eur_eu": 57275,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441443",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-14",
+   "kind": "hanke",
+   "label": "Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 324432,
+   "eur_eu": 227102,
+   "evidence_level": 2,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440941",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-15",
+   "kind": "hanke",
+   "label": "Restoration of the Western Valkeasuo Mire",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 72800,
+   "eur_eu": 50960,
+   "evidence_level": 2,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440995",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-16",
+   "kind": "hanke",
+   "label": "Restoration plan for the bog Pirttineva, previous peat production site",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 8977,
+   "eur_eu": 6284,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441403",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-17",
+   "kind": "hanke",
+   "label": "Satakunta peatlands: from peat production to new livelihoods and meanings",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 541292,
+   "eur_eu": 378905,
+   "evidence_level": 1,
+   "start": 2023,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440044",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-18",
+   "kind": "hanke",
+   "label": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 372839,
+   "eur_eu": 260987,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441173",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-19",
+   "kind": "hanke",
+   "label": "Suokeidas - From peat production to diverse wetlands",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 380145,
+   "eur_eu": 266102,
+   "evidence_level": 2,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440759",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-20",
+   "kind": "hanke",
+   "label": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 292566,
+   "eur_eu": 204796,
+   "evidence_level": 2,
+   "start": 2025,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441315",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-21",
+   "kind": "hanke",
+   "label": "TURBITS, New Cultivated Plants and bioside streams: Production Chains, Valuables and Circular economy",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 479249,
+   "eur_eu": 335474,
+   "evidence_level": 1,
+   "start": 2023,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440084",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-22",
+   "kind": "hanke",
+   "label": "The Bog 2.0 - Vitality to Ilomantsi with overall sustainability",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 528169,
+   "eur_eu": 369719,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440593",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-23",
+   "kind": "hanke",
+   "label": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 220269,
+   "eur_eu": 154188,
+   "evidence_level": 2,
+   "start": 2024,
+   "end": 2025,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440269",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-24",
+   "kind": "hanke",
+   "label": "The water protection wetland of the former peat production area of Kovalansuo",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 170225,
+   "eur_eu": 119158,
+   "evidence_level": 2,
+   "start": 2023,
+   "end": 2025,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440782",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-25",
+   "kind": "hanke",
+   "label": "Tools and methods for combating the effects of peatland forests on water and climate (TurVI)",
+   "country": "FI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 438612,
+   "eur_eu": 171706,
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3754206",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-26",
+   "kind": "hanke",
+   "label": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 161484,
+   "eur_eu": 113039,
+   "evidence_level": 2,
+   "start": 2025,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441283",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-FI-27",
+   "kind": "hanke",
+   "label": "Value from the carbon market for the next land use of peat production areas",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 788547,
+   "eur_eu": 551983,
+   "evidence_level": 1,
+   "start": 2023,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440188",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-01",
+   "kind": "hanke",
+   "label": "Co-operation Across Borders for Biodiversity",
+   "country": "IE",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "eur_total": 4935984,
+   "eur_eu": 4195586,
+   "evidence_level": 2,
+   "start": 2017,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298133",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-02",
+   "kind": "hanke",
+   "label": "Collaborative Action for the Natural Network",
+   "country": "IE",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "eur_total": 8349688,
+   "eur_eu": 7097235,
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298217",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-03",
+   "kind": "hanke",
+   "label": "Composting Bark for the Horticultural Market",
+   "country": "IE",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 300000,
+   "eur_eu": 150000,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361336",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-04",
+   "kind": "hanke",
+   "label": "Initiative for the recycling of green waste and the recycling of used/waste compost, to extend its usable lifespan.",
+   "country": "IE",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 299996,
+   "eur_eu": 149998,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361334",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-05",
+   "kind": "hanke",
+   "label": "Peatlands For Prosperity Project: Cultivating Paludiculture for Resilience",
+   "country": "IE",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 299054,
+   "eur_eu": 149527,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361332",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-06",
+   "kind": "hanke",
+   "label": "Sphagnum Farming",
+   "country": "IE",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 300000,
+   "eur_eu": 150000,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361330",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-IE-07",
+   "kind": "hanke",
+   "label": "To introduce a new format straw product to market that can be used as a horticultural peat replacement",
+   "country": "IE",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 300000,
+   "eur_eu": 150000,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361338",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-01",
+   "kind": "hanke",
+   "label": "Development of a storm damage risk assessment tool for peat soils",
+   "country": "LV",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 551425,
+   "eur_eu": 374969,
+   "evidence_level": 1,
+   "start": 2017,
+   "end": 2020,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3056351",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-02",
+   "kind": "hanke",
+   "label": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
+   "country": "LV",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 675371,
+   "eur_eu": 438991,
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2023,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3056457",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-03",
+   "kind": "hanke",
+   "label": "Development of nature management plan for nature reserve \"Sedas purvs\"",
+   "country": "LV",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "eur_total": 244664,
+   "eur_eu": 207965,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": "",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7432419",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-04",
+   "kind": "hanke",
+   "label": "Improving cross border cooperation in the field of peat fire prevention and response",
+   "country": "LV",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 686058,
+   "eur_eu": 548847,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7737164",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-LV-05",
+   "kind": "hanke",
+   "label": "Restoration of bog ecosystems in SACs",
+   "country": "LV",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 7058824,
+   "eur_eu": 6000000,
+   "evidence_level": 2,
+   "start": 2024,
+   "end": "",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7432676",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-SE-01",
+   "kind": "hanke",
+   "label": "Myrrestaurering i Norrbottens län (MyreN) – soiden ennallistaminen",
+   "country": "SE",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "eur_total": 2696225,
+   "eur_eu": 1078490,
+   "evidence_level": 2,
+   "start": 2024,
+   "end": 2027,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7362157",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-SE-02",
+   "kind": "hanke",
+   "label": "Water Management in Baltic Forests - Tool box",
+   "country": "SE",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "eur_total": 1059125,
+   "eur_eu": 830000,
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2021,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4299112",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
+  },
+  {
+   "id": "K-SE-03",
+   "kind": "hanke",
+   "label": "Water Management in Baltic forests",
+   "country": "SE",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "eur_total": 2930965,
+   "eur_eu": 2283826,
+   "evidence_level": 1,
+   "start": 2016,
+   "end": 2019,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4299111",
+   "auto_themes": true,
+   "imported_from": "1-kohesio-2026-11-02.csv"
   },
   {
    "id": "X-FI-PEATRESC",
@@ -739,6 +2309,538 @@
    "kind": "organisaatio",
    "label": "NLWKN",
    "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "syke",
+   "kind": "organisaatio",
+   "label": "Suomen ympäristökeskus (Syke)",
+   "country": "FI",
+   "org_type": "tutkimuslaitos"
+  },
+  {
+   "id": "keha",
+   "kind": "organisaatio",
+   "label": "ELY-keskusten kehittämis- ja hallintokeskus (KEHA)",
+   "country": "FI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "rmk",
+   "kind": "organisaatio",
+   "label": "Riigimetsa Majandamise Keskus (RMK)",
+   "country": "EE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "landkreis-stade",
+   "kind": "organisaatio",
+   "label": "Landkreis Stade",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "bund-fur-umwelt-und-naturschutz",
+   "kind": "organisaatio",
+   "label": "Bund für Umwelt und Naturschutz",
+   "country": "DE-NI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "naturschutzstiftung-des-landkreises-cuxh",
+   "kind": "organisaatio",
+   "label": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "country": "DE-NI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "landkreis-luneburg",
+   "kind": "organisaatio",
+   "label": "Landkreis Lüneburg",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "landesamt-f-bergbau-energie-u-geologie",
+   "kind": "organisaatio",
+   "label": "Landesamt f. Bergbau, Energie u Geologie",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "universitat-rostock",
+   "kind": "organisaatio",
+   "label": "Universität Rostock",
+   "country": "DE-NI",
+   "org_type": "yliopisto"
+  },
+  {
+   "id": "universitat-greifswald",
+   "kind": "organisaatio",
+   "label": "Universität Greifswald",
+   "country": "DE-NI",
+   "org_type": "yliopisto"
+  },
+  {
+   "id": "torfwerk-moorkultur-ramsloh-werner-koch-",
+   "kind": "organisaatio",
+   "label": "Torfwerk Moorkultur Ramsloh Werner Koch GmbH & Co. KG",
+   "country": "DE-NI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "schmedt",
+   "kind": "organisaatio",
+   "label": "Schmedt",
+   "country": "DE-NI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "landkreis-cuxhaven",
+   "kind": "organisaatio",
+   "label": "Landkreis Cuxhaven",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "landkreis-emsland",
+   "kind": "organisaatio",
+   "label": "Landkreis Emsland",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "landkreis-osterholz",
+   "kind": "organisaatio",
+   "label": "Landkreis Osterholz",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "landkreis-friesland",
+   "kind": "organisaatio",
+   "label": "Landkreis Friesland",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "archehof-rolfes",
+   "kind": "organisaatio",
+   "label": "Archehof Rolfes",
+   "country": "DE-NI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "naturschutzstiftung-grafschaft-bentheim",
+   "kind": "organisaatio",
+   "label": "Naturschutzstiftung Grafschaft Bentheim",
+   "country": "DE-NI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "nabu-kreisverband-gifhorn-e-v",
+   "kind": "organisaatio",
+   "label": "NABU Kreisverband Gifhorn e.V.",
+   "country": "DE-NI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "landkreis-vechta",
+   "kind": "organisaatio",
+   "label": "Landkreis Vechta",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "arl-w-e-staatliche-moorverwaltung",
+   "kind": "organisaatio",
+   "label": "ArL W-E, Staatliche Moorverwaltung",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "landkreis-verden",
+   "kind": "organisaatio",
+   "label": "Landkreis Verden",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "niedersachsische-landesforsten-aor",
+   "kind": "organisaatio",
+   "label": "Niedersächsische Landesforsten AöR",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "niedersachsische-landesforsten-aor-forst",
+   "kind": "organisaatio",
+   "label": "Niedersächsische Landesforsten AöR Forstamt Neuhaus",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "niedersachsische-landesforsten-a-o-r-for",
+   "kind": "organisaatio",
+   "label": "Niedersächsische Landesforsten A.ö.R. Forstamt Dassel",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "region-hannover",
+   "kind": "organisaatio",
+   "label": "Region Hannover",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
+   "kind": "organisaatio",
+   "label": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
+   "country": "DE-NI",
+   "org_type": "tutkimuslaitos"
+  },
+  {
+   "id": "boerenbond-projecten-vzw",
+   "kind": "organisaatio",
+   "label": "Boerenbond Projecten vzw",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "constellr-gmbh",
+   "kind": "organisaatio",
+   "label": "constellr GmbH",
+   "country": "DE-NI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "eigen-vermogen-van-het-instituut-voor-la",
+   "kind": "organisaatio",
+   "label": "Eigen Vermogen van het Instituut voor Landbouw- en Visserijonderzoek",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "green-restoration-ireland-co-operative-s",
+   "kind": "organisaatio",
+   "label": "Green Restoration Ireland Co-Operative Society Ltd",
+   "country": "DE-NI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "multitel-asbl",
+   "kind": "organisaatio",
+   "label": "Multitel asbl",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "ontwikkelingsmaatschappij-oost-nederland",
+   "kind": "organisaatio",
+   "label": "Ontwikkelingsmaatschappij Oost-Nederland NV",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "teagasc-agriculture-and-food-development",
+   "kind": "organisaatio",
+   "label": "Teagasc – Agriculture and Food Development Authority",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "tgo-ag",
+   "kind": "organisaatio",
+   "label": "Tgo AG",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "ver-de-terre-production",
+   "kind": "organisaatio",
+   "label": "Ver de Terre Production",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "zuidelijke-land-en-tuinbouw-organisatie",
+   "kind": "organisaatio",
+   "label": "Zuidelijke Land- en Tuinbouw Organisatie",
+   "country": "DE-NI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "carl-von-ossietzky-universitat-oldenburg",
+   "kind": "organisaatio",
+   "label": "Carl von Ossietzky Universität Oldenburg",
+   "country": "DE-NI",
+   "org_type": "yliopisto"
+  },
+  {
+   "id": "europaisches-fachzentrum-moor-und-klima-",
+   "kind": "organisaatio",
+   "label": "Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH",
+   "country": "DE-NI",
+   "org_type": "tutkimuslaitos"
+  },
+  {
+   "id": "akcelerator-drustvenih-promjena-zid",
+   "kind": "organisaatio",
+   "label": "Akcelerator Društvenih Promjena-Zid",
+   "country": "",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "association-des-chambres-d-agriculture-d",
+   "kind": "organisaatio",
+   "label": "Association des Chambres d'Agriculture de l'Arc Atlantique",
+   "country": "",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "van-hall-larenstein-university-of-applie",
+   "kind": "organisaatio",
+   "label": "Van Hall Larenstein University of Applied Sciences",
+   "country": "",
+   "org_type": "amk"
+  },
+  {
+   "id": "broads-authority",
+   "kind": "organisaatio",
+   "label": "Broads Authority",
+   "country": "",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "john-nurmisen-saatio-sr",
+   "kind": "organisaatio",
+   "label": "John Nurmisen Säätiö sr",
+   "country": "FI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "luonnonperintosaatio-sr",
+   "kind": "organisaatio",
+   "label": "Luonnonperintösäätiö sr",
+   "country": "FI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "kaakkois-suomen-ammattikorkeakoulu-oy",
+   "kind": "organisaatio",
+   "label": "Kaakkois-Suomen Ammattikorkeakoulu Oy",
+   "country": "FI",
+   "org_type": "amk"
+  },
+  {
+   "id": "lapin-ammattikorkeakoulu-oy",
+   "kind": "organisaatio",
+   "label": "Lapin ammattikorkeakoulu Oy",
+   "country": "FI",
+   "org_type": "amk"
+  },
+  {
+   "id": "pohjois-savon-luonnonsuojelupiiri-ry",
+   "kind": "organisaatio",
+   "label": "Pohjois-Savon luonnonsuojelupiiri ry",
+   "country": "FI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "upm-kymmene-oyj",
+   "kind": "organisaatio",
+   "label": "UPM-Kymmene Oyj",
+   "country": "FI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "lappeenrannan-lahden-teknillinen-yliopis",
+   "kind": "organisaatio",
+   "label": "Lappeenrannan-Lahden teknillinen yliopisto LUT",
+   "country": "FI",
+   "org_type": "yliopisto"
+  },
+  {
+   "id": "metsahallitus",
+   "kind": "organisaatio",
+   "label": "Metsähallitus",
+   "country": "FI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "linttipower-oy",
+   "kind": "organisaatio",
+   "label": "LinttiPower Oy",
+   "country": "FI",
+   "org_type": "yritys"
+  },
+  {
+   "id": "suomen-riistanhoito-saatio-sr",
+   "kind": "organisaatio",
+   "label": "Suomen Riistanhoito-Säätiö sr",
+   "country": "FI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "luontokollektiivi-ry",
+   "kind": "organisaatio",
+   "label": "Luontokollektiivi ry",
+   "country": "FI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
+   "kind": "organisaatio",
+   "label": "Kokemäenjoen vesistön vesiensuojeluyhdistys ry",
+   "country": "FI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "turun-yliopisto",
+   "kind": "organisaatio",
+   "label": "Turun yliopisto",
+   "country": "FI",
+   "org_type": "yliopisto"
+  },
+  {
+   "id": "jyvaskylan-yliopisto",
+   "kind": "organisaatio",
+   "label": "Jyväskylän yliopisto",
+   "country": "FI",
+   "org_type": "yliopisto"
+  },
+  {
+   "id": "jyvaskylan-ammattikorkeakoulu-oy",
+   "kind": "organisaatio",
+   "label": "Jyväskylän Ammattikorkeakoulu Oy",
+   "country": "FI",
+   "org_type": "amk"
+  },
+  {
+   "id": "maaseudun-sivistysliiton-vaara-karjalan-",
+   "kind": "organisaatio",
+   "label": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry",
+   "country": "FI",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "oulun-kaupunki",
+   "kind": "organisaatio",
+   "label": "Oulun kaupunki",
+   "country": "FI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "mikkelin-kaupunki",
+   "kind": "organisaatio",
+   "label": "Mikkelin kaupunki",
+   "country": "FI",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "tapio-oy",
+   "kind": "organisaatio",
+   "label": "Tapio Oy",
+   "country": "FI",
+   "org_type": "tutkimuslaitos"
+  },
+  {
+   "id": "geologian-tutkimuskeskus",
+   "kind": "organisaatio",
+   "label": "Geologian Tutkimuskeskus",
+   "country": "FI",
+   "org_type": "tutkimuslaitos"
+  },
+  {
+   "id": "rspb-ni",
+   "kind": "organisaatio",
+   "label": "Rspb Ni",
+   "country": "IE",
+   "org_type": "jarjesto"
+  },
+  {
+   "id": "newry-mourne-and-down-district-council",
+   "kind": "organisaatio",
+   "label": "Newry, Mourne and Down District Council",
+   "country": "IE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "ecochip-energy-ltd",
+   "kind": "organisaatio",
+   "label": "Ecochip Energy Ltd",
+   "country": "IE",
+   "org_type": "yritys"
+  },
+  {
+   "id": "kelly-s-nursery-ltd",
+   "kind": "organisaatio",
+   "label": "Kelly's Nursery Ltd",
+   "country": "IE",
+   "org_type": "yritys"
+  },
+  {
+   "id": "derrymore-peat-ltd",
+   "kind": "organisaatio",
+   "label": "Derrymore Peat Ltd",
+   "country": "IE",
+   "org_type": "yritys"
+  },
+  {
+   "id": "strawchip-ltd",
+   "kind": "organisaatio",
+   "label": "Strawchip Ltd",
+   "country": "IE",
+   "org_type": "yritys"
+  },
+  {
+   "id": "valmieras-novada-pasvaldiba",
+   "kind": "organisaatio",
+   "label": "Valmieras novada pašvaldība",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "priesgaisrines-apsaugos-ir-gelbejimo-dep",
+   "kind": "organisaatio",
+   "label": "Priešgaisrinės apsaugos ir gelbėjimo departamentas prie Vidaus reikalų ministerijos",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "valsts-ugunsdzesibas-un-glabsanas-dienes",
+   "kind": "organisaatio",
+   "label": "Valsts ugunsdzēsības un glābšanas dienests",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "akciju-sabiedriba-latvijas-valsts-mezi",
+   "kind": "organisaatio",
+   "label": "Akciju sabiedrība \"Latvijas valsts meži\"",
+   "country": "LV",
+   "org_type": "yritys"
+  },
+  {
+   "id": "lansstyrelsen-i-norrbottens-lan",
+   "kind": "organisaatio",
+   "label": "Länsstyrelsen i Norrbottens län",
+   "country": "SE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "skogsstyrelsen",
+   "kind": "organisaatio",
+   "label": "Skogsstyrelsen",
+   "country": "SE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "swedish-forest-agency",
+   "kind": "organisaatio",
+   "label": "Swedish Forest Agency",
+   "country": "SE",
    "org_type": "viranomainen"
   },
   {
@@ -1210,6 +3312,1491 @@
   {
    "source": "FI-10",
    "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-01",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-04",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-05",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-05",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-06",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-07",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-09",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-09",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-10",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-10",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-11",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-12",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-13",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-14",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-15",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-15",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-16",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-17",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-18",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-18",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-19",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-20",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-20",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-21",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-21",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-22",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-22",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-23",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-24",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-25",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-26",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-26",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-28",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-29",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-30",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-30",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-31",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-32",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-33",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-34",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-35",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-36",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-39",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-42",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-43",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-44",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-45",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-46",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-46",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-47",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-48",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-01",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-01",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-02",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-02",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-03",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-03",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-04",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-EU-05",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-01",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-01",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-01",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-02",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-03",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-04",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-05",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-05",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-06",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-06",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-06",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-07",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-07",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-08",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-08",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-09",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-09",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-10",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-10",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-10",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-11",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-11",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-12",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-12",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-13",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-13",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-14",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-14",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-14",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-14",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-15",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-15",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-16",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-16",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-17",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-17",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-18",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-18",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-18",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-19",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-19",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-19",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-20",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-20",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-20",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-21",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-22",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-23",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-23",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-24",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-24",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-24",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-25",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-26",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-26",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-26",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-27",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-27",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-27",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-27",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-27",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-01",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-02",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-02",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-03",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-04",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-05",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-05",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-06",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-06",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-06",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-06",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-IE-07",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-01",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-01",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-02",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-02",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-02",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-03",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-04",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-04",
+   "target": "T7",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-05",
+   "target": "T1",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-LV-05",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-SE-01",
+   "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-SE-02",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-SE-03",
+   "target": "T4",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -2225,6 +5812,1095 @@
    "note": "partneri"
   },
   {
+   "source": "landkreis-stade",
+   "target": "K-DE-NI-01",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261898",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "bund-fur-umwelt-und-naturschutz",
+   "target": "K-DE-NI-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260718",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "naturschutzstiftung-des-landkreises-cuxh",
+   "target": "K-DE-NI-03",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262153",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-luneburg",
+   "target": "K-DE-NI-04",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261887",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landesamt-f-bergbau-energie-u-geologie",
+   "target": "K-DE-NI-05",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261820",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "naturschutzstiftung-des-landkreises-cuxh",
+   "target": "K-DE-NI-06",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262150",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nlwkn",
+   "target": "K-DE-NI-07",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262198",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-stade",
+   "target": "K-DE-NI-08",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261897",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nlwkn",
+   "target": "K-DE-NI-09",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262186",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landesamt-f-bergbau-energie-u-geologie",
+   "target": "K-DE-NI-10",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261822",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nlwkn",
+   "target": "K-DE-NI-11",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262187",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "naturschutzstiftung-des-landkreises-cuxh",
+   "target": "K-DE-NI-12",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262156",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "naturschutzstiftung-des-landkreises-cuxh",
+   "target": "K-DE-NI-13",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262152",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landesamt-f-bergbau-energie-u-geologie",
+   "target": "K-DE-NI-14",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261821",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "universitat-rostock",
+   "target": "K-DE-NI-15",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263543",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "universitat-greifswald",
+   "target": "K-DE-NI-16",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263539",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "torfwerk-moorkultur-ramsloh-werner-koch-",
+   "target": "K-DE-NI-17",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263502",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "schmedt",
+   "target": "K-DE-NI-18",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262561",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "naturschutzstiftung-des-landkreises-cuxh",
+   "target": "K-DE-NI-19",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262151",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landesamt-f-bergbau-energie-u-geologie",
+   "target": "K-DE-NI-20",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261819",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "naturschutzstiftung-des-landkreises-cuxh",
+   "target": "K-DE-NI-21",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262154",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-cuxhaven",
+   "target": "K-DE-NI-22",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261839",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-emsland",
+   "target": "K-DE-NI-23",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261856",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-osterholz",
+   "target": "K-DE-NI-24",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261894",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-friesland",
+   "target": "K-DE-NI-25",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261858",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "archehof-rolfes",
+   "target": "K-DE-NI-26",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260564",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "bund-fur-umwelt-und-naturschutz",
+   "target": "K-DE-NI-27",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260719",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "naturschutzstiftung-grafschaft-bentheim",
+   "target": "K-DE-NI-28",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262159",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-cuxhaven",
+   "target": "K-DE-NI-29",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7716339",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "universitat-greifswald",
+   "target": "K-DE-NI-30",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263538",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-emsland",
+   "target": "K-DE-NI-31",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261855",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nlwkn",
+   "target": "K-DE-NI-32",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262188",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nlwkn",
+   "target": "K-DE-NI-33",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262197",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-friesland",
+   "target": "K-DE-NI-34",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261857",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nabu-kreisverband-gifhorn-e-v",
+   "target": "K-DE-NI-35",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262114",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nlwkn",
+   "target": "K-DE-NI-36",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262191",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-vechta",
+   "target": "K-DE-NI-37",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261902",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-osterholz",
+   "target": "K-DE-NI-38",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261892",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "arl-w-e-staatliche-moorverwaltung",
+   "target": "K-DE-NI-39",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260567",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nabu-kreisverband-gifhorn-e-v",
+   "target": "K-DE-NI-40",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262112",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "landkreis-verden",
+   "target": "K-DE-NI-41",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261904",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "niedersachsische-landesforsten-aor",
+   "target": "K-DE-NI-42",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262179",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "niedersachsische-landesforsten-aor-forst",
+   "target": "K-DE-NI-43",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262182",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "niedersachsische-landesforsten-a-o-r-for",
+   "target": "K-DE-NI-44",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262178",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "region-hannover",
+   "target": "K-DE-NI-45",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262400",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "3n-kompetenzzentrum-niedersachsen-netzwe",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "boerenbond-projecten-vzw",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "constellr-gmbh",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "eigen-vermogen-van-het-instituut-voor-la",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "green-restoration-ireland-co-operative-s",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "multitel-asbl",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "ontwikkelingsmaatschappij-oost-nederland",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "teagasc-agriculture-and-food-development",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "tgo-ag",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "ver-de-terre-production",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "zuidelijke-land-en-tuinbouw-organisatie",
+   "target": "K-DE-NI-46",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "note": "partneri"
+  },
+  {
+   "source": "carl-von-ossietzky-universitat-oldenburg",
+   "target": "K-DE-NI-47",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260730",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "europaisches-fachzentrum-moor-und-klima-",
+   "target": "K-DE-NI-48",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260949",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "nabu-kreisverband-gifhorn-e-v",
+   "target": "K-DE-NI-49",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262113",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "akcelerator-drustvenih-promjena-zid",
+   "target": "K-EU-01",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7739085",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "association-des-chambres-d-agriculture-d",
+   "target": "K-EU-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735237",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "van-hall-larenstein-university-of-applie",
+   "target": "K-EU-03",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4302509",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "broads-authority",
+   "target": "K-EU-04",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298213",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "uef",
+   "target": "K-EU-05",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7738425",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "john-nurmisen-saatio-sr",
+   "target": "K-FI-01",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441449",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luonnonperintosaatio-sr",
+   "target": "K-FI-01",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441450",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "syke",
+   "target": "K-FI-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3749915",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "kaakkois-suomen-ammattikorkeakoulu-oy",
+   "target": "K-FI-03",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441340",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "lapin-ammattikorkeakoulu-oy",
+   "target": "K-FI-04",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3754768",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "metsakeskus",
+   "target": "K-FI-05",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3755406",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "syke",
+   "target": "K-FI-06",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440725",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luke",
+   "target": "K-FI-06",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440726",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "oy",
+   "target": "K-FI-06",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440727",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "pohjois-savon-luonnonsuojelupiiri-ry",
+   "target": "K-FI-07",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441349",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "upm-kymmene-oyj",
+   "target": "K-FI-08",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441313",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "keha",
+   "target": "K-FI-09",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440068",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "lappeenrannan-lahden-teknillinen-yliopis",
+   "target": "K-FI-10",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440098",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "hy",
+   "target": "K-FI-10",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440099",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "metsahallitus",
+   "target": "K-FI-11",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440774",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "keha",
+   "target": "K-FI-12",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441245",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "linttipower-oy",
+   "target": "K-FI-13",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441443",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "suomen-riistanhoito-saatio-sr",
+   "target": "K-FI-14",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440941",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luontokollektiivi-ry",
+   "target": "K-FI-15",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440995",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
+   "target": "K-FI-16",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441403",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "turun-yliopisto",
+   "target": "K-FI-17",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440044",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "syke",
+   "target": "K-FI-17",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440045",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "hy",
+   "target": "K-FI-18",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441173",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "john-nurmisen-saatio-sr",
+   "target": "K-FI-19",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440759",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luonnonperintosaatio-sr",
+   "target": "K-FI-19",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440758",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "kaakkois-suomen-ammattikorkeakoulu-oy",
+   "target": "K-FI-20",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441315",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "jyvaskylan-yliopisto",
+   "target": "K-FI-21",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440084",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "jyvaskylan-ammattikorkeakoulu-oy",
+   "target": "K-FI-21",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440083",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "uef",
+   "target": "K-FI-22",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440593",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "maaseudun-sivistysliiton-vaara-karjalan-",
+   "target": "K-FI-22",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440595",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "syke",
+   "target": "K-FI-22",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440594",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "oulun-kaupunki",
+   "target": "K-FI-23",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440269",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "mikkelin-kaupunki",
+   "target": "K-FI-24",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440782",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "tapio-oy",
+   "target": "K-FI-25",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3754206",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "suomen-riistanhoito-saatio-sr",
+   "target": "K-FI-26",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441283",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "uef",
+   "target": "K-FI-27",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440188",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "geologian-tutkimuskeskus",
+   "target": "K-FI-27",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440186",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luke",
+   "target": "K-FI-27",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440187",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "seamk",
+   "target": "K-FI-27",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440189",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "rspb-ni",
+   "target": "K-IE-01",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298133",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "newry-mourne-and-down-district-council",
+   "target": "K-IE-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298217",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "ecochip-energy-ltd",
+   "target": "K-IE-03",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361336",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "kelly-s-nursery-ltd",
+   "target": "K-IE-04",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361334",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "gri",
+   "target": "K-IE-05",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361332",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "derrymore-peat-ltd",
+   "target": "K-IE-06",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361330",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "strawchip-ltd",
+   "target": "K-IE-07",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361338",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "silava",
+   "target": "K-LV-01",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3056351",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "silava",
+   "target": "K-LV-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3056457",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "valmieras-novada-pasvaldiba",
+   "target": "K-LV-03",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7432419",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "priesgaisrines-apsaugos-ir-gelbejimo-dep",
+   "target": "K-LV-04",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7737164",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "valsts-ugunsdzesibas-un-glabsanas-dienes",
+   "target": "K-LV-04",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7737164",
+   "note": "partneri"
+  },
+  {
+   "source": "akciju-sabiedriba-latvijas-valsts-mezi",
+   "target": "K-LV-05",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7432676",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "lansstyrelsen-i-norrbottens-lan",
+   "target": "K-SE-01",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7362157",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "skogsstyrelsen",
+   "target": "K-SE-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4299112",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "swedish-forest-agency",
+   "target": "K-SE-03",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4299111",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "keha",
+   "target": "FI-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440094",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "rmk",
+   "target": "EE-02",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3079298",
+   "note": "edunsaaja"
+  },
+  {
    "source": "P-FI-JTF",
    "target": "FI-01",
    "kind": "rahoittaa",
@@ -2406,33 +7082,6 @@
   },
   {
    "source": "FI-01",
-   "target": "LV-01",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.43,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T7,T8"
-  },
-  {
-   "source": "FI-01",
-   "target": "LV-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T8"
-  },
-  {
-   "source": "FI-01",
-   "target": "X-IE-NAT",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T8"
-  },
-  {
-   "source": "FI-01",
    "target": "X-DE-SH",
    "kind": "teemapaallekkaisyys",
    "weight": 0.6,
@@ -2441,132 +7090,6 @@
    "note": "T2,T7,T8"
   },
   {
-   "source": "FI-02",
-   "target": "FI-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-02",
-   "target": "EE-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-02",
-   "target": "LV-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-02",
-   "target": "LV-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-02",
-   "target": "X-IE-NAT",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-03",
-   "target": "EE-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-03",
-   "target": "LV-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-03",
-   "target": "LV-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "FI-03",
-   "target": "X-IE-NAT",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "EE-02",
-   "target": "LV-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "EE-02",
-   "target": "LV-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "EE-02",
-   "target": "X-IE-NAT",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1"
-  },
-  {
-   "source": "LV-01",
-   "target": "LV-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T8"
-  },
-  {
-   "source": "LV-01",
-   "target": "LV-03",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T1,T3"
-  },
-  {
    "source": "LV-01",
    "target": "FI-06",
    "kind": "teemapaallekkaisyys",
@@ -2586,21 +7109,21 @@
   },
   {
    "source": "LV-01",
-   "target": "X-FI-PEATRESC",
+   "target": "K-FI-27",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T6,T7"
+   "note": "T1,T3,T6,T8"
   },
   {
    "source": "LV-01",
-   "target": "X-IE-NAT",
+   "target": "K-LV-02",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
+   "weight": 0.6,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T8"
+   "note": "T1,T6,T8"
   },
   {
    "source": "LV-02",
@@ -2614,6 +7137,24 @@
   {
    "source": "LV-02",
    "target": "FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T8"
+  },
+  {
+   "source": "LV-02",
+   "target": "K-FI-17",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T8"
+  },
+  {
+   "source": "LV-02",
+   "target": "K-LV-02",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -2631,30 +7172,12 @@
   },
   {
    "source": "LV-03",
-   "target": "NI-02",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T3"
-  },
-  {
-   "source": "LV-03",
    "target": "FI-06",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T3"
-  },
-  {
-   "source": "LV-03",
-   "target": "FI-08",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T3"
   },
   {
    "source": "LV-03",
@@ -2666,13 +7189,58 @@
    "note": "T1,T3"
   },
   {
-   "source": "LV-03",
-   "target": "FI-10",
+   "source": "IE-01",
+   "target": "K-DE-NI-05",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
-   "note": "T3"
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "K-DE-NI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "K-DE-NI-46",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "K-EU-03",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "K-FI-18",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "K-FI-24",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
   },
   {
    "source": "IE-02",
@@ -2685,54 +7253,189 @@
   },
   {
    "source": "IE-02",
-   "target": "NI-03",
+   "target": "K-DE-NI-18",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
-   "note": "T5"
+   "note": "T2,T5"
+  },
+  {
+   "source": "IE-02",
+   "target": "K-DE-NI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
   },
   {
    "source": "NI-01",
-   "target": "X-FI-PEATRESC",
+   "target": "K-DE-NI-18",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-DE-NI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-DE-NI-40",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T5"
   },
   {
    "source": "NI-01",
-   "target": "X-IE-LIFE",
+   "target": "K-DE-NI-41",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T5"
   },
   {
-   "source": "NI-02",
-   "target": "FI-08",
+   "source": "NI-01",
+   "target": "K-DE-NI-49",
    "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T3"
+   "note": "T1,T5"
   },
   {
-   "source": "NI-02",
-   "target": "FI-10",
+   "source": "NI-01",
+   "target": "K-FI-08",
    "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T3"
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-14",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T2,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-IE-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T2,T5"
+  },
+  {
+   "source": "NI-01",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
   },
   {
    "source": "FI-06",
    "target": "FI-09",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3,T8"
+  },
+  {
+   "source": "FI-06",
+   "target": "K-FI-17",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T8"
+  },
+  {
+   "source": "FI-06",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T3,T8"
@@ -2748,21 +7451,30 @@
   },
   {
    "source": "FI-07",
-   "target": "X-FI-PEATRESC",
+   "target": "K-FI-05",
    "kind": "teemapaallekkaisyys",
-   "weight": 0.4,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T1,T6"
+   "note": "T4,T6"
   },
   {
-   "source": "FI-08",
-   "target": "FI-10",
+   "source": "FI-09",
+   "target": "K-FI-17",
    "kind": "teemapaallekkaisyys",
-   "weight": 1.0,
+   "weight": 0.67,
    "evidence": "laskettu",
    "url": "",
-   "note": "T3"
+   "note": "T1,T8"
+  },
+  {
+   "source": "FI-09",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T3,T8"
   },
   {
    "source": "FI-09",
@@ -2772,6 +7484,2508 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T8"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-DE-NI-03",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-DE-NI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-DE-NI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-DE-NI-37",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-EU-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-02",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-DE-NI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-DE-NI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-DE-NI-37",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-EU-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-03",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-05",
+   "target": "K-DE-NI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-05",
+   "target": "K-DE-NI-46",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-05",
+   "target": "K-EU-03",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-05",
+   "target": "K-FI-18",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-05",
+   "target": "K-FI-24",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "K-DE-NI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "K-DE-NI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "K-DE-NI-37",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "K-EU-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-08",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6,T8"
+  },
+  {
+   "source": "K-DE-NI-10",
+   "target": "K-LV-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-15",
+   "target": "K-DE-NI-22",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T3,T6"
+  },
+  {
+   "source": "K-DE-NI-18",
+   "target": "K-DE-NI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T5"
+  },
+  {
+   "source": "K-DE-NI-20",
+   "target": "K-DE-NI-46",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-20",
+   "target": "K-EU-03",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-20",
+   "target": "K-FI-18",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-20",
+   "target": "K-FI-24",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-21",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T7"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-DE-NI-37",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-EU-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-27",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "K-EU-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-37",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-DE-NI-40",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-DE-NI-41",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-DE-NI-49",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-07",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T4,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-14",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T4,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-LV-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T4,T5"
+  },
+  {
+   "source": "K-DE-NI-38",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-DE-NI-41",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-DE-NI-49",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-40",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-DE-NI-49",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-41",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-46",
+   "target": "K-EU-03",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-46",
+   "target": "K-FI-18",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-46",
+   "target": "K-FI-24",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-DE-NI-49",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-EU-01",
+   "target": "K-IE-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-EU-01",
+   "target": "K-LV-04",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-EU-01",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-EU-01",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-EU-02",
+   "target": "K-FI-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-EU-02",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-EU-02",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-EU-02",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-EU-02",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-EU-02",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-EU-02",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T6"
+  },
+  {
+   "source": "K-EU-03",
+   "target": "K-FI-18",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-03",
+   "target": "K-FI-24",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-01",
+   "target": "X-FI-PEATRESC",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-08",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-06",
+   "target": "X-FI-PEATRESC",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-07",
+   "target": "K-LV-01",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T4,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-09",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-08",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-10",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-09",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-11",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-10",
+   "target": "X-FI-PEATRESC",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-12",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-11",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-FI-13",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-12",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "K-FI-15",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-13",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-14",
+   "target": "K-IE-06",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T2,T5"
+  },
+  {
+   "source": "K-FI-15",
+   "target": "K-FI-16",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-15",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-15",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-15",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-15",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-15",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-15",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-16",
+   "target": "K-FI-19",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-16",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-16",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-16",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-16",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-16",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-17",
+   "target": "K-LV-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T8"
+  },
+  {
+   "source": "K-FI-17",
+   "target": "X-IE-NAT",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T8"
+  },
+  {
+   "source": "K-FI-18",
+   "target": "K-FI-24",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T2,T6"
+  },
+  {
+   "source": "K-FI-19",
+   "target": "K-FI-20",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-19",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-19",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-19",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-19",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-19",
+   "target": "X-FI-PEATRESC",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-20",
+   "target": "K-FI-23",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-20",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-20",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-20",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-20",
+   "target": "X-FI-PEATRESC",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-23",
+   "target": "K-FI-26",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-23",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-23",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-26",
+   "target": "K-FI-27",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-26",
+   "target": "K-LV-05",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
+  },
+  {
+   "source": "K-FI-26",
+   "target": "X-FI-PEATRESC",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.75,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-27",
+   "target": "K-LV-02",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.6,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T6,T8"
+  },
+  {
+   "source": "K-IE-02",
+   "target": "K-LV-04",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-IE-02",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-IE-02",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-LV-02",
+   "target": "X-IE-NAT",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T8"
+  },
+  {
+   "source": "K-LV-04",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-LV-04",
+   "target": "X-IE-GAL",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T5,T7"
+  },
+  {
+   "source": "K-LV-05",
+   "target": "X-IE-LIFE",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T1,T5"
   },
   {
    "source": "X-FI-PEATRESC",
@@ -2790,15 +10004,6 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T5,T6,T7"
-  },
-  {
-   "source": "X-IE-LIFE",
-   "target": "X-IE-GAL",
-   "kind": "teemapaallekkaisyys",
-   "weight": 0.5,
-   "evidence": "laskettu",
-   "url": "",
-   "note": "T5,T7"
   }
  ]
 }

@@ -1,41 +1,117 @@
 id,nimi,maa,tyyppi,hankkeita,keskuksia,keskukset,tavoittaa_maita,valityskeskeisyys,komponentti
-galway,University of Galway,IE,yliopisto,3,2,H-IE-GAL H-IE-LIFE,1,0.019,3
-hy,Helsingin yliopisto,FI,yliopisto,3,2,H-FI H-FI-AKA,1,0.01,1
-seamk,Seinäjoen ammattikorkeakoulu (SeAMK),FI,amk,4,1,H-FI,1,0.0064,1
-silava,LSFRI Silava,LV,tutkimuslaitos,2,1,H-LV,2,0.0054,2
-bnm,Bord na Móna,IE,yritys,2,1,H-IE-LIFE,1,0.0054,3
-nmu,Niedersächsisches Umweltministerium,DE-NI,viranomainen,2,0,,1,0.0027,4
-il,Ilmatieteen laitos,FI,tutkimuslaitos,2,2,H-FI H-FI-AKA,1,0.0024,1
-nlwkn,NLWKN,DE-NI,viranomainen,2,0,,1,0.0018,4
-uef,Itä-Suomen yliopisto,FI,yliopisto,1,1,H-FI-AKA,1,0.0,1
-aalto,Aalto-yliopisto,FI,yliopisto,1,1,H-FI-AKA,1,0.0,1
-oy,Oulun yliopisto,FI,yliopisto,1,1,H-FI,1,0.0,1
-luke,Luonnonvarakeskus (Luke),FI,tutkimuslaitos,1,1,H-LV,2,0.0,2
-metsakeskus,Suomen metsäkeskus,FI,viranomainen,1,1,H-FI,1,0.0,1
+luke,Luonnonvarakeskus (Luke),FI,tutkimuslaitos,3,1,H-LV,3,0.017,1
+seamk,Seinäjoen ammattikorkeakoulu (SeAMK),FI,amk,5,1,H-FI,2,0.0091,1
+uef,Itä-Suomen yliopisto,FI,yliopisto,4,1,H-FI-AKA,2,0.0085,1
+hy,Helsingin yliopisto,FI,yliopisto,5,2,H-FI H-FI-AKA,2,0.0059,1
+syke,Suomen ympäristökeskus (Syke),FI,tutkimuslaitos,4,0,,2,0.0054,1
+silava,LSFRI Silava,LV,tutkimuslaitos,4,1,H-LV,2,0.0046,1
+oy,Oulun yliopisto,FI,yliopisto,2,1,H-FI,1,0.0029,1
+galway,University of Galway,IE,yliopisto,3,2,H-IE-GAL H-IE-LIFE,1,0.0018,2
+nlwkn,NLWKN,DE-NI,viranomainen,8,0,,1,0.0017,3
+metsakeskus,Suomen metsäkeskus,FI,viranomainen,2,1,H-FI,1,0.0016,1
+nmu,Niedersächsisches Umweltministerium,DE-NI,viranomainen,2,0,,1,0.0006,3
+naturschutzstiftung-des-landkreises-cuxh,Naturschutzstiftung des Landkreises Cuxhaven,DE-NI,jarjesto,6,0,,1,0.0005,5
+gri,Green Restoration Ireland,IE,jarjesto,2,0,,1,0.0005,2
+bnm,Bord na Móna,IE,yritys,2,1,H-IE-LIFE,1,0.0005,2
+landesamt-f-bergbau-energie-u-geologie,"Landesamt f. Bergbau, Energie u Geologie",DE-NI,viranomainen,4,0,,1,0.0002,8
+keha,ELY-keskusten kehittämis- ja hallintokeskus (KEHA),FI,viranomainen,3,0,,1,0.0002,6
+il,Ilmatieteen laitos,FI,tutkimuslaitos,2,2,H-FI H-FI-AKA,2,0.0002,1
+nabu-kreisverband-gifhorn-e-v,NABU Kreisverband Gifhorn e.V.,DE-NI,jarjesto,3,0,,1,0.0001,9
+landkreis-stade,Landkreis Stade,DE-NI,viranomainen,2,0,,1,0.0,12
+bund-fur-umwelt-und-naturschutz,Bund für Umwelt und Naturschutz,DE-NI,jarjesto,2,0,,1,0.0,13
+universitat-greifswald,Universität Greifswald,DE-NI,yliopisto,2,0,,1,0.0,14
+landkreis-cuxhaven,Landkreis Cuxhaven,DE-NI,viranomainen,2,0,,1,0.0,15
+landkreis-emsland,Landkreis Emsland,DE-NI,viranomainen,2,0,,1,0.0,16
+landkreis-osterholz,Landkreis Osterholz,DE-NI,viranomainen,2,0,,1,0.0,17
+landkreis-friesland,Landkreis Friesland,DE-NI,viranomainen,2,0,,1,0.0,18
+john-nurmisen-saatio-sr,John Nurmisen Säätiö sr,FI,jarjesto,2,0,,1,0.0,10
+luonnonperintosaatio-sr,Luonnonperintösäätiö sr,FI,jarjesto,2,0,,1,0.0,10
+kaakkois-suomen-ammattikorkeakoulu-oy,Kaakkois-Suomen Ammattikorkeakoulu Oy,FI,amk,2,0,,1,0.0,19
+suomen-riistanhoito-saatio-sr,Suomen Riistanhoito-Säätiö sr,FI,jarjesto,2,0,,1,0.0,20
+aalto,Aalto-yliopisto,FI,yliopisto,1,1,H-FI-AKA,2,0.0,1
 chydenius,Kokkolan yliopistokeskus Chydenius,FI,yliopisto,1,1,H-FI,1,0.0,1
-ep-ely,Etelä-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,7
-pp-ely,Pohjois-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,8
+ep-ely,Etelä-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,6
+pp-ely,Pohjois-Pohjanmaan ELY-keskus,FI,viranomainen,1,0,,1,0.0,23
 ks-ely,Keski-Suomen ELY-keskus,FI,viranomainen,1,1,H-FI,1,0.0,1
-kinno,Kouvola Innovation Oy (Kinno),FI,yritys,1,1,H-LV,2,0.0,2
-sykli,SYKLI Environmental School of Finland,FI,jarjesto,1,1,H-LV,2,0.0,2
-hiiliporssi,Hiilipörssi Oy,FI,yritys,1,1,H-FI-AKA,1,0.0,1
-lu,Latvian yliopisto,LV,yliopisto,1,1,H-LV,2,0.0,2
-rtu,Riga Technical University,LV,yliopisto,1,1,H-LV,2,0.0,2
-lbtu,Latvia University of Life Sciences and Technologies,LV,yliopisto,1,1,H-LV,2,0.0,2
-ies,Institute for Environmental Solutions,LV,tutkimuslaitos,1,1,H-LV,2,0.0,2
-lathort,Institute of Horticulture (LatHort),LV,tutkimuslaitos,1,1,H-LV,2,0.0,2
-arei,Institute of Agricultural Resources and Economics,LV,tutkimuslaitos,1,1,H-LV,2,0.0,2
-cfla,Central Finance and Contracting Agency,LV,viranomainen,1,0,,1,0.0,6
-lv-regions,Latvian suunnittelualueet,LV,viranomainen,1,0,,1,0.0,6
-gri,Green Restoration Ireland,IE,jarjesto,1,0,,1,0.0,3
-nbas,Nature Based Agri Solutions (FarmPEAT),IE,yritys,1,0,,1,0.0,5
-wsi,Wetland Surveys Ireland,IE,yritys,1,0,,1,0.0,5
-irl,Irish Rural Link,IE,jarjesto,1,0,,1,0.0,5
-umeras,Umeras Community Development Group,IE,jarjesto,1,0,,1,0.0,5
-teagasc,Teagasc,IE,tutkimuslaitos,1,0,,1,0.0,3
-tcd,Trinity College Dublin,IE,yliopisto,1,1,H-IE-GAL,1,0.0,3
-epa-ie,Environmental Protection Agency (IE),IE,viranomainen,1,1,H-IE-LIFE,1,0.0,3
-dhlgh,"Department of Housing, Local Government and Heritage",IE,viranomainen,1,1,H-IE-LIFE,1,0.0,3
-intrigo,Intrigo Ltd,IE,yritys,1,1,H-IE-LIFE,1,0.0,3
-emra,Eastern and Midland Regional Assembly,IE,viranomainen,1,2,H-FI H-IE-JTF,1,0.0,9
-ml-ni,Niedersächsisches Landwirtschaftsministerium,DE-NI,viranomainen,1,0,,1,0.0,4
+kinno,Kouvola Innovation Oy (Kinno),FI,yritys,1,1,H-LV,2,0.0,1
+sykli,SYKLI Environmental School of Finland,FI,jarjesto,1,1,H-LV,2,0.0,1
+hiiliporssi,Hiilipörssi Oy,FI,yritys,1,1,H-FI-AKA,2,0.0,1
+lu,Latvian yliopisto,LV,yliopisto,1,1,H-LV,2,0.0,1
+rtu,Riga Technical University,LV,yliopisto,1,1,H-LV,2,0.0,1
+lbtu,Latvia University of Life Sciences and Technologies,LV,yliopisto,1,1,H-LV,2,0.0,1
+ies,Institute for Environmental Solutions,LV,tutkimuslaitos,1,1,H-LV,2,0.0,1
+lathort,Institute of Horticulture (LatHort),LV,tutkimuslaitos,1,1,H-LV,2,0.0,1
+arei,Institute of Agricultural Resources and Economics,LV,tutkimuslaitos,1,1,H-LV,2,0.0,1
+cfla,Central Finance and Contracting Agency,LV,viranomainen,1,0,,1,0.0,11
+lv-regions,Latvian suunnittelualueet,LV,viranomainen,1,0,,1,0.0,11
+nbas,Nature Based Agri Solutions (FarmPEAT),IE,yritys,1,0,,1,0.0,7
+wsi,Wetland Surveys Ireland,IE,yritys,1,0,,1,0.0,7
+irl,Irish Rural Link,IE,jarjesto,1,0,,1,0.0,7
+umeras,Umeras Community Development Group,IE,jarjesto,1,0,,1,0.0,7
+teagasc,Teagasc,IE,tutkimuslaitos,1,0,,1,0.0,2
+tcd,Trinity College Dublin,IE,yliopisto,1,1,H-IE-GAL,1,0.0,2
+epa-ie,Environmental Protection Agency (IE),IE,viranomainen,1,1,H-IE-LIFE,1,0.0,2
+dhlgh,"Department of Housing, Local Government and Heritage",IE,viranomainen,1,1,H-IE-LIFE,1,0.0,2
+intrigo,Intrigo Ltd,IE,yritys,1,1,H-IE-LIFE,1,0.0,2
+emra,Eastern and Midland Regional Assembly,IE,viranomainen,1,2,H-FI H-IE-JTF,1,0.0,65
+ml-ni,Niedersächsisches Landwirtschaftsministerium,DE-NI,viranomainen,1,0,,1,0.0,3
+rmk,Riigimetsa Majandamise Keskus (RMK),EE,viranomainen,1,0,,1,0.0,24
+landkreis-luneburg,Landkreis Lüneburg,DE-NI,viranomainen,1,0,,1,0.0,25
+universitat-rostock,Universität Rostock,DE-NI,yliopisto,1,0,,1,0.0,26
+torfwerk-moorkultur-ramsloh-werner-koch-,Torfwerk Moorkultur Ramsloh Werner Koch GmbH & Co. KG,DE-NI,yritys,1,0,,1,0.0,27
+schmedt,Schmedt,DE-NI,yritys,1,0,,1,0.0,28
+archehof-rolfes,Archehof Rolfes,DE-NI,yritys,1,0,,1,0.0,29
+naturschutzstiftung-grafschaft-bentheim,Naturschutzstiftung Grafschaft Bentheim,DE-NI,jarjesto,1,0,,1,0.0,30
+landkreis-vechta,Landkreis Vechta,DE-NI,viranomainen,1,0,,1,0.0,31
+arl-w-e-staatliche-moorverwaltung,"ArL W-E, Staatliche Moorverwaltung",DE-NI,viranomainen,1,0,,1,0.0,32
+landkreis-verden,Landkreis Verden,DE-NI,viranomainen,1,0,,1,0.0,33
+niedersachsische-landesforsten-aor,Niedersächsische Landesforsten AöR,DE-NI,viranomainen,1,0,,1,0.0,34
+niedersachsische-landesforsten-aor-forst,Niedersächsische Landesforsten AöR Forstamt Neuhaus,DE-NI,viranomainen,1,0,,1,0.0,35
+niedersachsische-landesforsten-a-o-r-for,Niedersächsische Landesforsten A.ö.R. Forstamt Dassel,DE-NI,viranomainen,1,0,,1,0.0,36
+region-hannover,Region Hannover,DE-NI,viranomainen,1,0,,1,0.0,37
+3n-kompetenzzentrum-niedersachsen-netzwe,3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.,DE-NI,tutkimuslaitos,1,0,,1,0.0,4
+boerenbond-projecten-vzw,Boerenbond Projecten vzw,DE-NI,viranomainen,1,0,,1,0.0,4
+constellr-gmbh,constellr GmbH,DE-NI,yritys,1,0,,1,0.0,4
+eigen-vermogen-van-het-instituut-voor-la,Eigen Vermogen van het Instituut voor Landbouw- en Visserijonderzoek,DE-NI,viranomainen,1,0,,1,0.0,4
+green-restoration-ireland-co-operative-s,Green Restoration Ireland Co-Operative Society Ltd,DE-NI,yritys,1,0,,1,0.0,4
+multitel-asbl,Multitel asbl,DE-NI,viranomainen,1,0,,1,0.0,4
+ontwikkelingsmaatschappij-oost-nederland,Ontwikkelingsmaatschappij Oost-Nederland NV,DE-NI,viranomainen,1,0,,1,0.0,4
+teagasc-agriculture-and-food-development,Teagasc – Agriculture and Food Development Authority,DE-NI,viranomainen,1,0,,1,0.0,4
+tgo-ag,Tgo AG,DE-NI,viranomainen,1,0,,1,0.0,4
+ver-de-terre-production,Ver de Terre Production,DE-NI,viranomainen,1,0,,1,0.0,4
+zuidelijke-land-en-tuinbouw-organisatie,Zuidelijke Land- en Tuinbouw Organisatie,DE-NI,viranomainen,1,0,,1,0.0,4
+carl-von-ossietzky-universitat-oldenburg,Carl von Ossietzky Universität Oldenburg,DE-NI,yliopisto,1,0,,1,0.0,38
+europaisches-fachzentrum-moor-und-klima-,Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH,DE-NI,tutkimuslaitos,1,0,,1,0.0,39
+akcelerator-drustvenih-promjena-zid,Akcelerator Društvenih Promjena-Zid,,viranomainen,1,0,,2,0.0,40
+association-des-chambres-d-agriculture-d,Association des Chambres d'Agriculture de l'Arc Atlantique,,jarjesto,1,0,,2,0.0,41
+van-hall-larenstein-university-of-applie,Van Hall Larenstein University of Applied Sciences,,amk,1,0,,2,0.0,42
+broads-authority,Broads Authority,,viranomainen,1,0,,2,0.0,43
+lapin-ammattikorkeakoulu-oy,Lapin ammattikorkeakoulu Oy,FI,amk,1,0,,1,0.0,44
+pohjois-savon-luonnonsuojelupiiri-ry,Pohjois-Savon luonnonsuojelupiiri ry,FI,jarjesto,1,0,,1,0.0,45
+upm-kymmene-oyj,UPM-Kymmene Oyj,FI,yritys,1,0,,1,0.0,46
+lappeenrannan-lahden-teknillinen-yliopis,Lappeenrannan-Lahden teknillinen yliopisto LUT,FI,yliopisto,1,0,,1,0.0,1
+metsahallitus,Metsähallitus,FI,viranomainen,1,0,,1,0.0,47
+linttipower-oy,LinttiPower Oy,FI,yritys,1,0,,1,0.0,48
+luontokollektiivi-ry,Luontokollektiivi ry,FI,jarjesto,1,0,,1,0.0,49
+kokemaenjoen-vesiston-vesiensuojeluyhdis,Kokemäenjoen vesistön vesiensuojeluyhdistys ry,FI,jarjesto,1,0,,1,0.0,50
+turun-yliopisto,Turun yliopisto,FI,yliopisto,1,0,,1,0.0,1
+jyvaskylan-yliopisto,Jyväskylän yliopisto,FI,yliopisto,1,0,,1,0.0,21
+jyvaskylan-ammattikorkeakoulu-oy,Jyväskylän Ammattikorkeakoulu Oy,FI,amk,1,0,,1,0.0,21
+maaseudun-sivistysliiton-vaara-karjalan-,Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry,FI,jarjesto,1,0,,2,0.0,1
+oulun-kaupunki,Oulun kaupunki,FI,viranomainen,1,0,,1,0.0,51
+mikkelin-kaupunki,Mikkelin kaupunki,FI,viranomainen,1,0,,1,0.0,52
+tapio-oy,Tapio Oy,FI,tutkimuslaitos,1,0,,1,0.0,53
+geologian-tutkimuskeskus,Geologian Tutkimuskeskus,FI,tutkimuslaitos,1,0,,2,0.0,1
+rspb-ni,Rspb Ni,IE,jarjesto,1,0,,1,0.0,54
+newry-mourne-and-down-district-council,"Newry, Mourne and Down District Council",IE,viranomainen,1,0,,1,0.0,55
+ecochip-energy-ltd,Ecochip Energy Ltd,IE,yritys,1,0,,1,0.0,56
+kelly-s-nursery-ltd,Kelly's Nursery Ltd,IE,yritys,1,0,,1,0.0,57
+derrymore-peat-ltd,Derrymore Peat Ltd,IE,yritys,1,0,,1,0.0,58
+strawchip-ltd,Strawchip Ltd,IE,yritys,1,0,,1,0.0,59
+valmieras-novada-pasvaldiba,Valmieras novada pašvaldība,LV,viranomainen,1,0,,1,0.0,60
+priesgaisrines-apsaugos-ir-gelbejimo-dep,Priešgaisrinės apsaugos ir gelbėjimo departamentas prie Vidaus reikalų ministerijos,LV,viranomainen,1,0,,1,0.0,22
+valsts-ugunsdzesibas-un-glabsanas-dienes,Valsts ugunsdzēsības un glābšanas dienests,LV,viranomainen,1,0,,1,0.0,22
+akciju-sabiedriba-latvijas-valsts-mezi,"Akciju sabiedrība ""Latvijas valsts meži""",LV,yritys,1,0,,1,0.0,61
+lansstyrelsen-i-norrbottens-lan,Länsstyrelsen i Norrbottens län,SE,viranomainen,1,0,,1,0.0,62
+skogsstyrelsen,Skogsstyrelsen,SE,viranomainen,1,0,,1,0.0,63
+swedish-forest-agency,Swedish Forest Agency,SE,viranomainen,1,0,,1,0.0,64

@@ -15,7 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 import source as S  # noqa: E402
 
-OVERLAP_THRESHOLD = 0.4
+OVERLAP_THRESHOLD = 0.6   # teematunnisteiden Jaccard
+OVERLAP_MIN_SHARED = 2    # vähintään kaksi yhteistä teemaa (yksi yhteinen teema on liian väljä ~100 hankkeella)
 
 
 def jaccard(a, b):
@@ -45,7 +46,8 @@ def build():
     for p in S.PROJECTS:
         node(p["id"], "hanke", p["name"], country=p["country"], fund=p["fund"], period=p["period"],
              eur_total=p["eur_total"] or "", eur_eu=p["eur_eu"] or "", evidence_level=p["evidence"],
-             start=p["start"] or "", end=p["end"] or "", url=p["url"])
+             start=p["start"] or "", end=p["end"] or "", url=p["url"],
+             auto_themes=bool(p.get("auto_themes")), imported_from=p.get("imported_from", ""))
         for t in p["themes"]:
             edge(p["id"], t, "teema")
     for c in S.CONTEXT:
@@ -88,7 +90,8 @@ def build():
     items = S.PROJECTS + S.CONTEXT
     for p, q in itertools.combinations(items, 2):
         j = jaccard(p["themes"], q["themes"])
-        if j >= OVERLAP_THRESHOLD:
+        shared = set(p["themes"]) & set(q["themes"])
+        if j >= OVERLAP_THRESHOLD and len(shared) >= OVERLAP_MIN_SHARED:
             edge(p["id"], q["id"], "teemapaallekkaisyys", evidence="laskettu", weight=round(j, 2),
                  note=",".join(sorted(set(p["themes"]) & set(q["themes"]))))
 

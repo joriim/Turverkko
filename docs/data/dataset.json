@@ -15,7 +15,8 @@
   "EE": "Viro",
   "LV": "Latvia",
   "IE": "Irlanti",
-  "DE-NI": "Niedersachsen"
+  "DE-NI": "Niedersachsen",
+  "EU": "Ylikansallinen (Interreg)"
  },
  "programmes": [
   {
@@ -180,18 +181,22 @@
    "region": "Etelä-Pohjanmaa",
    "fund": "JTF",
    "period": "2021–27",
-   "name": "PohjaNeva – Myllynevan ennallistaminen (Alavus)",
+   "name": "PohjaNeva – Vauhtia pohjalaismaakuntien JTF-ennallistamisiin",
    "lead": "Etelä-Pohjanmaan ELY",
    "start": 2024,
-   "end": null,
+   "end": 2027,
    "eur_total": 12722,
-   "eur_eu": null,
+   "eur_eu": 407280,
    "themes": [
     "T1"
    ],
-   "outputs": "10 ha kosteikko; ravinnekuorman ja päästöjen vähentäminen",
+   "outputs": "Pohjalaismaakuntien turvetuotantoalueiden ennallistamisen vauhdittaminen; esimerkkinä Myllynevan 10 ha:n kosteikko (Alavus, 12 722 €)",
    "evidence": 2,
-   "url": "https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&lang=fi"
+   "url": "https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&lang=fi",
+   "urls": [
+    "https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&lang=fi",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440094"
+   ]
   },
   {
    "id": "FI-03",
@@ -219,17 +224,21 @@
    "fund": "KF",
    "period": "2014–20",
    "name": "Jääkturvealueiden korjaaminen (mm. Laiuse)",
-   "lead": "(toteuttaja ei lähteessä)",
+   "lead": "Riigimetsa Majandamise Keskus (RMK)",
    "start": 2016,
    "end": 2023,
-   "eur_total": null,
-   "eur_eu": 81000000,
+   "eur_total": 3262985,
+   "eur_eu": 2773537,
    "themes": [
     "T1"
    ],
-   "outputs": "≥2 000 ha; Laiuse tavoitevedenpinnassa",
+   "outputs": "2 000 ha hylättyjä turvetuotantoalueita ennallistettu (Kohesio); Laiuse saavutti tavoitevedenpinnan (ERR 2021). Koko KF-ohjelman jääksoiden korjaamiseen varattiin 81 M€.",
    "evidence": 3,
-   "url": "https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid"
+   "url": "https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid",
+   "urls": [
+    "https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid",
+    "https://kohesio.ec.europa.eu/en/projects/Q3079298"
+   ]
   },
   {
    "id": "LV-01",
@@ -272,7 +281,11 @@
    ],
    "outputs": "≥9 000 ha inventointi; turvepolttolaitosten korvausselvitys",
    "evidence": 2,
-   "url": "https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund"
+   "url": "https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund",
+   "urls": [
+    "https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund",
+    "https://kohesio.ec.europa.eu/en/projects/Q7432533"
+   ]
   },
   {
    "id": "LV-03",
@@ -365,14 +378,18 @@
    "lead": "NLWKN-verbundprojekt",
    "start": null,
    "end": null,
-   "eur_total": null,
+   "eur_total": 1822604,
    "eur_eu": null,
    "themes": [
     "T3"
    ],
    "outputs": "Lähde ei raportoi",
    "evidence": 0,
-   "url": "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html"
+   "url": "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html",
+   "urls": [
+    "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html",
+    "https://kohesio.ec.europa.eu/en/projects/Q7262189"
+   ]
   },
   {
    "id": "NI-03",
@@ -496,6 +513,2583 @@
    "outputs": "Lähde mainitsee vain hankkeen nimen ja aiheen",
    "evidence": 0,
    "url": "https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana"
+  },
+  {
+   "id": "K-DE-NI-01",
+   "country": "DE-NI",
+   "region": "Stade",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Care and development concept Meckelmoor Landkreis Stade",
+   "lead": "Landkreis Stade",
+   "start": 2017,
+   "end": 2019,
+   "eur_total": 18000,
+   "eur_eu": null,
+   "themes": [
+    "T8"
+   ],
+   "auto_themes": true,
+   "outputs": "A care and development plan is to be drawn up for the partially degenerated low and transitional moor.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261898",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261898"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-02",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Climate Tools – Climate Protection and Biodiversity of the Diepholzer Moorniederung",
+   "lead": "Bund für Umwelt und Naturschutz",
+   "start": 2016,
+   "end": 2021,
+   "eur_total": 1853955,
+   "eur_eu": null,
+   "themes": [
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Reduction of greenhouse gases in bogs, restoration of natural function as carbon sink, insertion of sheet piles, monitoring",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260718",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7260718"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-03",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Climate protection and species protection through area protection in the tunschlickers Moor",
+   "lead": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "start": 2021,
+   "end": 2023,
+   "eur_total": 528000,
+   "eur_eu": null,
+   "themes": [
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Area arronding in the tunschlickers Moor and Basmoor for the protection of endangered species and as preparation for rewetting",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262153",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262153"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-04",
+   "country": "DE-NI",
+   "region": "Lüneburg",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Climate protection through the Dahlenburger Moor",
+   "lead": "Landkreis Lüneburg",
+   "start": 2021,
+   "end": 2022,
+   "eur_total": 58625,
+   "eur_eu": null,
+   "themes": [
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Preparation of a hydrogeological report",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261887",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261887"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-05",
+   "country": "DE-NI",
+   "region": "Rotenburg (Wümme) district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "lead": "Landesamt f. Bergbau, Energie u Geologie",
+   "start": 2015,
+   "end": 2021,
+   "eur_total": 1848184,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Model project for the implementation of climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261820",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261820"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-06",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Completion of the area backdrop for the protection of the ahlenmoor",
+   "lead": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "start": 2021,
+   "end": 2023,
+   "eur_total": 517000,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Laying the foundation stone for optimal wetting of the FFH area by purchasing high bog areas in the Ahlenmoor",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262150",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262150"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-07",
+   "country": "DE-NI",
+   "region": "Brunswick",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Demolition Mathildenhof",
+   "lead": "NLWKN Betriebsstelle Süd, GB IV",
+   "start": 2016,
+   "end": 2018,
+   "eur_total": 216482,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Demolition of structural facilities in the Great Moor Nature Reserve to prepare for rewetting",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262198",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262198"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-08",
+   "country": "DE-NI",
+   "region": "Stade",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Development of priorities in moor and climate protection in the district of Stade",
+   "lead": "Landkreis Stade",
+   "start": 2019,
+   "end": 2022,
+   "eur_total": 266917,
+   "eur_eu": null,
+   "themes": [
+    "T5",
+    "T6",
+    "T8"
+   ],
+   "auto_themes": true,
+   "outputs": "Concept development for climate and moor protection priorities to optimise CO2 savings in renaturation projects",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261897",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261897"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-09",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Establishment of a “Paludiculture Competence Centre”",
+   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz",
+   "start": 2017,
+   "end": 2022,
+   "eur_total": 516520,
+   "eur_eu": null,
+   "themes": [
+    "T3",
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "Development of new usage concepts for the climate-friendly management and initiation of practical projects.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262186",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262186"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-10",
+   "country": "DE-NI",
+   "region": "Rotenburg (Wümme) district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Gnarrenburger Moor – Area concept and water management",
+   "lead": "Landesamt f. Bergbau, Energie u Geologie",
+   "start": 2020,
+   "end": 2023,
+   "eur_total": 976679,
+   "eur_eu": null,
+   "themes": [
+    "T6",
+    "T8"
+   ],
+   "auto_themes": true,
+   "outputs": "Development of an area concept with water management to raise the moor water levels used for moorland and climate protection",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261822",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261822"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-11",
+   "country": "DE-NI",
+   "region": "Diepholz",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Implementation and testing of hydrological optimisation measures in high moor",
+   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz",
+   "start": 2020,
+   "end": 2023,
+   "eur_total": 1081485,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Implementation of measures in high bog core areas, testing the weedability of highly disturbed moor sites, planning for optimising the pre-flood",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262187",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262187"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-12",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Land protection in the nature reserve “Bülter See und Randmoore” – North",
+   "lead": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "start": 2021,
+   "end": 2023,
+   "eur_total": 632500,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Purchase of moorland in the northern part of Lake Bülter as a basis for large-scale rewetting",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262156",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262156"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-13",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Land protection in the nature reserve “Bülter See und Randmoore” – South",
+   "lead": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "start": 2021,
+   "end": 2023,
+   "eur_total": 689700,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Purchase of moorland in the southern part of Lake Bülter as a basis for large-scale rewetting",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262152",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262152"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-14",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "MOORIS",
+   "lead": "Landesamt f. Bergbau, Energie u Geologie",
+   "start": 2018,
+   "end": 2023,
+   "eur_total": 1067288,
+   "eur_eu": null,
+   "themes": [
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "Development of a moor information system for the integration of all information available to ministries and state authorities on moors.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261821",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261821"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-15",
+   "country": "DE-NI",
+   "region": "Ammerland",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "MOOSWEIT TV3 – GHG balance of cultivation and harvest",
+   "lead": "Universität Rostock",
+   "start": 2017,
+   "end": 2019,
+   "eur_total": 166445,
+   "eur_eu": null,
+   "themes": [
+    "T3",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Cultivation, harvesting and development of peat moss in the Hankhauser Moor as a permanent crop for supplying the economy with a renewable raw material",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263543",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7263543"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-16",
+   "country": "DE-NI",
+   "region": "Ammerland",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "MOOSWEIT, Subproject 2",
+   "lead": "Universität Greifswald",
+   "start": 2016,
+   "end": 2019,
+   "eur_total": 457323,
+   "eur_eu": null,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "Scientific accompanying studies of the cultivation and harvesting of peat moss in the Hankhauser Moor including possible environmental effects",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263539",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7263539"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-17",
+   "country": "DE-NI",
+   "region": "Cloppenburg",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "MOOSWEIT, Subproject 5",
+   "lead": "Torfwerk Moorkultur Ramsloh Werner Koch GmbH & Co. KG",
+   "start": 2015,
+   "end": 2021,
+   "eur_total": 1162170,
+   "eur_eu": null,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "Technical implementation – cultivation and harvesting of peat moss",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263502",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7263502"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-18",
+   "country": "DE-NI",
+   "region": "Diepholz",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Maintenance of wet grassland in the EU – Bird protection area",
+   "lead": "Schmedt",
+   "start": 2018,
+   "end": 2019,
+   "eur_total": 134391,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Further development of a young farmer with suckler cow husbandry as a landscape management company for low bog sites with winter outdoor husbandry.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262561",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262561"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-19",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Management of moorland areas",
+   "lead": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "start": 2016,
+   "end": 2022,
+   "eur_total": 614286,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Implementation of rewetting measures in 4 bogs in the district of Cuxhaven",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262151",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262151"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-20",
+   "country": "DE-NI",
+   "region": "Rotenburg (Wümme) district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "lead": "Landesamt f. Bergbau, Energie u Geologie",
+   "start": 2018,
+   "end": 2023,
+   "eur_total": 609085,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Plant Demonstration test with underfloor irrigation, verification of practicality and greenhouse gas reduction potential of the measure",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261819",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261819"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-21",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Monitoring of moor water levels",
+   "lead": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "start": 2019,
+   "end": 2023,
+   "eur_total": 752500,
+   "eur_eu": null,
+   "themes": [
+    "T6",
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "Setting up a network of measuring points to plan and control measures to reduce greenhouse gas emissions",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262154",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262154"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-22",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Monitoring of the peat moss field in the Ahlenmoor",
+   "lead": "Landkreis Cuxhaven",
+   "start": 2016,
+   "end": 2021,
+   "eur_total": 58179,
+   "eur_eu": null,
+   "themes": [
+    "T3",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Monitoring with regard to the cultivation and application of peat moss in the Ahlenmoor",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261839",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261839"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-23",
+   "country": "DE-NI",
+   "region": "Emsland",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Moor Information System for the District of Emsland (EL-MIS)",
+   "lead": "Landkreis Emsland",
+   "start": 2017,
+   "end": 2023,
+   "eur_total": 1356034,
+   "eur_eu": null,
+   "themes": [
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "Creation of a Moor Information System as a comprehensive basis for assessing the potential for revitalisation",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261856",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261856"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-24",
+   "country": "DE-NI",
+   "region": "Osterholz",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Moor wetting Ahrensfelder Moor",
+   "lead": "Landkreis Osterholz",
+   "start": 2015,
+   "end": 2016,
+   "eur_total": 27486,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Rewetting of the partially stowed bog",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261894",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261894"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-25",
+   "country": "DE-NI",
+   "region": "Friesland (district)",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Moorhausen moor area, test and demonstration areas",
+   "lead": "Landkreis Friesland",
+   "start": 2018,
+   "end": 2020,
+   "eur_total": 167527,
+   "eur_eu": null,
+   "themes": [
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Follow-up project: Construction of test and demonstration areas for long-term optimisation of water management for GHG reduction",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261858",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261858"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-26",
+   "country": "DE-NI",
+   "region": "Vechta",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Moorland grazing Dümmerniederung, Steinfelder and Südlohner Moor",
+   "lead": "Archehof Rolfes",
+   "start": 2018,
+   "end": 2020,
+   "eur_total": 43790,
+   "eur_eu": null,
+   "themes": [
+    "T2",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Grazing of rewetted low bog grasslands in the Dümmer lowland as well as high bog areas in the Steinfeld and Südlohner Moor.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260564",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7260564"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-27",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Moorland® – Climate donation Lower Saxony",
+   "lead": "Bund für Umwelt und Naturschutz",
+   "start": 2018,
+   "end": 2023,
+   "eur_total": 706289,
+   "eur_eu": null,
+   "themes": [
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Construction and sustainable establishment of the Moorland® Climate Donations Lower Saxony in conjunction with the rewetting of the climate moor “Goldgrube”",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260719",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7260719"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-28",
+   "country": "DE-NI",
+   "region": "County of Bentheim",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Mäh4Moor – Sustainable moor development through sheep farming",
+   "lead": "Naturschutzstiftung Grafschaft Bentheim",
+   "start": 2020,
+   "end": 2022,
+   "eur_total": 1076125,
+   "eur_eu": null,
+   "themes": [
+    "T2"
+   ],
+   "auto_themes": true,
+   "outputs": "Conversion of the former Torfwerk Ehrenborg-Fortmann to a mooring plant for the sustainable care of the NSG Dalum Wietmarscher Moor",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262159",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262159"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-29",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "name": "Network Moor Care and Moor Management Elbe-Weser (Network Moor)",
+   "lead": "Landkreis Cuxhaven",
+   "start": 2024,
+   "end": 2027,
+   "eur_total": 585000,
+   "eur_eu": 351000,
+   "themes": [
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "Development of a cross-regional network for the care and management of bogs in the Elbe-Weser bog region",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7716339",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7716339"
+   ],
+   "programme": "2021-2027 (Niedersachsen - DE - ERDF/ESF+)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-30",
+   "country": "DE-NI",
+   "region": "Ammerland",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "OptiMOOS – Subproject vegetation development and water management",
+   "lead": "Universität Greifswald",
+   "start": 2019,
+   "end": 2022,
+   "eur_total": 1509113,
+   "eur_eu": null,
+   "themes": [
+    "T3",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Optimisation of peat moss cultivation with regard to the cultivation of peat moss. Water Management, Climate Impact, Biodiversity and Product Development for the Establishment of Paludiculture",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7263538",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7263538"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-31",
+   "country": "DE-NI",
+   "region": "Emsland",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Optimisation of the wetting of the nature reserve “Bockholter Dose”",
+   "lead": "Landkreis Emsland",
+   "start": 2019,
+   "end": 2023,
+   "eur_total": 812463,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Expansion and optimisation of the wetting of the moor areas in the NSG “Bockholter Dose”",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261855",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261855"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-32",
+   "country": "DE-NI",
+   "region": "Diepholz",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Optimisation of water balance in high bogs of the Diepholzer Moorniederung",
+   "lead": "NLWKN - Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz",
+   "start": 2016,
+   "end": 2020,
+   "eur_total": 462010,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Planning for optimising climate and nature conservation in Diepholzer, Siedener and Dievenmoor",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262188",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262188"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-33",
+   "country": "DE-NI",
+   "region": "Brunswick",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Optimisation of water balance in selected bogs of the Südheide",
+   "lead": "NLWKN Betriebsstelle Süd, GB IV",
+   "start": 2020,
+   "end": 2023,
+   "eur_total": 3726486,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Rewetting measures in the protected areas of the Great Moor and Upper Lachte, Kainbach, Jafelbach in the LK Gifhorn",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262197",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262197"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-34",
+   "country": "DE-NI",
+   "region": "Friesland (district)",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Optimisation of water management in the moor area of Moorhausen (Varel)",
+   "lead": "Landkreis Friesland",
+   "start": 2020,
+   "end": 2023,
+   "eur_total": 130122,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The potentials identified in the previous project phases for optimising water management will be implemented more extensively and in the long term",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261857",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261857"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-35",
+   "country": "DE-NI",
+   "region": "Gifhorn",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Pilot study of peat moss in the Great Moor near Gifhorn",
+   "lead": "NABU Kreisverband Gifhorn e.V.",
+   "start": 2016,
+   "end": 2021,
+   "eur_total": 395468,
+   "eur_eu": null,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "Practical pilot study to promote the propagation and distribution of peat moss in the Great Moor near Gifhorn",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262114",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262114"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-36",
+   "country": "DE-NI",
+   "region": "Oldenburg",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Planning for the renaturation of the Steinmoor",
+   "lead": "NLWKN Betriebsstelle Brake-Oldenburg",
+   "start": 2021,
+   "end": 2022,
+   "eur_total": 53000,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Preparation of an implementation plan for the use task and restoration of the northern rock moor",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262191",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262191"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-37",
+   "country": "DE-NI",
+   "region": "Vechta",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Preliminary study on the climate protection project Steinfelder Moor",
+   "lead": "Landkreis Vechta",
+   "start": 2016,
+   "end": 2018,
+   "eur_total": 12886,
+   "eur_eu": null,
+   "themes": [
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Wetting measures in the nature reserve, among other things, as a contribution to climate protection; by preliminary study, creation of the basis for concrete action envisaged",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261902",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261902"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-38",
+   "country": "DE-NI",
+   "region": "Osterholz",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Regeneration of a moorland in the Günnemoor",
+   "lead": "Landkreis Osterholz",
+   "start": 2015,
+   "end": 2018,
+   "eur_total": 83297,
+   "eur_eu": null,
+   "themes": [
+    "T1",
+    "T4",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Regeneration of a high bog degenerated by drainage, peat extraction and forestry in the Günnemoor",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261892",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261892"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-39",
+   "country": "DE-NI",
+   "region": "Emsland",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Restoration of land-owned moors",
+   "lead": "ArL W-E, Staatliche Moorverwaltung",
+   "start": 2018,
+   "end": 2022,
+   "eur_total": 845000,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Rewetting work with hydraulic excavator, optimisation planning for suboptimally processed moors and land acquisition for arronding",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260567",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7260567"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-40",
+   "country": "DE-NI",
+   "region": "Gifhorn",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Rewetting Sauerbach",
+   "lead": "NABU Kreisverband Gifhorn e.V.",
+   "start": 2017,
+   "end": 2021,
+   "eur_total": 103403,
+   "eur_eu": null,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Rewetting measure of a former peat extraction area in the “Großer Moor” near Gifhorn on an area of 150 ha south of the Sauerbach",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262112",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262112"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-41",
+   "country": "DE-NI",
+   "region": "Verden",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Wiedervernässung des Weißen Moores",
+   "lead": "Landkreis Verden",
+   "start": 2021,
+   "end": 2023,
+   "eur_total": 165000,
+   "eur_eu": null,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Rewetting of an altered but very deep high bog with several meters of thick peat cover, altered by drainage and peat extraction.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7261904",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7261904"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-42",
+   "country": "DE-NI",
+   "region": "Göttingen",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Rewetting of the hill moor at the forest town of Wurmberg/Böser Hund",
+   "lead": "Niedersächsische Landesforsten AöR",
+   "start": 2019,
+   "end": 2021,
+   "eur_total": 589940,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Rewetting of a hill moor by removing the top-up spruces and closing the drainage trenches",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262179",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262179"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-43",
+   "country": "DE-NI",
+   "region": "Holzminden",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Rewetting of the hill moor in the forest town of Wildenkiel",
+   "lead": "Niedersächsische Landesforsten AöR Forstamt Neuhaus",
+   "start": 2017,
+   "end": 2022,
+   "eur_total": 1263983,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Renaturation of a complex of 72 ha from high moor, spring moor and hill moor areas with organic and mineral wet soils.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262182",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262182"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-44",
+   "country": "DE-NI",
+   "region": "Northeim",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Rewetting of the slope moor Friedrichshäuser Bruch",
+   "lead": "Niedersächsische Landesforsten A.ö.R. Forstamt Dassel",
+   "start": 2019,
+   "end": 2023,
+   "eur_total": 1166300,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Restoration of a 30 ha complex from spring and hill moor areas by removing the increasing spruce and closure of the drainage trenches",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262178",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262178"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-45",
+   "country": "DE-NI",
+   "region": "Cuxhaven district",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Wiedervernässung des Toten Moores",
+   "lead": "Region Hannover",
+   "start": 2017,
+   "end": 2021,
+   "eur_total": 1485714,
+   "eur_eu": null,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The aim of the project is the large-scale rewetting of disturbed areas by raising water, sohlan lifts and the construction of rampages.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262400",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262400"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-46",
+   "country": "DE-NI",
+   "region": "",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "name": "Smart Carbon Farming",
+   "lead": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
+   "start": 2024,
+   "end": 2027,
+   "eur_total": 4610773,
+   "eur_eu": 2766464,
+   "themes": [
+    "T2",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "SCF tests and deploys solutions on 15 pilot farms in 5 NWE countries that obtain accurate results at farm level and cover various regional contexts.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7735330"
+   ],
+   "programme": "2021-2027 (Interreg VI-B - North West Europe)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-47",
+   "country": "DE-NI",
+   "region": "Ammerland",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Succession of the dragonfly fauna of a peat moss culture",
+   "lead": "Carl von Ossietzky Universität Oldenburg",
+   "start": 2016,
+   "end": 2019,
+   "eur_total": 31770,
+   "eur_eu": null,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "In particular, the influence of peat moss harvest on species composition will be investigated.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260730",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7260730"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-48",
+   "country": "DE-NI",
+   "region": "Diepholz",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "WetWeb Organic Soils – Networked Research for Moor and Climate",
+   "lead": "Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH",
+   "start": 2019,
+   "end": 2022,
+   "eur_total": 472512,
+   "eur_eu": null,
+   "themes": [
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "Preparation of measures for the climate-friendly management of organic soils by strengthening research networks",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7260949",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7260949"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-DE-NI-49",
+   "country": "DE-NI",
+   "region": "Gifhorn",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Wetting area at Westerbeck",
+   "lead": "NABU Kreisverband Gifhorn e.V.",
+   "start": 2020,
+   "end": 2022,
+   "eur_total": 130895,
+   "eur_eu": null,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "On former peat extraction areas of the Large Moor natural area, approximately 3 hectares of area with pump-controlled water regimes are to be re-wetted.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7262113",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7262113"
+   ],
+   "programme": "2014-2020 (Niedersachsen - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-EU-01",
+   "country": "EU",
+   "region": "useita maita",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "name": "Ambitious policies for peatland restoration, conservation, and sustainable management in Europe",
+   "lead": "Akcelerator Društvenih Promjena-Zid",
+   "start": 2025,
+   "end": 2029,
+   "eur_total": 1995592,
+   "eur_eu": 1542479,
+   "themes": [
+    "T5",
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "PeatEU aims to develop policy instruments with a focus on peatland sustainable management, conservation and restoration.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7739085",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7739085"
+   ],
+   "programme": "2021-2027 (Interreg VI-C - Interreg Europe)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": "Câmara Municipal de Braga; Regio Zugspitzregion e.V.; Region Midtjylland; Regional Development Agency of Odesa Region; Savivaldybės įmonė “Susisiekimo paslaugos”; Stad Aalst"
+  },
+  {
+   "id": "K-EU-02",
+   "country": "EU",
+   "region": "useita maita",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "name": "BUFFER carbon + water in peatlands: landscape-based solutions for climate adaptation",
+   "lead": "Association des Chambres d'Agriculture de l'Arc Atlantique",
+   "start": 2023,
+   "end": 2028,
+   "eur_total": 9742962,
+   "eur_eu": 5845777,
+   "themes": [
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Wet and healthy peatlands have a strong natural potential to save carbon and, due to their water buffering capacity, play an important role in managing periods of excessive rains or droughts.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735237",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7735237"
+   ],
+   "programme": "2021-2027 (Interreg VI-B - North West Europe)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": "BeeOdiversity; Bioclear earth B.V.; Chambres Régionales d’agriculture de Bretagne; Gemeente Midden-Groningen; Gemeente Westerkwartier; HAEDES BV; Hanzehogeschool Groningen; Hoch Schule Emden Leer; HTCL-Innovationsgesellschaft mbH; La Chambre d’agriculture de Normandie; La Chambre d’agriculture des Pays de la Loire; Natuurpunt Beheer vzw; Patchview Designated Activity Company; Philipps-Universität Marburg; Provincie Groningen; Provincie West-Vlaanderen; South Kerry Development Partnership CLG; Stiftung Ökowerk Emden; Universität Vechta; Vlaamse Landmaatschappij"
+  },
+  {
+   "id": "K-EU-03",
+   "country": "EU",
+   "region": "useita maita",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "name": "Carbon Connects",
+   "lead": "Van Hall Larenstein University of Applied Sciences",
+   "start": 2018,
+   "end": 2023,
+   "eur_total": 5414426,
+   "eur_eu": 3248655,
+   "themes": [
+    "T2",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Agriculture is mostly ignored when countering climate change, even though it causes one third of global C02 emissions (UN-Env). 3% of the world’s land surface is covered by Peatlands, which are large concentrations of organic matter having accumulated over centuries.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4302509",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q4302509"
+   ],
+   "programme": "2014-2020 (Interreg V-B - North West Europe)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-EU-04",
+   "country": "EU",
+   "region": "useita maita",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "name": "Creating A New Approach to Peatland Ecosystems",
+   "lead": "Broads Authority",
+   "start": 2017,
+   "end": 2022,
+   "eur_total": 5545105,
+   "eur_eu": 2772551,
+   "themes": [
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Healthy peatlands help regulate global climate by actively removing CO2 from the atmosphere, but damaged peatlands increase emissions. CANAPE combines North Sea Region (NSR) local authorities, NGOs, academic bodies to address challenges manage sustainable, integrated peat landscapes that are…",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298213",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q4298213"
+   ],
+   "programme": "2014-2020 (Interreg V-B - North Sea)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-EU-05",
+   "country": "EU",
+   "region": "useita maita",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "name": "PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites",
+   "lead": "Itä-Suomen yliopisto",
+   "start": 2025,
+   "end": 2028,
+   "eur_total": 639950,
+   "eur_eu": 415969,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The PRESERVE project aims to address the critical challenges of peatland degradation in the Aurora and sub-Arctic regions, with a focus on Natura 2000 areas in Finnish Lapland and Västerbotten, Sweden.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7738425",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7738425"
+   ],
+   "programme": "2021-2027 (Interreg VI-A - Sweden-Finland-Norway (AURORA))",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": "LUKE Luonnonvarakeskus; Sveriges Lantbruksuniversitet"
+  },
+  {
+   "id": "K-FI-01",
+   "country": "FI",
+   "region": "Pohjois-Pohjanmaa",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
+   "lead": "John Nurmisen Säätiö sr + 1 muuta edunsaajaa",
+   "start": 2025,
+   "end": 2027,
+   "eur_total": 287815,
+   "eur_eu": 201471,
+   "themes": [
+    "T1",
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "The project will design and implement the restoration of a former peat production area (139 ha) in the municipality of Muhos into a mire or wetland. The ultimate goal is to transform former peat production areas into mires and wetlands that support nature, water, and climate protection on a scale…",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441449",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441449",
+    "https://kohesio.ec.europa.eu/en/projects/Q7441450"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-02",
+   "country": "FI",
+   "region": "",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Approaches for anticipating acidity and risk management in peat production areas (Sulfa II)",
+   "lead": "Suomen ympäristökeskus",
+   "start": 2016,
+   "end": 2019,
+   "eur_total": 405000,
+   "eur_eu": 200000,
+   "themes": [
+    "T1"
+   ],
+   "auto_themes": true,
+   "outputs": "Finland’s biggest single environmental problem is the acid sulphate soils along our coasts and partly inland. The sulphur soils mentioned above are oxidised as a result of land use (different drainage), which in turn causes severe acidification of our waters and an increase in hazardous metals in…",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3749915",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q3749915"
+   ],
+   "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-03",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Biokas - Growth from Biochar - Towards the Peat-Free Society",
+   "lead": "Kaakkois-Suomen Ammattikorkeakoulu Oy",
+   "start": 2025,
+   "end": 2027,
+   "eur_total": 289175,
+   "eur_eu": 202423,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "BioKas - Growth from Biochar – Towards the Peat-Free Society project is focused on developing novel peat-free growing media and product prototypes made from organic materials for soil improvement.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441340",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441340"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-04",
+   "country": "FI",
+   "region": "",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "CLT boards to strengthen ground load capacity in logging",
+   "lead": "Lapin ammattikorkeakoulu Oy",
+   "start": 2020,
+   "end": 2023,
+   "eur_total": 482418,
+   "eur_eu": 175944,
+   "themes": [
+    "T4"
+   ],
+   "auto_themes": true,
+   "outputs": "The aim of the project is to study the usefulness of Cross Laminated Timber (CLT) boards for logging in soft lands. Half of Finnish peatlands have been drained, resulting in more than 5 million hectares of drainage areas in Finland.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3754768",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q3754768"
+   ],
+   "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-05",
+   "country": "FI",
+   "region": "",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Carbon-wise peatland forest management",
+   "lead": "Suomen metsäkeskus - Finlands skogscentral",
+   "start": 2020,
+   "end": 2022,
+   "eur_total": 452878,
+   "eur_eu": 110482,
+   "themes": [
+    "T4",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "The main objective of the project is to ensure access to sustainably produced raw materials for forestry and bioenergy companies. The project will modernise and diversify the treatment of peatland forests in such a way that the carbon emissions and water loads of drained peatlands are reduced.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3755406",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q3755406"
+   ],
+   "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-06",
+   "country": "FI",
+   "region": "Pohjois-Pohjanmaa",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
+   "lead": "Suomen ympäristökeskus + 2 muuta edunsaajaa",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 408015,
+   "eur_eu": 285610,
+   "themes": [
+    "T1",
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Due to the classification of peat as a fossil fuel in EU, inclusion of peat energy to emissions trading system and increase in the prices of emission allowances have made the burning of peat for energy unprofitable.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440725",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440725",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440726",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440727"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-07",
+   "country": "FI",
+   "region": "North Savo",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Heinäpuro restoration project",
+   "lead": "Pohjois-Savon luonnonsuojelupiiri ry",
+   "start": 2025,
+   "end": 2027,
+   "eur_total": 41210,
+   "eur_eu": 28847,
+   "themes": [
+    "T4",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The project will restore approximately 18 hectares of drained peatland forest and establish a 4-hectare wetland designed to support biodiversity.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441349",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441349"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-08",
+   "country": "FI",
+   "region": "South Ostrobothnia",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Konttisuo restoration plan",
+   "lead": "UPM-Kymmene Oyj",
+   "start": 2025,
+   "end": 2025,
+   "eur_total": 3200,
+   "eur_eu": 2240,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Size of the restored area is approximately 30 hectares.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441313",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441313"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-09",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
+   "lead": "Elinkeino-, liikenne- ja ympäristökeskusten kehittämis- ja hallintokeskus",
+   "start": 2023,
+   "end": 2027,
+   "eur_total": 648909,
+   "eur_eu": 454236,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The project promotes indicators RCO38 and NO07, i.e., the area targets for rehabilitated and re-used, and for peat production relinquished and restored areas, in Central Finland, Satakunta, and Pirkanmaa (Parkano, Kihniö, Virrat, and Punkalaidun).",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440068",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440068"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-10",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Overall sustainability assessment of after use solutions of cutaway peatlands in South Savo",
+   "lead": "Lappeenrannan-Lahden teknillinen yliopisto LUT + 1 muuta edunsaajaa",
+   "start": 2023,
+   "end": 2025,
+   "eur_total": 155140,
+   "eur_eu": 108598,
+   "themes": [
+    "T1",
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Based on recent emission scenario analyses, it can be estimated that significant emission reductions can be achieved through land use changes aimed at reducing the intensive use of peatlands, such as afforestation, restoration, and wetland cultivation.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440098",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440098",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440099"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-11",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Peat Bogs to Wetlands",
+   "lead": "Metsähallitus",
+   "start": 2024,
+   "end": 2027,
+   "eur_total": 397904,
+   "eur_eu": 278533,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Targets and Actions by Regions: Iso Saarisuo (POP): Restoration of the natural state of a peat bog covering 12 hectares, along with stream restoration covering 0.09 hectares. Matkasuo (POP): Restoration of the natural state of a peat bog covering 90 hectares.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440774",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440774"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-12",
+   "country": "FI",
+   "region": "Kymenlaakso",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Restoration and water protection project of South-Eastern Finland",
+   "lead": "Elinkeino-, liikenne- ja ympäristökeskusten kehittämis- ja hallintokeskus",
+   "start": 2025,
+   "end": 2027,
+   "eur_total": 923512,
+   "eur_eu": 646458,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "In Kymenlaakso, the goal is to sustainably reuse and restore 500 hectares and in South Karelia 250 hectares.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441245",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441245"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-13",
+   "country": "FI",
+   "region": "Central Ostrobothnia",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Restoration of Linttiräme after Peat Production",
+   "lead": "LinttiPower Oy",
+   "start": 2025,
+   "end": 2027,
+   "eur_total": 81821,
+   "eur_eu": 57275,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Restoration of Linttiräme after Peat Production The project aims to restore the former peat production area of Linttiräme into a more natural state by constructing a wetland and rewetting the peatland.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441443",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441443"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-14",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026",
+   "lead": "Suomen Riistanhoito-Säätiö sr",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 324432,
+   "eur_eu": 227102,
+   "themes": [
+    "T1",
+    "T2",
+    "T4",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The restoration will create about 75 hectares of open water area in the former peatland areas.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440941",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440941"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-15",
+   "country": "FI",
+   "region": "North Karelia",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Restoration of the Western Valkeasuo Mire",
+   "lead": "Luontokollektiivi ry",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 72800,
+   "eur_eu": 50960,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The object to be restored is a 70 hectares area of meliorated mire at Läntinen Valkeasuo.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440995",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440995"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-16",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Restoration plan for the bog Pirttineva, previous peat production site",
+   "lead": "Kokemäenjoen vesistön vesiensuojeluyhdistys ry",
+   "start": 2025,
+   "end": 2026,
+   "eur_total": 8977,
+   "eur_eu": 6284,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The Water Protection Association of the River Kokemäenjoki is making technical plans for the restoration of the bog Pirttineva, a site previously used for peat production. Pirttineva is situated in the municipality of Kihniö, ca 6 km from Kihniö centrum and ca.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441403",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441403"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-17",
+   "country": "FI",
+   "region": "Satakunta",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Satakunta peatlands: from peat production to new livelihoods and meanings",
+   "lead": "Turun yliopisto + 1 muuta edunsaajaa",
+   "start": 2023,
+   "end": 2026,
+   "eur_total": 541292,
+   "eur_eu": 378905,
+   "themes": [
+    "T1",
+    "T8"
+   ],
+   "auto_themes": true,
+   "outputs": "The project supports the new multi-use of Satakunta peatlands and just transition by producing, gathering and sharing information to support private and public decision-making and by bringing stakeholders together.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440044",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440044",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440045"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-18",
+   "country": "FI",
+   "region": "Uusimaa",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
+   "lead": "Helsingin Yliopisto",
+   "start": 2025,
+   "end": 2026,
+   "eur_total": 372839,
+   "eur_eu": 260987,
+   "themes": [
+    "T1",
+    "T2",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "The AurinkoSuo project produces research data on the environmental impacts of solar power plants on former cutover peatlands. This information is highly relevant for Central and Western Finland as well as for the entire country in the pursuit of carbon neutrality and in efforts to reduce emissions…",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441173",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441173"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-19",
+   "country": "FI",
+   "region": "Lapland",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Suokeidas - From peat production to diverse wetlands",
+   "lead": "John Nurmisen Säätiö sr + 1 muuta edunsaajaa",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 380145,
+   "eur_eu": 266102,
+   "themes": [
+    "T1",
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "The project plans and implements the restoration of two former peat production sites (in total 200 ha) located in Ranua municipality into mires or wetlands.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440759",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440759",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440758"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-20",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Suovu- Environmentally safe reuse of peat production areas – Suovunselkä catchment area",
+   "lead": "Kaakkois-Suomen Ammattikorkeakoulu Oy",
+   "start": 2025,
+   "end": 2027,
+   "eur_total": 292566,
+   "eur_eu": 204796,
+   "themes": [
+    "T1",
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "In Etelä-Savo, over the past couple of years, 1000 ha have gone out of production.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441315",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441315"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-21",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "TURBITS, New Cultivated Plants and bioside streams: Production Chains, Valuables and Circular economy",
+   "lead": "Jyväskylän yliopisto + 1 muuta edunsaajaa",
+   "start": 2023,
+   "end": 2026,
+   "eur_total": 479249,
+   "eur_eu": 335474,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "The primary goal of the project is to develop the overall sustainable and responsible circular economy of bio-streams, the recovery of valuable organic substances from bio-side streams and to find new, profitable plants with a wide value chain to be cultivated in Central Finland and to develop…",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440084",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440084",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440083"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-22",
+   "country": "FI",
+   "region": "North Karelia",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "The Bog 2.0 - Vitality to Ilomantsi with overall sustainability",
+   "lead": "Itä-Suomen yliopisto + 2 muuta edunsaajaa",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 528169,
+   "eur_eu": 369719,
+   "themes": [
+    "T8"
+   ],
+   "auto_themes": true,
+   "outputs": "The project supports new multi-use of peatlands in North Karelia and just transition by producing, gathering and sharing information and novel meanings of peatlands to support private and public decision-making and by bringing stakeholders together.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440593",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440593",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440595",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440594"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-23",
+   "country": "FI",
+   "region": "Pohjois-Pohjanmaa",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
+   "lead": "Oulun kaupunki",
+   "start": 2024,
+   "end": 2025,
+   "eur_total": 220269,
+   "eur_eu": 154188,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "In the first phase, a restoration pilot will also be implemented in the Turvesuo area, where there is approximately 5 hectares of land to be drained or converted into a wetland.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440269",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440269"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-24",
+   "country": "FI",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "The water protection wetland of the former peat production area of Kovalansuo",
+   "lead": "Mikkelin kaupunki",
+   "start": 2023,
+   "end": 2025,
+   "eur_total": 170225,
+   "eur_eu": 119158,
+   "themes": [
+    "T1",
+    "T2",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "Over the years, there has been peat production in the area of 42 ha. In the years 2016–2019, the largest production activity was only 18.5 ha in the area. The purpose of the project is to establish a carbon sink forest in treeless parts of the area totaling approximately 30 ha.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440782",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440782"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-25",
+   "country": "FI",
+   "region": "",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Tools and methods for combating the effects of peatland forests on water and climate (TurVI)",
+   "lead": "Tapio Oy",
+   "start": 2020,
+   "end": 2023,
+   "eur_total": 438612,
+   "eur_eu": 171706,
+   "themes": [
+    "T4"
+   ],
+   "auto_themes": true,
+   "outputs": "Investments in the forest industry will increase the use of forests in Northern Finland. In the province of North Ostrobothnia, peat trees account for a considerable proportion of the total volume of trees.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3754206",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q3754206"
+   ],
+   "programme": "2014-2020 (Sustainable growth and jobs - FI - ERDF/ESF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-26",
+   "country": "FI",
+   "region": "Pohjois-Pohjanmaa",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
+   "lead": "Suomen Riistanhoito-Säätiö sr",
+   "start": 2025,
+   "end": 2026,
+   "eur_total": 161484,
+   "eur_eu": 113039,
+   "themes": [
+    "T1",
+    "T5",
+    "T6"
+   ],
+   "auto_themes": true,
+   "outputs": "The project will create approximately 55 hectares of open water area by raising the water level of decommissioned peat production areas.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7441283",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7441283"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-FI-27",
+   "country": "FI",
+   "region": "North Karelia",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Value from the carbon market for the next land use of peat production areas",
+   "lead": "Itä-Suomen yliopisto + 3 muuta edunsaajaa",
+   "start": 2023,
+   "end": 2026,
+   "eur_total": 788547,
+   "eur_eu": 551983,
+   "themes": [
+    "T1",
+    "T3",
+    "T5",
+    "T6",
+    "T8"
+   ],
+   "auto_themes": true,
+   "outputs": "1. Background The need to reduce Finland's and the European Union's greenhouse gas emissions increases the pressure to direct areas to land use forms that preserve carbon reserves and to build systems where the landowner receives compensation for reducing emissions.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440188",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7440188",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440186",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440187",
+    "https://kohesio.ec.europa.eu/en/projects/Q7440189"
+   ],
+   "programme": "2021-2027 (Innovation and skills – FI – ERDF/ESF+/JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-01",
+   "country": "IE",
+   "region": "",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "name": "Co-operation Across Borders for Biodiversity",
+   "lead": "Rspb Ni",
+   "start": 2017,
+   "end": 2021,
+   "eur_total": 4935984,
+   "eur_eu": 4195586,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The CABB partnership was awarded €4,619,341.32 of funding and for this will contribute to the programme outputs by producing 8 conservation action plans and ensuring 2,2228 ha of habitats are supported to attain a better conservation status.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298133",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q4298133"
+   ],
+   "programme": "2014-2020 (Interreg V-A - United Kingdom-Ireland (Ireland-Wales))",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-02",
+   "country": "IE",
+   "region": "",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "name": "Collaborative Action for the Natural Network",
+   "lead": "Newry, Mourne and Down District Council",
+   "start": 2017,
+   "end": 2021,
+   "eur_total": 8349688,
+   "eur_eu": 7097235,
+   "themes": [
+    "T5",
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "The Collaborative Action for the Natura Network (CANN) – a consortium of public bodies, third-level institutions, charities and local government authorities from Ireland, Northern Ireland and Scotland lead by Newry, Mourne & Down District Council NMDDC - will deliver direct conservation actions…",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4298217",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q4298217"
+   ],
+   "programme": "2014-2020 (Interreg V-A - United Kingdom-Ireland (Ireland-Wales))",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-03",
+   "country": "IE",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Composting Bark for the Horticultural Market",
+   "lead": "Ecochip Energy Ltd",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 300000,
+   "eur_eu": 150000,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "To support an environmentally sustainable peat alternative product for supply to the horticulture market. The project will focus on the composting of bark to provide a stable and safe [does not compete with plants for nutrients] product for horticulture.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361336",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7361336"
+   ],
+   "programme": "2021-2027 (Just Transition - IE – JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-04",
+   "country": "IE",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Initiative for the recycling of green waste and the recycling of used/waste compost, to extend its usable lifespan.",
+   "lead": "Kelly's Nursery Ltd",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 299996,
+   "eur_eu": 149998,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "To fund a project that will provide the opportunity to recycle waste substrate and compost green waste for reuse with a view to reducing the amount of peat in compost mixes used as growing medium.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361334",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7361334"
+   ],
+   "programme": "2021-2027 (Just Transition - IE – JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-05",
+   "country": "IE",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Peatlands For Prosperity Project: Cultivating Paludiculture for Resilience",
+   "lead": "Green Restoration Ireland Cooperative Society Ltd",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 299054,
+   "eur_eu": 149527,
+   "themes": [
+    "T2",
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "To fund The Peatlands for Prosperity Project which aims to change perspectives on peatlands as wastelands and areas for land reclaimation, to opportunities for a new type of wetland agriculture known as Paludiculture that can generate new crops and new materials for the circular bioeconomy in a…",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361332",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7361332"
+   ],
+   "programme": "2021-2027 (Just Transition - IE – JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-06",
+   "country": "IE",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Sphagnum Farming",
+   "lead": "Derrymore Peat Ltd",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 300000,
+   "eur_eu": 150000,
+   "themes": [
+    "T1",
+    "T2",
+    "T3",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "To fund the development of a sphagnum farm in Co. Longford Sphagnum will be produced as a sustainable substitute for peat in horticulture, in addition to assisting in the restoration and regeneration of cutaway peatlands.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361330",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7361330"
+   ],
+   "programme": "2021-2027 (Just Transition - IE – JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-IE-07",
+   "country": "IE",
+   "region": "Mid-East Region",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "To introduce a new format straw product to market that can be used as a horticultural peat replacement",
+   "lead": "Strawchip Ltd",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 300000,
+   "eur_eu": 150000,
+   "themes": [
+    "T3"
+   ],
+   "auto_themes": true,
+   "outputs": "To fund the purchase of equipment, introduce a new format straw product to the market which can be used as a horticultural peat replacement. The proposed product takes the form of a first-generation straw bale mulch product in a similar form to the former 100 litre peat compost bale.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7361338",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7361338"
+   ],
+   "programme": "2021-2027 (Just Transition - IE – JTF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-01",
+   "country": "LV",
+   "region": "Riga",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Development of a storm damage risk assessment tool for peat soils",
+   "lead": "Atvasināta publiska persona \"Latvijas Valsts mežzinātnes institūts \"Silava\"\"",
+   "start": 2017,
+   "end": 2020,
+   "eur_total": 551425,
+   "eur_eu": 374969,
+   "themes": [
+    "T4",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Storms are the most important natural handicap affecting Europe’s forests. Due to climate change, it is expected that their importance will continue to grow in the future and therefore significantly increase the wind resilience of trees and nurseries.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3056351",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q3056351"
+   ],
+   "programme": "2014-2020 (Growth and Employment - LV - ERDF/ESF/CF/YEI)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-02",
+   "country": "LV",
+   "region": "Pierīga",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "name": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
+   "lead": "Atvasināta publiska persona \"Latvijas Valsts mežzinātnes institūts \"Silava\"\"",
+   "start": 2020,
+   "end": 2023,
+   "eur_total": 675371,
+   "eur_eu": 438991,
+   "themes": [
+    "T1",
+    "T6",
+    "T8"
+   ],
+   "auto_themes": true,
+   "outputs": "The project aims to contribute to the climate and energy framework of the UNFCCC Paris Agreement (hereinafter referred to as the Paris Agreement), EU policy (e.g.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3056457",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q3056457"
+   ],
+   "programme": "2014-2020 (Growth and Employment - LV - ERDF/ESF/CF/YEI)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-03",
+   "country": "LV",
+   "region": "Vidzeme",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "name": "Development of nature management plan for nature reserve \"Sedas purvs\"",
+   "lead": "Valmieras novada pašvaldība",
+   "start": 2024,
+   "end": null,
+   "eur_total": 244664,
+   "eur_eu": 207965,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "Main activities of the project: 1.Development of nature conservation plans for specially protected nature territory; the plan will be drawn up in accordance with the procedure for drawing up, public consultation and approval laid down in Cabinet Regulation No 686 of 9 October 2007 on the content…",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7432419",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7432419"
+   ],
+   "programme": "2021-2027 (Cohesion policy funding - LV – ERDF/CF/ESF+)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-04",
+   "country": "LV",
+   "region": "",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "name": "Improving cross border cooperation in the field of peat fire prevention and response",
+   "lead": "Priešgaisrinės apsaugos ir gelbėjimo departamentas prie Vidaus reikalų ministerijos",
+   "start": 2024,
+   "end": 2026,
+   "eur_total": 686058,
+   "eur_eu": 548847,
+   "themes": [
+    "T5",
+    "T7"
+   ],
+   "auto_themes": true,
+   "outputs": "The project “PEATFIRE” aims to enhance environmental safety and climate resilience in Latgale and Siauliai regions by addressing the threat of peat wildfires and reducing environmental pollution.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7737164",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7737164"
+   ],
+   "programme": "2021-2027 (Interreg VI-A - Latvia-Lithuania)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-LV-05",
+   "country": "LV",
+   "region": "",
+   "fund": "JTF",
+   "period": "2021–27",
+   "name": "Restoration of bog ecosystems in SACs",
+   "lead": "Akciju sabiedrība \"Latvijas valsts meži\"",
+   "start": 2024,
+   "end": null,
+   "eur_total": 7058824,
+   "eur_eu": 6000000,
+   "themes": [
+    "T1",
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The project activities focus on restoration of bogs and related ecosystems with an area of at least 1500 hectares on national lands located in Special Areas of Conservation (SACs) in areas significantly affected by drainage and drainage.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7432676",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7432676"
+   ],
+   "programme": "2021-2027 (Cohesion policy funding - LV – ERDF/CF/ESF+)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-SE-01",
+   "country": "SE",
+   "region": "Norrbotten County",
+   "fund": "EAKR",
+   "period": "2021–27",
+   "name": "Myrrestaurering i Norrbottens län (MyreN) – soiden ennallistaminen",
+   "lead": "Länsstyrelsen i Norrbottens län",
+   "start": 2024,
+   "end": 2027,
+   "eur_total": 2696225,
+   "eur_eu": 1078490,
+   "themes": [
+    "T5"
+   ],
+   "auto_themes": true,
+   "outputs": "The project Ant Restoration in Norrbotten County \"MyreN\" restores at least 1000 hectares of ditched ants hydrology as an important part of society's climate adaptation.",
+   "evidence": 2,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7362157",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q7362157"
+   ],
+   "programme": "2021-2027 (Upper Norrland – ERDF)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-SE-02",
+   "country": "SE",
+   "region": "Västra Götaland County",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "name": "Water Management in Baltic Forests - Tool box",
+   "lead": "Skogsstyrelsen",
+   "start": 2019,
+   "end": 2021,
+   "eur_total": 1059125,
+   "eur_eu": 830000,
+   "themes": [
+    "T4"
+   ],
+   "auto_themes": true,
+   "outputs": "WAMBAF Tool Box is based on results and experience from the regular project WAMBAF. WAMBAF Tool Box will implement solutions for forestry to reduce the inflow of nutrients and hazardous substances to the regional and coastal waters of the Baltic Sea Region (BSR).",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4299112",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q4299112"
+   ],
+   "programme": "2014-2020 (Interreg V-B - Baltic Sea)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
+  },
+  {
+   "id": "K-SE-03",
+   "country": "SE",
+   "region": "Blekinge County",
+   "fund": "Interreg",
+   "period": "2014–20",
+   "name": "Water Management in Baltic forests",
+   "lead": "Swedish Forest Agency",
+   "start": 2016,
+   "end": 2019,
+   "eur_total": 2930965,
+   "eur_eu": 2283826,
+   "themes": [
+    "T4"
+   ],
+   "auto_themes": true,
+   "outputs": "The project aims at tackling problems concerning forestry activities in relation to water quality. Special emphasis is set on clear water, nutrient export and hazardous substances, such as mercury.",
+   "evidence": 1,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q4299111",
+   "urls": [
+    "https://kohesio.ec.europa.eu/en/projects/Q4299111"
+   ],
+   "programme": "2014-2020 (Interreg V-B - Baltic Sea)",
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "partners_note": ""
   }
  ],
  "context": [
@@ -1177,6 +3771,462 @@
    "id": "nlwkn",
    "name": "NLWKN",
    "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "syke",
+   "name": "Suomen ympäristökeskus (Syke)",
+   "country": "FI",
+   "type": "tutkimuslaitos"
+  },
+  {
+   "id": "keha",
+   "name": "ELY-keskusten kehittämis- ja hallintokeskus (KEHA)",
+   "country": "FI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "rmk",
+   "name": "Riigimetsa Majandamise Keskus (RMK)",
+   "country": "EE",
+   "type": "viranomainen"
+  },
+  {
+   "id": "landkreis-stade",
+   "name": "Landkreis Stade",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "bund-fur-umwelt-und-naturschutz",
+   "name": "Bund für Umwelt und Naturschutz",
+   "country": "DE-NI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "naturschutzstiftung-des-landkreises-cuxh",
+   "name": "Naturschutzstiftung des Landkreises Cuxhaven",
+   "country": "DE-NI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "landkreis-luneburg",
+   "name": "Landkreis Lüneburg",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "landesamt-f-bergbau-energie-u-geologie",
+   "name": "Landesamt f. Bergbau, Energie u Geologie",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "universitat-rostock",
+   "name": "Universität Rostock",
+   "country": "DE-NI",
+   "type": "yliopisto"
+  },
+  {
+   "id": "universitat-greifswald",
+   "name": "Universität Greifswald",
+   "country": "DE-NI",
+   "type": "yliopisto"
+  },
+  {
+   "id": "torfwerk-moorkultur-ramsloh-werner-koch-",
+   "name": "Torfwerk Moorkultur Ramsloh Werner Koch GmbH & Co. KG",
+   "country": "DE-NI",
+   "type": "yritys"
+  },
+  {
+   "id": "schmedt",
+   "name": "Schmedt",
+   "country": "DE-NI",
+   "type": "yritys"
+  },
+  {
+   "id": "landkreis-cuxhaven",
+   "name": "Landkreis Cuxhaven",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "landkreis-emsland",
+   "name": "Landkreis Emsland",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "landkreis-osterholz",
+   "name": "Landkreis Osterholz",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "landkreis-friesland",
+   "name": "Landkreis Friesland",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "archehof-rolfes",
+   "name": "Archehof Rolfes",
+   "country": "DE-NI",
+   "type": "yritys"
+  },
+  {
+   "id": "naturschutzstiftung-grafschaft-bentheim",
+   "name": "Naturschutzstiftung Grafschaft Bentheim",
+   "country": "DE-NI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "nabu-kreisverband-gifhorn-e-v",
+   "name": "NABU Kreisverband Gifhorn e.V.",
+   "country": "DE-NI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "landkreis-vechta",
+   "name": "Landkreis Vechta",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "arl-w-e-staatliche-moorverwaltung",
+   "name": "ArL W-E, Staatliche Moorverwaltung",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "landkreis-verden",
+   "name": "Landkreis Verden",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "niedersachsische-landesforsten-aor",
+   "name": "Niedersächsische Landesforsten AöR",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "niedersachsische-landesforsten-aor-forst",
+   "name": "Niedersächsische Landesforsten AöR Forstamt Neuhaus",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "niedersachsische-landesforsten-a-o-r-for",
+   "name": "Niedersächsische Landesforsten A.ö.R. Forstamt Dassel",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "region-hannover",
+   "name": "Region Hannover",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
+   "name": "3N Kompetenzzentrum Niedersachsen Netzwerk Nachwachsende Rohstoffe und Bioökonomie e. V.",
+   "country": "DE-NI",
+   "type": "tutkimuslaitos"
+  },
+  {
+   "id": "boerenbond-projecten-vzw",
+   "name": "Boerenbond Projecten vzw",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "constellr-gmbh",
+   "name": "constellr GmbH",
+   "country": "DE-NI",
+   "type": "yritys"
+  },
+  {
+   "id": "eigen-vermogen-van-het-instituut-voor-la",
+   "name": "Eigen Vermogen van het Instituut voor Landbouw- en Visserijonderzoek",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "green-restoration-ireland-co-operative-s",
+   "name": "Green Restoration Ireland Co-Operative Society Ltd",
+   "country": "DE-NI",
+   "type": "yritys"
+  },
+  {
+   "id": "multitel-asbl",
+   "name": "Multitel asbl",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "ontwikkelingsmaatschappij-oost-nederland",
+   "name": "Ontwikkelingsmaatschappij Oost-Nederland NV",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "teagasc-agriculture-and-food-development",
+   "name": "Teagasc – Agriculture and Food Development Authority",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "tgo-ag",
+   "name": "Tgo AG",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "ver-de-terre-production",
+   "name": "Ver de Terre Production",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "zuidelijke-land-en-tuinbouw-organisatie",
+   "name": "Zuidelijke Land- en Tuinbouw Organisatie",
+   "country": "DE-NI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "carl-von-ossietzky-universitat-oldenburg",
+   "name": "Carl von Ossietzky Universität Oldenburg",
+   "country": "DE-NI",
+   "type": "yliopisto"
+  },
+  {
+   "id": "europaisches-fachzentrum-moor-und-klima-",
+   "name": "Europäisches Fachzentrum Moor und Klima Wagenfeld GmbH",
+   "country": "DE-NI",
+   "type": "tutkimuslaitos"
+  },
+  {
+   "id": "akcelerator-drustvenih-promjena-zid",
+   "name": "Akcelerator Društvenih Promjena-Zid",
+   "country": "",
+   "type": "viranomainen"
+  },
+  {
+   "id": "association-des-chambres-d-agriculture-d",
+   "name": "Association des Chambres d'Agriculture de l'Arc Atlantique",
+   "country": "",
+   "type": "jarjesto"
+  },
+  {
+   "id": "van-hall-larenstein-university-of-applie",
+   "name": "Van Hall Larenstein University of Applied Sciences",
+   "country": "",
+   "type": "amk"
+  },
+  {
+   "id": "broads-authority",
+   "name": "Broads Authority",
+   "country": "",
+   "type": "viranomainen"
+  },
+  {
+   "id": "john-nurmisen-saatio-sr",
+   "name": "John Nurmisen Säätiö sr",
+   "country": "FI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "luonnonperintosaatio-sr",
+   "name": "Luonnonperintösäätiö sr",
+   "country": "FI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "kaakkois-suomen-ammattikorkeakoulu-oy",
+   "name": "Kaakkois-Suomen Ammattikorkeakoulu Oy",
+   "country": "FI",
+   "type": "amk"
+  },
+  {
+   "id": "lapin-ammattikorkeakoulu-oy",
+   "name": "Lapin ammattikorkeakoulu Oy",
+   "country": "FI",
+   "type": "amk"
+  },
+  {
+   "id": "pohjois-savon-luonnonsuojelupiiri-ry",
+   "name": "Pohjois-Savon luonnonsuojelupiiri ry",
+   "country": "FI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "upm-kymmene-oyj",
+   "name": "UPM-Kymmene Oyj",
+   "country": "FI",
+   "type": "yritys"
+  },
+  {
+   "id": "lappeenrannan-lahden-teknillinen-yliopis",
+   "name": "Lappeenrannan-Lahden teknillinen yliopisto LUT",
+   "country": "FI",
+   "type": "yliopisto"
+  },
+  {
+   "id": "metsahallitus",
+   "name": "Metsähallitus",
+   "country": "FI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "linttipower-oy",
+   "name": "LinttiPower Oy",
+   "country": "FI",
+   "type": "yritys"
+  },
+  {
+   "id": "suomen-riistanhoito-saatio-sr",
+   "name": "Suomen Riistanhoito-Säätiö sr",
+   "country": "FI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "luontokollektiivi-ry",
+   "name": "Luontokollektiivi ry",
+   "country": "FI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "kokemaenjoen-vesiston-vesiensuojeluyhdis",
+   "name": "Kokemäenjoen vesistön vesiensuojeluyhdistys ry",
+   "country": "FI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "turun-yliopisto",
+   "name": "Turun yliopisto",
+   "country": "FI",
+   "type": "yliopisto"
+  },
+  {
+   "id": "jyvaskylan-yliopisto",
+   "name": "Jyväskylän yliopisto",
+   "country": "FI",
+   "type": "yliopisto"
+  },
+  {
+   "id": "jyvaskylan-ammattikorkeakoulu-oy",
+   "name": "Jyväskylän Ammattikorkeakoulu Oy",
+   "country": "FI",
+   "type": "amk"
+  },
+  {
+   "id": "maaseudun-sivistysliiton-vaara-karjalan-",
+   "name": "Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys ry",
+   "country": "FI",
+   "type": "jarjesto"
+  },
+  {
+   "id": "oulun-kaupunki",
+   "name": "Oulun kaupunki",
+   "country": "FI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "mikkelin-kaupunki",
+   "name": "Mikkelin kaupunki",
+   "country": "FI",
+   "type": "viranomainen"
+  },
+  {
+   "id": "tapio-oy",
+   "name": "Tapio Oy",
+   "country": "FI",
+   "type": "tutkimuslaitos"
+  },
+  {
+   "id": "geologian-tutkimuskeskus",
+   "name": "Geologian Tutkimuskeskus",
+   "country": "FI",
+   "type": "tutkimuslaitos"
+  },
+  {
+   "id": "rspb-ni",
+   "name": "Rspb Ni",
+   "country": "IE",
+   "type": "jarjesto"
+  },
+  {
+   "id": "newry-mourne-and-down-district-council",
+   "name": "Newry, Mourne and Down District Council",
+   "country": "IE",
+   "type": "viranomainen"
+  },
+  {
+   "id": "ecochip-energy-ltd",
+   "name": "Ecochip Energy Ltd",
+   "country": "IE",
+   "type": "yritys"
+  },
+  {
+   "id": "kelly-s-nursery-ltd",
+   "name": "Kelly's Nursery Ltd",
+   "country": "IE",
+   "type": "yritys"
+  },
+  {
+   "id": "derrymore-peat-ltd",
+   "name": "Derrymore Peat Ltd",
+   "country": "IE",
+   "type": "yritys"
+  },
+  {
+   "id": "strawchip-ltd",
+   "name": "Strawchip Ltd",
+   "country": "IE",
+   "type": "yritys"
+  },
+  {
+   "id": "valmieras-novada-pasvaldiba",
+   "name": "Valmieras novada pašvaldība",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "priesgaisrines-apsaugos-ir-gelbejimo-dep",
+   "name": "Priešgaisrinės apsaugos ir gelbėjimo departamentas prie Vidaus reikalų ministerijos",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "valsts-ugunsdzesibas-un-glabsanas-dienes",
+   "name": "Valsts ugunsdzēsības un glābšanas dienests",
+   "country": "LV",
+   "type": "viranomainen"
+  },
+  {
+   "id": "akciju-sabiedriba-latvijas-valsts-mezi",
+   "name": "Akciju sabiedrība \"Latvijas valsts meži\"",
+   "country": "LV",
+   "type": "yritys"
+  },
+  {
+   "id": "lansstyrelsen-i-norrbottens-lan",
+   "name": "Länsstyrelsen i Norrbottens län",
+   "country": "SE",
+   "type": "viranomainen"
+  },
+  {
+   "id": "skogsstyrelsen",
+   "name": "Skogsstyrelsen",
+   "country": "SE",
+   "type": "viranomainen"
+  },
+  {
+   "id": "swedish-forest-agency",
+   "name": "Swedish Forest Agency",
+   "country": "SE",
    "type": "viranomainen"
   }
  ]

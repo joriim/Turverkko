@@ -8,7 +8,7 @@
   --bg:#f3f5ef; --surface:#ffffff; --sunk:#e6eadf; --fg:#1d2419; --muted:#5d6a57; --line:#cfd6c6;
   --accent:#5b7f2a;           /* rahkasammal */
   --peat:#7a4b2a; --water:#2f6f86;
-  --c-FI:#2f6f86; --c-SE:#b38a14; --c-EE:#3d7a5a; --c-LV:#8b3a52; --c-IE:#5b7f2a; --c-DE-NI:#7a4b2a; --c-X:#8a8f86;
+  --c-FI:#2f6f86; --c-SE:#b38a14; --c-EE:#3d7a5a; --c-LV:#8b3a52; --c-IE:#5b7f2a; --c-DE-NI:#7a4b2a; --c-EU:#5a6b8c; --c-X:#8a8f86;
   --hot:#b8452a; --warm:#d9a441;
   --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
   --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
@@ -17,12 +17,12 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#131711; --surface:#1b2018; --sunk:#232a1f; --fg:#e7ecdf; --muted:#9aa591; --line:#333c2d;
   --accent:#9cc25a; --peat:#c08a5e; --water:#6fb3cc;
-  --c-FI:#6fb3cc; --c-SE:#e0b84a; --c-EE:#6cc093; --c-LV:#d37a95; --c-IE:#9cc25a; --c-DE-NI:#c08a5e; --c-X:#7d8478;
+  --c-FI:#6fb3cc; --c-SE:#e0b84a; --c-EE:#6cc093; --c-LV:#d37a95; --c-IE:#9cc25a; --c-DE-NI:#c08a5e; --c-EU:#9fb0d0; --c-X:#7d8478;
   --hot:#e8775a; --warm:#e8c06a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#131711; --surface:#1b2018; --sunk:#232a1f; --fg:#e7ecdf; --muted:#9aa591; --line:#333c2d;
   --accent:#9cc25a; --peat:#c08a5e; --water:#6fb3cc;
-  --c-FI:#6fb3cc; --c-SE:#e0b84a; --c-EE:#6cc093; --c-LV:#d37a95; --c-IE:#9cc25a; --c-DE-NI:#c08a5e; --c-X:#7d8478;
+  --c-FI:#6fb3cc; --c-SE:#e0b84a; --c-EE:#6cc093; --c-LV:#d37a95; --c-IE:#9cc25a; --c-DE-NI:#c08a5e; --c-EU:#9fb0d0; --c-X:#7d8478;
   --hot:#e8775a; --warm:#e8c06a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--f-body);
@@ -153,6 +153,9 @@ a{color:var(--water)}
     <h2>Puuttuvat yhteydet</h2>
     <p class="note">Toimijaparit, joiden teemat ovat lähes samat (Jaccard ≥ 0,5), mutta joiden välillä ei ole vahvistettua yhteistyöpolkua kolmen askeleen sisällä. Yhteinen organisaatio on kahden askeleen polku.</p>
     <div class="tablebox"><table id="net-missing"></table></div>
+    <h2>Teema × maapari</h2>
+    <p class="note">Maaparit, joilla on hankkeita samassa teemassa. "Ei" tarkoittaa, ettei maiden hankkeiden välillä löytynyt yhtään vahvistettua yhteistyöpolkua kolmen askeleen sisällä.</p>
+    <div class="tablebox"><table id="net-gaps"></table></div>
   </section>
 
   <section id="view-matrix" hidden>
@@ -186,8 +189,8 @@ a{color:var(--water)}
 <script>
 const D = __DATA__;
 const CN = D.countries, TH = D.themes;
-const FUNDS = ["JTF","EAKR","EIP","MSR","KF","?"];
-const FUNDNAME = {JTF:"JTF – oikeudenmukainen siirtymä",EAKR:"EAKR / EFRE / ERDF",EIP:"EIP-AGRI (MSR)",MSR:"MSR / EAFRD muu",KF:"Koheesiorahasto","?":"EU-osarahoitteinen, rahasto ei lähteessä",LIFE:"LIFE",Kansallinen:"Kansallinen","—":"—"};
+const FUNDS = ["JTF","EAKR","Interreg","EIP","MSR","KF","?"];
+const FUNDNAME = {JTF:"JTF – oikeudenmukainen siirtymä",EAKR:"EAKR / EFRE / ERDF",EIP:"EIP-AGRI (MSR)",MSR:"MSR / EAFRD muu",KF:"Koheesiorahasto",Interreg:"Interreg (EAKR)","?":"EU-osarahoitteinen, rahasto ei lähteessä",LIFE:"LIFE",Kansallinen:"Kansallinen","—":"—"};
 const EVTXT = ["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"];
 const state = {view:"map", countries:new Set(Object.keys(CN)), funds:new Set(FUNDS), sel:null};
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
@@ -202,7 +205,7 @@ const visible = p => p.isContext ? state.countries.has(p.country) || !CN[p.count
   const jtf = D.programmes.filter(p=>p.fund==="JTF" && p.focus.length && p.id!=="P-FI-PP-JTF").reduce((a,p)=>a+p.eur,0);
   const cross = D.overlaps.filter(o=>o.kind==="maiden välinen").length;
   const ev = D.projects.reduce((a,p)=>a+p.evidence,0)/D.projects.length;
-  const k = [[fmt(jtf),"turvepainotteiset JTF-allokaatiot (FI, LV, IE)"],[D.projects.length,"varmennettua hanketta otoksessa + "+D.context.length+" vertailukohdetta"],[cross,"maiden välistä päällekkäisyysparia"],[ev.toFixed(1).replace(".",",")+" / 4","keskimääräinen tuotosten näyttöaste"]];
+  const k = [[fmt(jtf),"turvepainotteiset JTF-allokaatiot (FI, LV, IE)"],[D.projects.length,"hanketta (" + D.projects.filter(p=>p.auto_themes).length + " Kohesiosta) + "+D.context.length+" vertailukohdetta"],[cross,"maiden välistä päällekkäisyysparia"],[ev.toFixed(1).replace(".",",")+" / 4","keskimääräinen tuotosten näyttöaste"]];
   document.getElementById("kpis").innerHTML = k.map(([b,s])=>`<div class="kpi"><b class="mono">${b}</b><span>${s}</span></div>`).join("");
   const ins = [
     ["Ennallistaminen toistuu neljässä maassa","Viro korjasi ≥2 000 ha jääkturvealueita koheesiorahastolla 2014–23. Suomen JTF-hankkeet (PUHTI, PohjaNeva) ja Latvian inventointi aloittavat nyt samasta kohteiden tunnistusvaiheesta."],
@@ -237,15 +240,15 @@ function renderMap(){
   }));
   tk.forEach(t=>{
     const [x,y]=tpos[t]; const n = items.filter(p=>p.themes.includes(t)&&visible(p)).length;
-    s += `<g class="node theme" data-t="${t}" tabindex="0" role="button" aria-label="${esc(TH[t])}"><circle cx="${x}" cy="${y}" r="${12+n*3}" fill="var(--sunk)" stroke="var(--accent)" stroke-width="1.5"/><text x="${x}" y="${y+4}" text-anchor="middle" font-family="var(--f-mono)" font-size="12" font-weight="500">${t}</text></g>`;
+    s += `<g class="node theme" data-t="${t}" tabindex="0" role="button" aria-label="${esc(TH[t])}"><circle cx="${x}" cy="${y}" r="${Math.round(12+Math.sqrt(n)*5)}" fill="var(--sunk)" stroke="var(--accent)" stroke-width="1.5"/><text x="${x}" y="${y+4}" text-anchor="middle" font-family="var(--f-mono)" font-size="12" font-weight="500">${t}</text></g>`;
   });
   items.forEach(p=>{
     const [x,y,a]=ppos[p.id]; const deg=a*180/Math.PI; const flip = Math.cos(a)<0;
     const lx = (Rp+16)*Math.cos(a), ly=(Rp+16)*Math.sin(a);
-    const label = esc((p.name||"").replace(/ –.*| \(.*/,"").slice(0,30));
+    const label = p.auto_themes ? "" : esc((p.name||"").replace(/ –.*| \(.*/,"").slice(0,30));
     const shape = p.isContext ? `<rect x="${x-7}" y="${y-7}" width="14" height="14" fill="none" stroke="${ccol(p.country)}" stroke-width="2" stroke-dasharray="3 2"/>`
       : `<circle cx="${x}" cy="${y}" r="${p.fund==="JTF"?10:7}" fill="${ccol(p.country)}"/>`;
-    s += `<g class="node proj" data-p="${p.id}" tabindex="0" role="button" aria-label="${esc(p.name)}">${shape}<text transform="translate(${lx},${ly}) rotate(${flip?deg+180:deg})" text-anchor="${flip?"end":"start"}" font-size="11" dy="4">${p.id} ${label}</text></g>`;
+    s += `<g class="node proj" data-p="${p.id}" tabindex="0" role="button" aria-label="${esc(p.name)}">${shape}${label?`<text transform="translate(${lx},${ly}) rotate(${flip?deg+180:deg})" text-anchor="${flip?"end":"start"}" font-size="11" dy="4">${p.id} ${label}</text>`:""}<title>${esc(p.id+" "+p.name)}</title></g>`;
   });
   svg.innerHTML = s;
   svg.querySelectorAll(".proj").forEach(g=>{const id=g.dataset.p; const p=items.find(x=>x.id===id); if(!visible(p)) g.classList.add("dim");
@@ -372,7 +375,7 @@ function renderNet(){
     else if(n.kind==="osaamiskeskus") shape = `<circle cx="${x}" cy="${y}" r="13" fill="var(--surface)" stroke="${c}" stroke-width="4"/>`;
     else shape = `<rect x="${x-6}" y="${y-6}" width="12" height="12" fill="${c}" ${n.kind==="vertailukohde"?'fill-opacity=".45"':""}/>`;
     dots += `<g class="nn node" data-id="${n.id}" tabindex="0" role="button" aria-label="${esc(n.label)}">${shape}<title>${esc(n.label)}</title></g>`;
-    if(n.kind!=="organisaatio" || d>=3) labels += `<text x="${x+9}" y="${y-8}" font-size="${n.kind==="osaamiskeskus"?13:11}" font-weight="${n.kind==="osaamiskeskus"?600:400}" pointer-events="none">${esc(n.kind==="organisaatio"?n.label.replace(/ \(.*\)/,""):n.id)}</text>`;
+    if(n.kind==="osaamiskeskus" || (n.kind==="organisaatio" && d>=3)) labels += `<text x="${x+9}" y="${y-8}" font-size="${n.kind==="osaamiskeskus"?13:11}" font-weight="${n.kind==="osaamiskeskus"?600:400}" pointer-events="none">${esc(n.kind==="organisaatio"?n.label.replace(/ \(.*\)/,""):n.id)}</text>`;
   });
   if(NET.pubs){
     N.edges.filter(e=>e.kind==="tuotos").forEach(e=>{const a=pos(e.source); if(!a) return; const k=N.edges.filter(x=>x.kind==="tuotos"&&x.source===e.source).indexOf(e);
@@ -392,6 +395,8 @@ function renderNet(){
     A.organisations.filter(r=>r.valityskeskeisyys>0).slice(0,10).map(r=>`<tr><td><span class="dot" style="background:${ccol(r.maa)}"></span> ${esc(r.nimi)}</td><td class="mono">${r.hankkeita}</td><td class="mono">${r.keskuksia}</td><td class="mono">${r.valityskeskeisyys.toFixed(3)}</td></tr>`).join("")+"</tbody>";
   document.getElementById("net-comps").innerHTML = `<thead><tr><th>Saareke</th><th>Toimijoita</th><th>Maat</th><th>Hankkeet ja keskukset</th></tr></thead><tbody>`+
     A.components.map(c=>`<tr><td class="mono">${c.komponentti}</td><td class="mono">${c.solmuja}</td><td>${c.maita>1?`<span class="pill same">${c.maat}</span>`:c.maat}</td><td class="mono" style="font-size:12px">${c.hankkeet_ja_keskukset}</td></tr>`).join("")+"</tbody>";
+  document.getElementById("net-gaps").innerHTML = `<thead><tr><th>Teema</th><th>Maapari</th><th>Hankkeita</th><th>Yhteys</th></tr></thead><tbody>`+
+    (A.theme_country_gaps||[]).filter(g=>state.countries.has(g.a)&&state.countries.has(g.b)).map(g=>`<tr><td><span class="pill" title="${esc(TH[g.teema])}">${g.teema}</span> ${esc(TH[g.teema])}</td><td>${CN[g.a]} – ${CN[g.b]}</td><td class="mono">${g.hankkeita_a} + ${g.hankkeita_b}</td><td>${g.yhteys?'<span class="pill same">kyllä</span>':'<span class="pill cross">ei</span>'}</td></tr>`).join("")+"</tbody>";
   document.getElementById("net-missing").innerHTML = `<thead><tr><th>Toimija A</th><th>Toimija B</th><th>Yhteiset teemat</th><th>Jaccard</th><th>Etäisyys</th></tr></thead><tbody>`+
     A.missing_links.filter(m=>vis(byId[m.a])&&vis(byId[m.b])).map(m=>`<tr><td><span class="dot" style="background:${ccol(m.a_maa)}"></span> ${esc(m.a_nimi)}<div class="note mono">${m.a}</div></td><td><span class="dot" style="background:${ccol(m.b_maa)}"></span> ${esc(m.b_nimi)}<div class="note mono">${m.b}</div></td><td>${m.yhteiset_teemat.split(",").map(t=>`<span class="pill" title="${TH[t]}">${t}</span>`).join(" ")}</td><td class="mono">${Number(m.jaccard).toFixed(2)}</td><td><span class="pill ${m.tyyppi==="maiden välinen"?"cross":"same"}">${m.etaisyys}</span></td></tr>`).join("")+"</tbody>";
 }

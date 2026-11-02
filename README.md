@@ -12,16 +12,18 @@ Aineistolla on kolme tehtävää:
 
 **Sivusto:** [joriim.github.io/Turverkko](https://joriim.github.io/Turverkko/): etusivu, kartta ja verkosto, haku hankekortteineen sekä ehdotuslomake. Julkaistaan automaattisesti GitHub Actionsilla.
 
-## Keskeiset havainnot (31.10.2026)
+## Keskeiset havainnot (2.11.2026)
 
 Luvut on generoitu tiedostoon [`analysis/raportti.md`](analysis/raportti.md). Ne päivittyvät, kun aineisto kasvaa.
 
-- 68 toimijaa jakautuu 12 erilliseen yhteistyösaarekkeeseen. Vain yksi saareke ylittää maarajan: suomalainen SuoLiike-hanke ja Latvian PeatTransform-verkosto.
-- Maiden välisiä yhteistyösuhteita on lähteellä vahvistettuna yksi. Lisäksi on kolme vahvistamatonta, jotka liittyvät TUKKA-klusterin Irlanti-yhteistyöhön.
-- 31 maiden välistä puuttuvaa yhteyttä. Selvimmät ovat Suomen JTF-ennallistamishankkeiden ja Viron jo toteutetun 2 000 ha:n ennallistamisen väliset, Suomen ja Niedersachsenin kosteikkoviljelyhankkeiden väliset sekä Akatemian PeatResC-huippuyksikön ja Irlannin kahden turvemaakeskuksen väliset.
-- Ennallistaminen (T1) on tihein teema: 11 hanketta neljässä maassa. Suometsiä (T4) tutkitaan otoksessa vain Suomessa.
-- Turvepainotteiset JTF-allokaatiot ovat 826 M€ (Suomi, Latvia, Irlanti). Viron ja Ruotsin JTF:t eivät painota turvetta, ja Niedersachsen ei ole JTF-alue.
-- **Aukko:** Ruotsista ei ole otoksessa yhtään turvemaahanketta. Ruotsin turvemaiden vettäminen rahoitetaan pitkälti kansallisesti, ja se on seuraava täydennettävä kohta.
+Aineistossa on 113 hanketta, joista 96 on tuotu Kohesiosta 2.11.2026 ([hakulahteet/tulokset/](hakulahteet/tulokset/)). Lisäksi mukana on 6 osaamiskeskusta ja 116 organisaatiota.
+
+- **Toimijat ovat erillisissä saarekkeissa.** 240 toimijaa jakautuu 67 yhteistyösaarekkeeseen. Vain yksi niistä ylittää maarajan: Suomen turvemaatoimijat, Latvian Silava-verkosto ja PRESERVE-Interreg-hanke. Lähteellä vahvistettuja maiden välisiä yhteyksiä on kaksi.
+- **Samoja teemoja ilman yhteyttä.** 53 maaparista, joilla on hankkeita samassa teemassa, 50:ltä puuttuu vahvistettu yhteistyöpolku. Suurimmat aukot ovat soiden suojelussa ja ennallistamisessa Niedersachsenin (31 hanketta) ja Suomen (18) välillä sekä maankäyttösektorin päästöissä samojen alueiden välillä.
+- **Niedersachsen ennallistaa, Suomi suunnittelee.** Niedersachsenin 49 EFRE-hanketta 2014–20 ovat pääosin toteutettuja vettämisiä ja suojelualueiden vesitalouden korjauksia. Suomen 27 JTF- ja EAKR-hanketta ovat pääosin jälkikäytön suunnittelua ja esiselvityksiä.
+- **Suomen turvepainotteinen JTF-rahoitus Kohesiossa on pieni.** Kohesiosta löytyi 23 suomalaista JTF-turvemaahanketta, yhteensä 7,6 M€, kun Suomen koko JTF-allokaatio on 465 M€. Luku kattaa vain hakusanoilla löytyneet hankkeet.
+- **Tuotokset jäävät tavoitteiksi.** 85 hanketta 113:sta kuvaa vain toimenpiteet (näyttöaste 1). Mitattuja tai vertaisarvioituja tuloksia on kolmella.
+- **Aukko:** Ruotsista on vain kolme hanketta. Ruotsin turvemaiden vettäminen rahoitetaan pitkälti kansallisesti, ja se on seuraava täydennettävä kohta ([hakulähteet 8–10](hakulahteet/README.md)).
 
 ## Rakenne
 

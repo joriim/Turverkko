@@ -7,7 +7,8 @@ Työnkulku:
 1. Valitse lähde alla olevasta taulukosta.
 2. Avaa Chrome, käynnistä Claude-laajennus ja liitä sille **yhteinen ohje** ja lähteen **oma ohje**.
 3. Claude palauttaa CSV-rivit muodossa [`tuontipohja.csv`](tuontipohja.csv). Tallenna ne tiedostoon `hakulahteet/tulokset/<lähde>-<päivämäärä>.csv`.
-4. Ylläpitäjä tarkistaa rivit, luokittelee teemat T1–T8 ja lisää hyväksytyt `src/source.py`:hin (ks. [CONTRIBUTING.md](../CONTRIBUTING.md)).
+4. Aja `python scripts/build.py && python scripts/analyze.py && python scripts/site.py`. Tuonti (`src/tuonti.py`) yhdistää saman hankkeen toteuttajarivit, täsmää rivit jo aineistossa oleviin hankkeisiin ja luokittelee teemat avainsanoilla. Rajaus- ja täsmäyspäätökset ovat tiedoston alussa listoina.
+5. Ylläpitäjä tarkistaa rivit, luokittelee teemat T1–T8 ja lisää hyväksytyt `src/source.py`:hin (ks. [CONTRIBUTING.md](../CONTRIBUTING.md)).
 
 > **Tarkista osoitteet.** Merkintä ✓ tarkoittaa, että osoite on tarkistettu tätä opasta kirjoitettaessa (2.11.2026). Merkintä → tarkoittaa sisäänmenosivua: hakutoiminnon tarkka osoite vaihtelee, joten ohje kertoo, mistä Claude löytää haun.
 
@@ -15,7 +16,7 @@ Työnkulku:
 
 | # | Lähde | Kattaa | Maat | Osoite | Prioriteetti |
 |---|---|---|---|---|---|
-| 1 | Kohesio | EAKR, ESR+, JTF, KF, Interreg | kaikki | [kohesio.ec.europa.eu](https://kohesio.ec.europa.eu/fi/projects) ✓ | **1** |
+| 1 | Kohesio | EAKR, ESR+, JTF, KF, Interreg | kaikki | [kohesio.ec.europa.eu](https://kohesio.ec.europa.eu/fi/projects) ✓ | ✅ haettu 2.11.2026 |
 | 2 | EU CAP Network – hankkeet | EIP-AGRI-toimintaryhmät | kaikki | [eu-cap-network.ec.europa.eu/projects](https://eu-cap-network.ec.europa.eu/projects_en) ✓ | **1** |
 | 3 | LIFE-hankehaku | LIFE | kaikki | [webgate.ec.europa.eu/life](https://webgate.ec.europa.eu/life/publicWebsite/search) ✓ | 2 |
 | 4 | keep.eu | Interreg | kaikki | [keep.eu](https://keep.eu) ✓ | 3 |
