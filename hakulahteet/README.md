@@ -23,8 +23,8 @@ Työnkulku:
 | 5 | EURA 2021 / EURA 2014 | EAKR, ESR+, JTF Suomessa | FI | [eura2021.fi](https://eura2021.fi) → | **1** |
 | 6 | Maaseutu.fi ja Leader | Maaseuturahasto, EIP, Leader | FI | [maaseutu.fi](https://maaseutu.fi) → | 2 |
 | 7 | Tiedejatutkimus.fi | Suomen Akatemia ja säätiöt | FI | [research.fi/fi/results/fundings](https://research.fi/fi/results/fundings) ✓ | 2 |
-| 8 | Tillväxtverket Projektbanken | Regionalfonden, JTF | SE | [tillvaxtverket.se](https://tillvaxtverket.se) → | ✅ haettu 2.11.2026 (3 osumaa) |
-| 9 | Jordbruksverket – EIP | EIP-innovationsprojekt | SE | [jordbruksverket.se](https://jordbruksverket.se/languages/english/swedish-board-of-agriculture/rural-development-support/european-innovation-partnership-scheme) ✓ | ✅ haettu 2.11.2026 (2 osumaa, landsbygdsnatverket.se) |
+| 8 | Tillväxtverket Projektbanken | Regionalfonden, JTF | SE | [tillvaxtverket.se](https://tillvaxtverket.se) → | ✅ haettu 2.11.2026 (7 osumaa; jatka Interreg-hakuja) |
+| 9 | Jordbruksverket – EIP | EIP-innovationsprojekt | SE | [jordbruksverket.se](https://jordbruksverket.se/languages/english/swedish-board-of-agriculture/rural-development-support/european-innovation-partnership-scheme) ✓ | ✅ haettu 2.11.2026 (6 osumaa, landsbygdsnatverket.se) |
 | 10 | SweCRIS | Ruotsin tutkimusrahoitus | SE | [vr.se/swecris](https://www.vr.se/swecris) → | 3 |
 | 11 | KIK – rahoitetut hankkeet | KF, EAKR ympäristö | EE | [kik.ee/en/projects](https://kik.ee/en/projects) ✓ | **1** |
 | 12 | RTK ja struktuurivarat | EAKR, JTF Virossa | EE | [rtk.ee](https://www.rtk.ee) → | 2 |
@@ -50,12 +50,17 @@ Prioriteetti 1 täyttää aineiston suurimmat aukot: Ruotsin turvemaahankkeet pu
 ```text
 Olet tutkimusavustaja, joka kerää julkisia hanketietoja Turverkko-aineistoon.
 
-RAJAUS: Kerää vain hankkeita, jotka liittyvät turvemaihin tai maaperään:
-turvetuotantoalueiden ennallistaminen ja jälkikäyttö, turvepellot ja vettäminen,
-kosteikkoviljely (paludikulttuuri) ja turpeen korvaajat, suometsät, soiden suojelu,
-maankäyttösektorin päästöt (KHK-mittaus, päästökertoimet, MRV), turvemaiden osaamiskeskukset
-ja maanomistajien maankäytön suunnittelu. ÄLÄ kerää vety-, energia-, matkailu- tai
-yleisiä yritystukihankkeita.
+RAJAUS: Kerää hankkeita, jotka liittyvät turvemaihin tai maaperään:
+- turvemaat: turvetuotantoalueiden ennallistaminen ja jälkikäyttö, turvepellot ja
+  vettäminen, kosteikkoviljely (paludikulttuuri) ja turpeen korvaajat, suometsät, soiden
+  suojelu, turvemaiden osaamiskeskukset ja maanomistajien maankäytön suunnittelu
+- muu maaperä: maaperän ja maankäyttösektorin päästöt (CO2, CH4, N2O), maaperän
+  hiilensidonta ja hiiliviljely, päästöjen mittaus, mallinnus ja todentaminen (MRV,
+  päästökertoimet, kasvihuonekaasuinventaario, kaukokartoitus), hiilimarkkinat ja
+  -sertifiointi, maaperän vesitalous (säätösalaojitus, kuivatus) ilmastonäkökulmasta
+  sekä metsien ja peltojen hiilinielut.
+ÄLÄ kerää vety-, energia-, matkailu- tai yleisiä yritystukihankkeita, äläkä
+ravinteiden kierrätystä tai maan kasvukuntoa, jos niissä ei ole päästö- tai hiilinäkökulmaa.
 
 SÄÄNNÖT:
 - Käytä vain sivustojen julkista hakua. Älä kirjaudu, älä luo tiliä, älä lähetä muita
@@ -84,22 +89,30 @@ YDINSANAT (rajaa tarvittaessa lähteen kieleen):
 - en: peat, peatland, bog, mire, fen, organic soil, histosol, drained organic soils,
   rewetting, paludiculture, sphagnum farming, peat-free, peat substitute, growing media,
   cutaway, cutover, after-use, water table, controlled drainage, LULUCF, carbon farming,
-  soil carbon, emission factor, raised bog, blanket bog
+  soil carbon, soil organic carbon, carbon sequestration, emission factor, MRV,
+  greenhouse gas inventory, nitrous oxide, methane, eddy covariance, carbon credit,
+  raised bog, blanket bog
 - fi: turve, turvemaa, turvepelto, eloperäinen maa, multamaa, suo, suometsä, suonpohja,
   turvetuotantoalue, jälkikäyttö, ennallistaminen, vettäminen, kosteikkoviljely,
   rahkasammal, säätösalaojitus, pohjavedenpinnan säätö, kunnostusojitus,
-  jatkuvapeitteinen kasvatus, valumavesi, humus, maankäyttösektori, hiilinielu
+  jatkuvapeitteinen kasvatus, valumavesi, humus, maankäyttösektori, hiilinielu,
+  maaperän hiili, hiiliviljely, hiilensidonta, kasvihuonekaasu, typpioksiduuli,
+  päästökerroin, todentaminen
 - sv: torv, torvmark, myr, mosse, kärr, organogen jord, mulljord, dikad, återvätning,
   våtmark, torvtäkt, efterbehandling, vitmossa, torvfri, odlingssubstrat,
-  grundvattennivå, reglerbar dränering, kolsänka, markanvändning
+  grundvattennivå, reglerbar dränering, kolsänka, kolinlagring, markkol,
+  växthusgas, lustgas, markanvändning, klimatkompensation
 - et: turvas, turbaala, turvasmuld, jääksoo, soo, raba, madalsoo, märgala,
-  ammendatud turbaväli, taastamine, korrastamine, maaparandus, veerežiim, süsinik
+  ammendatud turbaväli, taastamine, korrastamine, maaparandus, veerežiim, süsinik,
+  mulla süsinik, süsiniku sidumine, kasvuhoonegaas, heitkogused
 - lv: kūdra, kūdrājs, kūdras ieguve, purvs, augstais purvs, zāļu purvs, mitrājs,
   organiskās augsnes, rekultivācija, renaturalizācija, meliorācija, paludikultūra,
-  ZIZIMM (maankäyttösektori)
+  ZIZIMM (maankäyttösektori), augsnes ogleklis, oglekļa piesaiste,
+  siltumnīcefekta gāzes, emisijas
 - de: Moor, Moorboden, Hochmoor, Niedermoor, Anmoor, organische Böden, kohlenstoffreiche
   Böden, Wiedervernässung, Renaturierung, Paludikultur, Torfmoos, Torfersatz, torffrei,
-  Moorgrünland, Moorwald, Wasserstandsanhebung, Moorschutz
+  Moorgrünland, Moorwald, Wasserstandsanhebung, Moorschutz, Bodenkohlenstoff,
+  Humusaufbau, Kohlenstoffspeicherung, Treibhausgas, Lachgas, Carbon Farming
 - Natura 2000 -luontotyypit (hae koodilla ja nimellä): 7110 keidassuot / active raised
   bogs, 7120 degraded raised bogs, 7130 blanket bogs, 7140 transition mires,
   7160 lähteiköt, 7230 alkaline fens, 91D0 bog woodland / puustoiset suot
@@ -288,7 +301,7 @@ Mainitse kuvauksessa, jos kyse on huippuyksiköstä, konsortiosta tai lippulaiva
 
 ### 8. Tillväxtverket Projektbanken (Ruotsi: Regionalfonden, JTF)
 
-Ruotsin turvemaahankkeet puuttuvat aineistosta kokonaan, joten tämä on tärkein yksittäinen täydennys.
+Haettu 2.11.2026: 7 osumaa, joista 3 on Interreg-hankkeita (Aurora, Öresund-Kattegat-Skagerrak). Interreg-hankkeet toivat ensimmäiset vahvistetut Suomi–Ruotsi-yhteydet (PRESERVE, CircularGreens). Projektbankenin hakusivulla ei ole hankekohtaista osoitetta, joten projektinumero on kirjattava erikseen.
 
 ```text
 LÄHDE 8: Tillväxtverket. Avaa https://tillvaxtverket.se ja etsi "Projektbanken"
@@ -304,6 +317,15 @@ Kirjaa rahasto (Regionalfonden = EAKR, Fonden för en rättvis omställning = JT
 ohjelmakausi, toteuttaja = "Projektägare", alue = "Programområde" tai län,
 budjetti_eur = "Total budget" muunnettuna vain jos sivu antaa euromäärän;
 muuten kirjaa kruunumäärä kuvaukseen (esim. "SEK 4 200 000").
+Interreg-hankkeissa summat ovat euroina: kirjaa ne budjetti- ja EU-osuus-kenttiin ja
+ohjelman nimi kuvauksen loppuun muodossa "Program: Interreg Aurora".
+Projektbankenin osoite ei yksilöi hanketta. Kirjaa url-kenttään hankkeen oma sivu, jos
+sellainen löytyy (hankkeen kotisivu, keep.eu tai ohjelman sivu). Muuten kirjaa
+projektbankenin osoite ja lisää lyhenne-kenttään projektinumero ("Ärendenummer" tai
+"Projektnummer").
+Tanskan ja Ruotsin Interreg ÖKS -hankkeiden kuvaukset ovat usein tanskaksi. Aja myös:
+lavbund, lavbundsjorder, udtagning, kulstofrig jord, vådområde, tørv, mose.
+Hae esiprojektit ("forprojekt", "förstudie") erikseen ja kirjaa ne omiksi riveikseen.
 ```
 
 ### 9. Jordbruksverket – EIP-innovationsprojekt (Ruotsi)
@@ -317,8 +339,13 @@ Hakusanat: torv, torvfri, torvmark, organogen jord, mulljord, myr, våtmark,
 återvätning, dränering, reglerbar dränering, grundvatten, grundvattennivå, bevattning,
 paludikultur, vitmossa, odlingssubstrat, jordblandning, kolinlagring, växthusgas,
 vall på mulljord, betesmark.
+Lisää hakusanoja, jotka tuottivat osumia 2.11.2026: kolsänk*, kolinlagr*,
+grundvatten*, torv. Kolinlagring-haut tuovat paljon kivennäismaan hiilensidontaa;
+kirjaa ne, ylläpitäjä merkitsee ne maaperähankkeiksi.
 Landsbygdsnätverketin EIP-tietokanta (landsbygdsnatverket.se → EIP-projekt) on
-käytännössä sama lista; hae molemmista.
+käytännössä sama lista, ja siellä on hankekohtaiset osoitteet; hae molemmista.
+Summat ovat kruunuina ("Budget: 5,6 miljoner kr"). Jätä budjetti_eur ja eu_osuus_eur
+tyhjiksi ja kirjaa kruunumäärä kuvaukseen. Älä muunna euroiksi.
 Kirjaa rahasto = "EIP", toteuttaja = "Projektägare", partnerit = innovationsgruppens
 deltagare, kuvaus ja tulokset (slutrapport, jos linkitetty).
 ```
@@ -496,7 +523,10 @@ aineisto) ja DOI; url = DOI-linkki. Jätä rahasto- ja summakentät tyhjiksi.
 ## Tulosten tarkistus ennen tuontia
 
 - Poista kaksoiskappaleet: sama hanke löytyy usein sekä Kohesiosta että kansallisesta rekisteristä. Säilytä rivi, jossa on enemmän tietoa, ja kirjaa toinen URL kuvaukseen.
-- Tarkista rajaus: pidä vain turvemaihin ja maaperään liittyvät hankkeet.
+- Tarkista rajaus: pidä turvemaihin ja maaperään liittyvät hankkeet ([SCHEMA.md](../SCHEMA.md#rajaus-rajaus)).
 - Tarkista summat lähteestä, jos ne poikkeavat muista lähteistä.
+- Merkitse maaperähankkeet: hankkeet, jotka koskevat maaperän päästöjä, hiilensidontaa, MRV:tä tai vesitaloutta mutta eivät nimetysti turvemaata, kirjataan `src/tuonti.py`:n `MAAPERA`-listaan perusteluineen (rajaus = maaperä, [SCHEMA.md](../SCHEMA.md)). Hakusivulla ne voi suodattaa erikseen.
+- Tarkista summat, joita lähde ei anna euroina. Jos rivillä on euromäärä mutta sivulla kruunuja, lisää hanke `BUDGET_UNVERIFIED`-listaan.
+- Jos sama hanke löytyy useasta lähteestä samalla nimellä, täsmää rivi lähdekohtaisella avaimella `"lähde:nimi"` `MATCH_EXISTING`-listassa.
 - Luokittele teemat T1–T8 ([SCHEMA.md](../SCHEMA.md)) ja näyttöaste 0–4 vasta tarkistuksessa. Claude ei luokittele hakuvaiheessa, jotta luokittelu pysyy yhtenäisenä.
 - Kirjaa osallistujat (toteuttaja ja partnerit) `PARTICIPATION`-listaan, jotta ne näkyvät yhteysverkostossa. Uudet organisaatiot lisätään `ORGS`-listaan.

@@ -9,7 +9,7 @@ THEMES = {
     "T3": "Kosteikkoviljely (paludikulttuuri) ja turpeen korvaajat",
     "T4": "Suometsät: metsitys, ojitettujen suometsien hoito ja ennallistaminen",
     "T5": "Luonnontilaisten soiden suojelu ja ennallistaminen",
-    "T6": "Maankäyttösektorin päästöt: KHK-mittaus, päästökertoimet, inventaario, MRV",
+    "T6": "Maaperän ja maankäyttösektorin päästöt ja hiilensidonta: KHK-mittaus, päästökertoimet, inventaario, MRV, hiiliviljely",
     "T7": "Osaamiskeskittymät, klusterit ja tiedonvälitys",
     "T8": "Maanomistajat, maankäytön suunnittelu ja turpeesta luopumisen sosioekonomia",
 }
@@ -423,6 +423,8 @@ _ORG_EXTRA = [
     dict(id="syke", name="Suomen ympäristökeskus (Syke)", country="FI", type="tutkimuslaitos"),
     dict(id="keha", name="ELY-keskusten kehittämis- ja hallintokeskus (KEHA)", country="FI", type="viranomainen"),
     dict(id="rmk", name="Riigimetsa Majandamise Keskus (RMK)", country="EE", type="viranomainen"),
+    dict(id="slu", name="Sveriges lantbruksuniversitet (SLU)", country="SE", type="yliopisto"),
+    dict(id="ltu", name="Luleå tekniska universitet", country="SE", type="yliopisto"),
 ]
 _known = {o["id"] for o in ORGS}
 ORGS += [o for o in _ORG_EXTRA if o["id"] not in _known]
@@ -435,6 +437,8 @@ PARTICIPATION += _part
 REMOVED += _removed
 
 # Hakulähteiden rivit, jotka täydentävät olemassa olevia hankkeita tai vertailukohteita
+for _p in PROJECTS:
+    _p.setdefault("rajaus", "turvemaa")
 _byid = {p["id"]: p for p in PROJECTS + CONTEXT}
 for _pid, _rows in _enrich.items():
     _p = _byid[_pid]

@@ -39,7 +39,16 @@ Rajauksen ulkopuolella: vety, energiaratkaisut, yleinen yritystuki, matkailu.
 | 3 | Raportoituja mitattuja tuloksia |
 | 4 | Avoin data tai vertaisarvioitu julkaisu |
 
-Asteikko mittaa julkaistun tuotostiedon todennettavuutta, ei hankkeen laatua.
+### Rajaus (`rajaus`)
+
+Aineiston rajaus on turvemaat ja muu maaperä. Hankkeen kenttä `rajaus` on joko
+
+- `turvemaa`: hanke koskee nimetysti turvemaita, soita, turvepeltoja, suometsiä, turvetuotantoalueita tai turpeen korvaajia
+- `maaperä`: hanke koskee maaperän tai maankäyttösektorin päästöjä, hiilensidontaa, päästöjen mittausta ja todentamista (MRV), hiiliviljelyä tai maaperän vesitaloutta, mutta ei nimetysti turvemaata.
+
+Kentässä `rajaus_peruste` on lyhyt peruste maaperähankkeille. Päätökset ovat listassa `MAAPERA` tiedostossa `src/tuonti.py`. Hakusivulla rajauksen voi valita suodattimella.
+
+Rajauksen ulkopuolelle jäävät vety, energia, matkailu, yleinen yritystuki, jätehuolto ilman maaperäyhteyttä sekä ravinteiden kierrätys ja maan kasvukunto ilman päästö- tai hiilinäkökulmaa.
 
 ## Särmät (`data/edges.csv`)
 

@@ -16,14 +16,14 @@ Aineistolla on kolme tehtävää:
 
 Luvut on generoitu tiedostoon [`analysis/raportti.md`](analysis/raportti.md). Ne päivittyvät, kun aineisto kasvaa.
 
-Aineistossa on 129 hanketta: Kohesiosta tuotiin 96, EU CAP Networkin EIP-hankkeista 12, Tillväxtverketin projektbankenista 2 ja Ruotsin EIP-tietokannasta 2 (2.11.2026, [hakulahteet/tulokset/](hakulahteet/tulokset/)). Lisäksi mukana on 6 osaamiskeskusta ja 137 organisaatiota.
+Aineistossa on 140 hanketta: Kohesiosta tuotiin 100, EU CAP Networkin EIP-hankkeista 13, Tillväxtverketin projektbankenista 4 ja Ruotsin EIP-tietokannasta 6 (2.11.2026, [hakulahteet/tulokset/](hakulahteet/tulokset/)). Hankkeista 12 on muita maaperähankkeita (maaperän päästöt, hiilensidonta, MRV) ja loput turvemaahankkeita. Lisäksi mukana on 6 osaamiskeskusta ja 149 organisaatiota.
 
-- **Toimijat ovat erillisissä saarekkeissa.** 277 toimijaa jakautuu 77 yhteistyösaarekkeeseen. Maarajan ylittää kaksi: Suomi–Latvia–Interreg (Silava, PRESERVE, SuoLiike) ja Niedersachsen–Irlanti (Smart Carbon Farming -Interreg, jossa mukana Green Restoration Ireland ja Teagasc). Lähteellä vahvistettuja maiden välisiä yhteyksiä on 4.
-- **Samoja teemoja ilman yhteyttä.** 72 teeman ja maaparin yhdistelmästä, joissa molemmilla mailla on hankkeita, 67:ltä puuttuu vahvistettu yhteistyöpolku. Suurin aukko on soiden suojelussa ja ennallistamisessa Niedersachsenin ja Suomen välillä.
+- **Toimijat ovat erillisissä saarekkeissa.** 300 toimijaa jakautuu 80 yhteistyösaarekkeeseen. Maarajan ylittää kaksi: Suomi–Latvia–Interreg (Silava, PRESERVE, SuoLiike) ja Niedersachsen–Irlanti (Smart Carbon Farming -Interreg, jossa mukana Green Restoration Ireland ja Teagasc). Lähteellä vahvistettuja maiden välisiä yhteyksiä on 8. Ruotsin Interreg Aurora -hankkeet (PRESERVE, CircularGreens) toivat ensimmäiset Suomi–Ruotsi-yhteydet: Luke, Oulun yliopisto, Itä-Suomen yliopisto, SLU ja Luleå tekniska universitet.
+- **Samoja teemoja ilman yhteyttä.** 72 teeman ja maaparin yhdistelmästä, joissa molemmilla mailla on hankkeita, 66:lta puuttuu vahvistettu yhteistyöpolku. Suurin aukko on soiden suojelussa ja ennallistamisessa Niedersachsenin ja Suomen välillä.
 - **Niedersachsen ennallistaa, Suomi suunnittelee.** Niedersachsenin 49 EFRE-hanketta 2014–20 ovat pääosin toteutettuja vettämisiä ja suojelualueiden vesitalouden korjauksia. Suomen 27 JTF- ja EAKR-hanketta ovat pääosin jälkikäytön suunnittelua ja esiselvityksiä.
 - **Suomen turvepainotteinen JTF-rahoitus Kohesiossa on pieni.** Kohesiosta löytyi 23 suomalaista JTF-turvemaahanketta, yhteensä 7,6 M€, kun Suomen koko JTF-allokaatio on 465 M€. Luku kattaa vain hakusanoilla löytyneet hankkeet.
-- **Tuotokset jäävät tavoitteiksi.** 100 hanketta 129:stä kuvaa vain toimenpiteet (näyttöaste 1). Mitattuja tai vertaisarvioituja tuloksia on kolmella.
-- **Aukko:** Ruotsista on nyt kuusi hanketta ja yksi Tanskan–Ruotsin Interreg-hanke (Land4Climate). Ruotsin turvemaiden vettäminen rahoitetaan pitkälti kansallisesti (Våtmarkssatsningen), joten EU-rahastojen kautta näkyy vain osa ([hakulähde 10](hakulahteet/README.md)). Ruotsin hankkeiden budjetit ovat lähteissä kruunuina, eikä niitä ole muunnettu euroiksi.
+- **Tuotokset jäävät tavoitteiksi.** 111 hanketta 140:stä kuvaa vain toimenpiteet (näyttöaste 1). Mitattuja tai vertaisarvioituja tuloksia on kolmella.
+- **Aukko:** Ruotsista on nyt 11 hanketta sekä kaksi Tanskan–Ruotsin Interreg-hanketta (Land4Climate ja sen esiprojekti). Ruotsin hankkeista 7 on muita maaperähankkeita (hiilensidonta, vesitalous), ja soiden ennallistamista koskee vain MyreN. Ruotsin turvemaiden vettäminen rahoitetaan pitkälti kansallisesti (Våtmarkssatsningen), joten EU-rahastojen kautta näkyy vain osa ([hakulähde 10](hakulahteet/README.md)). Ruotsin hankkeiden budjetit ovat lähteissä kruunuina, eikä niitä ole muunnettu euroiksi.
 
 ## Rakenne
 
@@ -77,7 +77,7 @@ Turverkko on Miiro Jääskeläisen ([ORCID 0000-0002-0683-8352](https://orcid.or
 
 Työ on tehty tekoälyavusteisesti: lähdehaku, koodi, analyysiskriptit ja visualisointi tuotettiin Clauden (Anthropic) avulla tekijän ohjauksessa. Tekijän oma panos:
 
-- **Tutkimuskysymys ja rajaus.** Tavoite vertailla hankkeiden päällekkäisyyttä sekä tuotosten määrää ja laatua, alueiden valinta (EU:n turvemaa-alueet), ohjelmakaudet ja rajaus turvemaihin, turvepeltoihin, suometsiin, kosteikkoviljelyyn, ennallistamiseen ja maankäyttösektorin päästöihin.
+- **Tutkimuskysymys ja rajaus.** Tavoite vertailla hankkeiden päällekkäisyyttä sekä tuotosten määrää ja laatua, alueiden valinta (EU:n turvemaa-alueet), ohjelmakaudet ja rajaus turvemaihin, turvepeltoihin, suometsiin, kosteikkoviljelyyn, ennallistamiseen sekä maaperän ja maankäyttösektorin päästöihin, hiilensidontaan ja MRV:hen (rajausta laajennettu 2.11.2026, ks. [SCHEMA.md](SCHEMA.md#rajaus-rajaus)).
 - **Asiantuntijatarkistus.** Teemaluokituksen ja hankkeiden välisten kytkösten oikeellisuuden arviointi maaperä- ja ympäristötieteen asiantuntemuksella.
 - **Julkaisupäätökset.** Nimi, avoin julkaisu, lisenssit ja jatkokehitysmalli.
 

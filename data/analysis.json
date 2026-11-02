@@ -4,25 +4,25 @@
   "missing_min_jaccard": 0.6
  },
  "summary": {
-  "actors": 277,
-  "collab_edges": 216,
+  "actors": 300,
+  "collab_edges": 238,
   "unverified_edges": 3,
-  "components": 77,
-  "largest_component": 72,
+  "components": 80,
+  "largest_component": 88,
   "multi_country_components": 2,
-  "cross_country_edges": 4,
-  "missing_links": 241,
-  "missing_cross_country": 241,
+  "cross_country_edges": 8,
+  "missing_links": 297,
+  "missing_cross_country": 297,
   "theme_country_pairs": 72,
-  "theme_country_pairs_unlinked": 67
+  "theme_country_pairs_unlinked": 66
  },
  "components": [
   {
    "komponentti": 1,
-   "solmuja": 72,
-   "maita": 3,
-   "maat": "EU FI LV",
-   "hankkeet_ja_keskukset": "E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-561d K-FI-6894 K-FI-7c34 K-FI-879d K-FI-9511 K-FI-e8b3 K-LV-4390 K-LV-74bd LV-01 LV-03 X-FI-PEATRESC"
+   "solmuja": 88,
+   "maita": 4,
+   "maat": "EU FI LV SE",
+   "hankkeet_ja_keskukset": "E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-e8b3 K-LV-4390 K-LV-74bd LV-01 LV-03 T-SE-bda3 X-FI-PEATRESC"
   },
   {
    "komponentti": 2,
@@ -147,183 +147,183 @@
    "komponentti": 19,
    "solmuja": 3,
    "maita": 1,
-   "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
+   "maat": "EU",
+   "hankkeet_ja_keskukset": "T-EU-73cb T-EU-88fc"
   },
   {
    "komponentti": 20,
    "solmuja": 3,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-665a K-FI-9cd5"
+   "hankkeet_ja_keskukset": "K-FI-050e K-FI-b38f"
   },
   {
    "komponentti": 21,
    "solmuja": 3,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-6f20"
+   "hankkeet_ja_keskukset": "K-FI-665a K-FI-9cd5"
   },
   {
    "komponentti": 22,
+   "solmuja": 3,
+   "maita": 1,
+   "maat": "FI",
+   "hankkeet_ja_keskukset": "K-FI-6f20"
+  },
+  {
+   "komponentti": 23,
    "solmuja": 3,
    "maita": 1,
    "maat": "SE",
    "hankkeet_ja_keskukset": "K-SE-8b1e K-SE-be89"
   },
   {
-   "komponentti": 23,
+   "komponentti": 24,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
    "hankkeet_ja_keskukset": "FI-03"
   },
   {
-   "komponentti": 24,
+   "komponentti": 25,
    "solmuja": 2,
    "maita": 1,
    "maat": "EE",
    "hankkeet_ja_keskukset": "EE-02"
   },
   {
-   "komponentti": 25,
+   "komponentti": 26,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-e147"
   },
   {
-   "komponentti": 26,
+   "komponentti": 27,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-44a1"
   },
   {
-   "komponentti": 27,
+   "komponentti": 28,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-bd6b"
   },
   {
-   "komponentti": 28,
+   "komponentti": 29,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-410f"
   },
   {
-   "komponentti": 29,
+   "komponentti": 30,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-9163"
   },
   {
-   "komponentti": 30,
+   "komponentti": 31,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-ca87"
   },
   {
-   "komponentti": 31,
+   "komponentti": 32,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-d3d6"
   },
   {
-   "komponentti": 32,
+   "komponentti": 33,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-8755"
   },
   {
-   "komponentti": 33,
+   "komponentti": 34,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-04a5"
   },
   {
-   "komponentti": 34,
+   "komponentti": 35,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-c57b"
   },
   {
-   "komponentti": 35,
+   "komponentti": 36,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-3ac3"
   },
   {
-   "komponentti": 36,
+   "komponentti": 37,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-6f11"
   },
   {
-   "komponentti": 37,
+   "komponentti": 38,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-cad6"
   },
   {
-   "komponentti": 38,
+   "komponentti": 39,
    "solmuja": 2,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-f3b0"
   },
   {
-   "komponentti": 39,
+   "komponentti": 40,
    "solmuja": 2,
    "maita": 1,
    "maat": "EU",
    "hankkeet_ja_keskukset": "K-EU-5a7e"
   },
   {
-   "komponentti": 40,
+   "komponentti": 41,
    "solmuja": 2,
    "maita": 1,
    "maat": "EU",
    "hankkeet_ja_keskukset": "K-EU-0882"
   },
   {
-   "komponentti": 41,
+   "komponentti": 42,
    "solmuja": 2,
    "maita": 1,
    "maat": "EU",
    "hankkeet_ja_keskukset": "K-EU-48f5"
   },
   {
-   "komponentti": 42,
+   "komponentti": 43,
    "solmuja": 2,
    "maita": 1,
    "maat": "EU",
    "hankkeet_ja_keskukset": "K-EU-f426"
   },
   {
-   "komponentti": 43,
-   "solmuja": 2,
-   "maita": 1,
-   "maat": "EU",
-   "hankkeet_ja_keskukset": "T-EU-73cb"
-  },
-  {
    "komponentti": 44,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "K-FI-a45d"
+   "hankkeet_ja_keskukset": "K-FI-1fcb"
   },
   {
    "komponentti": 45,
@@ -483,74 +483,95 @@
    "komponentti": 67,
    "solmuja": 2,
    "maita": 1,
+   "maat": "SE",
+   "hankkeet_ja_keskukset": "J-SE-2f3b"
+  },
+  {
+   "komponentti": 68,
+   "solmuja": 2,
+   "maita": 1,
+   "maat": "SE",
+   "hankkeet_ja_keskukset": "J-SE-50cf"
+  },
+  {
+   "komponentti": 69,
+   "solmuja": 2,
+   "maita": 1,
+   "maat": "SE",
+   "hankkeet_ja_keskukset": "J-SE-a3d4"
+  },
+  {
+   "komponentti": 70,
+   "solmuja": 2,
+   "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "H-IE-JTF"
   },
   {
-   "komponentti": 68,
+   "komponentti": 71,
    "solmuja": 1,
    "maita": 1,
    "maat": "FI",
    "hankkeet_ja_keskukset": "FI-10"
   },
   {
-   "komponentti": 69,
+   "komponentti": 72,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-7a94"
   },
   {
-   "komponentti": 70,
+   "komponentti": 73,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-c05c"
   },
   {
-   "komponentti": 71,
+   "komponentti": 74,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-d90f"
   },
   {
-   "komponentti": 72,
+   "komponentti": 75,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-cc25"
   },
   {
-   "komponentti": 73,
+   "komponentti": 76,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-NI",
    "hankkeet_ja_keskukset": "K-DE-NI-e128"
   },
   {
-   "komponentti": 74,
+   "komponentti": 77,
    "solmuja": 1,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "E-IE-9275"
   },
   {
-   "komponentti": 75,
+   "komponentti": 78,
    "solmuja": 1,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "E-IE-2cb2"
   },
   {
-   "komponentti": 76,
+   "komponentti": 79,
    "solmuja": 1,
    "maita": 1,
    "maat": "IE",
    "hankkeet_ja_keskukset": "E-IE-9676"
   },
   {
-   "komponentti": 77,
+   "komponentti": 80,
    "solmuja": 1,
    "maita": 1,
    "maat": "DE-SH",
@@ -563,11 +584,11 @@
    "nimi": "Luonnonvarakeskus (Luke)",
    "maa": "FI",
    "tyyppi": "tutkimuslaitos",
-   "hankkeita": 3,
+   "hankkeita": 7,
    "keskuksia": 1,
    "keskukset": "H-LV",
-   "tavoittaa_maita": 3,
-   "valityskeskeisyys": 0.0332,
+   "tavoittaa_maita": 4,
+   "valityskeskeisyys": 0.0462,
    "komponentti": 1
   },
   {
@@ -579,7 +600,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0252,
+   "valityskeskeisyys": 0.0272,
    "komponentti": 1
   },
   {
@@ -590,20 +611,20 @@
    "hankkeita": 5,
    "keskuksia": 1,
    "keskukset": "H-FI",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0138,
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0133,
    "komponentti": 1
   },
   {
-   "id": "uef",
-   "nimi": "Itä-Suomen yliopisto",
+   "id": "oy",
+   "nimi": "Oulun yliopisto",
    "maa": "FI",
    "tyyppi": "yliopisto",
    "hankkeita": 4,
    "keskuksia": 1,
-   "keskukset": "H-FI-AKA",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0112,
+   "keskukset": "H-FI",
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0124,
    "komponentti": 1
   },
   {
@@ -615,19 +636,31 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0104,
+   "valityskeskeisyys": 0.0115,
    "komponentti": 1
   },
   {
-   "id": "syke",
-   "nimi": "Suomen ympäristökeskus (Syke)",
+   "id": "uef",
+   "nimi": "Itä-Suomen yliopisto",
    "maa": "FI",
-   "tyyppi": "tutkimuslaitos",
+   "tyyppi": "yliopisto",
    "hankkeita": 4,
-   "keskuksia": 0,
-   "keskukset": "",
+   "keskuksia": 1,
+   "keskukset": "H-FI-AKA",
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0114,
+   "komponentti": 1
+  },
+  {
+   "id": "lathort",
+   "nimi": "Institute of Horticulture (LatHort)",
+   "maa": "LV",
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 2,
+   "keskuksia": 1,
+   "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0067,
+   "valityskeskeisyys": 0.0109,
    "komponentti": 1
   },
   {
@@ -638,32 +671,20 @@
    "hankkeita": 5,
    "keskuksia": 2,
    "keskukset": "H-FI H-FI-AKA",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0064,
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0069,
    "komponentti": 1
   },
   {
-   "id": "galway",
-   "nimi": "University of Galway",
-   "maa": "IE",
-   "tyyppi": "yliopisto",
-   "hankkeita": 3,
-   "keskuksia": 2,
-   "keskukset": "H-IE-GAL H-IE-LIFE",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0035,
-   "komponentti": 2
-  },
-  {
-   "id": "oy",
-   "nimi": "Oulun yliopisto",
+   "id": "syke",
+   "nimi": "Suomen ympäristökeskus (Syke)",
    "maa": "FI",
-   "tyyppi": "yliopisto",
-   "hankkeita": 2,
-   "keskuksia": 1,
-   "keskukset": "H-FI",
-   "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0035,
+   "tyyppi": "tutkimuslaitos",
+   "hankkeita": 4,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0068,
    "komponentti": 1
   },
   {
@@ -675,8 +696,20 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0028,
+   "valityskeskeisyys": 0.0033,
    "komponentti": 1
+  },
+  {
+   "id": "galway",
+   "nimi": "University of Galway",
+   "maa": "IE",
+   "tyyppi": "yliopisto",
+   "hankkeita": 3,
+   "keskuksia": 2,
+   "keskukset": "H-IE-GAL H-IE-LIFE",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.003,
+   "komponentti": 2
   },
   {
    "id": "lbtu",
@@ -687,7 +720,7 @@
    "keskuksia": 1,
    "keskukset": "H-LV",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0025,
+   "valityskeskeisyys": 0.003,
    "komponentti": 1
   },
   {
@@ -699,7 +732,7 @@
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0023,
+   "valityskeskeisyys": 0.002,
    "komponentti": 2
   },
   {
@@ -711,7 +744,31 @@
    "keskuksia": 1,
    "keskukset": "H-FI",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0018,
+   "valityskeskeisyys": 0.0019,
+   "komponentti": 1
+  },
+  {
+   "id": "slu",
+   "nimi": "Sveriges lantbruksuniversitet (SLU)",
+   "maa": "SE",
+   "tyyppi": "yliopisto",
+   "hankkeita": 2,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0019,
+   "komponentti": 1
+  },
+  {
+   "id": "lapin-ammattikorkeakoulu-oy",
+   "nimi": "Lapin ammattikorkeakoulu Oy",
+   "maa": "FI",
+   "tyyppi": "amk",
+   "hankkeita": 2,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0019,
    "komponentti": 1
   },
   {
@@ -723,7 +780,7 @@
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0013,
+   "valityskeskeisyys": 0.0011,
    "komponentti": 3
   },
   {
@@ -735,7 +792,7 @@
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0013,
+   "valityskeskeisyys": 0.0011,
    "komponentti": 2
   },
   {
@@ -747,7 +804,7 @@
    "keskuksia": 1,
    "keskukset": "H-IE-LIFE",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0006,
+   "valityskeskeisyys": 0.0005,
    "komponentti": 2
   },
   {
@@ -759,7 +816,7 @@
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0005,
+   "valityskeskeisyys": 0.0004,
    "komponentti": 3
   },
   {
@@ -771,7 +828,7 @@
    "keskuksia": 0,
    "keskukset": "",
    "tavoittaa_maita": 1,
-   "valityskeskeisyys": 0.0004,
+   "valityskeskeisyys": 0.0003,
    "komponentti": 4
   },
   {
@@ -782,8 +839,8 @@
    "hankkeita": 2,
    "keskuksia": 2,
    "keskukset": "H-FI H-FI-AKA",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0002,
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0003,
    "komponentti": 1
   },
   {
@@ -895,6 +952,18 @@
    "komponentti": 18
   },
   {
+   "id": "gate-21",
+   "nimi": "Gate 21",
+   "maa": "",
+   "tyyppi": "viranomainen",
+   "hankkeita": 2,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 19
+  },
+  {
    "id": "john-nurmisen-saatio-sr",
    "nimi": "John Nurmisen Säätiö sr",
    "maa": "FI",
@@ -928,7 +997,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 19
+   "komponentti": 20
   },
   {
    "id": "suomen-riistanhoito-saatio-sr",
@@ -940,7 +1009,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 20
+   "komponentti": 21
   },
   {
    "id": "skogsstyrelsen",
@@ -952,7 +1021,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 22
+   "komponentti": 23
   },
   {
    "id": "aalto",
@@ -1000,7 +1069,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 23
+   "komponentti": 24
   },
   {
    "id": "ks-ely",
@@ -1022,7 +1091,7 @@
    "hankkeita": 1,
    "keskuksia": 1,
    "keskukset": "H-LV",
-   "tavoittaa_maita": 2,
+   "tavoittaa_maita": 4,
    "valityskeskeisyys": 0.0,
    "komponentti": 1
   },
@@ -1034,7 +1103,7 @@
    "hankkeita": 1,
    "keskuksia": 1,
    "keskukset": "H-LV",
-   "tavoittaa_maita": 2,
+   "tavoittaa_maita": 4,
    "valityskeskeisyys": 0.0,
    "komponentti": 1
   },
@@ -1065,18 +1134,6 @@
   {
    "id": "ies",
    "nimi": "Institute for Environmental Solutions",
-   "maa": "LV",
-   "tyyppi": "tutkimuslaitos",
-   "hankkeita": 1,
-   "keskuksia": 1,
-   "keskukset": "H-LV",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0,
-   "komponentti": 1
-  },
-  {
-   "id": "lathort",
-   "nimi": "Institute of Horticulture (LatHort)",
    "maa": "LV",
    "tyyppi": "tutkimuslaitos",
    "hankkeita": 1,
@@ -1216,7 +1273,7 @@
    "keskukset": "H-FI H-IE-JTF",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 67
+   "komponentti": 70
   },
   {
    "id": "ml-ni",
@@ -1240,7 +1297,19 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 24
+   "komponentti": 25
+  },
+  {
+   "id": "ltu",
+   "nimi": "Luleå tekniska universitet",
+   "maa": "SE",
+   "tyyppi": "yliopisto",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 3,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
   },
   {
    "id": "landkreis-luneburg",
@@ -1252,7 +1321,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 25
+   "komponentti": 26
   },
   {
    "id": "offis",
@@ -1348,7 +1417,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 26
+   "komponentti": 27
   },
   {
    "id": "torfwerk-moorkultur-ramsloh-werner-koch-",
@@ -1360,7 +1429,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 27
+   "komponentti": 28
   },
   {
    "id": "schmedt",
@@ -1372,7 +1441,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 28
+   "komponentti": 29
   },
   {
    "id": "archehof-rolfes",
@@ -1384,7 +1453,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 29
+   "komponentti": 30
   },
   {
    "id": "naturschutzstiftung-grafschaft-bentheim",
@@ -1396,7 +1465,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 30
+   "komponentti": 31
   },
   {
    "id": "landkreis-vechta",
@@ -1408,7 +1477,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 31
+   "komponentti": 32
   },
   {
    "id": "staatliche-moorverwaltung",
@@ -1420,7 +1489,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 32
+   "komponentti": 33
   },
   {
    "id": "landkreis-verden",
@@ -1432,7 +1501,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 33
+   "komponentti": 34
   },
   {
    "id": "niedersachsische-landesforsten-aor",
@@ -1444,7 +1513,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 34
+   "komponentti": 35
   },
   {
    "id": "niedersachsische-landesforsten-aor-forst",
@@ -1456,7 +1525,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 35
+   "komponentti": 36
   },
   {
    "id": "niedersachsische-landesforsten-a-o-r-for",
@@ -1468,7 +1537,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 36
+   "komponentti": 37
   },
   {
    "id": "3n-kompetenzzentrum-niedersachsen-netzwe",
@@ -1528,7 +1597,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 37
+   "komponentti": 38
   },
   {
    "id": "europaisches-fachzentrum-moor-und-klima-",
@@ -1540,7 +1609,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 38
+   "komponentti": 39
   },
   {
    "id": "akcelerator-drustvenih-promjena-zid",
@@ -1552,7 +1621,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 39
+   "komponentti": 40
   },
   {
    "id": "association-des-chambres-d-agriculture-d",
@@ -1564,7 +1633,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 40
+   "komponentti": 41
   },
   {
    "id": "van-hall-larenstein-university-of-applie",
@@ -1576,7 +1645,7 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 41
+   "komponentti": 42
   },
   {
    "id": "broads-authority",
@@ -1588,23 +1657,11 @@
    "keskukset": "",
    "tavoittaa_maita": 2,
    "valityskeskeisyys": 0.0,
-   "komponentti": 42
-  },
-  {
-   "id": "gate-21",
-   "nimi": "Gate 21",
-   "maa": "",
-   "tyyppi": "viranomainen",
-   "hankkeita": 1,
-   "keskuksia": 0,
-   "keskukset": "",
-   "tavoittaa_maita": 2,
-   "valityskeskeisyys": 0.0,
    "komponentti": 43
   },
   {
-   "id": "lapin-ammattikorkeakoulu-oy",
-   "nimi": "Lapin ammattikorkeakoulu Oy",
+   "id": "savonia-ammattikorkeakoulu-oy",
+   "nimi": "Savonia-ammattikorkeakoulu oy",
    "maa": "FI",
    "tyyppi": "amk",
    "hankkeita": 1,
@@ -1637,6 +1694,18 @@
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
    "komponentti": 46
+  },
+  {
+   "id": "mittuniversitetet",
+   "nimi": "Mittuniversitetet",
+   "maa": "FI",
+   "tyyppi": "yliopisto",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 2,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
   },
   {
    "id": "lappeenrannan-lahden-teknillinen-yliopis",
@@ -1720,7 +1789,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 21
+   "komponentti": 22
   },
   {
    "id": "jyvaskylan-ammattikorkeakoulu-oy",
@@ -1732,7 +1801,7 @@
    "keskukset": "",
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
-   "komponentti": 21
+   "komponentti": 22
   },
   {
    "id": "maaseudun-sivistysliiton-vaara-karjalan-",
@@ -1790,7 +1859,7 @@
    "hankkeita": 1,
    "keskuksia": 0,
    "keskukset": "",
-   "tavoittaa_maita": 2,
+   "tavoittaa_maita": 3,
    "valityskeskeisyys": 0.0,
    "komponentti": 1
   },
@@ -1889,6 +1958,66 @@
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
    "komponentti": 59
+  },
+  {
+   "id": "biedriba-latvijas-biologiskas-lauksaimni",
+   "nimi": "biedrība “Latvijas Bioloģiskās lauksaimniecības asociācija”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "sia-latvijas-lauku-konsultaciju-un-izgli",
+   "nimi": "SIA “Latvijas Lauku konsultāciju un izglītības centrs”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "sia-lm-product",
+   "nimi": "SIA “LM Product”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "zs-atvases",
+   "nimi": "ZS “Atvases”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
+  },
+  {
+   "id": "sia-eko-darzs",
+   "nimi": "Sia “Eko Dārzs”",
+   "maa": "LV",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 1
   },
   {
    "id": "olga-steinberga-sia-latvijas-lauku-konsu",
@@ -2201,6 +2330,42 @@
    "tavoittaa_maita": 1,
    "valityskeskeisyys": 0.0,
    "komponentti": 66
+  },
+  {
+   "id": "hushallningssallskapet-sjuharad",
+   "nimi": "Hushållningssällskapet Sjuhärad",
+   "maa": "SE",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 67
+  },
+  {
+   "id": "miljomatematik-malmo-ab",
+   "nimi": "Miljömatematik Malmö AB",
+   "maa": "SE",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 68
+  },
+  {
+   "id": "archaea-ab",
+   "nimi": "Archaea AB",
+   "maa": "SE",
+   "tyyppi": "viranomainen",
+   "hankkeita": 1,
+   "keskuksia": 0,
+   "keskukset": "",
+   "tavoittaa_maita": 1,
+   "valityskeskeisyys": 0.0,
+   "komponentti": 69
   }
  ],
  "missing_links": [
@@ -2260,8 +2425,47 @@
    "a": "IE-01",
    "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
    "a_maa": "IE",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 3
+  },
+  {
+   "a": "IE-01",
+   "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
+   "a_maa": "IE",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 3
+  },
+  {
+   "a": "IE-01",
+   "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
+   "a_maa": "IE",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 3
+  },
+  {
+   "a": "IE-01",
+   "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
+   "a_maa": "IE",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
    "b_maa": "SE",
    "jaccard": 1.0,
    "yhteiset_teemat": "T2,T6",
@@ -2767,11 +2971,76 @@
    "a": "K-DE-NI-7a94",
    "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
    "a_maa": "DE-NI",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-7a94",
+   "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "a_maa": "DE-NI",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-7a94",
+   "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "a_maa": "DE-NI",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
    "b_maa": "SE",
    "jaccard": 1.0,
    "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-7a94",
+   "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "a_maa": "DE-NI",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-c05c",
+   "a_nimi": "Gnarrenburger Moor – Area concept and water management",
+   "a_maa": "DE-NI",
+   "b": "J-SE-2f3b",
+   "b_nimi": "Kolsänksrätter med biokol",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-c05c",
+   "a_nimi": "Gnarrenburger Moor – Area concept and water management",
+   "a_maa": "DE-NI",
+   "b": "J-SE-50cf",
+   "b_nimi": "Svensk klimatkompensation - jordbruket som kolsänka",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T6,T8",
    "etaisyys": "ei polkua",
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
@@ -2858,8 +3127,47 @@
    "a": "K-DE-NI-cc25",
    "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
    "a_maa": "DE-NI",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-cc25",
+   "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "a_maa": "DE-NI",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-cc25",
+   "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "a_maa": "DE-NI",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-cc25",
+   "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "a_maa": "DE-NI",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
    "b_maa": "SE",
    "jaccard": 1.0,
    "yhteiset_teemat": "T2,T6",
@@ -3001,8 +3309,47 @@
    "a": "K-DE-NI-d14f",
    "a_nimi": "Smart Carbon Farming",
    "a_maa": "DE-NI",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-d14f",
+   "a_nimi": "Smart Carbon Farming",
+   "a_maa": "DE-NI",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-d14f",
+   "a_nimi": "Smart Carbon Farming",
+   "a_maa": "DE-NI",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-d14f",
+   "a_nimi": "Smart Carbon Farming",
+   "a_maa": "DE-NI",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
    "b_maa": "SE",
    "jaccard": 1.0,
    "yhteiset_teemat": "T2,T6",
@@ -3079,8 +3426,99 @@
    "a": "K-EU-48f5",
    "a_nimi": "Carbon Connects",
    "a_maa": "EU",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-EU-48f5",
+   "a_nimi": "Carbon Connects",
+   "a_maa": "EU",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-EU-48f5",
+   "a_nimi": "Carbon Connects",
+   "a_maa": "EU",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-EU-48f5",
+   "a_nimi": "Carbon Connects",
+   "a_maa": "EU",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "E-LV-6430",
+   "b_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "T-SE-5e29",
+   "b_nimi": "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-73cb",
+   "a_nimi": "Land4Climate",
+   "a_maa": "EU",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-73cb",
+   "a_nimi": "Land4Climate",
+   "a_maa": "EU",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
    "b_maa": "SE",
    "jaccard": 1.0,
    "yhteiset_teemat": "T2,T6",
@@ -3094,6 +3532,19 @@
    "a_maa": "EU",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-73cb",
+   "a_nimi": "Land4Climate",
+   "a_maa": "EU",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
    "b_maa": "SE",
    "jaccard": 1.0,
    "yhteiset_teemat": "T2,T6",
@@ -3123,6 +3574,45 @@
    "b_maa": "LV",
    "jaccard": 1.0,
    "yhteiset_teemat": "T5,T7",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-c39d",
+   "a_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "a_maa": "LV",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": 8,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-c39d",
+   "a_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "a_maa": "LV",
+   "b": "J-SE-b073",
+   "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-c39d",
+   "a_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "a_maa": "LV",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
+   "b_maa": "SE",
+   "jaccard": 1.0,
+   "yhteiset_teemat": "T2,T6",
    "etaisyys": "ei polkua",
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
@@ -3217,6 +3707,19 @@
    "etaisyys": 8,
    "tyyppi": "maiden välinen",
    "paras_naytto": 4
+  },
+  {
+   "a": "IE-01",
+   "a_nimi": "Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn",
+   "a_maa": "IE",
+   "b": "T-EU-88fc",
+   "b_nimi": "Land-4-Climate",
+   "b_maa": "EU",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 3
   },
   {
    "a": "IE-01",
@@ -4223,6 +4726,19 @@
    "a": "K-FI-c4ea",
    "a_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
    "a_maa": "FI",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-c4ea",
+   "a_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
+   "a_maa": "FI",
    "b": "E-LV-8eeb",
    "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
    "b_maa": "LV",
@@ -4236,8 +4752,34 @@
    "a": "K-FI-c4ea",
    "a_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
    "a_maa": "FI",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-c4ea",
+   "a_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
+   "a_maa": "FI",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 2
+  },
+  {
+   "a": "K-FI-c4ea",
+   "a_nimi": "The water protection wetland of the former peat production area of Kovalansuo",
+   "a_maa": "FI",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
    "b_maa": "SE",
    "jaccard": 0.67,
    "yhteiset_teemat": "T2,T6",
@@ -4496,6 +5038,19 @@
    "a": "K-DE-NI-7a94",
    "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
    "a_maa": "DE-NI",
+   "b": "T-EU-88fc",
+   "b_nimi": "Land-4-Climate",
+   "b_maa": "EU",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-7a94",
+   "a_nimi": "Climate protection-oriented agriculture in the Gnarrenburg Moor",
+   "a_maa": "DE-NI",
    "b": "K-FI-9511",
    "b_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "b_maa": "FI",
@@ -4558,6 +5113,58 @@
    "paras_naytto": 1
   },
   {
+   "a": "K-DE-NI-dab1",
+   "a_nimi": "Development of priorities in moor and climate protection in the district of Stade",
+   "a_maa": "DE-NI",
+   "b": "J-SE-2f3b",
+   "b_nimi": "Kolsänksrätter med biokol",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-dab1",
+   "a_nimi": "Development of priorities in moor and climate protection in the district of Stade",
+   "a_maa": "DE-NI",
+   "b": "J-SE-50cf",
+   "b_nimi": "Svensk klimatkompensation - jordbruket som kolsänka",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-c05c",
+   "a_nimi": "Gnarrenburger Moor – Area concept and water management",
+   "a_maa": "DE-NI",
+   "b": "T-EU-88fc",
+   "b_nimi": "Land-4-Climate",
+   "b_maa": "EU",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-c05c",
+   "a_nimi": "Gnarrenburger Moor – Area concept and water management",
+   "a_maa": "DE-NI",
+   "b": "K-FI-1fcb",
+   "b_nimi": "Forest plan for responsible forest owners",
+   "b_maa": "FI",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
    "a": "K-DE-NI-c05c",
    "a_nimi": "Gnarrenburger Moor – Area concept and water management",
    "a_maa": "DE-NI",
@@ -4592,6 +5199,19 @@
    "b_maa": "SE",
    "jaccard": 0.67,
    "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-cc25",
+   "a_nimi": "Model project Gnarrenburger Moor – Underfloor irrigation in a practical test",
+   "a_maa": "DE-NI",
+   "b": "T-EU-88fc",
+   "b_nimi": "Land-4-Climate",
+   "b_maa": "EU",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
    "etaisyys": "ei polkua",
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
@@ -4834,6 +5454,19 @@
    "a": "K-DE-NI-d14f",
    "a_nimi": "Smart Carbon Farming",
    "a_maa": "DE-NI",
+   "b": "T-EU-88fc",
+   "b_nimi": "Land-4-Climate",
+   "b_maa": "EU",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-DE-NI-d14f",
+   "a_nimi": "Smart Carbon Farming",
+   "a_maa": "DE-NI",
    "b": "K-FI-9511",
    "b_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "b_maa": "FI",
@@ -5031,6 +5664,84 @@
    "a_maa": "EU",
    "b": "T-SE-5e29",
    "b_nimi": "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "J-SE-b073",
+   "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "J-SE-2f3b",
+   "b_nimi": "Kolsänksrätter med biokol",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "J-SE-50cf",
+   "b_nimi": "Svensk klimatkompensation - jordbruket som kolsänka",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "T-EU-88fc",
+   "a_nimi": "Land-4-Climate",
+   "a_maa": "EU",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
    "b_maa": "SE",
    "jaccard": 0.67,
    "yhteiset_teemat": "T2,T6",
@@ -5117,6 +5828,32 @@
    "paras_naytto": 1
   },
   {
+   "a": "K-FI-1fcb",
+   "a_nimi": "Forest plan for responsible forest owners",
+   "a_maa": "FI",
+   "b": "J-SE-2f3b",
+   "b_nimi": "Kolsänksrätter med biokol",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-FI-1fcb",
+   "a_nimi": "Forest plan for responsible forest owners",
+   "a_maa": "FI",
+   "b": "J-SE-50cf",
+   "b_nimi": "Svensk klimatkompensation - jordbruket som kolsänka",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
    "a": "K-FI-56cf",
    "a_nimi": "NEVALA - Restoration planning of peat production areas at Keski-Suomi, Satakunta and Pirkanmaa provinces",
    "a_maa": "FI",
@@ -5185,12 +5922,38 @@
    "a": "K-FI-9511",
    "a_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
    "a_maa": "FI",
+   "b": "E-LV-c39d",
+   "b_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "b_maa": "LV",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": 10,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-FI-9511",
+   "a_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
+   "a_maa": "FI",
    "b": "E-LV-8eeb",
    "b_nimi": "Innovative Agrivoltaic System in a Blackberry Plantation on Peat Soil: Integration of Renewable Energy and Reduction of GHG Emissions",
    "b_maa": "LV",
    "jaccard": 0.67,
    "yhteiset_teemat": "T1,T6",
    "etaisyys": 10,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-FI-9511",
+   "a_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
+   "a_maa": "FI",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": 6,
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
   },
@@ -5208,6 +5971,45 @@
    "paras_naytto": 1
   },
   {
+   "a": "K-FI-9511",
+   "a_nimi": "Solar farms on cutover peatlands: impacts on microclimate and soil greenhouse gas emissions",
+   "a_maa": "FI",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-c39d",
+   "a_nimi": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "a_maa": "LV",
+   "b": "T-SE-5e29",
+   "b_nimi": "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-6430",
+   "a_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "a_maa": "LV",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": 8,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
    "a": "E-LV-6430",
    "a_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
    "a_maa": "LV",
@@ -5216,6 +6018,71 @@
    "b_maa": "SE",
    "jaccard": 0.67,
    "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-6430",
+   "a_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "a_maa": "LV",
+   "b": "J-SE-2f3b",
+   "b_nimi": "Kolsänksrätter med biokol",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-6430",
+   "a_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "a_maa": "LV",
+   "b": "J-SE-50cf",
+   "b_nimi": "Svensk klimatkompensation - jordbruket som kolsänka",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-6430",
+   "a_nimi": "Agricultural land management planning for use in agriculture, forestry or agroforestry, based on agro-technological, economic, environmental and climate risk data",
+   "a_maa": "LV",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-LV-74bd",
+   "a_nimi": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
+   "a_maa": "LV",
+   "b": "J-SE-2f3b",
+   "b_nimi": "Kolsänksrätter med biokol",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "K-LV-74bd",
+   "a_nimi": "Development of greenhouse gas emission factors and decision support tools for the management of degraded peatlands following peat extraction",
+   "a_maa": "LV",
+   "b": "J-SE-50cf",
+   "b_nimi": "Svensk klimatkompensation - jordbruket som kolsänka",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T6,T8",
    "etaisyys": "ei polkua",
    "tyyppi": "maiden välinen",
    "paras_naytto": 1
@@ -5263,8 +6130,34 @@
    "a": "E-LV-e70c",
    "a_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
    "a_maa": "LV",
+   "b": "J-SE-0e6e",
+   "b_nimi": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": 8,
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-e70c",
+   "a_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "a_maa": "LV",
    "b": "J-SE-b073",
    "b_nimi": "Klimatanpassad grundvatten-reglering i norrländskt jordbruk",
+   "b_maa": "SE",
+   "jaccard": 0.67,
+   "yhteiset_teemat": "T2,T6",
+   "etaisyys": "ei polkua",
+   "tyyppi": "maiden välinen",
+   "paras_naytto": 1
+  },
+  {
+   "a": "E-LV-e70c",
+   "a_nimi": "Sustainable management of degraded organic soils: impact of legume and digestate use on carbon cycling and ecosystem in a long term tree plantating",
+   "a_maa": "LV",
+   "b": "J-SE-a3d4",
+   "b_nimi": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
    "b_maa": "SE",
    "jaccard": 0.67,
    "yhteiset_teemat": "T2,T6",
@@ -5341,7 +6234,9 @@
  "cross_country": {
   "FI–LV": 1,
   "DE-NI–IE": 2,
-  "EU–FI": 1
+  "EU–FI": 2,
+  "EU–SE": 1,
+  "FI–SE": 2
  },
  "cross_country_unverified": {
   "FI–IE": 3
@@ -5381,19 +6276,19 @@
    "yhteys": false
   },
   {
+   "teema": "T6",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 14,
+   "hankkeita_b": 16,
+   "yhteys": false
+  },
+  {
    "teema": "T5",
    "a": "FI",
    "b": "IE",
    "hankkeita_a": 18,
    "hankkeita_b": 10,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 14,
-   "hankkeita_b": 12,
    "yhteys": false
   },
   {
@@ -5410,6 +6305,38 @@
    "b": "LV",
    "hankkeita_a": 31,
    "hankkeita_b": 4,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 16,
+   "hankkeita_b": 6,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "FI",
+   "b": "SE",
+   "hankkeita_a": 16,
+   "hankkeita_b": 6,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "DE-NI",
+   "b": "LV",
+   "hankkeita_a": 14,
+   "hankkeita_b": 6,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "DE-NI",
+   "b": "SE",
+   "hankkeita_a": 14,
+   "hankkeita_b": 6,
    "yhteys": false
   },
   {
@@ -5437,22 +6364,6 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "DE-NI",
-   "b": "LV",
-   "hankkeita_a": 14,
-   "hankkeita_b": 5,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 12,
-   "hankkeita_b": 5,
-   "yhteys": false
-  },
-  {
    "teema": "T3",
    "a": "DE-NI",
    "b": "IE",
@@ -5477,6 +6388,14 @@
    "yhteys": false
   },
   {
+   "teema": "T6",
+   "a": "LV",
+   "b": "SE",
+   "hankkeita_a": 6,
+   "hankkeita_b": 6,
+   "yhteys": false
+  },
+  {
    "teema": "T1",
    "a": "DE-NI",
    "b": "LV",
@@ -5498,6 +6417,22 @@
    "b": "FI",
    "hankkeita_a": 8,
    "hankkeita_b": 4,
+   "yhteys": false
+  },
+  {
+   "teema": "T2",
+   "a": "DE-NI",
+   "b": "SE",
+   "hankkeita_a": 8,
+   "hankkeita_b": 4,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 16,
+   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -5517,11 +6452,11 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "DE-NI",
+   "teema": "T2",
+   "a": "IE",
    "b": "SE",
-   "hankkeita_a": 14,
-   "hankkeita_b": 2,
+   "hankkeita_a": 7,
+   "hankkeita_b": 4,
    "yhteys": false
   },
   {
@@ -5541,18 +6476,18 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 12,
-   "hankkeita_b": 2,
+   "teema": "T2",
+   "a": "DE-NI",
+   "b": "LV",
+   "hankkeita_a": 8,
+   "hankkeita_b": 3,
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "FI",
+   "teema": "T3",
+   "a": "DE-NI",
    "b": "SE",
-   "hankkeita_a": 12,
+   "hankkeita_a": 11,
    "hankkeita_b": 2,
    "yhteys": false
   },
@@ -5562,6 +6497,30 @@
    "b": "LV",
    "hankkeita_a": 3,
    "hankkeita_b": 7,
+   "yhteys": false
+  },
+  {
+   "teema": "T2",
+   "a": "IE",
+   "b": "LV",
+   "hankkeita_a": 7,
+   "hankkeita_b": 3,
+   "yhteys": false
+  },
+  {
+   "teema": "T8",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 3,
+   "hankkeita_b": 7,
+   "yhteys": false
+  },
+  {
+   "teema": "T8",
+   "a": "FI",
+   "b": "SE",
+   "hankkeita_a": 7,
+   "hankkeita_b": 3,
    "yhteys": false
   },
   {
@@ -5581,24 +6540,24 @@
    "yhteys": false
   },
   {
-   "teema": "T8",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 3,
-   "hankkeita_b": 6,
+   "teema": "T2",
+   "a": "FI",
+   "b": "SE",
+   "hankkeita_a": 4,
+   "hankkeita_b": 4,
    "yhteys": false
   },
   {
-   "teema": "T2",
-   "a": "DE-NI",
+   "teema": "T4",
+   "a": "FI",
    "b": "LV",
    "hankkeita_a": 8,
    "hankkeita_b": 2,
    "yhteys": false
   },
   {
-   "teema": "T2",
-   "a": "DE-NI",
+   "teema": "T4",
+   "a": "FI",
    "b": "SE",
    "hankkeita_a": 8,
    "hankkeita_b": 2,
@@ -5614,34 +6573,34 @@
   },
   {
    "teema": "T2",
-   "a": "IE",
+   "a": "FI",
    "b": "LV",
-   "hankkeita_a": 7,
-   "hankkeita_b": 2,
+   "hankkeita_a": 4,
+   "hankkeita_b": 3,
    "yhteys": false
   },
   {
    "teema": "T2",
+   "a": "LV",
+   "b": "SE",
+   "hankkeita_a": 3,
+   "hankkeita_b": 4,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
+   "a": "IE",
+   "b": "LV",
+   "hankkeita_a": 2,
+   "hankkeita_b": 6,
+   "yhteys": false
+  },
+  {
+   "teema": "T6",
    "a": "IE",
    "b": "SE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T4",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 7,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T4",
-   "a": "FI",
-   "b": "SE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 2,
+   "hankkeita_a": 2,
+   "hankkeita_b": 6,
    "yhteys": false
   },
   {
@@ -5669,11 +6628,27 @@
    "yhteys": false
   },
   {
-   "teema": "T3",
-   "a": "DE-NI",
+   "teema": "T8",
+   "a": "LV",
    "b": "SE",
-   "hankkeita_a": 11,
-   "hankkeita_b": 1,
+   "hankkeita_a": 4,
+   "hankkeita_b": 3,
+   "yhteys": false
+  },
+  {
+   "teema": "T3",
+   "a": "IE",
+   "b": "SE",
+   "hankkeita_a": 5,
+   "hankkeita_b": 2,
+   "yhteys": false
+  },
+  {
+   "teema": "T3",
+   "a": "LV",
+   "b": "SE",
+   "hankkeita_a": 5,
+   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -5685,35 +6660,19 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "IE",
-   "b": "LV",
-   "hankkeita_a": 2,
-   "hankkeita_b": 5,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "LV",
+   "teema": "T8",
+   "a": "DE-NI",
    "b": "SE",
-   "hankkeita_a": 5,
-   "hankkeita_b": 2,
+   "hankkeita_a": 3,
+   "hankkeita_b": 3,
    "yhteys": false
   },
   {
-   "teema": "T2",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 4,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T2",
-   "a": "FI",
-   "b": "SE",
-   "hankkeita_a": 4,
-   "hankkeita_b": 2,
+   "teema": "T4",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 1,
+   "hankkeita_b": 8,
    "yhteys": false
   },
   {
@@ -5725,19 +6684,11 @@
    "yhteys": false
   },
   {
-   "teema": "T3",
+   "teema": "T8",
    "a": "FI",
-   "b": "SE",
+   "b": "IE",
    "hankkeita_a": 7,
    "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
-   "teema": "T4",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 1,
-   "hankkeita_b": 7,
    "yhteys": false
   },
   {
@@ -5754,22 +6705,6 @@
    "b": "LV",
    "hankkeita_a": 3,
    "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T8",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 6,
-   "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
-   "teema": "T8",
-   "a": "FI",
-   "b": "SE",
-   "hankkeita_a": 6,
-   "hankkeita_b": 1,
    "yhteys": false
   },
   {
@@ -5781,30 +6716,6 @@
    "yhteys": false
   },
   {
-   "teema": "T3",
-   "a": "IE",
-   "b": "SE",
-   "hankkeita_a": 5,
-   "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "LV",
-   "b": "SE",
-   "hankkeita_a": 5,
-   "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
-   "teema": "T2",
-   "a": "LV",
-   "b": "SE",
-   "hankkeita_a": 2,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
    "teema": "T4",
    "a": "LV",
    "b": "SE",
@@ -5821,14 +6732,6 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "IE",
-   "b": "SE",
-   "hankkeita_a": 2,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
    "teema": "T7",
    "a": "FI",
    "b": "LV",
@@ -5842,14 +6745,6 @@
    "b": "LV",
    "hankkeita_a": 1,
    "hankkeita_b": 4,
-   "yhteys": false
-  },
-  {
-   "teema": "T8",
-   "a": "LV",
-   "b": "SE",
-   "hankkeita_a": 4,
-   "hankkeita_b": 1,
    "yhteys": false
   },
   {
@@ -5870,10 +6765,10 @@
   },
   {
    "teema": "T8",
-   "a": "DE-NI",
+   "a": "IE",
    "b": "SE",
-   "hankkeita_a": 3,
-   "hankkeita_b": 1,
+   "hankkeita_a": 1,
+   "hankkeita_b": 3,
    "yhteys": false
   },
   {
@@ -5890,14 +6785,6 @@
    "b": "SE",
    "hankkeita_a": 1,
    "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T8",
-   "a": "IE",
-   "b": "SE",
-   "hankkeita_a": 1,
-   "hankkeita_b": 1,
    "yhteys": false
   },
   {
@@ -5936,8 +6823,16 @@
    "teema": "T8",
    "a": "FI",
    "b": "LV",
-   "hankkeita_a": 6,
+   "hankkeita_a": 7,
    "hankkeita_b": 4,
+   "yhteys": true
+  },
+  {
+   "teema": "T3",
+   "a": "FI",
+   "b": "SE",
+   "hankkeita_a": 7,
+   "hankkeita_b": 2,
    "yhteys": true
   }
  ]

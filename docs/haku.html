@@ -44,6 +44,7 @@
           <select id="f-kind" aria-label="Tyyppi"><option value="">Kaikki tyypit</option></select>
           <select id="f-country" aria-label="Maa"><option value="">Kaikki maat</option></select>
           <select id="f-theme" aria-label="Teema"><option value="">Kaikki teemat</option></select>
+          <select id="f-scope" aria-label="Rajaus"><option value="">Turvemaat ja muu maaperä</option><option value="turvemaa">Vain turvemaat</option><option value="maaperä">Vain muu maaperä</option></select>
         </div>
       </div>
       <p class="note mono" id="count" aria-live="polite"></p>
@@ -80,21 +81,22 @@ TV.load().then(d => {
   $("f-theme").innerHTML += Object.entries(ds.themes).map(([k, v]) => `<option value="${k}">${k} ${TV.esc(v)}</option>`).join("");
   const params = new URLSearchParams(location.search);
   if (params.get("q")) $("q").value = params.get("q");
-  ["q","f-kind","f-country","f-theme"].forEach(id => $(id).addEventListener("input", list));
+  ["q","f-kind","f-country","f-theme","f-scope"].forEach(id => $(id).addEventListener("input", list));
   list(); show();
   window.addEventListener("hashchange", show);
 }).catch(err => TV.fail($("results"), err));
 
 function list() {
   const q = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  const k = $("f-kind").value, c = $("f-country").value, t = $("f-theme").value;
+  const k = $("f-kind").value, c = $("f-country").value, t = $("f-theme").value, sc = $("f-scope").value;
+  const scopeOk = i => !sc || i.kind !== "hanke" || (i.raw.rajaus || "turvemaa") === sc;
   const order = {osaamiskeskus:0, hanke:1, vertailukohde:2, julkaisu:3, organisaatio:4, ohjelma:5};
-  const hits = items.filter(i => (!k || i.kind === k) && (!c || i.country === c) && (!t || i.themes.includes(t)) && q.every(w => i.hay.includes(w)))
+  const hits = items.filter(i => (!k || i.kind === k) && (!c || i.country === c) && (!t || i.themes.includes(t)) && scopeOk(i) && q.every(w => i.hay.includes(w)))
     .sort((a, b) => order[a.kind] - order[b.kind] || a.name.localeCompare(b.name, "fi"));
   $("count").textContent = `${hits.length} / ${items.length} tulosta`;
   const cur = decodeURIComponent(location.hash.slice(1));
   $("results").innerHTML = hits.length ? hits.map(i => `<a class="res" href="#${encodeURIComponent(i.id)}"${i.id === cur ? ' aria-current="true"' : ""}>
-      ${TV.dot(i.country)}<span class="t">${TV.esc(i.name)}</span><span class="k">${TV.KIND[i.kind]}</span>
+      ${TV.dot(i.country)}<span class="t">${TV.esc(i.name)}</span><span class="k">${TV.KIND[i.kind]}${i.raw.rajaus === "maaperä" ? " · maaperä" : ""}</span>
       <span class="s">${TV.esc([TV.COUNTRY[i.country], i.raw.fund && TV.FUND[i.raw.fund] ? i.raw.fund : "", i.raw.lead || i.raw.org_type || i.raw.venue || i.raw.years || ""].filter(Boolean).join(" · "))}</span></a>`).join("")
     : `<div class="empty">Ei tuloksia. Puuttuuko jotain? <a href="ehdota.html">Ehdota lisäystä</a>.</div>`;
 }
@@ -129,6 +131,7 @@ function show() {
   add("Tuotokset", TV.esc(x.outputs));
   add("Ohjelma", TV.esc(x.programme));
   if (x.urls && x.urls.length > 1) add("Lähteet", x.urls.map((u, i) => `<a href="${u}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · "));
+  if (x.rajaus === "maaperä") add("Rajaus", `<span class="pill">muu maaperä</span> ${TV.esc(x.rajaus_peruste)}`);
   if (x.auto_themes) add("Luokittelu", `<span class="pill unv">teemat luokiteltu automaattisesti</span> <span class="note">tuotu: ${TV.esc(x.imported_from || "")}</span>`);
   add("Näyttöaste", x.evidence != null ? `${TV.evbar(x.evidence)} ${TV.EV[x.evidence]}` : "");
   add("Tekijät", TV.esc(x.authors));

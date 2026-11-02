@@ -17,18 +17,14 @@ RESULTS = ROOT / "hakulahteet" / "tulokset"
 COUNTRY_MAP = {"Finland": "FI", "Sweden": "SE", "Estonia": "EE", "Latvia": "LV", "Ireland": "IE", "Germany": "DE-NI",
                "Suomi": "FI", "Ruotsi": "SE", "Viro": "EE", "Irlanti": "IE"}
 
-# Rivit, jotka jäävät rajauksen ulkopuolelle (hankkeen nimi → peruste)
+# Rivit, jotka jäävät rajauksen ulkopuolelle (hankkeen nimi → peruste).
+# Rajausta laajennettiin 2.11.2026: maaperän päästöt, hiilensidonta ja MRV ovat mukana myös kivennäismailla.
 EXCLUDE = {
     "BioKas — Recycling-based growing media solutions": "yleinen ravinteiden kierrätys, ei turvemaa- tai turpeenkorvaajapainotusta",
-    "Towards a carbon-neutral research farm — Investment project (hitu-I)": "tutkimustilan infrastruktuuri, ei turvemaapainotusta",
-    "Towards a carbon-neutral research farm — Development project (hitu-D)": "tutkimustilan kehittäminen, ei turvemaapainotusta",
     "Use of bio-ash-based materials as fertilisers on forest soils": "tuhkalannoitus metsämaille yleisesti, ei turvemaapainotusta",
     "Investment project/Utilisation of biomass-based materials as fertilisers on forest land": "tuhkalannoitus metsämaille yleisesti, ei turvemaapainotusta",
-    "Forest plan for responsible forest owners": "yleinen metsäsuunnittelu, ei turvemaapainotusta",
-    "MEQAL-Methane Quantization and Localization": "jätehuollon metaanipäästöt, ei maankäyttöä",
     # EU CAP Network (lähde 2)
     "Utilization of by-product of grain drying as material and energy": "viljankuivauksen sivuvirta, ei turvemaata",
-    "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility": "yleinen maan kasvukunto ja kompostointi, ei turvemaata",
 }
 
 # Saksan hankkeet muista osavaltioista kuin Niedersachsen jäävät aluerajauksen ulkopuolelle
@@ -47,6 +43,9 @@ MATCH_EXISTING = {
     "Farm Carbon EIP": "IE-01",
     "FarmPEAT (Farm Payments for Ecological and Agricultural Transitions) Project": "IE-02",
     "Myrrestaurering i Norrbottens län": "K-SE-dbb8",
+    # Avain "lähde:nimi" täsmää vain kyseisen lähteen rivin (sama nimi on Kohesiossa itse hankkeena)
+    "8:MEQAL-Methane Quantization and Localization": "K-FI-1d92",
+    "8:PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites": "K-EU-2e51",
     "Our Moor Future Oldenburger Graben - Cooperative moorland in the Oldenburger Graben in Schleswig-Holstein for climate protection and agricultural added value": "X-DE-SH",
 }
 
@@ -64,12 +63,43 @@ THEME_OVERRIDE = {
     "Inishowen Upland Farmers Project": ["T2", "T5"],
     "FloraGPT: Artificial intelligence- and sensor-controlled irrigation with a user-friendly interface for cultivation methods optimized for peat replacement": ["T3"],
     "Industrial raw material using bog sites – I-ROBI": ["T2", "T3"],
+    "Towards a carbon-neutral research farm — Investment project (hitu-I)": ["T6"],
+    "Towards a carbon-neutral research farm — Development project (hitu-D)": ["T6"],
+    "Forest plan for responsible forest owners": ["T4", "T6", "T8"],
+    "MEQAL-Methane Quantization and Localization": ["T6"],
+    "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility": ["T2", "T6"],
     # Ruotsi (lähteet 8 ja 9). Klimatskörd ja grundvattenreglering ovat rajatapauksia: maatalousmaan hiili ja vesitalous, ei nimetysti turvemaata.
     "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS": ["T2", "T6", "T8"],
     "Land4Climate": ["T2", "T6"],
     "Fossil-free growing media": ["T3"],
     "Klimatanpassad grundvatten-reglering i norrländskt jordbruk": ["T2", "T6"],
+    "Land-4-Climate": ["T2", "T6", "T8"],
+    "CircularGreens: From Waste to Soil, From Risk to Trust": ["T3"],
+    "Kolsänksrätter med biokol": ["T6", "T8"],
+    "Svensk klimatkompensation - jordbruket som kolsänka": ["T6", "T8"],
+    "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring": ["T2", "T6"],
+    "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga": ["T2", "T6"],
 }
+
+# Maaperähankkeet, jotka eivät koske nimetysti turvemaata (rajaus = "maaperä", muut "turvemaa").
+# Ne kuuluvat rajaukseen maaperän päästöjen, hiilensidonnan ja MRV:n vuoksi. Hakusivulla ne voi suodattaa erikseen.
+MAAPERA = {
+    "Towards a carbon-neutral research farm — Investment project (hitu-I)": "maatilan päästöjen ja maaperän hiilen tutkimusinfrastruktuuri",
+    "Towards a carbon-neutral research farm — Development project (hitu-D)": "maatilan päästöjen ja maaperän hiilen tutkimus",
+    "Forest plan for responsible forest owners": "metsien hiilinielu ja maankäyttösektorin velvoitteet",
+    "MEQAL-Methane Quantization and Localization": "metaanipäästöjen mittaus (MRV), mukana maatalous ja soiden ennallistaminen",
+    "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility": "maaperän KHK-päästöt ja kasvukunto",
+    "Klimatskörd - samverkansmodell för ett cirkulärt ÖMS": "maatalousmaan hiilensidonta",
+    "Klimatanpassad grundvatten-reglering i norrländskt jordbruk": "maatalousmaan vesitalous ja ilmastosopeutus",
+    "Kolsänksrätter med biokol": "kivennäismaan hiilensidonta ja hiilimarkkina",
+    "Svensk klimatkompensation - jordbruket som kolsänka": "kivennäismaan hiilensidonta ja hiilimarkkina",
+    "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring": "maan kasvukunto ja hiilensidonnan mittaus",
+    "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga": "maan kasvukunto ja hiilensidonnan mittaus",
+    "CircularGreens: From Waste to Soil, From Risk to Trust": "turpeen korvaaminen yksi tavoitteista, painopiste jätevirtojen maanparannuksessa",
+}
+
+# Euromäärät, joita ei voi tarkistaa lähteestä (sivulla summa kruunuina): jätetään tyhjiksi
+BUDGET_UNVERIFIED = {"Kolsänksrätter med biokol", "Svensk klimatkompensation - jordbruket som kolsänka"}
 
 # Organisaation tunnistus nimen osasta (taivutettu, pienet kirjaimet) → olemassa oleva tunniste
 ORG_CONTAINS = [("silava", "silava"), ("latvijas universit", "lu"), ("lauksaimniecibas universit", "lbtu"),
@@ -78,7 +108,8 @@ ORG_CONTAINS = [("silava", "silava"), ("latvijas universit", "lu"), ("lauksaimni
                 ("umeras", "umeras"), ("helsingin yliopisto", "hy"), ("ita-suomen yliopisto", "uef"),
                 ("luonnonvarakeskus", "luke"), ("seinajoen ammattikorkeakoulu", "seamk"), ("oulun yliopisto", "oy"),
                 ("offis", "offis"), ("hochschule hannover", "hochschule-hannover"), ("biokunststoffe", "hochschule-hannover"),
-                ("skogsstyrelsen", "skogsstyrelsen"), ("swedish forest agency", "skogsstyrelsen")]
+                ("skogsstyrelsen", "skogsstyrelsen"), ("swedish forest agency", "skogsstyrelsen"),
+                ("sveriges lantbruksuniversitet", "slu"), ("lulea tekniska universitet", "ltu")]
 
 # Organisaatioksi tunnistettavat sanat; muut nimet tulkitaan henkilöiksi eikä niistä tehdä solmuja
 ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij|fonds|centrs|saimnieciba|komercsabiedr|apvieniba|"
@@ -121,7 +152,7 @@ THEME_RULES = [
     ("T3", r"paludicult|sphagnum|peat moss|growing media|peat.?(free|replace|substitut|alternative)|substrate|biochar|cattail|biomass|compost|straw|bark|horticultur|new cultivated plants|moos|torvfri|odlingssubstrat|vitmossa|kosteikkoviljel|rahkasammal|kasvualust|turpeen korva|paludikult|torfersatz|torffrei|torfmoos|rohrkolben|substrāt|sfagn|dzērven|mellen|jõhvika|mustika"),
     ("T4", r"peatland forest|forest management|logging|forestry|forest soil|baltic forests|drained forest|ditch.{0,20}forest|soft lands|storm damage|skogsdikning|dikesrensning|skogsbruk|suomets|kunnostusoj|jatkuvapeitt|metsätalou|metsandus|mežsaimn|moorwald|forstwirt"),
     ("T5", r"natura|nature reserve|nature management|sacs?\b|raised bog|blanket bog|high (moor|bog)|hill moor|slope moor|mire restoration|bog ecosystem|biodiversity|habitat|rewetting|renaturation|wetting|area protection|land protection|bird protection|peat fire|restor|återvätning|restaurering|myr\b|mosse|naturreservat|ennallista|soiden suojelu|sootaastami|raba|purvu atjauno|renaturaliz|wiedervernäss|renaturier|hochmoor|7110|7120|7130|7140|91d0"),
-    ("T6", r"greenhouse|\bghg\b|emission|carbon|methane|climate (protection|donation|tools)|co2|water levels?|monitoring|växthusgas|kolinlagring|kolsänka|kasvihuonekaasu|hiilinielu|hiilensid|maankäyttösektor|kasvuhoonegaas|süsinik|siltumnīcefekta|oglekļa|zizimm|treibhausgas|kohlenstoff|lulucf"),
+    ("T6", r"greenhouse|\bghg\b|emission|carbon|methane|climate (protection|donation|tools)|co2|water levels?|monitoring|växthusgas|kolinlagring|kolsänka|kasvihuonekaasu|hiilinielu|hiilensid|maankäyttösektor|kasvuhoonegaas|süsinik|siltumnīcefekta|oglekļa|zizimm|treibhausgas|kohlenstoff|lulucf|soil carbon|carbon farming|carbon sequestration|carbon credit|mrv|nitrous oxide|n2o|kolsänk|hiiliviljel|maaperän hiil|bodenkohlenstoff|humusaufbau"),
     ("T7", r"network|competence cent|knowledge|information system|cooperation|collaborative|research for moor|policies|samverkan|nätverk|verkosto|osaamiskesk|koostöö|sadarbīb|kompetenz|netzwerk"),
     ("T8", r"landowner|land.?use plan|livelihood|stakeholder|business|carbon market|decision|area concept|meanings|priorities|care and development concept|just transition|vitality|markägare|maanomista|metsänomista|maankäytön suunnit|maaomanik|zemes īpašniek|flächeneigentüm|landnutzungsplan"),
 ]
@@ -181,6 +212,7 @@ COUNTRY_OVERRIDE = {
     "MEQAL-Methane Quantization and Localization": "FI",
     "PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 areas": "FI",
     "Smart Carbon Farming": "DE-NI",
+    "CircularGreens: From Waste to Soil, From Risk to Trust": "SE",
     "Improving cross border cooperation in the field of peat fire prevention and response": "LV",
     "Collaborative Action for the Natural Network": "IE",
     "Co-operation Across Borders for Biodiversity": "IE",
@@ -244,14 +276,17 @@ def load():
     removed, enrich, groups = [], {}, {}
     for r in rows:
         name = r["hanke_nimi"].strip()
+        mkey = f"{r['lahde'].strip()}:{name}"
         if name in EXCLUDE:
+            if any(x["name"] == name for x in removed):
+                continue
             removed.append(dict(id=f"kohesio:{_slug(name)}", name=name, reason=EXCLUDE[name]))
             continue
-        if _country(r) in EXCLUDE_COUNTRY and name not in MATCH_EXISTING:
+        if _country(r) in EXCLUDE_COUNTRY and name not in MATCH_EXISTING and mkey not in MATCH_EXISTING:
             removed.append(dict(id=f"rajattu:{_slug(name)}", name=name, reason=EXCLUDE_COUNTRY[_country(r)]))
             continue
-        if name in MATCH_EXISTING:
-            enrich.setdefault(MATCH_EXISTING[name], []).append(r)
+        if mkey in MATCH_EXISTING or name in MATCH_EXISTING:
+            enrich.setdefault(MATCH_EXISTING.get(mkey) or MATCH_EXISTING[name], []).append(r)
             continue
         key = (name, r["ohjelmakausi"])
         groups.setdefault(key, []).append(r)
@@ -267,8 +302,8 @@ def load():
         # Pysyvä tunniste: lähde + maa + tiiviste hankesivun osoitteesta (ei muutu, kun aineistoa lisätään)
         pid = f"{SOURCE_PREFIX.get(r0['lahde'].strip(), 'H')}-{c}-{hashlib.sha1((r0['url'] if url_n[r0['url']] == 1 else r0['url'] + '|' + name).encode()).hexdigest()[:4]}"
         text = " ".join([name, r0["kuvaus"], r0["tuotokset"], r0["hakusana"]])
-        budgets = [_num(r["budjetti_eur"]) for r in rs]
-        eus = [_num(r["eu_osuus_eur"]) for r in rs]
+        budgets = [None if name in BUDGET_UNVERIFIED else _num(r["budjetti_eur"]) for r in rs]
+        eus = [None if name in BUDGET_UNVERIFIED else _num(r["eu_osuus_eur"]) for r in rs]
         _lo = org_of(r0["toteuttaja"])
         lead = _lo[1] if _lo else _org_name(r0["toteuttaja"])
         others = sorted({(org_of(r["toteuttaja"]) or (None, _org_name(r["toteuttaja"])))[1] for r in rs[1:]} - {lead})
@@ -282,7 +317,7 @@ def load():
             eur_total=sum(b for b in budgets if b) or None, eur_eu=sum(e for e in eus if e) or None,
             themes=THEME_OVERRIDE.get(name) or _themes(text), auto_themes=name not in THEME_OVERRIDE, outputs=(r0["tuotokset"] or r0["kuvaus"])[:400],
             evidence=_evidence(r0), url=r0["url"], urls=[r["url"] for r in rs],
-            programme=r0["ohjelmakausi"], imported_from=r0["_file"],
+            programme=r0["ohjelmakausi"], imported_from=r0["_file"], rajaus="maaperä" if name in MAAPERA else "turvemaa", rajaus_peruste=MAAPERA.get(name, ""),
             partners_note="; ".join(p for p in [r0["partnerit"]] if p) if c == "EU" else ""))
         for i, who in enumerate([r["toteuttaja"] for r in rs] + partners_listed):
             if not who.strip():

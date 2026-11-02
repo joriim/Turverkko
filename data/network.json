@@ -28,7 +28,7 @@
   {
    "id": "T6",
    "kind": "teema",
-   "label": "Maankäyttösektorin päästöt: KHK-mittaus, päästökertoimet, inventaario, MRV"
+   "label": "Maaperän ja maankäyttösektorin päästöt ja hiilensidonta: KHK-mittaus, päästökertoimet, inventaario, MRV, hiiliviljely"
   },
   {
    "id": "T7",
@@ -135,7 +135,8 @@
    "end": 2027,
    "url": "https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "FI-02",
@@ -151,7 +152,8 @@
    "end": 2027,
    "url": "https://www.sttinfo.fi/tiedote/70637574/entisen-turvetuotantoalueen-ennallistamishanke-kaynnistyy-alavudella-etela-pohjanmaapublisherId=69817874&lang=fi",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "FI-03",
@@ -167,7 +169,8 @@
    "end": "",
    "url": "https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&lang=fi",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "EE-02",
@@ -183,7 +186,8 @@
    "end": 2023,
    "url": "https://www.err.ee/1608302574/eesti-peab-paari-aastaga-taastama-paar-tuhat-hektarit-jaaksoid",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "LV-01",
@@ -199,7 +203,8 @@
    "end": 2029,
    "url": "https://www.silava.lv/en/research/projects/PeatTransform",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "LV-02",
@@ -215,7 +220,8 @@
    "end": 2026,
    "url": "https://www.esfondi.lv/en/about-eu-funds/news/planning-regions-to-receive-eur1-92-million-from-eu-funds-to-boost-investments-in-the-just-transition-fund",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "LV-03",
@@ -231,7 +237,8 @@
    "end": 2023,
    "url": "https://silava.lv/en/projects/climate-policy-adapted-solutions-for-extracted-peatlands-and-paludiculture-implementation",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "IE-01",
@@ -248,6 +255,7 @@
    "url": "https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf",
    "auto_themes": false,
    "imported_from": "",
+   "rajaus": "turvemaa",
    "duplicate_note": "Green Restoration Ireland, 1 050 646 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ CAP Network -rekisterin 1 147 000 €"
   },
   {
@@ -265,6 +273,7 @@
    "url": "https://eu-cap-network.ec.europa.eu/projects/farmpeat-farm-payments-ecological-and-agricultural-transitions-project_de",
    "auto_themes": false,
    "imported_from": "",
+   "rajaus": "turvemaa",
    "duplicate_note": "Wetland Surveys Ireland, 1 113 800 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ rekisterin 1 213 800 €"
   },
   {
@@ -281,7 +290,8 @@
    "end": 2023,
    "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "NI-02",
@@ -297,7 +307,8 @@
    "end": "",
    "url": "https://www.nlwkn.niedersachsen.de/startseite/naturschutz/fach_und_forderprogramme/klimaschutz_durch_moorentwicklung/produktketten_aus_niedermoorbiomasse/efre-verbundprojekt-produktketten-aus-niedermoorbiomasse-206903.html",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "NI-03",
@@ -313,7 +324,8 @@
    "end": 2020,
    "url": "https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "FI-06",
@@ -329,7 +341,8 @@
    "end": 2026,
    "url": "https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "FI-07",
@@ -345,7 +358,8 @@
    "end": 2026,
    "url": "https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "FI-08",
@@ -361,7 +375,8 @@
    "end": "",
    "url": "https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "FI-09",
@@ -377,7 +392,8 @@
    "end": "",
    "url": "https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "FI-10",
@@ -393,7 +409,8 @@
    "end": "",
    "url": "https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana",
    "auto_themes": false,
-   "imported_from": ""
+   "imported_from": "",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-1746",
@@ -409,7 +426,8 @@
    "end": 2019,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261898",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-accd",
@@ -425,7 +443,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7260718",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-f620",
@@ -441,7 +460,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262153",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-e147",
@@ -457,7 +477,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261887",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-7a94",
@@ -473,7 +494,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261820",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-209b",
@@ -489,7 +511,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262150",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-36d2",
@@ -505,7 +528,8 @@
    "end": 2018,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262198",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-dab1",
@@ -521,7 +545,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261897",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-f68e",
@@ -537,7 +562,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262186",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-DE-NI-3e4b",
@@ -553,7 +579,8 @@
    "end": 2027,
    "url": "https://eu-cap-network.ec.europa.eu/projects/floragpt-artificial-intelligence-and-sensor-controlled-irrigation-user-friendly-interface_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-c05c",
@@ -569,7 +596,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261822",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-e715",
@@ -585,7 +613,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262187",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-DE-NI-b06d",
@@ -601,7 +630,8 @@
    "end": 2026,
    "url": "https://eu-cap-network.ec.europa.eu/projects/industrial-raw-material-using-bog-sites-i-robi_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-cf1c",
@@ -617,7 +647,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262156",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-af02",
@@ -633,7 +664,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262152",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-d90f",
@@ -649,7 +681,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261821",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-44a1",
@@ -665,7 +698,8 @@
    "end": 2019,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7263543",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-77b2",
@@ -681,7 +715,8 @@
    "end": 2019,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7263539",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-bd6b",
@@ -697,7 +732,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7263502",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-410f",
@@ -713,7 +749,8 @@
    "end": 2019,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262561",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-9595",
@@ -729,7 +766,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262151",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-cc25",
@@ -745,7 +783,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261819",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-1c15",
@@ -761,7 +800,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262154",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-34e3",
@@ -777,7 +817,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261839",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-ee94",
@@ -793,7 +834,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261856",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-bf71",
@@ -809,7 +851,8 @@
    "end": 2016,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261894",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-03c5",
@@ -825,7 +868,8 @@
    "end": 2020,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261858",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-9163",
@@ -841,7 +885,8 @@
    "end": 2020,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7260564",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-a450",
@@ -857,7 +902,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7260719",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-ca87",
@@ -873,7 +919,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262159",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-1847",
@@ -889,7 +936,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7716339",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-0499",
@@ -905,7 +953,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7263538",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-3eb1",
@@ -921,7 +970,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261855",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-a456",
@@ -937,7 +987,8 @@
    "end": 2020,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262188",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-b8d9",
@@ -953,7 +1004,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262197",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-6c80",
@@ -969,7 +1021,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261857",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-c1d3",
@@ -985,7 +1038,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262114",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-9d56",
@@ -1001,7 +1055,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262191",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-d3d6",
@@ -1017,7 +1072,8 @@
    "end": 2018,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261902",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-d8d1",
@@ -1033,7 +1089,8 @@
    "end": 2018,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261892",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-8755",
@@ -1049,7 +1106,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7260567",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-0e2b",
@@ -1065,7 +1123,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262112",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-04a5",
@@ -1081,7 +1140,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7261904",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-c57b",
@@ -1097,7 +1157,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262179",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-3ac3",
@@ -1113,7 +1174,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262182",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-6f11",
@@ -1129,7 +1191,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262178",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-e128",
@@ -1145,7 +1208,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262400",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-d14f",
@@ -1161,7 +1225,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7735330",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-cad6",
@@ -1177,7 +1242,8 @@
    "end": 2019,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7260730",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-f3b0",
@@ -1193,7 +1259,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7260949",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-DE-NI-61e6",
@@ -1209,7 +1276,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7262113",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-EU-5a7e",
@@ -1225,7 +1293,8 @@
    "end": 2029,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7739085",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-EU-0882",
@@ -1241,7 +1310,8 @@
    "end": 2028,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7735237",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-EU-48f5",
@@ -1257,7 +1327,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q4302509",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-EU-f426",
@@ -1273,7 +1344,25 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q4298213",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
+   "id": "T-EU-88fc",
+   "kind": "hanke",
+   "label": "Land-4-Climate",
+   "country": "EU",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 100000,
+   "eur_eu": 60110,
+   "evidence_level": 1,
+   "start": 2023,
+   "end": 2024,
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "auto_themes": false,
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "T-EU-73cb",
@@ -1289,7 +1378,8 @@
    "end": 2027,
    "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
    "auto_themes": false,
-   "imported_from": "8-tillvaxtverket-2026-11-02.csv"
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-EU-2e51",
@@ -1305,7 +1395,8 @@
    "end": 2028,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7738425",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-b095",
@@ -1321,7 +1412,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441449",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-e8b3",
@@ -1337,7 +1429,8 @@
    "end": 2019,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q3749915",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-050e",
@@ -1353,7 +1446,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441340",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-a45d",
@@ -1369,7 +1463,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q3754768",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-879d",
@@ -1385,7 +1480,8 @@
    "end": 2022,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q3755406",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-6894",
@@ -1401,7 +1497,25 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440725",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
+   "id": "K-FI-1fcb",
+   "kind": "hanke",
+   "label": "Forest plan for responsible forest owners",
+   "country": "FI",
+   "fund": "JTF",
+   "period": "2021–27",
+   "eur_total": 139637,
+   "eur_eu": 97746,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2026,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440981",
+   "auto_themes": false,
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "maaperä"
   },
   {
    "id": "K-FI-2fcc",
@@ -1417,7 +1531,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441349",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-6c73",
@@ -1433,7 +1548,25 @@
    "end": 2025,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441313",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
+   "id": "K-FI-1d92",
+   "kind": "hanke",
+   "label": "MEQAL-Methane Quantization and Localization",
+   "country": "FI",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 1193652,
+   "eur_eu": 775875,
+   "evidence_level": 1,
+   "start": 2025,
+   "end": 2028,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735782",
+   "auto_themes": false,
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "maaperä"
   },
   {
    "id": "K-FI-56cf",
@@ -1449,7 +1582,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440068",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-561d",
@@ -1465,7 +1599,8 @@
    "end": 2025,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440098",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-6978",
@@ -1481,7 +1616,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440774",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-e290",
@@ -1497,7 +1633,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441245",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-8d28",
@@ -1513,7 +1650,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441443",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-9cd5",
@@ -1529,7 +1667,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440941",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-cb20",
@@ -1545,7 +1684,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440995",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-16d2",
@@ -1561,7 +1701,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441403",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-7c34",
@@ -1577,7 +1718,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440044",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-9511",
@@ -1593,7 +1735,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441173",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-06b9",
@@ -1609,7 +1752,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440759",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-b38f",
@@ -1625,7 +1769,8 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441315",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-6f20",
@@ -1641,7 +1786,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440084",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-006d",
@@ -1657,7 +1803,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440593",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-3bb2",
@@ -1673,7 +1820,8 @@
    "end": 2025,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440269",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-c4ea",
@@ -1689,7 +1837,8 @@
    "end": 2025,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440782",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-ceda",
@@ -1705,7 +1854,42 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q3754206",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
+   "id": "K-FI-9061",
+   "kind": "hanke",
+   "label": "Towards a carbon-neutral research farm — Development project (hitu-D)",
+   "country": "FI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 142716,
+   "eur_eu": 49950,
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3755329",
+   "auto_themes": false,
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "maaperä"
+  },
+  {
+   "id": "K-FI-519c",
+   "kind": "hanke",
+   "label": "Towards a carbon-neutral research farm — Investment project (hitu-I)",
+   "country": "FI",
+   "fund": "EAKR",
+   "period": "2014–20",
+   "eur_total": 1508024,
+   "eur_eu": 527808,
+   "evidence_level": 1,
+   "start": 2020,
+   "end": 2022,
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3755338",
+   "auto_themes": false,
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "maaperä"
   },
   {
    "id": "K-FI-665a",
@@ -1721,7 +1905,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441283",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-FI-0ac6",
@@ -1737,7 +1922,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7440188",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-IE-9275",
@@ -1753,7 +1939,8 @@
    "end": 2021,
    "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-agricultural-plan-macgillycuddy-reeks-conservation-and-restoration-upland_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-IE-e6ef",
@@ -1769,7 +1956,8 @@
    "end": 2023,
    "url": "https://eu-cap-network.ec.europa.eu/projects/blackstairs-farming-futures-bff-sustainable-farming-project-blackstairs-mountains_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-IE-06fb",
@@ -1785,7 +1973,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q4298133",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-IE-0b63",
@@ -1801,7 +1990,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q4298217",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-IE-cee8",
@@ -1817,7 +2007,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7361336",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-IE-2cb2",
@@ -1833,7 +2024,8 @@
    "end": 2023,
    "url": "https://eu-cap-network.ec.europa.eu/projects/inishowen-upland-farmers-project_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-IE-0814",
@@ -1849,7 +2041,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7361334",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-IE-7fa4",
@@ -1865,7 +2058,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7361332",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-IE-d7ff",
@@ -1881,7 +2075,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7361330",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-IE-9676",
@@ -1897,7 +2092,8 @@
    "end": 2021,
    "url": "https://eu-cap-network.ec.europa.eu/projects/conservation-breeding-curlew-ireland_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-IE-8525",
@@ -1913,7 +2109,25 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7361338",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
+   "id": "E-LV-c39d",
+   "kind": "hanke",
+   "label": "Adapting composting technologies for the utilisation of plant biomass to meet the conditions of the European Green Deal in the areas of GHG reduction, environmental protection, and enhancement of soil fertility",
+   "country": "LV",
+   "fund": "EIP",
+   "period": "2023–27",
+   "eur_total": 299288,
+   "eur_eu": 254395,
+   "evidence_level": 1,
+   "start": 2024,
+   "end": 2029,
+   "url": "https://eu-cap-network.ec.europa.eu/projects/adapting-composting-technologies-utilisation-plant-biomass-meet-conditions-european-green_en",
+   "auto_themes": false,
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "maaperä"
   },
   {
    "id": "E-LV-6430",
@@ -1929,7 +2143,8 @@
    "end": 2028,
    "url": "https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-LV-4390",
@@ -1945,7 +2160,8 @@
    "end": 2020,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q3056351",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-LV-9406",
@@ -1961,7 +2177,8 @@
    "end": 2027,
    "url": "https://eu-cap-network.ec.europa.eu/projects/development-cloudberry-propagation-and-cultivation-technologies-recultivation-peat-bogs_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-LV-74bd",
@@ -1977,7 +2194,8 @@
    "end": 2023,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q3056457",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-LV-2fac",
@@ -1993,7 +2211,8 @@
    "end": "",
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7432419",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-LV-37ba",
@@ -2009,7 +2228,8 @@
    "end": 2026,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7737164",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-LV-8eeb",
@@ -2025,7 +2245,8 @@
    "end": 2028,
    "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-agrivoltaic-system-blackberry-plantation-peat-soil-integration-renewable-energy_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-LV-d12c",
@@ -2041,7 +2262,8 @@
    "end": 2025,
    "url": "https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-LV-cbb2",
@@ -2057,7 +2279,8 @@
    "end": "",
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7432676",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-LV-e70c",
@@ -2073,7 +2296,8 @@
    "end": 2026,
    "url": "https://eu-cap-network.ec.europa.eu/projects/sustainable-management-degraded-organic-soils-impact-legume-and-digestate-use-carbon_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "E-LV-b130",
@@ -2089,7 +2313,8 @@
    "end": 2029,
    "url": "https://eu-cap-network.ec.europa.eu/projects/waste-free-recycling-coniferous-green-biomass-biodegradable-planter-container_en",
    "auto_themes": false,
-   "imported_from": "2-eu-cap-network-2026-11-02.csv"
+   "imported_from": "2-eu-cap-network-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-SE-dbb8",
@@ -2105,7 +2330,42 @@
    "end": 2027,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7362157",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
+  },
+  {
+   "id": "T-SE-bda3",
+   "kind": "hanke",
+   "label": "CircularGreens: From Waste to Soil, From Risk to Trust",
+   "country": "SE",
+   "fund": "Interreg",
+   "period": "2021–27",
+   "eur_total": 909640,
+   "eur_eu": 591265,
+   "evidence_level": 1,
+   "start": 2026,
+   "end": 2029,
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "auto_themes": false,
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "rajaus": "maaperä"
+  },
+  {
+   "id": "J-SE-0e6e",
+   "kind": "hanke",
+   "label": "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga",
+   "country": "SE",
+   "fund": "EIP",
+   "period": "2021–27",
+   "eur_total": "",
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": "",
+   "end": 2025,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/deltagardrivetprojektrorandeodlingssystemsomgynnarmarkensjordhalsakolinlagringochproduktionsformaga.4.448459fe1958aa6ee59298d4.html",
+   "auto_themes": false,
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "rajaus": "maaperä"
   },
   {
    "id": "J-SE-5a7e",
@@ -2121,7 +2381,8 @@
    "end": 2027,
    "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html",
    "auto_themes": false,
-   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv"
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "J-SE-b073",
@@ -2137,7 +2398,8 @@
    "end": 2027,
    "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html",
    "auto_themes": false,
-   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv"
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "rajaus": "maaperä"
   },
   {
    "id": "T-SE-5e29",
@@ -2153,7 +2415,59 @@
    "end": 2029,
    "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
    "auto_themes": false,
-   "imported_from": "8-tillvaxtverket-2026-11-02.csv"
+   "imported_from": "8-tillvaxtverket-2026-11-02.csv",
+   "rajaus": "maaperä"
+  },
+  {
+   "id": "J-SE-2f3b",
+   "kind": "hanke",
+   "label": "Kolsänksrätter med biokol",
+   "country": "SE",
+   "fund": "EIP",
+   "period": "2014–20",
+   "eur_total": "",
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2023,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/kolsanksrattermedbiokol.4.29196bdf172db848a9e55c1e.html",
+   "auto_themes": false,
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "rajaus": "maaperä"
+  },
+  {
+   "id": "J-SE-50cf",
+   "kind": "hanke",
+   "label": "Svensk klimatkompensation - jordbruket som kolsänka",
+   "country": "SE",
+   "fund": "EIP",
+   "period": "2014–20",
+   "eur_total": "",
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": 2019,
+   "end": 2023,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/svenskklimatkompensationjordbruketsomkolsanka.4.fe0924f1720ee68d5b4a14e.html",
+   "auto_themes": false,
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "rajaus": "maaperä"
+  },
+  {
+   "id": "J-SE-a3d4",
+   "kind": "hanke",
+   "label": "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring",
+   "country": "SE",
+   "fund": "EIP",
+   "period": "2021–27",
+   "eur_total": "",
+   "eur_eu": "",
+   "evidence_level": 1,
+   "start": "",
+   "end": 2025,
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/vagvalodlingssystempatregardarforjordhalsaproduktivitetochkolinlagring.4.448459fe1958aa6ee5929970.html",
+   "auto_themes": false,
+   "imported_from": "9-jordbruksverket-eip-2026-11-02.csv",
+   "rajaus": "maaperä"
   },
   {
    "id": "K-SE-be89",
@@ -2169,7 +2483,8 @@
    "end": 2021,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q4299112",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "K-SE-8b1e",
@@ -2185,7 +2500,8 @@
    "end": 2019,
    "url": "https://kohesio.ec.europa.eu/en/projects/Q4299111",
    "auto_themes": true,
-   "imported_from": "1-kohesio-2026-11-02.csv"
+   "imported_from": "1-kohesio-2026-11-02.csv",
+   "rajaus": "turvemaa"
   },
   {
    "id": "X-FI-PEATRESC",
@@ -2589,6 +2905,20 @@
    "org_type": "viranomainen"
   },
   {
+   "id": "slu",
+   "kind": "organisaatio",
+   "label": "Sveriges lantbruksuniversitet (SLU)",
+   "country": "SE",
+   "org_type": "yliopisto"
+  },
+  {
+   "id": "ltu",
+   "kind": "organisaatio",
+   "label": "Luleå tekniska universitet",
+   "country": "SE",
+   "org_type": "yliopisto"
+  },
+  {
    "id": "landkreis-stade",
    "kind": "organisaatio",
    "label": "Landkreis Stade",
@@ -2890,6 +3220,13 @@
    "org_type": "amk"
   },
   {
+   "id": "savonia-ammattikorkeakoulu-oy",
+   "kind": "organisaatio",
+   "label": "Savonia-ammattikorkeakoulu oy",
+   "country": "FI",
+   "org_type": "amk"
+  },
+  {
    "id": "pohjois-savon-luonnonsuojelupiiri-ry",
    "kind": "organisaatio",
    "label": "Pohjois-Savon luonnonsuojelupiiri ry",
@@ -2902,6 +3239,13 @@
    "label": "UPM-Kymmene Oyj",
    "country": "FI",
    "org_type": "yritys"
+  },
+  {
+   "id": "mittuniversitetet",
+   "kind": "organisaatio",
+   "label": "Mittuniversitetet",
+   "country": "FI",
+   "org_type": "yliopisto"
   },
   {
    "id": "lappeenrannan-lahden-teknillinen-yliopis",
@@ -3056,6 +3400,41 @@
    "label": "Strawchip Ltd",
    "country": "IE",
    "org_type": "yritys"
+  },
+  {
+   "id": "biedriba-latvijas-biologiskas-lauksaimni",
+   "kind": "organisaatio",
+   "label": "biedrība “Latvijas Bioloģiskās lauksaimniecības asociācija”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "sia-latvijas-lauku-konsultaciju-un-izgli",
+   "kind": "organisaatio",
+   "label": "SIA “Latvijas Lauku konsultāciju un izglītības centrs”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "sia-lm-product",
+   "kind": "organisaatio",
+   "label": "SIA “LM Product”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "zs-atvases",
+   "kind": "organisaatio",
+   "label": "ZS “Atvases”",
+   "country": "LV",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "sia-eko-darzs",
+   "kind": "organisaatio",
+   "label": "Sia “Eko Dārzs”",
+   "country": "LV",
+   "org_type": "viranomainen"
   },
   {
    "id": "olga-steinberga-sia-latvijas-lauku-konsu",
@@ -3236,6 +3615,27 @@
    "id": "agroost-ideell-forening",
    "kind": "organisaatio",
    "label": "Agroöst Ideell Förening",
+   "country": "SE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "hushallningssallskapet-sjuharad",
+   "kind": "organisaatio",
+   "label": "Hushållningssällskapet Sjuhärad",
+   "country": "SE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "miljomatematik-malmo-ab",
+   "kind": "organisaatio",
+   "label": "Miljömatematik Malmö AB",
+   "country": "SE",
+   "org_type": "viranomainen"
+  },
+  {
+   "id": "archaea-ab",
+   "kind": "organisaatio",
+   "label": "Archaea AB",
    "country": "SE",
    "org_type": "viranomainen"
   },
@@ -4451,6 +4851,33 @@
    "note": ""
   },
   {
+   "source": "T-EU-88fc",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "T-EU-73cb",
    "target": "T2",
    "kind": "teema",
@@ -4577,6 +5004,33 @@
    "note": ""
   },
   {
+   "source": "K-FI-1fcb",
+   "target": "T4",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-1fcb",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-1fcb",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "K-FI-2fcc",
    "target": "T4",
    "kind": "teema",
@@ -4606,6 +5060,15 @@
   {
    "source": "K-FI-6c73",
    "target": "T5",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-1d92",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -4955,6 +5418,24 @@
    "note": ""
   },
   {
+   "source": "K-FI-9061",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "K-FI-519c",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "K-FI-665a",
    "target": "T1",
    "kind": "teema",
@@ -5198,6 +5679,24 @@
    "note": ""
   },
   {
+   "source": "E-LV-c39d",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "E-LV-c39d",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "E-LV-6430",
    "target": "T2",
    "kind": "teema",
@@ -5405,6 +5904,33 @@
    "note": ""
   },
   {
+   "source": "T-SE-bda3",
+   "target": "T3",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-0e6e",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-0e6e",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
    "source": "J-SE-5a7e",
    "target": "T3",
    "kind": "teema",
@@ -5452,6 +5978,60 @@
   {
    "source": "T-SE-5e29",
    "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-2f3b",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-2f3b",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-50cf",
+   "target": "T6",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-50cf",
+   "target": "T8",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-a3d4",
+   "target": "T2",
+   "kind": "teema",
+   "weight": 1.0,
+   "evidence": "",
+   "url": "",
+   "note": ""
+  },
+  {
+   "source": "J-SE-a3d4",
+   "target": "T6",
    "kind": "teema",
    "weight": 1.0,
    "evidence": "",
@@ -7026,6 +7606,15 @@
   },
   {
    "source": "gate-21",
+   "target": "T-EU-88fc",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "gate-21",
    "target": "T-EU-73cb",
    "kind": "osallistuu",
    "weight": 1.0,
@@ -7124,6 +7713,15 @@
    "note": "edunsaaja"
   },
   {
+   "source": "savonia-ammattikorkeakoulu-oy",
+   "target": "K-FI-1fcb",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7440981",
+   "note": "edunsaaja"
+  },
+  {
    "source": "pohjois-savon-luonnonsuojelupiiri-ry",
    "target": "K-FI-2fcc",
    "kind": "osallistuu",
@@ -7140,6 +7738,33 @@
    "evidence": "lähde",
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7441313",
    "note": "edunsaaja"
+  },
+  {
+   "source": "lapin-ammattikorkeakoulu-oy",
+   "target": "K-FI-1d92",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735782",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "mittuniversitetet",
+   "target": "K-FI-1d92",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735782",
+   "note": "partneri"
+  },
+  {
+   "source": "oy",
+   "target": "K-FI-1d92",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q7735782",
+   "note": "partneri"
   },
   {
    "source": "keha",
@@ -7349,6 +7974,24 @@
    "note": "edunsaaja"
   },
   {
+   "source": "luke",
+   "target": "K-FI-9061",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3755329",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luke",
+   "target": "K-FI-519c",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://kohesio.ec.europa.eu/en/projects/Q3755338",
+   "note": "edunsaaja"
+  },
+  {
    "source": "suomen-riistanhoito-saatio-sr",
    "target": "K-FI-665a",
    "kind": "osallistuu",
@@ -7482,6 +8125,60 @@
    "evidence": "lähde",
    "url": "https://kohesio.ec.europa.eu/en/projects/Q7361338",
    "note": "edunsaaja"
+  },
+  {
+   "source": "lathort",
+   "target": "E-LV-c39d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/adapting-composting-technologies-utilisation-plant-biomass-meet-conditions-european-green_en",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "biedriba-latvijas-biologiskas-lauksaimni",
+   "target": "E-LV-c39d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/adapting-composting-technologies-utilisation-plant-biomass-meet-conditions-european-green_en",
+   "note": "partneri"
+  },
+  {
+   "source": "sia-latvijas-lauku-konsultaciju-un-izgli",
+   "target": "E-LV-c39d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/adapting-composting-technologies-utilisation-plant-biomass-meet-conditions-european-green_en",
+   "note": "partneri"
+  },
+  {
+   "source": "sia-lm-product",
+   "target": "E-LV-c39d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/adapting-composting-technologies-utilisation-plant-biomass-meet-conditions-european-green_en",
+   "note": "partneri"
+  },
+  {
+   "source": "zs-atvases",
+   "target": "E-LV-c39d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/adapting-composting-technologies-utilisation-plant-biomass-meet-conditions-european-green_en",
+   "note": "partneri"
+  },
+  {
+   "source": "sia-eko-darzs",
+   "target": "E-LV-c39d",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://eu-cap-network.ec.europa.eu/projects/adapting-composting-technologies-utilisation-plant-biomass-meet-conditions-european-green_en",
+   "note": "partneri"
   },
   {
    "source": "olga-steinberga-sia-latvijas-lauku-konsu",
@@ -7799,6 +8496,42 @@
    "note": "edunsaaja"
   },
   {
+   "source": "ltu",
+   "target": "T-SE-bda3",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "luke",
+   "target": "T-SE-bda3",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "partneri"
+  },
+  {
+   "source": "oy",
+   "target": "T-SE-bda3",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "partneri"
+  },
+  {
+   "source": "slu",
+   "target": "J-SE-0e6e",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/deltagardrivetprojektrorandeodlingssystemsomgynnarmarkensjordhalsakolinlagringochproduktionsformaga.4.448459fe1958aa6ee59298d4.html",
+   "note": "edunsaaja"
+  },
+  {
    "source": "allogro-ab",
    "target": "J-SE-5a7e",
    "kind": "osallistuu",
@@ -7823,6 +8556,33 @@
    "weight": 1.0,
    "evidence": "lähde",
    "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "hushallningssallskapet-sjuharad",
+   "target": "J-SE-2f3b",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/kolsanksrattermedbiokol.4.29196bdf172db848a9e55c1e.html",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "miljomatematik-malmo-ab",
+   "target": "J-SE-50cf",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/svenskklimatkompensationjordbruketsomkolsanka.4.fe0924f1720ee68d5b4a14e.html",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "archaea-ab",
+   "target": "J-SE-a3d4",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/vagvalodlingssystempatregardarforjordhalsaproduktivitetochkolinlagring.4.448459fe1958aa6ee5929970.html",
    "note": "edunsaaja"
   },
   {
@@ -7860,6 +8620,24 @@
    "evidence": "lähde",
    "url": "https://kohesio.ec.europa.eu/en/projects/Q3079298",
    "note": "edunsaaja"
+  },
+  {
+   "source": "luke",
+   "target": "K-EU-2e51",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "edunsaaja"
+  },
+  {
+   "source": "slu",
+   "target": "K-EU-2e51",
+   "kind": "osallistuu",
+   "weight": 1.0,
+   "evidence": "lähde",
+   "url": "https://projektbank.tillvaxtverket.se/projektbanken2020#page=8f5be081-68fe-4674-8092-115aa06ab78e",
+   "note": "partneri"
   },
   {
    "source": "P-FI-JTF",
@@ -8196,6 +8974,15 @@
   },
   {
    "source": "IE-01",
+   "target": "T-EU-88fc",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
    "target": "T-EU-73cb",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -8223,6 +9010,15 @@
   },
   {
    "source": "IE-01",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
    "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8241,6 +9037,15 @@
   },
   {
    "source": "IE-01",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -8253,6 +9058,15 @@
    "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "IE-01",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T2,T6"
@@ -8817,6 +9631,15 @@
   },
   {
    "source": "K-DE-NI-7a94",
+   "target": "T-EU-88fc",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
    "target": "T-EU-73cb",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -8844,6 +9667,15 @@
   },
   {
    "source": "K-DE-NI-7a94",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
    "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -8862,6 +9694,15 @@
   },
   {
    "source": "K-DE-NI-7a94",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -8874,6 +9715,15 @@
    "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-7a94",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T2,T6"
@@ -8924,6 +9774,42 @@
    "note": "T5,T6,T8"
   },
   {
+   "source": "K-DE-NI-dab1",
+   "target": "J-SE-2f3b",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-dab1",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-c05c",
+   "target": "T-EU-88fc",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-c05c",
+   "target": "K-FI-1fcb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
    "source": "K-DE-NI-c05c",
    "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
@@ -8946,6 +9832,24 @@
    "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-c05c",
+   "target": "J-SE-2f3b",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-DE-NI-c05c",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T6,T8"
@@ -9024,6 +9928,15 @@
   },
   {
    "source": "K-DE-NI-cc25",
+   "target": "T-EU-88fc",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
    "target": "T-EU-73cb",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -9051,6 +9964,15 @@
   },
   {
    "source": "K-DE-NI-cc25",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
    "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9069,6 +9991,15 @@
   },
   {
    "source": "K-DE-NI-cc25",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -9081,6 +10012,15 @@
    "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-cc25",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T2,T6"
@@ -9735,6 +10675,15 @@
   },
   {
    "source": "K-DE-NI-d14f",
+   "target": "T-EU-88fc",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
    "target": "T-EU-73cb",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -9762,6 +10711,15 @@
   },
   {
    "source": "K-DE-NI-d14f",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
    "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -9780,6 +10738,15 @@
   },
   {
    "source": "K-DE-NI-d14f",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -9792,6 +10759,15 @@
    "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-DE-NI-d14f",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T2,T6"
@@ -10041,6 +11017,15 @@
   },
   {
    "source": "K-EU-48f5",
+   "target": "T-EU-88fc",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
    "target": "T-EU-73cb",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -10068,6 +11053,15 @@
   },
   {
    "source": "K-EU-48f5",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
    "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -10086,6 +11080,15 @@
   },
   {
    "source": "K-EU-48f5",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -10096,6 +11099,96 @@
   {
    "source": "K-EU-48f5",
    "target": "T-SE-5e29",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-EU-48f5",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "T-EU-73cb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6,T8"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "T-SE-5e29",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6,T8"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "J-SE-2f3b",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "T-EU-88fc",
+   "target": "J-SE-a3d4",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -10122,6 +11215,15 @@
   },
   {
    "source": "T-EU-73cb",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
    "target": "E-LV-6430",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -10140,6 +11242,15 @@
   },
   {
    "source": "T-EU-73cb",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
    "weight": 1.0,
@@ -10152,6 +11263,15 @@
    "target": "T-SE-5e29",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-EU-73cb",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T2,T6"
@@ -10311,6 +11431,15 @@
   },
   {
    "source": "K-FI-879d",
+   "target": "K-FI-1fcb",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T4,T6"
+  },
+  {
+   "source": "K-FI-879d",
    "target": "E-LV-e70c",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -10461,6 +11590,24 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T5,T6"
+  },
+  {
+   "source": "K-FI-1fcb",
+   "target": "J-SE-2f3b",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-FI-1fcb",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
   },
   {
    "source": "K-FI-2fcc",
@@ -11211,6 +12358,15 @@
   },
   {
    "source": "K-FI-9511",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-9511",
    "target": "E-LV-8eeb",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -11220,7 +12376,25 @@
   },
   {
    "source": "K-FI-9511",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-9511",
    "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-9511",
+   "target": "J-SE-a3d4",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -11373,6 +12547,15 @@
   },
   {
    "source": "K-FI-c4ea",
+   "target": "E-LV-c39d",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-c4ea",
    "target": "E-LV-8eeb",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
@@ -11382,7 +12565,25 @@
   },
   {
    "source": "K-FI-c4ea",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-c4ea",
    "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "K-FI-c4ea",
+   "target": "J-SE-a3d4",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
    "evidence": "laskettu",
@@ -11489,6 +12690,69 @@
    "note": "T5,T7"
   },
   {
+   "source": "E-LV-c39d",
+   "target": "E-LV-6430",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-c39d",
+   "target": "E-LV-e70c",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-c39d",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-c39d",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-c39d",
+   "target": "T-SE-5e29",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-c39d",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-6430",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
    "source": "E-LV-6430",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
@@ -11507,6 +12771,33 @@
    "note": "T2,T6,T8"
   },
   {
+   "source": "E-LV-6430",
+   "target": "J-SE-2f3b",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "E-LV-6430",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "E-LV-6430",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
    "source": "K-LV-74bd",
    "target": "E-LV-8eeb",
    "kind": "teemapaallekkaisyys",
@@ -11514,6 +12805,24 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T1,T6"
+  },
+  {
+   "source": "K-LV-74bd",
+   "target": "J-SE-2f3b",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "K-LV-74bd",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
   },
   {
    "source": "K-LV-74bd",
@@ -11553,9 +12862,54 @@
   },
   {
    "source": "E-LV-e70c",
+   "target": "J-SE-0e6e",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-e70c",
    "target": "J-SE-b073",
    "kind": "teemapaallekkaisyys",
    "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "E-LV-e70c",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "J-SE-0e6e",
+   "target": "J-SE-b073",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "J-SE-0e6e",
+   "target": "T-SE-5e29",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "J-SE-0e6e",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
    "evidence": "laskettu",
    "url": "",
    "note": "T2,T6"
@@ -11568,6 +12922,51 @@
    "evidence": "laskettu",
    "url": "",
    "note": "T2,T6"
+  },
+  {
+   "source": "J-SE-b073",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "T-SE-5e29",
+   "target": "J-SE-2f3b",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "T-SE-5e29",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
+  },
+  {
+   "source": "T-SE-5e29",
+   "target": "J-SE-a3d4",
+   "kind": "teemapaallekkaisyys",
+   "weight": 0.67,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T2,T6"
+  },
+  {
+   "source": "J-SE-2f3b",
+   "target": "J-SE-50cf",
+   "kind": "teemapaallekkaisyys",
+   "weight": 1.0,
+   "evidence": "laskettu",
+   "url": "",
+   "note": "T6,T8"
   },
   {
    "source": "X-FI-PEATRESC",

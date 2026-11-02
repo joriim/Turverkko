@@ -47,7 +47,8 @@ def build():
         node(p["id"], "hanke", p["name"], country=p["country"], fund=p["fund"], period=p["period"],
              eur_total=p["eur_total"] or "", eur_eu=p["eur_eu"] or "", evidence_level=p["evidence"],
              start=p["start"] or "", end=p["end"] or "", url=p["url"],
-             auto_themes=bool(p.get("auto_themes")), imported_from=p.get("imported_from", ""))
+             auto_themes=bool(p.get("auto_themes")), imported_from=p.get("imported_from", ""),
+             rajaus=p.get("rajaus", "turvemaa"))
         for t in p["themes"]:
             edge(p["id"], t, "teema")
     for c in S.CONTEXT:
