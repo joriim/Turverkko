@@ -10,10 +10,12 @@ FIELDS = ["lahde", "haettu", "hakusana", "hanke_nimi", "lyhenne", "maa", "alue",
 
 # Rajaus (SCHEMA.md): hankkeen nimen, tiivistelmän tai avainsanojen on osuttava johonkin näistä
 SCOPE = re.compile(
-    r"peat|bog\b|bogs\b|mire|fen\b|fens\b|wetland|paludicult|sphagnum|organic soil|histosol|rewet|drain|"
-    r"soil (organic )?carbon|soil c\b|carbon farming|carbon sequestration|soil (greenhouse|ghg|emission|respiration)|"
-    r"nitrous oxide|n2o|methane|lulucf|land.use (sector|emission|change)|emission factor|eddy covariance|"
-    r"turve|suo\b|soiden|torv|myr\b|våtmark|kūdr|purv|turba|raba\b|moor", re.I)
+    r"\bpeat(s|land|lands|y)?\b|\bbogs?\b|\bmires?\b|\bfens?\b|\bwetlands?\b|\bpaludicult|\bsphagnum|"
+    r"\borganic soils?\b|\bhistosols?\b|\brewet|\bdrain(ed|age)\b.{0,40}\b(soil|land|forest|peat)|"
+    r"\bsoil (organic )?carbon\b|\bsoil c\b|\bcarbon farming\b|\bsoil carbon sequestration|carbon sequestration in (agricultural )?soils?|"
+    r"\bsoil (greenhouse|ghg|emissions?|respiration|methane|n2o)\b|\b(nitrous oxide|n2o|methane|ch4) (emissions?|fluxes?) from (agricultural )?(soils?|wetlands?|peat)|"
+    r"\blulucf\b|\bland[- ]use (sector|emissions)\b|\bemission factors?\b.{0,40}\b(soil|land|peat)|"
+    r"\bturve|\bturvemaa|\bsuo\b|\bsoiden\b|\btorv(mark|myr)?\b|\bmyr(ar|mark)?\b|\bvåtmark|\bkūdr|\bpurv(s|ā|i)\b|\bturba(s|ala|väl)|\braba\b|\bmoor(land|lands|boden|schutz)?\b", re.I)
 EXCLUDE = re.compile(r"hydrogen|vety|marine sediment|ocean|lake sediment only|permafrost thaw on mars", re.I)
 
 
