@@ -57,6 +57,7 @@ def main():
     ds = json.loads((data / "dataset.json").read_text(encoding="utf-8"))
     net = json.loads((data / "network.json").read_text(encoding="utf-8"))
     an = json.loads((data / "analysis.json").read_text(encoding="utf-8"))
+    an["positions"] = json.loads((data / "layout.json").read_text(encoding="utf-8"))
     repo = os.environ.get("REPO_URL") or (ROOT / "site" / "repo.txt").read_text(encoding="utf-8").strip()
     name = repo.rstrip("/").split("github.com/")[-1]
 
@@ -80,6 +81,7 @@ def main():
     (docs / "kartta.html").write_text(kartta(repo, name, ds, net, an), encoding="utf-8")
     for f in DATA_FILES:
         shutil.copy(data / f, docs / "data" / f)
+    (docs / "data" / "analysis.json").write_text(json.dumps(an, ensure_ascii=False, indent=1), encoding="utf-8")
     total = sum(p.stat().st_size for p in docs.rglob("*") if p.is_file())
     print(f"docs/: {len(list(docs.rglob('*.html')))} sivua, {total // 1024} kt")
 

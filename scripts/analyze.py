@@ -162,8 +162,9 @@ def main():
         cross_country={f"{a}–{b}": n for (a, b), n in cross.items()},
         cross_country_unverified={f"{a}–{b}": n for (a, b), n in cross_unv.items()}, hub_shared_orgs=shared,
         theme_country_gaps=gaps,
-        positions=layout(G),
     )
+    # Asettelu omaan tiedostoonsa: liukulukutulokset voivat vaihdella ympäristöittäin
+    (ROOT / "data" / "layout.json").write_text(json.dumps(layout(G), ensure_ascii=False, sort_keys=True), encoding="utf-8")
     (ROOT / "data" / "analysis.json").write_text(json.dumps(analysis, ensure_ascii=False, indent=1), encoding="utf-8")
     report(analysis, nodes)
     print(json.dumps(analysis["summary"], ensure_ascii=False))
