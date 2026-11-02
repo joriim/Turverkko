@@ -33,11 +33,21 @@ Rajauksen ulkopuolella: vety, energiaratkaisut, yleinen yritystuki, matkailu.
 
 | Taso | Merkitys |
 |---|---|
-| 0 | Ei tuotostietoa |
-| 1 | Laadullinen kuvaus toimenpiteistä |
-| 2 | Määrälliset tavoitteet |
-| 3 | Raportoituja mitattuja tuloksia |
-| 4 | Avoin data tai vertaisarvioitu julkaisu |
+Näyttöaste kuvaa, kuinka todennettavaa tietoa hankkeen tuotoksista on julkisesti saatavilla. Se ei mittaa hankkeen laatua. Taso lasketaan skriptissä [`src/naytto.py`](src/naytto.py) vahvimman löydetyn perusteen mukaan, ja perusteet tallennetaan kenttään `evidence_basis` (näkyy hankekortissa).
+
+| Taso | Merkitys | Peruste |
+|---|---|---|
+| 0 | Ei tuotostietoa | ei kuvausta |
+| 1 | Laadullinen kuvaus toimenpiteistä | kuvaus on, ei lukuja |
+| 2 | Määrälliset tavoitteet | luku ja yksikkö (ha, km, mittauspisteet, kohteet, innovaatiot, tilat, julkaisut …) tai tarkistamaton linkitetty tuotos |
+| 3 | Raportoitu toteuma tai tarkistettu tuotos | toteumailmaisu (toteuma, ennallistettiin, were restored, återvätts, wiedervernässt …), linkitetty raportti, tapahtuma tai ammattijulkaisu, tai OpenAIREn hankkeeseen linkittämät tuotokset |
+| 4 | Vertaisarvioitu julkaisu tai avoin aineisto | linkitetty ja tarkistettu vertaisarvioitu julkaisu tai aineisto |
+
+Käsin arvioitu taso säilyy, jos se on laskettua korkeampi. Lähteiden lyhyet kuvaukset kertovat yleensä suunnitelmista, joten matala taso tarkoittaa usein sitä, että tuloksia ei ole julkaistu lähteessä, ei sitä, että niitä ei ole.
+
+### Julkaisut (`hakulahteet/tulokset/julkaisut/`)
+
+Tarkistetut julkaisut tuodaan CSV-tiedostoista muodossa [`hakulahteet/julkaisupohja.csv`](hakulahteet/julkaisupohja.csv): `hanke_id` (aineiston hanketunniste), `otsikko`, `tekijat`, `vuosi`, `tyyppi` (vertaisarvioitu, raportti, aineisto, ammattijulkaisu, opinnäyte, konferenssiabstrakti, muu), `julkaisija`, `doi`, `url`, `avoin` (kyllä/ei), `lahde`, `haettu`. Automaattihaku tuottaa ehdokkaat tiedostoon `hakulahteet/automaattihaku/julkaisut-<pvm>.csv`.
 
 ### Rajaus (`rajaus`)
 

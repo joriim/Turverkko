@@ -35,7 +35,7 @@ def acronyms(p):
 def text(r):
     parts = [r.get("mainTitle") or ""] + [d if isinstance(d, str) else json.dumps(d) for d in r.get("descriptions") or []]
     parts.append(json.dumps(r.get("projects") or r.get("fundings") or [], ensure_ascii=False))
-    parts.append(" ".join(s.get("value", "") if isinstance(s, dict) else str(s) for s in (r.get("subjects") or [])))
+    parts.append(json.dumps(r.get("subjects") or [], ensure_ascii=False))
     return " ".join(parts)
 
 
@@ -56,6 +56,8 @@ def kind(r):
     inst = " ".join(json.dumps(i.get("type", "")) for i in r.get("instances") or []).lower()
     if t == "dataset":
         return "aineisto"
+    if doi(r).lower().startswith("10.5194/egusphere") or "abstract" in inst:
+        return "konferenssiabstrakti"
     if "article" in inst and (r.get("container") or {}).get("name"):
         return "vertaisarvioitu"
     if "report" in inst:

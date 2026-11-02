@@ -22,6 +22,7 @@ Työnkulku tarvitsee luvan avata pull request. Ota se käyttöön kerran: repon 
 | Lähde | Tapa | Tila |
 |---|---|---|
 | 22 OpenAIRE | [Graph API](https://graph.openaire.eu/docs/apis/graph-api/) ja Search API (osallistujat), ei avainta | käytössä: kansalliset rahoittajat FI, SE, EE, LV, IE, DE, hanke päättyy 2014 tai myöhemmin; Horizon (EC) haetaan CORDISista. Turvemaahankkeet ovat tiedoston alussa, muut maaperähankkeet sen jälkeen |
+| 22 OpenAIRE, julkaisut | Graph API, haku hankkeen lyhenteellä | käytössä: ehdokkaat tiedostoon `julkaisut-<pvm>.csv`; hyväksytyt kansioon `../tulokset/julkaisut/` |
 | 23 CORDIS | avoimet CSV-viennit (H2020, Horizon Europe), ei avainta | käytössä: hankkeet, joissa osallistuja rajauksen maista; Niedersachsen NUTS-koodista DE9 |
 | 1 Kohesio | estää GitHubin palvelimet (HTTP 403) | selainagentti omalla koneella |
 | 10 SweCRIS | REST-rajapinta, vaatii avaimen | odottaa avainta (repon salaisuus `SWECRIS_TOKEN`) |
