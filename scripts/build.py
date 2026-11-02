@@ -122,6 +122,20 @@ def write(nodes, edges):
     print(f"Solmuja {len(nodes)}, särmiä {len(edges)}")
 
 
+def guide():
+    """Hakuohjeen rajaus ja ydinsanat src/rajaus.py:stä (yksi lähde)."""
+    import rajaus
+    p = ROOT / "hakulahteet" / "README.md"
+    old = p.read_text(encoding="utf-8")
+    new = rajaus.render_guide(old)
+    if new != old:
+        p.write_text(new, encoding="utf-8")
+    miss = rajaus.check()
+    if miss:
+        print("Ydinsanat, joita koneellinen rajaus ei tunnista (src/rajaus.py):", miss)
+
+
 if __name__ == "__main__":
     n, e = build()
     write(n, e)
+    guide()

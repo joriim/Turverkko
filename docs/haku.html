@@ -130,6 +130,7 @@ function show() {
   add("Toteuma", TV.esc(x.realised));
   add("Tuotokset", TV.esc(x.outputs));
   add("Ohjelma", TV.esc(x.programme));
+  add("Valuutta", TV.esc(x.currency_note));
   if (x.urls && x.urls.length > 1) add("Lähteet", x.urls.map((u, i) => `<a href="${u}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · "));
   if (x.rajaus === "maaperä") add("Rajaus", `<span class="pill">muu maaperä</span> ${TV.esc(x.rajaus_peruste)}`);
   if (x.auto_themes) add("Luokittelu", `<span class="pill unv">teemat luokiteltu automaattisesti</span> <span class="note">tuotu: ${TV.esc(x.imported_from || "")}</span>`);

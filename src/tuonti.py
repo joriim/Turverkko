@@ -294,6 +294,52 @@ def _evidence(row):
     return 1 if (out.strip() or row["kuvaus"].strip()) else 0
 
 
+# EUR/SEK-vuosikeskikurssit (SEK per 1 EUR), EKP:n viitekurssien keskiarvot, Deutsche Bundesbank (wk1e1213).
+# Kuluvan vuoden puuttuessa käytetään viimeisintä koko vuoden keskikurssia.
+EUR_SEK = {2014: 9.0985, 2015: 9.3535, 2016: 9.4689, 2017: 9.6351, 2018: 10.2583, 2019: 10.5891, 2020: 10.4848,
+           2021: 10.1465, 2022: 10.6296, 2023: 11.4788, 2024: 11.4325, 2025: 11.0663}
+_SEK_NUM = r"(\d[\d\s.,]*\d|\d)"
+
+
+def _sek_amounts(text):
+    """Kruunumäärät kuvauksesta: (kokonais, EU-osuus) kruunuina tai None."""
+    t = text.replace("\u00a0", " ")
+    def num(s, mult=1):
+        s = s.strip().replace(" ", "")
+        if "," in s and "." not in s and len(s.split(",")[-1]) <= 2:
+            s = s.replace(",", ".")
+        s = s.replace(",", "")
+        try:
+            return round(float(s) * mult)
+        except ValueError:
+            return None
+    total = eu = None
+    m = re.search(r"(?:total kostnad|totalt|total budget)\s*:?\s*SEK\s*" + _SEK_NUM, t, re.I)
+    if m:
+        total = num(m.group(1))
+    m = re.search(r"(?:\bEU\b|beviljat EU|EU-stöd)\s*:?\s*SEK\s*" + _SEK_NUM, t, re.I)
+    if m:
+        eu = num(m.group(1))
+    if total is None:
+        m = re.search(r"budget\s*:?\s*(\d+(?:[,.]\d+)?)\s*(miljoner|milj\.?|mkr)\s*(kr|kronor)?", t, re.I)
+        if m:
+            total = num(m.group(1), 1_000_000)
+    if total is None:
+        m = re.search(r"budget\s*:?\s*(\d+(?:[,.]\d+)?)\s*tkr", t, re.I)
+        if m:
+            total = num(m.group(1), 1_000)
+    if total is None:
+        m = re.search(r"SEK\s*" + _SEK_NUM, t)
+        if m:
+            total = num(m.group(1))
+    return (total, eu) if total or eu else None
+
+
+def _sek_to_eur(sek, year):
+    y = year if year in EUR_SEK else max(k for k in EUR_SEK if k <= year) if year and year > min(EUR_SEK) else min(EUR_SEK)
+    return round(sek / EUR_SEK[y]), y
+
+
 PUB_FIELDS = ["hanke_id", "otsikko", "tekijat", "vuosi", "tyyppi", "julkaisija", "doi", "url", "avoin", "lahde", "haettu"]
 PUB_TYPES = {"vertaisarvioitu", "raportti", "aineisto", "ammattijulkaisu", "opinnäyte", "konferenssiabstrakti", "muu"}
 
@@ -361,6 +407,21 @@ def load():
         text = " ".join([name, r0["kuvaus"], r0["tuotokset"], r0["hakusana"]])
         budgets = [None if name in BUDGET_UNVERIFIED else _num(r["budjetti_eur"]) for r in rs]
         eus = [None if name in BUDGET_UNVERIFIED else _num(r["eu_osuus_eur"]) for r in rs]
+        currency_note = ""
+        if not any(budgets) and c in ("SE", "EU"):
+            sek = _sek_amounts(" ".join(r["kuvaus"] for r in rs))
+            if sek:
+                y0 = int(r0["alku"][:4]) if r0["alku"][:4].isdigit() else (int(r0["loppu"][:4]) if r0["loppu"][:4].isdigit() else None)
+                parts = []
+                if sek[0]:
+                    eur, yr = _sek_to_eur(sek[0], y0)
+                    budgets = [eur]
+                    parts.append(f"kokonaisbudjetti {sek[0]:,} SEK".replace(",", " "))
+                if sek[1]:
+                    eur, yr = _sek_to_eur(sek[1], y0)
+                    eus = [eur]
+                    parts.append(f"EU-osuus {sek[1]:,} SEK".replace(",", " "))
+                currency_note = f"Muunnettu euroiksi: {', '.join(parts)}; EKP:n vuoden {yr} keskikurssi {EUR_SEK[yr]} SEK/EUR."
         _lo = org_of(r0["toteuttaja"])
         lead = _lo[1] if _lo else _org_name(r0["toteuttaja"])
         others = sorted({(org_of(r["toteuttaja"]) or (None, _org_name(r["toteuttaja"])))[1] for r in rs[1:]} - {lead})
@@ -375,7 +436,7 @@ def load():
             eur_total=sum(b for b in budgets if b) or None, eur_eu=sum(e for e in eus if e) or None,
             themes=THEME_OVERRIDE.get(name) or _themes(text), auto_themes=name not in THEME_OVERRIDE, outputs=r0["tuotokset"] or r0["kuvaus"], description=" ".join(dict.fromkeys(r["kuvaus"].strip() for r in rs if r["kuvaus"].strip())),
             evidence=_evidence(r0), url=r0["url"], urls=[r["url"] for r in rs],
-            programme=r0["ohjelmakausi"], imported_from=r0["_file"], acronym=r0.get("lyhenne", "").strip(), rajaus="maaperä" if name in MAAPERA else "turvemaa", rajaus_peruste=MAAPERA.get(name, ""),
+            programme=r0["ohjelmakausi"], imported_from=r0["_file"], currency_note=currency_note, acronym=r0.get("lyhenne", "").strip(), rajaus="maaperä" if name in MAAPERA else "turvemaa", rajaus_peruste=MAAPERA.get(name, ""),
             partners_note="; ".join(p for p in [r0["partnerit"]] if p) if c == "EU" else ""))
         for i, who in enumerate([r["toteuttaja"] for r in rs] + partners_listed):
             if not who.strip():

@@ -89,7 +89,7 @@ def to_row(p, term, today, org_deadline):
         alku=p.get("startDate") or "", loppu=p.get("endDate") or "",
         toteuttaja=orgs[0] if orgs else "", partnerit=";".join(orgs[1:]),
         budjetti_eur=round(amount) if amount and (g.get("currency") or "EUR") == "EUR" else "",
-        kuvaus=((p.get("summary") or "")[:280] + f" Rahoittaja: {f.get('name')}.").strip(),
+        kuvaus=((p.get("summary") or "")[:2000] + f" Rahoittaja: {f.get('name')}.").strip(),
         tuotokset=outputs,
         url=p.get("websiteUrl") or f"https://explore.openaire.eu/search/project?projectId={pid}")
 

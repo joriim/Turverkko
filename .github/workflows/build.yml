@@ -21,5 +21,5 @@ jobs:
           python scripts/site.py
       - name: Tarkista, että committoidut tiedostot ovat ajan tasalla
         run: |
-          git diff --stat -- data analysis
-          git diff --quiet -- data analysis ':!data/layout.json' || (echo "Aja build.py, analyze.py ja site.py ja committaa tulokset." && exit 1)
+          git diff --stat -- data analysis hakulahteet/README.md
+          git diff --quiet -- data analysis hakulahteet/README.md ':!data/layout.json' || (echo "Aja build.py, analyze.py ja site.py ja committaa tulokset." && exit 1)

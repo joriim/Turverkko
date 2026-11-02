@@ -62,6 +62,8 @@ RAJAUS: Kerää hankkeita, jotka liittyvät turvemaihin tai maaperään:
   päästökertoimet, kasvihuonekaasuinventaario, kaukokartoitus), hiilimarkkinat ja
   -sertifiointi, maaperän vesitalous (säätösalaojitus, kuivatus) ilmastonäkökulmasta
   sekä metsien ja peltojen hiilinielut.
+Rahastot: JTF, EAKR, ESR+, maaseuturahasto, EIP-AGRI, Interreg, Horizon 2020 ja
+Horizon Europe sekä kansallinen tutkimusrahoitus. Ohjelmakaudet 2014–20 ja 2021–27.
 ÄLÄ kerää vety-, energia-, matkailu- tai yleisiä yritystukihankkeita, äläkä
 ravinteiden kierrätystä tai maan kasvukuntoa, jos niissä ei ole päästö- tai hiilinäkökulmaa.
 
@@ -96,11 +98,11 @@ HAKUSTRATEGIA:
 
 YDINSANAT (rajaa tarvittaessa lähteen kieleen):
 - en: peat, peatland, bog, mire, fen, organic soil, histosol, drained organic soils,
-  rewetting, paludiculture, sphagnum farming, peat-free, peat substitute, growing media,
-  cutaway, cutover, after-use, water table, controlled drainage, LULUCF, carbon farming,
-  soil carbon, soil organic carbon, carbon sequestration, emission factor, MRV,
-  greenhouse gas inventory, nitrous oxide, methane, eddy covariance, carbon credit,
-  raised bog, blanket bog
+  rewetting, paludiculture, sphagnum farming, peat-free, peat substitute,
+  growing media, cutaway, cutover, after-use, water table, controlled drainage, LULUCF,
+  carbon farming, soil carbon, soil organic carbon, carbon sequestration,
+  emission factor, MRV, greenhouse gas inventory, nitrous oxide, methane,
+  eddy covariance, carbon credit, raised bog, blanket bog
 - fi: turve, turvemaa, turvepelto, eloperäinen maa, multamaa, suo, suometsä, suonpohja,
   turvetuotantoalue, jälkikäyttö, ennallistaminen, vettäminen, kosteikkoviljely,
   rahkasammal, säätösalaojitus, pohjavedenpinnan säätö, kunnostusojitus,
@@ -109,22 +111,23 @@ YDINSANAT (rajaa tarvittaessa lähteen kieleen):
   päästökerroin, todentaminen
 - sv: torv, torvmark, myr, mosse, kärr, organogen jord, mulljord, dikad, återvätning,
   våtmark, torvtäkt, efterbehandling, vitmossa, torvfri, odlingssubstrat,
-  grundvattennivå, reglerbar dränering, kolsänka, kolinlagring, markkol,
-  växthusgas, lustgas, markanvändning, klimatkompensation
+  grundvattennivå, reglerbar dränering, kolsänka, kolinlagring, markkol, växthusgas,
+  lustgas, markanvändning, klimatkompensation
 - et: turvas, turbaala, turvasmuld, jääksoo, soo, raba, madalsoo, märgala,
   ammendatud turbaväli, taastamine, korrastamine, maaparandus, veerežiim, süsinik,
   mulla süsinik, süsiniku sidumine, kasvuhoonegaas, heitkogused
 - lv: kūdra, kūdrājs, kūdras ieguve, purvs, augstais purvs, zāļu purvs, mitrājs,
   organiskās augsnes, rekultivācija, renaturalizācija, meliorācija, paludikultūra,
-  ZIZIMM (maankäyttösektori), augsnes ogleklis, oglekļa piesaiste,
-  siltumnīcefekta gāzes, emisijas
-- de: Moor, Moorboden, Hochmoor, Niedermoor, Anmoor, organische Böden, kohlenstoffreiche
-  Böden, Wiedervernässung, Renaturierung, Paludikultur, Torfmoos, Torfersatz, torffrei,
-  Moorgrünland, Moorwald, Wasserstandsanhebung, Moorschutz, Bodenkohlenstoff,
-  Humusaufbau, Kohlenstoffspeicherung, Treibhausgas, Lachgas, Carbon Farming
-- Natura 2000 -luontotyypit (hae koodilla ja nimellä): 7110 keidassuot / active raised
-  bogs, 7120 degraded raised bogs, 7130 blanket bogs, 7140 transition mires,
-  7160 lähteiköt, 7230 alkaline fens, 91D0 bog woodland / puustoiset suot
+  ZIZIMM, augsnes ogleklis, oglekļa piesaiste, siltumnīcefekta gāzes, emisijas
+- de: Moor, Moorboden, Hochmoor, Niedermoor, Anmoor, organische Böden,
+  kohlenstoffreiche Böden, Wiedervernässung, Renaturierung, Paludikultur, Torfmoos,
+  Torfersatz, torffrei, Moorgrünland, Moorwald, Wasserstandsanhebung, Moorschutz,
+  Bodenkohlenstoff, Humusaufbau, Kohlenstoffspeicherung, Treibhausgas, Lachgas,
+  Carbon Farming
+- Natura 2000 -luontotyypit (hae koodilla ja nimellä):
+  7110 keidassuot / active raised bogs, 7120 degraded raised bogs, 7130 blanket bogs,
+  7140 transition mires, 7160 lähteiköt, 7230 alkaline fens,
+  91D0 bog woodland / puustoiset suot
 
 TOIMIJAHAKU (aja vain lähteen maan toimijat):
 - FI: Luonnonvarakeskus, Suomen ympäristökeskus, Metsähallitus, Suomen metsäkeskus,
@@ -159,7 +162,8 @@ toteuttaja,partnerit,budjetti_eur,eu_osuus_eur,kuvaus,tuotokset,url
 - lahde = lähteen numero tästä oppaasta (esim. 8)
 - haettu = tämän päivän päivämäärä muodossa VVVV-KK-PP
 - partnerit = puolipisteellä erotettu lista
-- kuvaus = enintään 300 merkkiä hankkeen omasta kuvauksesta
+- kuvaus = hankkeen oma kuvaus kokonaan (enintään 2 000 merkkiä); älä tiivistä, koska
+  päällekkäisyys ja näyttöaste lasketaan tekstistä
 - tuotokset = raportoidut tulokset tai tavoitteet, jos sivu kertoo ne (hehtaarit,
   mittauspisteet, julkaisut)
 Lainaa tekstikentät lainausmerkeissä. Lopuksi listaa erikseen hankkeet, jotka jätit pois

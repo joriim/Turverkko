@@ -8,15 +8,9 @@ UA = "Turverkko/1.0 (+https://github.com/joriim/Turverkko; avoin tutkimusaineist
 FIELDS = ["lahde", "haettu", "hakusana", "hanke_nimi", "lyhenne", "maa", "alue", "rahasto", "ohjelmakausi", "alku", "loppu",
           "toteuttaja", "partnerit", "budjetti_eur", "eu_osuus_eur", "kuvaus", "tuotokset", "url"]
 
-# Rajaus (SCHEMA.md): hankkeen nimen, tiivistelmän tai avainsanojen on osuttava johonkin näistä
-SCOPE = re.compile(
-    r"\bpeat(s|land|lands|y)?\b|\bbogs?\b|\bmires?\b|\bfens?\b|\bwetlands?\b|\bpaludicult|\bsphagnum|"
-    r"\borganic soils?\b|\bhistosols?\b|\brewet|\bdrain(ed|age)\b.{0,40}\b(soil|land|forest|peat)|"
-    r"\bsoil (organic )?carbon\b|\bsoil c\b|\bcarbon farming\b|\bsoil carbon sequestration|carbon sequestration in (agricultural )?soils?|"
-    r"\bsoil (greenhouse|ghg|emissions?|respiration|methane|n2o)\b|\b(nitrous oxide|n2o|methane|ch4) (emissions?|fluxes?) from (agricultural )?(soils?|wetlands?|peat)|"
-    r"\blulucf\b|\bland[- ]use (sector|emissions)\b|\bemission factors?\b.{0,40}\b(soil|land|peat)|"
-    r"\bturve|\bturvemaa|\bsuo\b|\bsoiden\b|\btorv(mark|myr)?\b|\bmyr(ar|mark)?\b|\bvåtmark|\bkūdr|\bpurv(s|ā|i)\b|\bturba(s|ala|väl)|\braba\b|\bmoor(land|lands|boden|schutz)?\b", re.I)
-EXCLUDE = re.compile(r"hydrogen|vety|marine sediment|ocean|lake sediment only|permafrost thaw on mars", re.I)
+# Rajaus on yhdessä paikassa: src/rajaus.py
+sys.path.insert(0, str(ROOT / "src"))
+from rajaus import SCOPE, EXCLUDE  # noqa: E402,F401
 
 
 def get(url, params=None, accept="application/json", tries=3, timeout=60):

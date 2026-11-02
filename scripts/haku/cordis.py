@@ -89,7 +89,7 @@ def rows_for(label, url, today, urls, names):
             alku=(p.get("startDate") or "")[:10], loppu=(p.get("endDate") or "")[:10],
             toteuttaja=lead, partnerit=";".join(partners),
             budjetti_eur=money(p.get("totalCost")), eu_osuus_eur=money(p.get("ecMaxContribution")),
-            kuvaus=(objective[:240] + f" Aihe: {p.get('topics') or ''}. Osallistujia {len(parts)}, joista {len(ours)} rajauksen maista"
+            kuvaus=(objective[:2000] + f" Aihe: {p.get('topics') or ''}. Osallistujia {len(parts)}, joista {len(ours)} rajauksen maista"
                     + (f" (EU-osuus {ours_eu} €)" if ours_eu else "") + (f"; {others} muista maista." if others > 0 else ".")),
             tuotokset="", url=link))
     return out
