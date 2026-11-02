@@ -46,6 +46,9 @@ jobs:
       - name: CORDIS – Horizon 2020 ja Horizon Europe (lähde 23)
         continue-on-error: true
         run: python scripts/haku/cordis.py
+      - name: ROR-tunnisteet ja yhteisjulkaisut (ROR, OpenAIRE)
+        continue-on-error: true
+        run: python scripts/haku/yhteisjulkaisut.py ${{ inputs.naytteet && '--nayte' || '' }}
       - name: Hakukattavuus tunnetuilla hankkeilla
         run: python scripts/kattavuus.py
       - name: Pull request
