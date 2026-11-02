@@ -16,7 +16,7 @@ from yhteinen import ROOT, OUT, SCOPE, fold, get
 ROR = "https://api.ror.org/v2/organizations"
 OA = "https://api.openaire.eu/graph/v1"
 RESEARCH_TYPES = {"yliopisto", "amk", "tutkimuslaitos"}
-TOPIC = "peat OR peatland OR peatlands OR bog OR mire OR fen OR rewetting OR paludiculture OR sphagnum OR \"organic soil\" OR \"organic soils\" OR histosol"
+TOPIC = "peat OR peatland OR peatlands OR bog OR mire OR fen OR rewetting OR paludiculture OR sphagnum OR histosol OR turvemaa OR torvmark OR Moor"
 COUNTRY = {"FI": "FI", "SE": "SE", "EE": "EE", "LV": "LV", "IE": "IE", "DE-NI": "DE", "DE-SH": "DE", "DE": "DE"}
 
 
@@ -63,11 +63,11 @@ def products(oa_id, max_pages):
     out = {}
     cursor = "*"
     for _ in range(max_pages):
-        d = get(f"{OA}/researchProducts", {"relOrganizationId": oa_id, "search": TOPIC, "pageSize": 100, "cursor": cursor})
+        d = get(f"{OA}/researchProducts", {"relOrganizationId": oa_id, "search": TOPIC, "pageSize": 50, "cursor": cursor})
         for r in d.get("results") or []:
             t = (r.get("mainTitle") or "") + " " + " ".join(x if isinstance(x, str) else "" for x in r.get("descriptions") or [])
-            if SCOPE.search(t):
-                y = (r.get("publicationDate") or "")[:4]
+            y = (r.get("publicationDate") or "")[:4]
+            if SCOPE.search(t) and (not y.isdigit() or int(y) >= 2014):
                 doi = next((p.get("value") for p in r.get("pids") or [] if (p.get("scheme") or "").lower() == "doi"), "")
                 out[r["id"]] = (y, doi, (r.get("mainTitle") or "")[:120])
         cursor = (d.get("header") or {}).get("nextCursor")
@@ -79,7 +79,7 @@ def products(oa_id, max_pages):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--nayte", action="store_true")
-    ap.add_argument("--max-sivut", type=int, default=5)
+    ap.add_argument("--max-sivut", type=int, default=10)
     a = ap.parse_args()
     today = datetime.date.today().isoformat()
     ds = json.loads((ROOT / "data" / "dataset.json").read_text(encoding="utf-8"))
@@ -111,7 +111,8 @@ def main():
                 say("OpenAIRE-organisaatio:", oid)
             p = products(oid, a.max_sivut) if oid else {}
         except Exception as e:  # noqa: BLE001
-            say(f"OpenAIRE {o['id']}: {type(e).__name__} {e}"); p = {}
+            body = e.read()[:300] if hasattr(e, "read") else b""
+            say(f"OpenAIRE {o['id']}: {type(e).__name__} {e} {body}"); p = {}
         prods[o["id"]] = p
         say(f"{o['id']}: ROR {rid}, OpenAIRE {oid}, rajausaiheisia tuotoksia {len(p)}")
         time.sleep(0.5)
