@@ -150,8 +150,8 @@ function show() {
     `<div>${N[o] ? TV.dot(N[o].country) : ""} ${link(o)} <span class="note">${KN[e.kind]}${e.note ? " · " + TV.esc(e.note) : ""}</span> ${ev(e)}</div>`).join("")}</div>`).join("");
 
   const miss = D.an.missing_links.filter(m => m.a === it.id || m.b === it.id);
-  if (miss.length) relHtml += `<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div><p class="note">Samat teemat, ei löydettyä yhteistyöpolkua.</p><div class="rel">${miss.map(m => {
-    const o = m.a === it.id ? m.b : m.a; return `<div>${TV.dot(N[o] && N[o].country)} ${link(o)} <span class="pill hot">${Number(m.jaccard).toFixed(2)}</span> <span class="note">${m.yhteiset_teemat}</span></div>`; }).join("")}</div>`;
+  if (miss.length) relHtml += `<div class="eyebrow">Samankaltaiset hankkeet ilman yhteyttä (${miss.length})</div><p class="note">Tekstiltään samankaltainen, ei yhteistä toimijaa eikä lyhyttä yhteistyöpolkua.</p><div class="rel">${miss.map(m => {
+    const o = m.a === it.id ? m.b : m.a; return `<div>${TV.dot(N[o] && N[o].country)} ${link(o)} <span class="pill hot">${Number(m.score).toFixed(2)}</span> <span class="note">${TV.esc(m.tyyppi)} · ${TV.esc(m.yhteiset)}</span></div>`; }).join("")}</div>`;
   const org = D.an.organisations.find(o => o.id === it.id);
   if (org) add("Välityskeskeisyys", `<span class="mono">${org.valityskeskeisyys}</span> <span class="note">· saareke ${org.komponentti}</span>`);
 

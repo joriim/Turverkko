@@ -61,7 +61,6 @@ Rajauksen ulkopuolelle jäävät vety, energia, matkailu, yleinen yritystuki, j�
 | `rahoittaa` | ohjelma → hanke | ei | Varmistettu rahoitussuhde |
 | `tuotos` | hanke → julkaisu | ei | |
 | `teema` | hanke/julkaisu → teema | ei | |
-| `teemapaallekkaisyys` | hanke ↔ hanke | ei | Laskettu, `weight` = Jaccard ≥ 0,4, `note` = yhteiset teemat |
 
 ### Näyttö (`evidence`)
 
@@ -83,3 +82,19 @@ Analyysi (`scripts/analyze.py`) käyttää saarekkeissa ja keskeisyydessä vain 
 | `komponentit.csv` | Erilliset yhteistyösaarekkeet ja niiden maat |
 | `puuttuvat_yhteydet.csv` | Teemallisesti päällekkäiset parit ilman polkua ≤ 3 askelta |
 | `raportti.md` | Luettava yhteenveto |
+
+## Sisällöllinen päällekkäisyys (`analysis/paallekkaisyydet.csv`)
+
+Päällekkäisyys lasketaan hankkeiden teksteistä skriptissä [`scripts/overlap.py`](scripts/overlap.py), ei teemaluokista. Sarakkeet:
+
+| Sarake | Merkitys |
+|---|---|
+| `score` | tekstin samankaltaisuus 0–1 (TF-IDF, monikielinen käsitesanasto, kosini) |
+| `yhteiset` | eniten samankaltaisuutta tuottavat yhteiset käsitteet ja sanat |
+| `samaan_aikaan` | hankkeiden toteutusvuodet menevät päällekkäin (kyllä/ei/?) |
+| `yhteiset_toimijat` | organisaatiot, jotka osallistuvat molempiin |
+| `etaisyys` | lyhin vahvistettu yhteistyöpolku (askelta) tai "ei polkua" |
+| `tyyppi` | saman kokonaisuuden osat · rinnakkainen ilman yhteyttä · peräkkäiset samassa maassa · puuttuva yhteys · yhteydessä |
+
+Kynnyksen herkkyys on tiedostossa `analysis/herkkyys.csv`.
+

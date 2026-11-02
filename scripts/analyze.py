@@ -19,12 +19,12 @@ from pathlib import Path
 
 import networkx as nx
 
+import overlap as OV
+
 ROOT = Path(__file__).resolve().parents[1]
 ACTOR_KINDS = {"organisaatio", "hanke", "osaamiskeskus", "vertailukohde"}
 COLLAB_EDGES = {"osallistuu", "kuuluu_keskukseen", "yhteistyo"}
 MAX_HOPS = 3          # polku ≤ 3 askelta = toimijat tuntevat toisensa (esim. yhteinen organisaatio = 2)
-MISSING_MIN_J = 0.6   # teemojen Jaccard-raja puuttuvalle yhteydelle (ja ≥2 yhteistä teemaa, ks. build.py)
-CROSS_COUNTRY_ONLY = True  # puuttuvat yhteydet vain maiden välillä
 
 
 def load():
@@ -81,27 +81,27 @@ def main():
     org_rows.sort(key=lambda r: (-r["valityskeskeisyys"], -r["hankkeita"]))
     write_csv(out / "organisaatiot.csv", org_rows)
 
-    # 3. Puuttuvat yhteydet: teemallisesti päällekkäiset toimijat, joiden välillä ei ole lyhyttä polkua
-    overlaps = [e for e in edges if e["kind"] == "teemapaallekkaisyys" and e["weight"] >= MISSING_MIN_J]
-    miss = []
-    for e in overlaps:
-        a, b = e["source"], e["target"]
+    # 3. Sisällöllinen päällekkäisyys (teksti, ks. scripts/overlap.py) ja puuttuvat yhteydet
+    ds = json.loads((ROOT / "data" / "dataset.json").read_text(encoding="utf-8"))
+    projects = {p["id"]: p for p in ds["projects"]}
+    projects.update({c["id"]: dict(c, start=None, end=None) for c in ds["context"]})
+    actors = defaultdict(set)
+    for e in edges:
+        if e["kind"] == "osallistuu" and nodes.get(e["source"], {}).get("kind") == "organisaatio":
+            actors[e["target"]].add(e["source"])
+
+    def distance(a, b):
         try:
-            d = nx.shortest_path_length(Gv, a, b)
+            return nx.shortest_path_length(Gv, a, b)
         except (nx.NetworkXNoPath, nx.NodeNotFound):
-            d = None
-        na, nb = nodes[a], nodes[b]
-        if CROSS_COUNTRY_ONLY and na.get("country") == nb.get("country"):
-            continue
-        if d is None or d > MAX_HOPS:
-            ev = max(int(na.get("evidence_level") or 0), int(nb.get("evidence_level") or 0))
-            miss.append(dict(a=a, a_nimi=na["label"], a_maa=na.get("country"), b=b, b_nimi=nb["label"],
-                             b_maa=nb.get("country"), jaccard=e["weight"], yhteiset_teemat=e["note"],
-                             etaisyys="ei polkua" if d is None else d,
-                             tyyppi="maiden välinen" if na.get("country") != nb.get("country") else "sama maa",
-                             paras_naytto=ev))
-    miss.sort(key=lambda r: (-r["jaccard"], r["tyyppi"] != "maiden välinen", -r["paras_naytto"]))
+            return None
+
+    pairs, sensitivity, compared = OV.compute(projects, distance, lambda i: actors.get(i, set()), max_hops=MAX_HOPS)
+    miss = [dict(m, paras_naytto=max(int(projects[m["a"]].get("evidence") or 0), int(projects[m["b"]].get("evidence") or 0)))
+            for m in pairs if m["tyyppi"] not in ("yhteydessä", "saman kokonaisuuden osat")]
+    write_csv(out / "paallekkaisyydet.csv", pairs)
     write_csv(out / "puuttuvat_yhteydet.csv", miss)
+    write_csv(out / "herkkyys.csv", sensitivity)
 
     # 4. Maiden väliset dokumentoidut yhteydet
     cross, cross_unv = Counter(), Counter()
@@ -152,13 +152,19 @@ def main():
     gaps.sort(key=lambda g: (g["yhteys"], -(g["hankkeita_a"] * g["hankkeita_b"])))
 
     analysis = dict(
-        params=dict(max_hops=MAX_HOPS, missing_min_jaccard=MISSING_MIN_J),
+        params=dict(max_hops=MAX_HOPS, overlap_threshold=OV.DEFAULT_THRESHOLD, overlap_method="tekstin TF-IDF + monikielinen käsitesanasto, kosini",
+                    compared_projects=compared),
         summary=dict(actors=Gv.number_of_nodes(), collab_edges=Gv.number_of_edges(), unverified_edges=G.number_of_edges() - Gv.number_of_edges(), components=len(comps),
                      largest_component=len(comps[0]), multi_country_components=sum(1 for r in comp_rows if r["maita"] > 1),
-                     cross_country_edges=sum(cross.values()), missing_links=len(miss),
-                     missing_cross_country=sum(1 for m in miss if m["tyyppi"] == "maiden välinen"),
+                     cross_country_edges=sum(cross.values()), overlap_pairs=len(pairs), missing_links=len(miss),
+                     missing_cross_country=sum(1 for m in miss if m["tyyppi"] == "puuttuva yhteys"),
+                     parallel_unlinked=sum(1 for m in miss if m["tyyppi"] == "rinnakkainen ilman yhteyttä"),
+                     sequential_unlinked=sum(1 for m in miss if m["tyyppi"] == "peräkkäiset samassa maassa"),
+                     overlap_connected=sum(1 for m in pairs if m["tyyppi"] == "yhteydessä"),
+                     overlap_family=sum(1 for m in pairs if m["tyyppi"] == "saman kokonaisuuden osat"),
                      theme_country_pairs=len(gaps), theme_country_pairs_unlinked=sum(1 for g in gaps if not g["yhteys"])),
-        components=comp_rows, organisations=org_rows, missing_links=miss,
+        components=comp_rows, organisations=org_rows, overlaps=pairs, missing_links=miss, sensitivity=sensitivity,
+        overlap_types=OV.TYPES,
         cross_country={f"{a}–{b}": n for (a, b), n in cross.items()},
         cross_country_unverified={f"{a}–{b}": n for (a, b), n in cross_unv.items()}, hub_shared_orgs=shared,
         theme_country_gaps=gaps,
@@ -220,7 +226,12 @@ def report(a, nodes):
          f"- Toimijoita yhteistyöverkossa: **{s['actors']}**, vahvistettuja yhteistyösärmiä **{s['collab_edges']}** (lisäksi {s['unverified_edges']} vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).",
          f"- Erillisiä yhteistyösaarekkeita: **{s['components']}**. Suurin kattaa {s['largest_component']} toimijaa.",
          f"- Usean maan saarekkeita: **{s['multi_country_components']}**. Maiden välisiä vahvistettuja yhteistyösärmiä: **{s['cross_country_edges']}**.",
-         f"- Puuttuvia yhteyksiä (teemat Jaccard ≥ {a['params']['missing_min_jaccard']}, ei polkua ≤ {a['params']['max_hops']} askelta): **{s['missing_links']}**, joista maiden välisiä **{s['missing_cross_country']}**.",
+         f"- Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ {a['params']['overlap_threshold']}, {a['params']['compared_projects']} vertailtavaa hanketta): **{s['overlap_pairs']}**. Niistä",
+         f"  - rinnakkaisia ilman yhteyttä (sama maa, samaan aikaan, ei yhteistä toimijaa eikä polkua ≤ {a['params']['max_hops']}); kohdekohtaisissa toteutushankkeissa tämä on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön: **{s["parallel_unlinked"]}**",
+         f"  - peräkkäisiä samassa maassa ilman yhteyttä: **{s['sequential_unlinked']}**",
+         f"  - puuttuvia maiden välisiä yhteyksiä: **{s['missing_cross_country']}**",
+         f"  - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **{s['overlap_connected']}**",
+         f"  - saman hankekokonaisuuden osia: **{s['overlap_family']}**",
          "", "## Maiden väliset yhteydet", ""]
     L += [f"- {k}: {v} (lähteellä vahvistettu)" for k, v in sorted(a["cross_country"].items())] or ["- Ei vahvistettuja."]
     L += [f"- {k}: {v} (kumppani vahvistamatta)" for k, v in sorted(a["cross_country_unverified"].items())]
@@ -230,10 +241,17 @@ def report(a, nodes):
         L.append(f"| {r['nimi']} | {r['maa']} | {r['hankkeita']} | {r['keskuksia']} | {r['valityskeskeisyys']} |")
     L += ["", "## Osaamiskeskusten yhteiset organisaatiot", ""]
     L += [f"- {x['a']} ↔ {x['b']}: {', '.join(x['organisaatiot'])}" for x in a["hub_shared_orgs"]] or ["- Ei yhteisiä."]
-    L += ["", "## Puuttuvat yhteydet (20 vahvinta)", "",
-          "| A | B | Jaccard | Yhteiset teemat | Tyyppi |", "|---|---|---|---|---|"]
-    for m in a["missing_links"][:20]:
-        L.append(f"| {m['a']} {m['a_nimi'][:45]} | {m['b']} {m['b_nimi'][:45]} | {m['jaccard']} | {m['yhteiset_teemat']} | {m['tyyppi']} |")
+    L += ["", "## Päällekkäisyyden menetelmä", "",
+          "Hankkeiden nimi, kuvaus ja tuotokset verrataan TF-IDF-painotettuina. Monikielinen käsitesanasto yhdistää saman asian eri kielillä (esim. turve, peat, torv, kūdra, Torf). Samankaltaisuus on kosini väliltä 0–1. Kynnys on valittu tarkastelemalla pareja käsin, joten alla on tulokset usealla kynnyksellä. Eri kielillä kuvatut ja eri maiden hankkeet saavat järjestelmällisesti matalampia arvoja, koska paikannimet ja kielikohtaiset sanat eivät osu yhteen.", "",
+          "Lähdeaineiston kuvaukset ovat lyhyitä (keskimäärin noin 200 merkkiä), mikä heikentää erottelukykyä. Tulokset ovat ehdokkaita tarkistettavaksi, eivät todettuja päällekkäisyyksiä.", "",
+          "| Kynnys | Pareja | " + " | ".join(a["overlap_types"]) + " |", "|---|---|" + "---|" * len(a["overlap_types"])]
+    for r in a["sensitivity"]:
+        L.append(f"| {r['kynnys']} | {r['pareja']} | " + " | ".join(str(r[k]) for k in a["overlap_types"]) + " |")
+    for typ in ["rinnakkainen ilman yhteyttä", "puuttuva yhteys", "peräkkäiset samassa maassa"]:
+        rows = [m for m in a["missing_links"] if m["tyyppi"] == typ][:15]
+        L += ["", f"## {typ.capitalize()} (15 samankaltaisinta)", "", "_" + a["overlap_types"][typ] + "._", "",
+              "| A | B | Samankaltaisuus | Yhteiset käsitteet ja sanat | Samaan aikaan |", "|---|---|---|---|---|"]
+        L += [f"| {m['a']} {m['a_nimi'][:50]} | {m['b']} {m['b_nimi'][:50]} | {m['score']} | {m['yhteiset']} | {m['samaan_aikaan']} |" for m in rows] or ["| – | – | – | – | – |"]
     L += ["", "## Teema × maapari", "",
           f"Maaparit, joilla on hankkeita samassa teemassa: **{s['theme_country_pairs']}**, joista ilman yhtään vahvistettua yhteistyöpolkua **{s['theme_country_pairs_unlinked']}**.", "",
           "| Teema | Maat | Hankkeita | Yhteys |", "|---|---|---|---|"]

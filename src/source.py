@@ -447,6 +447,9 @@ for _pid, _rows in _enrich.items():
     if "eur_total" in _p:
         _p["eur_total"] = _p["eur_total"] or _b
         _p["eur_eu"] = _p["eur_eu"] or _e
+    _extra = [t for r in _rows for t in (r["kuvaus"].strip(), r["tuotokset"].strip()) if t]
+    if _extra:  # muiden lähteiden kuvaukset (esim. EURA:n suomenkielinen teksti Kohesion hankkeelle)
+        _p["description_extra"] = " ".join(dict.fromkeys(_extra))
     _p.setdefault("urls", [_p["url"]])
     _p["urls"] += [r["url"] for r in _rows if r["url"] not in _p["urls"]]
     for r in _rows:

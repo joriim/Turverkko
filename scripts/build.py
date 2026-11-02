@@ -15,8 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 import source as S  # noqa: E402
 
-OVERLAP_THRESHOLD = 0.6   # teematunnisteiden Jaccard
-OVERLAP_MIN_SHARED = 2    # vähintään kaksi yhteistä teemaa (yksi yhteinen teema on liian väljä ~100 hankkeella)
+# Päällekkäisyys lasketaan tekstistä tiedostossa scripts/overlap.py (ajetaan analyze.py:ssä)
 
 
 def jaccard(a, b):
@@ -89,12 +88,6 @@ def build():
             n["duplicate_note"] = dup[n["id"]]
 
     items = S.PROJECTS + S.CONTEXT
-    for p, q in itertools.combinations(items, 2):
-        j = jaccard(p["themes"], q["themes"])
-        shared = set(p["themes"]) & set(q["themes"])
-        if j >= OVERLAP_THRESHOLD and len(shared) >= OVERLAP_MIN_SHARED:
-            edge(p["id"], q["id"], "teemapaallekkaisyys", evidence="laskettu", weight=round(j, 2),
-                 note=",".join(sorted(set(p["themes"]) & set(q["themes"]))))
 
     ids = {n["id"] for n in nodes}
     bad = [e for e in edges if e["source"] not in ids or e["target"] not in ids]

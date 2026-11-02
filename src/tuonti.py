@@ -345,7 +345,7 @@ def load():
             start=int(r0["alku"][:4]) if r0["alku"][:4].isdigit() else None,
             end=int(r0["loppu"][:4]) if r0["loppu"][:4].isdigit() else None,
             eur_total=sum(b for b in budgets if b) or None, eur_eu=sum(e for e in eus if e) or None,
-            themes=THEME_OVERRIDE.get(name) or _themes(text), auto_themes=name not in THEME_OVERRIDE, outputs=(r0["tuotokset"] or r0["kuvaus"])[:400],
+            themes=THEME_OVERRIDE.get(name) or _themes(text), auto_themes=name not in THEME_OVERRIDE, outputs=r0["tuotokset"] or r0["kuvaus"], description=" ".join(dict.fromkeys(r["kuvaus"].strip() for r in rs if r["kuvaus"].strip())),
             evidence=_evidence(r0), url=r0["url"], urls=[r["url"] for r in rs],
             programme=r0["ohjelmakausi"], imported_from=r0["_file"], rajaus="maaperä" if name in MAAPERA else "turvemaa", rajaus_peruste=MAAPERA.get(name, ""),
             partners_note="; ".join(p for p in [r0["partnerit"]] if p) if c == "EU" else ""))

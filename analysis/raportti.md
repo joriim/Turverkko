@@ -7,7 +7,12 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 - Toimijoita yhteistyöverkossa: **307**, vahvistettuja yhteistyösärmiä **248** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
 - Erillisiä yhteistyösaarekkeita: **81**. Suurin kattaa 92 toimijaa.
 - Usean maan saarekkeita: **2**. Maiden välisiä vahvistettuja yhteistyösärmiä: **8**.
-- Puuttuvia yhteyksiä (teemat Jaccard ≥ 0.6, ei polkua ≤ 3 askelta): **300**, joista maiden välisiä **300**.
+- Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ 0.2, 148 vertailtavaa hanketta): **102**. Niistä
+  - rinnakkaisia ilman yhteyttä (sama maa, samaan aikaan, ei yhteistä toimijaa eikä polkua ≤ 3); kohdekohtaisissa toteutushankkeissa tämä on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön: **75**
+  - peräkkäisiä samassa maassa ilman yhteyttä: **5**
+  - puuttuvia maiden välisiä yhteyksiä: **5**
+  - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **14**
+  - saman hankekokonaisuuden osia: **3**
 
 ## Maiden väliset yhteydet
 
@@ -38,30 +43,66 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 - H-FI ↔ H-FI-AKA: hy, il
 - H-IE-GAL ↔ H-IE-LIFE: galway
 
-## Puuttuvat yhteydet (20 vahvinta)
+## Päällekkäisyyden menetelmä
 
-| A | B | Jaccard | Yhteiset teemat | Tyyppi |
+Hankkeiden nimi, kuvaus ja tuotokset verrataan TF-IDF-painotettuina. Monikielinen käsitesanasto yhdistää saman asian eri kielillä (esim. turve, peat, torv, kūdra, Torf). Samankaltaisuus on kosini väliltä 0–1. Kynnys on valittu tarkastelemalla pareja käsin, joten alla on tulokset usealla kynnyksellä. Eri kielillä kuvatut ja eri maiden hankkeet saavat järjestelmällisesti matalampia arvoja, koska paikannimet ja kielikohtaiset sanat eivät osu yhteen.
+
+Lähdeaineiston kuvaukset ovat lyhyitä (keskimäärin noin 200 merkkiä), mikä heikentää erottelukykyä. Tulokset ovat ehdokkaita tarkistettavaksi, eivät todettuja päällekkäisyyksiä.
+
+| Kynnys | Pareja | saman kokonaisuuden osat | rinnakkainen ilman yhteyttä | peräkkäiset samassa maassa | puuttuva yhteys | yhteydessä |
+|---|---|---|---|---|---|---|
+| 0.15 | 251 | 3 | 157 | 25 | 38 | 28 |
+| 0.2 | 102 | 3 | 75 | 5 | 5 | 14 |
+| 0.25 | 43 | 3 | 29 | 1 | 1 | 9 |
+| 0.3 | 22 | 3 | 12 | 0 | 0 | 7 |
+| 0.35 | 13 | 3 | 4 | 0 | 0 | 6 |
+| 0.4 | 6 | 1 | 1 | 0 | 0 | 4 |
+
+## Rinnakkainen ilman yhteyttä (15 samankaltaisinta)
+
+_sama maa, samaan aikaan, ei yhteistä toimijaa eikä yhteistyöpolkua. Voi olla tarkoituksellista (eri kohteet) tai päällekkäistä työtä (sama menetelmä tai suunnittelu kahteen kertaan)._
+
+| A | B | Samankaltaisuus | Yhteiset käsitteet ja sanat | Samaan aikaan |
 |---|---|---|---|---|
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | K-DE-NI-7a94 Climate protection-oriented agriculture in th | 1.0 | T2,T6 | maiden välinen |
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | K-DE-NI-cc25 Model project Gnarrenburger Moor – Underfloor | 1.0 | T2,T6 | maiden välinen |
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | K-EU-48f5 Carbon Connects | 1.0 | T2,T6 | maiden välinen |
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | T-EU-73cb Land4Climate | 1.0 | T2,T6 | maiden välinen |
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | E-LV-c39d Adapting composting technologies for the util | 1.0 | T2,T6 | maiden välinen |
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | J-SE-0e6e Deltagardrivet projekt rörande odlingssystem  | 1.0 | T2,T6 | maiden välinen |
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | J-SE-b073 Klimatanpassad grundvatten-reglering i norrlä | 1.0 | T2,T6 | maiden välinen |
-| IE-01 Farm Carbon – tulosperusteiset maksut turvema | J-SE-a3d4 Vägval - odlingssystem på tre gårdar för jord | 1.0 | T2,T6 | maiden välinen |
-| LV-02 Historiallisten turvealueiden elvyttäminen | K-FI-7c34 Satakunta peatlands: from peat production to  | 1.0 | T1,T8 | maiden välinen |
-| LV-02 Historiallisten turvealueiden elvyttäminen | X-IE-NAT Midlands Just Transition -ohjelma (135,8 M€,  | 1.0 | T1,T8 | maiden välinen |
-| LV-03 Ilmastopolitiikkaan sovitetut ratkaisut noste | R-FI-b45a Turvevapaa ruokaketju | 1.0 | T1,T3 | maiden välinen |
-| IE-02 FarmPEAT – tulosperusteinen ympäristöohjelma  | K-DE-NI-410f Maintenance of wet grassland in the EU – Bird | 1.0 | T2,T5 | maiden välinen |
-| IE-02 FarmPEAT – tulosperusteinen ympäristöohjelma  | K-DE-NI-9163 Moorland grazing Dümmerniederung, Steinfelder | 1.0 | T2,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-6c73 Konttisuo restoration plan | 1.0 | T1,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-56cf NEVALA - Restoration planning of peat product | 1.0 | T1,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-6978 Peat Bogs to Wetlands | 1.0 | T1,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-e290 Restoration and water protection project of S | 1.0 | T1,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-8d28 Restoration of Linttiräme after Peat Producti | 1.0 | T1,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-cb20 Restoration of the Western Valkeasuo Mire | 1.0 | T1,T5 | maiden välinen |
-| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-16d2 Restoration plan for the bog Pirttineva, prev | 1.0 | T1,T5 | maiden välinen |
+| K-DE-NI-6f11 Rewetting of the slope moor Friedrichshäuser Bruch | K-DE-NI-c57b Rewetting of the hill moor at the forest town of W | 0.434 | trenche, hill, removin, drainag, moor, vettaminen | kyllä |
+| K-DE-NI-3ac3 Rewetting of the hill moor in the forest town of W | K-DE-NI-6f11 Rewetting of the slope moor Friedrichshäuser Bruch | 0.397 | spring, hill, complex, moor, vettaminen, ennallistaminen | kyllä |
+| K-FI-6978 Peat Bogs to Wetlands | K-FI-8d28 Restoration of Linttiräme after Peat Production | 0.382 | state, wetland, natural, peat, restora, constru | kyllä |
+| K-DE-NI-0499 OptiMOOS – Subproject vegetation development and w | K-DE-NI-34e3 Monitoring of the peat moss field in the Ahlenmoor | 0.381 | moss, regard, cultiva, peat, turvepelto, turve | kyllä |
+| K-DE-NI-c05c Gnarrenburger Moor – Area concept and water manage | K-DE-NI-dab1 Development of priorities in moor and climate prot | 0.327 | concept, protect, moor, climate, suunnittelu, turve | kyllä |
+| K-DE-NI-0499 OptiMOOS – Subproject vegetation development and w | K-DE-NI-bd6b MOOSWEIT, Subproject 5 | 0.325 | moss, cultiva, peat, turvepelto, turve | kyllä |
+| K-DE-NI-34e3 Monitoring of the peat moss field in the Ahlenmoor | K-DE-NI-bd6b MOOSWEIT, Subproject 5 | 0.318 | moss, cultiva, peat, turvepelto, turve | kyllä |
+| K-FI-6978 Peat Bogs to Wetlands | K-FI-b095 Aarreaitta - Restoring the Kanasuo peat extraction | 0.31 | wetland, peat, kosteikko, restora, multifu, decommi | kyllä |
+| K-DE-NI-0e2b Rewetting Sauerbach | K-DE-NI-b8d9 Optimisation of water balance in selected bogs of  | 0.305 | gifhorn, rewetti, measure, mittaus, vettaminen, moor | kyllä |
+| K-DE-NI-9595 Management of moorland areas | K-DE-NI-b8d9 Optimisation of water balance in selected bogs of  | 0.305 | measure, rewetti, mittaus, bogs, vettaminen, suo | kyllä |
+| K-DE-NI-03c5 Moorhausen moor area, test and demonstration areas | K-DE-NI-cc25 Model project Gnarrenburger Moor – Underfloor irri | 0.301 | test, demonst, reducti, paastot, moor, turve | kyllä |
+| K-DE-NI-bd6b MOOSWEIT, Subproject 5 | K-DE-NI-cad6 Succession of the dragonfly fauna of a peat moss c | 0.301 | moss, harvest, peat, turve | kyllä |
+| K-DE-NI-3ac3 Rewetting of the hill moor in the forest town of W | K-DE-NI-c57b Rewetting of the hill moor at the forest town of W | 0.292 | hill, moor, town, vettaminen, rewetti, forest | kyllä |
+| K-FI-8d28 Restoration of Linttiräme after Peat Production | K-FI-b095 Aarreaitta - Restoring the Kanasuo peat extraction | 0.292 | product, wetland, peat, former, kosteikko, restora | kyllä |
+| K-DE-NI-c05c Gnarrenburger Moor – Area concept and water manage | K-DE-NI-f68e Establishment of a “Paludiculture Competence Centr | 0.286 | concept, managem, suunnittelu, climate | kyllä |
+
+## Puuttuva yhteys (15 samankaltaisinta)
+
+_eri maat, ei yhteistyöpolkua._
+
+| A | B | Samankaltaisuus | Yhteiset käsitteet ja sanat | Samaan aikaan |
+|---|---|---|---|---|
+| K-DE-NI-9d56 Planning for the renaturation of the Steinmoor | K-FI-6c73 Konttisuo restoration plan | 0.271 | plan, norther, suunnittelu, restora, luonto, ennallistaminen | ei |
+| LV-03 Ilmastopolitiikkaan sovitetut ratkaisut nostetuill | NI-02 Produktketten aus Niedermoorbiomasse (paludikulttu | 0.246 | paludik, paludikulttuuri, turve | ? |
+| NI-01 KliMo – Klimaschutz durch Moorentwicklung (ohjelma | X-IE-NAT Midlands Just Transition -ohjelma (135,8 M€, 47 ha | 0.222 | hankett, ohjelma | ? |
+| K-DE-NI-0e2b Rewetting Sauerbach | K-FI-e290 Restoration and water protection project of South- | 0.214 | south, mittaus, measure, former, peat, turve | ei |
+| FI-01 TUKKA – Turvemaiden kestävän käytön osaamiskluster | NI-01 KliMo – Klimaschutz durch Moorentwicklung (ohjelma | 0.2 | kayton, kestava, turve | kyllä |
+
+## Peräkkäiset samassa maassa (15 samankaltaisinta)
+
+_sama maa, eri aikaan, ei yhteistä toimijaa eikä polkua (toisto tai jatko ilman yhteyttä)._
+
+| A | B | Samankaltaisuus | Yhteiset käsitteet ja sanat | Samaan aikaan |
+|---|---|---|---|---|
+| K-DE-NI-04a5 Wiedervernässung des Weißen Moores | K-DE-NI-d8d1 Regeneration of a moorland in the Günnemoor | 0.251 | drainag, high, extract, bog, peat, suo | ei |
+| E-DE-NI-b06d Industrial raw material using bog sites – I-ROBI | K-DE-NI-44a1 MOOSWEIT TV3 – GHG balance of cultivation and harv | 0.239 | crop, cultiva, raw, balance, ghg, materia | ei |
+| K-DE-NI-1847 Network Moor Care and Moor Management Elbe-Weser ( | K-DE-NI-f3b0 WetWeb Organic Soils – Networked Research for Moor | 0.225 | network, managem, moor, turve | ei |
+| K-DE-NI-1746 Care and development concept Meckelmoor Landkreis  | K-DE-NI-bf71 Moor wetting Ahrensfelder Moor | 0.212 | partial, moor, turve | ei |
+| K-FI-9cd5 Restoration of peat production areas in North Ostr | K-FI-ceda Tools and methods for combating the effects of pea | 0.2 | suometsa, ostrobo, north, finland, peatlan, peat | ei |
 
 ## Teema × maapari
 

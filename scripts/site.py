@@ -31,13 +31,10 @@ NAV_FIX = """<style>body>.nav{margin-top:-20px;margin-bottom:8px;margin-inline:c
 
 
 def kartta(repo, name, ds, net, an):
-    country = {n["id"]: n.get("country") for n in net["nodes"]}
     ds = dict(ds)
-    ds["overlaps"] = sorted(
-        [dict(a=e["source"], b=e["target"], score=e["weight"], shared=e["note"].split(","),
-              kind="sama maa" if country[e["source"]] == country[e["target"]] else "maiden välinen")
-         for e in net["edges"] if e["kind"] == "teemapaallekkaisyys"],
-        key=lambda o: -o["score"])
+    ds["overlaps"] = [dict(a=o["a"], b=o["b"], score=o["score"], shared=[t for t in o["yhteiset"].split(", ") if t],
+                           kind=o["tyyppi"], same_time=o["samaan_aikaan"], actors=o["yhteiset_toimijat"])
+                      for o in an.get("overlaps", [])]
     ds["network"] = net
     ds["analysis"] = an
     html = (ROOT / "site" / "template.html").read_text(encoding="utf-8")
@@ -84,8 +81,8 @@ def tool_graph(ds, net, an):
             edges.append((e["source"], e["target"], {"kind": e["kind"], "evidence": e["evidence"] or "", "role": e["note"] or "", "url": e["url"] or ""}))
     for m in an.get("missing_links", []):
         if m["a"] in ids and m["b"] in ids:
-            edges.append((m["a"], m["b"], {"kind": "puuttuva_yhteys", "evidence": "laskettu", "role": m["yhteiset_teemat"],
-                                           "url": "", "jaccard": float(m["jaccard"])}))
+            edges.append((m["a"], m["b"], {"kind": "puuttuva_yhteys", "evidence": "laskettu", "role": f'{m["tyyppi"]}: {m["yhteiset"]}',
+                                           "url": "", "jaccard": float(m["score"])}))
     # julkaisuille sijainti tekijähankkeen viereen
     for i, (nid, a, p) in enumerate(nodes):
         if p is None:

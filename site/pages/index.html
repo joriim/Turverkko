@@ -150,16 +150,19 @@ TV.load().then(({ds, net, an}) => {
     [ds.hubs.length, "osaamiskeskusta"],
     [s.actors, "toimijaa yhteistyöverkossa"],
     [s.components, "erillistä yhteistyösaareketta"],
-    [s.missing_cross_country, "maiden välistä puuttuvaa yhteyttä"],
+    [s.parallel_unlinked, "rinnakkaista hankeparia ilman yhteyttä"],
     [TV.eur(jtf), "turvepainotteista JTF-rahoitusta"],
   ].map(([b, t]) => `<div class="kpi"><b>${b}</b><span>${t}</span></div>`).join("");
 
-  const top = an.missing_links.filter(m => m.tyyppi === "maiden välinen").slice(0, 3);
+  const top = an.missing_links.filter(m => m.tyyppi === "rinnakkainen ilman yhteyttä").slice(0, 3);
+  const topx = an.missing_links.filter(m => m.tyyppi === "puuttuva yhteys").slice(0, 3);
+  const pair = m => `<a href="haku.html#${encodeURIComponent(m.a)}">${TV.esc(m.a_nimi.replace(/ –.*/, ""))}</a> ja <a href="haku.html#${encodeURIComponent(m.b)}">${TV.esc(m.b_nimi.replace(/ –.*/, ""))}</a>`;
   const brokers = an.organisations.filter(o => o.valityskeskeisyys > 0).slice(0, 3).map(o => o.nimi.replace(/ \(.*\)/, ""));
   const multi = an.components.filter(c => c.maita > 1);
   document.getElementById("findings").innerHTML = `
     <p><b>${s.actors} toimijaa jakautuu ${s.components} erilliseen yhteistyösaarekkeeseen.</b> Maarajan ylittää ${multi.length === 1 ? "vain yksi saareke" : multi.length + " saareketta"}${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, ja lähteellä vahvistettuja maiden välisiä yhteyksiä on ${s.cross_country_edges}.</p>
-    <p><b>Vahvimmat puuttuvat yhteydet:</b> ${top.map(m => `<a href="haku.html#${encodeURIComponent(m.a)}">${TV.esc(m.a_nimi.replace(/ –.*/, ""))}</a> ja <a href="haku.html#${encodeURIComponent(m.b)}">${TV.esc(m.b_nimi.replace(/ –.*/, ""))}</a>`).join("; ")}.</p>
+    <p><b>${s.overlap_pairs} hankeparia on sisällöltään samankaltaisia.</b> Niistä ${s.parallel_unlinked} on samassa maassa samaan aikaan ilman yhteistä toimijaa, esimerkiksi ${top.map(pair).join("; ")}. Kohdekohtaisissa toteutuksissa se on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön.</p>
+    <p><b>Maiden välillä</b> samankaltaisia pareja ilman yhteistyöpolkua on ${s.missing_cross_country}${topx.length ? ", esimerkiksi " + topx.map(pair).join("; ") : ""}. Eri kielillä kuvatut hankkeet jäävät menetelmässä helposti alle kynnyksen.</p>
     <p><b>Teemoittain:</b> ${s.theme_country_pairs} maaparilla on hankkeita samassa teemassa, ja niistä ${s.theme_country_pairs_unlinked} ilman yhtään vahvistettua yhteistyöpolkua.</p>
     <p><b>Välittäjäorganisaatiot</b> eli ne, joiden kautta eri hankkeet kytkeytyvät: ${brokers.map(TV.esc).join(", ")}.</p>`;
   document.getElementById("themes").innerHTML = Object.entries(ds.themes).map(([k, v]) => {

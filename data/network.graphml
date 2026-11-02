@@ -3710,13 +3710,6 @@
       <data key="d32">https://jyx.jyu.fi/handle/123456789/109405</data>
       <data key="d33" />
     </edge>
-    <edge source="FI-01" target="X-DE-SH" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T7,T8</data>
-    </edge>
     <edge source="FI-02" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -3794,34 +3787,6 @@
       <data key="d32">https://silava.lv/en/news/seminar-peattransform-towards-climate-neutrality-in-the-peat-sector-held-at-lsfri-silava</data>
       <data key="d33" />
     </edge>
-    <edge source="LV-01" target="FI-06" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3,T8</data>
-    </edge>
-    <edge source="LV-01" target="FI-09" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3,T8</data>
-    </edge>
-    <edge source="LV-01" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3,T6,T8</data>
-    </edge>
-    <edge source="LV-01" target="K-LV-74bd" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6,T8</data>
-    </edge>
     <edge source="LV-02" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -3835,41 +3800,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="LV-02" target="FI-06" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
-    <edge source="LV-02" target="FI-09" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
-    <edge source="LV-02" target="K-FI-7c34" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
-    <edge source="LV-02" target="K-LV-74bd" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
-    <edge source="LV-02" target="X-IE-NAT" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
     </edge>
     <edge source="LV-03" target="T1" id="0">
       <data key="d29">teema</data>
@@ -3885,34 +3815,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="LV-03" target="FI-06" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
-    <edge source="LV-03" target="FI-09" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
-    <edge source="LV-03" target="R-FI-b45a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
-    <edge source="LV-03" target="E-LV-9406" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
     <edge source="IE-01" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -3927,111 +3829,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="IE-01" target="K-DE-NI-7a94" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="K-DE-NI-cc25" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="K-DE-NI-d14f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="K-EU-48f5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="T-EU-88fc" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="T-EU-73cb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="K-FI-9511" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="K-FI-c4ea" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="IE-01" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
     <edge source="IE-02" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -4045,48 +3842,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="IE-02" target="NI-01" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="IE-02" target="K-DE-NI-410f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="IE-02" target="K-DE-NI-9163" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="IE-02" target="E-IE-9275" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="IE-02" target="E-IE-e6ef" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="IE-02" target="E-IE-2cb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
     </edge>
     <edge source="NI-01" target="T5" id="0">
       <data key="d29">teema</data>
@@ -4108,139 +3863,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="NI-01" target="K-DE-NI-410f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-DE-NI-9163" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-DE-NI-0e2b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-DE-NI-04a5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-DE-NI-61e6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-6c73" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-9cd5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T2,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="NI-01" target="E-IE-9275" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="NI-01" target="E-IE-e6ef" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="NI-01" target="E-IE-2cb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-IE-d7ff" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T2,T5</data>
-    </edge>
-    <edge source="NI-01" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
     </edge>
     <edge source="NI-02" target="T3" id="0">
       <data key="d29">teema</data>
@@ -4284,48 +3906,6 @@
       <data key="d32">https://jyx.jyu.fi/jyx/Record/jyx_123456789_107454/Description</data>
       <data key="d33" />
     </edge>
-    <edge source="FI-06" target="FI-09" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3,T8</data>
-    </edge>
-    <edge source="FI-06" target="K-FI-7c34" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
-    <edge source="FI-06" target="R-FI-b45a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
-    <edge source="FI-06" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3,T8</data>
-    </edge>
-    <edge source="FI-06" target="E-LV-9406" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
-    <edge source="FI-06" target="X-IE-NAT" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
     <edge source="FI-07" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -4367,20 +3947,6 @@
       <data key="d31">lähde</data>
       <data key="d32">https://lehti.seamk.fi/verkkolehti/naarasnevan-mittausasemalla-alkaa-suonpohjien-metsityksen-monimuotoisuusvaikutusten-ja-n2o-paastojen-seuranta/?print=pdf</data>
       <data key="d33" />
-    </edge>
-    <edge source="FI-07" target="K-FI-879d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T4,T6</data>
-    </edge>
-    <edge source="FI-07" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
     </edge>
     <edge source="FI-08" target="T3" id="0">
       <data key="d29">teema</data>
@@ -4431,41 +3997,6 @@
       <data key="d32" />
       <data key="d33">SuoLiike (JTF, Kymenlaakso) Silavassa 20.8.2025; ei TUKKA-verkoston hanke</data>
     </edge>
-    <edge source="FI-09" target="K-FI-7c34" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
-    <edge source="FI-09" target="R-FI-b45a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
-    <edge source="FI-09" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3,T8</data>
-    </edge>
-    <edge source="FI-09" target="E-LV-9406" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
-    </edge>
-    <edge source="FI-09" target="X-IE-NAT" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
     <edge source="FI-10" target="T3" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -4494,90 +4025,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-accd" target="K-DE-NI-f620" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-DE-NI-dab1" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-DE-NI-a450" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-DE-NI-d3d6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-EU-0882" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-accd" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
     <edge source="K-DE-NI-f620" target="T5" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -4591,83 +4038,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-DE-NI-dab1" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-DE-NI-a450" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-DE-NI-d3d6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-EU-0882" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-f620" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
     </edge>
     <edge source="K-DE-NI-e147" target="T6" id="0">
       <data key="d29">teema</data>
@@ -4689,104 +4059,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-DE-NI-7a94" target="K-DE-NI-cc25" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="K-DE-NI-d14f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="K-EU-48f5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="T-EU-88fc" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="T-EU-73cb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="K-FI-9511" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="K-FI-c4ea" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-7a94" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="K-DE-NI-209b" target="T5" id="0">
       <data key="d29">teema</data>
@@ -4823,55 +4095,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-dab1" target="K-DE-NI-c05c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-dab1" target="K-DE-NI-a450" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-dab1" target="K-DE-NI-d3d6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-dab1" target="K-EU-0882" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-dab1" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-dab1" target="J-SE-2f3b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-dab1" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
     <edge source="K-DE-NI-f68e" target="T3" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -4907,55 +4130,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-c05c" target="T-EU-88fc" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-c05c" target="K-FI-1fcb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-c05c" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-c05c" target="K-LV-74bd" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-c05c" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-c05c" target="J-SE-2f3b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-DE-NI-c05c" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
     <edge source="K-DE-NI-e715" target="T5" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -4976,13 +4150,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="E-DE-NI-b06d" target="K-IE-7fa4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T3</data>
     </edge>
     <edge source="K-DE-NI-cf1c" target="T5" id="0">
       <data key="d29">teema</data>
@@ -5019,13 +4186,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-44a1" target="K-DE-NI-34e3" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T3,T6</data>
-    </edge>
     <edge source="K-DE-NI-77b2" target="T3" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -5054,34 +4214,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-410f" target="K-DE-NI-9163" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="K-DE-NI-410f" target="E-IE-9275" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="K-DE-NI-410f" target="E-IE-e6ef" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="K-DE-NI-410f" target="E-IE-2cb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
     <edge source="K-DE-NI-9595" target="T5" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -5103,97 +4235,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-cc25" target="K-DE-NI-d14f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="K-EU-48f5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="T-EU-88fc" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="T-EU-73cb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="K-FI-9511" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="K-FI-c4ea" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-cc25" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
     <edge source="K-DE-NI-1c15" target="T6" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -5207,13 +4248,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-DE-NI-1c15" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T7</data>
     </edge>
     <edge source="K-DE-NI-34e3" target="T3" id="0">
       <data key="d29">teema</data>
@@ -5264,27 +4298,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-9163" target="E-IE-9275" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="K-DE-NI-9163" target="E-IE-e6ef" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="K-DE-NI-9163" target="E-IE-2cb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
     <edge source="K-DE-NI-a450" target="T5" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -5298,69 +4311,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-DE-NI-d3d6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-EU-0882" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-a450" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
     </edge>
     <edge source="K-DE-NI-ca87" target="T2" id="0">
       <data key="d29">teema</data>
@@ -5446,62 +4396,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-d3d6" target="K-EU-0882" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d3d6" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d3d6" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d3d6" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d3d6" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d3d6" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d3d6" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d3d6" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
     <edge source="K-DE-NI-d8d1" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -5522,111 +4416,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-DE-NI-0e2b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-DE-NI-04a5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-DE-NI-61e6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-2fcc" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T4,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-6c73" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-9cd5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T4,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-LV-4390" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T4,T5</data>
-    </edge>
-    <edge source="K-DE-NI-d8d1" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
     </edge>
     <edge source="K-DE-NI-8755" target="T5" id="0">
       <data key="d29">teema</data>
@@ -5649,132 +4438,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-0e2b" target="K-DE-NI-04a5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-DE-NI-61e6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-6c73" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-0e2b" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
     <edge source="K-DE-NI-04a5" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -5788,125 +4451,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-DE-NI-61e6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-6c73" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-04a5" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
     </edge>
     <edge source="K-DE-NI-c57b" target="T5" id="0">
       <data key="d29">teema</data>
@@ -5950,90 +4494,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-d14f" target="K-EU-48f5" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="T-EU-88fc" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="T-EU-73cb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="K-FI-9511" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="K-FI-c4ea" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-DE-NI-d14f" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
     <edge source="K-DE-NI-cad6" target="T3" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6062,118 +4522,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-6c73" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-DE-NI-61e6" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
     <edge source="K-EU-5a7e" target="T5" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6187,34 +4535,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-EU-5a7e" target="K-IE-0b63" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
-    </edge>
-    <edge source="K-EU-5a7e" target="K-LV-37ba" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
-    </edge>
-    <edge source="K-EU-5a7e" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
-    </edge>
-    <edge source="K-EU-5a7e" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
     </edge>
     <edge source="K-EU-0882" target="T5" id="0">
       <data key="d29">teema</data>
@@ -6230,55 +4550,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-EU-0882" target="K-FI-b095" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-EU-0882" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-EU-0882" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-EU-0882" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-EU-0882" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-EU-0882" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
-    <edge source="K-EU-0882" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6</data>
-    </edge>
     <edge source="K-EU-48f5" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6292,83 +4563,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-EU-48f5" target="T-EU-88fc" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="T-EU-73cb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="K-FI-9511" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="K-FI-c4ea" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-EU-48f5" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="K-EU-f426" target="T6" id="0">
       <data key="d29">teema</data>
@@ -6398,69 +4592,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="T-EU-88fc" target="T-EU-73cb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-88fc" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-88fc" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6,T8</data>
-    </edge>
-    <edge source="T-EU-88fc" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-88fc" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-88fc" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6,T8</data>
-    </edge>
-    <edge source="T-EU-88fc" target="J-SE-2f3b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="T-EU-88fc" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="T-EU-88fc" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
     <edge source="T-EU-73cb" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6474,69 +4605,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="T-EU-73cb" target="K-FI-9511" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="K-FI-c4ea" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="T-EU-73cb" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="K-EU-2e51" target="T5" id="0">
       <data key="d29">teema</data>
@@ -6565,125 +4633,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-6894" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-6c73" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b095" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-b095" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b095" target="X-FI-PEATRESC" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
     </edge>
     <edge source="K-FI-e8b3" target="T1" id="0">
       <data key="d29">teema</data>
@@ -6720,20 +4669,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-879d" target="K-FI-1fcb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T4,T6</data>
-    </edge>
-    <edge source="K-FI-879d" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T4,T6</data>
-    </edge>
     <edge source="R-FI-d4ba" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6747,13 +4682,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="R-FI-d4ba" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T7</data>
     </edge>
     <edge source="K-FI-6894" target="T1" id="0">
       <data key="d29">teema</data>
@@ -6776,118 +4704,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-6894" target="K-FI-6c73" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-6894" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-6894" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6894" target="X-FI-PEATRESC" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
     <edge source="K-FI-1fcb" target="T4" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6909,20 +4725,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-1fcb" target="J-SE-2f3b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-FI-1fcb" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
     <edge source="K-FI-2fcc" target="T4" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6937,13 +4739,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-2fcc" target="K-LV-4390" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T4,T5</data>
-    </edge>
     <edge source="K-FI-6c73" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -6957,97 +4752,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-56cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6c73" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
     </edge>
     <edge source="K-FI-1d92" target="T6" id="0">
       <data key="d29">teema</data>
@@ -7070,90 +4774,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-56cf" target="K-FI-561d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-56cf" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
     <edge source="K-FI-561d" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7175,97 +4795,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-561d" target="K-FI-6978" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-561d" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-561d" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-561d" target="X-FI-PEATRESC" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
     <edge source="K-FI-6978" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7279,76 +4808,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-e290" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-6978" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
     </edge>
     <edge source="K-FI-e290" target="T1" id="0">
       <data key="d29">teema</data>
@@ -7364,69 +4823,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-e290" target="K-FI-8d28" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-e290" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
     <edge source="K-FI-8d28" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7440,62 +4836,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-8d28" target="K-FI-cb20" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-8d28" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-8d28" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-8d28" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-8d28" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-8d28" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-8d28" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-8d28" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
     </edge>
     <edge source="K-FI-9cd5" target="T1" id="0">
       <data key="d29">teema</data>
@@ -7525,13 +4865,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-9cd5" target="K-IE-d7ff" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T2,T5</data>
-    </edge>
     <edge source="K-FI-cb20" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7545,55 +4878,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-cb20" target="K-FI-16d2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-cb20" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-cb20" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-cb20" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-cb20" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-cb20" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-cb20" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
     </edge>
     <edge source="K-FI-16d2" target="T1" id="0">
       <data key="d29">teema</data>
@@ -7609,48 +4893,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-16d2" target="K-FI-06b9" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-16d2" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-16d2" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-16d2" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-16d2" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-16d2" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
     <edge source="K-FI-7c34" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7664,20 +4906,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-7c34" target="K-LV-74bd" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
-    <edge source="K-FI-7c34" target="X-IE-NAT" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
     </edge>
     <edge source="K-FI-9511" target="T1" id="0">
       <data key="d29">teema</data>
@@ -7699,48 +4927,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-9511" target="K-FI-c4ea" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T2,T6</data>
-    </edge>
-    <edge source="K-FI-9511" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-FI-9511" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-9511" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-FI-9511" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-FI-9511" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="R-FI-70e5" target="T8" id="0">
       <data key="d29">teema</data>
@@ -7770,55 +4956,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-06b9" target="K-FI-b38f" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-06b9" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-06b9" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-06b9" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-06b9" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-06b9" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-06b9" target="X-FI-PEATRESC" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
     <edge source="K-FI-b38f" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7839,48 +4976,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-b38f" target="K-FI-3bb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b38f" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b38f" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-b38f" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-b38f" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-b38f" target="X-FI-PEATRESC" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
     </edge>
     <edge source="K-FI-6f20" target="T3" id="0">
       <data key="d29">teema</data>
@@ -7910,27 +5005,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-3bb2" target="K-FI-665a" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-3bb2" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-3bb2" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
     <edge source="K-FI-c4ea" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -7951,41 +5025,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-FI-c4ea" target="E-LV-c39d" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-FI-c4ea" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-c4ea" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-FI-c4ea" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="K-FI-c4ea" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="K-FI-ceda" target="T4" id="0">
       <data key="d29">teema</data>
@@ -8029,34 +5068,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-665a" target="K-FI-0ac6" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
-    <edge source="K-FI-665a" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-FI-665a" target="K-LV-cbb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
-    <edge source="K-FI-665a" target="X-FI-PEATRESC" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T6</data>
-    </edge>
     <edge source="R-FI-b45a" target="T1" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8070,13 +5081,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="R-FI-b45a" target="E-LV-9406" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T3</data>
     </edge>
     <edge source="K-FI-0ac6" target="T1" id="0">
       <data key="d29">teema</data>
@@ -8113,13 +5117,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-FI-0ac6" target="K-LV-74bd" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.6</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6,T8</data>
-    </edge>
     <edge source="E-IE-9275" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8134,20 +5131,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="E-IE-9275" target="E-IE-e6ef" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
-    <edge source="E-IE-9275" target="E-IE-2cb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
-    </edge>
     <edge source="E-IE-e6ef" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8161,13 +5144,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="E-IE-e6ef" target="E-IE-2cb2" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T5</data>
     </edge>
     <edge source="K-IE-06fb" target="T5" id="0">
       <data key="d29">teema</data>
@@ -8189,27 +5165,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-IE-0b63" target="K-LV-37ba" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
-    </edge>
-    <edge source="K-IE-0b63" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
-    </edge>
-    <edge source="K-IE-0b63" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
     </edge>
     <edge source="K-IE-cee8" target="T3" id="0">
       <data key="d29">teema</data>
@@ -8309,48 +5264,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="E-LV-c39d" target="E-LV-6430" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-c39d" target="E-LV-e70c" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-c39d" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-c39d" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-c39d" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-c39d" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
     <edge source="E-LV-6430" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8371,48 +5284,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="E-LV-6430" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-6430" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-6430" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6,T8</data>
-    </edge>
-    <edge source="E-LV-6430" target="J-SE-2f3b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="E-LV-6430" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="E-LV-6430" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="K-LV-4390" target="T4" id="0">
       <data key="d29">teema</data>
@@ -8463,34 +5334,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-LV-74bd" target="E-LV-8eeb" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T6</data>
-    </edge>
-    <edge source="K-LV-74bd" target="J-SE-2f3b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-LV-74bd" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="K-LV-74bd" target="X-IE-NAT" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T8</data>
-    </edge>
     <edge source="K-LV-2fac" target="T5" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8511,20 +5354,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="K-LV-37ba" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
-    </edge>
-    <edge source="K-LV-37ba" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T7</data>
     </edge>
     <edge source="E-LV-8eeb" target="T1" id="0">
       <data key="d29">teema</data>
@@ -8561,13 +5390,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="K-LV-cbb2" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5</data>
-    </edge>
     <edge source="E-LV-e70c" target="T2" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8588,27 +5410,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="E-LV-e70c" target="J-SE-0e6e" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-e70c" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="E-LV-e70c" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="E-LV-b130" target="T3" id="0">
       <data key="d29">teema</data>
@@ -8645,27 +5446,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="J-SE-0e6e" target="J-SE-b073" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="J-SE-0e6e" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="J-SE-0e6e" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
     <edge source="J-SE-5a7e" target="T3" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8686,20 +5466,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="J-SE-b073" target="T-SE-5e29" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
-    <edge source="J-SE-b073" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
     </edge>
     <edge source="T-SE-5e29" target="T2" id="0">
       <data key="d29">teema</data>
@@ -8722,27 +5488,6 @@
       <data key="d32" />
       <data key="d33" />
     </edge>
-    <edge source="T-SE-5e29" target="J-SE-2f3b" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="T-SE-5e29" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
-    </edge>
-    <edge source="T-SE-5e29" target="J-SE-a3d4" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.67</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T2,T6</data>
-    </edge>
     <edge source="J-SE-2f3b" target="T6" id="0">
       <data key="d29">teema</data>
       <data key="d30">1.0</data>
@@ -8756,13 +5501,6 @@
       <data key="d31" />
       <data key="d32" />
       <data key="d33" />
-    </edge>
-    <edge source="J-SE-2f3b" target="J-SE-50cf" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">1.0</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T6,T8</data>
     </edge>
     <edge source="J-SE-50cf" target="T6" id="0">
       <data key="d29">teema</data>
@@ -8861,20 +5599,6 @@
       <data key="d31">lähde</data>
       <data key="d32">https://yle.fi/a/74-20204573</data>
       <data key="d33" />
-    </edge>
-    <edge source="X-FI-PEATRESC" target="X-IE-LIFE" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T1,T5,T7</data>
-    </edge>
-    <edge source="X-FI-PEATRESC" target="X-IE-GAL" id="0">
-      <data key="d29">teemapaallekkaisyys</data>
-      <data key="d30">0.75</data>
-      <data key="d31">laskettu</data>
-      <data key="d32" />
-      <data key="d33">T5,T6,T7</data>
     </edge>
     <edge source="X-IE-LIFE" target="T1" id="0">
       <data key="d29">teema</data>

@@ -164,6 +164,7 @@ a{color:var(--water)}
   </section>
 
   <section id="view-overlap" hidden>
+    <div id="overlap-method"></div>
     <div class="tablebox"><table id="overlap"></table></div>
     <h2 style="margin-top:20px">Kaksoiskirjaukset</h2>
     <div class="tablebox"><table id="dups"></table></div>
@@ -203,9 +204,9 @@ const visible = p => p.isContext ? state.countries.has(p.country) || !CN[p.count
 /* KPIs */
 (function(){
   const jtf = D.programmes.filter(p=>p.fund==="JTF" && p.focus.length && p.id!=="P-FI-PP-JTF").reduce((a,p)=>a+p.eur,0);
-  const cross = D.overlaps.filter(o=>o.kind==="maiden välinen").length;
+  const cross = D.overlaps.filter(o=>o.kind==="rinnakkainen ilman yhteyttä").length;
   const ev = D.projects.reduce((a,p)=>a+p.evidence,0)/D.projects.length;
-  const k = [[fmt(jtf),"turvepainotteiset JTF-allokaatiot (FI, LV, IE)"],[D.projects.length,"hanketta (" + D.projects.filter(p=>p.auto_themes).length + " Kohesiosta) + "+D.context.length+" vertailukohdetta"],[cross,"maiden välistä päällekkäisyysparia"],[ev.toFixed(1).replace(".",",")+" / 4","keskimääräinen tuotosten näyttöaste"]];
+  const k = [[fmt(jtf),"turvepainotteiset JTF-allokaatiot (FI, LV, IE)"],[D.projects.length,"hanketta (" + D.projects.filter(p=>p.auto_themes).length + " Kohesiosta) + "+D.context.length+" vertailukohdetta"],[cross,"rinnakkaista hankeparia ilman yhteyttä"],[ev.toFixed(1).replace(".",",")+" / 4","keskimääräinen tuotosten näyttöaste"]];
   document.getElementById("kpis").innerHTML = k.map(([b,s])=>`<div class="kpi"><b class="mono">${b}</b><span>${s}</span></div>`).join("");
   const ins = [
     ["Ennallistaminen toistuu neljässä maassa","Viro korjasi ≥2 000 ha jääkturvealueita koheesiorahastolla 2014–23. Suomen JTF-hankkeet (PUHTI, PohjaNeva) ja Latvian inventointi aloittavat nyt samasta kohteiden tunnistusvaiheesta."],
@@ -365,7 +366,7 @@ function renderNet(){
   if(NET.miss){
     A.missing_links.forEach(m=>{const a=pos(m.a), b=pos(m.b); if(!a||!b) return;
       if(!vis(byId[m.a])||!vis(byId[m.b])) return;
-      lines += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--hot)" stroke-opacity="${.25+m.jaccard*.5}" stroke-width="1.6" stroke-dasharray="6 4"><title>${esc(m.a_nimi)} ↔ ${esc(m.b_nimi)} · Jaccard ${m.jaccard}</title></line>`;});
+      lines += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--hot)" stroke-opacity="${.25+Math.min(m.score*1.5,.6)}" stroke-width="1.6" stroke-dasharray="6 4"><title>${esc(m.a_nimi)} ↔ ${esc(m.b_nimi)} · ${esc(m.tyyppi)} · samankaltaisuus ${m.score}</title></line>`;});
   }
   const deg = {}; collab.forEach(e=>{deg[e.source]=(deg[e.source]||0)+1; deg[e.target]=(deg[e.target]||0)+1;});
   N.nodes.filter(n=>actor.has(n.kind) && P[n.id] && vis(n)).forEach(n=>{
@@ -389,7 +390,7 @@ function renderNet(){
     g.onclick=f; g.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();f();}}});
   netHighlight(); netDetail();
   const s = A.summary;
-  document.getElementById("net-kpis").innerHTML = [[s.actors,"toimijaa yhteistyöverkossa"],[s.components,"erillistä yhteistyösaareketta"],[s.cross_country_edges,"lähteellä vahvistettua maiden välistä yhteyttä"],[s.missing_cross_country,"maiden välistä puuttuvaa yhteyttä"]]
+  document.getElementById("net-kpis").innerHTML = [[s.actors,"toimijaa yhteistyöverkossa"],[s.components,"erillistä yhteistyösaareketta"],[s.cross_country_edges,"lähteellä vahvistettua maiden välistä yhteyttä"],[s.missing_links,"samankaltaista hankeparia ilman yhteyttä"]]
     .map(([b,t])=>`<div class="kpi"><b class="mono">${b}</b><span>${t}</span></div>`).join("");
   document.getElementById("net-brokers").innerHTML = `<thead><tr><th>Välittäjäorganisaatio</th><th>Hankkeita</th><th>Keskuksia</th><th>Välitys&shy;keskeisyys</th></tr></thead><tbody>`+
     A.organisations.filter(r=>r.valityskeskeisyys>0).slice(0,10).map(r=>`<tr><td><span class="dot" style="background:${ccol(r.maa)}"></span> ${esc(r.nimi)}</td><td class="mono">${r.hankkeita}</td><td class="mono">${r.keskuksia}</td><td class="mono">${r.valityskeskeisyys.toFixed(3)}</td></tr>`).join("")+"</tbody>";
@@ -397,8 +398,8 @@ function renderNet(){
     A.components.map(c=>`<tr><td class="mono">${c.komponentti}</td><td class="mono">${c.solmuja}</td><td>${c.maita>1?`<span class="pill same">${c.maat}</span>`:c.maat}</td><td class="mono" style="font-size:12px">${c.hankkeet_ja_keskukset}</td></tr>`).join("")+"</tbody>";
   document.getElementById("net-gaps").innerHTML = `<thead><tr><th>Teema</th><th>Maapari</th><th>Hankkeita</th><th>Yhteys</th></tr></thead><tbody>`+
     (A.theme_country_gaps||[]).filter(g=>state.countries.has(g.a)&&state.countries.has(g.b)).map(g=>`<tr><td><span class="pill" title="${esc(TH[g.teema])}">${g.teema}</span> ${esc(TH[g.teema])}</td><td>${CN[g.a]} – ${CN[g.b]}</td><td class="mono">${g.hankkeita_a} + ${g.hankkeita_b}</td><td>${g.yhteys?'<span class="pill same">kyllä</span>':'<span class="pill cross">ei</span>'}</td></tr>`).join("")+"</tbody>";
-  document.getElementById("net-missing").innerHTML = `<thead><tr><th>Toimija A</th><th>Toimija B</th><th>Yhteiset teemat</th><th>Jaccard</th><th>Etäisyys</th></tr></thead><tbody>`+
-    A.missing_links.filter(m=>vis(byId[m.a])&&vis(byId[m.b])).map(m=>`<tr><td><span class="dot" style="background:${ccol(m.a_maa)}"></span> ${esc(m.a_nimi)}<div class="note mono">${m.a}</div></td><td><span class="dot" style="background:${ccol(m.b_maa)}"></span> ${esc(m.b_nimi)}<div class="note mono">${m.b}</div></td><td>${m.yhteiset_teemat.split(",").map(t=>`<span class="pill" title="${TH[t]}">${t}</span>`).join(" ")}</td><td class="mono">${Number(m.jaccard).toFixed(2)}</td><td><span class="pill ${m.tyyppi==="maiden välinen"?"cross":"same"}">${m.etaisyys}</span></td></tr>`).join("")+"</tbody>";
+  document.getElementById("net-missing").innerHTML = `<thead><tr><th>Hanke A</th><th>Hanke B</th><th>Yhteiset käsitteet ja sanat</th><th>Samankaltaisuus</th><th>Tyyppi</th></tr></thead><tbody>`+
+    A.missing_links.filter(m=>vis(byId[m.a])&&vis(byId[m.b])).map(m=>`<tr><td><span class="dot" style="background:${ccol(m.a_maa)}"></span> ${esc(m.a_nimi)}<div class="note mono">${m.a}</div></td><td><span class="dot" style="background:${ccol(m.b_maa)}"></span> ${esc(m.b_nimi)}<div class="note mono">${m.b}</div></td><td class="note">${esc(m.yhteiset)}</td><td class="mono">${Number(m.score).toFixed(2)}</td><td><span class="pill ${m.tyyppi==="puuttuva yhteys"?"cross":"same"}">${esc(m.tyyppi)}</span></td></tr>`).join("")+"</tbody>";
 }
 function netHighlight(){
   const svg = document.getElementById("net"); if(!NET.sel) return;
@@ -419,7 +420,7 @@ function netDetail(){
     + `<div class="eyebrow">Yhteydet (${es.length})</div>`
     + es.map(e=>{const o = byId[e.source===n.id?e.target:e.source];
         return `<div class="pub"><span class="t"><a href="#" data-net="${o.id}">${esc(o.label)}</a></span><span class="note">${KIND[e.kind]}${e.note&&e.kind==="osallistuu"?" · "+esc(e.note):""}${e.kind!=="osallistuu"&&e.note?" · "+esc(e.note):""}</span><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="badge ${e.evidence==="lähde"?"peer":e.evidence==="vahvistamatta"||e.evidence==="päätelty"?"unv":""}">${esc(e.evidence)}</span>${e.url?`<a href="${e.url}" target="_blank" rel="noopener" class="note">lähde ↗</a>`:""}</span></div>`}).join("")
-    + (miss.length?`<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div>`+miss.map(m=>{const o=m.a===n.id?[m.b,m.b_nimi]:[m.a,m.a_nimi];return `<div><a href="#" data-net="${o[0]}">${esc(o[1])}</a> <span class="pill cross">${Number(m.jaccard).toFixed(2)}</span></div>`}).join(""):"")
+    + (miss.length?`<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div>`+miss.map(m=>{const o=m.a===n.id?[m.b,m.b_nimi]:[m.a,m.a_nimi];return `<div><a href="#" data-net="${o[0]}">${esc(o[1])}</a> <span class="pill cross">${Number(m.score).toFixed(2)}</span> <span class="note">${esc(m.tyyppi)}</span></div>`}).join(""):"")
     + (n.url?`<a href="${n.url}" target="_blank" rel="noopener">Lähde ↗</a>`:"");
   el.querySelectorAll("[data-net]").forEach(a=>a.onclick=e=>{e.preventDefault(); NET.sel=a.dataset.net; netDetail(); netHighlight();});
 }
@@ -441,8 +442,11 @@ function renderMatrix(){
 function renderOverlap(){
   const items = all(); const nm = id => items.find(x=>x.id===id);
   const rows = D.overlaps.filter(o=>visible(nm(o.a))&&visible(nm(o.b)));
-  document.getElementById("overlap").innerHTML = `<thead><tr><th>Hanke A</th><th>Hanke B</th><th>Yhteiset teemat</th><th>Jaccard</th><th>Tyyppi</th></tr></thead><tbody>`+
-    rows.map(o=>{const a=nm(o.a),b=nm(o.b);return `<tr><td><span class="dot" style="background:${ccol(a.country)}"></span> ${esc(a.name)}<div class="note mono">${a.id} · ${a.fund}</div></td><td><span class="dot" style="background:${ccol(b.country)}"></span> ${esc(b.name)}<div class="note mono">${b.id} · ${b.fund}</div></td><td>${o.shared.map(t=>`<span class="pill" title="${TH[t]}">${t}</span>`).join(" ")}</td><td class="mono">${o.score.toFixed(2)}</td><td><span class="pill ${o.kind==="maiden välinen"?"cross":"same"}">${o.kind}</span></td></tr>`}).join("")+"</tbody>";
+  document.getElementById("overlap").innerHTML = `<thead><tr><th>Hanke A</th><th>Hanke B</th><th>Yhteiset käsitteet ja sanat</th><th>Samankaltaisuus</th><th>Samaan aikaan</th><th>Tyyppi</th></tr></thead><tbody>`+
+    rows.map(o=>{const a=nm(o.a),b=nm(o.b);return `<tr><td><span class="dot" style="background:${ccol(a.country)}"></span> ${esc(a.name)}<div class="note mono">${a.id} · ${a.fund}</div></td><td><span class="dot" style="background:${ccol(b.country)}"></span> ${esc(b.name)}<div class="note mono">${b.id} · ${b.fund}</div></td><td class="note">${o.shared.map(esc).join(", ")}${o.actors?`<div class="mono">yhteiset: ${esc(o.actors)}</div>`:""}</td><td class="mono">${o.score.toFixed(2)}</td><td>${esc(o.same_time)}</td><td><span class="pill ${o.kind==="yhteydessä"||o.kind==="saman kokonaisuuden osat"?"same":"cross"}" title="${esc(D.analysis.overlap_types[o.kind]||"")}">${esc(o.kind)}</span></td></tr>`}).join("")+"</tbody>";
+  const A=D.analysis, ty=Object.keys(A.overlap_types);
+  document.getElementById("overlap-method").innerHTML = `<p class="note">Päällekkäisyys lasketaan hankkeiden omista teksteistä (nimi, kuvaus, tuotokset). Sanat painotetaan TF-IDF:llä, ja monikielinen käsitesanasto yhdistää saman asian eri kielillä. Taulukossa ovat parit, joiden samankaltaisuus on vähintään ${A.params.overlap_threshold} (${A.params.compared_projects} vertailtavaa hanketta). Lähteiden kuvaukset ovat lyhyitä, joten parit ovat ehdokkaita tarkistettavaksi. Eri kielillä kuvatut hankkeet saavat matalampia arvoja.</p>`
+    + `<div class="tablebox"><table><thead><tr><th>Kynnys</th><th>Pareja</th>${ty.map(t=>`<th title="${esc(A.overlap_types[t])}">${esc(t)}</th>`).join("")}</tr></thead><tbody>${A.sensitivity.map(r=>`<tr${r.kynnys===A.params.overlap_threshold?' style="font-weight:600"':""}><td class="mono">${r.kynnys}</td><td class="mono">${r.pareja}</td>${ty.map(t=>`<td class="mono">${r[t]}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   document.getElementById("dups").innerHTML = `<thead><tr><th>Rekisterissä</th><th>Myös nimellä</th><th>Ero</th></tr></thead><tbody>`+D.duplicates.map(d=>`<tr><td>${esc(nm(d.a).name)}</td><td>${esc(d.alias)}</td><td>${esc(d.note)}</td></tr>`).join("")+"</tbody>";
 }
 
