@@ -41,6 +41,8 @@ jobs:
           python-version: "3.13"
       - name: Rajapintakokeilu
         if: ${{ inputs.kokeilu }}
+        env:
+          TULOSTA_CSV: "1"
         run: python "scripts/haku/$(basename '${{ inputs.skripti }}')"
       - name: Saavutettavuus
         if: ${{ !inputs.kokeilu }}

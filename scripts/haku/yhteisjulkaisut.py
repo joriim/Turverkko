@@ -10,7 +10,7 @@ Hyväksytyt: hakulahteet/tulokset/ror.csv ja hakulahteet/tulokset/yhteisjulkaisu
 
 Aja:  python scripts/haku/yhteisjulkaisut.py [--nayte] [--max-sivut 5]
 """
-import argparse, csv, datetime, itertools, json, sys, time
+import argparse, csv, datetime, itertools, json, os, sys, time
 from yhteinen import ROOT, OUT, SCOPE, fold, get
 
 ROR = "https://api.ror.org/v2/organizations"
@@ -140,6 +140,9 @@ def main():
             if rows:
                 w = csv.DictWriter(fh, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
         say(f"{name}: {len(rows)} riviä")
+        if os.environ.get("TULOSTA_CSV"):
+            print(f"===== {name}", file=sys.stderr)
+            print((OUT / name).read_text(encoding="utf-8"), file=sys.stderr)
 
 
 if __name__ == "__main__":
