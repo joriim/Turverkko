@@ -67,6 +67,7 @@ def main():
           "| Lähde | Kohde | HTTP | Sisältö | Koko | Aika |", "|---|---|---|---|---|---|"]
     for lahde, nimi, url, code, ctype, size, sec in rows:
         md.append(f"| {lahde} | [{nimi}]({url}) | {code or 'virhe'} | {ctype.split(';')[0]} | {size} t | {sec} s |")
+    (ROOT / "hakulahteet" / "automaattihaku").mkdir(parents=True, exist_ok=True)
     (ROOT / "hakulahteet" / "automaattihaku" / "saavutettavuus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 
 
