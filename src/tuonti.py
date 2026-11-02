@@ -116,14 +116,14 @@ ORG_ALIAS = {
 
 # Teemasäännöt: (teema, säännöllinen lauseke). Haetaan nimestä, kuvauksesta, tuotoksista ja hakusanasta.
 THEME_RULES = [
-    ("T1", r"peat (production|extraction)|extraction site|cutaway|cutover|after.?use|next land use|reuse of peat|historical peat|turvetuotan|leaving peat production|exhausted and abandoned"),
-    ("T2", r"agricultur|farm(?!ing ?of sphagnum)|grassland|grazing|suckler|cattle|sheep|underfloor irrigation|wet grassland|landscape management company"),
-    ("T3", r"paludicult|sphagnum|peat moss|growing media|peat.?(free|replace|substitut|alternative)|substrate|biochar|cattail|biomass|compost|straw|bark|horticultur|new cultivated plants|moos"),
-    ("T4", r"peatland forest|forest management|logging|forestry|forest soil|baltic forests|drained forest|ditch.{0,20}forest|soft lands|storm damage"),
-    ("T5", r"natura|nature reserve|nature management|sacs?\b|raised bog|blanket bog|high (moor|bog)|hill moor|slope moor|mire restoration|bog ecosystem|biodiversity|habitat|rewetting|renaturation|wetting|area protection|land protection|bird protection|peat fire|restor"),
-    ("T6", r"greenhouse|\bghg\b|emission|carbon|methane|climate (protection|donation|tools)|co2|water levels?|monitoring"),
-    ("T7", r"network|competence cent|knowledge|information system|cooperation|collaborative|research for moor|policies"),
-    ("T8", r"landowner|land.?use plan|livelihood|stakeholder|business|carbon market|decision|area concept|meanings|priorities|care and development concept|just transition|vitality"),
+    ("T1", r"peat (production|extraction)|extraction site|cutaway|cutover|after.?use|next land use|reuse of peat|historical peat|turvetuotan|leaving peat production|exhausted and abandoned|torvtäkt|efterbehandling|turbatootmi|ammendatud turba|jääksoo|kūdras ieguve|kūdras lauk|torfabbau|abtorf|suonpohja|turvetuotantoalue"),
+    ("T2", r"agricultur|farm(?!ing ?of sphagnum)|grassland|grazing|suckler|cattle|sheep|underfloor irrigation|wet grassland|landscape management company|jordbruk|lantbruk|mulljord|vall\b|betes|maatalou|pelto|nurmi|säätösalaoj|põllumaj|lauksaimn|landwirt|grünland|moorgrünland|grundvatten|unterflur"),
+    ("T3", r"paludicult|sphagnum|peat moss|growing media|peat.?(free|replace|substitut|alternative)|substrate|biochar|cattail|biomass|compost|straw|bark|horticultur|new cultivated plants|moos|torvfri|odlingssubstrat|vitmossa|kosteikkoviljel|rahkasammal|kasvualust|turpeen korva|paludikult|torfersatz|torffrei|torfmoos|rohrkolben|substrāt|sfagn|dzērven|mellen|jõhvika|mustika"),
+    ("T4", r"peatland forest|forest management|logging|forestry|forest soil|baltic forests|drained forest|ditch.{0,20}forest|soft lands|storm damage|skogsdikning|dikesrensning|skogsbruk|suomets|kunnostusoj|jatkuvapeitt|metsätalou|metsandus|mežsaimn|moorwald|forstwirt"),
+    ("T5", r"natura|nature reserve|nature management|sacs?\b|raised bog|blanket bog|high (moor|bog)|hill moor|slope moor|mire restoration|bog ecosystem|biodiversity|habitat|rewetting|renaturation|wetting|area protection|land protection|bird protection|peat fire|restor|återvätning|restaurering|myr\b|mosse|naturreservat|ennallista|soiden suojelu|sootaastami|raba|purvu atjauno|renaturaliz|wiedervernäss|renaturier|hochmoor|7110|7120|7130|7140|91d0"),
+    ("T6", r"greenhouse|\bghg\b|emission|carbon|methane|climate (protection|donation|tools)|co2|water levels?|monitoring|växthusgas|kolinlagring|kolsänka|kasvihuonekaasu|hiilinielu|hiilensid|maankäyttösektor|kasvuhoonegaas|süsinik|siltumnīcefekta|oglekļa|zizimm|treibhausgas|kohlenstoff|lulucf"),
+    ("T7", r"network|competence cent|knowledge|information system|cooperation|collaborative|research for moor|policies|samverkan|nätverk|verkosto|osaamiskesk|koostöö|sadarbīb|kompetenz|netzwerk"),
+    ("T8", r"landowner|land.?use plan|livelihood|stakeholder|business|carbon market|decision|area concept|meanings|priorities|care and development concept|just transition|vitality|markägare|maanomista|metsänomista|maankäytön suunnit|maaomanik|zemes īpašniek|flächeneigentüm|landnutzungsplan"),
 ]
 
 
@@ -221,7 +221,7 @@ def _themes(text):
     t = text.lower()
     found = [k for k, rx in THEME_RULES if re.search(rx, t)]
     if not found:
-        found = ["T5"] if re.search(r"bog|moor|mire|suo|purv", t) else ["T1"]
+        found = ["T5"] if re.search(r"bog|moor|mire|suo|purv|myr|soo\b|raba", t) else ["T1"]
     return found
 
 
