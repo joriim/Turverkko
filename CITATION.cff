@@ -1,18 +1,30 @@
 cff-version: 1.2.0
 message: "Jos käytät aineistoa tai koodia, viittaa siihen näin."
-title: "Turverkko – turvemaa-alueiden TKI-verkosto"
+type: software
+title: "Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu"
+version: 1.0.0
+date-released: 2026-11-02
 authors:
   - family-names: "Jääskeläinen"
     given-names: "Miiro"
-date-released: 2026-10-31
-license:
-  - MIT
-  - CC-BY-4.0
+    orcid: "https://orcid.org/0000-0002-0683-8352"
+    affiliation: "Seinäjoen ammattikorkeakoulu"
+license: MIT
+repository-code: "https://github.com/joriim/Turverkko"
+url: "https://joriim.github.io/Turverkko/"
+abstract: >-
+  Turverkko dokumentoi turvemaihin ja maaperään liittyvän julkisen TKI-rahoituksen
+  hankkeet, osaamiskeskukset, organisaatiot ja julkaisut kuudella EU:n
+  turvemaa-alueella ja analysoi niiden yhteysverkostoa: välittäjäorganisaatiot,
+  yhteistyösaarekkeet ja puuttuvat yhteydet. Koodi MIT, aineisto CC BY 4.0.
 keywords:
   - turvemaat
   - peatlands
+  - turvepellot
+  - suometsät
+  - paludikulttuuri
+  - ennallistaminen
+  - LULUCF
   - Just Transition Fund
   - EIP-AGRI
-  - network analysis
-repository-code: "https://github.com/joriim/Turverkko"
-url: "https://joriim.github.io/Turverkko/"
+  - verkostoanalyysi

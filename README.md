@@ -59,6 +59,18 @@ Teemat T1–T8 on kuvattu [SCHEMA.md](SCHEMA.md):ssa. Solmutyypit ovat teema, oh
 
 Puuttuva hanke, organisaatio tai yhteys on tervetullut. Ohje: [CONTRIBUTING.md](CONTRIBUTING.md). Jokainen lisäys tarvitsee julkisen lähteen.
 
+## Tekijä ja tekijän panos
+
+Turverkko on Miiro Jääskeläisen ([ORCID 0000-0002-0683-8352](https://orcid.org/0000-0002-0683-8352)) asiantuntijatyötä Seinäjoen ammattikorkeakoulussa.
+
+Työ on tehty tekoälyavusteisesti: lähdehaku, koodi, analyysiskriptit ja visualisointi tuotettiin Clauden (Anthropic) avulla tekijän ohjauksessa. Tekijän oma panos:
+
+- **Tutkimuskysymys ja rajaus.** Tavoite vertailla hankkeiden päällekkäisyyttä sekä tuotosten määrää ja laatua, alueiden valinta (EU:n turvemaa-alueet), ohjelmakaudet ja rajaus turvemaihin, turvepeltoihin, suometsiin, kosteikkoviljelyyn, ennallistamiseen ja maankäyttösektorin päästöihin.
+- **Asiantuntijatarkistus.** Teemaluokituksen ja hankkeiden välisten kytkösten oikeellisuuden arviointi maaperä- ja ympäristötieteen asiantuntemuksella.
+- **Julkaisupäätökset.** Nimi, avoin julkaisu, lisenssit ja jatkokehitysmalli.
+
+Kaikki aineiston luvut ja kytkökset ovat lähteistä, ja lähde-URL on tallennettu jokaiselle riville.
+
 ## Lisenssi ja viittaaminen
 
 Tekijänoikeus © 2026 Miiro Jääskeläinen. Repoa saa vapaasti forkata, muokata ja kehittää alla olevien lisenssien ehdoin.
@@ -68,4 +80,4 @@ Tekijänoikeus © 2026 Miiro Jääskeläinen. Repoa saa vapaasti forkata, muokat
 | Koodi (`scripts/`, `site/`) | [MIT](LICENSE) | Tekijänoikeusilmoitus ja lisenssiteksti säilytetään kopioissa |
 | Aineisto (`src/source.py`, `data/`, `analysis/`) | [CC BY 4.0](LICENSE-DATA) | Tekijä mainitaan ja muutokset kerrotaan |
 
-Viittaustiedot ovat tiedostossa [CITATION.cff](CITATION.cff), ja GitHub näyttää ne "Cite this repository" -painikkeessa. Lähteinä käytettyjen sivujen sisältö kuuluu niiden julkaisijoille. Aineistossa on vain tosiasiatietoja ja linkit.
+Viittaustiedot ovat tiedostossa [CITATION.cff](CITATION.cff), ja GitHub näyttää ne "Cite this repository" -painikkeessa. Jokainen GitHub-release arkistoidaan Zenodoon ja saa DOI:n (metatiedot: [.zenodo.json](.zenodo.json)). Lähteinä käytettyjen sivujen sisältö kuuluu niiden julkaisijoille. Aineistossa on vain tosiasiatietoja ja linkit.

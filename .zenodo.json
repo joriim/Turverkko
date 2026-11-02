@@ -1,0 +1,42 @@
+{
+  "title": "Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Turverkko dokumentoi turvemaihin ja maaperään liittyvän julkisen TKI-rahoituksen hankkeet, osaamiskeskukset, organisaatiot ja julkaisut kuudella EU:n turvemaa-alueella (Suomi, Ruotsi, Viro, Latvia, Irlanti, Niedersachsen) ja analysoi niiden yhteysverkostoa. Työkalu tunnistaa välittäjäorganisaatiot, erilliset yhteistyösaarekkeet ja puuttuvat yhteydet eli toimijat, jotka tekevät teemallisesti samaa ilman löydettyä yhteistyötä.</p><p>Rajaus: turvemaat, turvepellot, suometsät, kosteikkoviljely, ennallistaminen ja maankäyttösektorin päästöt. Rahastot: JTF, EAKR, ESR+, maaseuturahasto ja EIP-AGRI, ohjelmakaudet 2014–20 ja 2021–27. Jokaisella yhteydellä on lähde-URL ja näyttöluokka.</p><p>Sisältää lähdeaineiston, verkoston CSV-, GraphML- ja JSON-muodoissa, Python-analyysiskriptit ja selainvisualisoinnin. Koodi on MIT-lisenssillä ja aineisto CC BY 4.0 -lisenssillä.</p>",
+  "creators": [
+    {
+      "name": "Jääskeläinen, Miiro",
+      "orcid": "0000-0002-0683-8352",
+      "affiliation": "Seinäjoen ammattikorkeakoulu"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "fin",
+  "keywords": [
+    "turvemaat",
+    "peatlands",
+    "turvepellot",
+    "suometsät",
+    "paludikulttuuri",
+    "ennallistaminen",
+    "LULUCF",
+    "Just Transition Fund",
+    "EIP-AGRI",
+    "TKI-rahoitus",
+    "verkostoanalyysi",
+    "network analysis"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/joriim/Turverkko",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://joriim.github.io/Turverkko/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ]
+}
