@@ -1,0 +1,38 @@
+name: Automaattihaku
+
+on:
+  workflow_dispatch:
+    inputs:
+      naytteet:
+        description: "Tallenna raakavastaukset artefaktiksi (jäsentimien kehitys)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  haku:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Saavutettavuus
+        env:
+          NAYTTEET: ${{ inputs.naytteet && 'naytteet' || '' }}
+        run: python scripts/haku/probe.py
+      - name: Näytteet artefaktiksi
+        if: ${{ inputs.naytteet }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: naytteet
+          path: naytteet/
+          retention-days: 7
+      - name: Saavutettavuustaulukko artefaktiksi
+        uses: actions/upload-artifact@v4
+        with:
+          name: saavutettavuus
+          path: hakulahteet/automaattihaku/saavutettavuus.md
