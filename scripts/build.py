@@ -45,6 +45,7 @@ def build():
     for p in S.PROJECTS:
         node(p["id"], "hanke", p["name"], country=p["country"], fund=p["fund"], period=p["period"],
              eur_total=p["eur_total"] or "", eur_eu=p["eur_eu"] or "", evidence_level=p["evidence"],
+             ha_target=p.get("ha_target") or "", ha_realised=p.get("ha_realised") or "",
              start=p["start"] or "", end=p["end"] or "", url=p["url"],
              auto_themes=bool(p.get("auto_themes")), imported_from=p.get("imported_from", ""),
              rajaus=p.get("rajaus", "turvemaa"))
@@ -125,7 +126,9 @@ def write(nodes, edges):
                    orgs=S.ORGS)
     (data / "dataset.json").write_text(json.dumps(dataset, ensure_ascii=False, indent=1), encoding="utf-8")
     (data / "network.json").write_text(json.dumps(dict(nodes=nodes, edges=edges), ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"Solmuja {len(nodes)}, särmiä {len(edges)}")
+    with open(ROOT / "analysis" / "hehtaari_ehdokkaat.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["hanke_id", "nimi", "maininta"]); w.writeheader(); w.writerows(S.HECTARE_CANDIDATES)
+    print(f"Solmuja {len(nodes)}, särmiä {len(edges)}; tarkistamattomia hehtaarimainintoja {len(S.HECTARE_CANDIDATES)}")
 
 
 def guide():

@@ -11,6 +11,7 @@
   "unverified_edges": 3,
   "components": 81,
   "largest_component": 92,
+  "components_multi": 18,
   "multi_country_components": 4,
   "cross_country_edges": 11,
   "overlap_pairs": 102,
@@ -26,7 +27,7 @@
   "components_with_copubs": 74,
   "multi_country_components_with_copubs": 1,
   "theme_country_pairs": 72,
-  "theme_country_pairs_unlinked": 66
+  "theme_country_pairs_unlinked": 42
  },
  "components": [
   {
@@ -5221,6 +5222,289 @@
    "peruste": "yhteinen toimija ja samat vuodet"
   }
  ],
+ "hectares": {
+  "projects_with_ha": 24,
+  "target_ha": 6177.0,
+  "realised_ha": 96.0,
+  "ended_target_ha": 2260.0,
+  "by_country": {
+   "FI": {
+    "tavoite": 1422.0,
+    "toteuma": 1.0,
+    "paattyneet_tavoite": 5.0,
+    "hankkeita": 14
+   },
+   "EE": {
+    "tavoite": 2000.0,
+    "toteuma": 0,
+    "paattyneet_tavoite": 2000.0,
+    "hankkeita": 1
+   },
+   "LV": {
+    "tavoite": 1500.0,
+    "toteuma": 0,
+    "paattyneet_tavoite": 0,
+    "hankkeita": 2
+   },
+   "IE": {
+    "tavoite": 0,
+    "toteuma": 95.0,
+    "paattyneet_tavoite": 0,
+    "hankkeita": 2
+   },
+   "DE-NI": {
+    "tavoite": 255.0,
+    "toteuma": 0,
+    "paattyneet_tavoite": 255.0,
+    "hankkeita": 4
+   },
+   "SE": {
+    "tavoite": 1000.0,
+    "toteuma": 0,
+    "paattyneet_tavoite": 0,
+    "hankkeita": 1
+   }
+  },
+  "by_action": {
+   "muu": {
+    "tavoite": 26808.0,
+    "toteuma": 40.0
+   },
+   "ennallistaminen": {
+    "tavoite": 5889.0,
+    "toteuma": 1.0
+   },
+   "inventointi": {
+    "tavoite": 9000.0,
+    "toteuma": 0
+   },
+   "vettäminen": {
+    "tavoite": 158.0,
+    "toteuma": 95.0
+   },
+   "suunnittelu": {
+    "tavoite": 30.0,
+    "toteuma": 0
+   },
+   "kosteikko": {
+    "tavoite": 130.0,
+    "toteuma": 0
+   },
+   "metsitys": {
+    "tavoite": 30.0,
+    "toteuma": 0
+   }
+  },
+  "cost_per_ha": [
+   {
+    "id": "K-DE-NI-0e2b",
+    "nimi": "Rewetting Sauerbach",
+    "maa": "DE-NI",
+    "rahasto": "EAKR",
+    "eur": 103403,
+    "ha": 150.0,
+    "eur_per_ha": 689
+   },
+   {
+    "id": "K-FI-cb20",
+    "nimi": "Restoration of the Western Valkeasuo Mire",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 72800,
+    "ha": 70.0,
+    "eur_per_ha": 1040
+   },
+   {
+    "id": "K-FI-e290",
+    "nimi": "Restoration and water protection project of South-Eastern Finland",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 923512,
+    "ha": 750.0,
+    "eur_per_ha": 1231
+   },
+   {
+    "id": "EE-02",
+    "nimi": "Jääkturvealueiden korjaaminen (mm. Laiuse)",
+    "maa": "EE",
+    "rahasto": "KF",
+    "eur": 3262985,
+    "ha": 2000.0,
+    "eur_per_ha": 1631
+   },
+   {
+    "id": "K-FI-06b9",
+    "nimi": "Suokeidas - From peat production to diverse wetlands",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 380145,
+    "ha": 200.0,
+    "eur_per_ha": 1901
+   },
+   {
+    "id": "K-FI-b095",
+    "nimi": "Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 287815,
+    "ha": 139.0,
+    "eur_per_ha": 2071
+   },
+   {
+    "id": "K-FI-2fcc",
+    "nimi": "Heinäpuro restoration project",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 41210,
+    "ha": 18.0,
+    "eur_per_ha": 2289
+   },
+   {
+    "id": "K-SE-dbb8",
+    "nimi": "Myrrestaurering i Norrbottens län (MyreN) – soiden ennallistaminen",
+    "maa": "SE",
+    "rahasto": "EAKR",
+    "eur": 2696225,
+    "ha": 1000.0,
+    "eur_per_ha": 2696
+   },
+   {
+    "id": "K-FI-665a",
+    "nimi": "Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 161484,
+    "ha": 55.0,
+    "eur_per_ha": 2936
+   },
+   {
+    "id": "K-FI-6978",
+    "nimi": "Peat Bogs to Wetlands",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 397904,
+    "ha": 102.0,
+    "eur_per_ha": 3901
+   },
+   {
+    "id": "K-FI-9cd5",
+    "nimi": "Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 324432,
+    "ha": 75.0,
+    "eur_per_ha": 4326
+   },
+   {
+    "id": "K-LV-cbb2",
+    "nimi": "Restoration of bog ecosystems in SACs",
+    "maa": "LV",
+    "rahasto": "JTF",
+    "eur": 7058824,
+    "ha": 1500.0,
+    "eur_per_ha": 4706
+   },
+   {
+    "id": "K-DE-NI-3ac3",
+    "nimi": "Rewetting of the hill moor in the forest town of Wildenkiel",
+    "maa": "DE-NI",
+    "rahasto": "EAKR",
+    "eur": 1263983,
+    "ha": 72.0,
+    "eur_per_ha": 17555
+   },
+   {
+    "id": "K-DE-NI-6f11",
+    "nimi": "Rewetting of the slope moor Friedrichshäuser Bruch",
+    "maa": "DE-NI",
+    "rahasto": "EAKR",
+    "eur": 1166300,
+    "ha": 30.0,
+    "eur_per_ha": 38877
+   },
+   {
+    "id": "K-DE-NI-61e6",
+    "nimi": "Wetting area at Westerbeck",
+    "maa": "DE-NI",
+    "rahasto": "EAKR",
+    "eur": 130895,
+    "ha": 3.0,
+    "eur_per_ha": 43632
+   },
+   {
+    "id": "K-FI-3bb2",
+    "nimi": "The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 220269,
+    "ha": 5.0,
+    "eur_per_ha": 44054
+   },
+   {
+    "id": "K-FI-0ac6",
+    "nimi": "Value from the carbon market for the next land use of peat production areas",
+    "maa": "FI",
+    "rahasto": "JTF",
+    "eur": 788547,
+    "ha": 8.0,
+    "eur_per_ha": 98568
+   }
+  ],
+  "median_eur_per_ha": {
+   "DE-NI": 28216,
+   "EE": 1631,
+   "FI": 2612,
+   "LV": 4706,
+   "SE": 2696
+  },
+  "programme_refs": [
+   {
+    "id": "P-IE-JTF",
+    "taso": "programmes",
+    "ha": 12500.0,
+    "laji": "tavoite",
+    "toimenpide": "ennallistaminen",
+    "vuosi": 2029,
+    "lainaus": "12 500 ha ennallistettu"
+   },
+   {
+    "id": "P-EE-KF",
+    "taso": "programmes",
+    "ha": 2000.0,
+    "laji": "toteuma",
+    "toimenpide": "ennallistaminen",
+    "vuosi": 2023,
+    "lainaus": "2021: suunnitelmat ja rahoitus 2 000 ha:lle; Laiuse saavuttanut tavoi"
+   },
+   {
+    "id": "P-FI-MSR",
+    "taso": "programmes",
+    "ha": 1474.0,
+    "laji": "toteuma",
+    "toimenpide": "kosteikko",
+    "vuosi": 2022,
+    "lainaus": "Kosteikkosopimuksia 1 474 ha (tavoite 1 100 ha)"
+   },
+   {
+    "id": "H-IE-LIFE",
+    "taso": "hubs",
+    "ha": 2900.0,
+    "laji": "tavoite",
+    "toimenpide": "ennallistaminen",
+    "vuosi": 2028,
+    "lainaus": "2 900 ha Natura-kohosuota ennallistettu"
+   },
+   {
+    "id": "H-IE-LIFE",
+    "taso": "hubs",
+    "ha": 7000.0,
+    "laji": "tavoite",
+    "toimenpide": "ennallistaminen",
+    "vuosi": 2028,
+    "lainaus": "7 000 ha BnM-alueita kunnostettu"
+   }
+  ]
+ },
  "cross_country": {
   "FI–LV": 1,
   "DE–DE-NI": 3,
@@ -5251,38 +5535,6 @@
  ],
  "theme_country_gaps": [
   {
-   "teema": "T5",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 31,
-   "hankkeita_b": 18,
-   "yhteys": false
-  },
-  {
-   "teema": "T5",
-   "a": "DE-NI",
-   "b": "IE",
-   "hankkeita_a": 31,
-   "hankkeita_b": 10,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 14,
-   "hankkeita_b": 16,
-   "yhteys": false
-  },
-  {
-   "teema": "T5",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 18,
-   "hankkeita_b": 10,
-   "yhteys": false
-  },
-  {
    "teema": "T1",
    "a": "DE-NI",
    "b": "FI",
@@ -5299,54 +5551,6 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 16,
-   "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "FI",
-   "b": "SE",
-   "hankkeita_a": 16,
-   "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "DE-NI",
-   "b": "FI",
-   "hankkeita_a": 11,
-   "hankkeita_b": 8,
-   "yhteys": false
-  },
-  {
-   "teema": "T1",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 29,
-   "hankkeita_b": 3,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "DE-NI",
-   "b": "LV",
-   "hankkeita_a": 14,
-   "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "DE-NI",
-   "b": "SE",
-   "hankkeita_a": 14,
-   "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
    "teema": "T5",
    "a": "FI",
    "b": "LV",
@@ -5358,14 +5562,6 @@
    "teema": "T3",
    "a": "DE-NI",
    "b": "IE",
-   "hankkeita_a": 11,
-   "hankkeita_b": 5,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "DE-NI",
-   "b": "LV",
    "hankkeita_a": 11,
    "hankkeita_b": 5,
    "yhteys": false
@@ -5387,14 +5583,6 @@
    "yhteys": false
   },
   {
-   "teema": "T6",
-   "a": "LV",
-   "b": "SE",
-   "hankkeita_a": 6,
-   "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
    "teema": "T1",
    "a": "DE-NI",
    "b": "LV",
@@ -5411,22 +5599,6 @@
    "yhteys": false
   },
   {
-   "teema": "T2",
-   "a": "DE-NI",
-   "b": "SE",
-   "hankkeita_a": 8,
-   "hankkeita_b": 4,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 16,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
    "teema": "T5",
    "a": "DE-NI",
    "b": "SE",
@@ -5440,22 +5612,6 @@
    "b": "FI",
    "hankkeita_a": 1,
    "hankkeita_b": 29,
-   "yhteys": false
-  },
-  {
-   "teema": "T2",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 4,
-   "hankkeita_b": 7,
-   "yhteys": false
-  },
-  {
-   "teema": "T2",
-   "a": "IE",
-   "b": "SE",
-   "hankkeita_a": 7,
-   "hankkeita_b": 4,
    "yhteys": false
   },
   {
@@ -5488,14 +5644,6 @@
    "b": "SE",
    "hankkeita_a": 8,
    "hankkeita_b": 3,
-   "yhteys": false
-  },
-  {
-   "teema": "T3",
-   "a": "DE-NI",
-   "b": "SE",
-   "hankkeita_a": 11,
-   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -5539,14 +5687,6 @@
    "yhteys": false
   },
   {
-   "teema": "T2",
-   "a": "FI",
-   "b": "SE",
-   "hankkeita_a": 4,
-   "hankkeita_b": 4,
-   "yhteys": false
-  },
-  {
    "teema": "T4",
    "a": "FI",
    "b": "LV",
@@ -5584,22 +5724,6 @@
    "b": "SE",
    "hankkeita_a": 3,
    "hankkeita_b": 4,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "IE",
-   "b": "LV",
-   "hankkeita_a": 2,
-   "hankkeita_b": 6,
-   "yhteys": false
-  },
-  {
-   "teema": "T6",
-   "a": "IE",
-   "b": "SE",
-   "hankkeita_a": 2,
-   "hankkeita_b": 6,
    "yhteys": false
   },
   {
@@ -5635,27 +5759,11 @@
    "yhteys": false
   },
   {
-   "teema": "T3",
-   "a": "LV",
-   "b": "SE",
-   "hankkeita_a": 5,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
    "teema": "T5",
    "a": "IE",
    "b": "SE",
    "hankkeita_a": 10,
    "hankkeita_b": 1,
-   "yhteys": false
-  },
-  {
-   "teema": "T7",
-   "a": "FI",
-   "b": "IE",
-   "hankkeita_a": 3,
-   "hankkeita_b": 3,
    "yhteys": false
   },
   {
@@ -5688,22 +5796,6 @@
    "b": "LV",
    "hankkeita_a": 1,
    "hankkeita_b": 7,
-   "yhteys": false
-  },
-  {
-   "teema": "T7",
-   "a": "FI",
-   "b": "LV",
-   "hankkeita_a": 3,
-   "hankkeita_b": 2,
-   "yhteys": false
-  },
-  {
-   "teema": "T7",
-   "a": "IE",
-   "b": "LV",
-   "hankkeita_a": 3,
-   "hankkeita_b": 2,
    "yhteys": false
   },
   {
@@ -5779,11 +5871,91 @@
    "yhteys": false
   },
   {
+   "teema": "T5",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 31,
+   "hankkeita_b": 18,
+   "yhteys": true
+  },
+  {
+   "teema": "T5",
+   "a": "DE-NI",
+   "b": "IE",
+   "hankkeita_a": 31,
+   "hankkeita_b": 10,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 14,
+   "hankkeita_b": 16,
+   "yhteys": true
+  },
+  {
    "teema": "T1",
    "a": "FI",
    "b": "LV",
    "hankkeita_a": 29,
    "hankkeita_b": 7,
+   "yhteys": true
+  },
+  {
+   "teema": "T5",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 18,
+   "hankkeita_b": 10,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 16,
+   "hankkeita_b": 6,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "FI",
+   "b": "SE",
+   "hankkeita_a": 16,
+   "hankkeita_b": 6,
+   "yhteys": true
+  },
+  {
+   "teema": "T3",
+   "a": "DE-NI",
+   "b": "FI",
+   "hankkeita_a": 11,
+   "hankkeita_b": 8,
+   "yhteys": true
+  },
+  {
+   "teema": "T1",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 29,
+   "hankkeita_b": 3,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "DE-NI",
+   "b": "LV",
+   "hankkeita_a": 14,
+   "hankkeita_b": 6,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "DE-NI",
+   "b": "SE",
+   "hankkeita_a": 14,
+   "hankkeita_b": 6,
    "yhteys": true
   },
   {
@@ -5796,6 +5968,14 @@
   },
   {
    "teema": "T3",
+   "a": "DE-NI",
+   "b": "LV",
+   "hankkeita_a": 11,
+   "hankkeita_b": 5,
+   "yhteys": true
+  },
+  {
+   "teema": "T3",
    "a": "FI",
    "b": "LV",
    "hankkeita_a": 8,
@@ -5803,10 +5983,50 @@
    "yhteys": true
   },
   {
+   "teema": "T6",
+   "a": "LV",
+   "b": "SE",
+   "hankkeita_a": 6,
+   "hankkeita_b": 6,
+   "yhteys": true
+  },
+  {
+   "teema": "T2",
+   "a": "DE-NI",
+   "b": "SE",
+   "hankkeita_a": 8,
+   "hankkeita_b": 4,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 16,
+   "hankkeita_b": 2,
+   "yhteys": true
+  },
+  {
    "teema": "T8",
    "a": "FI",
    "b": "LV",
    "hankkeita_a": 8,
+   "hankkeita_b": 4,
+   "yhteys": true
+  },
+  {
+   "teema": "T2",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 4,
+   "hankkeita_b": 7,
+   "yhteys": true
+  },
+  {
+   "teema": "T2",
+   "a": "IE",
+   "b": "SE",
+   "hankkeita_a": 7,
    "hankkeita_b": 4,
    "yhteys": true
   },
@@ -5820,9 +6040,73 @@
   },
   {
    "teema": "T3",
+   "a": "DE-NI",
+   "b": "SE",
+   "hankkeita_a": 11,
+   "hankkeita_b": 2,
+   "yhteys": true
+  },
+  {
+   "teema": "T2",
+   "a": "FI",
+   "b": "SE",
+   "hankkeita_a": 4,
+   "hankkeita_b": 4,
+   "yhteys": true
+  },
+  {
+   "teema": "T3",
    "a": "FI",
    "b": "SE",
    "hankkeita_a": 8,
+   "hankkeita_b": 2,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "IE",
+   "b": "LV",
+   "hankkeita_a": 2,
+   "hankkeita_b": 6,
+   "yhteys": true
+  },
+  {
+   "teema": "T6",
+   "a": "IE",
+   "b": "SE",
+   "hankkeita_a": 2,
+   "hankkeita_b": 6,
+   "yhteys": true
+  },
+  {
+   "teema": "T3",
+   "a": "LV",
+   "b": "SE",
+   "hankkeita_a": 5,
+   "hankkeita_b": 2,
+   "yhteys": true
+  },
+  {
+   "teema": "T7",
+   "a": "FI",
+   "b": "IE",
+   "hankkeita_a": 3,
+   "hankkeita_b": 3,
+   "yhteys": true
+  },
+  {
+   "teema": "T7",
+   "a": "FI",
+   "b": "LV",
+   "hankkeita_a": 3,
+   "hankkeita_b": 2,
+   "yhteys": true
+  },
+  {
+   "teema": "T7",
+   "a": "IE",
+   "b": "LV",
+   "hankkeita_a": 3,
    "hankkeita_b": 2,
    "yhteys": true
   }

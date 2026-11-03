@@ -50,8 +50,8 @@ def kartta(repo, name, ds, net, an):
 
 
 # --- Verkostotyökalujen tiedostot (Gephi Lite: GEXF, Cytoscape Web: CX2) --------------------
-COLORS = {"FI": "#2f6f86", "SE": "#b38a14", "EE": "#3d7a5a", "LV": "#8b3a52", "IE": "#5b7f2a",
-          "DE-NI": "#7a4b2a", "DE-SH": "#8a8f86", "EU": "#5a6b8c"}
+COLORS = {"FI": "#2a78d6", "SE": "#eda100", "EE": "#1baf7a", "LV": "#e87ba4", "IE": "#008300",
+          "DE-NI": "#eb6834", "DE-SH": "#8a8f86", "EU": "#6250d6"}
 KIND_SIZE = {"osaamiskeskus": 14, "hanke": 6, "vertailukohde": 6, "organisaatio": 5, "julkaisu": 3}
 COLLAB = {"osallistuu", "kuuluu_keskukseen", "yhteistyo"}
 NODE_ATTRS = ["kind", "country", "fund", "period", "org_type", "eur_total", "eur_eu", "evidence_level", "start", "end",

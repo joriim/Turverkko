@@ -23,7 +23,7 @@ const TV = (() => {
   const evbar = n => `<span class="ev" role="img" aria-label="Näyttöaste ${n}/4: ${EV[n]}">${[1,2,3,4].map(i => `<i class="${i <= n ? "f" : ""}"></i>`).join("")}</span>`;
 
   function nav(current) {
-    const items = [["index.html","Etusivu"],["kartta.html","Kartta ja verkosto"],["haku.html","Haku"],["ehdota.html","Ehdota lisäystä"]];
+    const items = [["index.html","Etusivu"],["kartta.html","Kartta ja verkosto"],["haku.html","Haku"],["esitys.html","Esitys"],["ehdota.html","Ehdota lisäystä"]];
     const el = document.createElement("nav");
     el.className = "nav"; el.setAttribute("aria-label", "Päävalikko");
     el.innerHTML = `<div class="nav-in">

@@ -45,6 +45,16 @@ Näyttöaste kuvaa, kuinka todennettavaa tietoa hankkeen tuotoksista on julkises
 
 Käsin arvioitu taso säilyy, jos se on laskettua korkeampi. Lähteiden lyhyet kuvaukset kertovat yleensä suunnitelmista, joten matala taso tarkoittaa usein sitä, että tuloksia ei ole julkaistu lähteessä, ei sitä, että niitä ei ole.
 
+### Hehtaarit (`hakulahteet/tulokset/hehtaarit/hehtaarit.csv`)
+
+Ennallistamisen ja muun maankäytön muutoksen pinta-alat kirjataan käsin, lainauksineen, koska tekstistä poimittu luku voi olla kohteen koko, inventoitu ala tai aiempi tuotantoala. Sarakkeet: `kohde_id` (hanke, ohjelma tai keskus), `taso`, `ha`, `laji` (tavoite, toteuma, ohitettu), `toimenpide`, `vuosi` (tavoitteen tai toteuman vuosi, yleensä hankkeen loppuvuosi), `lainaus`, `huom`.
+
+- Ennallistaviksi lasketaan toimenpiteet *ennallistaminen*, *vettäminen* ja *kosteikko*. Hankkeen kentät `ha_target` ja `ha_realised` ovat niiden summia.
+- *Metsitys*, *suunnittelu*, *inventointi* ja *muu* näytetään, mutta niitä ei lasketa ennallistettuihin. Muuhun kirjataan myös alueelliset tavoitteet, jotka toteutuvat muissa hankkeissa (kaksoislaskennan välttämiseksi).
+- *Ohitettu* tarkoittaa, että maininta on tarkistettu eikä koske hankkeen omaa pinta-alaa.
+- Ohjelma- ja keskustason hehtaarit ovat vertailutietoa, eikä niitä lasketa yhteen hankkeiden kanssa.
+- `analysis/hehtaari_ehdokkaat.csv` listaa tarkistamattomat hehtaarimaininnat uusista tuonneista.
+
 ### Julkaisut (`hakulahteet/tulokset/julkaisut/`)
 
 Tarkistetut julkaisut tuodaan CSV-tiedostoista muodossa [`hakulahteet/julkaisupohja.csv`](hakulahteet/julkaisupohja.csv): `hanke_id` (aineiston hanketunniste), `otsikko`, `tekijat`, `vuosi`, `tyyppi` (vertaisarvioitu, raportti, aineisto, ammattijulkaisu, opinnäyte, konferenssiabstrakti, muu), `julkaisija`, `doi`, `url`, `avoin` (kyllä/ei), `lahde`, `haettu`. Automaattihaku tuottaa ehdokkaat tiedostoon `hakulahteet/automaattihaku/julkaisut-<pvm>.csv`.

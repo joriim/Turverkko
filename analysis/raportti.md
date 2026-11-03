@@ -5,7 +5,7 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
 ## Yhteenveto
 
 - Toimijoita yhteistyöverkossa: **306**, vahvistettuja yhteistyösärmiä **247** (lisäksi 3 vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).
-- Erillisiä yhteistyösaarekkeita: **81**. Suurin kattaa 92 toimijaa.
+- Erillisiä yhteistyösaarekkeita: **81**, joista **18** sisältää vähintään kaksi hanketta tai keskusta (loput ovat yksittäisiä hankkeita toteuttajineen). Suurin kattaa 92 toimijaa.
 - Usean maan saarekkeita: **4**. Maiden välisiä vahvistettuja yhteistyösärmiä: **11**.
 - Yhteisjulkaisut mukaan lukien (organisaatioiden yhteiset turvemaa- ja maaperäjulkaisut, OpenAIRE): yhteisjulkaisusärmiä **97**, joista maiden välisiä **54**; saarekkeita **74**, joista usean maan **1**. Päällekkäisyysparien yhteys lasketaan tässä verkossa.
 - Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ 0.2, 148 vertailtavaa hanketta): **102**. Niistä
@@ -15,6 +15,23 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
   - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **14**
   - saman hankekokonaisuuden osia: **3**
 - Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **2**. Ne tarkistetaan ja yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla (`analysis/kaksoisehdokkaat.csv`).
+
+## Ennallistetut hehtaarit
+
+Hehtaaritieto on **24** hankkeella. Ennallistavien toimenpiteiden (ennallistaminen, vettäminen, kosteikko) tavoitteita on yhteensä **6 177 ha** ja raportoitua toteumaa **96 ha**. Jo päättyneiden hankkeiden tavoitteita, joiden toteumaa lähde ei raportoi, on 2 260 ha.
+
+Hehtaarit on kirjattu käsin lainauksineen tiedostoon `hakulahteet/tulokset/hehtaarit/hehtaarit.csv`. Inventoinnit, suunnitelmat, metsitys ja muu pinta-ala näytetään erikseen, eikä niitä lasketa ennallistettuihin.
+
+| Maa | Hankkeita | Tavoite ha | Toteuma ha | Päättyneiden tavoite ha |
+|---|---|---|---|---|
+| DE-NI | 4 | 255 | 0 | 255 |
+| EE | 1 | 2000 | 0 | 2000 |
+| FI | 14 | 1422 | 1 | 5 |
+| IE | 2 | 0 | 95 | 0 |
+| LV | 2 | 1500 | 0 | 0 |
+| SE | 1 | 1000 | 0 | 0 |
+
+Hinta tavoitehehtaaria kohden (budjetti / ennallistava tavoite, mediaani maittain): DE-NI 28 216 €/ha, EE 1 631 €/ha, FI 2 612 €/ha, LV 4 706 €/ha, SE 2 696 €/ha. Budjetti sisältää usein myös suunnittelun, seurannan ja viestinnän, joten luku ei ole ennallistamisen yksikköhinta.
 
 ## Maiden väliset yhteydet
 
@@ -109,35 +126,35 @@ _sama maa, eri aikaan, ei yhteistä toimijaa eikä polkua (toisto tai jatko ilma
 
 ## Teema × maapari
 
-Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään vahvistettua yhteistyöpolkua **66**.
+Maaparit, joilla on hankkeita samassa teemassa: **72**, joista ilman yhtään vahvistettua yhteistyöpolkua **42**.
 
 | Teema | Maat | Hankkeita | Yhteys |
 |---|---|---|---|
-| T5 | DE-NI–FI | 31 + 18 | ei |
-| T5 | DE-NI–IE | 31 + 10 | ei |
-| T6 | DE-NI–FI | 14 + 16 | ei |
-| T5 | FI–IE | 18 + 10 | ei |
 | T1 | DE-NI–FI | 5 + 29 | ei |
 | T5 | DE-NI–LV | 31 + 4 | ei |
-| T6 | FI–LV | 16 + 6 | ei |
-| T6 | FI–SE | 16 + 6 | ei |
-| T3 | DE-NI–FI | 11 + 8 | ei |
-| T1 | FI–IE | 29 + 3 | ei |
-| T6 | DE-NI–LV | 14 + 6 | ei |
-| T6 | DE-NI–SE | 14 + 6 | ei |
 | T5 | FI–LV | 18 + 4 | ei |
 | T3 | DE-NI–IE | 11 + 5 | ei |
-| T3 | DE-NI–LV | 11 + 5 | ei |
 | T3 | FI–IE | 8 + 5 | ei |
 | T5 | IE–LV | 10 + 4 | ei |
-| T6 | LV–SE | 6 + 6 | ei |
 | T1 | DE-NI–LV | 5 + 7 | ei |
 | T2 | DE-NI–FI | 8 + 4 | ei |
-| T2 | DE-NI–SE | 8 + 4 | ei |
-| T6 | FI–IE | 16 + 2 | ei |
 | T5 | DE-NI–SE | 31 + 1 | ei |
 | T1 | EE–FI | 1 + 29 | ei |
-| T2 | FI–IE | 4 + 7 | ei |
+| T3 | IE–LV | 5 + 5 | ei |
+| T2 | DE-NI–LV | 8 + 3 | ei |
+| T8 | DE-NI–FI | 3 + 8 | ei |
+| T8 | FI–SE | 8 + 3 | ei |
+| T1 | IE–LV | 3 + 7 | ei |
+| T2 | IE–LV | 7 + 3 | ei |
+| T5 | FI–SE | 18 + 1 | ei |
+| T7 | DE-NI–FI | 6 + 3 | ei |
+| T7 | DE-NI–IE | 6 + 3 | ei |
+| T4 | FI–LV | 8 + 2 | ei |
+| T4 | FI–SE | 8 + 2 | ei |
+| T1 | DE-NI–IE | 5 + 3 | ei |
+| T2 | FI–LV | 4 + 3 | ei |
+| T2 | LV–SE | 3 + 4 | ei |
+| T7 | DE-NI–LV | 6 + 2 | ei |
 
 ## Saarekkeet
 

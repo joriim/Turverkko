@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ACTOR_KINDS = {"organisaatio", "hanke", "osaamiskeskus", "vertailukohde"}
 COLLAB_EDGES = {"osallistuu", "kuuluu_keskukseen", "yhteistyo"}
 COPUB_EDGE = "yhteisjulkaisu"   # organisaatioiden yhteisjulkaisut: erillinen näyttö, raportoidaan rinnakkain
+THIS_YEAR = 2026     # päättyneet hankkeet = loppuvuosi ennen tätä (kiinteä, jotta tulokset ovat toistettavia)
 MAX_HOPS = 3          # polku ≤ 3 askelta = toimijat tuntevat toisensa (esim. yhteinen organisaatio = 2)
 
 
@@ -70,6 +71,42 @@ def duplicates(projects, actors, pairs):
                                 vuodet=f'{pa["start"]}–{pa["end"]}', yhteiset_toimijat=" ".join(sorted(shared)), samankaltaisuus=s, kasitteet=c,
                                 peruste="yhteinen toimija ja samat vuodet" if shared else "samankaltainen teksti ja samat vuodet"))
     return out
+
+
+def hectares(ds, this_year):
+    """Ennallistavien toimenpiteiden hehtaarit: tavoite, raportoitu toteuma ja päättyneiden hankkeiden tavoitteet."""
+    import statistics
+    R = {"ennallistaminen", "vettäminen", "kosteikko"}
+    ps = [p for p in ds["projects"] if p.get("hectares")]
+    by_country, by_action, cost = {}, {}, []
+    for p in ps:
+        c = by_country.setdefault(p["country"], dict(tavoite=0, toteuma=0, paattyneet_tavoite=0, hankkeita=0))
+        c["hankkeita"] += 1
+        for h in p["hectares"]:
+            if h["kind"] == "ohitettu":
+                continue
+            a = by_action.setdefault(h["action"], dict(tavoite=0, toteuma=0))
+            a[h["kind"]] += h["ha"]
+            if h["action"] in R:
+                c[h["kind"]] += h["ha"]
+                if h["kind"] == "tavoite" and (p.get("end") or 9999) < this_year:
+                    c["paattyneet_tavoite"] += h["ha"]
+        if p.get("ha_target") and (p.get("eur_total") or p.get("eur_eu")):
+            eur = p.get("eur_total") or p.get("eur_eu")
+            cost.append(dict(id=p["id"], nimi=p["name"], maa=p["country"], rahasto=p["fund"], eur=eur, ha=p["ha_target"],
+                             eur_per_ha=round(eur / p["ha_target"])))
+    cost.sort(key=lambda r: r["eur_per_ha"])
+    med = {c: round(statistics.median([r["eur_per_ha"] for r in cost if r["maa"] == c]))
+           for c in sorted({r["maa"] for r in cost})}
+    refs = []
+    for k in ("programmes", "hubs"):
+        for x in ds[k]:
+            for h in x.get("hectares", []):
+                refs.append(dict(id=x["id"], taso=k, ha=h["ha"], laji=h["kind"], toimenpide=h["action"], vuosi=h["year"], lainaus=h["quote"]))
+    return dict(projects_with_ha=len(ps), target_ha=sum(v["tavoite"] for v in by_country.values()),
+                realised_ha=sum(v["toteuma"] for v in by_country.values()),
+                ended_target_ha=sum(v["paattyneet_tavoite"] for v in by_country.values()),
+                by_country=by_country, by_action=by_action, cost_per_ha=cost, median_eur_per_ha=med, programme_refs=refs)
 
 
 def main():
@@ -135,6 +172,10 @@ def main():
 
     # 3b. Kaksoisehdokkaat: sama hanke eri lähteistä eri nimillä (esim. EURA suomeksi, Kohesio englanniksi)
     dups = duplicates(projects, actors, pairs)
+    import datetime
+    ha = hectares(ds, THIS_YEAR)
+    write_csv(out / "hehtaarit.csv", [dict(maa=c, **v) for c, v in sorted(ha["by_country"].items())])
+    write_csv(out / "hehtaarihinta.csv", ha["cost_per_ha"])
     write_csv(out / "kaksoisehdokkaat.csv", dups)
 
     # 4. Maiden väliset dokumentoidut yhteydet
@@ -180,8 +221,8 @@ def main():
                 A, B = per[ca], per[cb]
                 if not A or not B:
                     continue
-                linked = any(nx.has_path(Gv, x, y) and nx.shortest_path_length(Gv, x, y) <= MAX_HOPS
-                             for x in A for y in B if x in Gv and y in Gv)
+                linked = any(nx.has_path(Gp, x, y) and nx.shortest_path_length(Gp, x, y) <= MAX_HOPS
+                             for x in A for y in B if x in Gp and y in Gp)
                 gaps.append(dict(teema=t, a=ca, b=cb, hankkeita_a=len(A), hankkeita_b=len(B), yhteys=linked))
     gaps.sort(key=lambda g: (g["yhteys"], -(g["hankkeita_a"] * g["hankkeita_b"])))
 
@@ -189,7 +230,8 @@ def main():
         params=dict(max_hops=MAX_HOPS, overlap_threshold=OV.DEFAULT_THRESHOLD, overlap_method="tekstin TF-IDF + monikielinen käsitesanasto, kosini",
                     compared_projects=compared),
         summary=dict(actors=Gv.number_of_nodes(), collab_edges=Gv.number_of_edges(), unverified_edges=G.number_of_edges() - Gv.number_of_edges(), components=len(comps),
-                     largest_component=len(comps[0]), multi_country_components=sum(1 for r in comp_rows if r["maita"] > 1),
+                     largest_component=len(comps[0]),
+                     components_multi=sum(1 for r in comp_rows if len(r["hankkeet_ja_keskukset"].split()) > 1), multi_country_components=sum(1 for r in comp_rows if r["maita"] > 1),
                      cross_country_edges=sum(cross.values()), overlap_pairs=len(pairs), missing_links=len(miss),
                      missing_cross_country=sum(1 for m in miss if m["tyyppi"] == "puuttuva yhteys"),
                      parallel_unlinked=sum(1 for m in miss if m["tyyppi"] == "rinnakkainen ilman yhteyttä"),
@@ -201,7 +243,7 @@ def main():
                      components_with_copubs=len(comps_p),
                      multi_country_components_with_copubs=sum(1 for c in comps_p if len({nodes[i].get("country") for i in c} - {"", None}) > 1), theme_country_pairs=len(gaps), theme_country_pairs_unlinked=sum(1 for g in gaps if not g["yhteys"])),
         components=comp_rows, organisations=org_rows, overlaps=pairs, missing_links=miss, sensitivity=sensitivity,
-        overlap_types=OV.TYPES, duplicate_candidates=dups,
+        overlap_types=OV.TYPES, duplicate_candidates=dups, hectares=ha,
         cross_country={f"{a}–{b}": n for (a, b), n in cross.items()},
         cross_country_unverified={f"{a}–{b}": n for (a, b), n in cross_unv.items()}, hub_shared_orgs=shared,
         theme_country_gaps=gaps,
@@ -257,13 +299,17 @@ def write_csv(path, rows):
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 
 
+def fi(v):
+    return f"{round(v):,}".replace(",", "\u00a0")
+
+
 def report(a, nodes):
     s = a["summary"]
     L = ["# Yhteysanalyysi", "",
          "_Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._", "",
          "## Yhteenveto", "",
          f"- Toimijoita yhteistyöverkossa: **{s['actors']}**, vahvistettuja yhteistyösärmiä **{s['collab_edges']}** (lisäksi {s['unverified_edges']} vahvistamatonta, jotka eivät ole mukana saarekkeissa eikä keskeisyydessä).",
-         f"- Erillisiä yhteistyösaarekkeita: **{s['components']}**. Suurin kattaa {s['largest_component']} toimijaa.",
+         f"- Erillisiä yhteistyösaarekkeita: **{s['components']}**, joista **{s['components_multi']}** sisältää vähintään kaksi hanketta tai keskusta (loput ovat yksittäisiä hankkeita toteuttajineen). Suurin kattaa {s['largest_component']} toimijaa.",
          f"- Usean maan saarekkeita: **{s['multi_country_components']}**. Maiden välisiä vahvistettuja yhteistyösärmiä: **{s['cross_country_edges']}**.",
          f"- Yhteisjulkaisut mukaan lukien (organisaatioiden yhteiset turvemaa- ja maaperäjulkaisut, OpenAIRE): yhteisjulkaisusärmiä **{s['copub_edges']}**, joista maiden välisiä **{s['copub_cross_country']}**; saarekkeita **{s['components_with_copubs']}**, joista usean maan **{s['multi_country_components_with_copubs']}**. Päällekkäisyysparien yhteys lasketaan tässä verkossa.",
          f"- Sisällöltään samankaltaisia hankepareja (tekstin samankaltaisuus ≥ {a['params']['overlap_threshold']}, {a['params']['compared_projects']} vertailtavaa hanketta): **{s['overlap_pairs']}**. Niistä",
@@ -273,7 +319,13 @@ def report(a, nodes):
          f"  - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **{s['overlap_connected']}**",
          f"  - saman hankekokonaisuuden osia: **{s['overlap_family']}**",
          f"- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **{s['duplicate_candidates']}**. Ne tarkistetaan ja yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla (`analysis/kaksoisehdokkaat.csv`).",
-         "", "## Maiden väliset yhteydet", ""]
+         "", "## Ennallistetut hehtaarit", "",
+         f"Hehtaaritieto on **{a['hectares']['projects_with_ha']}** hankkeella. Ennallistavien toimenpiteiden (ennallistaminen, vettäminen, kosteikko) tavoitteita on yhteensä **{fi(a['hectares']['target_ha'])} ha** ja raportoitua toteumaa **{fi(a['hectares']['realised_ha'])} ha**. Jo päättyneiden hankkeiden tavoitteita, joiden toteumaa lähde ei raportoi, on {fi(a['hectares']['ended_target_ha'])} ha.", "",
+         "Hehtaarit on kirjattu käsin lainauksineen tiedostoon `hakulahteet/tulokset/hehtaarit/hehtaarit.csv`. Inventoinnit, suunnitelmat, metsitys ja muu pinta-ala näytetään erikseen, eikä niitä lasketa ennallistettuihin.", "",
+         "| Maa | Hankkeita | Tavoite ha | Toteuma ha | Päättyneiden tavoite ha |", "|---|---|---|---|---|"]
+    L += [f"| {c} | {v['hankkeita']} | {round(v['tavoite'])} | {round(v['toteuma'])} | {round(v['paattyneet_tavoite'])} |" for c, v in sorted(a["hectares"]["by_country"].items())]
+    L += ["", "Hinta tavoitehehtaaria kohden (budjetti / ennallistava tavoite, mediaani maittain): " + ", ".join(f"{c} {fi(v)} €/ha" for c, v in a["hectares"]["median_eur_per_ha"].items()) + ". Budjetti sisältää usein myös suunnittelun, seurannan ja viestinnän, joten luku ei ole ennallistamisen yksikköhinta.",
+          "", "## Maiden väliset yhteydet", ""]
     L += [f"- {k}: {v} (lähteellä vahvistettu)" for k, v in sorted(a["cross_country"].items())] or ["- Ei vahvistettuja."]
     L += [f"- {k}: {v} (kumppani vahvistamatta)" for k, v in sorted(a["cross_country_unverified"].items())]
     L += ["", "## Välittäjäorganisaatiot (välityskeskeisyys)", "",

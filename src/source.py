@@ -473,7 +473,7 @@ _byid["EE-02"].update(lead="Riigimetsa Majandamise Keskus (RMK)", start=2016, en
 # PohjaNeva: Kohesio kertoo koko hankkeen, aiempi rivi vain Myllynevan osakohteen
 _byid["FI-02"].update(
     name="PohjaNeva – Vauhtia pohjalaismaakuntien JTF-ennallistamisiin",
-    start=2024, end=2027,
+    start=2023, end=2026, eur_total=581828, eur_eu=407280,  # Kohesio Q7440094; aiempi 12 722 € oli Myllynevan osakohde
     outputs="Pohjalaismaakuntien turvetuotantoalueiden ennallistamisen vauhdittaminen; esimerkkinä Myllynevan 10 ha:n kosteikko (Alavus, 12 722 €)")
 
 # Tarkistetut julkaisut hakulähteistä (hakulahteet/tulokset/julkaisut/) ja tuotosten näyttöaste
@@ -500,4 +500,14 @@ for _o in ORGS:
         _o["country"] = ORG_COUNTRY_FIX[_o["id"]]
 _cp_file = _tuonti.RESULTS / "verkosto" / "yhteisjulkaisut.csv"
 COPUBS = list(_csv.DictReader(open(_cp_file, encoding="utf-8-sig"))) if _cp_file.exists() else []
+
+# Hehtaarit (käsin tarkistettu taulukko, ks. src/hehtaarit.py)
+import hehtaarit as _ha  # noqa: E402
+HECTARES = _ha.apply(PROJECTS, PROGRAMMES, HUBS, CONTEXT)
+HECTARE_CANDIDATES = _ha.candidates(PROJECTS)
+
+# Yhtenäistetyt alueet esitystyökalun suodattimeen
+import alueet as _alueet  # noqa: E402
+for _p in PROJECTS:
+    _p["regions"] = _alueet.normalize(_p.get("region"))
 
