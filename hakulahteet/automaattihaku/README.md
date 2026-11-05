@@ -32,4 +32,4 @@ Työnkulku tarvitsee luvan avata pull request. Ota se käyttöön kerran: repon 
 | 2 EU CAP Network, 20 DVS | palvelimella muodostetut hakusivut | selvityksessä |
 | muut | ei rajapintaa | selainagentti, ks. [../README.md](../README.md) |
 
-Ajantasainen saavutettavuus: [`saavutettavuus.md`](saavutettavuus.md).
+Ajantasainen saavutettavuus: [`saavutettavuus.md`](https://github.com/joriim/Turverkko/blob/automaattihaku/hakulahteet/automaattihaku/saavutettavuus.md) (haarassa `automaattihaku`, päivittyy jokaisella ajolla).

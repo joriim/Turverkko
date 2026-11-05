@@ -285,7 +285,7 @@ function renderDetail(){
   if(state.sel.type==="t"){
     const t = state.sel.id; const ps = items.filter(p=>p.themes.includes(t));
     const cs = [...new Set(ps.map(p=>p.country))];
-    el.innerHTML = `<div class="eyebrow">Teema ${t} · ${cs.length} maata</div><h2>${TH[t]}</h2>` + ps.map(p=>`<div style="display:flex;gap:8px;align-items:flex-start"><span class="dot" style="background:${ccol(p.country)};margin-top:6px"></span><div style="min-width:0"><a href="#" data-go="${p.id}">${esc(p.name)}</a><div class="note">${CN[p.country]||p.country} · ${p.fund}${p.isContext?" · vertailu":""}</div></div></div>`).join("");
+    el.innerHTML = `<div class="eyebrow">Teema ${t} · ${cs.length} maata</div><h2>${TH[t]}</h2>` + ps.map(p=>`<div style="display:flex;gap:8px;align-items:flex-start"><span class="dot" style="background:${ccol(p.country)};margin-top:6px"></span><div style="min-width:0"><a href="haku.html#${encodeURIComponent(p.id)}" data-go="${p.id}">${esc(p.name)}</a><div class="note">${CN[p.country]||p.country} · ${p.fund}${p.isContext?" · vertailu":""}</div></div></div>`).join("");
   } else {
     const p = items.find(x=>x.id===state.sel.id);
     const ov = D.overlaps.filter(o=>o.a===p.id||o.b===p.id);
@@ -298,10 +298,10 @@ function renderDetail(){
       <dt>Tuotokset</dt><dd>${esc(p.outputs)}</dd><dt>Näyttöaste</dt><dd>${evbar(p.evidence)} ${EVTXT[p.evidence]}</dd></dl>`)
      + `<div class="eyebrow">Teemat</div><div class="filters">${p.themes.map(t=>`<span class="pill">${t} ${TH[t]}</span>`).join("")}</div>`
      + (dup?`<div class="eyebrow">Kaksoiskirjaus</div><p class="note">Sama hanke esiintyy myös nimellä: ${esc(dup.alias)}. ${esc(dup.note)}.</p>`:"")
-     + (ov.length?`<div class="eyebrow">Päällekkäiset hankkeet (${ov.length})</div>`+ov.map(o=>{const q=items.find(x=>x.id===(o.a===p.id?o.b:o.a));return `<div><a href="#" data-go="${q.id}">${esc(q.name)}</a> <span class="pill ${o.kind==="maiden välinen"?"cross":"same"}">${o.score.toFixed(2)}</span></div>`}).join(""):"")
+     + (ov.length?`<div class="eyebrow">Päällekkäiset hankkeet (${ov.length})</div>`+ov.map(o=>{const q=items.find(x=>x.id===(o.a===p.id?o.b:o.a));return `<div><a href="haku.html#${encodeURIComponent(q.id)}" data-go="${q.id}">${esc(q.name)}</a> <span class="pill ${o.kind==="yhteydessä"||o.kind==="saman kokonaisuuden osat"?"same":"cross"}" title="${esc(o.kind)}">${o.score.toFixed(2)}</span></div>`}).join(""):"")
      + `<a href="${p.url}" target="_blank" rel="noopener">Lähde ↗</a>`;
   }
-  el.querySelectorAll("[data-go]").forEach(a=>a.onclick=e=>{e.preventDefault();select({type:"p",id:a.dataset.go})});
+  el.querySelectorAll("[data-go]").forEach(a=>a.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault();select({type:"p",id:a.dataset.go})});
 }
 
 
@@ -340,7 +340,7 @@ function renderHubs(){
       <div><span class="pill ${st}">${esc(h.status)}</span></div>
       <dl class="kv"><dt>Rahoitus</dt><dd class="mono">${esc(h.budget)}</dd><dt>Kausi</dt><dd class="mono">${esc(h.years)}</dd>
       <dt>Toimijat</dt><dd>${esc(h.members)}</dd><dt>Tavoite</dt><dd>${esc(h.target)}</dd></dl>
-      ${projs.length?`<div class="eyebrow">Hankkeet (${projs.length})</div>`+projs.map(p=>`<div><a href="#" data-go="${p.id}">${esc(p.name)}</a> <span class="note mono">${p.id} · ${p.fund}</span></div>`).join(""):""}
+      ${projs.length?`<div class="eyebrow">Hankkeet (${projs.length})</div>`+projs.map(p=>`<div><a href="haku.html#${encodeURIComponent(p.id)}" data-go="${p.id}">${esc(p.name)}</a> <span class="note mono">${p.id} · ${p.fund}</span></div>`).join(""):""}
       <div class="eyebrow">Julkaisut ja tuotokset (${pubs.length})</div>
       ${pubs.length? pubs.map(p=>`<div class="pub"><span class="t"><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></span>
         <span class="note">${esc(p.authors)}${p.year?" · "+p.year:""} · ${esc(p.venue)}</span>
@@ -348,7 +348,7 @@ function renderHubs(){
         : `<p class="note">Ei löydettyjä julkaisuja.</p>`}
       <a href="${h.url}" target="_blank" rel="noopener">Lähde ↗</a></article>`;
   }).join("");
-  document.querySelectorAll("#hubcards [data-go]").forEach(a=>a.onclick=e=>{e.preventDefault();
+  document.querySelectorAll("#hubcards [data-go]").forEach(a=>a.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault();
     document.getElementById("tab-map").click(); select({type:"p",id:a.dataset.go});});
 }
 
@@ -431,10 +431,10 @@ function netDetail(){
     + (org?`<dl class="kv"><dt>Hankkeita</dt><dd class="mono">${org.hankkeita}</dd><dt>Keskuksia</dt><dd class="mono">${org.keskuksia}</dd><dt>Välitys&shy;keskeisyys</dt><dd class="mono">${org.valityskeskeisyys}</dd><dt>Saareke</dt><dd class="mono">${org.komponentti}</dd></dl>`:"")
     + `<div class="eyebrow">Yhteydet (${es.length})</div>`
     + es.map(e=>{const o = byId[e.source===n.id?e.target:e.source];
-        return `<div class="pub"><span class="t"><a href="#" data-net="${o.id}">${esc(o.label)}</a></span><span class="note">${KIND[e.kind]}${e.note&&e.kind==="osallistuu"?" · "+esc(e.note):""}${e.kind!=="osallistuu"&&e.note?" · "+esc(e.note):""}</span><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="badge ${e.evidence==="lähde"?"peer":e.evidence==="vahvistamatta"||e.evidence==="päätelty"?"unv":""}">${esc(e.evidence)}</span>${e.url?`<a href="${e.url}" target="_blank" rel="noopener" class="note">lähde ↗</a>`:""}</span></div>`}).join("")
-    + (miss.length?`<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div>`+miss.map(m=>{const o=m.a===n.id?[m.b,m.b_nimi]:[m.a,m.a_nimi];return `<div><a href="#" data-net="${o[0]}">${esc(o[1])}</a> <span class="pill cross">${Number(m.score).toFixed(2)}</span> <span class="note">${esc(m.tyyppi)}</span></div>`}).join(""):"")
+        return `<div class="pub"><span class="t"><a href="haku.html#${encodeURIComponent(o.id)}" data-net="${o.id}">${esc(o.label)}</a></span><span class="note">${KIND[e.kind]}${e.note&&e.kind==="osallistuu"?" · "+esc(e.note):""}${e.kind!=="osallistuu"&&e.note?" · "+esc(e.note):""}</span><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="badge ${e.evidence==="lähde"?"peer":e.evidence==="vahvistamatta"||e.evidence==="päätelty"?"unv":""}">${esc(e.evidence)}</span>${e.url?`<a href="${e.url}" target="_blank" rel="noopener" class="note">lähde ↗</a>`:""}</span></div>`}).join("")
+    + (miss.length?`<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div>`+miss.map(m=>{const o=m.a===n.id?[m.b,m.b_nimi]:[m.a,m.a_nimi];return `<div><a href="haku.html#${encodeURIComponent(o[0])}" data-net="${o[0]}">${esc(o[1])}</a> <span class="pill cross">${Number(m.score).toFixed(2)}</span> <span class="note">${esc(m.tyyppi)}</span></div>`}).join(""):"")
     + (n.url?`<a href="${n.url}" target="_blank" rel="noopener">Lähde ↗</a>`:"");
-  el.querySelectorAll("[data-net]").forEach(a=>a.onclick=e=>{e.preventDefault(); NET.sel=a.dataset.net; netDetail(); netHighlight();});
+  el.querySelectorAll("[data-net]").forEach(a=>a.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault(); NET.sel=a.dataset.net; netDetail(); netHighlight();});
 }
 ["unv","miss","pubs","copub"].forEach(k=>{ const b=document.getElementById("net-"+k); b.onclick=()=>{NET[k]=!NET[k]; b.setAttribute("aria-pressed",NET[k]); renderNet();}; });
 

@@ -91,13 +91,34 @@ def hectares(ds, this_year):
                 c[h["kind"]] += h["ha"]
                 if h["kind"] == "tavoite" and (p.get("end") or 9999) < this_year:
                     c["paattyneet_tavoite"] += h["ha"]
-        if p.get("ha_target") and (p.get("eur_total") or p.get("eur_eu")):
-            eur = p.get("eur_total") or p.get("eur_eu")
-            cost.append(dict(id=p["id"], nimi=p["name"], maa=p["country"], rahasto=p["fund"], eur=eur, ha=p["ha_target"],
-                             eur_per_ha=round(eur / p["ha_target"])))
-    cost.sort(key=lambda r: r["eur_per_ha"])
-    med = {c: round(statistics.median([r["eur_per_ha"] for r in cost if r["maa"] == c]))
-           for c in sorted({r["maa"] for r in cost})}
+        eur = p.get("eur_total") or p.get("eur_eu")
+        ha_basis = p.get("ha_target") or p.get("ha_realised")
+        if eur and ha_basis:
+            cost.append(dict(id=p["id"], nimi=p["name"], maa=p["country"], rahasto=p["fund"], toimenpide=p.get("ha_action") or "",
+                             alku=p.get("start") or "", loppu=p.get("end") or "",
+                             eur=eur, eur_lahde="kokonaisbudjetti" if p.get("eur_total") else "EU-osuus",
+                             ha_tavoite=p.get("ha_target") or "", ha_toteuma=p.get("ha_realised") or "",
+                             peruste="tavoite" if p.get("ha_target") else "toteuma",
+                             eur_per_ha=round(eur / ha_basis),
+                             eur_per_ha_toteuma=round(eur / p["ha_realised"]) if p.get("ha_realised") else "",
+                             vertailukelpoinen="kyllä" if p.get("ha_primary") else "ei",
+                             huom="; ".join(sorted({h["primary_note"] for h in p["hectares"] if h.get("primary_note")}))))
+    cost.sort(key=lambda r: (r["toimenpide"], r["eur_per_ha"]))
+    comp = [r for r in cost if r["vertailukelpoinen"] == "kyllä"]
+
+    def stats(rows):
+        v = sorted(r["eur_per_ha"] for r in rows)
+        if not v:
+            return None
+        q = statistics.quantiles(v, n=4, method="inclusive") if len(v) >= 2 else [v[0], v[0], v[0]]
+        tot_eur, tot_ha = sum(r["eur"] for r in rows), sum(r["ha_tavoite"] or r["ha_toteuma"] for r in rows)
+        return dict(n=len(v), mediaani=round(statistics.median(v)), q1=round(q[0]), q3=round(q[2]), min=v[0], max=v[-1],
+                    painotettu=round(tot_eur / tot_ha), eur=round(tot_eur), ha=round(tot_ha))
+    price_action = {a: stats([r for r in comp if r["toimenpide"] == a]) for a in sorted({r["toimenpide"] for r in comp})}
+    by_action_country = {f"{a}|{c}": stats([r for r in comp if r["toimenpide"] == a and r["maa"] == c])
+                         for a in sorted({r["toimenpide"] for r in comp}) for c in sorted({r["maa"] for r in comp if r["toimenpide"] == a})}
+    med = {c: round(statistics.median([r["eur_per_ha"] for r in comp if r["maa"] == c]))
+           for c in sorted({r["maa"] for r in comp})}
     refs = []
     for k in ("programmes", "hubs"):
         for x in ds[k]:
@@ -106,7 +127,8 @@ def hectares(ds, this_year):
     return dict(projects_with_ha=len(ps), target_ha=sum(v["tavoite"] for v in by_country.values()),
                 realised_ha=sum(v["toteuma"] for v in by_country.values()),
                 ended_target_ha=sum(v["paattyneet_tavoite"] for v in by_country.values()),
-                by_country=by_country, by_action=by_action, cost_per_ha=cost, median_eur_per_ha=med, programme_refs=refs)
+                by_country=by_country, by_action=by_action, cost_per_ha=cost, median_eur_per_ha=med,
+                price_by_action=price_action, price_by_action_country=by_action_country, programme_refs=refs)
 
 
 def main():
@@ -324,7 +346,16 @@ def report(a, nodes):
          "Hehtaarit on kirjattu käsin lainauksineen tiedostoon `hakulahteet/tulokset/hehtaarit/hehtaarit.csv`. Inventoinnit, suunnitelmat, metsitys ja muu pinta-ala näytetään erikseen, eikä niitä lasketa ennallistettuihin.", "",
          "| Maa | Hankkeita | Tavoite ha | Toteuma ha | Päättyneiden tavoite ha |", "|---|---|---|---|---|"]
     L += [f"| {c} | {v['hankkeita']} | {round(v['tavoite'])} | {round(v['toteuma'])} | {round(v['paattyneet_tavoite'])} |" for c, v in sorted(a["hectares"]["by_country"].items())]
-    L += ["", "Hinta tavoitehehtaaria kohden (budjetti / ennallistava tavoite, mediaani maittain): " + ", ".join(f"{c} {fi(v)} €/ha" for c, v in a["hectares"]["median_eur_per_ha"].items()) + ". Budjetti sisältää usein myös suunnittelun, seurannan ja viestinnän, joten luku ei ole ennallistamisen yksikköhinta.",
+    H = a["hectares"]
+    L += ["", "### Hinta hehtaaria kohden toimenpiteittäin", "",
+          "Budjetti jaettuna hankkeen ennallistavalla hehtaaritavoitteella (tai toteumalla, jos tavoitetta ei ole). Mukana vain hankkeet, joissa hehtaarit ovat päätuotos; pilotit ja kehityshankkeet näkyvät hanketaulukossa mutta eivät mediaaneissa. Budjetti sisältää usein myös suunnittelun, maanhankinnan, seurannan ja viestinnän, joten luku on hankkeen hinta hehtaaria kohden, ei ennallistamistyön yksikköhinta. Summat ovat nimellisiä euroja.", "",
+          "| Toimenpide | Hankkeita | Mediaani €/ha | Kvartiiliväli €/ha | Vaihteluväli €/ha | Painotettu €/ha (Σ€ / Σha) |", "|---|---|---|---|---|---|"]
+    L += [f"| {k} | {v['n']} | {fi(v['mediaani'])} | {fi(v['q1'])}–{fi(v['q3'])} | {fi(v['min'])}–{fi(v['max'])} | {fi(v['painotettu'])} |" for k, v in H["price_by_action"].items() if v]
+    L += ["", "| Toimenpide · maa | Hankkeita | Mediaani €/ha | Painotettu €/ha |", "|---|---|---|---|"]
+    L += [f"| {k.replace('|', ' · ')} | {v['n']} | {fi(v['mediaani'])} | {fi(v['painotettu'])} |" for k, v in H["price_by_action_country"].items() if v]
+    L += ["", "| Hanke | Maa | Toimenpide | € | ha | €/ha | Vertailukelpoinen |", "|---|---|---|---|---|---|---|"]
+    L += [f"| {r['id']} {r['nimi'][:45]} | {r['maa']} | {r['toimenpide']} | {fi(r['eur'])} | {fi(r['ha_tavoite'] or r['ha_toteuma'])} ({r['peruste']}) | {fi(r['eur_per_ha'])} | {r['vertailukelpoinen']}{(': ' + r['huom']) if r['huom'] else ''} |" for r in H["cost_per_ha"]]
+    L += ["",
           "", "## Maiden väliset yhteydet", ""]
     L += [f"- {k}: {v} (lähteellä vahvistettu)" for k, v in sorted(a["cross_country"].items())] or ["- Ei vahvistettuja."]
     L += [f"- {k}: {v} (kumppani vahvistamatta)" for k, v in sorted(a["cross_country_unverified"].items())]

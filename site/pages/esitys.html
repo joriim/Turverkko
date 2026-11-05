@@ -54,7 +54,7 @@ table.t th,table.t td{padding:6px 10px;border-bottom:1px solid var(--line);text-
 table.t th:first-child,table.t td:first-child{text-align:left}
 details > summary{cursor:pointer;font-weight:600}
 /* Esitystila */
-body.present .nav, body.present footer, body.present .bar, body.present .edit, body.present .plistwrap, body.present details, body.present #b-present{display:none}
+body.present .nav, body.present footer, body.present .bar, body.present .edit, body.present .plistwrap, body.present details, body.present #b-present, body.present #tbl-price, body.present #price-notes{display:none}
 body.present main.wrap{max-width:none;padding-inline:clamp(16px,4vw,56px)}
 body.present .charts{grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr))}
 body.present .year{font-size:clamp(44px,7vw,88px)}
@@ -102,6 +102,15 @@ body.present .pbar{display:flex}
   </section>
 
   <p class="notes" id="notes"></p>
+
+  <section class="chart" id="price-sec">
+    <h2>Hinta hehtaaria kohden toimenpiteittäin</h2>
+    <p class="sub">Hankkeen budjetti jaettuna sen ennallistavalla hehtaaritavoitteella (tai toteumalla). Yksi piste on yksi hanke, pystyviiva on toimenpiteen mediaani. Logaritminen asteikko. Ontot pisteet ovat pilotteja tai kehityshankkeita, joissa hehtaarit ovat pieni osa työtä; ne eivät ole mediaanissa.</p>
+    <div class="legend" id="lg-price"></div>
+    <svg id="c-price" role="img" aria-label="Hinta hehtaaria kohden hankkeittain ja toimenpiteittäin"></svg>
+    <div class="tablebox" style="margin-top:10px"><table class="t" id="tbl-price"></table></div>
+    <p class="notes" id="price-notes"></p>
+  </section>
 
   <details><summary>Taulukko</summary><div class="tablebox" style="margin-top:10px"><table class="t" id="tbl"></table></div></details>
 
@@ -277,6 +286,61 @@ function haChart(svg, sr){
 
 function legend(el, ks){ el.innerHTML = ks.map(k => `<span><i style="background:${colOf(k)}"></i>${TV.esc(nameOf(k))}</span>`).join(""); }
 
+const ACTIONS = [["ennallistaminen","Ennallistaminen"],["vettäminen","Vettäminen"],["kosteikko","Kosteikko"]];
+const median = a => { const v = [...a].sort((x, y) => x - y), n = v.length; return n ? (n % 2 ? v[(n - 1) / 2] : (v[n / 2 - 1] + v[n / 2]) / 2) : null; };
+function priceRows(ps){
+  return ps.filter(p => p.ha_action && p.ha_action !== "useita" && money(p) && (p.ha_target || p.ha_realised)
+      && (p.end || p.start || S.from) >= S.from && (p.start || S.to) <= S.to)
+    .map(p => { const ha = p.ha_target || p.ha_realised, eur = money(p);
+      return {p, ha, eur, v: eur / ha, basis: p.ha_target ? "tavoite" : "toteuma", ok: p.ha_primary !== false,
+              note: [...new Set((p.hectares || []).map(h => h.primary_note).filter(Boolean))].join("; ")}; });
+}
+function priceChart(svg, rows){
+  const W = Math.max(320, svg.parentElement.clientWidth - 32), narrow = W < 560;
+  const L = narrow ? 12 : 130, R = 16, T = 8, rowH = narrow ? 92 : 72, B = 30;
+  const H = T + rowH * ACTIONS.length + B;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  if (!rows.length) { svg.innerHTML = `<text x="${W / 2}" y="${H / 2}" text-anchor="middle" font-size="14" fill="var(--muted)">Valinnassa ei ole hankkeita, joilla on sekä budjetti että ennallistava hehtaaritieto.</text>`; return; }
+  const lo = Math.pow(10, Math.floor(Math.log10(Math.min(...rows.map(r => r.v))))), hi = Math.pow(10, Math.ceil(Math.log10(Math.max(...rows.map(r => r.v)))));
+  const x = v => L + (Math.log10(v) - Math.log10(lo)) / (Math.log10(hi) - Math.log10(lo)) * (W - L - R);
+  let g = "";
+  for (let e = Math.log10(lo); e <= Math.log10(hi) + 1e-9; e++) {
+    [1, 2, 5].forEach(m => { const v = m * Math.pow(10, e); if (v < lo || v > hi) return; const xx = x(v);
+      g += `<line x1="${xx}" x2="${xx}" y1="${T}" y2="${H - B}" stroke="var(--line)" stroke-width="${m === 1 ? 1.2 : .6}"/>`;
+      if (m === 1 || !narrow) g += `<text x="${xx}" y="${H - B + 16}" text-anchor="middle" font-size="11" font-family="var(--f-mono)" fill="var(--muted)">${v >= 1000 ? (v / 1000).toLocaleString("fi-FI") + " k€" : v + " €"}</text>`; });
+  }
+  ACTIONS.forEach(([a, label], i) => {
+    const y0 = T + i * rowH, cy = y0 + rowH / 2 + (narrow ? 8 : 0), rs = rows.filter(r => r.p.ha_action === a);
+    g += `<line x1="${L}" x2="${W - R}" y1="${y0 + rowH}" y2="${y0 + rowH}" stroke="var(--line)"/>`;
+    const m = median(rs.filter(r => r.ok).map(r => r.v));
+    g += narrow ? `<text x="${L}" y="${y0 + 16}" font-size="13" font-weight="600" fill="var(--fg)">${label} <tspan fill="var(--muted)" font-weight="400">· ${rs.length} hanketta${m ? " · mediaani " + nS(m) + " €/ha" : ""}</tspan></text>`
+      : `<text x="${L - 12}" y="${cy - 3}" text-anchor="end" font-size="13" font-weight="600" fill="var(--fg)">${label}</text><text x="${L - 12}" y="${cy + 13}" text-anchor="end" font-size="11" fill="var(--muted)">${rs.length} hanketta</text>`;
+    if (m) g += `<line x1="${x(m)}" x2="${x(m)}" y1="${cy - 22}" y2="${cy + 22}" stroke="var(--fg)" stroke-width="2.5"/>` +
+      (narrow ? "" : `<text x="${x(m) + 6}" y="${cy - 14}" font-size="11" font-family="var(--f-mono)" fill="var(--fg)">mediaani ${nS(m)} €/ha</text>`);
+    const placed = [];
+    rs.sort((p, q) => p.v - q.v).forEach(r => { const xx = x(r.v); let off = 0;
+      while (placed.some(([px, po]) => Math.abs(px - xx) < 13 && po === off)) off = off <= 0 ? -off + 12 : -off;
+      placed.push([xx, off]);
+      const col = TV.ccol(r.p.country);
+      g += `<a href="haku.html#${encodeURIComponent(r.p.id)}" class="pd" data-i="${rows.indexOf(r)}"><circle cx="${xx}" cy="${cy + off}" r="7" fill="${r.ok ? col : "var(--surface)"}" stroke="${r.ok ? "var(--surface)" : col}" stroke-width="2"/></a>`; });
+  });
+  svg.innerHTML = g;
+  svg.querySelectorAll(".pd").forEach(el => { const r = rows[+el.dataset.i];
+    el.addEventListener("pointermove", e => showTip(e, `<div class="k">${TV.esc(r.p.id)} · ${TV.esc(TV.COUNTRY[r.p.country] || r.p.country)} · ${TV.esc(r.p.fund)}</div><div>${TV.esc(r.p.name)}</div><div class="v">${eurS(r.v)} / ha</div><div class="k">${eurS(r.eur)} / ${haS(r.ha)} (${r.basis})${r.p.start ? " · " + r.p.start + "–" + (r.p.end || "") : ""}</div>${r.ok ? "" : `<div class="k">Ei mediaanissa: ${TV.esc(r.note)}</div>`}`));
+    el.addEventListener("pointerleave", hideTip); });
+}
+function priceSection(ps){
+  const rows = priceRows(ps);
+  priceChart($("c-price"), rows);
+  const cs = ORDER_C.filter(c => rows.some(r => r.p.country === c));
+  $("lg-price").innerHTML = cs.map(c => `<span><i style="background:${TV.ccol(c)}"></i>${TV.esc(TV.COUNTRY[c])}</span>`).join("") +
+    `<span><i style="background:var(--surface);border:2px solid var(--muted);width:8px;height:8px;border-radius:50%"></i>pilotti tai kehityshanke</span><span><i class="ln" style="border-color:var(--fg);width:0;height:14px;border-top:0;border-left:2.5px solid var(--fg);vertical-align:-3px"></i>mediaani</span>`;
+  const sorted = [...rows].sort((a, b) => ACTIONS.findIndex(x => x[0] === a.p.ha_action) - ACTIONS.findIndex(x => x[0] === b.p.ha_action) || a.v - b.v);
+  $("tbl-price").innerHTML = `<thead><tr><th>Hanke</th><th>Maa</th><th>Toimenpide</th><th>Budjetti</th><th>Hehtaarit</th><th>€/ha</th><th>Mediaanissa</th></tr></thead><tbody>` +
+    sorted.map(r => `<tr><td style="white-space:normal;min-width:220px"><a href="haku.html#${encodeURIComponent(r.p.id)}">${TV.esc(r.p.name)}</a></td><td>${TV.dot(r.p.country)} ${TV.esc(r.p.country)}</td><td>${TV.esc(r.p.ha_action)}</td><td class="mono">${eurS(r.eur)}</td><td class="mono">${haS(r.ha)} <span class="note">${r.basis}</span></td><td class="mono"><b>${nS(r.v)}</b></td><td>${r.ok ? "kyllä" : `<span class="note" title="${TV.esc(r.note)}">ei</span>`}</td></tr>`).join("") + "</tbody>";
+  $("price-notes").textContent = "Toimenpideluokat noudattavat lähteen sanamuotoa ja menevät osin päällekkäin: suomalaisten turvetuotantoalueiden ennallistaminen ja saksalainen vettäminen (Wiedervernässung) ovat kumpikin pääosin ojien tukkimista. Suurempi ero on kohteissa: Suomen hankkeet ovat laajoja entisiä turvetuotantoalueita, Niedersachsenin hankkeet pieniä Natura-soita, joissa budjettiin sisältyy maanhankintaa ja rakentamista. Budjetti kattaa myös suunnittelun, seurannan ja viestinnän, joten luku on hankkeen hinta hehtaaria kohden, ei ennallistamistyön yksikköhinta. Summat ovat nimellisiä euroja; Ruotsin kruunut on muunnettu EKP:n vuosikeskikurssilla. Valinta: hankkeet, joiden toteutusaika osuu valittuun ajanjaksoon.";
+}
+
 function render(){
   writeHash();
   const ps = projects(), sr = series(ps), ks = sr.ks;
@@ -316,6 +380,7 @@ function render(){
   ty.innerHTML = `<thead><tr><th>Vuosi</th>${ks.map(k => `<th>${TV.esc(nameOf(k))} €</th>`).join("")}<th>Rahoitus yht.</th><th>Hankkeita</th><th>Tavoite ha (kertymä)</th><th>Toteuma ha (kertymä)</th></tr></thead><tbody>` +
     ys.map((y, j) => `<tr><td>${y}</td>${ks.map(k => `<td class="mono">${sr.m[y][k] ? nS(sr.m[y][k]) : "–"}</td>`).join("")}<td class="mono">${nS(ks.reduce((a, k) => a + sr.m[y][k], 0))}</td><td class="mono">${ks.reduce((a, k) => a + sr.c[y][k], 0)}</td><td class="mono">${nS(ha.T[j])}</td><td class="mono">${nS(ha.R[j])}</td></tr>`).join("") + "</tbody>";
 
+  priceSection(ps);
   const yearPs = ps.filter(p => p.start === cur).sort((a, b) => (money(b) || 0) - (money(a) || 0));
   $("plist-h").textContent = `Vuonna ${cur} alkaneet hankkeet (${yearPs.length})`;
   $("plist").innerHTML = yearPs.length ? yearPs.map(p => `<a href="haku.html#${encodeURIComponent(p.id)}">${TV.dot(p.country)}<span>${TV.esc(p.name)}</span><span class="m">${money(p) != null ? eurS(money(p)) : "–"}</span><span class="s">${TV.esc([TV.COUNTRY[p.country], p.fund, p.lead, p.ha_target ? "tavoite " + haS(p.ha_target) : "", p.ha_realised ? "toteuma " + haS(p.ha_realised) : ""].filter(Boolean).join(" · "))}</span></a>`).join("") : `<div class="empty note" style="padding:16px">Ei valinnassa.</div>`;

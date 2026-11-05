@@ -31,7 +31,47 @@ Hehtaarit on kirjattu käsin lainauksineen tiedostoon `hakulahteet/tulokset/heht
 | LV | 2 | 1500 | 0 | 0 |
 | SE | 1 | 1000 | 0 | 0 |
 
-Hinta tavoitehehtaaria kohden (budjetti / ennallistava tavoite, mediaani maittain): DE-NI 28 216 €/ha, EE 1 631 €/ha, FI 2 612 €/ha, LV 4 706 €/ha, SE 2 696 €/ha. Budjetti sisältää usein myös suunnittelun, seurannan ja viestinnän, joten luku ei ole ennallistamisen yksikköhinta.
+### Hinta hehtaaria kohden toimenpiteittäin
+
+Budjetti jaettuna hankkeen ennallistavalla hehtaaritavoitteella (tai toteumalla, jos tavoitetta ei ole). Mukana vain hankkeet, joissa hehtaarit ovat päätuotos; pilotit ja kehityshankkeet näkyvät hanketaulukossa mutta eivät mediaaneissa. Budjetti sisältää usein myös suunnittelun, maanhankinnan, seurannan ja viestinnän, joten luku on hankkeen hinta hehtaaria kohden, ei ennallistamistyön yksikköhinta. Summat ovat nimellisiä euroja.
+
+| Toimenpide | Hankkeita | Mediaani €/ha | Kvartiiliväli €/ha | Vaihteluväli €/ha | Painotettu €/ha (Σ€ / Σha) |
+|---|---|---|---|---|---|
+| ennallistaminen | 11 | 2 289 | 1 766–4 304 | 1 040–38 877 | 2 984 |
+| kosteikko | 2 | 3 631 | 3 284–3 978 | 2 936–4 326 | 3 738 |
+| vettäminen | 2 | 22 160 | 11 425–32 896 | 689–43 632 | 1 531 |
+
+| Toimenpide · maa | Hankkeita | Mediaani €/ha | Painotettu €/ha |
+|---|---|---|---|
+| ennallistaminen · DE-NI | 2 | 28 216 | 23 826 |
+| ennallistaminen · EE | 1 | 1 631 | 1 631 |
+| ennallistaminen · FI | 6 | 1 986 | 1 645 |
+| ennallistaminen · LV | 1 | 4 706 | 4 706 |
+| ennallistaminen · SE | 1 | 2 696 | 2 696 |
+| kosteikko · FI | 2 | 3 631 | 3 738 |
+| vettäminen · DE-NI | 2 | 22 160 | 1 531 |
+
+| Hanke | Maa | Toimenpide | € | ha | €/ha | Vertailukelpoinen |
+|---|---|---|---|---|---|---|
+| K-FI-cb20 Restoration of the Western Valkeasuo Mire | FI | ennallistaminen | 72 800 | 70 (tavoite) | 1 040 | kyllä |
+| K-FI-e290 Restoration and water protection project of S | FI | ennallistaminen | 923 512 | 750 (tavoite) | 1 231 | kyllä |
+| EE-02 Jääkturvealueiden korjaaminen (mm. Laiuse) | EE | ennallistaminen | 3 262 985 | 2 000 (tavoite) | 1 631 | kyllä |
+| K-FI-06b9 Suokeidas - From peat production to diverse w | FI | ennallistaminen | 380 145 | 200 (tavoite) | 1 901 | kyllä |
+| K-FI-b095 Aarreaitta - Restoring the Kanasuo peat extra | FI | ennallistaminen | 287 815 | 139 (tavoite) | 2 071 | kyllä |
+| K-FI-2fcc Heinäpuro restoration project | FI | ennallistaminen | 41 210 | 18 (tavoite) | 2 289 | kyllä |
+| K-SE-dbb8 Myrrestaurering i Norrbottens län (MyreN) – s | SE | ennallistaminen | 2 696 225 | 1 000 (tavoite) | 2 696 | kyllä |
+| K-FI-6978 Peat Bogs to Wetlands | FI | ennallistaminen | 397 904 | 102 (tavoite) | 3 901 | kyllä |
+| K-LV-cbb2 Restoration of bog ecosystems in SACs | LV | ennallistaminen | 7 058 824 | 1 500 (tavoite) | 4 706 | kyllä |
+| K-DE-NI-3ac3 Rewetting of the hill moor in the forest town | DE-NI | ennallistaminen | 1 263 983 | 72 (tavoite) | 17 555 | kyllä |
+| K-DE-NI-6f11 Rewetting of the slope moor Friedrichshäuser  | DE-NI | ennallistaminen | 1 166 300 | 30 (tavoite) | 38 877 | kyllä |
+| K-FI-0ac6 Value from the carbon market for the next lan | FI | ennallistaminen | 788 547 | 8 (tavoite) | 98 568 | ei: Kehityshanke (hiilimarkkina); hehtaarit ovat pieni osa tuotoksista |
+| K-FI-665a Transforming peat production areas in North O | FI | kosteikko | 161 484 | 55 (tavoite) | 2 936 | kyllä |
+| K-FI-9cd5 Restoration of peat production areas in North | FI | kosteikko | 324 432 | 75 (tavoite) | 4 326 | kyllä |
+| K-DE-NI-0e2b Rewetting Sauerbach | DE-NI | vettäminen | 103 403 | 150 (tavoite) | 689 | kyllä |
+| IE-01 Farm Carbon – tulosperusteiset maksut turvema | IE | vettäminen | 1 147 000 | 95 (toteuma) | 12 074 | ei: EIP-kehityshanke; budjetti kattaa tulosperusteiset maksut, neuvonnan ja seurannan 23 tilalla |
+| K-DE-NI-61e6 Wetting area at Westerbeck | DE-NI | vettäminen | 130 895 | 3 (tavoite) | 43 632 | kyllä |
+| K-FI-3bb2 The restoration and sustainable further use o | FI | vettäminen | 220 269 | 5 (tavoite) | 44 054 | ei: Tutkimus- ja kehityspilotti; 5 ha koealue |
+
 
 ## Maiden väliset yhteydet
 

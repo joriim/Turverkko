@@ -7,6 +7,8 @@ tuotantoalan. Tämä moduuli
   - laskee hankekohtaiset summat: tavoite ja raportoitu toteuma ennallistavista toimenpiteistä,
   - listaa tarkistamattomat hehtaarimaininnat (candidates), jotta uudet tuonnit tulevat tarkistetuiksi.
 
+Päätuotos:  sarake paatuotos = "ei", jos hehtaarit ovat vain pieni osa hankkeen työtä (pilotti, kehityshanke).
+            Silloin budjetti / ha ei kuvaa ennallistamisen hintaa, ja hanke jätetään hintavertailun mediaaneista pois.
 Laji:       tavoite | toteuma | ohitettu (maininta tarkistettu, ei koske hankkeen omaa pinta-alaa)
 Toimenpide: ennallistaminen | vettäminen | kosteikko  (= ennallistava, lasketaan summiin)
             metsitys | suunnittelu | inventointi | muu (näytetään, ei lasketa ennallistettuihin)
@@ -30,7 +32,8 @@ def load():
         if r["laji"] not in KINDS or r["toimenpide"] not in ACTIONS:
             raise SystemExit(f"hehtaarit.csv: tuntematon laji tai toimenpide: {r}")
         rows.append(dict(id=r["kohde_id"], level=r["taso"], ha=float(r["ha"]), kind=r["laji"], action=r["toimenpide"],
-                         year=int(r["vuosi"]) if r["vuosi"].strip().isdigit() else None, quote=r["lainaus"], note=r["huom"]))
+                         year=int(r["vuosi"]) if r["vuosi"].strip().isdigit() else None, quote=r["lainaus"], note=r["huom"],
+                         primary=(r.get("paatuotos") or "").strip().lower() != "ei", primary_note=(r.get("paatuotos_peruste") or "").strip()))
     return rows
 
 
@@ -42,13 +45,17 @@ def apply(projects, programmes, hubs, context):
         raise SystemExit(f"hehtaarit.csv: tuntemattomat tunnisteet {unknown}")
     for r in rows:
         t = targets[r["id"]]
-        t.setdefault("hectares", []).append({k: r[k] for k in ("ha", "kind", "action", "year", "quote", "note")})
+        t.setdefault("hectares", []).append({k: r[k] for k in ("ha", "kind", "action", "year", "quote", "note", "primary", "primary_note")})
     for p in projects:
         hs = p.get("hectares", [])
         tgt = sum(h["ha"] for h in hs if h["kind"] == "tavoite" and h["action"] in RESTORING)
         real = sum(h["ha"] for h in hs if h["kind"] == "toteuma" and h["action"] in RESTORING)
         p["ha_target"] = tgt or None
         p["ha_realised"] = real or None
+        rs = [h for h in hs if h["action"] in RESTORING and h["kind"] != "ohitettu"]
+        acts = sorted({h["action"] for h in rs})
+        p["ha_action"] = acts[0] if len(acts) == 1 else ("useita" if acts else None)
+        p["ha_primary"] = all(h["primary"] for h in rs) if rs else None
         p["ha_other"] = sum(h["ha"] for h in hs if h["action"] not in RESTORING and h["kind"] != "ohitettu") or None
     return rows
 

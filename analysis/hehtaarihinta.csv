@@ -1,18 +1,19 @@
-id,nimi,maa,rahasto,eur,ha,eur_per_ha
-K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,EAKR,103403,150.0,689
-K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,JTF,72800,70.0,1040
-K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,JTF,923512,750.0,1231
-EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,KF,3262985,2000.0,1631
-K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,JTF,380145,200.0,1901
-K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,JTF,287815,139.0,2071
-K-FI-2fcc,Heinäpuro restoration project,FI,JTF,41210,18.0,2289
-K-SE-dbb8,Myrrestaurering i Norrbottens län (MyreN) – soiden ennallistaminen,SE,EAKR,2696225,1000.0,2696
-K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,JTF,161484,55.0,2936
-K-FI-6978,Peat Bogs to Wetlands,FI,JTF,397904,102.0,3901
-K-FI-9cd5,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,JTF,324432,75.0,4326
-K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,JTF,7058824,1500.0,4706
-K-DE-NI-3ac3,Rewetting of the hill moor in the forest town of Wildenkiel,DE-NI,EAKR,1263983,72.0,17555
-K-DE-NI-6f11,Rewetting of the slope moor Friedrichshäuser Bruch,DE-NI,EAKR,1166300,30.0,38877
-K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,EAKR,130895,3.0,43632
-K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,JTF,220269,5.0,44054
-K-FI-0ac6,Value from the carbon market for the next land use of peat production areas,FI,JTF,788547,8.0,98568
+id,nimi,maa,rahasto,toimenpide,alku,loppu,eur,eur_lahde,ha_tavoite,ha_toteuma,peruste,eur_per_ha,eur_per_ha_toteuma,vertailukelpoinen,huom
+K-FI-cb20,Restoration of the Western Valkeasuo Mire,FI,JTF,ennallistaminen,2024,2026,72800,kokonaisbudjetti,70.0,,tavoite,1040,,kyllä,
+K-FI-e290,Restoration and water protection project of South-Eastern Finland,FI,JTF,ennallistaminen,2025,2027,923512,kokonaisbudjetti,750.0,,tavoite,1231,,kyllä,
+EE-02,Jääkturvealueiden korjaaminen (mm. Laiuse),EE,KF,ennallistaminen,2016,2023,3262985,kokonaisbudjetti,2000.0,,tavoite,1631,,kyllä,
+K-FI-06b9,Suokeidas - From peat production to diverse wetlands,FI,JTF,ennallistaminen,2024,2026,380145,kokonaisbudjetti,200.0,,tavoite,1901,,kyllä,
+K-FI-b095,Aarreaitta - Restoring the Kanasuo peat extraction area into a multifunctional wetland,FI,JTF,ennallistaminen,2025,2027,287815,kokonaisbudjetti,139.0,,tavoite,2071,,kyllä,
+K-FI-2fcc,Heinäpuro restoration project,FI,JTF,ennallistaminen,2025,2027,41210,kokonaisbudjetti,18.0,,tavoite,2289,,kyllä,
+K-SE-dbb8,Myrrestaurering i Norrbottens län (MyreN) – soiden ennallistaminen,SE,EAKR,ennallistaminen,2024,2027,2696225,kokonaisbudjetti,1000.0,,tavoite,2696,,kyllä,
+K-FI-6978,Peat Bogs to Wetlands,FI,JTF,ennallistaminen,2024,2027,397904,kokonaisbudjetti,102.0,,tavoite,3901,,kyllä,
+K-LV-cbb2,Restoration of bog ecosystems in SACs,LV,JTF,ennallistaminen,2024,,7058824,kokonaisbudjetti,1500.0,,tavoite,4706,,kyllä,
+K-DE-NI-3ac3,Rewetting of the hill moor in the forest town of Wildenkiel,DE-NI,EAKR,ennallistaminen,2017,2022,1263983,kokonaisbudjetti,72.0,,tavoite,17555,,kyllä,
+K-DE-NI-6f11,Rewetting of the slope moor Friedrichshäuser Bruch,DE-NI,EAKR,ennallistaminen,2019,2023,1166300,kokonaisbudjetti,30.0,,tavoite,38877,,kyllä,
+K-FI-0ac6,Value from the carbon market for the next land use of peat production areas,FI,JTF,ennallistaminen,2023,2026,788547,kokonaisbudjetti,8.0,1.0,tavoite,98568,788547,ei,Kehityshanke (hiilimarkkina); hehtaarit ovat pieni osa tuotoksista
+K-FI-665a,Transforming peat production areas in North Ostrobothnia into multi-objective wetlands 2025-2026 - POPKA 2,FI,JTF,kosteikko,2025,2026,161484,kokonaisbudjetti,55.0,,tavoite,2936,,kyllä,
+K-FI-9cd5,Restoration of peat production areas in North Ostrobothnia and Kainuu 2024-2026,FI,JTF,kosteikko,2024,2026,324432,kokonaisbudjetti,75.0,,tavoite,4326,,kyllä,
+K-DE-NI-0e2b,Rewetting Sauerbach,DE-NI,EAKR,vettäminen,2017,2021,103403,kokonaisbudjetti,150.0,,tavoite,689,,kyllä,
+IE-01,Farm Carbon – tulosperusteiset maksut turvemaiden hiiliviljelyyn,IE,EIP,vettäminen,2021,2023,1147000,kokonaisbudjetti,,95.0,toteuma,12074,12074,ei,"EIP-kehityshanke; budjetti kattaa tulosperusteiset maksut, neuvonnan ja seurannan 23 tilalla"
+K-DE-NI-61e6,Wetting area at Westerbeck,DE-NI,EAKR,vettäminen,2020,2022,130895,kokonaisbudjetti,3.0,,tavoite,43632,,kyllä,
+K-FI-3bb2,"The restoration and sustainable further use of areas leaving peat production in Oulu, the TUPAS project",FI,JTF,vettäminen,2024,2025,220269,kokonaisbudjetti,5.0,,tavoite,44054,,ei,Tutkimus- ja kehityspilotti; 5 ha koealue

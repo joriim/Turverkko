@@ -103,7 +103,9 @@
      "action": "ennallistaminen",
      "year": 2029,
      "quote": "12 500 ha ennallistettu",
-     "note": "Ohjelman alkuperäinen tavoite; 10 000 ha poistettiin 3/2026"
+     "note": "Ohjelman alkuperäinen tavoite; 10 000 ha poistettiin 3/2026",
+     "primary": true,
+     "primary_note": ""
     }
    ]
   },
@@ -151,7 +153,9 @@
      "action": "ennallistaminen",
      "year": 2023,
      "quote": "2021: suunnitelmat ja rahoitus 2 000 ha:lle; Laiuse saavuttanut tavoi",
-     "note": "Rahoitettu pinta-ala; ennallistamisen valmistuminen kohteittain vaihtelee"
+     "note": "Rahoitettu pinta-ala; ennallistamisen valmistuminen kohteittain vaihtelee",
+     "primary": true,
+     "primary_note": ""
     }
    ]
   },
@@ -176,7 +180,9 @@
      "action": "kosteikko",
      "year": 2022,
      "quote": "Kosteikkosopimuksia 1 474 ha (tavoite 1 100 ha)",
-     "note": "Ympäristösopimukset 2014–20"
+     "note": "Ympäristösopimukset 2014–20",
+     "primary": true,
+     "primary_note": ""
     }
    ]
   }
@@ -215,6 +221,8 @@
    "pubs_n": 4,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Etelä-Pohjanmaa",
@@ -257,7 +265,9 @@
      "action": "muu",
      "year": 2026,
      "quote": "restore them to the extent of 4,000 hectares in South Ostrobothnia",
-     "note": "Etelä-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)"
+     "note": "Etelä-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)",
+     "primary": true,
+     "primary_note": ""
     },
     {
      "ha": 500.0,
@@ -265,7 +275,9 @@
      "action": "muu",
      "year": 2026,
      "quote": "500 hectares in Central Ostrobothnia",
-     "note": "Keski-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)"
+     "note": "Keski-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)",
+     "primary": true,
+     "primary_note": ""
     },
     {
      "ha": 80.0,
@@ -273,11 +285,15 @@
      "action": "muu",
      "year": 2026,
      "quote": "and 80 hectares in Ostrobothnia",
-     "note": "Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)"
+     "note": "Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": 4580.0,
    "regions": [
     "Etelä-Pohjanmaa"
@@ -308,6 +324,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pohjois-Pohjanmaa",
@@ -352,11 +370,15 @@
      "action": "ennallistaminen",
      "year": 2023,
      "quote": "The project envisages the restoration of a total of 2000 ha of abandoned excavated peatlands",
-     "note": "Hanke päättyi 2023; lähde ei raportoi toteutunutta pinta-alaa. Laiuse saavutti tavoitevedenpinnan (ERR 2021)."
+     "note": "Hanke päättyi 2023; lähde ei raportoi toteutunutta pinta-alaa. Laiuse saavutti tavoitevedenpinnan (ERR 2021).",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 2000.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": []
   },
@@ -392,6 +414,8 @@
    "pubs_n": 2,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -432,11 +456,15 @@
      "action": "inventointi",
      "year": 2026,
      "quote": "≥9 000 ha inventointi",
-     "note": "Kartoitus; ei ennallistamista"
+     "note": "Kartoitus; ei ennallistamista",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": 9000.0,
    "regions": [
     "Vidzeme",
@@ -472,6 +500,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -513,7 +543,9 @@
      "action": "vettäminen",
      "year": 2023,
      "quote": "vettäminen ~95 ha",
-     "note": "Tulosperusteinen EIP-pilotti 23 tilalla"
+     "note": "Tulosperusteinen EIP-pilotti 23 tilalla",
+     "primary": false,
+     "primary_note": "EIP-kehityshanke; budjetti kattaa tulosperusteiset maksut, neuvonnan ja seurannan 23 tilalla"
     },
     {
      "ha": 40.0,
@@ -521,11 +553,15 @@
      "action": "muu",
      "year": 2023,
      "quote": "+ 40 ha suo",
-     "note": "Suoalan hoito tiloilla; toimenpide ei lähteessä tarkemmin"
+     "note": "Suoalan hoito tiloilla; toimenpide ei lähteessä tarkemmin",
+     "primary": false,
+     "primary_note": "EIP-kehityshanke; budjetti kattaa tulosperusteiset maksut, neuvonnan ja seurannan 23 tilalla"
     }
    ],
    "ha_target": null,
    "ha_realised": 95.0,
+   "ha_action": "vettäminen",
+   "ha_primary": false,
    "ha_other": 40.0,
    "regions": [
     "Midlands"
@@ -563,6 +599,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Midlands"
@@ -595,6 +633,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -628,6 +668,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -657,6 +699,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -688,6 +732,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Etelä-Pohjanmaa"
@@ -723,6 +769,8 @@
    "pubs_n": 2,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Etelä-Pohjanmaa",
@@ -755,6 +803,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Etelä-Pohjanmaa"
@@ -788,6 +838,8 @@
    "pubs_n": 1,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Kymenlaakso"
@@ -818,6 +870,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pohjois-Karjala"
@@ -859,6 +913,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Stade"
@@ -901,6 +957,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -943,6 +1001,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -984,6 +1044,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Lüneburg"
@@ -1026,6 +1088,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Rotenburg (Wümme)"
@@ -1067,6 +1131,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1108,6 +1174,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Braunschweig"
@@ -1151,6 +1219,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Stade"
@@ -1193,6 +1263,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1234,6 +1306,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Oldenburg"
@@ -1276,6 +1350,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Rotenburg (Wümme)"
@@ -1317,6 +1393,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Diepholz"
@@ -1359,6 +1437,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Emsland"
@@ -1400,6 +1480,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1441,6 +1523,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1482,6 +1566,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1524,6 +1610,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Ammerland"
@@ -1565,6 +1653,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Ammerland"
@@ -1606,6 +1696,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cloppenburg"
@@ -1648,6 +1740,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Diepholz"
@@ -1689,6 +1783,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1731,6 +1827,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Rotenburg (Wümme)"
@@ -1773,6 +1871,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1815,6 +1915,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -1856,6 +1958,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Emsland"
@@ -1897,6 +2001,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Osterholz"
@@ -1938,6 +2044,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Friesland"
@@ -1980,6 +2088,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Vechta"
@@ -2022,6 +2132,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -2063,6 +2175,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Grafschaft Bentheim"
@@ -2104,6 +2218,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -2146,6 +2262,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Ammerland"
@@ -2187,6 +2305,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Emsland"
@@ -2228,6 +2348,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Diepholz"
@@ -2269,6 +2391,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Braunschweig"
@@ -2310,6 +2434,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Friesland"
@@ -2351,6 +2477,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Gifhorn"
@@ -2392,6 +2520,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Oldenburg"
@@ -2434,6 +2564,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Vechta"
@@ -2477,6 +2609,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Osterholz"
@@ -2518,6 +2652,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Emsland"
@@ -2566,11 +2702,15 @@
      "action": "vettäminen",
      "year": 2021,
      "quote": "Rewetting measure of a former peat extraction area ... on an area of 150 ha",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 150.0,
    "ha_realised": null,
+   "ha_action": "vettäminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Gifhorn"
@@ -2613,6 +2753,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Verden"
@@ -2654,6 +2796,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Göttingen"
@@ -2701,11 +2845,15 @@
      "action": "ennallistaminen",
      "year": 2022,
      "quote": "Renaturation of a complex of 72 ha from high moor, spring moor and hill moor areas",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 72.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Holzminden"
@@ -2753,11 +2901,15 @@
      "action": "ennallistaminen",
      "year": 2023,
      "quote": "Restoration of a 30 ha complex from spring and hill moor areas",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 30.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Northeim"
@@ -2799,6 +2951,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Cuxhaven"
@@ -2842,6 +2996,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -2881,6 +3037,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Ammerland"
@@ -2922,6 +3080,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Diepholz"
@@ -2970,11 +3130,15 @@
      "action": "vettäminen",
      "year": 2022,
      "quote": "approximately 3 hectares of area with pump-controlled water regime ... re-wetted",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 3.0,
    "ha_realised": null,
+   "ha_action": "vettäminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Gifhorn"
@@ -3017,6 +3181,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3057,6 +3223,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3097,6 +3265,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3136,6 +3306,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3177,6 +3349,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Köpenhamns omnejd",
@@ -3220,6 +3394,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Halland",
@@ -3268,6 +3444,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3316,11 +3494,15 @@
      "action": "ennallistaminen",
      "year": 2027,
      "quote": "restoration of a former peat production area (139 ha) ... into a mire",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 139.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Pohjois-Pohjanmaa"
@@ -3362,6 +3544,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3404,6 +3588,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3443,6 +3629,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3483,6 +3671,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3524,6 +3714,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Satakunta"
@@ -3569,6 +3761,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pohjois-Pohjanmaa"
@@ -3612,6 +3806,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pohjois-Savo"
@@ -3660,11 +3856,15 @@
      "action": "ennallistaminen",
      "year": 2027,
      "quote": "The project will restore approximately 18 hectares of drained peatland forest",
-     "note": "Suometsän ennallistaminen"
+     "note": "Suometsän ennallistaminen",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 18.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Pohjois-Savo"
@@ -3713,11 +3913,15 @@
      "action": "suunnittelu",
      "year": 2025,
      "quote": "Size of the restored area is approximately 30 hectares",
-     "note": "Ennallistamissuunnitelma; toteutus ei hankkeessa"
+     "note": "Ennallistamissuunnitelma; toteutus ei hankkeessa",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": 30.0,
    "regions": [
     "Etelä-Pohjanmaa"
@@ -3761,6 +3965,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3801,6 +4007,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3843,6 +4051,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -3889,7 +4099,9 @@
      "action": "ennallistaminen",
      "year": 2027,
      "quote": "Restoration of the natural state of a peat bog covering 12 hectares",
-     "note": "Iso Saarisuo"
+     "note": "Iso Saarisuo",
+     "primary": true,
+     "primary_note": ""
     },
     {
      "ha": 90.0,
@@ -3897,11 +4109,15 @@
      "action": "ennallistaminen",
      "year": 2027,
      "quote": "Restoration of the natural state of a peat bog covering 90 hectares",
-     "note": "Matkasuo"
+     "note": "Matkasuo",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 102.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": []
   },
@@ -3948,7 +4164,9 @@
      "action": "ennallistaminen",
      "year": 2027,
      "quote": "the goal is to sustainably reuse and restore 500 hectares",
-     "note": "Kymenlaakso; ennallistaminen ja jälkikäyttö yhdessä"
+     "note": "Kymenlaakso; ennallistaminen ja jälkikäyttö yhdessä",
+     "primary": true,
+     "primary_note": ""
     },
     {
      "ha": 250.0,
@@ -3956,11 +4174,15 @@
      "action": "ennallistaminen",
      "year": 2027,
      "quote": "and in South Karelia 250 hectares",
-     "note": "Etelä-Karjala; ennallistaminen ja jälkikäyttö yhdessä"
+     "note": "Etelä-Karjala; ennallistaminen ja jälkikäyttö yhdessä",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 750.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Kymenlaakso"
@@ -4003,6 +4225,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Keski-Pohjanmaa"
@@ -4053,11 +4277,15 @@
      "action": "kosteikko",
      "year": 2026,
      "quote": "The restoration will create about 75 hectares of open water area",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 75.0,
    "ha_realised": null,
+   "ha_action": "kosteikko",
+   "ha_primary": true,
    "ha_other": null,
    "regions": []
   },
@@ -4104,11 +4332,15 @@
      "action": "ennallistaminen",
      "year": 2026,
      "quote": "The object to be restored is a 70 hectares area of meliorated mire",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 70.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Pohjois-Karjala"
@@ -4151,6 +4383,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -4192,6 +4426,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Satakunta"
@@ -4239,6 +4475,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Uusimaa"
@@ -4281,6 +4519,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Kainuu",
@@ -4333,11 +4573,15 @@
      "action": "ennallistaminen",
      "year": 2026,
      "quote": "restoration of two former peat production sites (in total 200 ha)",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 200.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Lappi"
@@ -4387,11 +4631,15 @@
      "action": "muu",
      "year": null,
      "quote": "In Etelä-Savo, over the past couple of years, 1000 ha have gone out of production",
-     "note": "Maakunnan taustatieto; hankkeen pinta-alaa ei lähteessä"
+     "note": "Maakunnan taustatieto; hankkeen pinta-alaa ei lähteessä",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -4432,6 +4680,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -4473,6 +4723,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pohjois-Karjala"
@@ -4521,11 +4773,15 @@
      "action": "vettäminen",
      "year": 2025,
      "quote": "approximately 5 hectares of land to be drained or converted into",
-     "note": "Pilotti"
+     "note": "Pilotti",
+     "primary": false,
+     "primary_note": "Tutkimus- ja kehityspilotti; 5 ha koealue"
     }
    ],
    "ha_target": 5.0,
    "ha_realised": null,
+   "ha_action": "vettäminen",
+   "ha_primary": false,
    "ha_other": null,
    "regions": [
     "Pohjois-Pohjanmaa"
@@ -4575,11 +4831,15 @@
      "action": "metsitys",
      "year": 2025,
      "quote": "establish a carbon sink forest in treeless parts of the area totaling approximately 30 ha",
-     "note": "Jälkikäyttö hiilinielumetsänä"
+     "note": "Jälkikäyttö hiilinielumetsänä",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": 30.0,
    "regions": []
   },
@@ -4619,6 +4879,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -4658,6 +4920,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pohjois-Savo"
@@ -4699,6 +4963,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pohjois-Savo"
@@ -4748,11 +5014,15 @@
      "action": "kosteikko",
      "year": 2026,
      "quote": "The project will create approximately 55 hectares of open water area",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 55.0,
    "ha_realised": null,
+   "ha_action": "kosteikko",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Pohjois-Pohjanmaa"
@@ -4796,6 +5066,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Etelä-Pohjanmaa"
@@ -4853,7 +5125,9 @@
      "action": "ennallistaminen",
      "year": 2026,
      "quote": "kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha",
-     "note": "EURA tavoite/toteuma"
+     "note": "EURA tavoite/toteuma",
+     "primary": false,
+     "primary_note": "Kehityshanke (hiilimarkkina); hehtaarit ovat pieni osa tuotoksista"
     },
     {
      "ha": 1.0,
@@ -4861,11 +5135,15 @@
      "action": "ennallistaminen",
      "year": 2026,
      "quote": "kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha",
-     "note": "EURA tavoite/toteuma"
+     "note": "EURA tavoite/toteuma",
+     "primary": false,
+     "primary_note": "Kehityshanke (hiilimarkkina); hehtaarit ovat pieni osa tuotoksista"
     }
    ],
    "ha_target": 8.0,
    "ha_realised": 1.0,
+   "ha_action": "ennallistaminen",
+   "ha_primary": false,
    "ha_other": null,
    "regions": [
     "Pohjois-Karjala"
@@ -4908,6 +5186,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "South-West"
@@ -4950,6 +5230,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "South-East"
@@ -4997,11 +5279,15 @@
      "action": "muu",
      "year": 2021,
      "quote": "ensuring 2,2228 ha of habitats are supported to attain a better conservation status",
-     "note": "Luontotyyppien tuettu pinta-ala (Interreg-indikaattori); luku lähteessä muodossa 2,2228"
+     "note": "Luontotyyppien tuettu pinta-ala (Interreg-indikaattori); luku lähteessä muodossa 2,2228",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": 22228.0,
    "regions": []
   },
@@ -5042,6 +5328,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -5081,6 +5369,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -5121,6 +5411,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Border"
@@ -5162,6 +5454,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -5202,6 +5496,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -5244,6 +5540,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -5283,6 +5581,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Border"
@@ -5324,6 +5624,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Mid-East"
@@ -5366,6 +5668,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Kurzeme",
@@ -5413,6 +5717,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Zemgale",
@@ -5456,6 +5762,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Rīga"
@@ -5498,6 +5806,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Rīga",
@@ -5542,6 +5852,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pierīga"
@@ -5583,6 +5895,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Vidzeme"
@@ -5625,6 +5939,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -5665,6 +5981,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pierīga",
@@ -5708,6 +6026,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Rīga"
@@ -5756,11 +6076,15 @@
      "action": "ennallistaminen",
      "year": null,
      "quote": "restoration of bogs and related ecosystems with an area of at least 1500 hectares",
-     "note": "Loppuvuosi puuttuu lähteestä"
+     "note": "Loppuvuosi puuttuu lähteestä",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 1500.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": []
   },
@@ -5802,6 +6126,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pierīga",
@@ -5844,6 +6170,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Pierīga",
@@ -5894,11 +6222,15 @@
      "action": "ennallistaminen",
      "year": 2027,
      "quote": "Projektet restaurerar minst 1000 hektar dikade myrars hydrologi",
-     "note": ""
+     "note": "",
+     "primary": true,
+     "primary_note": ""
     }
    ],
    "ha_target": 1000.0,
    "ha_realised": null,
+   "ha_action": "ennallistaminen",
+   "ha_primary": true,
    "ha_other": null,
    "regions": [
     "Norrbotten"
@@ -5940,6 +6272,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -5980,6 +6314,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -6020,6 +6356,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -6060,6 +6398,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -6101,6 +6441,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Södermanland",
@@ -6146,6 +6488,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Västra Götaland",
@@ -6190,6 +6534,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Skåne",
@@ -6233,6 +6579,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": []
   },
@@ -6272,6 +6620,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Västra Götaland"
@@ -6313,6 +6663,8 @@
    "pubs_n": 0,
    "ha_target": null,
    "ha_realised": null,
+   "ha_action": null,
+   "ha_primary": null,
    "ha_other": null,
    "regions": [
     "Blekinge"
@@ -6474,7 +6826,9 @@
      "action": "ennallistaminen",
      "year": 2028,
      "quote": "2 900 ha Natura-kohosuota ennallistettu",
-     "note": "LIFE IP Peatlands and People"
+     "note": "LIFE IP Peatlands and People",
+     "primary": true,
+     "primary_note": ""
     },
     {
      "ha": 7000.0,
@@ -6482,7 +6836,9 @@
      "action": "ennallistaminen",
      "year": 2028,
      "quote": "7 000 ha BnM-alueita kunnostettu",
-     "note": "LIFE IP Peatlands and People"
+     "note": "LIFE IP Peatlands and People",
+     "primary": true,
+     "primary_note": ""
     }
    ]
   },

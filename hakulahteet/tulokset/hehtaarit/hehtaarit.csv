@@ -1,36 +1,36 @@
-kohde_id,taso,ha,laji,toimenpide,vuosi,lainaus,huom
-FI-02,hanke,4000,tavoite,muu,2026,"restore them to the extent of 4,000 hectares in South Ostrobothnia","Etelä-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)"
-FI-02,hanke,500,tavoite,muu,2026,"500 hectares in Central Ostrobothnia","Keski-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)"
-FI-02,hanke,80,tavoite,muu,2026,"and 80 hectares in Ostrobothnia","Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)"
-EE-02,hanke,2000,tavoite,ennallistaminen,2023,"The project envisages the restoration of a total of 2000 ha of abandoned excavated peatlands","Hanke päättyi 2023; lähde ei raportoi toteutunutta pinta-alaa. Laiuse saavutti tavoitevedenpinnan (ERR 2021)."
-LV-02,hanke,9000,tavoite,inventointi,2026,"≥9 000 ha inventointi",Kartoitus; ei ennallistamista
-IE-01,hanke,95,toteuma,vettäminen,2023,"vettäminen ~95 ha",Tulosperusteinen EIP-pilotti 23 tilalla
-IE-01,hanke,40,toteuma,muu,2023,"+ 40 ha suo",Suoalan hoito tiloilla; toimenpide ei lähteessä tarkemmin
-K-DE-NI-0e2b,hanke,150,tavoite,vettäminen,2021,"Rewetting measure of a former peat extraction area ... on an area of 150 ha",
-K-DE-NI-3ac3,hanke,72,tavoite,ennallistaminen,2022,"Renaturation of a complex of 72 ha from high moor, spring moor and hill moor areas",
-K-DE-NI-6f11,hanke,30,tavoite,ennallistaminen,2023,"Restoration of a 30 ha complex from spring and hill moor areas",
-K-DE-NI-61e6,hanke,3,tavoite,vettäminen,2022,"approximately 3 hectares of area with pump-controlled water regime ... re-wetted",
-K-FI-b095,hanke,139,tavoite,ennallistaminen,2027,"restoration of a former peat production area (139 ha) ... into a mire",
-K-FI-2fcc,hanke,18,tavoite,ennallistaminen,2027,"The project will restore approximately 18 hectares of drained peatland forest",Suometsän ennallistaminen
-K-FI-6c73,hanke,30,tavoite,suunnittelu,2025,"Size of the restored area is approximately 30 hectares",Ennallistamissuunnitelma; toteutus ei hankkeessa
-K-FI-6978,hanke,12,tavoite,ennallistaminen,2027,"Restoration of the natural state of a peat bog covering 12 hectares",Iso Saarisuo
-K-FI-6978,hanke,90,tavoite,ennallistaminen,2027,"Restoration of the natural state of a peat bog covering 90 hectares",Matkasuo
-K-FI-e290,hanke,500,tavoite,ennallistaminen,2027,"the goal is to sustainably reuse and restore 500 hectares",Kymenlaakso; ennallistaminen ja jälkikäyttö yhdessä
-K-FI-e290,hanke,250,tavoite,ennallistaminen,2027,"and in South Karelia 250 hectares",Etelä-Karjala; ennallistaminen ja jälkikäyttö yhdessä
-K-FI-9cd5,hanke,75,tavoite,kosteikko,2026,"The restoration will create about 75 hectares of open water area",
-K-FI-cb20,hanke,70,tavoite,ennallistaminen,2026,"The object to be restored is a 70 hectares area of meliorated mire",
-K-FI-06b9,hanke,200,tavoite,ennallistaminen,2026,"restoration of two former peat production sites (in total 200 ha)",
-K-FI-3bb2,hanke,5,tavoite,vettäminen,2025,"approximately 5 hectares of land to be drained or converted into",Pilotti
-K-FI-c4ea,hanke,30,tavoite,metsitys,2025,"establish a carbon sink forest in treeless parts of the area totaling approximately 30 ha",Jälkikäyttö hiilinielumetsänä
-K-FI-665a,hanke,55,tavoite,kosteikko,2026,"The project will create approximately 55 hectares of open water area",
-K-FI-0ac6,hanke,8,tavoite,ennallistaminen,2026,"kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha",EURA tavoite/toteuma
-K-FI-0ac6,hanke,1,toteuma,ennallistaminen,2026,"kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha",EURA tavoite/toteuma
-K-IE-06fb,hanke,22228,tavoite,muu,2021,"ensuring 2,2228 ha of habitats are supported to attain a better conservation status","Luontotyyppien tuettu pinta-ala (Interreg-indikaattori); luku lähteessä muodossa 2,2228"
-K-LV-cbb2,hanke,1500,tavoite,ennallistaminen,,"restoration of bogs and related ecosystems with an area of at least 1500 hectares",Loppuvuosi puuttuu lähteestä
-K-SE-dbb8,hanke,1000,tavoite,ennallistaminen,2027,"Projektet restaurerar minst 1000 hektar dikade myrars hydrologi",
-P-IE-JTF,ohjelma,12500,tavoite,ennallistaminen,2029,"12 500 ha ennallistettu","Ohjelman alkuperäinen tavoite; 10 000 ha poistettiin 3/2026"
-P-EE-KF,ohjelma,2000,toteuma,ennallistaminen,2023,"2021: suunnitelmat ja rahoitus 2 000 ha:lle; Laiuse saavuttanut tavoi","Rahoitettu pinta-ala; ennallistamisen valmistuminen kohteittain vaihtelee"
-P-FI-MSR,ohjelma,1474,toteuma,kosteikko,2022,"Kosteikkosopimuksia 1 474 ha (tavoite 1 100 ha)",Ympäristösopimukset 2014–20
-H-IE-LIFE,keskus,2900,tavoite,ennallistaminen,2028,"2 900 ha Natura-kohosuota ennallistettu",LIFE IP Peatlands and People
-H-IE-LIFE,keskus,7000,tavoite,ennallistaminen,2028,"7 000 ha BnM-alueita kunnostettu",LIFE IP Peatlands and People
-K-FI-b38f,hanke,1000,ohitettu,muu,,"In Etelä-Savo, over the past couple of years, 1000 ha have gone out of production",Maakunnan taustatieto; hankkeen pinta-alaa ei lähteessä
+kohde_id,taso,ha,laji,toimenpide,vuosi,lainaus,huom,paatuotos,paatuotos_peruste
+FI-02,hanke,4000,tavoite,muu,2026,"restore them to the extent of 4,000 hectares in South Ostrobothnia","Etelä-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)",,
+FI-02,hanke,500,tavoite,muu,2026,500 hectares in Central Ostrobothnia,"Keski-Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)",,
+FI-02,hanke,80,tavoite,muu,2026,and 80 hectares in Ostrobothnia,"Pohjanmaa: maakunnallinen tavoite, jota hanke vauhdittaa; toteutus muissa JTF-hankkeissa, joten ei lasketa summiin (kaksoislaskenta)",,
+EE-02,hanke,2000,tavoite,ennallistaminen,2023,The project envisages the restoration of a total of 2000 ha of abandoned excavated peatlands,Hanke päättyi 2023; lähde ei raportoi toteutunutta pinta-alaa. Laiuse saavutti tavoitevedenpinnan (ERR 2021).,,
+LV-02,hanke,9000,tavoite,inventointi,2026,≥9 000 ha inventointi,Kartoitus; ei ennallistamista,,
+IE-01,hanke,95,toteuma,vettäminen,2023,vettäminen ~95 ha,Tulosperusteinen EIP-pilotti 23 tilalla,ei,"EIP-kehityshanke; budjetti kattaa tulosperusteiset maksut, neuvonnan ja seurannan 23 tilalla"
+IE-01,hanke,40,toteuma,muu,2023,+ 40 ha suo,Suoalan hoito tiloilla; toimenpide ei lähteessä tarkemmin,ei,"EIP-kehityshanke; budjetti kattaa tulosperusteiset maksut, neuvonnan ja seurannan 23 tilalla"
+K-DE-NI-0e2b,hanke,150,tavoite,vettäminen,2021,Rewetting measure of a former peat extraction area ... on an area of 150 ha,,,
+K-DE-NI-3ac3,hanke,72,tavoite,ennallistaminen,2022,"Renaturation of a complex of 72 ha from high moor, spring moor and hill moor areas",,,
+K-DE-NI-6f11,hanke,30,tavoite,ennallistaminen,2023,Restoration of a 30 ha complex from spring and hill moor areas,,,
+K-DE-NI-61e6,hanke,3,tavoite,vettäminen,2022,approximately 3 hectares of area with pump-controlled water regime ... re-wetted,,,
+K-FI-b095,hanke,139,tavoite,ennallistaminen,2027,restoration of a former peat production area (139 ha) ... into a mire,,,
+K-FI-2fcc,hanke,18,tavoite,ennallistaminen,2027,The project will restore approximately 18 hectares of drained peatland forest,Suometsän ennallistaminen,,
+K-FI-6c73,hanke,30,tavoite,suunnittelu,2025,Size of the restored area is approximately 30 hectares,Ennallistamissuunnitelma; toteutus ei hankkeessa,,
+K-FI-6978,hanke,12,tavoite,ennallistaminen,2027,Restoration of the natural state of a peat bog covering 12 hectares,Iso Saarisuo,,
+K-FI-6978,hanke,90,tavoite,ennallistaminen,2027,Restoration of the natural state of a peat bog covering 90 hectares,Matkasuo,,
+K-FI-e290,hanke,500,tavoite,ennallistaminen,2027,the goal is to sustainably reuse and restore 500 hectares,Kymenlaakso; ennallistaminen ja jälkikäyttö yhdessä,,
+K-FI-e290,hanke,250,tavoite,ennallistaminen,2027,and in South Karelia 250 hectares,Etelä-Karjala; ennallistaminen ja jälkikäyttö yhdessä,,
+K-FI-9cd5,hanke,75,tavoite,kosteikko,2026,The restoration will create about 75 hectares of open water area,,,
+K-FI-cb20,hanke,70,tavoite,ennallistaminen,2026,The object to be restored is a 70 hectares area of meliorated mire,,,
+K-FI-06b9,hanke,200,tavoite,ennallistaminen,2026,restoration of two former peat production sites (in total 200 ha),,,
+K-FI-3bb2,hanke,5,tavoite,vettäminen,2025,approximately 5 hectares of land to be drained or converted into,Pilotti,ei,Tutkimus- ja kehityspilotti; 5 ha koealue
+K-FI-c4ea,hanke,30,tavoite,metsitys,2025,establish a carbon sink forest in treeless parts of the area totaling approximately 30 ha,Jälkikäyttö hiilinielumetsänä,,
+K-FI-665a,hanke,55,tavoite,kosteikko,2026,The project will create approximately 55 hectares of open water area,,,
+K-FI-0ac6,hanke,8,tavoite,ennallistaminen,2026,kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha,EURA tavoite/toteuma,ei,Kehityshanke (hiilimarkkina); hehtaarit ovat pieni osa tuotoksista
+K-FI-0ac6,hanke,1,toteuma,ennallistaminen,2026,kunnostettu tai jälkikäyttöön otettu maaperä 8/1 ha,EURA tavoite/toteuma,ei,Kehityshanke (hiilimarkkina); hehtaarit ovat pieni osa tuotoksista
+K-IE-06fb,hanke,22228,tavoite,muu,2021,"ensuring 2,2228 ha of habitats are supported to attain a better conservation status","Luontotyyppien tuettu pinta-ala (Interreg-indikaattori); luku lähteessä muodossa 2,2228",,
+K-LV-cbb2,hanke,1500,tavoite,ennallistaminen,,restoration of bogs and related ecosystems with an area of at least 1500 hectares,Loppuvuosi puuttuu lähteestä,,
+K-SE-dbb8,hanke,1000,tavoite,ennallistaminen,2027,Projektet restaurerar minst 1000 hektar dikade myrars hydrologi,,,
+P-IE-JTF,ohjelma,12500,tavoite,ennallistaminen,2029,12 500 ha ennallistettu,Ohjelman alkuperäinen tavoite; 10 000 ha poistettiin 3/2026,,
+P-EE-KF,ohjelma,2000,toteuma,ennallistaminen,2023,2021: suunnitelmat ja rahoitus 2 000 ha:lle; Laiuse saavuttanut tavoi,Rahoitettu pinta-ala; ennallistamisen valmistuminen kohteittain vaihtelee,,
+P-FI-MSR,ohjelma,1474,toteuma,kosteikko,2022,Kosteikkosopimuksia 1 474 ha (tavoite 1 100 ha),Ympäristösopimukset 2014–20,,
+H-IE-LIFE,keskus,2900,tavoite,ennallistaminen,2028,2 900 ha Natura-kohosuota ennallistettu,LIFE IP Peatlands and People,,
+H-IE-LIFE,keskus,7000,tavoite,ennallistaminen,2028,7 000 ha BnM-alueita kunnostettu,LIFE IP Peatlands and People,,
+K-FI-b38f,hanke,1000,ohitettu,muu,,"In Etelä-Savo, over the past couple of years, 1000 ha have gone out of production",Maakunnan taustatieto; hankkeen pinta-alaa ei lähteessä,,
