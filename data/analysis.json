@@ -21,7 +21,7 @@
   "sequential_unlinked": 5,
   "overlap_connected": 14,
   "overlap_family": 3,
-  "duplicate_candidates": 2,
+  "duplicate_candidates": 0,
   "copub_edges": 97,
   "copub_cross_country": 54,
   "components_with_copubs": 74,
@@ -5194,34 +5194,7 @@
   "puuttuva yhteys": "eri maat, ei yhteistyöpolkua",
   "yhteydessä": "yhteinen toimija tai yhteistyöpolku enintään kolme askelta"
  },
- "duplicate_candidates": [
-  {
-   "a": "FI-06",
-   "a_nimi": "Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu",
-   "a_lahde": "käsin",
-   "b": "K-FI-0ac6",
-   "b_nimi": "Value from the carbon market for the next land use of peat production areas",
-   "b_lahde": "1",
-   "vuodet": "2023–2026",
-   "yhteiset_toimijat": "seamk",
-   "samankaltaisuus": 0.199,
-   "kasitteet": 0.566,
-   "peruste": "yhteinen toimija ja samat vuodet"
-  },
-  {
-   "a": "FI-07",
-   "a_nimi": "TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi",
-   "a_lahde": "käsin",
-   "b": "K-FI-6894",
-   "b_nimi": "Ecological restoration of boreal peat extraction sites: the effects on greenhouse gas emissions, mire vegetation and recipient streams",
-   "b_lahde": "1",
-   "vuodet": "2024–2026",
-   "yhteiset_toimijat": "oy",
-   "samankaltaisuus": 0.07,
-   "kasitteet": 0.676,
-   "peruste": "yhteinen toimija ja samat vuodet"
-  }
- ],
+ "duplicate_candidates": [],
  "hectares": {
   "projects_with_ha": 24,
   "target_ha": 6177.0,

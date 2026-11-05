@@ -47,6 +47,16 @@ def collab_graph(nodes, edges, include_unverified=True, copubs=False):
     return G
 
 
+# Käsin tarkistetut ehdokasparit, jotka EIVÄT ole sama hanke (2026-11-05). Perustelu jää näkyviin.
+# Todelliset kaksoiskappaleet yhdistetään src/tuonti.py:n MATCH_EXISTING-listalla, jolloin parempi lähde jää pääriviksi.
+NOT_DUPLICATE = {
+    frozenset({"FI-06", "K-FI-0ac6"}): "Suopaikka on SEAMKin oma JTF-hanke (245 000 €, Etelä-Pohjanmaa, rahoittaja Keski-Suomen ELY); "
+        "K-FI-0ac6 on Itä-Suomen yliopiston vetämä ArvoHiili (788 547 €, Pohjois-Karjala), jossa SEAMK on osatoteuttaja.",
+    frozenset({"FI-07", "K-FI-6894"}): "TUPSU on Helsingin yliopiston vetämä suometsitystutkimus; K-FI-6894 on Suomen ympäristökeskuksen vetämä "
+        "ennallistamisen vaikutustutkimus (408 015 €). Yhteinen toimija on vain Oulun yliopisto.",
+}
+
+
 def duplicates(projects, actors, pairs):
     """Hankeparit, jotka ovat todennäköisesti sama hanke: sama maa ja samat alku- ja loppuvuodet sekä
     yhteinen organisaatio tai hyvin samankaltainen teksti. Lähteet eri (tai toinen käsin kuratoitu)."""
@@ -62,7 +72,7 @@ def duplicates(projects, actors, pairs):
             pa, pb = projects[a], projects[b]
             if pa.get("country") != pb.get("country") or (pa["start"], pa["end"]) != (pb["start"], pb["end"]):
                 continue
-            if src(pa) == src(pb) != "käsin":
+            if src(pa) == src(pb) != "käsin" or frozenset({a, b}) in NOT_DUPLICATE:
                 continue
             shared = actors.get(a, set()) & actors.get(b, set())
             s, c = round(sim(a, b), 3), round(csim(a, b), 3)
@@ -340,7 +350,7 @@ def report(a, nodes):
          f"  - puuttuvia maiden välisiä yhteyksiä: **{s['missing_cross_country']}**",
          f"  - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **{s['overlap_connected']}**",
          f"  - saman hankekokonaisuuden osia: **{s['overlap_family']}**",
-         f"- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **{s['duplicate_candidates']}**. Ne tarkistetaan ja yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla (`analysis/kaksoisehdokkaat.csv`).",
+         f"- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **{s['duplicate_candidates']}**. Ne tarkistetaan: todelliset kaksoiskappaleet yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla, ja erillisiksi todetut parit kirjataan perusteluineen `scripts/analyze.py`:n `NOT_DUPLICATE`-listaan (`analysis/kaksoisehdokkaat.csv`).",
          "", "## Ennallistetut hehtaarit", "",
          f"Hehtaaritieto on **{a['hectares']['projects_with_ha']}** hankkeella. Ennallistavien toimenpiteiden (ennallistaminen, vettäminen, kosteikko) tavoitteita on yhteensä **{fi(a['hectares']['target_ha'])} ha** ja raportoitua toteumaa **{fi(a['hectares']['realised_ha'])} ha**. Jo päättyneiden hankkeiden tavoitteita, joiden toteumaa lähde ei raportoi, on {fi(a['hectares']['ended_target_ha'])} ha.", "",
          "Hehtaarit on kirjattu käsin lainauksineen tiedostoon `hakulahteet/tulokset/hehtaarit/hehtaarit.csv`. Inventoinnit, suunnitelmat, metsitys ja muu pinta-ala näytetään erikseen, eikä niitä lasketa ennallistettuihin.", "",

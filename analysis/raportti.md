@@ -14,7 +14,7 @@ _Generoitu skriptillä `scripts/analyze.py`. Älä muokkaa käsin._
   - puuttuvia maiden välisiä yhteyksiä: **5**
   - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **14**
   - saman hankekokonaisuuden osia: **3**
-- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **2**. Ne tarkistetaan ja yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla (`analysis/kaksoisehdokkaat.csv`).
+- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **0**. Ne tarkistetaan: todelliset kaksoiskappaleet yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla, ja erillisiksi todetut parit kirjataan perusteluineen `scripts/analyze.py`:n `NOT_DUPLICATE`-listaan (`analysis/kaksoisehdokkaat.csv`).
 
 ## Ennallistetut hehtaarit
 
