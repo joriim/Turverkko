@@ -45,7 +45,7 @@ def kartta(repo, name, ds, net, an):
     html = html.replace("<title>Turverkko</title>", "<title>Kartta ja verkosto – Turverkko</title>", 1)
     i = html.index('<div class="wrap">')
     head, body = html[:i], html[i:]
-    body = body.replace("<script>", '<script src="assets/common.js"></script>\n<script>TV.nav("kartta.html");</script>\n<script>', 1)
+    body = body.replace("<script>", '<script src="assets/common.js"></script>\n<script>TV.nav("kartta.html"); addEventListener("DOMContentLoaded", () => TV.footer());</script>\n<script>', 1)
     return HEAD + head + NAV_FIX + body + "\n</body>\n</html>\n"
 
 
@@ -178,13 +178,19 @@ def main():
     (docs / ".nojekyll").write_text("", encoding="utf-8")
 
     pages = ROOT / "site" / "pages"
+    # SEAMK-tunnus vain originaalitiedostona (Kuvapankki): värillinen ja valinnainen valkoinen tummaan tilaan
+    find = lambda stem: next((f.name for ext in (".svg", ".png") for f in [pages / "assets" / (stem + ext)] if f.exists()), "")
+    logo, logo_dark = find("seamk-tunnus"), find("seamk-tunnus-valkoinen")
+    if not logo:
+        print("Huom: SEAMK-tunnusta ei ole (site/pages/assets/seamk-tunnus.svg tai .png). Alatunnisteessa näkyy vain julkaisijan nimi.")
     for src in pages.rglob("*"):
         if src.is_dir():
             continue
         dst = docs / src.relative_to(pages)
         dst.parent.mkdir(parents=True, exist_ok=True)
         if src.suffix in (".html", ".js", ".css"):
-            dst.write_text(src.read_text(encoding="utf-8").replace("__REPO_URL__", repo), encoding="utf-8")
+            dst.write_text(src.read_text(encoding="utf-8").replace("__REPO_URL__", repo)
+                           .replace("__SEAMK_LOGO__", logo).replace("__SEAMK_LOGO_DARK__", logo_dark), encoding="utf-8")
         else:
             shutil.copy(src, dst)
 

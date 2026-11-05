@@ -1,35 +1,35 @@
 <title>Turverkko</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap">
 <style>
 [hidden]{display:none!important}
 /* Layout: one working canvas — summary strip, tab bar, then a view with a side detail panel that stacks under on phones */
 :root{
-  --bg:#f3f5ef; --surface:#ffffff; --sunk:#e6eadf; --fg:#1d2419; --muted:#5d6a57; --line:#cfd6c6;
-  --accent:#5b7f2a;           /* rahkasammal */
+  --bg:#f6f5f8; --surface:#ffffff; --sunk:#E5DEEC; --fg:#1b1622; --muted:#5e5768; --line:#dcd6e3;
+  --accent:#542583; --accent-ink:#ffffff; --peat:#542583; --water:#542583;
   --peat:#7a4b2a; --water:#2f6f86;
   --c-FI:#2a78d6; --c-SE:#eda100; --c-EE:#1baf7a; --c-LV:#e87ba4; --c-IE:#008300; --c-DE-NI:#eb6834; --c-EU:#6250d6; --c-X:#8a8f86;
   --hot:#b8452a; --warm:#d9a441;
-  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
-  --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --f-display:"Alte DIN 1451 Mittelschrift","Barlow Condensed","Arial Narrow",sans-serif;
+  --f-body:Arial,Helvetica,sans-serif;
+  --f-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#131711; --surface:#1b2018; --sunk:#232a1f; --fg:#e7ecdf; --muted:#9aa591; --line:#333c2d;
-  --accent:#9cc25a; --peat:#c08a5e; --water:#6fb3cc;
+  --bg:#16121c; --surface:#1f1a27; --sunk:#2a2335; --fg:#ece8f1; --muted:#a69fb2; --line:#3a3246;
+  --accent:#AA92C1; --accent-ink:#16121c; --peat:#AA92C1; --water:#D4C8E0;
   --c-FI:#3987e5; --c-SE:#c98500; --c-EE:#199e70; --c-LV:#d55181; --c-IE:#008300; --c-DE-NI:#d95926; --c-EU:#9085e9; --c-X:#7d8478;
   --hot:#e8775a; --warm:#e8c06a; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#131711; --surface:#1b2018; --sunk:#232a1f; --fg:#e7ecdf; --muted:#9aa591; --line:#333c2d;
-  --accent:#9cc25a; --peat:#c08a5e; --water:#6fb3cc;
+  --bg:#16121c; --surface:#1f1a27; --sunk:#2a2335; --fg:#ece8f1; --muted:#a69fb2; --line:#3a3246;
+  --accent:#AA92C1; --accent-ink:#16121c; --peat:#AA92C1; --water:#D4C8E0;
   --c-FI:#3987e5; --c-SE:#c98500; --c-EE:#199e70; --c-LV:#d55181; --c-IE:#008300; --c-DE-NI:#d95926; --c-EU:#9085e9; --c-X:#7d8478;
   --hot:#e8775a; --warm:#e8c06a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--f-body);
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
 .wrap{max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
-h1{font:700 clamp(26px,4vw,40px)/1.05 var(--f-display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font:700 clamp(26px,4vw,40px)/1.05 var(--f-display);margin:0;text-wrap:balance;letter-spacing:.01em;text-transform:uppercase}
 h2{font:700 20px/1.2 var(--f-display);margin:0;text-wrap:balance}
 h3{font:600 15px/1.3 var(--f-body);margin:0}
 .lede{color:var(--muted);max-width:68ch;margin:6px 0 0}

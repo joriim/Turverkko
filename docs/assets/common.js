@@ -1,6 +1,8 @@
 /* Turverkko – yhteiset apufunktiot kaikille sivuille. */
 const TV = (() => {
   const REPO = "https://github.com/joriim/Turverkko";
+  // SEAMK-tunnus: site.py täyttää originaalitiedostojen nimet, jos ne on lisätty kansioon site/pages/assets/
+  const LOGO = "", LOGO_DARK = "";
   const COUNTRY = {FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (Interreg)"};
   const FUND = {JTF:"JTF – oikeudenmukainen siirtymä", EAKR:"EAKR / EFRE / ERDF", EIP:"EIP-AGRI", MSR:"Maaseuturahasto (EAFRD)",
                 KF:"Koheesiorahasto", Interreg:"Interreg (EAKR)", "ESR+":"ESR+", LIFE:"LIFE", Horizon:"Horizon 2020 / Horizon Europe", Kansallinen:"Kansallinen", "?":"EU-osarahoitteinen, rahasto ei lähteessä", "—":"—"};
@@ -27,7 +29,7 @@ const TV = (() => {
     const el = document.createElement("nav");
     el.className = "nav"; el.setAttribute("aria-label", "Päävalikko");
     el.innerHTML = `<div class="nav-in">
-      <a class="brand" href="index.html"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><circle cx="5" cy="15" r="3" fill="var(--peat)"/><circle cx="16" cy="6" r="3" fill="var(--accent)"/><circle cx="17" cy="17" r="2.4" fill="var(--water)"/><path d="M5 15 16 6 17 17Z" fill="none" stroke="var(--muted)" stroke-width="1.2"/></svg>Turverkko</a>
+      <a class="brand" href="index.html"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true"><path d="M5 15 16 6 17 17Z" fill="none" stroke="var(--muted)" stroke-width="1.2"/><circle cx="5" cy="15" r="3" fill="var(--accent)"/><circle cx="16" cy="6" r="3.2" fill="#FFF023" stroke="#542583" stroke-width="1.2"/><circle cx="17" cy="17" r="2.4" fill="#AA92C1"/></svg>Turverkko</a>
       <ul>${items.map(([h,t]) => `<li><a href="${h}"${h === current ? ' aria-current="page"' : ""}>${t}</a></li>`).join("")}</ul>
       <a class="gh" href="${REPO}">GitHub ↗</a></div>`;
     document.body.prepend(el);
@@ -35,7 +37,8 @@ const TV = (() => {
   function footer() {
     const el = document.createElement("footer");
     el.className = "footer";
-    el.innerHTML = `<div class="foot-in"><span>© 2026 Miiro Jääskeläinen</span><span>Koodi MIT · aineisto CC BY 4.0</span>
+    const logo = LOGO ? `<a class="seamk${LOGO_DARK ? " has-dark" : ""}" href="https://www.seamk.fi/" aria-label="Seinäjoen ammattikorkeakoulu – SEAMK"><picture>${LOGO_DARK ? `<source srcset="assets/${LOGO_DARK}" media="(prefers-color-scheme: dark)">` : ""}<img src="assets/${LOGO}" alt="Seinäjoen ammattikorkeakoulu – SEAMK"></picture></a>` : "";
+    el.innerHTML = `<div class="foot-in publisher">${logo}<span>Julkaisija: Seinäjoen ammattikorkeakoulu (SEAMK)</span></div><div class="foot-in"><span>© 2026 Miiro Jääskeläinen</span><span>Koodi MIT · aineisto CC BY 4.0</span>
       <a href="${REPO}">Lähdekoodi ja aineisto</a><a href="${REPO}/blob/main/CONTRIBUTING.md">Osallistuminen</a>
       <a href="${REPO}/blob/main/SCHEMA.md">Aineistomalli</a></div>`;
     document.body.append(el);

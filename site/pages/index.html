@@ -6,7 +6,7 @@
 <title>Turverkko</title>
 <meta name="description" content="Turvemaihin ja maaperään liittyvän julkisen TKI-rahoituksen toimijaverkosto kuudella EU:n turvemaa-alueella.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 <style>
 .hero{padding-block:56px 32px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center}
@@ -28,7 +28,7 @@
 <main class="wrap">
   <section class="hero">
     <div class="stack">
-      <div class="eyebrow">JTF · EAKR · ESR+ · maaseuturahasto · EIP-AGRI — 2014–20 ja 2021–27</div>
+      <div class="eyebrow">JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI · Horizon — 2014–20 ja 2021–27</div>
       <h1>Kuka tekee turvemaiden TKI-työtä, ja kenen kanssa?</h1>
       <p class="lede">Turverkko dokumentoi turvemaihin, turvepeltoihin, suometsiin, kosteikkoviljelyyn ja ennallistamiseen sekä maaperän päästöihin, hiilensidontaan ja niiden mittaukseen (MRV) liittyvän julkisen TKI-rahoituksen kuudella EU:n turvemaa-alueella. Se näyttää, missä samaa työtä tehdään rinnakkain ilman yhteyttä.</p>
       <div class="chips" style="gap:10px">
@@ -150,7 +150,7 @@ TV.load().then(({ds, net, an}) => {
     [ds.projects.length, "turvemaahanketta"],
     [ds.hubs.length, "osaamiskeskusta"],
     [s.actors, "toimijaa yhteistyöverkossa"],
-    [s.components, "erillistä yhteistyösaareketta"],
+    [s.components_multi + " / " + s.components, "usean hankkeen yhteistyöryvästä / saareketta"],
     [s.parallel_unlinked, "rinnakkaista hankeparia ilman yhteyttä"],
     [TV.eur(jtf), "turvepainotteista JTF-rahoitusta"],
   ].map(([b, t]) => `<div class="kpi"><b>${b}</b><span>${t}</span></div>`).join("");
