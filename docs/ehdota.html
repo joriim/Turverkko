@@ -15,13 +15,14 @@ form{display:flex;flex-direction:column;gap:18px}
 .types{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:8px}
 .types label{flex-direction:row;align-items:flex-start;gap:10px;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;font-weight:500}
 .types label:has(input:checked){border-color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,var(--surface))}
+.types b{font-weight:inherit}
 .types small{display:block;font-weight:400;color:var(--muted);font-size:12px}
 .side{position:sticky;top:72px}
 @media (max-width:900px){.side{position:static}}
 .matches a{display:block;padding:6px 0;font-size:14px}
 .steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:14px}
 </style>
-</head>
+<link rel="alternate" hreflang="fi" href="ehdota.html"><link rel="alternate" hreflang="en" href="en/ehdota.html"></head>
 <body>
 <main class="wrap">
   <div class="layout">
@@ -48,7 +49,7 @@ form{display:flex;flex-direction:column;gap:18px}
 
         <div class="two">
           <label for="maa">Maa
-            <select id="maa"><option value="">–</option><option>Suomi</option><option>Ruotsi</option><option>Viro</option><option>Latvia</option><option>Irlanti</option><option>Niedersachsen</option><option>Muu</option></select>
+            <select id="maa"><option value="">–</option><option value="Suomi">Suomi</option><option value="Ruotsi">Ruotsi</option><option value="Viro">Viro</option><option value="Latvia">Latvia</option><option value="Irlanti">Irlanti</option><option value="Niedersachsen">Niedersachsen</option><option value="Muu">Muu</option></select>
           </label>
           <label for="rahasto">Rahasto ja kausi <span class="hint">esim. JTF 2021–27</span>
             <input type="text" id="rahasto" list="rahasto-list">
@@ -105,27 +106,28 @@ form{display:flex;flex-direction:column;gap:18px}
 <script>
 TV.nav("ehdota.html"); TV.footer();
 const $ = id => document.getElementById(id);
+// [arvo GitHubin lomakepohjaan (pysyy suomeksi), näkyvä nimi, selite]
 const TYPES = [
-  ["Uusi hanke", "Hanke, joka puuttuu aineistosta"],
-  ["Uusi organisaatio", "Toteuttaja tai partneri"],
-  ["Osallistuminen (organisaatio mukana hankkeessa)", "Kuka on mukana missäkin"],
-  ["Yhteistyö (kahden hankkeen tai keskuksen välinen)", "Vierailu, yhteishanke, yhteinen tutkija"],
-  ["Uusi julkaisu tai tuotos", "Artikkeli, raportti, aineisto"],
-  ["Korjaus olemassa olevaan tietoon", "Väärä summa, nimi tai yhteys"],
+  ["Uusi hanke", "<b>Uusi hanke</b>", "Hanke, joka puuttuu aineistosta"],
+  ["Uusi organisaatio", "<b>Uusi organisaatio</b>", "Toteuttaja tai partneri"],
+  ["Osallistuminen (organisaatio mukana hankkeessa)", "<b>Osallistuminen</b>", "Kuka on mukana missäkin"],
+  ["Yhteistyö (kahden hankkeen tai keskuksen välinen)", "<b>Yhteistyö</b>", "Vierailu, yhteishanke, yhteinen tutkija"],
+  ["Uusi julkaisu tai tuotos", "<b>Uusi julkaisu tai tuotos</b>", "Artikkeli, raportti, aineisto"],
+  ["Korjaus olemassa olevaan tietoon", "<b>Korjaus olemassa olevaan tietoon</b>", "Väärä summa, nimi tai yhteys"],
 ];
 const HINTS = {
   "Yhteistyö (kahden hankkeen tai keskuksen välinen)": ["Molemmat osapuolet, esim. TUKKA ja PeatTransform.", "Mitä yhteistyö on ollut ja milloin."],
   "Osallistuminen (organisaatio mukana hankkeessa)": ["Organisaatio ja hanke.", "Organisaation rooli: koordinaattori, partneri, rahoittaja tai kenttäkumppani."],
   "Korjaus olemassa olevaan tietoon": ["Korjattava kohta.", "Mikä on väärin ja mikä oikea tieto on."],
 };
-$("types").insertAdjacentHTML("beforeend", TYPES.map(([t, s], i) =>
-  `<label><input type="radio" name="tyyppi" value="${TV.esc(t)}" id="t${i}"><span>${TV.esc(t.replace(/ \(.*\)/, ""))}<small>${TV.esc(s)}</small></span></label>`).join(""));
+$("types").insertAdjacentHTML("beforeend", TYPES.map(([t, l, s], i) =>
+  `<label><input type="radio" name="tyyppi" value="${TV.esc(t)}" id="t${i}"><span>${l}<small>${TV.esc(s)}</small></span></label>`).join(""));
 
 let THEMES = {}, ITEMS = [];
 TV.load().then(({ds, net}) => {
   THEMES = ds.themes;
   $("teemat").insertAdjacentHTML("beforeend", Object.entries(ds.themes).map(([k, v]) =>
-    `<label><input type="checkbox" name="teema" value="${k}" id="th-${k}"> <span class="mono">${k}</span> ${TV.esc(v)}</label>`).join(""));
+    `<label><input type="checkbox" name="teema" value="${k}" id="th-${k}"> <span class="mono">${k}</span> ${TV.esc(TV.v(v))}</label>`).join(""));
   ITEMS = net.nodes.filter(n => ["hanke","osaamiskeskus","organisaatio","vertailukohde","julkaisu"].includes(n.kind));
   $("kohde-list").innerHTML = ITEMS.map(n => `<option value="${TV.esc(n.id)}">${TV.esc(n.label)}</option>`).join("");
   const k = new URLSearchParams(location.search).get("kohde");

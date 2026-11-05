@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Turverkko – peatland R&amp;I network</title>
+<meta name="description" content="Turvemaihin ja maaperään liittyvän julkisen TKI-rahoituksen toimijaverkosto kuudella EU:n turvemaa-alueella.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+.hero{padding-block:56px 32px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center}
+@media (max-width:860px){.hero{grid-template-columns:minmax(0,1fr)}}
+.hero .stack{gap:18px}
+.mini{width:100%;height:auto;max-width:440px;justify-self:center}
+.cite-tabs{display:flex;gap:4px}
+.cite-tabs button{font:500 13px var(--f-mono);background:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px;color:var(--muted);cursor:pointer}
+.cite-tabs button[aria-selected="true"]{color:var(--fg);border-color:var(--accent)}
+.dl{display:flex;flex-direction:column}
+.dl a{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--fg)}
+.dl a:last-child{border-bottom:0}
+.dl a span:last-child{font:12px var(--f-mono);color:var(--muted);white-space:nowrap}
+.themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:8px 24px}
+.themes div{display:flex;gap:10px;align-items:baseline}
+</style>
+<link rel="alternate" hreflang="fi" href="../index.html"><link rel="alternate" hreflang="en" href="index.html"></head>
+<body>
+<main class="wrap">
+  <section class="hero">
+    <div class="stack">
+      <div class="eyebrow">JTF · ERDF · Interreg · EAFRD · EIP-AGRI · Horizon — 2014–20 and 2021–27</div>
+      <h1>Who does peatland R&amp;I, and with whom?</h1>
+      <p class="lede">Turverkko documents public research and innovation funding for peatlands, peat fields, peatland forests, paludiculture and restoration, as well as soil emissions, carbon sequestration and their measurement (MRV), in six EU peatland regions. It shows where the same work is being done in parallel without a connection.</p>
+      <div class="chips" style="gap:10px">
+        <a class="btn" href="kartta.html">Open the map and network</a>
+        <a class="btn ghost" href="ehdota.html">Suggest a missing link</a>
+      </div>
+    </div>
+    <svg class="mini" id="mini" viewBox="-230 -200 460 400" role="img" aria-label="Thumbnail of the collaboration network"></svg>
+  </section>
+
+  <section class="kpis" id="kpis" aria-label="The data in numbers"></section>
+
+  <section class="section">
+    <div class="grid3">
+      <a class="door" href="kartta.html"><span class="eyebrow">Visualise</span><h3>Map and network</h3><p>Concept map by theme, collaboration network, competence centres, theme matrix and evidence of outputs.</p><span class="go">kartta.html →</span></a>
+      <a class="door" href="esitys.html"><span class="eyebrow">Present</span><h3>Money, projects and hectares</h3><p>Choose a region and period: funding, started projects and restored hectares by year. Playback and presentation mode.</p><span class="go">esitys.html →</span></a>
+      <a class="door" href="haku.html"><span class="eyebrow">Browse</span><h3>Search and project cards</h3><p>Search projects, organisations, centres and publications. Each has its own card with sources and links.</p><span class="go">haku.html →</span></a>
+      <a class="door" href="ehdota.html"><span class="eyebrow">Contribute</span><h3>Suggest an addition</h3><p>Is a project or link missing? The form creates a ready-made suggestion that is checked before it is added.</p><span class="go">ehdota.html →</span></a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="stack">
+        <h2>Findings</h2>
+        <div class="prose" id="findings"><p class="note">Loading…</p></div>
+        <p class="note">Figures are calculated automatically from the data. Full report (in Finnish): <a href="https://github.com/joriim/Turverkko/blob/main/analysis/raportti.md">analysis/raportti.md</a>.</p>
+      </div>
+      <div class="stack">
+        <h2>Themes</h2>
+        <div class="themes" id="themes"></div>
+        <p class="note">Excluded: hydrogen, energy solutions, general business support and tourism.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="stack">
+        <h2>How to cite</h2>
+        <div class="cite-tabs" role="tablist" aria-label="Citation format">
+          <button role="tab" aria-selected="true" data-fmt="apa" id="cite-apa">APA</button>
+          <button role="tab" aria-selected="false" data-fmt="bib" id="cite-bib">BibTeX</button>
+        </div>
+        <pre id="cite"></pre>
+        <div class="chips"><button class="btn ghost" id="copy-cite" type="button">Copy</button><span class="note" id="copy-msg" aria-live="polite"></span></div>
+        <p class="note" id="doi-note">A DOI will be added after the first Zenodo release. Until then, cite the repository address.</p>
+      </div>
+      <div class="stack">
+        <h2>Open in a network tool</h2>
+        <div class="chips" style="gap:10px">
+          <a class="btn" id="open-gephi" href="https://gephi.org/gephi-lite/" target="_blank" rel="noopener">Open in Gephi Lite ↗</a>
+          <a class="btn ghost" id="open-cyto" href="https://web.cytoscape.org/" target="_blank" rel="noopener">Open in Cytoscape Web ↗</a>
+        </div>
+        <p class="note">Opens in the browser without installation. Includes actors, publications, collaboration and output links and the calculated links between similar but unconnected projects (edge type <code>puuttuva_yhteys</code>), with colours by country and positions ready. For the Gephi and Cytoscape desktop versions, download <a href="../data/turverkko.gexf" download>turverkko.gexf</a> or <a href="../data/turverkko.cx2" download>turverkko.cx2</a>.</p>
+        <h2 style="margin-top:12px">Download the data</h2>
+        <div class="panel dl">
+          <a href="../data/turverkko.gexf" download><span>Collaboration network for Gephi (colours, sizes, positions)</span><span>turverkko.gexf</span></a>
+          <a href="../data/turverkko.cx2" download><span>Collaboration network for Cytoscape</span><span>turverkko.cx2</span></a>
+          <a href="../data/nodes.csv" download><span>Nodes (organisations, projects, centres, publications)</span><span>nodes.csv</span></a>
+          <a href="../data/edges.csv" download><span>Links with sources and evidence classes</span><span>edges.csv</span></a>
+          <a href="../data/network.graphml" download><span>Full network with themes and funding relations</span><span>network.graphml</span></a>
+          <a href="../data/analysis.json" download><span>Analysis results</span><span>analysis.json</span></a>
+          <a href="../data/dataset.json" download><span>Structured project data</span><span>dataset.json</span></a>
+        </div>
+        <p class="note">Data CC BY 4.0, code MIT. Data model: <a href="https://github.com/joriim/Turverkko/blob/main/SCHEMA.md">SCHEMA.md</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid2">
+      <div class="prose">
+        <h2>Method and limitations</h2>
+        <p>The data is a sample verified against sources, not the full population. Projects were collected from national registers, EU CAP Network project pages, programme announcements and research portals. Every link has a source and an evidence class: source, inferred or unverified.</p>
+        <p>The collaboration network includes participation, membership of a centre, documented collaboration and organisations' co-publications. <b>Similar projects without a link</b> are project pairs whose texts are similar but which share no actor and have no collaboration path within three steps. This means no link was found in public sources; it does not prove there is none. Hectares have been checked by hand, with quotations.</p>
+      </div>
+      <div class="prose">
+        <h2>Author</h2>
+        <p>Miiro Jääskeläinen, Seinäjoki University of Applied Sciences (SEAMK) · <a href="https://orcid.org/0000-0002-0683-8352">ORCID 0000-0002-0683-8352</a></p>
+        <p>The work was produced with AI assistance under the author's direction. The author's contribution is the research question and scope, expert review and publication decisions. More: <a href="https://github.com/joriim/Turverkko#tekijä-ja-tekijän-panos">README</a>.</p>
+        <p>The repository may be forked and developed under the terms of the licences.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="../assets/common.en.js"></script>
+<script>
+TV.nav("index.html"); TV.footer();
+{ const abs = f => new URL("../data/" + f, location.href).href;
+  document.getElementById("open-gephi").href = "https://gephi.org/gephi-lite/?file=" + encodeURIComponent(abs("turverkko.gexf"));
+  document.getElementById("open-cyto").href = "https://web.cytoscape.org/?import=" + encodeURIComponent(abs("turverkko.cx2")); }
+const CITE = {
+  apa: `Jääskeläinen, M. (2026). Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu (Version 1.0.0) [Software]. Seinäjoen ammattikorkeakoulu. ${TV.REPO}`,
+  bib: `@software{jaaskelainen_turverkko_2026,
+  author    = {Jääskeläinen, Miiro},
+  title     = {Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu},
+  year      = {2026},
+  version   = {1.0.0},
+  publisher = {Seinäjoen ammattikorkeakoulu},
+  url       = {${TV.REPO}},
+  license   = {MIT, CC-BY-4.0}
+}`};
+let fmt = "apa";
+const citeEl = document.getElementById("cite");
+const showCite = () => { citeEl.textContent = CITE[fmt]; document.querySelectorAll(".cite-tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.fmt === fmt)); };
+document.querySelectorAll(".cite-tabs button").forEach(b => b.onclick = () => { fmt = b.dataset.fmt; showCite(); });
+showCite();
+document.getElementById("copy-cite").onclick = async () => {
+  const msg = document.getElementById("copy-msg");
+  try { await navigator.clipboard.writeText(CITE[fmt]); msg.textContent = "Copied."; }
+  catch { const r = document.createRange(); r.selectNodeContents(citeEl); const s = getSelection(); s.removeAllRanges(); s.addRange(r); msg.textContent = "Selected – copy with Ctrl+C."; }
+};
+
+TV.load().then(({ds, net, an}) => {
+  const s = an.summary;
+  const jtf = ds.programmes.filter(p => p.fund === "JTF" && p.focus.length && p.id !== "P-FI-PP-JTF").reduce((a, p) => a + p.eur, 0);
+  document.getElementById("kpis").innerHTML = [
+    [ds.projects.length, "peatland projects"],
+    [ds.hubs.length, "competence centres"],
+    [s.actors, "actors in the collaboration network"],
+    [s.components_multi + " / " + s.components, "multi-project clusters / islands"],
+    [s.parallel_unlinked, "parallel project pairs without a link"],
+    [TV.eur(jtf), "peat-focused JTF funding"],
+  ].map(([b, t]) => `<div class="kpi"><b>${b}</b><span>${t}</span></div>`).join("");
+
+  const top = an.missing_links.filter(m => m.tyyppi === "rinnakkainen ilman yhteyttä").slice(0, 3);
+  const topx = an.missing_links.filter(m => m.tyyppi === "puuttuva yhteys").slice(0, 3);
+  const pair = m => `<a href="haku.html#${encodeURIComponent(m.a)}">${TV.esc(m.a_nimi.replace(/ –.*/, ""))}</a> and <a href="haku.html#${encodeURIComponent(m.b)}">${TV.esc(m.b_nimi.replace(/ –.*/, ""))}</a>`;
+  const brokers = an.organisations.filter(o => o.valityskeskeisyys > 0).slice(0, 3).map(o => o.nimi.replace(/ \(.*\)/, ""));
+  const multi = an.components.filter(c => c.maita > 1);
+  document.getElementById("findings").innerHTML = `
+    <p><b>Through projects, ${s.actors} actors fall into ${s.components} separate islands, of which ${s.components_multi} contain at least two projects.</b> ${s.copub_edges} organisation pairs have co-publications, ${s.copub_cross_country} of them across borders. Through projects, ${multi.length === 1 ? "only one island crosses" : multi.length + " islands cross"} a border${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, and there are ${s.cross_country_edges} source-verified cross-border links.</p>
+    <p><b>${s.overlap_pairs} project pairs have similar content.</b> Of these, ${s.parallel_unlinked} are in the same country at the same time without a shared actor, for example ${top.map(pair).join("; ")}. For site-specific implementation this is often intentional; for method and planning projects it points to duplicated work.</p>
+    <p><b>Across borders</b> there are ${s.missing_cross_country} similar pairs without a collaboration path${topx.length ? ", for example " + topx.map(pair).join("; ") : ""}. Projects described in different languages easily fall below the threshold in this method.</p>
+    <p><b>By theme:</b> ${s.theme_country_pairs} country pairs have projects in the same theme, and ${s.theme_country_pairs_unlinked} of them have no verified collaboration path.</p>
+    <p><b>Broker organisations</b>, through which different projects connect: ${brokers.map(TV.esc).join(", ")}.</p>`;
+  document.getElementById("themes").innerHTML = Object.entries(ds.themes).map(([k, v]) => {
+    const n = ds.projects.filter(p => p.themes.includes(k)).length;
+    return `<div><span class="pill mono">${k}</span><span>${TV.esc(TV.v(v))} <span class="note mono">${n}</span></span></div>`;
+  }).join("");
+
+  // Pienoisverkko
+  const P = an.positions, act = new Set(["organisaatio","hanke","osaamiskeskus","vertailukohde"]);
+  const pos = id => P[id] && [P[id][0] * 190, P[id][1] * 165];
+  let g = "";
+  net.edges.filter(e => ["osallistuu","kuuluu_keskukseen","yhteistyo"].includes(e.kind) && e.evidence !== "vahvistamatta").forEach(e => {
+    const a = pos(e.source), b = pos(e.target); if (a && b) g += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--muted)" stroke-opacity=".35"/>`;
+  });
+  an.missing_links.slice(0, 12).forEach(m => { const a = pos(m.a), b = pos(m.b); if (a && b) g += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--hot)" stroke-opacity=".5" stroke-dasharray="4 3"/>`; });
+  net.nodes.filter(n => act.has(n.kind) && P[n.id]).forEach(n => {
+    const [x, y] = pos(n.id);
+    g += n.kind === "osaamiskeskus" ? `<circle cx="${x}" cy="${y}" r="7" fill="var(--bg)" stroke="${TV.ccol(n.country)}" stroke-width="3"/>`
+       : n.kind === "organisaatio" ? `<circle cx="${x}" cy="${y}" r="3.5" fill="${TV.ccol(n.country)}"/>`
+       : `<rect x="${x-4}" y="${y-4}" width="8" height="8" fill="${TV.ccol(n.country)}"/>`;
+  });
+  document.getElementById("mini").innerHTML = g;
+}).catch(err => TV.fail(document.getElementById("kpis"), err));
+</script>
+</body>
+</html>

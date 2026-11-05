@@ -8,7 +8,6 @@
 :root{
   --bg:#f6f5f8; --surface:#ffffff; --sunk:#E5DEEC; --fg:#1b1622; --muted:#5e5768; --line:#dcd6e3;
   --accent:#542583; --accent-ink:#ffffff; --peat:#542583; --water:#542583;
-  --peat:#7a4b2a; --water:#2f6f86;
   --c-FI:#2a78d6; --c-SE:#eda100; --c-EE:#1baf7a; --c-LV:#e87ba4; --c-IE:#008300; --c-DE-NI:#eb6834; --c-EU:#6250d6; --c-X:#8a8f86;
   --hot:#b8452a; --warm:#d9a441;
   --f-display:"Alte DIN 1451 Mittelschrift","Barlow Condensed","Arial Narrow",sans-serif;
@@ -87,7 +86,7 @@ a{color:var(--water)}
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">EAKR · ESR+ · JTF · MSR · EIP — turvemaa-alueet, 2014–20 ja 2021–27</div>
+    <div class="eyebrow">JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI · Horizon — 2014–20 ja 2021–27</div>
     <h1>Turverkko</h1>
     <p class="lede">Turvemaiden, turvepeltojen, suometsien, kosteikkoviljelyn, ennallistamisen ja maankäyttösektorin päästöjen julkinen TKI-rahoitus kuudella EU:n turvemaa-alueella: mihin raha menee, kuka tekee yhteistyötä kenen kanssa ja paljonko hankkeista jää näytettävää. Aineisto on lähteillä varmennettu otos, ei koko populaatio.</p>
   </header>
@@ -187,12 +186,12 @@ a{color:var(--water)}
   </section>
 
   <p class="note">Aineisto, analyysiskriptit ja muutoshistoria: <a href="__REPO_URL__" target="_blank" rel="noopener">__REPO_NAME__</a>. Lataa verkosto: <a href="__REPO_URL__/tree/main/data" target="_blank" rel="noopener">nodes.csv, edges.csv, network.graphml</a>.</p>
-  <p class="note">Menetelmä: teemaluokitus 8 turvemaa- ja maaperäluokkaan (vety, energia, yritystuki ja matkailu rajattu pois 31.10.2026); päällekkäisyys = teematunnisteiden Jaccard-indeksi ≥ 0,4 hankeparin välillä. Kohesio-tietokanta esti automaattisen haun, joten hanketason otos on koottu kansallisista rekistereistä, EU CAP Networkin hankesivuilta ja ohjelmatiedotteista. Jokaisen rivin lähde on linkitetty.</p>
+  <p class="note">Menetelmä: teemaluokitus 8 turvemaa- ja maaperäluokkaan (vety, energia, yritystuki ja matkailu rajattu pois); päällekkäisyys lasketaan hankkeiden teksteistä TF-IDF-samankaltaisuutena monikielisen käsitesanaston avulla (ks. Päällekkäisyydet). Hanketason otos on koottu kansallisista rekistereistä, Kohesiosta, EU CAP Networkin hankesivuilta, CORDISista ja ohjelmatiedotteista. Jokaisen rivin lähde on linkitetty.</p>
 </div>
 
 <script>
 const D = __DATA__;
-const CN = D.countries, TH = D.themes;
+const CN = Object.fromEntries(Object.entries(D.countries).map(([k, v]) => [k, TV.COUNTRY[k] || v])), TH = Object.fromEntries(Object.entries(D.themes).map(([k, v]) => [k, TV.v(v)]));
 const FUNDS = ["JTF","EAKR","Interreg","EIP","MSR","KF","?"];
 const FUNDNAME = {JTF:"JTF – oikeudenmukainen siirtymä",EAKR:"EAKR / EFRE / ERDF",EIP:"EIP-AGRI (MSR)",MSR:"MSR / EAFRD muu",KF:"Koheesiorahasto",Interreg:"Interreg (EAKR)","?":"EU-osarahoitteinen, rahasto ei lähteessä",LIFE:"LIFE",Horizon:"Horizon 2020 / Horizon Europe",Kansallinen:"Kansallinen","—":"—"};
 const EVTXT = ["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"];
@@ -292,13 +291,13 @@ function renderDetail(){
     const dup = D.duplicates.find(d=>d.a===p.id);
     el.innerHTML = `<div class="eyebrow">${p.id} · ${CN[p.country]||p.country} · ${FUNDNAME[p.fund]||p.fund}</div><h2>${esc(p.name)}</h2>`
      + (p.isContext ? `<p class="note">${esc(p.note)}</p>` : `<dl class="kv">
-      <dt>Alue</dt><dd>${esc(p.region)}</dd><dt>Toteuttaja</dt><dd>${esc(p.lead)}</dd>
+      <dt>Alue</dt><dd>${esc(p.region)}</dd><dt>Toteuttaja</dt><dd>${esc(TV.v(p.lead))}</dd>
       <dt>Kausi</dt><dd class="mono">${p.start??"?"}–${p.end??"?"} (${p.period})</dd>
       <dt>Budjetti</dt><dd class="mono">${fmt(p.eur_total)}</dd><dt>EU-osuus</dt><dd class="mono">${fmt(p.eur_eu)}</dd>
       <dt>Tuotokset</dt><dd>${esc(p.outputs)}</dd><dt>Näyttöaste</dt><dd>${evbar(p.evidence)} ${EVTXT[p.evidence]}</dd></dl>`)
      + `<div class="eyebrow">Teemat</div><div class="filters">${p.themes.map(t=>`<span class="pill">${t} ${TH[t]}</span>`).join("")}</div>`
      + (dup?`<div class="eyebrow">Kaksoiskirjaus</div><p class="note">Sama hanke esiintyy myös nimellä: ${esc(dup.alias)}. ${esc(dup.note)}.</p>`:"")
-     + (ov.length?`<div class="eyebrow">Päällekkäiset hankkeet (${ov.length})</div>`+ov.map(o=>{const q=items.find(x=>x.id===(o.a===p.id?o.b:o.a));return `<div><a href="haku.html#${encodeURIComponent(q.id)}" data-go="${q.id}">${esc(q.name)}</a> <span class="pill ${o.kind==="yhteydessä"||o.kind==="saman kokonaisuuden osat"?"same":"cross"}" title="${esc(o.kind)}">${o.score.toFixed(2)}</span></div>`}).join(""):"")
+     + (ov.length?`<div class="eyebrow">Päällekkäiset hankkeet (${ov.length})</div>`+ov.map(o=>{const q=items.find(x=>x.id===(o.a===p.id?o.b:o.a));return `<div><a href="haku.html#${encodeURIComponent(q.id)}" data-go="${q.id}">${esc(q.name)}</a> <span class="pill ${o.kind==="yhteydessä"||o.kind==="saman kokonaisuuden osat"?"same":"cross"}" title="${esc(TV.v(o.kind))}">${o.score.toFixed(2)}</span></div>`}).join(""):"")
      + `<a href="${p.url}" target="_blank" rel="noopener">Lähde ↗</a>`;
   }
   el.querySelectorAll("[data-go]").forEach(a=>a.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault();select({type:"p",id:a.dataset.go})});
@@ -344,7 +343,7 @@ function renderHubs(){
       <div class="eyebrow">Julkaisut ja tuotokset (${pubs.length})</div>
       ${pubs.length? pubs.map(p=>`<div class="pub"><span class="t"><a href="${p.url}" target="_blank" rel="noopener">${esc(p.title)}</a></span>
         <span class="note">${esc(p.authors)}${p.year?" · "+p.year:""} · ${esc(p.venue)}</span>
-        <span style="display:flex;gap:6px;flex-wrap:wrap"><span class="badge ${typeCls(p.type)}">${esc(p.type)}</span>${p.verified?"":'<span class="badge unv">metatiedot avaamatta</span>'}${p.themes.map(t=>`<span class="badge" title="${TH[t]}">${t}</span>`).join("")}</span></div>`).join("")
+        <span style="display:flex;gap:6px;flex-wrap:wrap"><span class="badge ${typeCls(p.type)}">${esc(TV.v(p.type))}</span>${p.verified?"":'<span class="badge unv">metatiedot avaamatta</span>'}${p.themes.map(t=>`<span class="badge" title="${TH[t]}">${t}</span>`).join("")}</span></div>`).join("")
         : `<p class="note">Ei löydettyjä julkaisuja.</p>`}
       <a href="${h.url}" target="_blank" rel="noopener">Lähde ↗</a></article>`;
   }).join("");
@@ -365,7 +364,7 @@ function renderNet(){
   const collab = N.edges.filter(e=>["osallistuu","kuuluu_keskukseen","yhteistyo"].includes(e.kind));
   if(NET.copub) N.edges.filter(e=>e.kind==="yhteisjulkaisu").forEach(e=>{const a=pos(e.source), b=pos(e.target); if(!a||!b) return;
     if(!vis(byId[e.source])||!vis(byId[e.target])) return;
-    lines += `<line class="nl" data-a="${e.source}" data-b="${e.target}" x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--warm)" stroke-opacity=".55" stroke-width="${1+Math.min(Math.log2(e.weight+1),4)}"><title>${esc(byId[e.source].label)} ↔ ${esc(byId[e.target].label)} · ${esc(e.note)}</title></line>`;});
+    lines += `<line class="nl" data-a="${e.source}" data-b="${e.target}" x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--warm)" stroke-opacity=".55" stroke-width="${1+Math.min(Math.log2(e.weight+1),4)}"><title>${esc(byId[e.source].label)} ↔ ${esc(byId[e.target].label)} · ${esc(TV.v(e.note))}</title></line>`;});
   collab.forEach(e=>{
     const a=pos(e.source), b=pos(e.target); if(!a||!b) return;
     const unv = e.evidence==="vahvistamatta";
@@ -377,7 +376,7 @@ function renderNet(){
   if(NET.miss){
     A.missing_links.forEach(m=>{const a=pos(m.a), b=pos(m.b); if(!a||!b) return;
       if(!vis(byId[m.a])||!vis(byId[m.b])) return;
-      lines += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--hot)" stroke-opacity="${.25+Math.min(m.score*1.5,.6)}" stroke-width="1.6" stroke-dasharray="6 4"><title>${esc(m.a_nimi)} ↔ ${esc(m.b_nimi)} · ${esc(m.tyyppi)} · samankaltaisuus ${m.score}</title></line>`;});
+      lines += `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="var(--hot)" stroke-opacity="${.25+Math.min(m.score*1.5,.6)}" stroke-width="1.6" stroke-dasharray="6 4"><title>${esc(m.a_nimi)} ↔ ${esc(m.b_nimi)} · ${esc(TV.v(m.tyyppi))} · samankaltaisuus ${m.score}</title></line>`;});
   }
   const TOPB = new Set(A.organisations.filter(r=>r.valityskeskeisyys>0).slice(0,14).map(r=>r.id));
   const deg = {}; collab.forEach(e=>{deg[e.source]=(deg[e.source]||0)+1; deg[e.target]=(deg[e.target]||0)+1;});
@@ -411,7 +410,7 @@ function renderNet(){
   document.getElementById("net-gaps").innerHTML = `<thead><tr><th>Teema</th><th>Maapari</th><th>Hankkeita</th><th>Yhteys</th></tr></thead><tbody>`+
     (A.theme_country_gaps||[]).filter(g=>state.countries.has(g.a)&&state.countries.has(g.b)).map(g=>`<tr><td><span class="pill" title="${esc(TH[g.teema])}">${g.teema}</span> ${esc(TH[g.teema])}</td><td>${CN[g.a]} – ${CN[g.b]}</td><td class="mono">${g.hankkeita_a} + ${g.hankkeita_b}</td><td>${g.yhteys?'<span class="pill same">kyllä</span>':'<span class="pill cross">ei</span>'}</td></tr>`).join("")+"</tbody>";
   document.getElementById("net-missing").innerHTML = `<thead><tr><th>Hanke A</th><th>Hanke B</th><th>Yhteiset käsitteet ja sanat</th><th>Samankaltaisuus</th><th>Tyyppi</th></tr></thead><tbody>`+
-    A.missing_links.filter(m=>vis(byId[m.a])&&vis(byId[m.b])).map(m=>`<tr><td><span class="dot" style="background:${ccol(m.a_maa)}"></span> ${esc(m.a_nimi)}<div class="note mono">${m.a}</div></td><td><span class="dot" style="background:${ccol(m.b_maa)}"></span> ${esc(m.b_nimi)}<div class="note mono">${m.b}</div></td><td class="note">${esc(m.yhteiset)}</td><td class="mono">${Number(m.score).toFixed(2)}</td><td><span class="pill ${m.tyyppi==="puuttuva yhteys"?"cross":"same"}">${esc(m.tyyppi)}</span></td></tr>`).join("")+"</tbody>";
+    A.missing_links.filter(m=>vis(byId[m.a])&&vis(byId[m.b])).map(m=>`<tr><td><span class="dot" style="background:${ccol(m.a_maa)}"></span> ${esc(m.a_nimi)}<div class="note mono">${m.a}</div></td><td><span class="dot" style="background:${ccol(m.b_maa)}"></span> ${esc(m.b_nimi)}<div class="note mono">${m.b}</div></td><td class="note">${esc(m.yhteiset)}</td><td class="mono">${Number(m.score).toFixed(2)}</td><td><span class="pill ${m.tyyppi==="puuttuva yhteys"?"cross":"same"}">${esc(TV.v(m.tyyppi))}</span></td></tr>`).join("")+"</tbody>";
 }
 function netHighlight(){
   const svg = document.getElementById("net"); if(!NET.sel) return;
@@ -427,12 +426,12 @@ function netDetail(){
   const org = D.analysis.organisations.find(r=>r.id===n.id);
   const miss = D.analysis.missing_links.filter(m=>m.a===n.id||m.b===n.id);
   const KIND = {osallistuu:"osallistuu",kuuluu_keskukseen:"kuuluu keskukseen",yhteistyo:"yhteistyö",ei_kytkosta:"ei löydettyä kytköstä",yhteisjulkaisu:"yhteisjulkaisut"};
-  el.innerHTML = `<div class="eyebrow">${esc(n.kind)} · ${CN[n.country]||n.country||""}</div><h2>${esc(n.label)}</h2>`
+  el.innerHTML = `<div class="eyebrow">${esc(TV.KIND[n.kind]||n.kind)} · ${CN[n.country]||n.country||""}</div><h2>${esc(n.label)}</h2>`
     + (org?`<dl class="kv"><dt>Hankkeita</dt><dd class="mono">${org.hankkeita}</dd><dt>Keskuksia</dt><dd class="mono">${org.keskuksia}</dd><dt>Välitys&shy;keskeisyys</dt><dd class="mono">${org.valityskeskeisyys}</dd><dt>Saareke</dt><dd class="mono">${org.komponentti}</dd></dl>`:"")
     + `<div class="eyebrow">Yhteydet (${es.length})</div>`
     + es.map(e=>{const o = byId[e.source===n.id?e.target:e.source];
-        return `<div class="pub"><span class="t"><a href="haku.html#${encodeURIComponent(o.id)}" data-net="${o.id}">${esc(o.label)}</a></span><span class="note">${KIND[e.kind]}${e.note&&e.kind==="osallistuu"?" · "+esc(e.note):""}${e.kind!=="osallistuu"&&e.note?" · "+esc(e.note):""}</span><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="badge ${e.evidence==="lähde"?"peer":e.evidence==="vahvistamatta"||e.evidence==="päätelty"?"unv":""}">${esc(e.evidence)}</span>${e.url?`<a href="${e.url}" target="_blank" rel="noopener" class="note">lähde ↗</a>`:""}</span></div>`}).join("")
-    + (miss.length?`<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div>`+miss.map(m=>{const o=m.a===n.id?[m.b,m.b_nimi]:[m.a,m.a_nimi];return `<div><a href="haku.html#${encodeURIComponent(o[0])}" data-net="${o[0]}">${esc(o[1])}</a> <span class="pill cross">${Number(m.score).toFixed(2)}</span> <span class="note">${esc(m.tyyppi)}</span></div>`}).join(""):"")
+        return `<div class="pub"><span class="t"><a href="haku.html#${encodeURIComponent(o.id)}" data-net="${o.id}">${esc(o.label)}</a></span><span class="note">${KIND[e.kind]}${e.note&&e.kind==="osallistuu"?" · "+esc(e.note):""}${e.kind!=="osallistuu"&&e.note?" · "+esc(TV.v(e.note)):""}</span><span style="display:flex;gap:6px;flex-wrap:wrap"><span class="badge ${e.evidence==="lähde"?"peer":e.evidence==="vahvistamatta"||e.evidence==="päätelty"?"unv":""}">${esc(TV.v(e.evidence))}</span>${e.url?`<a href="${e.url}" target="_blank" rel="noopener" class="note">lähde ↗</a>`:""}</span></div>`}).join("")
+    + (miss.length?`<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div>`+miss.map(m=>{const o=m.a===n.id?[m.b,m.b_nimi]:[m.a,m.a_nimi];return `<div><a href="haku.html#${encodeURIComponent(o[0])}" data-net="${o[0]}">${esc(o[1])}</a> <span class="pill cross">${Number(m.score).toFixed(2)}</span> <span class="note">${esc(TV.v(m.tyyppi))}</span></div>`}).join(""):"")
     + (n.url?`<a href="${n.url}" target="_blank" rel="noopener">Lähde ↗</a>`:"");
   el.querySelectorAll("[data-net]").forEach(a=>a.onclick=e=>{if(e.ctrlKey||e.metaKey||e.shiftKey)return;e.preventDefault(); NET.sel=a.dataset.net; netDetail(); netHighlight();});
 }
@@ -456,10 +455,10 @@ function renderOverlap(){
   const items = all(); const nm = id => items.find(x=>x.id===id);
   const rows = D.overlaps.filter(o=>visible(nm(o.a))&&visible(nm(o.b)));
   document.getElementById("overlap").innerHTML = `<thead><tr><th>Hanke A</th><th>Hanke B</th><th>Yhteiset käsitteet ja sanat</th><th>Samankaltaisuus</th><th>Samaan aikaan</th><th>Tyyppi</th></tr></thead><tbody>`+
-    rows.map(o=>{const a=nm(o.a),b=nm(o.b);return `<tr><td><span class="dot" style="background:${ccol(a.country)}"></span> ${esc(a.name)}<div class="note mono">${a.id} · ${a.fund}</div></td><td><span class="dot" style="background:${ccol(b.country)}"></span> ${esc(b.name)}<div class="note mono">${b.id} · ${b.fund}</div></td><td class="note">${o.shared.map(esc).join(", ")}${o.actors?`<div class="mono">yhteiset: ${esc(o.actors)}</div>`:""}</td><td class="mono">${o.score.toFixed(2)}</td><td>${esc(o.same_time)}</td><td><span class="pill ${o.kind==="yhteydessä"||o.kind==="saman kokonaisuuden osat"?"same":"cross"}" title="${esc(D.analysis.overlap_types[o.kind]||"")}">${esc(o.kind)}</span></td></tr>`}).join("")+"</tbody>";
+    rows.map(o=>{const a=nm(o.a),b=nm(o.b);return `<tr><td><span class="dot" style="background:${ccol(a.country)}"></span> ${esc(a.name)}<div class="note mono">${a.id} · ${a.fund}</div></td><td><span class="dot" style="background:${ccol(b.country)}"></span> ${esc(b.name)}<div class="note mono">${b.id} · ${b.fund}</div></td><td class="note">${o.shared.map(esc).join(", ")}${o.actors?`<div class="mono">yhteiset: ${esc(o.actors)}</div>`:""}</td><td class="mono">${o.score.toFixed(2)}</td><td>${esc(TV.v(o.same_time))}</td><td><span class="pill ${o.kind==="yhteydessä"||o.kind==="saman kokonaisuuden osat"?"same":"cross"}" title="${esc(TV.v(D.analysis.overlap_types[o.kind]||""))}">${esc(TV.v(o.kind))}</span></td></tr>`}).join("")+"</tbody>";
   const A=D.analysis, ty=Object.keys(A.overlap_types);
   document.getElementById("overlap-method").innerHTML = `<p class="note">Päällekkäisyys lasketaan hankkeiden omista teksteistä (nimi, kuvaus, tuotokset). Sanat painotetaan TF-IDF:llä, ja monikielinen käsitesanasto yhdistää saman asian eri kielillä. Taulukossa ovat parit, joiden samankaltaisuus on vähintään ${A.params.overlap_threshold} (${A.params.compared_projects} vertailtavaa hanketta). Lähteiden kuvaukset ovat lyhyitä, joten parit ovat ehdokkaita tarkistettavaksi. Eri kielillä kuvatut hankkeet saavat matalampia arvoja.</p>`
-    + `<div class="tablebox"><table><thead><tr><th>Kynnys</th><th>Pareja</th>${ty.map(t=>`<th title="${esc(A.overlap_types[t])}">${esc(t)}</th>`).join("")}</tr></thead><tbody>${A.sensitivity.map(r=>`<tr${r.kynnys===A.params.overlap_threshold?' style="font-weight:600"':""}><td class="mono">${r.kynnys}</td><td class="mono">${r.pareja}</td>${ty.map(t=>`<td class="mono">${r[t]}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    + `<div class="tablebox"><table><thead><tr><th>Kynnys</th><th>Pareja</th>${ty.map(t=>`<th title="${esc(TV.v(A.overlap_types[t]))}">${esc(TV.v(t))}</th>`).join("")}</tr></thead><tbody>${A.sensitivity.map(r=>`<tr${r.kynnys===A.params.overlap_threshold?' style="font-weight:600"':""}><td class="mono">${r.kynnys}</td><td class="mono">${r.pareja}</td>${ty.map(t=>`<td class="mono">${r[t]}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   document.getElementById("dups").innerHTML = `<thead><tr><th>Rekisterissä</th><th>Myös nimellä</th><th>Ero</th></tr></thead><tbody>`+D.duplicates.map(d=>`<tr><td>${esc(nm(d.a).name)}</td><td>${esc(d.alias)}</td><td>${esc(d.note)}</td></tr>`).join("")+"</tbody>";
 }
 

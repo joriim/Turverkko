@@ -38,7 +38,7 @@ a{color:var(--water)}
 .nav ul a{display:block;padding:8px 12px;border-radius:6px;color:var(--muted);text-decoration:none;font-weight:500}
 .nav ul a:hover{background:var(--sunk);color:var(--fg)}
 .nav ul a[aria-current="page"]{color:var(--fg);background:var(--sunk)}
-.nav .gh{margin-left:auto;font:500 13px var(--f-mono);color:var(--muted);text-decoration:none}
+.nav .gh{margin-left:14px;font:500 13px var(--f-mono);color:var(--muted);text-decoration:none}
 
 /* Typografia */
 h1{font:700 clamp(30px,5vw,52px)/1.04 var(--f-display);letter-spacing:-.015em;margin:0;text-wrap:balance}
@@ -133,3 +133,5 @@ h1{text-transform:uppercase;letter-spacing:.01em}
 .publisher{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center}
 .footer .publisher{margin-bottom:14px;font-size:14px;color:var(--fg)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .seamk.has-dark{background:transparent;padding-inline:0}}
+.nav .lang{margin-left:auto;font-size:13px;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;white-space:nowrap}
+.nav .lang:hover{color:var(--fg);border-color:var(--fg)}

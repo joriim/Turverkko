@@ -23,7 +23,7 @@
 .themes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:8px 24px}
 .themes div{display:flex;gap:10px;align-items:baseline}
 </style>
-</head>
+<link rel="alternate" hreflang="fi" href="index.html"><link rel="alternate" hreflang="en" href="en/index.html"></head>
 <body>
 <main class="wrap">
   <section class="hero">
@@ -104,7 +104,7 @@
       <div class="prose">
         <h2>Menetelmä ja rajoitukset</h2>
         <p>Aineisto on lähteillä varmennettu otos, ei koko populaatio. Hanketaso on koottu kansallisista rekistereistä, EU CAP Networkin hankesivuilta, ohjelmatiedotteista ja tutkimusportaaleista. Jokaisella yhteydellä on lähde ja näyttöluokka: lähde, päätelty tai vahvistamatta.</p>
-        <p>Yhteistyöverkkoon kuuluvat vain osallistuminen, keskukseen kuuluminen ja dokumentoitu yhteistyö. <b>Puuttuva yhteys</b> tarkoittaa, että toimijoiden teemat ovat lähes samat (Jaccard ≥ 0,5) eikä vahvistettua polkua ole kolmen askeleen sisällä. Se kertoo, ettei yhteyttä löytynyt julkisista lähteistä. Se ei todista, ettei sitä ole.</p>
+        <p>Yhteistyöverkkoon kuuluvat osallistuminen, keskukseen kuuluminen, dokumentoitu yhteistyö ja organisaatioiden yhteisjulkaisut. <b>Samankaltaiset hankkeet ilman yhteyttä</b> ovat hankepareja, joiden tekstit ovat samankaltaisia mutta joilla ei ole yhteistä toimijaa eikä yhteistyöpolkua kolmen askeleen sisällä. Se kertoo, ettei yhteyttä löytynyt julkisista lähteistä. Se ei todista, ettei sitä ole. Hehtaarit on tarkistettu käsin lainauksineen.</p>
       </div>
       <div class="prose">
         <h2>Tekijä</h2>
@@ -161,14 +161,14 @@ TV.load().then(({ds, net, an}) => {
   const brokers = an.organisations.filter(o => o.valityskeskeisyys > 0).slice(0, 3).map(o => o.nimi.replace(/ \(.*\)/, ""));
   const multi = an.components.filter(c => c.maita > 1);
   document.getElementById("findings").innerHTML = `
-    <p><b>${s.actors} toimijaa jakautuu ${s.components} erilliseen yhteistyösaarekkeeseen.</b> Maarajan ylittää ${multi.length === 1 ? "vain yksi saareke" : multi.length + " saareketta"}${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, ja lähteellä vahvistettuja maiden välisiä yhteyksiä on ${s.cross_country_edges}.</p>
+    <p><b>${s.actors} toimijaa jakautuu hankkeiden kautta ${s.components} erilliseen saarekkeeseen, joista ${s.components_multi} sisältää vähintään kaksi hanketta.</b> Yhteisjulkaisuja on ${s.copub_edges} organisaatioparilla, joista ${s.copub_cross_country} maiden välillä. Hankkeiden kautta maarajan ylittää ${multi.length === 1 ? "vain yksi saareke" : multi.length + " saareketta"}${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, ja lähteellä vahvistettuja maiden välisiä yhteyksiä on ${s.cross_country_edges}.</p>
     <p><b>${s.overlap_pairs} hankeparia on sisällöltään samankaltaisia.</b> Niistä ${s.parallel_unlinked} on samassa maassa samaan aikaan ilman yhteistä toimijaa, esimerkiksi ${top.map(pair).join("; ")}. Kohdekohtaisissa toteutuksissa se on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön.</p>
     <p><b>Maiden välillä</b> samankaltaisia pareja ilman yhteistyöpolkua on ${s.missing_cross_country}${topx.length ? ", esimerkiksi " + topx.map(pair).join("; ") : ""}. Eri kielillä kuvatut hankkeet jäävät menetelmässä helposti alle kynnyksen.</p>
     <p><b>Teemoittain:</b> ${s.theme_country_pairs} maaparilla on hankkeita samassa teemassa, ja niistä ${s.theme_country_pairs_unlinked} ilman yhtään vahvistettua yhteistyöpolkua.</p>
     <p><b>Välittäjäorganisaatiot</b> eli ne, joiden kautta eri hankkeet kytkeytyvät: ${brokers.map(TV.esc).join(", ")}.</p>`;
   document.getElementById("themes").innerHTML = Object.entries(ds.themes).map(([k, v]) => {
     const n = ds.projects.filter(p => p.themes.includes(k)).length;
-    return `<div><span class="pill mono">${k}</span><span>${TV.esc(v)} <span class="note mono">${n}</span></span></div>`;
+    return `<div><span class="pill mono">${k}</span><span>${TV.esc(TV.v(v))} <span class="note mono">${n}</span></span></div>`;
   }).join("");
 
   // Pienoisverkko

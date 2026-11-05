@@ -1,0 +1,377 @@
+# Turverkon englanninkieliset sivut (docs/en/). Sarakkeet: tiedosto<TAB>suomi<TAB>englanti.
+# Tiedosto: index.html, kartta.html, haku.html, esitys.html, ehdota.html, common.js tai * (kaikki sivut).
+# Katkelmissa on ympäröivät merkit (lainausmerkit, tagit), jotta koodin vertailuarvot eivät muutu.
+# Rivinvaihto katkelmassa: \n. Jokaisen katkelman on löydyttävä, muuten site.py pysähtyy.
+#
+# --- common.js ---
+common.js	FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (Interreg)"	FI:"Finland", SE:"Sweden", EE:"Estonia", LV:"Latvia", IE:"Ireland", "DE-NI":"Lower Saxony", "DE-SH":"Schleswig-Holstein", EU:"Multi-country (Interreg)"
+common.js	JTF:"JTF – oikeudenmukainen siirtymä"	JTF:"JTF – Just Transition Fund"
+common.js	MSR:"Maaseuturahasto (EAFRD)"	MSR:"Rural development fund (EAFRD)"
+common.js	KF:"Koheesiorahasto", Interreg:"Interreg (EAKR)"	KF:"Cohesion Fund", Interreg:"Interreg (ERDF)"
+common.js	Kansallinen:"Kansallinen", "?":"EU-osarahoitteinen, rahasto ei lähteessä"	Kansallinen:"National", "?":"EU co-funded, fund not stated in source"
+common.js	EAKR:"EAKR / EFRE / ERDF"	EAKR:"ERDF / EFRE / EAKR"
+common.js	hanke:"Hanke", osaamiskeskus:"Osaamiskeskus", vertailukohde:"Vertailukohde", organisaatio:"Organisaatio",	hanke:"Project", osaamiskeskus:"Competence centre", vertailukohde:"Reference case", organisaatio:"Organisation",
+common.js	julkaisu:"Julkaisu", ohjelma:"Ohjelma", teema:"Teema"	julkaisu:"Publication", ohjelma:"Programme", teema:"Theme"
+common.js	["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"]	["No output information","Qualitative description","Quantitative targets","Reported results","Open data / peer-reviewed"]
+common.js	aria-label="Näyttöaste ${n}/4	aria-label="Evidence level ${n}/4
+common.js	[["index.html","Etusivu"],["kartta.html","Kartta ja verkosto"],["haku.html","Haku"],["esitys.html","Esitys"],["ehdota.html","Ehdota lisäystä"]]	[["index.html","Home"],["kartta.html","Map and network"],["haku.html","Search"],["esitys.html","Presentation"],["ehdota.html","Suggest an addition"]]
+common.js	"Päävalikko"	"Main menu"
+common.js	aria-label="Seinäjoen ammattikorkeakoulu – SEAMK"	aria-label="Seinäjoki University of Applied Sciences – SEAMK"
+common.js	alt="Seinäjoen ammattikorkeakoulu – SEAMK"	alt="Seinäjoki University of Applied Sciences – SEAMK"
+common.js	<span>Julkaisija: Seinäjoen ammattikorkeakoulu (SEAMK)</span>	<span>Publisher: Seinäjoki University of Applied Sciences (SEAMK)</span>
+common.js	<span>Koodi MIT · aineisto CC BY 4.0</span>	<span>Code MIT · data CC BY 4.0</span>
+common.js	>Lähdekoodi ja aineisto</a>	>Source code and data</a>
+common.js	>Osallistuminen</a>	>Contributing</a>
+common.js	>Aineistomalli</a>	>Data model</a>
+common.js	<h3>Aineistoa ei saatu ladattua</h3>	<h3>Could not load the data</h3>
+common.js	Sivu toimii vain verkkopalvelimelta (GitHub Pages). Paikallisesti:	The page only works from a web server (GitHub Pages). Locally:
+#
+# --- index.html ---
+index.html	<title>Turverkko</title>	<title>Turverkko – peatland R&amp;I network</title>
+index.html	JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI · Horizon — 2014–20 ja 2021–27	JTF · ERDF · Interreg · EAFRD · EIP-AGRI · Horizon — 2014–20 and 2021–27
+index.html	<h1>Kuka tekee turvemaiden TKI-työtä, ja kenen kanssa?</h1>	<h1>Who does peatland R&amp;I, and with whom?</h1>
+index.html	Turverkko dokumentoi turvemaihin, turvepeltoihin, suometsiin, kosteikkoviljelyyn ja ennallistamiseen sekä maaperän päästöihin, hiilensidontaan ja niiden mittaukseen (MRV) liittyvän julkisen TKI-rahoituksen kuudella EU:n turvemaa-alueella. Se näyttää, missä samaa työtä tehdään rinnakkain ilman yhteyttä.	Turverkko documents public research and innovation funding for peatlands, peat fields, peatland forests, paludiculture and restoration, as well as soil emissions, carbon sequestration and their measurement (MRV), in six EU peatland regions. It shows where the same work is being done in parallel without a connection.
+index.html	>Avaa kartta ja verkosto</a>	>Open the map and network</a>
+index.html	>Ehdota puuttuvaa yhteyttä</a>	>Suggest a missing link</a>
+index.html	aria-label="Pienoiskuva yhteistyöverkosta"	aria-label="Thumbnail of the collaboration network"
+index.html	aria-label="Aineisto lukuina"	aria-label="The data in numbers"
+index.html	<span class="eyebrow">Visualisointi</span><h3>Kartta ja verkosto</h3><p>Käsitekartta teemoittain, yhteysverkosto, osaamiskeskukset, teemamatriisi ja tuotosten näyttöaste.</p>	<span class="eyebrow">Visualise</span><h3>Map and network</h3><p>Concept map by theme, collaboration network, competence centres, theme matrix and evidence of outputs.</p>
+index.html	<span class="eyebrow">Esitä</span><h3>Raha, hankkeet ja hehtaarit</h3><p>Valitse alue ja ajanjakso: rahoitus, aloitetut hankkeet ja ennallistetut hehtaarit vuosittain. Toisto ja esitystila.</p>	<span class="eyebrow">Present</span><h3>Money, projects and hectares</h3><p>Choose a region and period: funding, started projects and restored hectares by year. Playback and presentation mode.</p>
+index.html	<span class="eyebrow">Selaa</span><h3>Haku ja hankekortit</h3><p>Hae hankkeita, organisaatioita, keskuksia ja julkaisuja. Jokaisella on oma kortti lähteineen ja linkkeineen.</p>	<span class="eyebrow">Browse</span><h3>Search and project cards</h3><p>Search projects, organisations, centres and publications. Each has its own card with sources and links.</p>
+index.html	<span class="eyebrow">Osallistu</span><h3>Ehdota lisäystä</h3><p>Puuttuuko hanke tai yhteys? Lomake tekee valmiin ehdotuksen, joka tarkistetaan ennen lisäämistä.</p>	<span class="eyebrow">Contribute</span><h3>Suggest an addition</h3><p>Is a project or link missing? The form creates a ready-made suggestion that is checked before it is added.</p>
+index.html	<h2>Havainnot</h2>	<h2>Findings</h2>
+index.html	<p class="note">Ladataan…</p>	<p class="note">Loading…</p>
+index.html	Luvut lasketaan automaattisesti aineistosta. Täysi raportti:	Figures are calculated automatically from the data. Full report (in Finnish):
+index.html	<h2>Teemat</h2>	<h2>Themes</h2>
+index.html	Rajattu pois: vety, energiaratkaisut, yleinen yritystuki ja matkailu.	Excluded: hydrogen, energy solutions, general business support and tourism.
+index.html	<h2>Viittaa näin</h2>	<h2>How to cite</h2>
+index.html	aria-label="Viittausmuoto"	aria-label="Citation format"
+index.html	id="copy-cite" type="button">Kopioi</button>	id="copy-cite" type="button">Copy</button>
+index.html	DOI lisätään ensimmäisen Zenodo-julkaisun jälkeen. Siihen asti viittaa repon osoitteeseen.	A DOI will be added after the first Zenodo release. Until then, cite the repository address.
+index.html	<h2>Avaa verkostotyökalussa</h2>	<h2>Open in a network tool</h2>
+index.html	>Avaa Gephi Litessä ↗</a>	>Open in Gephi Lite ↗</a>
+index.html	>Avaa Cytoscape Webissä ↗</a>	>Open in Cytoscape Web ↗</a>
+index.html	Avautuu selaimessa ilman asennusta. Mukana ovat toimijat, julkaisut, yhteistyö- ja tuotosyhteydet sekä lasketut puuttuvat yhteydet (reunan tyyppi	Opens in the browser without installation. Includes actors, publications, collaboration and output links and the calculated links between similar but unconnected projects (edge type
+index.html	), värit maittain ja sijainnit valmiina. Gephi- ja Cytoscape-työpöytäversioihin: lataa	), with colours by country and positions ready. For the Gephi and Cytoscape desktop versions, download
+index.html	turverkko.gexf</a> tai <a	turverkko.gexf</a> or <a
+index.html	<h2 style="margin-top:12px">Lataa aineisto</h2>	<h2 style="margin-top:12px">Download the data</h2>
+index.html	<span>Yhteistyöverkko Gephiin (värit, koot, sijainnit)</span>	<span>Collaboration network for Gephi (colours, sizes, positions)</span>
+index.html	<span>Yhteistyöverkko Cytoscapeen</span>	<span>Collaboration network for Cytoscape</span>
+index.html	<span>Solmut (organisaatiot, hankkeet, keskukset, julkaisut)</span>	<span>Nodes (organisations, projects, centres, publications)</span>
+index.html	<span>Yhteydet lähteineen ja näyttöluokkineen</span>	<span>Links with sources and evidence classes</span>
+index.html	<span>Koko verkosto teemoineen ja rahoitussuhteineen</span>	<span>Full network with themes and funding relations</span>
+index.html	<span>Analyysin tulokset</span>	<span>Analysis results</span>
+index.html	<span>Rakenteinen hankeaineisto</span>	<span>Structured project data</span>
+index.html	Aineisto CC BY 4.0, koodi MIT. Aineistomalli:	Data CC BY 4.0, code MIT. Data model:
+index.html	<h2>Menetelmä ja rajoitukset</h2>	<h2>Method and limitations</h2>
+index.html	<p>Aineisto on lähteillä varmennettu otos, ei koko populaatio. Hanketaso on koottu kansallisista rekistereistä, EU CAP Networkin hankesivuilta, ohjelmatiedotteista ja tutkimusportaaleista. Jokaisella yhteydellä on lähde ja näyttöluokka: lähde, päätelty tai vahvistamatta.</p>	<p>The data is a sample verified against sources, not the full population. Projects were collected from national registers, EU CAP Network project pages, programme announcements and research portals. Every link has a source and an evidence class: source, inferred or unverified.</p>
+index.html	<p>Yhteistyöverkkoon kuuluvat osallistuminen, keskukseen kuuluminen, dokumentoitu yhteistyö ja organisaatioiden yhteisjulkaisut. <b>Samankaltaiset hankkeet ilman yhteyttä</b> ovat hankepareja, joiden tekstit ovat samankaltaisia mutta joilla ei ole yhteistä toimijaa eikä yhteistyöpolkua kolmen askeleen sisällä. Se kertoo, ettei yhteyttä löytynyt julkisista lähteistä. Se ei todista, ettei sitä ole. Hehtaarit on tarkistettu käsin lainauksineen.</p>	<p>The collaboration network includes participation, membership of a centre, documented collaboration and organisations' co-publications. <b>Similar projects without a link</b> are project pairs whose texts are similar but which share no actor and have no collaboration path within three steps. This means no link was found in public sources; it does not prove there is none. Hectares have been checked by hand, with quotations.</p>
+index.html	<h2>Tekijä</h2>	<h2>Author</h2>
+index.html	<p>Miiro Jääskeläinen, Seinäjoen ammattikorkeakoulu ·	<p>Miiro Jääskeläinen, Seinäjoki University of Applied Sciences (SEAMK) ·
+index.html	<p>Työ on tehty tekoälyavusteisesti tekijän ohjauksessa. Tekijän panos on tutkimuskysymys ja rajaus, asiantuntijatarkistus ja julkaisupäätökset. Tarkemmin:	<p>The work was produced with AI assistance under the author's direction. The author's contribution is the research question and scope, expert review and publication decisions. More:
+index.html	<p>Repoa saa forkata ja kehittää lisenssien ehdoin.</p>	<p>The repository may be forked and developed under the terms of the licences.</p>
+index.html	msg.textContent = "Kopioitu.";	msg.textContent = "Copied.";
+index.html	msg.textContent = "Valittu – kopioi Ctrl+C.";	msg.textContent = "Selected – copy with Ctrl+C.";
+index.html	[ds.projects.length, "turvemaahanketta"],	[ds.projects.length, "peatland projects"],
+index.html	[ds.hubs.length, "osaamiskeskusta"],	[ds.hubs.length, "competence centres"],
+index.html	[s.actors, "toimijaa yhteistyöverkossa"],	[s.actors, "actors in the collaboration network"],
+index.html	"usean hankkeen yhteistyöryvästä / saareketta"	"multi-project clusters / islands"
+index.html	[s.parallel_unlinked, "rinnakkaista hankeparia ilman yhteyttä"],	[s.parallel_unlinked, "parallel project pairs without a link"],
+index.html	[TV.eur(jtf), "turvepainotteista JTF-rahoitusta"],	[TV.eur(jtf), "peat-focused JTF funding"],
+index.html	</a> ja <a href="haku.html#${encodeURIComponent(m.b)}">	</a> and <a href="haku.html#${encodeURIComponent(m.b)}">
+index.html	<p><b>${s.actors} toimijaa jakautuu hankkeiden kautta ${s.components} erilliseen saarekkeeseen, joista ${s.components_multi} sisältää vähintään kaksi hanketta.</b> Yhteisjulkaisuja on ${s.copub_edges} organisaatioparilla, joista ${s.copub_cross_country} maiden välillä. Hankkeiden kautta maarajan ylittää ${multi.length === 1 ? "vain yksi saareke" : multi.length + " saareketta"}${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, ja lähteellä vahvistettuja maiden välisiä yhteyksiä on ${s.cross_country_edges}.</p>	<p><b>Through projects, ${s.actors} actors fall into ${s.components} separate islands, of which ${s.components_multi} contain at least two projects.</b> ${s.copub_edges} organisation pairs have co-publications, ${s.copub_cross_country} of them across borders. Through projects, ${multi.length === 1 ? "only one island crosses" : multi.length + " islands cross"} a border${multi.length ? ` (${multi.map(c => c.maat).join(", ")})` : ""}, and there are ${s.cross_country_edges} source-verified cross-border links.</p>
+index.html	<p><b>${s.overlap_pairs} hankeparia on sisällöltään samankaltaisia.</b> Niistä ${s.parallel_unlinked} on samassa maassa samaan aikaan ilman yhteistä toimijaa, esimerkiksi ${top.map(pair).join("; ")}. Kohdekohtaisissa toteutuksissa se on usein tarkoituksellista, menetelmä- ja suunnitteluhankkeissa se viittaa päällekkäiseen työhön.</p>	<p><b>${s.overlap_pairs} project pairs have similar content.</b> Of these, ${s.parallel_unlinked} are in the same country at the same time without a shared actor, for example ${top.map(pair).join("; ")}. For site-specific implementation this is often intentional; for method and planning projects it points to duplicated work.</p>
+index.html	<p><b>Maiden välillä</b> samankaltaisia pareja ilman yhteistyöpolkua on ${s.missing_cross_country}${topx.length ? ", esimerkiksi " + topx.map(pair).join("; ") : ""}. Eri kielillä kuvatut hankkeet jäävät menetelmässä helposti alle kynnyksen.</p>	<p><b>Across borders</b> there are ${s.missing_cross_country} similar pairs without a collaboration path${topx.length ? ", for example " + topx.map(pair).join("; ") : ""}. Projects described in different languages easily fall below the threshold in this method.</p>
+index.html	<p><b>Teemoittain:</b> ${s.theme_country_pairs} maaparilla on hankkeita samassa teemassa, ja niistä ${s.theme_country_pairs_unlinked} ilman yhtään vahvistettua yhteistyöpolkua.</p>	<p><b>By theme:</b> ${s.theme_country_pairs} country pairs have projects in the same theme, and ${s.theme_country_pairs_unlinked} of them have no verified collaboration path.</p>
+index.html	<p><b>Välittäjäorganisaatiot</b> eli ne, joiden kautta eri hankkeet kytkeytyvät:	<p><b>Broker organisations</b>, through which different projects connect:
+#
+# --- haku.html ---
+haku.html	<title>Haku – Turverkko</title>	<title>Search – Turverkko</title>
+haku.html	document.title = "Haku – Turverkko";	document.title = "Search – Turverkko";
+haku.html	placeholder="esim. ennallistaminen, SEAMK, Latvia, paludikulttuuri"	placeholder="e.g. restoration, SEAMK, Latvia, paludiculture"
+haku.html	<option value="">Kaikki tyypit</option>	<option value="">All types</option>
+haku.html	<option value="">Kaikki maat</option>	<option value="">All countries</option>
+haku.html	<option value="">Kaikki teemat</option>	<option value="">All themes</option>
+haku.html	<option value="">Turvemaat ja muu maaperä</option><option value="turvemaa">Vain turvemaat</option><option value="maaperä">Vain muu maaperä</option>	<option value="">Peatland and other soil</option><option value="turvemaa">Peatland only</option><option value="maaperä">Other soil only</option>
+haku.html	${hits.length} / ${items.length} tulosta	${hits.length} / ${items.length} results
+haku.html	`<div class="empty">Ei tuloksia. Puuttuuko jotain? <a href="ehdota.html">Ehdota lisäystä</a>.</div>`	`<div class="empty">No results. Is something missing? <a href="ehdota.html">Suggest an addition</a>.</div>`
+haku.html	`<div class="eyebrow">Kortti</div><h2>Valitse tulos</h2><p class="note">Kortti näyttää rahoituksen, toteuttajat, tuotokset, yhteydet muihin toimijoihin ja jokaisen tiedon lähteen. Kortin osoitteen voi jakaa.</p>`	`<div class="eyebrow">Card</div><h2>Choose a result</h2><p class="note">The card shows funding, implementers, outputs, links to other actors and the source of every item. The card's address can be shared.</p>`
+haku.html	add("Tyyppi",	add("Type",
+haku.html	add("Maa",	add("Country",
+haku.html	add("Alue",	add("Region",
+haku.html	add("Rahasto",	add("Fund",
+haku.html	add("Kausi",	add("Period",
+haku.html	add("Toteuttaja",	add("Lead",
+haku.html	add("Budjetti",	add("Budget",
+haku.html	add("EU-osuus",	add("EU share",
+haku.html	add("Allokaatio",	add("Allocation",
+haku.html	add("Tila",	add("Status",
+haku.html	add("Toimijat",	add("Members",
+haku.html	add("Tavoite",	add("Target",
+haku.html	add("Toteuma",	add("Achieved",
+haku.html	add("Tuotokset",	add("Outputs",
+haku.html	add("Ohjelma",	add("Programme",
+haku.html	add("Valuutta",	add("Currency",
+haku.html	add("Hehtaarit",	add("Hectares",
+haku.html	add("Lähteet",	add("Sources",
+haku.html	add("Rajaus", `<span class="pill">muu maaperä</span>	add("Scope", `<span class="pill">other soil</span>
+haku.html	add("Luokittelu", `<span class="pill unv">teemat luokiteltu automaattisesti</span> <span class="note">tuotu:	add("Classification", `<span class="pill unv">themes classified automatically</span> <span class="note">imported:
+haku.html	add("Näyttöaste",	add("Evidence level",
+haku.html	add("Tekijät",	add("Authors",
+haku.html	add("Julkaisu",	add("Publication",
+haku.html	"Organisaatiotyyppi" : "Julkaisutyyppi"	"Organisation type" : "Publication type"
+haku.html	' <span class="pill unv">metatiedot avaamatta</span>'	' <span class="pill unv">metadata not opened</span>'
+haku.html	add("Organisaatiotyyppi",	add("Organisation type",
+haku.html	add("Huomio",	add("Note",
+haku.html	add("Kaksoiskirjaus",	add("Duplicate entry",
+haku.html	<a class="note" href="${e.url}" target="_blank" rel="noopener">lähde ↗</a>	<a class="note" href="${e.url}" target="_blank" rel="noopener">source ↗</a>
+haku.html	const KN = {osallistuu:"osallistuu", kuuluu_keskukseen:"kuuluu keskukseen", yhteistyo:"yhteistyö", ei_kytkosta:"ei löydettyä kytköstä", rahoittaa:"rahoittaa", tuotos:"tuotos", yhteisjulkaisu:"yhteisjulkaisut"};	const KN = {osallistuu:"participates", kuuluu_keskukseen:"member of centre", yhteistyo:"collaboration", ei_kytkosta:"no link found", rahoittaa:"funds", tuotos:"output", yhteisjulkaisu:"co-publications"};
+haku.html	"Yhteisjulkaisut (OpenAIRE)" : e.kind === "tuotos" ? "Tuotokset ja julkaisut" : e.kind === "rahoittaa" ? "Rahoitus" : N[o] && N[o].kind === "organisaatio" ? "Organisaatiot" : "Hankkeet ja keskukset"	"Co-publications (OpenAIRE)" : e.kind === "tuotos" ? "Outputs and publications" : e.kind === "rahoittaa" ? "Funding" : N[o] && N[o].kind === "organisaatio" ? "Organisations" : "Projects and centres"
+haku.html	`<div class="eyebrow">Samankaltaiset hankkeet ilman yhteyttä (${miss.length})</div><p class="note">Tekstiltään samankaltainen, ei yhteistä toimijaa eikä lyhyttä yhteistyöpolkua.</p>	`<div class="eyebrow">Similar projects without a link (${miss.length})</div><p class="note">Similar text, no shared actor and no short collaboration path.</p>
+haku.html	add("Välityskeskeisyys", `<span class="mono">${org.valityskeskeisyys}</span> <span class="note">· saareke ${org.komponentti}</span>`);	add("Betweenness", `<span class="mono">${org.valityskeskeisyys}</span> <span class="note">· island ${org.komponentti}</span>`);
+haku.html	rel="noopener">Lähde ↗</a>` : ""}	rel="noopener">Source ↗</a>` : ""}
+haku.html	>Ehdota korjausta tai yhteyttä</a>	>Suggest a correction or link</a>
+#
+# --- ehdota.html (lomakepohjan arvot value="..." pysyvät suomeksi) ---
+ehdota.html	<title>Ehdota lisäystä – Turverkko</title>	<title>Suggest an addition – Turverkko</title>
+ehdota.html	>Ehdota lisäystä</h1>	>Suggest an addition</h1>
+ehdota.html	>Puuttuuko hanke, organisaatio tai yhteys? Tai onko jokin tieto väärin? Täytä lomake, niin siitä syntyy valmis ehdotus. Ehdotus tarkistetaan ennen kuin se lisätään aineistoon.</p>	>Is a project, organisation or link missing? Or is something wrong? Fill in the form to create a ready-made suggestion. Suggestions are checked before they are added to the data.</p>
+ehdota.html	<legend>Mitä ehdotat?</legend>	<legend>What are you suggesting?</legend>
+ehdota.html	>Valitse ehdotuksen tyyppi.</p>	>Choose the type of suggestion.</p>
+ehdota.html	>Kohde aineistossa <span class="hint">Jos ehdotus koskee olemassa olevaa hanketta, keskusta tai organisaatiota. Kirjoita nimeä, niin näet osumat.</span>	>Item in the data <span class="hint">If the suggestion concerns an existing project, centre or organisation. Start typing a name to see matches.</span>
+ehdota.html	placeholder="esim. TUPSU, Silava, H-LV"	placeholder="e.g. TUPSU, Silava, H-LV"
+ehdota.html	>Nimi <span class="hint" id="nimi-hint">Hankkeen, organisaation tai julkaisun nimi.</span>	>Name <span class="hint" id="nimi-hint">Name of the project, organisation or publication.</span>
+ehdota.html	>Kirjoita nimi.</p>	>Enter a name.</p>
+ehdota.html	<label for="maa">Maa	<label for="maa">Country
+ehdota.html	"Suomi">Suomi</option>	"Suomi">Finland</option>
+ehdota.html	"Ruotsi">Ruotsi</option>	"Ruotsi">Sweden</option>
+ehdota.html	"Viro">Viro</option>	"Viro">Estonia</option>
+ehdota.html	"Irlanti">Irlanti</option>	"Irlanti">Ireland</option>
+ehdota.html	"Niedersachsen">Niedersachsen</option>	"Niedersachsen">Lower Saxony</option>
+ehdota.html	"Muu">Muu</option>	"Muu">Other</option>
+ehdota.html	>Rahasto ja kausi <span class="hint">esim. JTF 2021–27</span>	>Fund and period <span class="hint">e.g. JTF 2021–27</span>
+ehdota.html	<option>Maaseuturahasto</option><option>Koheesiorahasto</option><option>LIFE</option><option>Kansallinen</option>	<option>EAFRD</option><option>Cohesion Fund</option><option>LIFE</option><option>National</option>
+ehdota.html	<legend>Teemat</legend>	<legend>Themes</legend>
+ehdota.html	>Kuvaus <span class="hint" id="kuvaus-hint">Mitä lisätään tai korjataan.</span>	>Description <span class="hint" id="kuvaus-hint">What should be added or corrected.</span>
+ehdota.html	>Kirjoita lyhyt kuvaus.</p>	>Enter a short description.</p>
+ehdota.html	>Lähde <span class="hint">Julkinen sivu, josta tieto on tarkistettavissa.</span>	>Source <span class="hint">A public page where the information can be checked.</span>
+ehdota.html	>Lisää lähteen osoite, joka alkaa https:// tai http://.</p>	>Add a source address starting with https:// or http://.</p>
+ehdota.html	>Ehdottaja <span class="hint">Vapaaehtoinen. Nimi ja organisaatio, jos haluat tulla mainituksi.</span>	>Suggested by <span class="hint">Optional. Name and organisation, if you want to be credited.</span>
+ehdota.html	>Avaa valmis ehdotus GitHubissa</button>	>Open the suggestion on GitHub</button>
+ehdota.html	>Kopioi ehdotus tekstinä</button>	>Copy the suggestion as text</button>
+ehdota.html	<h3>Näin ehdotus etenee</h3>	<h3>What happens next</h3>
+ehdota.html	<li>Lomake avaa GitHubiin valmiiksi täytetyn ehdotuksen. Lähettäminen vaatii ilmaisen GitHub-tilin.</li>	<li>The form opens a pre-filled suggestion on GitHub. Submitting requires a free GitHub account.</li>
+ehdota.html	<li>Ylläpitäjä tarkistaa lähteen ja lisää tiedon aineistoon.</li>	<li>The maintainer checks the source and adds the information to the data.</li>
+ehdota.html	<li>Analyysi ajetaan uudelleen, ja muutos näkyy kartassa, haussa ja raportissa.</li>	<li>The analysis is rerun and the change appears in the map, search and report.</li>
+ehdota.html	>Ilman GitHub-tiliä: kopioi ehdotus tekstinä ja lähetä se ylläpitäjälle.</p>	>Without a GitHub account: copy the suggestion as text and send it to the maintainer. The form fields are in Finnish because the maintainer works in Finnish; you can write in English.</p>
+ehdota.html	<h3>Löytyykö tämä jo?</h3>	<h3>Is this already in the data?</h3>
+ehdota.html	<h3>Esikatselu</h3>	<h3>Preview</h3>
+ehdota.html	"<b>Uusi hanke</b>", "Hanke, joka puuttuu aineistosta"	"<b>New project</b>", "A project missing from the data"
+ehdota.html	"<b>Uusi organisaatio</b>", "Toteuttaja tai partneri"	"<b>New organisation</b>", "Lead or partner"
+ehdota.html	"<b>Osallistuminen</b>", "Kuka on mukana missäkin"	"<b>Participation</b>", "Who is involved in what"
+ehdota.html	"<b>Yhteistyö</b>", "Vierailu, yhteishanke, yhteinen tutkija"	"<b>Collaboration</b>", "Visit, joint project, shared researcher"
+ehdota.html	"<b>Uusi julkaisu tai tuotos</b>", "Artikkeli, raportti, aineisto"	"<b>New publication or output</b>", "Article, report, dataset"
+ehdota.html	"<b>Korjaus olemassa olevaan tietoon</b>", "Väärä summa, nimi tai yhteys"	"<b>Correction to existing data</b>", "Wrong amount, name or link"
+ehdota.html	["Molemmat osapuolet, esim. TUKKA ja PeatTransform.", "Mitä yhteistyö on ollut ja milloin."]	["Both parties, e.g. TUKKA and PeatTransform.", "What the collaboration was and when."]
+ehdota.html	["Organisaatio ja hanke.", "Organisaation rooli: koordinaattori, partneri, rahoittaja tai kenttäkumppani."]	["Organisation and project.", "The organisation's role: coordinator, partner, funder or field partner."]
+ehdota.html	["Korjattava kohta.", "Mikä on väärin ja mikä oikea tieto on."]	["The item to correct.", "What is wrong and what the correct information is."]
+ehdota.html	`<p class="note">Teemalistaa ei saatu ladattua. Kirjoita teemat kuvaukseen.</p>`	`<p class="note">Could not load the theme list. Write the themes in the description.</p>`
+ehdota.html	[["Ehdotuksen tyyppi", v.tyyppi], ["Kohteen tunniste", v.kohde], ["Nimi", v.nimi], ["Maa", v.maa], ["Rahasto ja ohjelmakausi", v.rahasto],	[["Type of suggestion", v.tyyppi], ["Item ID", v.kohde], ["Name", v.nimi], ["Country", v.maa], ["Fund and programme period", v.rahasto],
+ehdota.html	["Teemat", v.teemat], ["Kuvaus", v.kuvaus], ["Lähde", v.lahde], ["Ehdottaja", v.ehdottaja]]	["Themes", v.teemat], ["Description", v.kuvaus], ["Source", v.lahde], ["Suggested by", v.ehdottaja]]
+ehdota.html	: "Hankkeen, organisaation tai julkaisun nimi.";	: "Name of the project, organisation or publication.";
+ehdota.html	: "Mitä lisätään tai korjataan. Hankkeesta toteuttaja, partnerit, budjetti, kausi ja tuotokset, jos lähde ne kertoo.";	: "What should be added or corrected. For a project: lead, partners, budget, period and outputs, if the source states them.";
+ehdota.html	|| "Täytä lomake, niin ehdotus näkyy tässä.";	|| "Fill in the form and the suggestion appears here.";
+ehdota.html	$("msg").textContent = "Täydennä merkityt kentät."	$("msg").textContent = "Complete the marked fields."
+ehdota.html	`GitHub avautui uuteen välilehteen. Tarkista tiedot ja paina siellä <b>Create</b>. Jos välilehti ei auennut: <a href="${TV.esc(url)}" target="_blank" rel="noopener">avaa ehdotus</a>.`	`GitHub opened in a new tab. Check the details and press <b>Create</b> there. If the tab did not open: <a href="${TV.esc(url)}" target="_blank" rel="noopener">open the suggestion</a>.`
+ehdota.html	`Turverkko – ehdotus	`Turverkko – suggestion
+ehdota.html	"Ehdotus kopioitu leikepöydälle."	"Suggestion copied to the clipboard."
+ehdota.html	"Esikatselu valittu – kopioi Ctrl+C."	"Preview selected – copy with Ctrl+C."
+index.html	(Versio 1.0.0) [Ohjelmisto].	(Version 1.0.0) [Software].
+#
+# --- esitys.html ---
+esitys.html	<title>Esitys – Turverkko</title>	<title>Presentation – Turverkko</title>
+esitys.html	<span class="eyebrow">Esitys</span>	<span class="eyebrow">Presentation</span>
+esitys.html	id="title">Rahoitus, hankkeet ja hehtaarit ajan kuluessa</h1>	id="title">Funding, projects and hectares over time</h1>
+esitys.html	>Valitse alue ja ajanjakso. Kaaviot näyttävät vuosittain hankkeisiin myönnetyn rahan, aloitetut hankkeet ja ennallistavien toimenpiteiden hehtaarit. Toista-painike käy vuodet läpi, ja esitystila piilottaa valikot. Näkymän osoitteen voi jakaa: valinnat tallentuvat siihen.</p>	>Choose a region and period. The charts show, by year, the money granted to projects, the projects started and the hectares of restoring measures. Play steps through the years, and presentation mode hides the controls. The view's address can be shared: the choices are stored in it.</p>
+esitys.html	aria-label="Valinnat"	aria-label="Choices"
+esitys.html	<span>Maa</span><div class="chips" id="f-country">	<span>Country</span><div class="chips" id="f-country">
+esitys.html	<span>Alue</span><select id="f-region" aria-label="Alue">	<span>Region</span><select id="f-region" aria-label="Region">
+esitys.html	<span>Rahasto</span><div class="chips" id="f-fund">	<span>Fund</span><div class="chips" id="f-fund">
+esitys.html	<span>Rajaus</span><select id="f-scope" aria-label="Rajaus"><option value="">Turvemaat ja muu maaperä</option><option value="turvemaa">Vain turvemaat</option><option value="maaperä">Vain muu maaperä</option>	<span>Scope</span><select id="f-scope" aria-label="Scope"><option value="">Peatland and other soil</option><option value="turvemaa">Peatland only</option><option value="maaperä">Other soil only</option>
+esitys.html	<span>Ajanjakso</span>	<span>Period</span>
+esitys.html	aria-label="Alkuvuosi"	aria-label="First year"
+esitys.html	aria-label="Loppuvuosi"	aria-label="Last year"
+esitys.html	<button data-p="all">Kaikki</button>	<button data-p="all">All</button>
+esitys.html	<span>Erittely</span><div class="seg" id="f-split"><button data-v="country" aria-pressed="true">Maa</button><button data-v="fund">Rahasto</button>	<span>Breakdown</span><div class="seg" id="f-split"><button data-v="country" aria-pressed="true">Country</button><button data-v="fund">Fund</button>
+esitys.html	<span>Rahan kohdistus</span><div class="seg" id="f-alloc"><button data-v="start" aria-pressed="true">Alkuvuoteen</button><button data-v="spread">Kestolle</button>	<span>Allocate money</span><div class="seg" id="f-alloc"><button data-v="start" aria-pressed="true">To start year</button><button data-v="spread">Over duration</button>
+esitys.html	aria-label="Aikajana"	aria-label="Timeline"
+esitys.html	"▶ Toista"	"▶ Play"
+esitys.html	>▶ Toista</button>	>▶ Play</button>
+esitys.html	"❚❚ Pysäytä"	"❚❚ Pause"
+esitys.html	aria-label="Vuosi"	aria-label="Year"
+esitys.html	>Esitystila</button>	>Presentation mode</button>
+esitys.html	>Poistu esitystilasta (Esc)</button><span class="note">← → vaihtaa vuotta, välilyönti toistaa</span>	>Exit presentation mode (Esc)</button><span class="note">← → changes the year, space plays</span>
+esitys.html	aria-label="Tunnusluvut valitulle alueelle ja vuoteen asti"	aria-label="Key figures for the chosen region up to the year"
+esitys.html	<h2>Myönnetty rahoitus</h2>	<h2>Funding granted</h2>
+esitys.html	aria-label="Rahoitus vuosittain"	aria-label="Funding by year"
+esitys.html	<h2>Aloitetut hankkeet</h2>	<h2>Projects started</h2>
+esitys.html	aria-label="Aloitetut hankkeet vuosittain"	aria-label="Projects started by year"
+esitys.html	<h2>Ennallistavien toimenpiteiden hehtaarit, kertymä</h2>	<h2>Hectares of restoring measures, cumulative</h2>
+esitys.html	aria-label="Hehtaarien kertymä vuosittain"	aria-label="Cumulative hectares by year"
+esitys.html	<h2>Hinta hehtaaria kohden toimenpiteittäin</h2>	<h2>Cost per hectare by measure</h2>
+esitys.html	>Hankkeen budjetti jaettuna sen ennallistavalla hehtaaritavoitteella (tai toteumalla). Yksi piste on yksi hanke, pystyviiva on toimenpiteen mediaani. Logaritminen asteikko. Ontot pisteet ovat pilotteja tai kehityshankkeita, joissa hehtaarit ovat pieni osa työtä; ne eivät ole mediaanissa.</p>	>Project budget divided by its restoring hectare target (or achieved area). One dot is one project; the vertical line is the median for the measure. Logarithmic scale. Hollow dots are pilots or development projects in which hectares are a small part of the work; they are not in the median.</p>
+esitys.html	aria-label="Hinta hehtaaria kohden hankkeittain ja toimenpiteittäin"	aria-label="Cost per hectare by project and measure"
+esitys.html	<summary>Taulukko</summary>	<summary>Table</summary>
+esitys.html	>Valinnan hankkeista ei ole tarkistettua hehtaaritietoa.</text>	>No checked hectare data for the selected projects.</text>
+esitys.html	${ys[i]} mennessä</div>	by ${ys[i]}</div>
+esitys.html	<span class="k">tavoite</span></div>	<span class="k">target</span></div>
+esitys.html	<span class="k">raportoitu toteuma</span></div>	<span class="k">reported achieved</span></div>
+esitys.html	[["ennallistaminen","Ennallistaminen"],["vettäminen","Vettäminen"],["kosteikko","Kosteikko"]]	[["ennallistaminen","Restoration"],["vettäminen","Rewetting"],["kosteikko","Wetland"]]
+esitys.html	>Valinnassa ei ole hankkeita, joilla on sekä budjetti että ennallistava hehtaaritieto.</text>	>No selected projects have both a budget and restoring hectare data.</text>
+esitys.html	· ${rs.length} hanketta${m ? " · mediaani " + nS(m) + " €/ha" : ""}	· ${rs.length} projects${m ? " · median " + nS(m) + " €/ha" : ""}
+esitys.html	fill="var(--muted)">${rs.length} hanketta</text>	fill="var(--muted)">${rs.length} projects</text>
+esitys.html	fill="var(--fg)">mediaani ${nS(m)} €/ha</text>	fill="var(--fg)">median ${nS(m)} €/ha</text>
+esitys.html	<div class="k">Ei mediaanissa: ${TV.esc(r.note)}</div>	<div class="k">Not in median: ${TV.esc(r.note)}</div>
+esitys.html	vertical-align:-3px"></i>mediaani</span>	vertical-align:-3px"></i>median</span>
+esitys.html	border-radius:50%"></i>pilotti tai kehityshanke</span>	border-radius:50%"></i>pilot or development project</span>
+esitys.html	<th>Hanke</th><th>Maa</th><th>Toimenpide</th><th>Budjetti</th><th>Hehtaarit</th><th>€/ha</th><th>Mediaanissa</th>	<th>Project</th><th>Country</th><th>Measure</th><th>Budget</th><th>Hectares</th><th>€/ha</th><th>In median</th>
+esitys.html	${r.ok ? "kyllä" : `<span class="note" title="${TV.esc(r.note)}">ei</span>`}	${r.ok ? "yes" : `<span class="note" title="${TV.esc(r.note)}">no</span>`}
+esitys.html	"Toimenpideluokat noudattavat lähteen sanamuotoa ja menevät osin päällekkäin: suomalaisten turvetuotantoalueiden ennallistaminen ja saksalainen vettäminen (Wiedervernässung) ovat kumpikin pääosin ojien tukkimista. Suurempi ero on kohteissa: Suomen hankkeet ovat laajoja entisiä turvetuotantoalueita, Niedersachsenin hankkeet pieniä Natura-soita, joissa budjettiin sisältyy maanhankintaa ja rakentamista. Budjetti kattaa myös suunnittelun, seurannan ja viestinnän, joten luku on hankkeen hinta hehtaaria kohden, ei ennallistamistyön yksikköhinta. Summat ovat nimellisiä euroja; Ruotsin kruunut on muunnettu EKP:n vuosikeskikurssilla. Valinta: hankkeet, joiden toteutusaika osuu valittuun ajanjaksoon."	"The measure classes follow the source wording and partly overlap: restoration of Finnish peat extraction areas and German rewetting (Wiedervernässung) both consist mainly of blocking ditches. The bigger difference is in the sites: the Finnish projects are large former peat extraction areas, the Lower Saxony projects small Natura bogs where the budget includes land acquisition and construction. The budget also covers planning, monitoring and communication, so the figure is the project's cost per hectare, not the unit cost of restoration work. Amounts are nominal euros; Swedish kronor are converted at the ECB annual average rate. Selection: projects whose implementation period overlaps the chosen period."
+esitys.html	? "Kaikki alueet" :	? "All regions" :
+esitys.html	`Esitys: ${scopeTxt} – Turverkko`	`Presentation: ${scopeTxt} – Turverkko`
+esitys.html	eurS, "rahoitus");	eurS, "funding");
+esitys.html	"aloitettuja hankkeita", true);	"projects started", true);
+esitys.html	style="border-color:var(--fg)"></i>tavoite (tavoitevuoden mukaan)</span><span><i class="ln" style="border-color:var(--accent)"></i>raportoitu toteuma</span>	style="border-color:var(--fg)"></i>target (by target year)</span><span><i class="ln" style="border-color:var(--accent)"></i>reported achieved</span>
+esitys.html	`rahoitusta ${S.from}–${cur}`	`funding ${S.from}–${cur}`
+esitys.html	`hanketta aloitettu ${S.from}–${cur}`	`projects started ${S.from}–${cur}`
+esitys.html	`ennallistettu, raportoitu toteuma ${cur} mennessä`	`restored, reported achieved by ${cur}`
+esitys.html	`ennallistamistavoitteita ${cur} mennessä (päättyneiden hankkeiden ${haS(endedT)})`	`restoration targets by ${cur} (ended projects ${haS(endedT)})`
+esitys.html	"Koko budjetti hankkeen alkuvuodelle." : "Budjetti jaettu tasan hankkeen toteutusvuosille."	"Whole budget in the project's start year." : "Budget split evenly over the project's years."
+esitys.html	`Kokonaisbudjetti tai EU-osuus, jos budjetti puuttuu. ${allocTxt}`	`Total budget, or the EU share if the budget is missing. ${allocTxt}`
+esitys.html	"Hankkeet alkuvuoden mukaan."	"Projects by start year."
+esitys.html	"Ennallistaminen, vettäminen ja kosteikot hankkeiden omista teksteistä, käsin tarkistettuina. Tavoitteet kirjataan tavoite- tai loppuvuodelle."	"Restoration, rewetting and wetlands from the projects' own texts, checked by hand. Targets are recorded in the target or end year."
+esitys.html	"Ohjelmatason vertailutieto (ei laskettu yhteen hankkeiden kanssa): "	"Programme-level reference figures (not added to the projects): "
+esitys.html	`${ps.length} hanketta valinnassa. Kaavioista puuttuu ${sr.noYear} hanketta ilman alkuvuotta, ${sr.outside} ajanjakson ulkopuolella alkanutta ja ${sr.noMoney} ilman summaa (rahoituskaaviosta). Aineisto on otos, ei koko populaatio: ks. hakukattavuus repossa.`	`${ps.length} projects selected. Missing from the charts: ${sr.noYear} projects without a start year, ${sr.outside} started outside the period and ${sr.noMoney} without an amount (from the funding chart). The data is a sample, not the full population: see search coverage in the repository.`
+esitys.html	<th>Vuosi</th>	<th>Year</th>
+esitys.html	<th>Rahoitus yht.</th><th>Hankkeita</th><th>Tavoite ha (kertymä)</th><th>Toteuma ha (kertymä)</th>	<th>Funding total</th><th>Projects</th><th>Target ha (cumulative)</th><th>Achieved ha (cumulative)</th>
+esitys.html	`Vuonna ${cur} alkaneet hankkeet (${yearPs.length})`	`Projects started in ${cur} (${yearPs.length})`
+esitys.html	"tavoite " + haS(p.ha_target)	"target " + haS(p.ha_target)
+esitys.html	"toteuma " + haS(p.ha_realised)	"achieved " + haS(p.ha_realised)
+esitys.html	style="padding:16px">Ei valinnassa.</div>	style="padding:16px">None in the selection.</div>
+esitys.html	`<option value="">Kaikki alueet</option>`	`<option value="">All regions</option>`
+esitys.html	${f === "?" ? "muu" : f}	${f === "?" ? "other" : f}
+#
+# --- kartta.html (site/template.html; aineisto on sivulla JSONina, joten katkelmissa on HTML/JS-kontekstia) ---
+kartta.html	<title>Kartta ja verkosto – Turverkko</title>	<title>Map and network – Turverkko</title>
+kartta.html	— 2014–20 ja 2021–27</div>	— 2014–20 and 2021–27</div>
+kartta.html	<div class="eyebrow">JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI	<div class="eyebrow">JTF · ERDF · Interreg · EAFRD · EIP-AGRI
+kartta.html	<p class="lede">Turvemaiden, turvepeltojen, suometsien, kosteikkoviljelyn, ennallistamisen ja maankäyttösektorin päästöjen julkinen TKI-rahoitus kuudella EU:n turvemaa-alueella: mihin raha menee, kuka tekee yhteistyötä kenen kanssa ja paljonko hankkeista jää näytettävää. Aineisto on lähteillä varmennettu otos, ei koko populaatio.</p>	<p class="lede">Public R&amp;I funding for peatlands, peat fields, peatland forests, paludiculture, restoration and land-use emissions in six EU peatland regions: where the money goes, who collaborates with whom and how much evidence the projects leave behind. The data is a sample verified against sources, not the full population. Project names and descriptions are in the source language.</p>
+kartta.html	aria-label="Yhteenveto"	aria-label="Summary"
+kartta.html	id="insights" aria-label="Havainnot"	id="insights" aria-label="Findings"
+kartta.html	aria-label="Näkymät"	aria-label="Views"
+kartta.html	data-view="map">Käsitekartta</button>	data-view="map">Concept map</button>
+kartta.html	data-view="net">Yhteysverkosto</button>	data-view="net">Collaboration network</button>
+kartta.html	data-view="hubs">Osaamiskeskukset</button>	data-view="hubs">Competence centres</button>
+kartta.html	data-view="matrix">Teema × maa</button>	data-view="matrix">Theme × country</button>
+kartta.html	data-view="overlap">Päällekkäisyydet</button>	data-view="overlap">Overlaps</button>
+kartta.html	data-view="output">Tuotokset</button>	data-view="output">Outputs</button>
+kartta.html	data-view="prog">Ohjelmat</button>	data-view="prog">Programmes</button>
+kartta.html	aria-label="Suodattimet"	aria-label="Filters"
+kartta.html	aria-label="Hankkeet ulkokehällä, teemat sisäkehällä"	aria-label="Projects on the outer ring, themes on the inner ring"
+kartta.html	aria-label="Osaamiskeskusten väliset kytkökset"	aria-label="Links between competence centres"
+kartta.html	</svg> dokumentoitu yhteistyö</span>	</svg> documented collaboration</span>
+kartta.html	</svg> sama teema, ei löydettyä kytköstä</span><span>Pallon koko = löydettyjen julkaisujen ja tuotosten määrä</span>	</svg> same theme, no link found</span><span>Circle size = number of publications and outputs found</span>
+kartta.html	<p class="note">Julkaisut haettu 31.10.2026 hankkeiden sivuilta, JYX-arkistosta, EGU:n abstraktikannasta ja University of Galwayn tutkimusportaalista. Merkintä "metatiedot avaamatta" tarkoittaa, että otsikko löytyi arkistosta, mutta sivu ei auennut tarkistettavaksi.</p>	<p class="note">Publications collected on 31 Oct 2026 from project pages, the JYX repository, the EGU abstract database and the University of Galway research portal. "Metadata not opened" means the title was found in a repository but the page could not be opened for checking.</p>
+kartta.html	aria-label="Verkoston näkymä"	aria-label="Network view"
+kartta.html	<span class="eyebrow">Näytä</span>	<span class="eyebrow">Show</span>
+kartta.html	id="net-unv" aria-pressed="true">vahvistamattomat yhteydet</button>	id="net-unv" aria-pressed="true">unverified links</button>
+kartta.html	id="net-miss" aria-pressed="false">samankaltaiset ilman yhteyttä</button>	id="net-miss" aria-pressed="false">similar without a link</button>
+kartta.html	id="net-pubs" aria-pressed="false">julkaisut</button>	id="net-pubs" aria-pressed="false">publications</button>
+kartta.html	id="net-copub" aria-pressed="false">yhteisjulkaisut</button>	id="net-copub" aria-pressed="false">co-publications</button>
+kartta.html	aria-label="Organisaatioiden, hankkeiden ja osaamiskeskusten yhteistyöverkko"	aria-label="Collaboration network of organisations, projects and competence centres"
+kartta.html	fill="var(--muted)"/></svg> organisaatio</span>	fill="var(--muted)"/></svg> organisation</span>
+kartta.html	fill="var(--muted)"/></svg> hanke</span>	fill="var(--muted)"/></svg> project</span>
+kartta.html	stroke-width="3"/></svg> osaamiskeskus</span>	stroke-width="3"/></svg> competence centre</span>
+kartta.html	</svg> osallistuminen tai yhteistyö</span>	</svg> participation or collaboration</span>
+kartta.html	</svg> vahvistamaton</span>	</svg> unverified</span>
+kartta.html	</svg> samankaltainen ilman yhteyttä</span>	</svg> similar without a link</span>
+kartta.html	</svg> yhteisjulkaisut</span>	</svg> co-publications</span>
+kartta.html	style="display:inline">Samankaltaiset hankkeet ilman yhteyttä</h2>	style="display:inline">Similar projects without a link</h2>
+kartta.html	<p class="note">Hankeparit, joiden tekstit ovat samankaltaisia (ks. Päällekkäisyydet), mutta joilla ei ole yhteistä toimijaa eikä yhteistyöpolkua kolmen askeleen sisällä hankkeiden tai yhteisjulkaisujen kautta.</p>	<p class="note">Project pairs with similar texts (see Overlaps) but no shared actor and no collaboration path within three steps through projects or co-publications.</p>
+kartta.html	style="display:inline">Teema × maapari</h2>	style="display:inline">Theme × country pair</h2>
+kartta.html	<p class="note">Maaparit, joilla on hankkeita samassa teemassa. "Ei" tarkoittaa, ettei maiden hankkeiden välillä löytynyt yhteistyöpolkua kolmen askeleen sisällä (hankkeet ja yhteisjulkaisut). Teemat ovat karkeita, joten taulukko kertoo kattavuudesta, ei päällekkäisyydestä.</p>	<p class="note">Country pairs with projects in the same theme. "No" means no collaboration path within three steps was found between the countries' projects (projects and co-publications). Themes are coarse, so the table shows coverage, not overlap.</p>
+kartta.html	<p class="note">Solun sävy kertoo, kuinka monta otoksen hanketta maassa osuu teemaan. Rivit, joilla on useita täytettyjä soluja, ovat maiden välisiä päällekkäisyysalueita.</p>	<p class="note">The cell shade shows how many sampled projects in the country fall in the theme. Rows with several filled cells are areas of cross-country overlap.</p>
+kartta.html	margin-top:20px">Kaksoiskirjaukset</h2>	margin-top:20px">Duplicate entries</h2>
+kartta.html	aria-label="Hankkeen koko ja näyttöaste"	aria-label="Project size and evidence level"
+kartta.html	<h3>Näyttöasteikko</h3>	<h3>Evidence scale</h3>
+kartta.html	<p class="note">Asteikko arvioi, kuinka todennettavasti hankkeen tuotokset on julkaistu, ei tuotosten arvoa. Hankkeet, joiden budjettia lähde ei kerro, näkyvät vasemmassa reunassa.</p>	<p class="note">The scale rates how verifiably the project's outputs have been published, not their value. Projects whose budget the source does not state appear at the left edge.</p>
+kartta.html	<p class="note">Aineisto, analyysiskriptit ja muutoshistoria:	<p class="note">Data, analysis scripts and change history:
+kartta.html	Lataa verkosto: <a	Download the network: <a
+kartta.html	<p class="note">Menetelmä: teemaluokitus 8 turvemaa- ja maaperäluokkaan (vety, energia, yritystuki ja matkailu rajattu pois); päällekkäisyys lasketaan hankkeiden teksteistä TF-IDF-samankaltaisuutena monikielisen käsitesanaston avulla (ks. Päällekkäisyydet). Hanketason otos on koottu kansallisista rekistereistä, Kohesiosta, EU CAP Networkin hankesivuilta, CORDISista ja ohjelmatiedotteista. Jokaisen rivin lähde on linkitetty.</p>	<p class="note">Method: classification into 8 peatland and soil themes (hydrogen, energy, business support and tourism excluded); overlap is calculated from the project texts as TF-IDF similarity with a multilingual concept vocabulary (see Overlaps). The project-level sample was collected from national registers, Kohesio, EU CAP Network project pages, CORDIS and programme announcements. Every row's source is linked.</p>
+kartta.html	{JTF:"JTF – oikeudenmukainen siirtymä",EAKR:"EAKR / EFRE / ERDF",EIP:"EIP-AGRI (MSR)",MSR:"MSR / EAFRD muu",KF:"Koheesiorahasto",Interreg:"Interreg (EAKR)","?":"EU-osarahoitteinen, rahasto ei lähteessä",LIFE:"LIFE",Horizon:"Horizon 2020 / Horizon Europe",Kansallinen:"Kansallinen","—":"—"}	{JTF:"JTF – Just Transition Fund",EAKR:"ERDF / EFRE / EAKR",EIP:"EIP-AGRI (EAFRD)",MSR:"EAFRD other",KF:"Cohesion Fund",Interreg:"Interreg (ERDF)","?":"EU co-funded, fund not stated in source",LIFE:"LIFE",Horizon:"Horizon 2020 / Horizon Europe",Kansallinen:"National","—":"—"}
+kartta.html	const EVTXT = ["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"];	const EVTXT = ["No output information","Qualitative description","Quantitative targets","Reported results","Open data / peer-reviewed"];
+kartta.html	"turvepainotteiset JTF-allokaatiot (FI, LV, IE)"	"peat-focused JTF allocations (FI, LV, IE)"
+kartta.html	"hanketta ("+imp+" hakulähteistä tuotu) + "+D.context.length+" vertailukohdetta"	"projects ("+imp+" imported from search sources) + "+D.context.length+" reference cases"
+kartta.html	"rinnakkaista hankeparia samassa maassa ilman yhteyttä"	"parallel project pairs in the same country without a link"
+kartta.html	ev.toFixed(1).replace(".",",")+" / 4","keskimääräinen tuotosten näyttöaste"	ev.toFixed(1)+" / 4","average evidence level of outputs"
+kartta.html	["Hankkeet eivät yhdistä, tutkimus yhdistää", `Hankkeiden kautta ${A.actors} toimijaa jakautuu ${A.components} saarekkeeseen (${A.components_multi} niistä sisältää vähintään kaksi hanketta tai keskusta). Organisaatioiden ${A.copub_edges} yhteisjulkaisuparia, joista ${A.copub_cross_country} maiden välisiä, kytkevät tutkimusorganisaatiot yhteen usean maan verkkoon.`]	["Projects don't connect, research does", `Through projects, ${A.actors} actors fall into ${A.components} islands (${A.components_multi} of them contain at least two projects or centres). ${A.copub_edges} organisation pairs with co-publications, ${A.copub_cross_country} of them cross-border, link the research organisations into one multi-country network.`]
+kartta.html	["Rinnakkaista työtä samassa maassa", `${fi} tekstiltään samankaltaista hankeparia toimii samassa maassa samaan aikaan ilman yhteistä toimijaa. Suomessa ne ovat enimmäkseen JTF:n turvetuotantoalueiden kosteikko- ja ennallistamishankkeita eri kohteissa.`]	["Parallel work in the same country", `${fi} project pairs with similar texts run in the same country at the same time without a shared actor. In Finland they are mostly JTF wetland and restoration projects on different peat extraction sites.`]
+kartta.html	["Hehtaarit ovat enimmäkseen tavoitteita", ha.realised_ha!=null ? `Hankkeiden teksteistä löytyy ${fmtHa(ha.target_ha)} ennallistamis- tai vettämistavoitetta ja ${fmtHa(ha.realised_ha)} raportoitua toteumaa. ${ha.projects_with_ha} hankkeella ${D.projects.length}:sta on hehtaaritieto.` : "Hehtaaritietoa ei ole laskettu."]	["Hectares are mostly targets", ha.realised_ha!=null ? `The project texts contain ${fmtHa(ha.target_ha)} of restoration or rewetting targets and ${fmtHa(ha.realised_ha)} reported as achieved. ${ha.projects_with_ha} of ${D.projects.length} projects have hectare data.` : "Hectare data has not been calculated."]
+kartta.html	`<span class="eyebrow">Maa</span>`	`<span class="eyebrow">Country</span>`
+kartta.html	margin-left:10px">Rahasto</span>`	margin-left:10px">Fund</span>`
+kartta.html	</svg> JTF-hanke (iso) / muu rahasto (pieni)</span>	</svg> JTF project (large) / other fund (small)</span>
+kartta.html	</svg> vertailukohde rajauksen ulkopuolelta</span><span>Sisäkehän pallon koko = hankkeiden määrä teemassa</span>	</svg> reference case outside the scope</span><span>Inner-ring circle size = number of projects in the theme</span>
+kartta.html	`<div class="eyebrow">Valitse kartalta</div><h2>Hanke tai teema</h2><p class="note">Napauta ulkokehän hanketta nähdäksesi rahoituksen, tuotokset ja päällekkäiset hankkeet. Sisäkehän teema näyttää kaikki siihen osuvat hankkeet maittain.</p>	`<div class="eyebrow">Choose on the map</div><h2>Project or theme</h2><p class="note">Tap a project on the outer ring to see its funding, outputs and overlapping projects. A theme on the inner ring shows all its projects by country.</p>
+kartta.html	`<div class="eyebrow">Teema ${t} · ${cs.length} maata</div>	`<div class="eyebrow">Theme ${t} · ${cs.length} countries</div>
+kartta.html	${p.isContext?" · vertailu":""}	${p.isContext?" · reference":""}
+kartta.html	<dt>Alue</dt><dd>${esc(p.region)}</dd><dt>Toteuttaja</dt>	<dt>Region</dt><dd>${esc(p.region)}</dd><dt>Lead</dt>
+kartta.html	<dt>Kausi</dt><dd class="mono">${p.start	<dt>Period</dt><dd class="mono">${p.start
+kartta.html	<dt>Budjetti</dt><dd class="mono">${fmt(p.eur_total)}</dd><dt>EU-osuus</dt>	<dt>Budget</dt><dd class="mono">${fmt(p.eur_total)}</dd><dt>EU share</dt>
+kartta.html	<dt>Tuotokset</dt><dd>${esc(p.outputs)}</dd><dt>Näyttöaste</dt>	<dt>Outputs</dt><dd>${esc(p.outputs)}</dd><dt>Evidence level</dt>
+kartta.html	`<div class="eyebrow">Teemat</div><div class="filters">	`<div class="eyebrow">Themes</div><div class="filters">
+kartta.html	`<div class="eyebrow">Kaksoiskirjaus</div><p class="note">Sama hanke esiintyy myös nimellä:	`<div class="eyebrow">Duplicate entry</div><p class="note">The same project also appears as:
+kartta.html	`<div class="eyebrow">Päällekkäiset hankkeet (${ov.length})</div>`	`<div class="eyebrow">Overlapping projects (${ov.length})</div>`
+kartta.html	+ `<a href="${p.url}" target="_blank" rel="noopener">Lähde ↗</a>`;	+ `<a href="${p.url}" target="_blank" rel="noopener">Source ↗</a>`;
+kartta.html	style="fill:var(--muted)">IRLANTI</text>	style="fill:var(--muted)">IRELAND</text>
+kartta.html	${npub(id)} tuotosta` : "vierailu 8/2025"	${npub(id)} outputs` : "visit 8/2025"
+kartta.html	<dl class="kv"><dt>Rahoitus</dt><dd class="mono">${esc(h.budget)}</dd><dt>Kausi</dt><dd class="mono">${esc(h.years)}</dd>	<dl class="kv"><dt>Funding</dt><dd class="mono">${esc(h.budget)}</dd><dt>Period</dt><dd class="mono">${esc(h.years)}</dd>
+kartta.html	<dt>Toimijat</dt><dd>${esc(h.members)}</dd><dt>Tavoite</dt>	<dt>Members</dt><dd>${esc(h.members)}</dd><dt>Target</dt>
+kartta.html	`<div class="eyebrow">Hankkeet (${projs.length})</div>`	`<div class="eyebrow">Projects (${projs.length})</div>`
+kartta.html	<div class="eyebrow">Julkaisut ja tuotokset (${pubs.length})</div>	<div class="eyebrow">Publications and outputs (${pubs.length})</div>
+kartta.html	'<span class="badge unv">metatiedot avaamatta</span>'	'<span class="badge unv">metadata not opened</span>'
+kartta.html	`<p class="note">Ei löydettyjä julkaisuja.</p>`	`<p class="note">No publications found.</p>`
+kartta.html	<a href="${h.url}" target="_blank" rel="noopener">Lähde ↗</a></article>	<a href="${h.url}" target="_blank" rel="noopener">Source ↗</a></article>
+kartta.html	· samankaltaisuus ${m.score}</title>	· similarity ${m.score}</title>
+kartta.html	[[s.actors,"toimijaa yhteistyöverkossa"],[s.components_multi+" / "+s.components,"saareketta, joissa ≥2 hanketta / kaikki"],[s.copub_cross_country,"maiden välistä yhteisjulkaisuparia"],[s.cross_country_edges,"lähteellä vahvistettua maiden välistä yhteyttä"],[s.missing_links,"samankaltaista hankeparia ilman yhteyttä"]]	[[s.actors,"actors in the collaboration network"],[s.components_multi+" / "+s.components,"islands with ≥2 projects / all"],[s.copub_cross_country,"cross-border co-publication pairs"],[s.cross_country_edges,"source-verified cross-border links"],[s.missing_links,"similar project pairs without a link"]]
+kartta.html	<th>Välittäjäorganisaatio</th><th>Hankkeita</th><th>Keskuksia</th><th>Välitys&shy;keskeisyys</th>	<th>Broker organisation</th><th>Projects</th><th>Centres</th><th>Between&shy;ness</th>
+kartta.html	<th>Saareke</th><th>Toimijoita</th><th>Maat</th><th>Hankkeet ja keskukset</th>	<th>Island</th><th>Actors</th><th>Countries</th><th>Projects and centres</th>
+kartta.html	<th>Teema</th><th>Maapari</th><th>Hankkeita</th><th>Yhteys</th>	<th>Theme</th><th>Country pair</th><th>Projects</th><th>Link</th>
+kartta.html	'<span class="pill same">kyllä</span>':'<span class="pill cross">ei</span>'	'<span class="pill same">yes</span>':'<span class="pill cross">no</span>'
+kartta.html	`<thead><tr><th>Hanke A</th><th>Hanke B</th><th>Yhteiset käsitteet ja sanat</th><th>Samankaltaisuus</th><th>Tyyppi</th></tr></thead><tbody>`	`<thead><tr><th>Project A</th><th>Project B</th><th>Shared concepts and words</th><th>Similarity</th><th>Type</th></tr></thead><tbody>`
+kartta.html	`<div class="eyebrow">Valitse solmu</div><h2>Kuka tekee yhteistyötä kenen kanssa</h2><p class="note">Napauta organisaatiota, hanketta tai osaamiskeskusta. Paneeli näyttää sen yhteydet ja jokaisen yhteyden lähteen.</p><p class="note">Verkossa ovat mukana vain yhteistyösuhteet: osallistuminen hankkeeseen, hankkeen kuuluminen keskukseen ja dokumentoitu yhteistyö. Rahoitus ja teemojen samankaltaisuus eivät ole yhteistyötä.</p>`	`<div class="eyebrow">Choose a node</div><h2>Who collaborates with whom</h2><p class="note">Tap an organisation, project or competence centre. The panel shows its links and the source of each link.</p><p class="note">The network only includes collaboration relations: participation in a project, a project's membership of a centre and documented collaboration. Funding and thematic similarity are not collaboration.</p>`
+kartta.html	{osallistuu:"osallistuu",kuuluu_keskukseen:"kuuluu keskukseen",yhteistyo:"yhteistyö",ei_kytkosta:"ei löydettyä kytköstä",yhteisjulkaisu:"yhteisjulkaisut"}	{osallistuu:"participates",kuuluu_keskukseen:"member of centre",yhteistyo:"collaboration",ei_kytkosta:"no link found",yhteisjulkaisu:"co-publications"}
+kartta.html	<dl class="kv"><dt>Hankkeita</dt><dd class="mono">${org.hankkeita}</dd><dt>Keskuksia</dt><dd class="mono">${org.keskuksia}</dd><dt>Välitys&shy;keskeisyys</dt><dd class="mono">${org.valityskeskeisyys}</dd><dt>Saareke</dt>	<dl class="kv"><dt>Projects</dt><dd class="mono">${org.hankkeita}</dd><dt>Centres</dt><dd class="mono">${org.keskuksia}</dd><dt>Between&shy;ness</dt><dd class="mono">${org.valityskeskeisyys}</dd><dt>Island</dt>
+kartta.html	`<div class="eyebrow">Yhteydet (${es.length})</div>`	`<div class="eyebrow">Links (${es.length})</div>`
+kartta.html	class="note">lähde ↗</a>`	class="note">source ↗</a>`
+kartta.html	`<div class="eyebrow">Puuttuvat yhteydet (${miss.length})</div>`	`<div class="eyebrow">Missing links (${miss.length})</div>`
+kartta.html	(n.url?`<a href="${n.url}" target="_blank" rel="noopener">Lähde ↗</a>`:"")	(n.url?`<a href="${n.url}" target="_blank" rel="noopener">Source ↗</a>`:"")
+kartta.html	`<thead><tr><th>Teema</th>${cs.map	`<thead><tr><th>Theme</th>${cs.map
+kartta.html	`).join("")}<th>Maita</th></tr></thead><tbody>`	`).join("")}<th>Countries</th></tr></thead><tbody>`
+kartta.html	`<thead><tr><th>Hanke A</th><th>Hanke B</th><th>Yhteiset käsitteet ja sanat</th><th>Samankaltaisuus</th><th>Samaan aikaan</th><th>Tyyppi</th></tr></thead><tbody>`	`<thead><tr><th>Project A</th><th>Project B</th><th>Shared concepts and words</th><th>Similarity</th><th>Same time</th><th>Type</th></tr></thead><tbody>`
+kartta.html	`<div class="mono">yhteiset: ${esc(o.actors)}</div>`	`<div class="mono">shared: ${esc(o.actors)}</div>`
+kartta.html	`<p class="note">Päällekkäisyys lasketaan hankkeiden omista teksteistä (nimi, kuvaus, tuotokset). Sanat painotetaan TF-IDF:llä, ja monikielinen käsitesanasto yhdistää saman asian eri kielillä. Taulukossa ovat parit, joiden samankaltaisuus on vähintään ${A.params.overlap_threshold} (${A.params.compared_projects} vertailtavaa hanketta). Lähteiden kuvaukset ovat lyhyitä, joten parit ovat ehdokkaita tarkistettavaksi. Eri kielillä kuvatut hankkeet saavat matalampia arvoja.</p>`	`<p class="note">Overlap is calculated from the projects' own texts (name, description, outputs). Words are weighted with TF-IDF, and a multilingual concept vocabulary links the same thing across languages. The table lists pairs with a similarity of at least ${A.params.overlap_threshold} (${A.params.compared_projects} projects compared). Source descriptions are short, so the pairs are candidates to check. Projects described in different languages get lower values.</p>`
+kartta.html	<th>Kynnys</th><th>Pareja</th>	<th>Threshold</th><th>Pairs</th>
+kartta.html	<th>Rekisterissä</th><th>Myös nimellä</th><th>Ero</th>	<th>In register</th><th>Also as</th><th>Difference</th>
+kartta.html	style="fill:var(--muted)">ei summaa</text>	style="fill:var(--muted)">no amount</text>
+kartta.html	>Hankkeen koko (budjetti tai EU-osuus, log-asteikko)</text>	>Project size (budget or EU share, log scale)</text>
+kartta.html	>Tuotosten näyttöaste 0–4</text>	>Evidence level of outputs 0–4</text>
+kartta.html	<th>Maa</th><th>Rahasto</th><th>Kausi</th><th>Allokaatio</th><th>Alue</th><th>Tavoitteet</th><th>Toteuma</th>	<th>Country</th><th>Fund</th><th>Period</th><th>Allocation</th><th>Scope</th><th>Targets</th><th>Achieved</th>
+kartta.html	`<span class="note">ei julkista toteumaa</span>`	`<span class="note">no public results</span>`
+haku.html	>Haku</h1>	>Search</h1>
+haku.html	<p class="note">Hae nimellä, organisaatiolla, paikalla tai aiheella. Valitse tulos nähdäksesi kortin, yhteydet ja lähteet.</p>	<p class="note">Search by name, organisation, place or topic. Choose a result to see its card, links and sources. Project names and descriptions are in the source language.</p>
+haku.html	<section class="stack" aria-label="Haku">	<section class="stack" aria-label="Search">
+haku.html	<span class="sr">Hakusana</span>	<span class="sr">Search term</span>
+haku.html	aria-label="Tyyppi"	aria-label="Type"
+haku.html	aria-label="Maa"	aria-label="Country"
+haku.html	aria-label="Teema"	aria-label="Theme"
+haku.html	aria-label="Rajaus"	aria-label="Scope"

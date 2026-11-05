@@ -64,7 +64,7 @@ body.present h1{font-size:clamp(26px,3vw,40px)}
 body.present .pbar{display:flex}
 @media (max-width:640px){.bar{padding:12px}.play input[type=range]{width:100%}}
 </style>
-</head>
+<link rel="alternate" hreflang="fi" href="esitys.html"><link rel="alternate" hreflang="en" href="en/esitys.html"></head>
 <body>
 <main class="wrap stack" style="gap:18px;padding-bottom:40px">
   <div class="top">
@@ -326,7 +326,7 @@ function priceChart(svg, rows){
   });
   svg.innerHTML = g;
   svg.querySelectorAll(".pd").forEach(el => { const r = rows[+el.dataset.i];
-    el.addEventListener("pointermove", e => showTip(e, `<div class="k">${TV.esc(r.p.id)} · ${TV.esc(TV.COUNTRY[r.p.country] || r.p.country)} · ${TV.esc(r.p.fund)}</div><div>${TV.esc(r.p.name)}</div><div class="v">${eurS(r.v)} / ha</div><div class="k">${eurS(r.eur)} / ${haS(r.ha)} (${r.basis})${r.p.start ? " · " + r.p.start + "–" + (r.p.end || "") : ""}</div>${r.ok ? "" : `<div class="k">Ei mediaanissa: ${TV.esc(r.note)}</div>`}`));
+    el.addEventListener("pointermove", e => showTip(e, `<div class="k">${TV.esc(r.p.id)} · ${TV.esc(TV.COUNTRY[r.p.country] || r.p.country)} · ${TV.esc(r.p.fund)}</div><div>${TV.esc(r.p.name)}</div><div class="v">${eurS(r.v)} / ha</div><div class="k">${eurS(r.eur)} / ${haS(r.ha)} (${TV.v(r.basis)})${r.p.start ? " · " + r.p.start + "–" + (r.p.end || "") : ""}</div>${r.ok ? "" : `<div class="k">Ei mediaanissa: ${TV.esc(r.note)}</div>`}`));
     el.addEventListener("pointerleave", hideTip); });
 }
 function priceSection(ps){
@@ -337,7 +337,7 @@ function priceSection(ps){
     `<span><i style="background:var(--surface);border:2px solid var(--muted);width:8px;height:8px;border-radius:50%"></i>pilotti tai kehityshanke</span><span><i class="ln" style="border-color:var(--fg);width:0;height:14px;border-top:0;border-left:2.5px solid var(--fg);vertical-align:-3px"></i>mediaani</span>`;
   const sorted = [...rows].sort((a, b) => ACTIONS.findIndex(x => x[0] === a.p.ha_action) - ACTIONS.findIndex(x => x[0] === b.p.ha_action) || a.v - b.v);
   $("tbl-price").innerHTML = `<thead><tr><th>Hanke</th><th>Maa</th><th>Toimenpide</th><th>Budjetti</th><th>Hehtaarit</th><th>€/ha</th><th>Mediaanissa</th></tr></thead><tbody>` +
-    sorted.map(r => `<tr><td style="white-space:normal;min-width:220px"><a href="haku.html#${encodeURIComponent(r.p.id)}">${TV.esc(r.p.name)}</a></td><td>${TV.dot(r.p.country)} ${TV.esc(r.p.country)}</td><td>${TV.esc(r.p.ha_action)}</td><td class="mono">${eurS(r.eur)}</td><td class="mono">${haS(r.ha)} <span class="note">${r.basis}</span></td><td class="mono"><b>${nS(r.v)}</b></td><td>${r.ok ? "kyllä" : `<span class="note" title="${TV.esc(r.note)}">ei</span>`}</td></tr>`).join("") + "</tbody>";
+    sorted.map(r => `<tr><td style="white-space:normal;min-width:220px"><a href="haku.html#${encodeURIComponent(r.p.id)}">${TV.esc(r.p.name)}</a></td><td>${TV.dot(r.p.country)} ${TV.esc(r.p.country)}</td><td>${TV.esc(TV.v(r.p.ha_action))}</td><td class="mono">${eurS(r.eur)}</td><td class="mono">${haS(r.ha)} <span class="note">${TV.v(r.basis)}</span></td><td class="mono"><b>${nS(r.v)}</b></td><td>${r.ok ? "kyllä" : `<span class="note" title="${TV.esc(r.note)}">ei</span>`}</td></tr>`).join("") + "</tbody>";
   $("price-notes").textContent = "Toimenpideluokat noudattavat lähteen sanamuotoa ja menevät osin päällekkäin: suomalaisten turvetuotantoalueiden ennallistaminen ja saksalainen vettäminen (Wiedervernässung) ovat kumpikin pääosin ojien tukkimista. Suurempi ero on kohteissa: Suomen hankkeet ovat laajoja entisiä turvetuotantoalueita, Niedersachsenin hankkeet pieniä Natura-soita, joissa budjettiin sisältyy maanhankintaa ja rakentamista. Budjetti kattaa myös suunnittelun, seurannan ja viestinnän, joten luku on hankkeen hinta hehtaaria kohden, ei ennallistamistyön yksikköhinta. Summat ovat nimellisiä euroja; Ruotsin kruunut on muunnettu EKP:n vuosikeskikurssilla. Valinta: hankkeet, joiden toteutusaika osuu valittuun ajanjaksoon.";
 }
 
@@ -373,7 +373,7 @@ function render(){
   $("sub-count").textContent = "Hankkeet alkuvuoden mukaan.";
   $("sub-ha").textContent = "Ennallistaminen, vettäminen ja kosteikot hankkeiden omista teksteistä, käsin tarkistettuina. Tavoitteet kirjataan tavoite- tai loppuvuodelle.";
   const refs = D.ds.programmes.concat(D.ds.hubs).filter(x => (x.hectares || []).length && S.countries.has(x.country));
-  $("ha-refs").innerHTML = refs.length ? "Ohjelmatason vertailutieto (ei laskettu yhteen hankkeiden kanssa): " + refs.flatMap(x => x.hectares.map(h => `${TV.esc(x.id)} ${haS(h.ha)} ${TV.esc(h.kind)} ${h.year ? "(" + h.year + ")" : ""}`)).join("; ") + "." : "";
+  $("ha-refs").innerHTML = refs.length ? "Ohjelmatason vertailutieto (ei laskettu yhteen hankkeiden kanssa): " + refs.flatMap(x => x.hectares.map(h => `${TV.esc(x.id)} ${haS(h.ha)} ${TV.esc(TV.v(h.kind))} ${h.year ? "(" + h.year + ")" : ""}`)).join("; ") + "." : "";
   $("notes").textContent = `${ps.length} hanketta valinnassa. Kaavioista puuttuu ${sr.noYear} hanketta ilman alkuvuotta, ${sr.outside} ajanjakson ulkopuolella alkanutta ja ${sr.noMoney} ilman summaa (rahoituskaaviosta). Aineisto on otos, ei koko populaatio: ks. hakukattavuus repossa.`;
 
   const ty = $("tbl"); const ys = sr.ys;
@@ -383,7 +383,7 @@ function render(){
   priceSection(ps);
   const yearPs = ps.filter(p => p.start === cur).sort((a, b) => (money(b) || 0) - (money(a) || 0));
   $("plist-h").textContent = `Vuonna ${cur} alkaneet hankkeet (${yearPs.length})`;
-  $("plist").innerHTML = yearPs.length ? yearPs.map(p => `<a href="haku.html#${encodeURIComponent(p.id)}">${TV.dot(p.country)}<span>${TV.esc(p.name)}</span><span class="m">${money(p) != null ? eurS(money(p)) : "–"}</span><span class="s">${TV.esc([TV.COUNTRY[p.country], p.fund, p.lead, p.ha_target ? "tavoite " + haS(p.ha_target) : "", p.ha_realised ? "toteuma " + haS(p.ha_realised) : ""].filter(Boolean).join(" · "))}</span></a>`).join("") : `<div class="empty note" style="padding:16px">Ei valinnassa.</div>`;
+  $("plist").innerHTML = yearPs.length ? yearPs.map(p => `<a href="haku.html#${encodeURIComponent(p.id)}">${TV.dot(p.country)}<span>${TV.esc(p.name)}</span><span class="m">${money(p) != null ? eurS(money(p)) : "–"}</span><span class="s">${TV.esc([TV.COUNTRY[p.country], p.fund, TV.v(p.lead), p.ha_target ? "tavoite " + haS(p.ha_target) : "", p.ha_realised ? "toteuma " + haS(p.ha_realised) : ""].filter(Boolean).join(" · "))}</span></a>`).join("") : `<div class="empty note" style="padding:16px">Ei valinnassa.</div>`;
 }
 
 /* --- ohjaimet --- */

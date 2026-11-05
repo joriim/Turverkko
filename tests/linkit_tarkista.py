@@ -28,8 +28,13 @@ def html_ids(page):
     return set(re.findall(r'id="([^"$]+)"', t))
 
 uniq = defaultdict(set)
+LOCAL = "http://localhost:8765/"
 for l in d["links"]:
-    uniq[l["href"] or "(tyhjä)"].add(l["where"].split(":")[0].split("#")[0])
+    h = l["href"]
+    # sisäinen linkki: polku sivuston juuresta selaimen ratkaisemasta osoitteesta (en/-sivut viittaavat ../)
+    if h and not re.match(r"[a-z]+:", h) and h != "#" and (l.get("abs") or "").startswith(LOCAL):
+        h = l["abs"][len(LOCAL):] or "index.html"
+    uniq[h or "(tyhjä)"].add(l["where"].split(":")[0].split("#")[0])
 bad, ext, ok = [], defaultdict(set), 0
 for href, where in sorted(uniq.items()):
     w = ", ".join(sorted(where))[:80]
@@ -74,11 +79,11 @@ for href, where in sorted(uniq.items()):
             bad.append((href, w, "tiedostoa ei ole sivustolla")); continue
     tp = page or None
     if frag:
-        if tp == "haku.html" or (tp is None and any(x.startswith("haku") for x in where)):
+        if (tp or "").endswith("haku.html") or (tp is None and any("haku" in x for x in where)):
             if frag not in ids:
                 bad.append((href, w, f"hakukorttia {frag} ei ole aineistossa")); continue
         elif tp and tp.endswith(".html"):
-            if frag not in html_ids(tp) and not re.match(r"(maa|alku|alue|rahasto)=", frag):
+            if frag not in html_ids(tp) and not re.match(r"(maa|alku|alue|rahasto|rajaus|loppu)=", frag):
                 bad.append((href, w, f"ankkuria #{frag} ei ole sivulla {tp}")); continue
     ok += 1
 print(f"\nyksilöllisiä linkkejä {len(uniq)}, kunnossa {ok}, ongelmia {len(bad)}, ulkoisia osoitteita {sum(len(v) for v in ext.values())} ({len(ext)} palvelinta)\n")

@@ -12,6 +12,8 @@ Aineistolla on kolme tehtävää:
 
 **Sivusto:** [joriim.github.io/Turverkko](https://joriim.github.io/Turverkko/): etusivu, kartta ja verkosto, haku hankekortteineen, [esitystyökalu](https://joriim.github.io/Turverkko/esitys.html) (rahoitus, aloitetut hankkeet ja ennallistetut hehtaarit vuosittain valitulle alueelle ja ajanjaksolle; toisto, esitystila ja jaettava osoite) sekä ehdotuslomake. Julkaistaan automaattisesti GitHub Actionsilla.
 
+**In English:** [joriim.github.io/Turverkko/en/](https://joriim.github.io/Turverkko/en/). Englanninkieliset sivut kootaan suomenkielisistä: `site/i18n/en.tsv` sisältää sivujen tekstit (tiedosto, suomi, englanti) ja `site/i18n/vocab_en.json` aineiston sanaston (teemat, yhteystyypit, näyttöluokat). Jos sivun tekstiä muutetaan eikä katkelmaa löydy, `scripts/site.py` pysähtyy ja kertoo puuttuvat rivit; `python scripts/i18n_extract.py` listaa kääntämättömät katkelmat. Hankkeiden nimet ja kuvaukset ovat lähteen kielellä.
+
 ## Keskeiset havainnot (2.11.2026)
 
 Luvut on generoitu tiedostoihin [`analysis/raportti.md`](analysis/raportti.md), [`analysis/paallekkaisyydet.csv`](analysis/paallekkaisyydet.csv) ja [`analysis/herkkyys.csv`](analysis/herkkyys.csv). Ne päivittyvät, kun aineisto kasvaa. Menetelmät on kuvattu tiedostossa [SCHEMA.md](SCHEMA.md).

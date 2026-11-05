@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Suggest an addition – Turverkko</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+.layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;align-items:start;padding-block:28px}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
+form{display:flex;flex-direction:column;gap:18px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px}
+.types{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:8px}
+.types label{flex-direction:row;align-items:flex-start;gap:10px;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;font-weight:500}
+.types label:has(input:checked){border-color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,var(--surface))}
+.types b{font-weight:inherit}
+.types small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.side{position:sticky;top:72px}
+@media (max-width:900px){.side{position:static}}
+.matches a{display:block;padding:6px 0;font-size:14px}
+.steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:14px}
+</style>
+<link rel="alternate" hreflang="fi" href="../ehdota.html"><link rel="alternate" hreflang="en" href="ehdota.html"></head>
+<body>
+<main class="wrap">
+  <div class="layout">
+    <section class="stack">
+      <div class="stack" style="gap:8px">
+        <h1 style="font-size:clamp(28px,4vw,40px)">Suggest an addition</h1>
+        <p class="lede" style="font-size:16px">Is a project, organisation or link missing? Or is something wrong? Fill in the form to create a ready-made suggestion. Suggestions are checked before they are added to the data.</p>
+      </div>
+      <form id="f" novalidate>
+        <fieldset class="types" id="types" aria-describedby="types-err">
+          <legend>What are you suggesting?</legend>
+        </fieldset>
+        <p class="error" id="types-err" hidden>Choose the type of suggestion.</p>
+
+        <label for="kohde">Item in the data <span class="hint">If the suggestion concerns an existing project, centre or organisation. Start typing a name to see matches.</span>
+          <input type="text" id="kohde" list="kohde-list" autocomplete="off" placeholder="e.g. TUPSU, Silava, H-LV">
+          <datalist id="kohde-list"></datalist>
+        </label>
+
+        <label for="nimi">Name <span class="hint" id="nimi-hint">Name of the project, organisation or publication.</span>
+          <input type="text" id="nimi" required>
+        </label>
+        <p class="error" id="nimi-err" hidden>Enter a name.</p>
+
+        <div class="two">
+          <label for="maa">Country
+            <select id="maa"><option value="">–</option><option value="Suomi">Finland</option><option value="Ruotsi">Sweden</option><option value="Viro">Estonia</option><option value="Latvia">Latvia</option><option value="Irlanti">Ireland</option><option value="Niedersachsen">Lower Saxony</option><option value="Muu">Other</option></select>
+          </label>
+          <label for="rahasto">Fund and period <span class="hint">e.g. JTF 2021–27</span>
+            <input type="text" id="rahasto" list="rahasto-list">
+            <datalist id="rahasto-list"><option>JTF 2021–27</option><option>EAKR 2014–20</option><option>EAKR 2021–27</option><option>EIP-AGRI 2014–22</option><option>EIP-AGRI 2023–27</option><option>EAFRD</option><option>Cohesion Fund</option><option>LIFE</option><option>National</option></datalist>
+          </label>
+        </div>
+
+        <fieldset id="teemat"><legend>Themes</legend></fieldset>
+
+        <label for="kuvaus">Description <span class="hint" id="kuvaus-hint">What should be added or corrected.</span>
+          <textarea id="kuvaus" required></textarea>
+        </label>
+        <p class="error" id="kuvaus-err" hidden>Enter a short description.</p>
+
+        <label for="lahde">Source <span class="hint">A public page where the information can be checked.</span>
+          <input type="url" id="lahde" required placeholder="https://">
+        </label>
+        <p class="error" id="lahde-err" hidden>Add a source address starting with https:// or http://.</p>
+
+        <label for="ehdottaja">Suggested by <span class="hint">Optional. Name and organisation, if you want to be credited.</span>
+          <input type="text" id="ehdottaja">
+        </label>
+
+        <div class="chips" style="gap:10px">
+          <button class="btn" type="submit">Open the suggestion on GitHub</button>
+          <button class="btn ghost" type="button" id="copy">Copy the suggestion as text</button>
+        </div>
+        <p class="note" id="msg" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <aside class="stack side">
+      <div class="panel">
+        <h3>What happens next</h3>
+        <ol class="steps">
+          <li>The form opens a pre-filled suggestion on GitHub. Submitting requires a free GitHub account.</li>
+          <li>The maintainer checks the source and adds the information to the data.</li>
+          <li>The analysis is rerun and the change appears in the map, search and report.</li>
+        </ol>
+        <p class="note">Without a GitHub account: copy the suggestion as text and send it to the maintainer. The form fields are in Finnish because the maintainer works in Finnish; you can write in English.</p>
+      </div>
+      <div class="panel" id="similar" hidden>
+        <h3>Is this already in the data?</h3>
+        <div class="matches" id="matches"></div>
+      </div>
+      <div class="panel">
+        <h3>Preview</h3>
+        <pre id="preview"></pre>
+      </div>
+    </aside>
+  </div>
+</main>
+<script src="../assets/common.en.js"></script>
+<script>
+TV.nav("ehdota.html"); TV.footer();
+const $ = id => document.getElementById(id);
+// [arvo GitHubin lomakepohjaan (pysyy suomeksi), näkyvä nimi, selite]
+const TYPES = [
+  ["Uusi hanke", "<b>New project</b>", "A project missing from the data"],
+  ["Uusi organisaatio", "<b>New organisation</b>", "Lead or partner"],
+  ["Osallistuminen (organisaatio mukana hankkeessa)", "<b>Participation</b>", "Who is involved in what"],
+  ["Yhteistyö (kahden hankkeen tai keskuksen välinen)", "<b>Collaboration</b>", "Visit, joint project, shared researcher"],
+  ["Uusi julkaisu tai tuotos", "<b>New publication or output</b>", "Article, report, dataset"],
+  ["Korjaus olemassa olevaan tietoon", "<b>Correction to existing data</b>", "Wrong amount, name or link"],
+];
+const HINTS = {
+  "Yhteistyö (kahden hankkeen tai keskuksen välinen)": ["Both parties, e.g. TUKKA and PeatTransform.", "What the collaboration was and when."],
+  "Osallistuminen (organisaatio mukana hankkeessa)": ["Organisation and project.", "The organisation's role: coordinator, partner, funder or field partner."],
+  "Korjaus olemassa olevaan tietoon": ["The item to correct.", "What is wrong and what the correct information is."],
+};
+$("types").insertAdjacentHTML("beforeend", TYPES.map(([t, l, s], i) =>
+  `<label><input type="radio" name="tyyppi" value="${TV.esc(t)}" id="t${i}"><span>${l}<small>${TV.esc(s)}</small></span></label>`).join(""));
+
+let THEMES = {}, ITEMS = [];
+TV.load().then(({ds, net}) => {
+  THEMES = ds.themes;
+  $("teemat").insertAdjacentHTML("beforeend", Object.entries(ds.themes).map(([k, v]) =>
+    `<label><input type="checkbox" name="teema" value="${k}" id="th-${k}"> <span class="mono">${k}</span> ${TV.esc(TV.v(v))}</label>`).join(""));
+  ITEMS = net.nodes.filter(n => ["hanke","osaamiskeskus","organisaatio","vertailukohde","julkaisu"].includes(n.kind));
+  $("kohde-list").innerHTML = ITEMS.map(n => `<option value="${TV.esc(n.id)}">${TV.esc(n.label)}</option>`).join("");
+  const k = new URLSearchParams(location.search).get("kohde");
+  if (k && net.nodes.some(n => n.id === k)) {
+    $("kohde").value = k; $("t5").checked = true; $("nimi").value = (net.nodes.find(n => n.id === k) || {}).label || "";
+  }
+  document.querySelectorAll("#teemat input").forEach(i => i.addEventListener("change", update));
+  update();
+}).catch(() => { $("teemat").insertAdjacentHTML("beforeend", `<p class="note">Could not load the theme list. Write the themes in the description.</p>`); });
+
+function val() {
+  const t = document.querySelector('input[name="tyyppi"]:checked');
+  return {
+    tyyppi: t ? t.value : "", kohde: $("kohde").value.trim(), nimi: $("nimi").value.trim(), maa: $("maa").value,
+    rahasto: $("rahasto").value.trim(), teemat: [...document.querySelectorAll('input[name="teema"]:checked')].map(i => i.value).join(", "),
+    kuvaus: $("kuvaus").value.trim(), lahde: $("lahde").value.trim(), ehdottaja: $("ehdottaja").value.trim(),
+  };
+}
+function text(v) {
+  const rows = [["Type of suggestion", v.tyyppi], ["Item ID", v.kohde], ["Name", v.nimi], ["Country", v.maa], ["Fund and programme period", v.rahasto],
+                ["Themes", v.teemat], ["Description", v.kuvaus], ["Source", v.lahde], ["Suggested by", v.ehdottaja]];
+  return rows.filter(r => r[1]).map(([k, x]) => `### ${k}\n${x}`).join("\n\n");
+}
+function update() {
+  const v = val();
+  const h = HINTS[v.tyyppi];
+  $("nimi-hint").textContent = h ? h[0] : "Name of the project, organisation or publication.";
+  $("kuvaus-hint").textContent = h ? h[1] : "What should be added or corrected. For a project: lead, partners, budget, period and outputs, if the source states them.";
+  $("preview").textContent = text(v) || "Fill in the form and the suggestion appears here.";
+  const q = v.nimi.toLowerCase();
+  const m = q.length >= 3 ? ITEMS.filter(n => n.label.toLowerCase().includes(q) || q.split(/\s+/).filter(w => w.length > 3).some(w => n.label.toLowerCase().includes(w))).slice(0, 5) : [];
+  $("similar").hidden = !m.length;
+  $("matches").innerHTML = m.map(n => `<a href="haku.html#${encodeURIComponent(n.id)}" target="_blank">${TV.esc(n.label)} <span class="note mono">${TV.esc(n.id)}</span></a>`).join("");
+}
+$("f").addEventListener("input", update);
+
+function check(v) {
+  let ok = true;
+  const set = (id, bad) => { $(id + "-err").hidden = !bad; if (bad) ok = false; };
+  set("types", !v.tyyppi); set("nimi", !v.nimi); set("kuvaus", !v.kuvaus);
+  set("lahde", !/^https?:\/\/\S+\.\S+/.test(v.lahde));
+  if (!ok) { const first = document.querySelector('.error:not([hidden])'); first && first.previousElementSibling && first.previousElementSibling.querySelector("input,textarea") ?.focus(); }
+  return ok;
+}
+$("f").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = val(); if (!check(v)) { $("msg").textContent = "Complete the marked fields."; return; }
+  const p = new URLSearchParams({template: "ehdotus.yml", title: `[Ehdotus] ${v.tyyppi.replace(/ \(.*\)/, "")}: ${v.nimi}`.slice(0, 200),
+    tyyppi: v.tyyppi, kohde: v.kohde, nimi: v.nimi, maa: v.maa, rahasto: v.rahasto, teemat: v.teemat, kuvaus: v.kuvaus, lahde: v.lahde, ehdottaja: v.ehdottaja});
+  [...p.keys()].forEach(k => { if (!p.get(k)) p.delete(k); });
+  const url = `${TV.REPO}/issues/new?${p}`;
+  window.open(url, "_blank", "noopener");
+  $("msg").innerHTML = `GitHub opened in a new tab. Check the details and press <b>Create</b> there. If the tab did not open: <a href="${TV.esc(url)}" target="_blank" rel="noopener">open the suggestion</a>.`;
+});
+$("copy").onclick = async () => {
+  const v = val(); const t = `Turverkko – suggestion\n\n${text(v)}`;
+  try { await navigator.clipboard.writeText(t); $("msg").textContent = "Suggestion copied to the clipboard."; }
+  catch { const r = document.createRange(); r.selectNodeContents($("preview")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("msg").textContent = "Preview selected – copy with Ctrl+C."; }
+};
+</script>
+</body>
+</html>

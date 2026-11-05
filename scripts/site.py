@@ -162,6 +162,58 @@ def write_cx2(path, nodes, edges, title):
     path.write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
+# --- Englanninkielinen versio (docs/en/) ----------------------------------------------------
+# Käännökset: site/i18n/en.tsv, sarakkeet: tiedosto (index.html, kartta.html, common.js tai *) TAB suomi TAB englanti.
+# Katkelmat sisältävät ympäröivät merkit (lainausmerkit, tagit), jotta logiikassa käytetyt arvot eivät muutu.
+# Jokaisen katkelman on löydyttävä vähintään kerran, muuten rakennus pysähtyy.
+EN_PAGES = ["index.html", "kartta.html", "haku.html", "esitys.html", "ehdota.html"]
+
+
+def load_tsv():
+    rows = []
+    for n, line in enumerate((ROOT / "site" / "i18n" / "en.tsv").read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip() or line.startswith("#"):
+            continue
+        parts = line.split("\t")
+        if len(parts) != 3:
+            raise SystemExit(f"en.tsv rivi {n}: odotettiin 3 saraketta, saatiin {len(parts)}")
+        f, fi, en = (x.replace("\\n", "\n") for x in parts)
+        rows.append((f, fi, en, n))
+    return rows
+
+
+def translate(text, key, rows, missing):
+    for f, fi, en, n in sorted((r for r in rows if r[0] in (key, "*")), key=lambda r: -len(r[1])):
+        if fi in text:
+            text = text.replace(fi, en)
+        elif f == key:
+            missing.append(f"{key}: rivi {n}: {fi[:70]}")
+    return text
+
+
+def build_en(docs):
+    rows = load_tsv()
+    missing = []
+    en = docs / "en"
+    en.mkdir()
+    js = (docs / "assets" / "common.js").read_text(encoding="utf-8")
+    (docs / "assets" / "common.en.js").write_text(translate(js, "common.js", rows, missing), encoding="utf-8")
+    for page in EN_PAGES:
+        t = (docs / page).read_text(encoding="utf-8")
+        t = translate(t, page, rows, missing)
+        t = (t.replace('<html lang="fi">', '<html lang="en">').replace('href="assets/', 'href="../assets/')
+              .replace('src="assets/common.js"', 'src="../assets/common.en.js"').replace('"fi-FI"', '"en-GB"')
+              .replace('href="data/', 'href="../data/').replace('new URL("data/"', 'new URL("../data/"'))
+        alt = lambda fi, en: f'<link rel="alternate" hreflang="fi" href="{fi}"><link rel="alternate" hreflang="en" href="{en}">'
+        t = t.replace("</head>", alt("../" + page, page) + "</head>", 1) if "</head>" in t else t.replace("<title>", alt("../" + page, page) + "<title>", 1)
+        (en / page).write_text(t, encoding="utf-8")
+        fi = (docs / page).read_text(encoding="utf-8")
+        fi = fi.replace("</head>", alt(page, "en/" + page) + "</head>", 1) if "</head>" in fi else fi.replace("<title>", alt(page, "en/" + page) + "<title>", 1)
+        (docs / page).write_text(fi, encoding="utf-8")
+    if missing:
+        raise SystemExit("Käännöskatkelmia ei löytynyt (päivitä site/i18n/en.tsv):\n  " + "\n  ".join(missing))
+
+
 def main():
     data = ROOT / "data"
     ds = json.loads((data / "dataset.json").read_text(encoding="utf-8"))
@@ -178,6 +230,7 @@ def main():
     (docs / ".nojekyll").write_text("", encoding="utf-8")
 
     pages = ROOT / "site" / "pages"
+    vocab = json.loads((ROOT / "site" / "i18n" / "vocab_en.json").read_text(encoding="utf-8"))
     # SEAMK-tunnus vain originaalitiedostona (Kuvapankki): värillinen ja valinnainen valkoinen tummaan tilaan
     find = lambda stem: next((f.name for ext in (".svg", ".png") for f in [pages / "assets" / (stem + ext)] if f.exists()), "")
     logo, logo_dark = find("seamk-tunnus"), find("seamk-tunnus-valkoinen")
@@ -190,6 +243,8 @@ def main():
         dst.parent.mkdir(parents=True, exist_ok=True)
         if src.suffix in (".html", ".js", ".css"):
             dst.write_text(src.read_text(encoding="utf-8").replace("__REPO_URL__", repo)
+                           .replace("__V_EN__", json.dumps(vocab["exact"], ensure_ascii=False))
+                           .replace("__V_PREFIX_EN__", json.dumps(list(vocab["prefix"].items()), ensure_ascii=False))
                            .replace("__SEAMK_LOGO__", logo).replace("__SEAMK_LOGO_DARK__", logo_dark), encoding="utf-8")
         else:
             shutil.copy(src, dst)
@@ -198,6 +253,7 @@ def main():
     for f in DATA_FILES:
         shutil.copy(data / f, docs / "data" / f)
     (docs / "data" / "analysis.json").write_text(json.dumps(an, ensure_ascii=False, indent=1), encoding="utf-8")
+    build_en(docs)
     tn, te = tool_graph(ds, net, an)
     write_gexf(docs / "data" / "turverkko.gexf", tn, te)
     write_cx2(docs / "data" / "turverkko.cx2", tn, te, "Turverkko")

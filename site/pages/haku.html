@@ -73,12 +73,12 @@ TV.load().then(d => {
   items = Object.values(detail).map(x => ({
     id:x.id, kind:x._kind, name:x.name, country:x.country || "", themes:x.themes || x.focus || [], raw:x,
     hay:[x.id, x.name, x.lead, x.region, x.outputs, x.note, x.target, x.members, x.authors, x.venue, x.scope, x.targets,
-         (x.themes||[]).map(t => ds.themes[t]).join(" "), TV.COUNTRY[x.country]].filter(Boolean).join(" ").toLowerCase()
+         (x.themes||[]).map(t => ds.themes[t] + " " + TV.v(ds.themes[t])).join(" "), TV.COUNTRY[x.country]].filter(Boolean).join(" ").toLowerCase()
   }));
   const kinds = ["hanke","osaamiskeskus","organisaatio","julkaisu","ohjelma","vertailukohde"];
   $("f-kind").innerHTML += kinds.map(k => `<option value="${k}">${TV.KIND[k]} (${items.filter(i => i.kind === k).length})</option>`).join("");
   $("f-country").innerHTML += Object.entries(TV.COUNTRY).filter(([c]) => items.some(i => i.country === c)).map(([c, n]) => `<option value="${c}">${n}</option>`).join("");
-  $("f-theme").innerHTML += Object.entries(ds.themes).map(([k, v]) => `<option value="${k}">${k} ${TV.esc(v)}</option>`).join("");
+  $("f-theme").innerHTML += Object.entries(ds.themes).map(([k, v]) => `<option value="${k}">${k} ${TV.esc(TV.v(v))}</option>`).join("");
   const params = new URLSearchParams(location.search);
   if (params.get("q")) $("q").value = params.get("q");
   ["q","f-kind","f-country","f-theme","f-scope"].forEach(id => $(id).addEventListener("input", list));
@@ -92,12 +92,12 @@ function list() {
   const scopeOk = i => !sc || i.kind !== "hanke" || (i.raw.rajaus || "turvemaa") === sc;
   const order = {osaamiskeskus:0, hanke:1, vertailukohde:2, julkaisu:3, organisaatio:4, ohjelma:5};
   const hits = items.filter(i => (!k || i.kind === k) && (!c || i.country === c) && (!t || i.themes.includes(t)) && scopeOk(i) && q.every(w => i.hay.includes(w)))
-    .sort((a, b) => order[a.kind] - order[b.kind] || a.name.localeCompare(b.name, "fi"));
+    .sort((a, b) => order[a.kind] - order[b.kind] || a.name.localeCompare(b.name, TV.LANG));
   $("count").textContent = `${hits.length} / ${items.length} tulosta`;
   const cur = decodeURIComponent(location.hash.slice(1));
   $("results").innerHTML = hits.length ? hits.map(i => `<a class="res" href="#${encodeURIComponent(i.id)}"${i.id === cur ? ' aria-current="true"' : ""}>
-      ${TV.dot(i.country)}<span class="t">${TV.esc(i.name)}</span><span class="k">${TV.KIND[i.kind]}${i.raw.rajaus === "maaperä" ? " · maaperä" : ""}</span>
-      <span class="s">${TV.esc([TV.COUNTRY[i.country], i.raw.fund && TV.FUND[i.raw.fund] ? i.raw.fund : "", i.raw.lead || i.raw.org_type || i.raw.venue || i.raw.years || ""].filter(Boolean).join(" · "))}</span></a>`).join("")
+      ${TV.dot(i.country)}<span class="t">${TV.esc(i.name)}</span><span class="k">${TV.KIND[i.kind]}${i.raw.rajaus === "maaperä" ? " · " + TV.v("maaperä") : ""}</span>
+      <span class="s">${TV.esc([TV.COUNTRY[i.country], i.raw.fund && TV.FUND[i.raw.fund] ? i.raw.fund : "", TV.v(i.raw.lead) || i.raw.org_type || i.raw.venue || i.raw.years || ""].filter(Boolean).join(" · "))}</span></a>`).join("")
     : `<div class="empty">Ei tuloksia. Puuttuuko jotain? <a href="ehdota.html">Ehdota lisäystä</a>.</div>`;
 }
 
@@ -120,7 +120,7 @@ function show() {
   add("Alue", TV.esc(x.region || x.scope));
   add("Rahasto", x.fund && (TV.FUND[x.fund] || TV.esc(x.fund)));
   add("Kausi", x.period ? `<span class="mono">${x.start ?? "?"}–${x.end ?? "?"} (${x.period})</span>` : x.years && `<span class="mono">${TV.esc(x.years)}</span>`);
-  add("Toteuttaja", TV.esc(x.lead));
+  add("Toteuttaja", TV.esc(TV.v(x.lead)));
   add("Budjetti", x.eur_total != null ? `<span class="mono">${TV.eur(x.eur_total)}</span>` : x.budget && TV.esc(x.budget));
   add("EU-osuus", x.eur_eu != null ? `<span class="mono">${TV.eur(x.eur_eu)}</span>` : "");
   add("Allokaatio", x.eur ? `<span class="mono">${TV.eur(x.eur)}</span>` : "");
@@ -130,38 +130,38 @@ function show() {
   add("Toteuma", TV.esc(x.realised));
   add("Tuotokset", TV.esc(x.outputs));
   add("Ohjelma", TV.esc(x.programme));
-  add("Valuutta", TV.esc(x.currency_note));
-  if (x.hectares && x.hectares.length) add("Hehtaarit", `<ul class="basis">${x.hectares.map(h => `<li><b>${Math.round(h.ha).toLocaleString("fi-FI")} ha</b> · ${TV.esc(h.kind)} · ${TV.esc(h.action)}${h.year ? " · " + h.year : ""}<br><i>“${TV.esc(h.quote)}”</i>${h.note ? " – " + TV.esc(h.note) : ""}</li>`).join("")}</ul>`);
+  add("Valuutta", TV.esc(TV.v(x.currency_note)));
+  if (x.hectares && x.hectares.length) add("Hehtaarit", `<ul class="basis">${x.hectares.map(h => `<li><b>${Math.round(h.ha).toLocaleString("fi-FI")} ha</b> · ${TV.esc(TV.v(h.kind))} · ${TV.esc(TV.v(h.action))}${h.year ? " · " + h.year : ""}<br><i>“${TV.esc(h.quote)}”</i>${h.note ? " – " + TV.esc(h.note) : ""}</li>`).join("")}</ul>`);
   if (x.urls && x.urls.length > 1) add("Lähteet", x.urls.map((u, i) => `<a href="${u}" target="_blank" rel="noopener">${i + 1}</a>`).join(" · "));
   if (x.rajaus === "maaperä") add("Rajaus", `<span class="pill">muu maaperä</span> ${TV.esc(x.rajaus_peruste)}`);
   if (x.auto_themes) add("Luokittelu", `<span class="pill unv">teemat luokiteltu automaattisesti</span> <span class="note">tuotu: ${TV.esc(x.imported_from || "")}</span>`);
   add("Näyttöaste", x.evidence != null ? `${TV.evbar(x.evidence)} ${TV.EV[x.evidence]}` + (x.evidence_basis && x.evidence_basis.length
-    ? `<ul class="basis">${x.evidence_basis.map(b => `<li>${TV.esc(b)}</li>`).join("")}</ul>` : "") : "");
+    ? `<ul class="basis">${x.evidence_basis.map(b => `<li>${TV.esc(TV.v(b))}</li>`).join("")}</ul>` : "") : "");
   add("Tekijät", TV.esc(x.authors));
   add("Julkaisu", TV.esc([x.venue, x.year].filter(Boolean).join(", ")));
-  add(it.kind === "organisaatio" ? "Organisaatiotyyppi" : "Julkaisutyyppi", x.type && `<span class="pill">${TV.esc(x.type)}</span>${x.verified === false ? ' <span class="pill unv">metatiedot avaamatta</span>' : ""}`);
-  if (it.kind !== "organisaatio") add("Organisaatiotyyppi", TV.esc(x.org_type));
+  add(it.kind === "organisaatio" ? "Organisaatiotyyppi" : "Julkaisutyyppi", x.type && `<span class="pill">${TV.esc(TV.v(x.type))}</span>${x.verified === false ? ' <span class="pill unv">metatiedot avaamatta</span>' : ""}`);
+  if (it.kind !== "organisaatio") add("Organisaatiotyyppi", TV.esc(TV.v(x.org_type)));
   add("ROR", x.ror ? `<a href="${TV.esc(x.ror)}" target="_blank" rel="noopener" class="mono">${TV.esc(x.ror.replace("https://ror.org/", ""))}</a>` : "");
   add("Huomio", TV.esc(x.note));
   const nd = N[it.id]; if (nd && nd.duplicate_note) add("Kaksoiskirjaus", TV.esc(nd.duplicate_note));
 
-  const ev = e => `<span class="pill ${e.evidence === "lähde" ? "ok" : e.evidence === "päätelty" || e.evidence === "vahvistamatta" ? "unv" : ""}">${TV.esc(e.evidence || "–")}</span>${e.url ? ` <a class="note" href="${e.url}" target="_blank" rel="noopener">lähde ↗</a>` : ""}`;
+  const ev = e => `<span class="pill ${e.evidence === "lähde" ? "ok" : e.evidence === "päätelty" || e.evidence === "vahvistamatta" ? "unv" : ""}">${TV.esc(TV.v(e.evidence) || "–")}</span>${e.url ? ` <a class="note" href="${e.url}" target="_blank" rel="noopener">lähde ↗</a>` : ""}`;
   const KN = {osallistuu:"osallistuu", kuuluu_keskukseen:"kuuluu keskukseen", yhteistyo:"yhteistyö", ei_kytkosta:"ei löydettyä kytköstä", rahoittaa:"rahoittaa", tuotos:"tuotos", yhteisjulkaisu:"yhteisjulkaisut"};
   const rels = E.filter(e => (e.source === it.id || e.target === it.id) && (COLLAB.includes(e.kind) || ["ei_kytkosta","rahoittaa","tuotos","yhteisjulkaisu"].includes(e.kind)));
   const groups = {};
   rels.forEach(e => { const o = e.source === it.id ? e.target : e.source; const g = e.kind === "yhteisjulkaisu" ? "Yhteisjulkaisut (OpenAIRE)" : e.kind === "tuotos" ? "Tuotokset ja julkaisut" : e.kind === "rahoittaa" ? "Rahoitus" : N[o] && N[o].kind === "organisaatio" ? "Organisaatiot" : "Hankkeet ja keskukset"; (groups[g] ||= []).push([e, o]); });
   let relHtml = Object.entries(groups).map(([g, list]) => `<div class="eyebrow">${g} (${list.length})</div><div class="rel">${list.map(([e, o]) =>
-    `<div>${N[o] ? TV.dot(N[o].country) : ""} ${link(o)} <span class="note">${KN[e.kind]}${e.note ? " · " + TV.esc(e.note) : ""}</span> ${ev(e)}</div>`).join("")}</div>`).join("");
+    `<div>${N[o] ? TV.dot(N[o].country) : ""} ${link(o)} <span class="note">${KN[e.kind]}${e.note ? " · " + TV.esc(TV.v(e.note)) : ""}</span> ${ev(e)}</div>`).join("")}</div>`).join("");
 
   const miss = D.an.missing_links.filter(m => m.a === it.id || m.b === it.id);
   if (miss.length) relHtml += `<div class="eyebrow">Samankaltaiset hankkeet ilman yhteyttä (${miss.length})</div><p class="note">Tekstiltään samankaltainen, ei yhteistä toimijaa eikä lyhyttä yhteistyöpolkua.</p><div class="rel">${miss.map(m => {
-    const o = m.a === it.id ? m.b : m.a; return `<div>${TV.dot(N[o] && N[o].country)} ${link(o)} <span class="pill hot">${Number(m.score).toFixed(2)}</span> <span class="note">${TV.esc(m.tyyppi)} · ${TV.esc(m.yhteiset)}</span></div>`; }).join("")}</div>`;
+    const o = m.a === it.id ? m.b : m.a; return `<div>${TV.dot(N[o] && N[o].country)} ${link(o)} <span class="pill hot">${Number(m.score).toFixed(2)}</span> <span class="note">${TV.esc(TV.v(m.tyyppi))} · ${TV.esc(m.yhteiset)}</span></div>`; }).join("")}</div>`;
   const org = D.an.organisations.find(o => o.id === it.id);
   if (org) add("Välityskeskeisyys", `<span class="mono">${org.valityskeskeisyys}</span> <span class="note">· saareke ${org.komponentti}</span>`);
 
   $("card").innerHTML = `<div class="eyebrow">${TV.KIND[it.kind]} · <span class="mono">${TV.esc(it.id)}</span></div>
     <h2>${TV.esc(it.name)}</h2>
-    ${it.themes.length ? `<div class="chips">${it.themes.map(t => `<span class="pill" title="${TV.esc(ds.themes[t])}">${t} ${TV.esc(ds.themes[t] || "")}</span>`).join("")}</div>` : ""}
+    ${it.themes.length ? `<div class="chips">${it.themes.map(t => `<span class="pill" title="${TV.esc(TV.v(ds.themes[t]))}">${t} ${TV.esc(TV.v(ds.themes[t]) || "")}</span>`).join("")}</div>` : ""}
     <dl class="kv">${kv.join("")}</dl>
     ${relHtml}
     <div class="chips" style="margin-top:8px">${x.url ? `<a class="btn ghost" href="${x.url}" target="_blank" rel="noopener">Lähde ↗</a>` : ""}

@@ -10,4 +10,4 @@ node tests/linkit_keraa.js /tmp/links.json /tmp/ids.json      # vaatii playwrigh
 python tests/linkit_tarkista.py /tmp .                          # lukee /tmp/links.json
 ```
 
-Tarkistettavat kohteet: sivut ja datatiedostot `docs/`-kansiossa, hakukorttien tunnisteet (`haku.html#ID`), sivujen ankkurit, repoon osoittavat linkit (tiedosto tai kansio `git ls-files`:ssä ja Markdown-otsikkoankkuri). Ulkoiset osoitteet listataan mutta niitä ei avata.
+Keräin käy läpi sekä suomenkieliset sivut että englanninkieliset `docs/en/`-sivut. Tarkistettavat kohteet: sivut ja datatiedostot `docs/`-kansiossa, hakukorttien tunnisteet (`haku.html#ID`), sivujen ankkurit, repoon osoittavat linkit (tiedosto tai kansio `git ls-files`:ssä ja Markdown-otsikkoankkuri). Ulkoiset osoitteet listataan mutta niitä ei avata.
