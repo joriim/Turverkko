@@ -1,7 +1,7 @@
 id,nimi,maa,tyyppi,hankkeita,keskuksia,keskukset,tavoittaa_maita,valityskeskeisyys,komponentti
 luke,Luonnonvarakeskus (Luke),FI,tutkimuslaitos,9,1,H-LV,4,0.05,1
 silava,LSFRI Silava,LV,tutkimuslaitos,9,1,H-LV,2,0.0275,1
-seamk,Seinäjoen ammattikorkeakoulu (SeAMK),FI,amk,7,1,H-FI,3,0.0173,1
+seamk,Seinäjoen ammattikorkeakoulu (SEAMK),FI,amk,7,1,H-FI,3,0.0173,1
 oy,Oulun yliopisto,FI,yliopisto,5,1,H-FI,3,0.0119,1
 lu,Latvian yliopisto,LV,yliopisto,4,1,H-LV,2,0.0117,1
 lathort,Institute of Horticulture (LatHort),LV,tutkimuslaitos,2,1,H-LV,2,0.011,1

@@ -69,7 +69,7 @@ PROGRAMMES = [
 # 3 raportoituja mitattuja tuloksia, 4 avoin data / vertaisarvioitu
 PROJECTS = [
     dict(id="FI-01", country="FI", region="Etelä- ja Keski-Pohjanmaa", fund="JTF", period="2021–27",
-         name="TUKKA – Turvemaiden kestävän käytön osaamisklusteri", lead="HY Ruralia (SeAMK, Metsäkeskus, Chydenius)",
+         name="TUKKA – Turvemaiden kestävän käytön osaamisklusteri", lead="HY Ruralia (SEAMK, Metsäkeskus, Chydenius)",
          start=2023, end=2027, eur_total=83758, eur_eu=None, themes=["T7","T8","T1","T2","T4"],
          outputs="Klusteri, 21 jäsenorganisaatiota; testialueet EP ja KP", evidence=1,
          url="https://researchportal.helsinki.fi/fi/projects/turvemaiden-kest%C3%A4v%C3%A4n-k%C3%A4yt%C3%B6n-osaamisklusterin-aktivointi-ja-koordi/"),
@@ -130,17 +130,17 @@ PROJECTS = [
          url="https://www.lbeg.niedersachsen.de/download/140086/Uebersicht_zu_den_Projekten_Klimaschutz_durch_Moorentwicklung_Ulrich_Sippel_NMU.pdf"),
     # --- Osaamiskeskusten verkostojen hankkeet (lisätty 31.10.2026) ---
     dict(id="FI-06", country="FI", region="Etelä-Pohjanmaa", fund="JTF", period="2021–27",
-         name="Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu", lead="SeAMK (rahoitus Keski-Suomen ELY)",
+         name="Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu", lead="SEAMK (rahoitus Keski-Suomen ELY)",
          start=2023, end=2026, eur_total=245000, eur_eu=None, themes=["T1","T3","T8"], hub="H-FI",
          outputs="Jälkikäyttösuunnitelmat maanomistajille, kosteikko- ja soistamiskohteet, sopimusmallit", evidence=1,
          url="https://lehti.seamk.fi/kestavat-ruokaratkaisut/suopaikka-alkanut-seamkin-ensimmaisena-jtf-hankkeena/?print=pdf"),
     dict(id="FI-07", country="FI", region="Etelä-Pohjanmaa, Pirkanmaa", fund="?", period="2021–27",
-         name="TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi", lead="HY INAR (HY metsätieteet, IL, Oulun yliopisto, SeAMK)",
+         name="TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi", lead="HY INAR (HY metsätieteet, IL, Oulun yliopisto, SEAMK)",
          start=2024, end=2026, eur_total=None, eur_eu=None, themes=["T1","T4","T6"], hub="H-FI",
          outputs="Naarasnevan jatkuva CO2/N2O/CH4-asema + >80 kammiopistettä; vertaisarvioitu kannattavuustutkimus (Suo 2025)", evidence=4,
          url="https://lehti.seamk.fi/verkkolehti/tupsun-maastokausi-alkoi/?print=pdf"),
     dict(id="FI-08", country="FI", region="Etelä-Pohjanmaa", fund="?", period="2021–27",
-         name="Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla", lead="SeAMK",
+         name="Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla", lead="SEAMK",
          start=None, end=None, eur_total=None, eur_eu=None, themes=["T3"], hub="H-FI",
          outputs="Rahkasammal- ja osmankäämipilotti entisellä turvetuotantoalueella; turpeen korvaajien kokeet", evidence=1,
          url="https://lehti.seamk.fi/verkkolehti/yhteista-kehittamista-ja-kokeiluja-katsaus-luonnonvara-ala-ja-biotalous-tiimin-vuoteen-2025/?print=pdf"),
@@ -204,9 +204,9 @@ PUBS = [
          venue="Suo – Mires and Peat 76(1): 23–36", themes=["T4","T1"],
          url="https://lehti.seamk.fi/verkkolehti/metsitys-voi-olla-kannattavaa-paksuturpeisilla-suonpohjilla/?print=pdf"),
     dict(id="J3", hub="H-FI", project="FI-07", year=2024, type="tiedote / mittausasema", verified=True,
-         authors="SeAMK, HY, IL, Oulun yliopisto",
+         authors="SEAMK, HY, IL, Oulun yliopisto",
          title="Naarasnevalla alkaa suonpohjien metsityksen monimuotoisuus- ja N2O-seuranta",
-         venue="SeAMK-verkkolehti 11.4.2024", themes=["T6","T4"],
+         venue="SEAMK-verkkolehti 11.4.2024", themes=["T6","T4"],
          url="https://lehti.seamk.fi/verkkolehti/naarasnevan-mittausasemalla-alkaa-suonpohjien-metsityksen-monimuotoisuusvaikutusten-ja-n2o-paastojen-seuranta/?print=pdf"),
     dict(id="J4", hub="H-FI", project="FI-01", year=None, type="ammattijulkaisu", verified=False,
          authors="(ei avattu)", title="Irlantilaiset asiantuntijat vierailulla Suomessa: yhteisiä haasteita, erilaisia ratkaisuja",
@@ -300,7 +300,7 @@ DUPLICATES = [
 # ---------------------------------------------------------------------------
 # Organisaatiot. type: yliopisto | amk | tutkimuslaitos | viranomainen | yritys | jarjesto | muu
 ORGS = [
-    dict(id="seamk", name="Seinäjoen ammattikorkeakoulu (SeAMK)", country="FI", type="amk"),
+    dict(id="seamk", name="Seinäjoen ammattikorkeakoulu (SEAMK)", country="FI", type="amk"),
     dict(id="hy", name="Helsingin yliopisto", country="FI", type="yliopisto"),
     dict(id="il", name="Ilmatieteen laitos", country="FI", type="tutkimuslaitos"),
     dict(id="uef", name="Itä-Suomen yliopisto", country="FI", type="yliopisto"),

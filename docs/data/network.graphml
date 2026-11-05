@@ -2812,7 +2812,7 @@
     </node>
     <node id="seamk">
       <data key="d0">organisaatio</data>
-      <data key="d1">Seinäjoen ammattikorkeakoulu (SeAMK)</data>
+      <data key="d1">Seinäjoen ammattikorkeakoulu (SEAMK)</data>
       <data key="d2">FI</data>
       <data key="d27">amk</data>
       <data key="d28">https://ror.org/036je1b38</data>
@@ -3898,7 +3898,7 @@
       <data key="d29">2024</data>
       <data key="d30">tiedote / mittausasema</data>
       <data key="d31">True</data>
-      <data key="d32">SeAMK-verkkolehti 11.4.2024</data>
+      <data key="d32">SEAMK-verkkolehti 11.4.2024</data>
       <data key="d5">https://lehti.seamk.fi/verkkolehti/naarasnevan-mittausasemalla-alkaa-suonpohjien-metsityksen-monimuotoisuusvaikutusten-ja-n2o-paastojen-seuranta/?print=pdf</data>
     </node>
     <node id="J4">

@@ -195,7 +195,7 @@
    "fund": "JTF",
    "period": "2021–27",
    "name": "TUKKA – Turvemaiden kestävän käytön osaamisklusteri",
-   "lead": "HY Ruralia (SeAMK, Metsäkeskus, Chydenius)",
+   "lead": "HY Ruralia (SEAMK, Metsäkeskus, Chydenius)",
    "start": 2023,
    "end": 2027,
    "eur_total": 83758,
@@ -711,7 +711,7 @@
    "fund": "JTF",
    "period": "2021–27",
    "name": "Suopaikka – suonpohjien paikkatietopohjainen jälkikäytön suunnittelu",
-   "lead": "SeAMK (rahoitus Keski-Suomen ELY)",
+   "lead": "SEAMK (rahoitus Keski-Suomen ELY)",
    "start": 2023,
    "end": 2026,
    "eur_total": 245000,
@@ -746,7 +746,7 @@
    "fund": "?",
    "period": "2021–27",
    "name": "TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi",
-   "lead": "HY INAR (HY metsätieteet, IL, Oulun yliopisto, SeAMK)",
+   "lead": "HY INAR (HY metsätieteet, IL, Oulun yliopisto, SEAMK)",
    "start": 2024,
    "end": 2026,
    "eur_total": null,
@@ -784,7 +784,7 @@
    "fund": "?",
    "period": "2021–27",
    "name": "Turvevapaa ruokaketju – kosteikkoviljelypilotti Santanevalla",
-   "lead": "SeAMK",
+   "lead": "SEAMK",
    "start": null,
    "end": null,
    "eur_total": null,
@@ -6898,9 +6898,9 @@
    "year": 2024,
    "type": "tiedote / mittausasema",
    "verified": true,
-   "authors": "SeAMK, HY, IL, Oulun yliopisto",
+   "authors": "SEAMK, HY, IL, Oulun yliopisto",
    "title": "Naarasnevalla alkaa suonpohjien metsityksen monimuotoisuus- ja N2O-seuranta",
-   "venue": "SeAMK-verkkolehti 11.4.2024",
+   "venue": "SEAMK-verkkolehti 11.4.2024",
    "themes": [
     "T6",
     "T4"
@@ -7141,7 +7141,7 @@
  "orgs": [
   {
    "id": "seamk",
-   "name": "Seinäjoen ammattikorkeakoulu (SeAMK)",
+   "name": "Seinäjoen ammattikorkeakoulu (SEAMK)",
    "country": "FI",
    "type": "amk",
    "ror": "https://ror.org/036je1b38"

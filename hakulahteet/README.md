@@ -132,7 +132,7 @@ YDINSANAT (rajaa tarvittaessa lähteen kieleen):
 TOIMIJAHAKU (aja vain lähteen maan toimijat):
 - FI: Luonnonvarakeskus, Suomen ympäristökeskus, Metsähallitus, Suomen metsäkeskus,
   Tapio, Turveruukki, Vapo/Neova, ProAgria, Helsingin yliopisto, Itä-Suomen yliopisto,
-  Oulun yliopisto, Jyväskylän yliopisto, SeAMK, Oamk, Centria, Ruralia-instituutti
+  Oulun yliopisto, Jyväskylän yliopisto, SEAMK, Oamk, Centria, Ruralia-instituutti
 - SE: Skogsstyrelsen, Sveriges lantbruksuniversitet (SLU), Länsstyrelsen,
   Hushållningssällskapet, Naturvårdsverket, Skogforsk, RISE, Svenska torvproducenter
 - EE: RMK, Keskkonnaamet, Eesti Maaülikool, Tartu Ülikool, Tallinna Tehnikaülikool,

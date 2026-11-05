@@ -89,7 +89,7 @@ Budjetti jaettuna hankkeen ennallistavalla hehtaaritavoitteella (tai toteumalla,
 |---|---|---|---|---|
 | Luonnonvarakeskus (Luke) | FI | 9 | 1 | 0.05 |
 | LSFRI Silava | LV | 9 | 1 | 0.0275 |
-| Seinäjoen ammattikorkeakoulu (SeAMK) | FI | 7 | 1 | 0.0173 |
+| Seinäjoen ammattikorkeakoulu (SEAMK) | FI | 7 | 1 | 0.0173 |
 | Oulun yliopisto | FI | 5 | 1 | 0.0119 |
 | Latvian yliopisto | LV | 4 | 1 | 0.0117 |
 | Institute of Horticulture (LatHort) | LV | 2 | 1 | 0.011 |
