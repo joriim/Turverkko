@@ -72,7 +72,7 @@ Teemat T1–T8 on kuvattu [SCHEMA.md](SCHEMA.md):ssa. Solmutyypit ovat teema, oh
 
 ## Osallistuminen
 
-Aineiston laajentamiseen on valmis hakuopas: [hakulahteet/](hakulahteet/README.md) listaa 22 avointa hanketietokantaa ja antaa jokaiselle hakuohjeen Claude in Chromelle. Sivustolla on myös [ehdotuslomake](https://joriim.github.io/Turverkko/ehdota.html).
+Aineiston laajentamiseen on valmis hakuopas: [hakulahteet/](hakulahteet/README.md) listaa 31 hanketietokantaa ja antaa jokaiselle hakuohjeen Claude in Chromelle. Tiedosto [`hakulahteet/lahteet.csv`](hakulahteet/lahteet.csv) kertoo, mistä on haettu, mistä ei ja missä automaattihaku on käytössä tai mahdollinen. Lähteistä 24–31 on tunnistettu TUKKA-hankkeen hankeselvityksestä (HY Ruralia 2026). Sivustolla on myös [ehdotuslomake](https://joriim.github.io/Turverkko/ehdota.html).
 
 
 Puuttuva hanke, organisaatio tai yhteys on tervetullut. Ohje: [CONTRIBUTING.md](CONTRIBUTING.md). Jokainen lisäys tarvitsee julkisen lähteen.

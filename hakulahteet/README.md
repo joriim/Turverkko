@@ -2,7 +2,7 @@
 
 Tämä opas listaa avoimet hanketietokannat, joista Turverkon aineistoa voi laajentaa, ja antaa jokaiselle valmiin hakuohjeen **Claude in Chrome** -selainlaajennukselle. Kohesio ja useat kansalliset rekisterit eivät salli automaattista hakua palvelimelta, mutta toimivat tavallisessa selaimessa. Siksi haku tehdään omassa selaimessa ja tulokset tallennetaan CSV-tiedostoon, joka tuodaan aineistoon.
 
-Avoimista rajapinnoista (nyt OpenAIRE) haetaan lisäksi viikoittain automaattisesti, ks. [automaattihaku/README.md](automaattihaku/README.md). Kohesio estää palvelinhaut, joten se haetaan selaimella.
+Avoimista rajapinnoista (OpenAIRE ja CORDIS) haetaan lisäksi viikoittain automaattisesti, ks. [automaattihaku/README.md](automaattihaku/README.md). Kohesio estää palvelinhaut, joten se haetaan selaimella.
 
 Työnkulku:
 
@@ -16,33 +16,59 @@ Työnkulku:
 
 ## Lähteet yhdellä silmäyksellä
 
-| # | Lähde | Kattaa | Maat | Osoite | Prioriteetti |
-|---|---|---|---|---|---|
-| 1 | Kohesio | EAKR, ESR+, JTF, KF, Interreg | kaikki | [kohesio.ec.europa.eu](https://kohesio.ec.europa.eu/fi/projects) ✓ | ✅ haettu 2.11.2026 |
-| 2 | EU CAP Network – hankkeet | EIP-AGRI-toimintaryhmät | kaikki | [eu-cap-network.ec.europa.eu/projects](https://eu-cap-network.ec.europa.eu/projects_en) ✓ | ✅ haettu 2.11.2026 |
-| 3 | LIFE-hankehaku | LIFE | kaikki | [webgate.ec.europa.eu/life](https://webgate.ec.europa.eu/life/publicWebsite/search) ✓ | 2 |
-| 4 | keep.eu | Interreg | kaikki | [keep.eu](https://keep.eu) ✓ | 3 |
-| 5 | EURA 2021 / EURA 2014 | EAKR, ESR+, JTF Suomessa | FI | [eura2021.fi](https://eura2021.fi) → | ✅ haettu 2.11.2026 (7 riviä, hakusana turve; jatka muilla sanoilla) |
-| 6 | Maaseutu.fi ja Leader | Maaseuturahasto, EIP, Leader | FI | [maaseutu.fi](https://maaseutu.fi) → | 2 |
-| 7 | Tiedejatutkimus.fi | Suomen Akatemia ja säätiöt | FI | [research.fi/fi/results/fundings](https://research.fi/fi/results/fundings) ✓ | 2 |
-| 8 | Tillväxtverket Projektbanken | Regionalfonden, JTF | SE | [tillvaxtverket.se](https://tillvaxtverket.se) → | ✅ haettu 2.11.2026 (7 osumaa; jatka Interreg-hakuja) |
-| 9 | Jordbruksverket – EIP | EIP-innovationsprojekt | SE | [jordbruksverket.se](https://jordbruksverket.se/languages/english/swedish-board-of-agriculture/rural-development-support/european-innovation-partnership-scheme) ✓ | ✅ haettu 2.11.2026 (6 osumaa, landsbygdsnatverket.se) |
-| 10 | SweCRIS | Ruotsin tutkimusrahoitus | SE | [vr.se/swecris](https://www.vr.se/swecris) → | 3 |
-| 11 | KIK – rahoitetut hankkeet | KF, EAKR ympäristö | EE | [kik.ee/en/projects](https://kik.ee/en/projects) ✓ | **1** |
-| 12 | RTK ja struktuurivarat | EAKR, JTF Virossa | EE | [rtk.ee](https://www.rtk.ee) → | 2 |
-| 13 | PRIA | Maaseuturahasto, EIP | EE | [pria.ee](https://www.pria.ee) → | 2 |
-| 14 | ESfondi / CFLA | EAKR, ESR+, JTF Latviassa | LV | [esfondi.lv](https://www.esfondi.lv) ✓ → | **1** |
-| 15 | Lauku atbalsta dienests | Maaseuturahasto, EIP | LV | [lad.gov.lv](https://www.lad.gov.lv) → | 2 |
-| 16 | CAP Network Ireland | EIP, maaseuturahasto | IE | [capnetworkireland.eu](https://capnetworkireland.eu) ✓ → | **1** |
-| 17 | EMRA – JTF | JTF Irlannissa | IE | [emra.ie](https://www.emra.ie) → | **1** |
-| 18 | EPA Research | Kansallinen ympäristötutkimus | IE | [epa.ie](https://www.epa.ie) → | 3 |
-| 19 | Europa für Niedersachsen | EFRE, ESF+, ELER | DE-NI | [europa-fuer-niedersachsen.niedersachsen.de](https://www.europa-fuer-niedersachsen.niedersachsen.de) ✓ → | **1** |
-| 20 | DVS GAP-Netzwerk – EIP | EIP-Agrar Saksassa | DE | [dvs-gap-netzwerk.de](https://www.dvs-gap-netzwerk.de) ✓ → | **1** |
-| 21 | Förderkatalog des Bundes | Liittovaltion hankkeet | DE | [foerderportal.bund.de/foekat](https://foerderportal.bund.de/foekat) → | 3 |
-| 22 | OpenAIRE | Kansalliset tutkimusrahoittajat, julkaisut | kaikki | [explore.openaire.eu](https://explore.openaire.eu) → | automaattinen (viikoittain) |
-| 23 | CORDIS | Horizon 2020, Horizon Europe | kaikki | [cordis.europa.eu](https://cordis.europa.eu/projects) → | automaattinen (viikoittain) |
+Taulukko kertoo jokaisesta tunnistetusta tietokannasta, mistä se on tunnistettu (Turverkon oma kartoitus tai TUKKA-hankkeen hankeselvitys *Turvemaiden kestävään käyttöön keskittynyt hanketoiminta vuosina 2014–2025*, HY Ruralia 2026), onko siitä haettu, missä tulokset ovat ja voiko haun automatisoida. Tilat:
 
-Prioriteetti 1 täyttää aineiston suurimmat aukot: Ruotsin turvemaahankkeet puuttuvat kokonaan, ja Kohesiosta saadaan EAKR- ja JTF-hankkeiden koko populaatio. Prioriteetti 2 täydentää rahoitusmuodot ja julkaisut. Prioriteetti 3 on valinnainen.
+- **haettu**: haettu kokonaan, tulokset kansiossa `tulokset/`.
+- **osittain**: haettu osalla hakusanoista tai ilman kokonaisvientiä.
+- **haettu, tulos ei repossa**: haku tehty erillisessä istunnossa, mutta CSV puuttuu kansiosta `tulokset/`.
+- **automaattinen**: haetaan viikoittain GitHub Actionsilla, ehdokkaat haarassa `automaattihaku`.
+- **hakematta**: ei vielä haettu.
+
+Automaattihaun tilat: **käytössä**, **mahdollinen, ei käytössä** (rajapinta tai palvelimelta toimiva haku löytyi, skripti tekemättä), **vaatii avaimen**, **estetty** (palvelinhaut torjuttu), **selvityksessä** ja **ei rajapintaa** (haku selaimella, Claude in Chrome). Saavutettavuus tarkistetaan joka ajolla, ks. [automaattihaku/README.md](automaattihaku/README.md).
+
+<!-- lahteet:alku -->
+
+_Generoitu tiedostosta [`lahteet.csv`](lahteet.csv) skriptillä `scripts/build.py`. Muokkaa CSV:tä, älä taulukkoa._
+
+Lähteitä 31: haettu 2, osittain 3, haettu mutta tulos ei repossa 2, automaattinen 2, hakematta 22. Automaattihaku käytössä 2 lähteellä (lisäksi osittain 1), mahdollinen mutta ei käytössä 3, vaatii avaimen 2, estetty 1, selvityksessä 1, ei rajapintaa 21.
+
+| # | Lähde | Kattaa | Maat | Tunnistettu | Haku | Viimeisin | Tulokset | Automaattihaku | Seuraava askel |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | [Kohesio](https://kohesio.ec.europa.eu/fi/projects) | EAKR, ESR+, JTF, KF, Interreg | kaikki | Turverkko | **osittain** | 2026-11-02 | tulokset/1-kohesio-2026-11-02.csv (119 riviä) | estetty: Palvelinhaut estetty (HTTP 403). scripts/haku/kohesio_vienti.py suodattaa selaimella ladatun kokonaisviennin. | Lataa maakohtaiset kokonaisviennit (FI, SE, EE, LV, IE, DE) ja aja kohesio_vienti.py; nyt haettu vain hakusanoilla |
+| 2 | [EU CAP Network – hankkeet](https://eu-cap-network.ec.europa.eu/projects_en) | EIP-AGRI-toimintaryhmät | kaikki | Turverkko | **haettu** | 2026-11-02 | tulokset/2-eu-cap-network-2026-11-02.csv (21 riviä) | selvityksessä: Etusivu vastaa (200), mutta toimintaryhmähaku estää palvelimen (403). | Uusi haku selaimella puolivuosittain |
+| 3 | [LIFE-hankehaku](https://webgate.ec.europa.eu/life/publicWebsite/search) | LIFE | kaikki | Turverkko | **hakematta** |  |  | mahdollinen, ei käytössä: EEA:n LIFE-MapServer (ArcGIS REST, JSON) ja hakusivun sisäinen JSON-rajapinta vastaavat palvelimelta (200). | Kirjoita LIFE-hakuskripti EEA:n MapServerin päälle |
+| 4 | [keep.eu](https://keep.eu) | Interreg, ulkorajayhteistyö (Karelia, Kolarctic, South-East Finland–Russia 2014–20) | kaikki | Turverkko ja TUKKA-raportti | **hakematta** |  |  | vaatii avaimen: Avoimen datan rajapinta vaatii avaimen (keep.support@interact.eu, repon salaisuus KEEP_KEY). | Pyydä avain tai hae selaimella; TUKKA-raportti käytti tätä Interreg- ja ulkorajahankkeisiin |
+| 5 | [EURA 2021](https://eura2021.fi/tiepa) | EAKR, ESR+, JTF Suomessa 2021–27 | FI | Turverkko ja TUKKA-raportti | **osittain** | 2026-11-03 | tulokset/5-eura2021-2026-11-02.csv (7 riviä) | ei rajapintaa: Power BI -raportti, ei vapaata hakua eikä rajapintaa; luetaan selaimella valmiilla hakusanoilla. | Erillisessä istunnossa 3.11. haku turve laajennettiin 56 riviin, mutta CSV ei ole repossa: tallenna se kansioon tulokset/. Aja lisäksi TUKKA-raportin valmiit hakusanat suo, turvetuotantoalueet ja turvetuotantoalueiden korvaava käyttö |
+| 6 | [Maaseutu.fi ja Leader](https://maaseutu.fi) | Maaseuturahasto, EIP, Leader | FI | Turverkko ja TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Ei avointa hankerekisteriä; ks. lähde 25. | Hae selaimella tai pyydä listaus Ruokavirastolta (lähde 25). Aineistossa ei ole yhtään suomalaista maaseuturahaston hanketta |
+| 7 | [Tiedejatutkimus.fi](https://research.fi/fi/results/fundings) | Suomen Akatemia ja säätiöt | FI | Turverkko | **hakematta** |  |  | osittain käytössä: Suomen Akatemian hankkeet tulevat OpenAIREn kautta (lähde 22). Säätiörahoitus vain research.fi:stä; sen avoin rajapinta on tarkistamatta. | Selvitä research.fi:n rajapinta säätiörahoitusta varten |
+| 8 | [Tillväxtverket Projektbanken](https://projektbank.tillvaxtverket.se/projektbanken2020) | Regionalfonden, JTF | SE | Turverkko | **osittain** | 2026-11-02 | tulokset/8-tillvaxtverket-2026-11-02.csv (7 riviä) | ei rajapintaa: Hakusivu vastaa palvelimelta (200), rajapintaa ei löytynyt. | Jatka Interreg-hakuja selaimella |
+| 9 | [Jordbruksverket – EIP](https://jordbruksverket.se/languages/english/swedish-board-of-agriculture/rural-development-support/european-innovation-partnership-scheme) | EIP-innovationsprojekt | SE | Turverkko | **haettu** | 2026-11-02 | tulokset/9-jordbruksverket-eip-2026-11-02.csv (6 riviä) | ei rajapintaa: Landsbygdsnätverketin EIP-sivun osoite antaa nyt 404. | Päivitä EIP-hankelistan osoite |
+| 10 | [SweCRIS](https://www.vr.se/swecris) | Ruotsin tutkimusrahoitus | SE | Turverkko | **hakematta** |  |  | vaatii avaimen: REST-rajapinta vaatii avaimen (repon salaisuus SWECRIS_TOKEN); hakuskripti tekemättä. | Pyydä avain Vetenskapsrådetilta |
+| 11 | [KIK – rahoitetut hankkeet](https://kik.ee/et/projektid) | KF, EAKR ympäristö | EE | Turverkko | **haettu, tulos ei repossa** | 2026-11-03 |  | ei rajapintaa: Hakusivu toimii, mutta raja ylittyy helposti (HTTP 429). | Erillisessä istunnossa 3.11. löytyi 67 hanketta ja poissulkulista, mutta CSV ei ole repossa: tallenna se kansioon tulokset/. Aineistossa on nyt vain yksi virolainen hanke |
+| 12 | [RTK ja struktuurivarat](https://www.rtk.ee) | EAKR, JTF Virossa | EE | Turverkko | **hakematta** |  |  | ei rajapintaa | Hae selaimella |
+| 13 | [PRIA](https://www.pria.ee) | Maaseuturahasto, EIP | EE | Turverkko | **hakematta** |  |  | ei rajapintaa | Hae selaimella |
+| 14 | [ESfondi / CFLA](https://www.esfondi.lv) | EAKR, ESR+, JTF Latviassa | LV | Turverkko | **haettu, tulos ei repossa** | 2026-11-04 |  | ei rajapintaa: Hakee vain hankkeen nimestä (parametri projektanosaukums) ja hakijasta; GET-osoitteita ei ole kokeiltu palvelimelta. | Erillisessä istunnossa 4.11. löytyi 11 hanketta, mutta CSV ei ole repossa: tallenna se kansioon tulokset/ |
+| 15 | [Lauku atbalsta dienests](https://www.lad.gov.lv) | Maaseuturahasto, EIP | LV | Turverkko | **hakematta** |  |  | ei rajapintaa | Hae selaimella |
+| 16 | [CAP Network Ireland](https://capnetworkireland.eu) | EIP, maaseuturahasto | IE | Turverkko | **hakematta** |  |  | ei rajapintaa | Hae selaimella; Irlannin EIP-hankkeet tulevat nyt EU CAP Networkista (lähde 2) |
+| 17 | [EMRA – JTF](https://www.emra.ie) | JTF Irlannissa | IE | Turverkko | **hakematta** |  |  | ei rajapintaa | Hae selaimella; Irlannin JTF-hankkeet tulevat nyt Kohesiosta |
+| 18 | [EPA Research](https://www.epa.ie) | Kansallinen ympäristötutkimus | IE | Turverkko | **hakematta** |  |  | ei rajapintaa: SAFER-tietokanta antaa palvelimelta varmennevirheen. | Hae selaimella |
+| 19 | [Europa für Niedersachsen](https://www.europa-fuer-niedersachsen.niedersachsen.de) | EFRE, ESF+, ELER | DE-NI | Turverkko | **hakematta** |  |  | ei rajapintaa | Hae ELER-hankkeet selaimella; EFRE-hankkeet tulevat nyt Kohesiosta |
+| 20 | [DVS GAP-Netzwerk – EIP](https://www.dvs-gap-netzwerk.de) | EIP-Agrar Saksassa | DE | Turverkko | **hakematta** |  |  | mahdollinen, ei käytössä: EIP-projektihaku palauttaa tulokset GET-osoitteella palvelimelle (200, HTML). | Kirjoita hakuskripti tai hae selaimella |
+| 21 | [Förderkatalog des Bundes](https://foerderportal.bund.de/foekat) | Liittovaltion hankkeet | DE | Turverkko | **hakematta** |  |  | ei rajapintaa | Hae selaimella |
+| 22 | [OpenAIRE](https://explore.openaire.eu) | Kansalliset tutkimusrahoittajat, julkaisut, yhteisjulkaisut | kaikki | Turverkko | **automaattinen** | 2026-11-16 | haara automaattihaku: 184 hanke-ehdokasta, 9 julkaisua, 142 yhteisjulkaisua; tarkistetut tulokset/verkosto/ | käytössä: Graph API ja Search API viikoittain (maanantaisin), ei avainta. | Tarkista ehdokkaat. Pull request ei avaudu, koska repon Actions-asetuksista puuttuu lupa |
+| 23 | [CORDIS](https://cordis.europa.eu/projects) | Horizon 2020, Horizon Europe | kaikki | Turverkko | **automaattinen** | 2026-11-16 | haara automaattihaku: 78 hanke-ehdokasta | käytössä: Avoimet CSV-viennit viikoittain, ei avainta. | Tarkista ehdokkaat |
+| 24 | [EURA 2014 (RR-tietopalvelu)](https://www.eura2014.fi/rrtiepa/) | EAKR, ESR Suomessa 2014–20 | FI | Turverkko ja TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Vapaa haku katkaisulla. | Hae TUKKA-raportin hakusanoilla turv*, turp*, suo |
+| 25 | [Ruokavirasto – maaseuturahaston hankelistaus](https://www.ruokavirasto.fi) | Maaseuturahasto, Leader 2014–22 ja 2023–27 | FI | TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Ei avointa rekisteriä; TUKKA-raportti pyysi listauksen Ruokavirastolta. | Tee tietopyyntö Ruokavirastolle (kaikki maaseuturahaston kehittämishankkeet) tai pyydä TUKKAn listaus Ruralialta |
+| 26 | [Hiilestä kiinni (MMM)](https://mmm.fi/maankayttosektorin-ilmastosuunnitelma/hankkeet) | Maankäyttösektorin ilmastotoimet | FI | TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Staattinen hankesivu teemoittain. | Käy teemat läpi selaimella. TUKKA-raportin neljänneksi suurin rahoituslähde |
+| 27 | [SYKE – tutkimus- ja kehittämishankkeet](https://www.syke.fi) | Ilmastopolitiikan tuki ja muut SYKEn hankkeet | FI | TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Teemoittainen hankelista; raportin osoite on vanhan sivuston. | Etsi hankelista uudelta syke.fi-sivustolta ja käy teemat läpi |
+| 28 | [MAKERA (MMM)](https://mmm.fi/mato/rahoitetut-hankkeet) | Maatilatalouden kehittämisrahaston tutkimushankkeet | FI | TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Staattinen hankesivu vuosittain. | Käy vuodet 2016– läpi selaimella |
+| 29 | [MANE – maaseutuneuvoston tutkimushankkeet](https://www.maaseutupolitiikka.fi/mita-teemme/tutkimus/rahoitetut-hankkeet) | Maaseutupolitiikan tutkimus- ja kehittämishankkeet | FI | TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Staattinen hankesivu. | Käy vuodet 2016– läpi selaimella |
+| 30 | [Valtioneuvoston julkaisut (VN TEAS)](https://julkaisut.valtioneuvosto.fi) | Valtioneuvoston selvitys- ja tutkimustoiminta, MMM:n selvitykset | FI | TUKKA-raportti | **hakematta** |  |  | mahdollinen, ei käytössä: Julkaisuarkisto on DSpace-pohjainen, joten OAI-PMH-rajapinta on todennäköinen; tarkistamatta. | Tarkista OAI-PMH; muuten hae selaimella |
+| 31 | [Rakennerahastot.fi ja maakuntien liitot](https://www.rakennerahastot.fi) | Interreg (Aurora, Bothnia Atlantica, NPA, Nord, Central Baltic, BSR), ulkorajayhteistyö | FI | TUKKA-raportti | **hakematta** |  |  | ei rajapintaa: Hankeosio ja maakuntien liittojen omat listat; osoite voi olla vaihtunut. | Hae keep.eu:n (lähde 4) jälkeen puuttuvat Interreg-hankkeet ohjelmien omilta sivuilta |
+
+<!-- lahteet:loppu -->
+
+**Suurimmat aukot TUKKA-raporttiin verrattuna (Suomi):** raportissa on 145 hanketta, Turverkossa 42. Turverkosta puuttuvat kokonaan maaseuturahasto ja Leader (raportissa 26 hanketta; lähteet 6 ja 25), Hiilestä kiinni (lähde 26), ESR ja EAKR 2014–20 (lähde 24), Interreg- ja ulkorajahankkeet (lähteet 4 ja 31) sekä MMM:n ja valtioneuvoston kansalliset hankkeet (lähteet 27–30). EURA 2021:n JTF-hankkeista raportissa on 51, Turverkossa 32 (lähde 5). Raportin hankelistaa ei ole julkaistu; sen saa Ruralialta.
 
 **Horizon:** Horizon 2020 ja Horizon Europe otettiin rajaukseen 2.11.2026. Ne haetaan automaattisesti CORDISin avoimista CSV-vienneistä (lähde 23). Vety- ja energiahankkeita ei kerätä.
 
@@ -550,6 +576,70 @@ soil health, LULUCF. Rajaa "Programme" = Horizon 2020 tai Horizon Europe ja
 toteuttaja = koordinaattori muodossa "Nimi (maa)", partnerit = vain rajauksen maiden
 osallistujat muodossa "Nimi (maa)", budjetti_eur = "Total cost", eu_osuus_eur = "EU
 contribution", url = https://cordis.europa.eu/project/id/<numero>.
+```
+
+### 24. EURA 2014 – RR-tietopalvelu (Suomi: EAKR, ESR 2014–20)
+
+```text
+LÄHDE 24: EURA 2014. Avaa https://www.eura2014.fi/rrtiepa/ ja käytä vapaata hakua.
+Haku tukee katkaisua: aja ensin TUKKA-hankeselvityksen hakusanat turv*, turp* ja suo,
+sitten lähteen 5 hakusanalista. Rajaa rahastoksi EAKR ja ESR.
+Kirjaa ohjelmakausi = "2014-2020" ja kentät kuten lähteessä 5.
+```
+
+### 25. Ruokavirasto – maaseuturahaston hankelistaus (Suomi)
+
+Maaseuturahaston hankkeista ei ole avointa hakua, jossa olisi kaikki kehittämishankkeet. TUKKA-hankeselvitys pyysi Ruokavirastolta listauksen ja poimi siitä turvemaahankkeet. Tee tietopyyntö Ruokaviraston kirjaamoon: maaseuturahaston kehittämis-, koulutus-, EIP- ja Leader-hankkeet 2014–2020 ja 2023–2027, sarakkeina nimi, toteuttaja, ELY-keskus tai Leader-ryhmä, vuodet, kokonaisbudjetti ja tiivistelmä. Tallenna vastaus kansioon `hakulahteet/vienti/` ja suodata se samoilla rajaustermeillä kuin Kohesion vienti.
+
+### 26. Hiilestä kiinni (maa- ja metsätalousministeriö)
+
+```text
+LÄHDE 26: Hiilestä kiinni. Avaa https://mmm.fi/maankayttosektorin-ilmastosuunnitelma/hankkeet
+Käy läpi kaikki teemat ja niiden hankkeet. Pidä turvemaihin, suometsiin, turvepeltoihin,
+kosteikkoihin, ennallistamiseen ja maaperän päästöihin liittyvät. Kirjaa rahasto =
+"Kansallinen" ja "Hiilestä kiinni (MMM)" kuvaus-kenttään, toteuttaja, vuodet ja
+myönnetty tuki, jos sivulla on.
+```
+
+### 27. SYKE – tutkimus- ja kehittämishankkeet
+
+```text
+LÄHDE 27: SYKE. Avaa https://www.syke.fi ja etsi tutkimus- ja kehittämishankkeiden lista
+(TUKKA-raportin osoite oli vanhan sivuston teemahaku "Ilmastopolitiikan tuki").
+Käy läpi teemat ja pidä rajaukseen sopivat. Kirjaa rahoittaja kuvaus-kenttään.
+```
+
+### 28. MAKERA (maa- ja metsätalousministeriö)
+
+```text
+LÄHDE 28: MAKERA. Avaa https://mmm.fi/mato/rahoitetut-hankkeet
+Käy läpi vuodet 2016 alkaen. Kirjaa rahasto = "Kansallinen" ja "MAKERA" kuvaus-kenttään.
+```
+
+### 29. MANE – maaseutuneuvoston tutkimushankkeet
+
+```text
+LÄHDE 29: MANE. Avaa https://www.maaseutupolitiikka.fi/mita-teemme/tutkimus/rahoitetut-hankkeet
+Käy läpi vuodet 2016 alkaen. Kirjaa rahasto = "Kansallinen" ja "MANE" kuvaus-kenttään.
+```
+
+### 30. Valtioneuvoston julkaisut ja VN TEAS
+
+```text
+LÄHDE 30: Valtioneuvoston julkaisut. Avaa https://julkaisut.valtioneuvosto.fi
+Hae hakusanoilla turvemaa, turve, suo, suometsä, ennallistaminen, maankäyttösektori,
+LULUCF ja rajaa julkaisijaksi maa- ja metsätalousministeriö, ympäristöministeriö tai
+valtioneuvoston kanslia (VN TEAS). Kirjaa selvityshankkeet hankkeina ja raportit
+julkaisupohjaan (julkaisupohja.csv).
+```
+
+### 31. Rakennerahastot.fi, maakuntien liitot ja Interreg-ohjelmat
+
+```text
+LÄHDE 31: Interreg-ohjelmien hankkeet, jotka puuttuvat keep.eu:sta. Tarkista ohjelmien
+omat hankelistat: Interreg Aurora, Botnia-Atlantica, Northern Periphery and Arctic,
+Nord, Central Baltic, Baltic Sea Region, Interreg Europe, sekä 2014–20 ulkoraja-
+ohjelmat Karelia, Kolarctic ja South-East Finland–Russia. Käytä lähteen 4 hakusanoja.
 ```
 
 ---

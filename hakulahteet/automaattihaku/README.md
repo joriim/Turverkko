@@ -28,8 +28,13 @@ Työnkulku tarvitsee luvan avata pull request. Ota se käyttöön kerran: repon 
 | 1 Kohesio | estää GitHubin palvelimet (HTTP 403) | selainagentti omalla koneella |
 | 10 SweCRIS | REST-rajapinta, vaatii avaimen | odottaa avainta (repon salaisuus `SWECRIS_TOKEN`) |
 | 4 keep.eu | avoimen datan rajapinta, vaatii avaimen | odottaa avainta (keep.support@interact.eu, salaisuus `KEEP_KEY`) |
-| 3 LIFE | hakusivun sisäinen JSON-rajapinta | selvityksessä |
-| 2 EU CAP Network, 20 DVS | palvelimella muodostetut hakusivut | selvityksessä |
-| muut | ei rajapintaa | selainagentti, ks. [../README.md](../README.md) |
+| 3 LIFE | EEA:n LIFE-MapServer (ArcGIS REST, JSON) ja hakusivun sisäinen JSON-rajapinta | mahdollinen, skripti tekemättä |
+| 20 DVS | EIP-projektihaku GET-osoitteella (HTML) | mahdollinen, skripti tekemättä |
+| 2 EU CAP Network | toimintaryhmähaku estää palvelimen (403) | selvityksessä |
+| 7 research.fi | Suomen Akatemia tulee OpenAIREsta; research.fi:n oma rajapinta | osittain käytössä, rajapinta tarkistamatta |
+| 30 Valtioneuvoston julkaisut | DSpace, todennäköisesti OAI-PMH | mahdollinen, tarkistamatta |
+| muut | ei rajapintaa | selainagentti |
+
+Kaikkien lähteiden haku- ja automaatiotila: [`../lahteet.csv`](../lahteet.csv) ja taulukko [../README.md](../README.md#lähteet-yhdellä-silmäyksellä).
 
 Ajantasainen saavutettavuus: [`saavutettavuus.md`](https://github.com/joriim/Turverkko/blob/automaattihaku/hakulahteet/automaattihaku/saavutettavuus.md) (haarassa `automaattihaku`, päivittyy jokaisella ajolla).

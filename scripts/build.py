@@ -131,12 +131,41 @@ def write(nodes, edges):
     print(f"Solmuja {len(nodes)}, särmiä {len(edges)}; tarkistamattomia hehtaarimainintoja {len(S.HECTARE_CANDIDATES)}")
 
 
+def sources_table(text):
+    """Hakulähteiden taulukko ja tilannekatsaus hakulahteet/lahteet.csv:stä (yksi lähde)."""
+    start, end = "<!-- lahteet:alku -->", "<!-- lahteet:loppu -->"
+    if start not in text or end not in text:
+        return text
+    with open(ROOT / "hakulahteet" / "lahteet.csv", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    cell = lambda s: (s or "").replace("|", "\\|").replace("\n", " ")
+    count = lambda key, val: sum(1 for r in rows if r[key] == val)
+    out = [start, "",
+           "_Generoitu tiedostosta [`lahteet.csv`](lahteet.csv) skriptillä `scripts/build.py`. Muokkaa CSV:tä, älä taulukkoa._", "",
+           f"Lähteitä {len(rows)}: haettu {count('haku', 'haettu')}, osittain {count('haku', 'osittain')}, "
+           f"haettu mutta tulos ei repossa {count('haku', 'haettu, tulos ei repossa')}, automaattinen {count('haku', 'automaattinen')}, "
+           f"hakematta {count('haku', 'hakematta')}. Automaattihaku käytössä {count('automaatio', 'käytössä')} lähteellä "
+           f"(lisäksi osittain {count('automaatio', 'osittain käytössä')}), mahdollinen mutta ei käytössä {count('automaatio', 'mahdollinen, ei käytössä')}, "
+           f"vaatii avaimen {count('automaatio', 'vaatii avaimen')}, estetty {count('automaatio', 'estetty')}, "
+           f"selvityksessä {count('automaatio', 'selvityksessä')}, ei rajapintaa {count('automaatio', 'ei rajapintaa')}.", "",
+           "| # | Lähde | Kattaa | Maat | Tunnistettu | Haku | Viimeisin | Tulokset | Automaattihaku | Seuraava askel |",
+           "|---|---|---|---|---|---|---|---|---|---|"]
+    for r in rows:
+        name = f"[{cell(r['lahde'])}]({r['osoite']})" if r["osoite"] else cell(r["lahde"])
+        auto = cell(r["automaatio"]) + (f": {cell(r['automaatio_tapa'])}" if r["automaatio_tapa"] else "")
+        out.append("| " + " | ".join([r["nro"], name, cell(r["kattaa"]), r["maat"], cell(r["tunnistettu"]), f"**{cell(r['haku'])}**",
+                                       r["viimeisin_haku"], cell(r["tulokset"]), auto, cell(r["seuraava_askel"])]) + " |")
+    out += ["", end]
+    a, b = text.index(start), text.index(end) + len(end)
+    return text[:a] + "\n".join(out) + text[b:]
+
+
 def guide():
     """Hakuohjeen rajaus ja ydinsanat src/rajaus.py:stä (yksi lähde)."""
     import rajaus
     p = ROOT / "hakulahteet" / "README.md"
     old = p.read_text(encoding="utf-8")
-    new = rajaus.render_guide(old)
+    new = sources_table(rajaus.render_guide(old))
     if new != old:
         p.write_text(new, encoding="utf-8")
     miss = rajaus.check()
