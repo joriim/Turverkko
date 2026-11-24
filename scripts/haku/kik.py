@@ -21,7 +21,7 @@ ET_SCOPE = re.compile(
 # Väärät osumat: turpeen energiakäyttö, jätevesi, paikannimet (Turba alevik, Tootsi Turvas), opastus ja retket
 KIK_EXCLUDE = re.compile(r"katlamaja|turbakütt|kaugkütte|soojus(varustus|trass)|reovee|ühisveevär|veevärg|kanalisatsiooni|"
                          r"turba alevik|tootsi turvas|\bloodusmaja|õppepäev|õppekäik|matk(ad|arada)|laager|konkurss|näitus|"
-                         r"festival|trükis|infotahvl|teavitus|lasteaed|lasteaia|\\bkool\\b|\\bkooli\\b|õpilas|keskkonnahariduslik|aktiivõpe|õppeprogramm|"
+                         r"festival|trükis|infotahvl|teavitus|lasteaed|lasteaia|\bkool\b|\bkooli\b|õpilas|keskkonnahariduslik|aktiivõpe|õppeprogramm|"
                          r"loodusõpe|keskkonnaõpe|soojus|kompost|biojäätme|jäätmejaam|kütusekvaliteed", re.I)
 FUND = {"KP": "Kansallinen", "ÜF": "KF", "UF": "KF", "ERF": "EAKR", "ERDF": "EAKR", "ÕÜF": "JTF", "OÜF": "JTF", "JTF": "JTF"}
 
