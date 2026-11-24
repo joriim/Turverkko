@@ -5,9 +5,9 @@ const TV = (() => {
   // Hakulähteiden kattavuus (scripts/site.py täyttää hakulahteet/lahteet.csv:stä)
   const COV = __KATTAVUUS__;
   const LOGO = "__SEAMK_LOGO__", LOGO_DARK = "__SEAMK_LOGO_DARK__";
-  const COUNTRY = {FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (Interreg)"};
+  const COUNTRY = {FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (useita maita)"};
   const FUND = {JTF:"JTF – oikeudenmukainen siirtymä", EAKR:"EAKR / EFRE / ERDF", EIP:"EIP-AGRI", MSR:"Maaseuturahasto (EAFRD)",
-                KF:"Koheesiorahasto", Interreg:"Interreg (EAKR)", "ESR+":"ESR+", LIFE:"LIFE", Horizon:"Horizon 2020 / Horizon Europe", Kansallinen:"Kansallinen", "?":"EU-osarahoitteinen, rahasto ei lähteessä", "—":"—"};
+                KF:"Koheesiorahasto", Interreg:"Interreg (EAKR)", "ESR+":"ESR+", LIFE:"LIFE", Horizon:"Horizon 2020 / Horizon Europe", "EU-muu":"Muu EU-rahoitus", Kansallinen:"Kansallinen tutkimusrahoitus", "?":"Muu tai ei tiedossa", "—":"—"};
   const KIND = {hanke:"Hanke", osaamiskeskus:"Osaamiskeskus", vertailukohde:"Vertailukohde", organisaatio:"Organisaatio",
                 julkaisu:"Julkaisu", ohjelma:"Ohjelma", teema:"Teema"};
   const EV = ["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"];

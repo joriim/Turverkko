@@ -425,6 +425,7 @@ _ORG_EXTRA = [
     dict(id="rmk", name="Riigimetsa Majandamise Keskus (RMK)", country="EE", type="viranomainen"),
     dict(id="slu", name="Sveriges lantbruksuniversitet (SLU)", country="SE", type="yliopisto"),
     dict(id="ltu", name="Luleå tekniska universitet", country="SE", type="yliopisto"),
+    dict(id="metsahallitus", name="Metsähallitus", country="FI", type="viranomainen"),
 ]
 _known = {o["id"] for o in ORGS}
 ORGS += [o for o in _ORG_EXTRA if o["id"] not in _known]
@@ -447,6 +448,14 @@ for _pid, _rows in _enrich.items():
     if "eur_total" in _p:
         _p["eur_total"] = _p["eur_total"] or _b
         _p["eur_eu"] = _p["eur_eu"] or _e
+    # Puuttuvat perustiedot (esim. käsin kirjatun hankkeen rahasto ja vuodet) täydennetään lähteen rivistä
+    _r0 = _rows[0]
+    if _p.get("fund") in ("?", "", None) and _r0["rahasto"] in ("JTF", "EAKR", "ESR+", "KF", "MSR", "EIP", "LIFE", "Interreg"):
+        _p["fund"] = _r0["rahasto"]
+    if _p.get("start") is None and _r0["alku"][:4].isdigit():
+        _p["start"] = int(_r0["alku"][:4])
+    if _p.get("end") is None and _r0["loppu"][:4].isdigit():
+        _p["end"] = int(_r0["loppu"][:4])
     _extra = [t for r in _rows for t in (r["kuvaus"].strip(), r["tuotokset"].strip()) if t]
     if _extra:  # muiden lähteiden kuvaukset (esim. EURA:n suomenkielinen teksti Kohesion hankkeelle)
         _p["description_extra"] = " ".join(dict.fromkeys(_extra))

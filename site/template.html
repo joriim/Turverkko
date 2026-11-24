@@ -86,7 +86,7 @@ a{color:var(--water)}
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI · Horizon — 2014–20 ja 2021–27</div>
+    <div class="eyebrow">JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI · LIFE · Horizon · kansallinen — 2014–20 ja 2021–27</div>
     <h1>Turverkko</h1>
     <p class="lede">Turvemaiden, turvepeltojen, suometsien, kosteikkoviljelyn, ennallistamisen ja maankäyttösektorin päästöjen julkinen TKI-rahoitus kuudella EU:n turvemaa-alueella: mihin raha menee, kuka tekee yhteistyötä kenen kanssa ja paljonko hankkeista jää näytettävää. Aineisto on lähteillä varmennettu otos, ei koko populaatio.</p>
   </header>
@@ -192,7 +192,8 @@ a{color:var(--water)}
 <script>
 const D = __DATA__;
 const CN = Object.fromEntries(Object.entries(D.countries).map(([k, v]) => [k, TV.COUNTRY[k] || v])), TH = Object.fromEntries(Object.entries(D.themes).map(([k, v]) => [k, TV.v(v)]));
-const FUNDS = ["JTF","EAKR","Interreg","EIP","MSR","KF","?"];
+const FUNDS = ["JTF","EAKR","Interreg","EIP","MSR","LIFE","Horizon","Kansallinen","KF","?"];
+const fk = p => FUNDS.includes(p.fund) ? p.fund : "?";
 const FUNDNAME = {JTF:"JTF – oikeudenmukainen siirtymä",EAKR:"EAKR / EFRE / ERDF",EIP:"EIP-AGRI (MSR)",MSR:"MSR / EAFRD muu",KF:"Koheesiorahasto",Interreg:"Interreg (EAKR)","?":"EU-osarahoitteinen, rahasto ei lähteessä",LIFE:"LIFE",Horizon:"Horizon 2020 / Horizon Europe",Kansallinen:"Kansallinen","—":"—"};
 const EVTXT = ["Ei tuotostietoa","Laadullinen kuvaus","Määrälliset tavoitteet","Raportoituja tuloksia","Avoin data / vertaisarvioitu"];
 const state = {view:"map", countries:new Set(Object.keys(CN)), funds:new Set(FUNDS), sel:null};
@@ -201,7 +202,7 @@ const ccol = c => `var(--c-${CN[c]?c:"X"})`;
 const fmt = v => v==null ? "—" : v>=1e6 ? (v/1e6).toLocaleString("fi-FI",{maximumFractionDigits:1})+" M€" : Math.round(v).toLocaleString("fi-FI")+" €";
 const esc = s => String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const all = () => D.projects.concat(D.context.map(x=>({...x,isContext:true})));
-const visible = p => p.isContext ? state.countries.has(p.country) || !CN[p.country] : state.countries.has(p.country) && state.funds.has(p.fund);
+const visible = p => p.isContext ? state.countries.has(p.country) || !CN[p.country] : state.countries.has(p.country) && state.funds.has(fk(p));
 
 /* KPIs */
 (function(){
@@ -225,7 +226,7 @@ const visible = p => p.isContext ? state.countries.has(p.country) || !CN[p.count
 function renderFilters(){
   const f = document.getElementById("filters");
   f.innerHTML = `<span class="eyebrow">Maa</span>` + Object.entries(CN).map(([c,n])=>`<button class="chip" data-c="${c}" aria-pressed="${state.countries.has(c)}"><span class="dot" style="background:${ccol(c)}"></span>${n}</button>`).join("")
-   + `<span class="eyebrow" style="margin-left:10px">Rahasto</span>` + FUNDS.map(x=>`<button class="chip" data-f="${x}" aria-pressed="${state.funds.has(x)}">${x}</button>`).join("");
+   + `<span class="eyebrow" style="margin-left:10px">Rahasto</span>` + FUNDS.map(x=>`<button class="chip" data-f="${x}" aria-pressed="${state.funds.has(x)}">${x === "?" ? "muu" : x}</button>`).join("");
   f.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{toggle(state.countries,b.dataset.c);rerender()});
   f.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{toggle(state.funds,b.dataset.f);rerender()});
 }
@@ -441,9 +442,9 @@ function netDetail(){
 function renderMatrix(){
   const cs = Object.keys(CN).filter(c=>state.countries.has(c));
   let h = `<thead><tr><th>Teema</th>${cs.map(c=>`<th><span class="dot" style="background:${ccol(c)}"></span> ${CN[c]}</th>`).join("")}<th>Maita</th></tr></thead><tbody>`;
-  const mx = Math.max(1, ...Object.keys(TH).flatMap(t=>cs.map(c=>D.projects.filter(p=>p.country===c&&p.themes.includes(t)&&state.funds.has(p.fund)).length)));
+  const mx = Math.max(1, ...Object.keys(TH).flatMap(t=>cs.map(c=>D.projects.filter(p=>p.country===c&&p.themes.includes(t)&&state.funds.has(fk(p))).length)));
   Object.entries(TH).forEach(([t,n])=>{
-    const row = cs.map(c=>D.projects.filter(p=>p.country===c&&p.themes.includes(t)&&state.funds.has(p.fund)));
+    const row = cs.map(c=>D.projects.filter(p=>p.country===c&&p.themes.includes(t)&&state.funds.has(fk(p))));
     const nc = row.filter(r=>r.length).length;
     h += `<tr><td><b class="mono">${t}</b> ${n}</td>${row.map(r=>`<td>${r.length?`<span class="cell" style="background:color-mix(in srgb,var(--accent) ${Math.round(15+70*r.length/mx)}%,transparent);color:${r.length/mx>.55?"var(--surface)":"inherit"}" title="${r.map(p=>p.id).join(", ")}">${r.length}</span><div class="note mono" style="font-size:11px">${r.map(p=>p.id).join(" ")}</div>`:`<span class="cell" style="color:var(--muted)">·</span>`}</td>`).join("")}<td>${nc>=3?`<span class="pill cross">${nc}</span>`:`<span class="mono">${nc}</span>`}</td></tr>`;
   });

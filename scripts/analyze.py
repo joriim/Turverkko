@@ -50,6 +50,8 @@ def collab_graph(nodes, edges, include_unverified=True, copubs=False):
 # Käsin tarkistetut ehdokasparit, jotka EIVÄT ole sama hanke (2026-11-05). Perustelu jää näkyviin.
 # Todelliset kaksoiskappaleet yhdistetään src/tuonti.py:n MATCH_EXISTING-listalla, jolloin parempi lähde jää pääriviksi.
 NOT_DUPLICATE = {
+    frozenset({"FI-08", "R-FI-5c35"}): "Turvevapaa ruokaketju on SEAMKin kosteikkoviljelypilotti; R-FI-5c35 on KEMMO, SEAMKin, Sedun ja "
+        "Kpedun koulutushanke turvealan työntekijöille. Yhteinen toimija ja samat vuodet, eri hankkeet.",
     frozenset({"FI-06", "K-FI-0ac6"}): "Suopaikka on SEAMKin oma JTF-hanke (245 000 €, Etelä-Pohjanmaa, rahoittaja Keski-Suomen ELY); "
         "K-FI-0ac6 on Itä-Suomen yliopiston vetämä ArvoHiili (788 547 €, Pohjois-Karjala), jossa SEAMK on osatoteuttaja.",
     frozenset({"FI-07", "K-FI-6894"}): "TUPSU on Helsingin yliopiston vetämä suometsitystutkimus; K-FI-6894 on Suomen ympäristökeskuksen vetämä "
@@ -267,6 +269,7 @@ def main():
                      cross_country_edges=sum(cross.values()), overlap_pairs=len(pairs), missing_links=len(miss),
                      missing_cross_country=sum(1 for m in miss if m["tyyppi"] == "puuttuva yhteys"),
                      parallel_unlinked=sum(1 for m in miss if m["tyyppi"] == "rinnakkainen ilman yhteyttä"),
+                     actor_unknown=sum(1 for m in miss if m["tyyppi"] == "toimija ei tiedossa"),
                      sequential_unlinked=sum(1 for m in miss if m["tyyppi"] == "peräkkäiset samassa maassa"),
                      overlap_connected=sum(1 for m in pairs if m["tyyppi"] == "yhteydessä"),
                      overlap_family=sum(1 for m in pairs if m["tyyppi"] == "saman kokonaisuuden osat"),
@@ -350,6 +353,7 @@ def report(a, nodes):
          f"  - puuttuvia maiden välisiä yhteyksiä: **{s['missing_cross_country']}**",
          f"  - yhteydessä olevia (yhteinen toimija tai lyhyt polku): **{s['overlap_connected']}**",
          f"  - saman hankekokonaisuuden osia: **{s['overlap_family']}**",
+         f"  - pareja, joissa toisen hankkeen toimija ei ole tiedossa (esim. henkilökohtainen apuraha), joten yhteyttä ei voi arvioida: **{s.get('actor_unknown', 0)}**",
          f"- Todennäköisiä kaksoiskappaleita eri lähteistä (sama maa ja vuodet, yhteinen toimija tai samankaltainen teksti): **{s['duplicate_candidates']}**. Ne tarkistetaan: todelliset kaksoiskappaleet yhdistetään `src/tuonti.py`:n `MATCH_EXISTING`-listalla, ja erillisiksi todetut parit kirjataan perusteluineen `scripts/analyze.py`:n `NOT_DUPLICATE`-listaan (`analysis/kaksoisehdokkaat.csv`).",
          "", "## Ennallistetut hehtaarit", "",
          f"Hehtaaritieto on **{a['hectares']['projects_with_ha']}** hankkeella. Ennallistavien toimenpiteiden (ennallistaminen, vettäminen, kosteikko) tavoitteita on yhteensä **{fi(a['hectares']['target_ha'])} ha** ja raportoitua toteumaa **{fi(a['hectares']['realised_ha'])} ha**. Jo päättyneiden hankkeiden tavoitteita, joiden toteumaa lähde ei raportoi, on {fi(a['hectares']['ended_target_ha'])} ha.", "",

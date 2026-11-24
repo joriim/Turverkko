@@ -12,6 +12,8 @@
     "rinnakkainen ilman yhteyttä": "parallel, unconnected",
     "peräkkäiset samassa maassa": "sequential in the same country",
     "puuttuva yhteys": "missing link",
+    "toimija ei tiedossa": "actor not known",
+    "toiselta hankkeelta puuttuu organisaatio (esim. henkilökohtainen apuraha), joten yhteyttä ei voi todeta eikä sulkea pois": "one of the projects has no organisation recorded (e.g. a personal grant), so a connection can be neither confirmed nor ruled out",
     "yhteydessä": "connected",
     "nimet alkavat samalla hanke- tai ohjelmanimellä (osahankkeet tai -toteutukset)": "names start with the same project or programme name (sub-projects or implementations)",
     "sama maa, samaan aikaan, ei yhteistä toimijaa eikä yhteistyöpolkua. Voi olla tarkoituksellista (eri kohteet) tai päällekkäistä työtä (sama menetelmä tai suunnittelu kahteen kertaan)": "same country, same time, no shared actor and no collaboration path. May be intentional (different sites) or duplicated work (the same method or planning done twice)",

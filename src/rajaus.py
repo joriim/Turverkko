@@ -18,8 +18,9 @@ SCOPE_TEXT = """RAJAUS: Kerää hankkeita, jotka liittyvät turvemaihin tai maap
   päästökertoimet, kasvihuonekaasuinventaario, kaukokartoitus), hiilimarkkinat ja
   -sertifiointi, maaperän vesitalous (säätösalaojitus, kuivatus) ilmastonäkökulmasta
   sekä metsien ja peltojen hiilinielut.
-Rahastot: JTF, EAKR, ESR+, maaseuturahasto, EIP-AGRI, Interreg, Horizon 2020 ja
-Horizon Europe sekä kansallinen tutkimusrahoitus. Ohjelmakaudet 2014–20 ja 2021–27.
+Rahastot: JTF, EAKR, ESR+, maaseuturahasto ja Leader, EIP-AGRI, Interreg ja ulkorajayhteistyö (ENI CBC),
+LIFE, Horizon 2020 ja Horizon Europe sekä kansallinen tutkimusrahoitus (Suomen Akatemia ja tutkimusta
+rahoittavat säätiöt). Ohjelmakaudet 2014–20 ja 2021–27.
 ÄLÄ kerää vety-, energia-, matkailu- tai yleisiä yritystukihankkeita, äläkä
 ravinteiden kierrätystä tai maan kasvukuntoa, jos niissä ei ole päästö- tai hiilinäkökulmaa."""
 

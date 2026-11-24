@@ -31,7 +31,7 @@ EXCLUDE = {
 EXCLUDE_COUNTRY = {"DE": "Saksa, muu osavaltio kuin Niedersachsen (aluerajauksen ulkopuolella)"}
 
 # Lähteen numero → tunnisteen etuliite (K = Kohesio, E = EU CAP Network / EIP)
-SOURCE_PREFIX = {"1": "K", "2": "E", "5": "R", "8": "T", "9": "J", "22": "O", "23": "H"}  # R = EURA 2021, O = OpenAIRE, H = CORDIS (Horizon), T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
+SOURCE_PREFIX = {"1": "K", "2": "E", "3": "L", "4": "I", "5": "R", "6": "M", "7": "A", "8": "T", "9": "J", "22": "O", "23": "H"}  # L = LIFE, I = keep.eu (Interreg), M = maaseutu.fi, A = research.fi  # R = EURA 2021, O = OpenAIRE, H = CORDIS (Horizon), T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
 
 # Rivit, jotka ovat jo aineistossa olevia hankkeita (nimi → olemassa oleva tunniste).
 # Rivin tiedot täydentävät olemassa olevaa hanketta eivätkä luo uutta.
@@ -51,6 +51,21 @@ MATCH_EXISTING = {
     "5:BioKas - Biohiilestä kasvua – kohti turpeetonta yhteiskuntaa": "K-FI-050e",
     "8:MEQAL-Methane Quantization and Localization": "K-FI-1d92",
     "8:PRESERVE: Protection and REStoration of peatland biodiversity, and Ecosystem seRVicEs in Natura 2000 sites": "K-EU-2e51",
+    # 24.11.2026: keep.eu (4), research.fi (7) ja EURA (5) samoja hankkeita kuin Kohesiossa tai käsin kirjatuissa
+    "4:PRESERVE – Protection and restoration of peatland biodiversity and ecosystem services in Natura 2000": "K-EU-2e51",
+    "4:BUFFER+ – carbon and water in peatlands: landscape-based solutions for climate adaptation": "K-EU-0882",
+    "4:Carbon Connects (CConnects)": "K-EU-48f5",
+    "4:Smart Carbon Farming": "K-DE-NI-d14f",
+    "4:CANN – Collaborative Action for the Natural Network": "K-IE-0b63",
+    "4:Co-operation Across Borders for Biodiversity": "K-IE-06fb",
+    "4:Improving cross border cooperation in the field of peat fire prevention and response": "K-LV-37ba",
+    "7:TurVI - työkaluja turvemaiden metsien käytön vesistö- ja ilmastovaikutusten torjuntaan": "K-FI-ceda",
+    "7:Hiiliviisas suometsän hoito": "K-FI-879d",
+    "7:Sulfa II - happamuuden ennakointi turvetuotantoalueilla": "K-FI-e8b3",
+    "4:CANAPE – Creating A New Approach to Peatland Ecosystems": "K-EU-f426",
+    "4:PeatEU – Ambitious policies for peatland restoration, conservation and sustainable management in Europe": "K-EU-5a7e",
+    "3:LIFE IP Peatlands and People - Irelands Climate Action Catalyst": "X-IE-LIFE",  # vertailukohde, sama LIFE IP
+    "5:Turvevapaa ruokaketju": "FI-08",  # sama SEAMKin hanke oli kahdesti (käsin kirjattu FI-08 ja EURA)
     "Our Moor Future Oldenburger Graben - Cooperative moorland in the Oldenburger Graben in Schleswig-Holstein for climate protection and agricultural added value": "X-DE-SH",
 }
 
@@ -105,6 +120,8 @@ MAAPERA = {
     "Vägval - odlingssystem på tre gårdar för jordhälsa, produktivitet och kolinlagring": "maan kasvukunto ja hiilensidonnan mittaus",
     "Deltagardrivet projekt rörande odlingssystem som gynnar markens jordhälsa, kolinlagring och produktionsförmåga": "maan kasvukunto ja hiilensidonnan mittaus",
     "CircularGreens: From Waste to Soil, From Risk to Trust": "turpeen korvaaminen yksi tavoitteista, painopiste jätevirtojen maanparannuksessa",
+    "Turbulent flux estimates of finite land use patches (eddy covariance)": "maaperän ja maankäytön kaasuvoiden mittausmenetelmä (MRV)",
+    "NORTH-SOM - fate of soil organic matter in northern ecosystems": "pohjoisten maiden orgaanisen aineksen hajoaminen yleisesti",
 }
 
 # Euromäärät, joita ei voi tarkistaa lähteestä (sivulla summa kruunuina): jätetään tyhjiksi
@@ -130,7 +147,14 @@ ORG_CONTAINS = [("silava", "silava"), ("latvijas universit", "lu"), ("lauksaimni
                 ("university of latvia", "lu"), ("latvia university of life sciences", "lbtu"),
                 ("university of galway", "galway"), ("national university of ireland galway", "galway"),
                 ("trinity college dublin", "tcd"), ("universitat greifswald", "universitat-greifswald"),
-                ("riigimetsa majandamise", "rmk"), ("seinajoen ammattikorkeakoulu", "seamk")]
+                ("riigimetsa majandamise", "rmk"), ("seinajoen ammattikorkeakoulu", "seamk"),
+                # LIFE-aineiston isoilla kirjaimilla ja englanniksi kirjoitetut nimet (24.11.2026)
+                ("suomen metsakeskus", "metsakeskus"), ("finlands skogscentral", "metsakeskus"),
+                ("metsahallitus", "metsahallitus"), ("metshallitus", "metsahallitus"), ("parks & wildlife finland", "metsahallitus"),
+                ("ilmatieteen laitos", "il"), ("finnish meteorological institute", "il"), ("aalto-yliopisto", "aalto"),
+                ("bord na mona", "bnm"), ("department of housing, local government", "dhlgh"),
+                ("niedersachsischer landesbetrieb fur wasserwirtschaft", "nlwkn"), ("geologian tutkimuskeskus", "geologian-tutkimuskeskus"),
+                ("jyvaskylan yliopisto", "jyvaskylan-yliopisto"), ("tapio oy", "tapio")]
 
 # Organisaatioksi tunnistettavat sanat; muut nimet tulkitaan henkilöiksi eikä niistä tehdä solmuja
 ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij|fonds|centrs|saimnieciba|komercsabiedr|apvieniba|"
@@ -140,7 +164,9 @@ ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij
              r"forst|verband|nabu|bund |nlwkn|yliopisto|ammattikorkeakoulu|keskus|saatio|kaupunki|metsahallitus|\bab\b|\bas\b|"
              r"lansstyrelsen|skogsstyrelsen|riigimetsa|regions|pasvaldiba|departamentas|chambres|larenstein|kompetenzzentrum|peat ltd|"
              r"laitos|kuntayhtym|kommun|universitet|fond\b|forening|gate 21|sallskap|\bab\b|"
-             r"rspb|broads|zid|archehof|schmedt|torfwerk|forstamt|landesforsten|moorverwaltung|fachzentrum|naturschutz")
+             r"rspb|broads|zid|archehof|schmedt|torfwerk|forstamt|landesforsten|moorverwaltung|fachzentrum|naturschutz|"
+             r"department|coillte|teoranta|county|\bfund\b|\bpark\b|partnership|\bclg\b|\bsr\b|\bmtu\b|ministeerium|ministerium|"
+             r"kaupunki|\bkunta\b|yhdistys|vesienhoito|kalastuskunta|micropolis|\bvtt\b|\bgtk\b|\bsyke\b|akademi|board|parvalde|vides")
 
 # Konekäännösvirheiden korjaus (Kohesion englanninkielinen nimi → oikea nimi)
 NAME_FIX = {
@@ -399,11 +425,16 @@ def load():
     url_n = {}
     for rs in groups.values():
         url_n[rs[0]["url"]] = url_n.get(rs[0]["url"], 0) + 1
+    used_ids = set()
     for (name, _), rs in sorted(groups.items(), key=lambda kv: (_country(kv[1][0]), kv[0][0])):
         r0 = rs[0]
         c = _country(r0)
         # Pysyvä tunniste: lähde + maa + tiiviste hankesivun osoitteesta (ei muutu, kun aineistoa lisätään)
-        pid = f"{SOURCE_PREFIX.get(r0['lahde'].strip(), 'H')}-{c}-{hashlib.sha1((r0['url'] if url_n[r0['url']] == 1 else r0['url'] + '|' + name).encode()).hexdigest()[:4]}"
+        _h = hashlib.sha1((r0['url'] if url_n[r0['url']] == 1 else r0['url'] + '|' + name).encode()).hexdigest()
+        pid = f"{SOURCE_PREFIX.get(r0['lahde'].strip(), 'H')}-{c}-{_h[:4]}"
+        if pid in used_ids:  # 4 merkin tiiviste törmää harvoin: vain törmäävä saa pidemmän (aiemmat tunnisteet pysyvät)
+            pid = f"{SOURCE_PREFIX.get(r0['lahde'].strip(), 'H')}-{c}-{_h[:8]}"
+        used_ids.add(pid)
         text = " ".join([name, r0["kuvaus"], r0["tuotokset"], r0["hakusana"]])
         budgets = [None if name in BUDGET_UNVERIFIED else _num(r["budjetti_eur"]) for r in rs]
         eus = [None if name in BUDGET_UNVERIFIED else _num(r["eu_osuus_eur"]) for r in rs]

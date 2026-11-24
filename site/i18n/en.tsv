@@ -4,11 +4,12 @@
 # Rivinvaihto katkelmassa: \n. Jokaisen katkelman on löydyttävä, muuten site.py pysähtyy.
 #
 # --- common.js ---
-common.js	FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (Interreg)"	FI:"Finland", SE:"Sweden", EE:"Estonia", LV:"Latvia", IE:"Ireland", "DE-NI":"Lower Saxony", "DE-SH":"Schleswig-Holstein", EU:"Multi-country (Interreg)"
+common.js	FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (useita maita)"	FI:"Finland", SE:"Sweden", EE:"Estonia", LV:"Latvia", IE:"Ireland", "DE-NI":"Lower Saxony", "DE-SH":"Schleswig-Holstein", EU:"Multi-country"
 common.js	JTF:"JTF – oikeudenmukainen siirtymä"	JTF:"JTF – Just Transition Fund"
 common.js	MSR:"Maaseuturahasto (EAFRD)"	MSR:"Rural development fund (EAFRD)"
 common.js	KF:"Koheesiorahasto", Interreg:"Interreg (EAKR)"	KF:"Cohesion Fund", Interreg:"Interreg (ERDF)"
-common.js	Kansallinen:"Kansallinen", "?":"EU-osarahoitteinen, rahasto ei lähteessä"	Kansallinen:"National", "?":"EU co-funded, fund not stated in source"
+common.js	Kansallinen:"Kansallinen tutkimusrahoitus", "?":"Muu tai ei tiedossa"	Kansallinen:"National research funding", "?":"Other or not known"
+common.js	"EU-muu":"Muu EU-rahoitus"	"EU-muu":"Other EU funding"
 common.js	EAKR:"EAKR / EFRE / ERDF"	EAKR:"ERDF / EFRE / EAKR"
 common.js	hanke:"Hanke", osaamiskeskus:"Osaamiskeskus", vertailukohde:"Vertailukohde", organisaatio:"Organisaatio",	hanke:"Project", osaamiskeskus:"Competence centre", vertailukohde:"Reference case", organisaatio:"Organisation",
 common.js	julkaisu:"Julkaisu", ohjelma:"Ohjelma", teema:"Teema"	julkaisu:"Publication", ohjelma:"Programme", teema:"Theme"
@@ -28,7 +29,7 @@ common.js	Sivu toimii vain verkkopalvelimelta (GitHub Pages). Paikallisesti:	The
 #
 # --- index.html ---
 index.html	<title>Turverkko</title>	<title>Turverkko – peatland R&amp;I network</title>
-index.html	JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI · Horizon — 2014–20 ja 2021–27	JTF · ERDF · Interreg · EAFRD · EIP-AGRI · Horizon — 2014–20 and 2021–27
+index.html	JTF · EAKR · Interreg · maaseuturahasto · EIP-AGRI · LIFE · Horizon · kansallinen — 2014–20 ja 2021–27	JTF · ERDF · Interreg · EAFRD · EIP-AGRI · LIFE · Horizon · national — 2014–20 and 2021–27
 index.html	<h1>Kuka tekee turvemaiden TKI-työtä, ja kenen kanssa?</h1>	<h1>Who does peatland R&amp;I, and with whom?</h1>
 index.html	Turverkko dokumentoi turvemaihin, turvepeltoihin, suometsiin, kosteikkoviljelyyn ja ennallistamiseen sekä maaperän päästöihin, hiilensidontaan ja niiden mittaukseen (MRV) liittyvän julkisen TKI-rahoituksen kuudella EU:n turvemaa-alueella. Se näyttää, missä samaa työtä tehdään rinnakkain ilman yhteyttä.	Turverkko documents public research and innovation funding for peatlands, peat fields, peatland forests, paludiculture and restoration, as well as soil emissions, carbon sequestration and their measurement (MRV), in six EU peatland regions. It shows where the same work is being done in parallel without a connection.
 index.html	>Avaa kartta ja verkosto</a>	>Open the map and network</a>
@@ -367,3 +368,4 @@ haku.html	aria-label="Tyyppi"	aria-label="Type"
 haku.html	aria-label="Maa"	aria-label="Country"
 haku.html	aria-label="Teema"	aria-label="Theme"
 haku.html	aria-label="Rajaus"	aria-label="Scope"
+kartta.html	${x === "?" ? "muu" : x}	${x === "?" ? "other" : x}

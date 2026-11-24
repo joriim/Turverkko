@@ -141,6 +141,7 @@ TYPES = {
     "peräkkäiset samassa maassa": "sama maa, eri aikaan, ei yhteistä toimijaa eikä polkua (toisto tai jatko ilman yhteyttä)",
     "puuttuva yhteys": "eri maat, ei yhteistyöpolkua",
     "yhteydessä": "yhteinen toimija tai yhteistyöpolku enintään kolme askelta",
+    "toimija ei tiedossa": "toiselta hankkeelta puuttuu organisaatio (esim. henkilökohtainen apuraha), joten yhteyttä ei voi todeta eikä sulkea pois",
 }
 
 
@@ -151,11 +152,13 @@ def family(name):
     return fold(m.group(1)) if m and sum(ch.isupper() for ch in m.group(1)) >= 2 else None
 
 
-def classify(same_country, overlap_t, connected, same_family=False):
+def classify(same_country, overlap_t, connected, same_family=False, actors_known=True):
     if same_family:
         return "saman kokonaisuuden osat"
     if connected:
         return "yhteydessä"
+    if not actors_known:
+        return "toimija ei tiedossa"
     if same_country:
         return "rinnakkainen ilman yhteyttä" if overlap_t is not False else "peräkkäiset samassa maassa"
     return "puuttuva yhteys"
@@ -182,7 +185,8 @@ def compute(projects, distance, actors_of, threshold=DEFAULT_THRESHOLD, max_hops
                        score=round(s, 3), yhteiset=", ".join(shared_terms(vec[a], vec[b])),
                        samaan_aikaan={True: "kyllä", False: "ei", None: "?"}[t],
                        yhteiset_toimijat=" ".join(shared), etaisyys="ei polkua" if d is None else d,
-                       tyyppi=classify(same, t, connected, family(pa["name"]) is not None and family(pa["name"]) == family(pb["name"])))
+                       tyyppi=classify(same, t, connected, family(pa["name"]) is not None and family(pa["name"]) == family(pb["name"]),
+                                       actors_known=bool(actors_of(a)) and bool(actors_of(b))))
             all_scores.append(rec)
     sens = []
     for th in SENSITIVITY:

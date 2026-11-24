@@ -125,8 +125,9 @@ body.present .pbar{display:flex}
 TV.nav("esitys.html"); TV.footer();
 const $ = id => document.getElementById(id);
 const ORDER_C = ["FI","DE-NI","EE","SE","LV","IE","EU"];
-const ORDER_F = ["JTF","EAKR","Interreg","EIP","MSR","KF","?"];
-const FUNDCOL = {JTF:"var(--c-FI)",EAKR:"var(--c-DE-NI)",Interreg:"var(--c-EE)",EIP:"var(--c-SE)",MSR:"var(--c-LV)",KF:"var(--c-IE)","?":"var(--c-EU)"};
+const ORDER_F = ["JTF","EAKR","Interreg","EIP","MSR","LIFE","Horizon","Kansallinen","?"];
+// Rahastojen värit: kategoriapaletin paikat 1–8 kiinteässä järjestyksessä (tarkistettu validate_palette.js:llä), muu = harmaa
+const FUNDCOL = {JTF:"var(--c-FI)",EAKR:"var(--c-DE-NI)",Interreg:"var(--c-EE)",EIP:"var(--c-SE)",MSR:"var(--c-LV)",LIFE:"var(--c-IE)",Horizon:"var(--c-EU)",Kansallinen:"var(--c-8)","?":"var(--c-X)"};
 const RESTORING = new Set(["ennallistaminen","vettäminen","kosteikko"]);
 const MINY = 2014, MAXY = 2030;
 const S = {countries:new Set(ORDER_C), funds:new Set(ORDER_F), region:"", scope:"", from:2014, to:2027, split:"country", alloc:"start", cur:2027};
