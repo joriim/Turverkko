@@ -148,13 +148,13 @@ def sources_table(text):
            f"(lisäksi osittain {count('automaatio', 'osittain käytössä')}), mahdollinen mutta ei käytössä {count('automaatio', 'mahdollinen, ei käytössä')}, "
            f"vaatii avaimen {count('automaatio', 'vaatii avaimen')}, estetty {count('automaatio', 'estetty')}, "
            f"selvityksessä {count('automaatio', 'selvityksessä')}, ei rajapintaa {count('automaatio', 'ei rajapintaa')}.", "",
-           "| # | Lähde | Kattaa | Maat | Tunnistettu | Haku | Viimeisin | Tulokset | Automaattihaku | Seuraava askel |",
-           "|---|---|---|---|---|---|---|---|---|---|"]
+           "| # | Lähde | Kattaa | Maat | Tunnistettu | Haku | Viimeisin | Tulokset | Aineistossa | Automaattihaku | Seuraava askel |",
+           "|---|---|---|---|---|---|---|---|---|---|---|"]
     for r in rows:
         name = f"[{cell(r['lahde'])}]({r['osoite']})" if r["osoite"] else cell(r["lahde"])
         auto = cell(r["automaatio"]) + (f": {cell(r['automaatio_tapa'])}" if r["automaatio_tapa"] else "")
         out.append("| " + " | ".join([r["nro"], name, cell(r["kattaa"]), r["maat"], cell(r["tunnistettu"]), f"**{cell(r['haku'])}**",
-                                       r["viimeisin_haku"], cell(r["tulokset"]), auto, cell(r["seuraava_askel"])]) + " |")
+                                       r["viimeisin_haku"], cell(r["tulokset"]), r["aineistossa"], auto, cell(r["seuraava_askel"])]) + " |")
     out += ["", end]
     a, b = text.index(start), text.index(end) + len(end)
     return text[:a] + "\n".join(out) + text[b:]

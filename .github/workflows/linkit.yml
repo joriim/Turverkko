@@ -1,0 +1,30 @@
+name: Linkkitarkistus
+
+# Tarkistaa sivuston sisäiset linkit ja kaikki ulkoiset osoitteet (myös aineiston lähde-URLit).
+# Raportti näkyy ajon yhteenvedossa. Sisäinen rikkinäinen linkki pysäyttää ajon, ulkoiset vain raportoidaan.
+
+on:
+  push:
+    branches: [main]
+    paths: ["docs/**", "data/dataset.json", "scripts/linkit.py"]
+  workflow_dispatch:
+  schedule:
+    - cron: "41 4 1 * *"   # kuun ensimmäisenä päivänä
+
+permissions:
+  contents: read
+
+jobs:
+  linkit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Sisäiset linkit
+        run: python scripts/linkit.py --vain-sisaiset
+      - name: Ulkoiset linkit
+        run: |
+          python scripts/linkit.py
+          cat analysis/linkit.md >> "$GITHUB_STEP_SUMMARY"

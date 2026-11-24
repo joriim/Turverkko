@@ -31,10 +31,18 @@ jobs:
           python scripts/build.py
           python scripts/analyze.py
           python scripts/site.py
+      - name: Sivusto sekä juureen että docs/-polkuun
+        # Haarajulkaisu (Settings → Pages → Deploy from a branch, kansio /) näyttää sivut osoitteessa
+        # /docs/... ja tämä työnkulku juuressa. Kun molemmat polut ovat mukana, kumpi tahansa julkaisu
+        # jää voimaan, kaikki osoitteet toimivat.
+        run: |
+          mkdir -p _site
+          cp -r docs/. _site/
+          cp -r docs _site/docs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: _site
 
   deploy:
     needs: build

@@ -10,7 +10,7 @@
 Aja:  python scripts/site.py   (aja ensin build.py ja analyze.py)
 Repon osoite luetaan ympäristömuuttujasta REPO_URL tai tiedostosta site/repo.txt.
 """
-import json, os, re, shutil
+import csv, json, os, re, shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -123,6 +123,15 @@ def main():
     logo, logo_dark = find("seamk-tunnus"), find("seamk-tunnus-valkoinen")
     if not logo:
         print("Huom: SEAMK-tunnusta ei ole (site/pages/assets/seamk-tunnus.svg tai .png). Alatunnisteessa näkyy vain julkaisijan nimi.")
+    # Kattavuusilmoitus jokaisen sivun yläosaan: hakulahteet/lahteet.csv (sarakkeet haku, aineistossa)
+    with open(ROOT / "hakulahteet" / "lahteet.csv", encoding="utf-8") as f:
+        src_rows = list(csv.DictReader(f))
+    cov = dict(total=len(src_rows),
+               full=sum(r["aineistossa"] == "kyllä" and r["haku"] == "haettu" for r in src_rows),
+               partial=sum(r["aineistossa"] == "kyllä" and r["haku"] != "haettu" for r in src_rows),
+               linked=sum(r["aineistossa"] == "osittain" for r in src_rows),
+               searched_not_in=sum(r["aineistossa"] == "ei" and r["haku"] != "hakematta" for r in src_rows),
+               todo=sum(r["haku"] == "hakematta" for r in src_rows))
     for src in pages.rglob("*"):
         if src.is_dir():
             continue
@@ -132,6 +141,7 @@ def main():
             dst.write_text(src.read_text(encoding="utf-8").replace("__REPO_URL__", repo)
                            .replace("__V_EN__", json.dumps(vocab["exact"], ensure_ascii=False))
                            .replace("__V_PREFIX_EN__", json.dumps(list(vocab["prefix"].items()), ensure_ascii=False))
+                           .replace("__KATTAVUUS__", json.dumps(cov))
                            .replace("__SEAMK_LOGO__", logo).replace("__SEAMK_LOGO_DARK__", logo_dark), encoding="utf-8")
         else:
             shutil.copy(src, dst)

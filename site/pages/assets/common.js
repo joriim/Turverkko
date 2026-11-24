@@ -2,6 +2,8 @@
 const TV = (() => {
   const REPO = "__REPO_URL__";
   // SEAMK-tunnus: site.py täyttää originaalitiedostojen nimet, jos ne on lisätty kansioon site/pages/assets/
+  // Hakulähteiden kattavuus (scripts/site.py täyttää hakulahteet/lahteet.csv:stä)
+  const COV = __KATTAVUUS__;
   const LOGO = "__SEAMK_LOGO__", LOGO_DARK = "__SEAMK_LOGO_DARK__";
   const COUNTRY = {FI:"Suomi", SE:"Ruotsi", EE:"Viro", LV:"Latvia", IE:"Irlanti", "DE-NI":"Niedersachsen", "DE-SH":"Schleswig-Holstein", EU:"Ylikansallinen (Interreg)"};
   const FUND = {JTF:"JTF – oikeudenmukainen siirtymä", EAKR:"EAKR / EFRE / ERDF", EIP:"EIP-AGRI", MSR:"Maaseuturahasto (EAFRD)",
@@ -49,8 +51,19 @@ const TV = (() => {
       <a class="lang" id="lang-switch" hreflang="${LANG === "en" ? "fi" : "en"}" lang="${LANG === "en" ? "fi" : "en"}" href="${LANG === "en" ? "../" : "en/"}${current}">${LANG === "en" ? "Suomeksi" : "English"}</a>
       <a class="gh" href="${REPO}">GitHub ↗</a></div>`;
     document.body.prepend(el);
+    el.after(coverage());
     const sw = el.querySelector("#lang-switch");
     sw.addEventListener("click", () => { sw.href = sw.href.split("#")[0] + location.hash; });
+  }
+  function coverage() {
+    const c = COV, inc = c.full + c.partial + c.linked;
+    const src = `${REPO}/blob/main/hakulahteet/README.md#l%C3%A4hteet-yhdell%C3%A4-silm%C3%A4yksell%C3%A4`;
+    const el = document.createElement("aside");
+    el.className = "coverage"; el.setAttribute("role", "note");
+    el.innerHTML = `<div class="coverage-in">` + (LANG === "en"
+      ? `<b>Coverage:</b> ${c.total} project databases have been identified for this topic. The data on this page includes ${inc} of them: ${c.full} searched in full, ${c.partial} partly and ${c.linked} for publications and collaboration only. ${c.todo} have not been searched yet${c.searched_not_in ? `, and results from ${c.searched_not_in} more are waiting to be imported` : ""}. The figures describe a sample, not all projects on the topic. <a href="${src}">List of sources ↗</a>`
+      : `<b>Kattavuus:</b> aiheesta on tunnistettu ${c.total} hanketietokantaa. Tämän sivun aineistossa on mukana ${inc}: ${c.full} kokonaan haettuna, ${c.partial} osittain haettuna ja ${c.linked} vain julkaisu- ja yhteistyötietoina. ${c.todo} on vielä hakematta${c.searched_not_in ? `, ja ${c.searched_not_in} haetun tulokset odottavat tuontia` : ""}. Luvut ja kaaviot kuvaavat otosta, eivät kaikkia aiheen hankkeita. <a href="${src}">Lähdeluettelo ↗</a>`) + `</div>`;
+    return el;
   }
   function footer() {
     const el = document.createElement("footer");

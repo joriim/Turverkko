@@ -135,3 +135,8 @@ h1{text-transform:uppercase;letter-spacing:.01em}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .seamk.has-dark{background:transparent;padding-inline:0}}
 .nav .lang{margin-left:auto;font-size:13px;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;white-space:nowrap}
 .nav .lang:hover{color:var(--fg);border-color:var(--fg)}
+
+/* Kattavuusilmoitus jokaisen sivun yläosassa (common.js coverage()) */
+.coverage{background:color-mix(in srgb,var(--seamk-keltainen,#FFF023) 22%,var(--bg));border-bottom:1px solid var(--line)}
+.coverage .coverage-in{max-width:1180px;margin:0 auto;padding:8px max(16px,env(safe-area-inset-left,0px));font-size:13.5px;line-height:1.45;color:var(--fg)}
+.coverage a{color:inherit;white-space:nowrap}
