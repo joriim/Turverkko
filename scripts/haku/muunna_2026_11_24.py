@@ -288,8 +288,8 @@ def msr():
                         toteuttaja=str(d["Toteuttaja"]).strip(), partnerit="",
                         budjetti_eur=num(d["Kokonaisbudjetti (€)"]), eu_osuus_eur="",
                         kuvaus=(desc + " " + extra).strip(), tuotokset="",
-                        # Hankerekisterin julkaisutunniste on maaseutu.fi:n WordPress-julkaisun tunniste; muille sivuston haku nimellä
-                        url=f"https://maaseutu.fi/?p={r['Julkaisu-ID']}" if r else "https://maaseutu.fi/?s=" + quote(name)))
+                        # Hankerekisterillä ei ole tarkistettua hankekohtaista osoitetta (julkaisutunniste ?p= antoi 404): sivuston haku nimellä
+                        url="https://maaseutu.fi/?s=" + quote(name)))
     return out
 
 

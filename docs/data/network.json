@@ -2575,7 +2575,7 @@
    "rajaus": "turvemaa"
   },
   {
-   "id": "M-FI-8c1d",
+   "id": "M-FI-c9a7",
    "kind": "hanke",
    "label": "Ilmastokestävää suometsän hoitoa Pirkanmaalla",
    "country": "FI",
@@ -2588,7 +2588,7 @@
    "ha_realised": "",
    "start": 2022,
    "end": 2024,
-   "url": "https://maaseutu.fi/?p=44509",
+   "url": "https://maaseutu.fi/?s=Ilmastokest%C3%A4v%C3%A4%C3%A4%20suomets%C3%A4n%20hoitoa%20Pirkanmaalla",
    "auto_themes": true,
    "imported_from": "6-maaseutu-2026-11-24.csv",
    "rajaus": "turvemaa"
@@ -2613,7 +2613,7 @@
    "rajaus": "turvemaa"
   },
   {
-   "id": "M-FI-4fba",
+   "id": "M-FI-3104",
    "kind": "hanke",
    "label": "Jaurakka-ojan valuma-aluesuunnitelma ja Jaurakaisjärven kunnostusselvitys",
    "country": "FI",
@@ -2626,13 +2626,13 @@
    "ha_realised": "",
    "start": 2025,
    "end": 2026,
-   "url": "https://maaseutu.fi/?p=339468",
+   "url": "https://maaseutu.fi/?s=Jaurakka-ojan%20valuma-aluesuunnitelma%20ja%20Jaurakaisj%C3%A4rven%20kunnostusselvitys",
    "auto_themes": true,
    "imported_from": "6-maaseutu-2026-11-24.csv",
    "rajaus": "turvemaa"
   },
   {
-   "id": "M-FI-9b2e",
+   "id": "M-FI-0ce4",
    "kind": "hanke",
    "label": "Kaakon vesiosaaja",
    "country": "FI",
@@ -2645,7 +2645,7 @@
    "ha_realised": "",
    "start": 2023,
    "end": 2027,
-   "url": "https://maaseutu.fi/?p=143401",
+   "url": "https://maaseutu.fi/?s=Kaakon%20vesiosaaja",
    "auto_themes": true,
    "imported_from": "6-maaseutu-2026-11-24.csv",
    "rajaus": "turvemaa"
@@ -2936,7 +2936,7 @@
    "rajaus": "turvemaa"
   },
   {
-   "id": "M-FI-b2cb",
+   "id": "M-FI-d55d",
    "kind": "hanke",
    "label": "Monitaitoinen metsänomistaja – ratkaisuja suometsätalouden haasteisiin",
    "country": "FI",
@@ -2949,7 +2949,7 @@
    "ha_realised": "",
    "start": 2022,
    "end": 2024,
-   "url": "https://maaseutu.fi/?p=48825",
+   "url": "https://maaseutu.fi/?s=Monitaitoinen%20mets%C3%A4nomistaja%20%E2%80%93%20ratkaisuja%20suomets%C3%A4talouden%20haasteisiin",
    "auto_themes": true,
    "imported_from": "6-maaseutu-2026-11-24.csv",
    "rajaus": "turvemaa"
@@ -3278,7 +3278,7 @@
    "rajaus": "turvemaa"
   },
   {
-   "id": "M-FI-cc8a",
+   "id": "M-FI-9dbb",
    "kind": "hanke",
    "label": "Ratkaisuja Pohjanmaan suometsien ilmasto- ja vesistövaikutuksien hallintaan",
    "country": "FI",
@@ -3291,7 +3291,7 @@
    "ha_realised": "",
    "start": 2024,
    "end": 2027,
-   "url": "https://maaseutu.fi/?p=146163",
+   "url": "https://maaseutu.fi/?s=Ratkaisuja%20Pohjanmaan%20suometsien%20ilmasto-%20ja%20vesist%C3%B6vaikutuksien%20hallintaan",
    "auto_themes": true,
    "imported_from": "6-maaseutu-2026-11-24.csv",
    "rajaus": "turvemaa"
@@ -3753,7 +3753,7 @@
    "rajaus": "turvemaa"
   },
   {
-   "id": "M-FI-d8c9",
+   "id": "M-FI-0705",
    "kind": "hanke",
    "label": "Suot vesienpuhdistajina – Vesienpalautusten edistäminen yksityismailla",
    "country": "FI",
@@ -3766,7 +3766,7 @@
    "ha_realised": "",
    "start": 2025,
    "end": 2026,
-   "url": "https://maaseutu.fi/?p=207643",
+   "url": "https://maaseutu.fi/?s=Suot%20vesienpuhdistajina%20%E2%80%93%20Vesienpalautusten%20edist%C3%A4minen%20yksityismailla",
    "auto_themes": true,
    "imported_from": "6-maaseutu-2026-11-24.csv",
    "rajaus": "turvemaa"
@@ -4266,7 +4266,7 @@
    "rajaus": "turvemaa"
   },
   {
-   "id": "M-FI-afed",
+   "id": "M-FI-e41c",
    "kind": "hanke",
    "label": "Uudistuvaa suometsänhoitoa Pohjois-Savossa (SUO-SAVO)",
    "country": "FI",
@@ -4279,7 +4279,7 @@
    "ha_realised": "",
    "start": 2025,
    "end": 2027,
-   "url": "https://maaseutu.fi/?p=230428",
+   "url": "https://maaseutu.fi/?s=Uudistuvaa%20suomets%C3%A4nhoitoa%20Pohjois-Savossa%20%28SUO-SAVO%29",
    "auto_themes": true,
    "imported_from": "6-maaseutu-2026-11-24.csv",
    "rajaus": "turvemaa"
@@ -10270,7 +10270,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-8c1d",
+   "source": "M-FI-c9a7",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -10279,7 +10279,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-8c1d",
+   "source": "M-FI-c9a7",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -10288,7 +10288,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-8c1d",
+   "source": "M-FI-c9a7",
    "target": "T6",
    "kind": "teema",
    "weight": 1.0,
@@ -10297,7 +10297,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-8c1d",
+   "source": "M-FI-c9a7",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -10306,7 +10306,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-8c1d",
+   "source": "M-FI-c9a7",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -10324,7 +10324,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-4fba",
+   "source": "M-FI-3104",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -10333,7 +10333,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-4fba",
+   "source": "M-FI-3104",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -10342,7 +10342,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-9b2e",
+   "source": "M-FI-0ce4",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -10351,7 +10351,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-9b2e",
+   "source": "M-FI-0ce4",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -10522,7 +10522,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-b2cb",
+   "source": "M-FI-d55d",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -10531,7 +10531,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-b2cb",
+   "source": "M-FI-d55d",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -10738,7 +10738,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-cc8a",
+   "source": "M-FI-9dbb",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -10747,7 +10747,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-cc8a",
+   "source": "M-FI-9dbb",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -11134,7 +11134,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-d8c9",
+   "source": "M-FI-0705",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -11143,7 +11143,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-d8c9",
+   "source": "M-FI-0705",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -11458,7 +11458,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-afed",
+   "source": "M-FI-e41c",
    "target": "T4",
    "kind": "teema",
    "weight": 1.0,
@@ -11467,7 +11467,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-afed",
+   "source": "M-FI-e41c",
    "target": "T5",
    "kind": "teema",
    "weight": 1.0,
@@ -11476,7 +11476,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-afed",
+   "source": "M-FI-e41c",
    "target": "T7",
    "kind": "teema",
    "weight": 1.0,
@@ -11485,7 +11485,7 @@
    "note": ""
   },
   {
-   "source": "M-FI-afed",
+   "source": "M-FI-e41c",
    "target": "T8",
    "kind": "teema",
    "weight": 1.0,
@@ -15347,29 +15347,29 @@
   },
   {
    "source": "metsakeskus",
-   "target": "M-FI-8c1d",
+   "target": "M-FI-c9a7",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://maaseutu.fi/?p=44509",
+   "url": "https://maaseutu.fi/?s=Ilmastokest%C3%A4v%C3%A4%C3%A4%20suomets%C3%A4n%20hoitoa%20Pirkanmaalla",
    "note": "edunsaaja"
   },
   {
    "source": "hetejarven-kalastuskunta",
-   "target": "M-FI-4fba",
+   "target": "M-FI-3104",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://maaseutu.fi/?p=339468",
+   "url": "https://maaseutu.fi/?s=Jaurakka-ojan%20valuma-aluesuunnitelma%20ja%20Jaurakaisj%C3%A4rven%20kunnostusselvitys",
    "note": "edunsaaja"
   },
   {
    "source": "metsakeskus",
-   "target": "M-FI-9b2e",
+   "target": "M-FI-0ce4",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://maaseutu.fi/?p=143401",
+   "url": "https://maaseutu.fi/?s=Kaakon%20vesiosaaja",
    "note": "edunsaaja"
   },
   {
@@ -15518,11 +15518,11 @@
   },
   {
    "source": "metsakeskus",
-   "target": "M-FI-b2cb",
+   "target": "M-FI-d55d",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://maaseutu.fi/?p=48825",
+   "url": "https://maaseutu.fi/?s=Monitaitoinen%20mets%C3%A4nomistaja%20%E2%80%93%20ratkaisuja%20suomets%C3%A4talouden%20haasteisiin",
    "note": "edunsaaja"
   },
   {
@@ -15815,11 +15815,11 @@
   },
   {
    "source": "metsakeskus",
-   "target": "M-FI-cc8a",
+   "target": "M-FI-9dbb",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://maaseutu.fi/?p=146163",
+   "url": "https://maaseutu.fi/?s=Ratkaisuja%20Pohjanmaan%20suometsien%20ilmasto-%20ja%20vesist%C3%B6vaikutuksien%20hallintaan",
    "note": "edunsaaja"
   },
   {
@@ -16121,11 +16121,11 @@
   },
   {
    "source": "iin-micropolis",
-   "target": "M-FI-d8c9",
+   "target": "M-FI-0705",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://maaseutu.fi/?p=207643",
+   "url": "https://maaseutu.fi/?s=Suot%20vesienpuhdistajina%20%E2%80%93%20Vesienpalautusten%20edist%C3%A4minen%20yksityismailla",
    "note": "edunsaaja"
   },
   {
@@ -16481,11 +16481,11 @@
   },
   {
    "source": "metsakeskus",
-   "target": "M-FI-afed",
+   "target": "M-FI-e41c",
    "kind": "osallistuu",
    "weight": 1.0,
    "evidence": "lähde",
-   "url": "https://maaseutu.fi/?p=230428",
+   "url": "https://maaseutu.fi/?s=Uudistuvaa%20suomets%C3%A4nhoitoa%20Pohjois-Savossa%20%28SUO-SAVO%29",
    "note": "edunsaaja"
   },
   {
