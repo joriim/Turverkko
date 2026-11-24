@@ -48,15 +48,7 @@ index.html	<h2>Viittaa näin</h2>	<h2>How to cite</h2>
 index.html	aria-label="Viittausmuoto"	aria-label="Citation format"
 index.html	id="copy-cite" type="button">Kopioi</button>	id="copy-cite" type="button">Copy</button>
 index.html	DOI lisätään ensimmäisen Zenodo-julkaisun jälkeen. Siihen asti viittaa repon osoitteeseen.	A DOI will be added after the first Zenodo release. Until then, cite the repository address.
-index.html	<h2>Avaa verkostotyökalussa</h2>	<h2>Open in a network tool</h2>
-index.html	>Avaa Gephi Litessä ↗</a>	>Open in Gephi Lite ↗</a>
-index.html	>Avaa Cytoscape Webissä ↗</a>	>Open in Cytoscape Web ↗</a>
-index.html	Avautuu selaimessa ilman asennusta. Mukana ovat toimijat, julkaisut, yhteistyö- ja tuotosyhteydet sekä lasketut puuttuvat yhteydet (reunan tyyppi	Opens in the browser without installation. Includes actors, publications, collaboration and output links and the calculated links between similar but unconnected projects (edge type
-index.html	), värit maittain ja sijainnit valmiina. Gephi- ja Cytoscape-työpöytäversioihin: lataa	), with colours by country and positions ready. For the Gephi and Cytoscape desktop versions, download
-index.html	turverkko.gexf</a> tai <a	turverkko.gexf</a> or <a
-index.html	<h2 style="margin-top:12px">Lataa aineisto</h2>	<h2 style="margin-top:12px">Download the data</h2>
-index.html	<span>Yhteistyöverkko Gephiin (värit, koot, sijainnit)</span>	<span>Collaboration network for Gephi (colours, sizes, positions)</span>
-index.html	<span>Yhteistyöverkko Cytoscapeen</span>	<span>Collaboration network for Cytoscape</span>
+index.html	<h2>Lataa aineisto</h2>	<h2>Download the data</h2>
 index.html	<span>Solmut (organisaatiot, hankkeet, keskukset, julkaisut)</span>	<span>Nodes (organisations, projects, centres, publications)</span>
 index.html	<span>Yhteydet lähteineen ja näyttöluokkineen</span>	<span>Links with sources and evidence classes</span>
 index.html	<span>Koko verkosto teemoineen ja rahoitussuhteineen</span>	<span>Full network with themes and funding relations</span>

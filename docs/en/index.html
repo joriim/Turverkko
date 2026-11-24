@@ -78,16 +78,8 @@
         <p class="note" id="doi-note">A DOI will be added after the first Zenodo release. Until then, cite the repository address.</p>
       </div>
       <div class="stack">
-        <h2>Open in a network tool</h2>
-        <div class="chips" style="gap:10px">
-          <a class="btn" id="open-gephi" href="https://gephi.org/gephi-lite/" target="_blank" rel="noopener">Open in Gephi Lite ↗</a>
-          <a class="btn ghost" id="open-cyto" href="https://web.cytoscape.org/" target="_blank" rel="noopener">Open in Cytoscape Web ↗</a>
-        </div>
-        <p class="note">Opens in the browser without installation. Includes actors, publications, collaboration and output links and the calculated links between similar but unconnected projects (edge type <code>puuttuva_yhteys</code>), with colours by country and positions ready. For the Gephi and Cytoscape desktop versions, download <a href="../data/turverkko.gexf" download>turverkko.gexf</a> or <a href="../data/turverkko.cx2" download>turverkko.cx2</a>.</p>
-        <h2 style="margin-top:12px">Download the data</h2>
+        <h2>Download the data</h2>
         <div class="panel dl">
-          <a href="../data/turverkko.gexf" download><span>Collaboration network for Gephi (colours, sizes, positions)</span><span>turverkko.gexf</span></a>
-          <a href="../data/turverkko.cx2" download><span>Collaboration network for Cytoscape</span><span>turverkko.cx2</span></a>
           <a href="../data/nodes.csv" download><span>Nodes (organisations, projects, centres, publications)</span><span>nodes.csv</span></a>
           <a href="../data/edges.csv" download><span>Links with sources and evidence classes</span><span>edges.csv</span></a>
           <a href="../data/network.graphml" download><span>Full network with themes and funding relations</span><span>network.graphml</span></a>
@@ -118,9 +110,6 @@
 <script src="../assets/common.en.js"></script>
 <script>
 TV.nav("index.html"); TV.footer();
-{ const abs = f => new URL("../data/" + f, location.href).href;
-  document.getElementById("open-gephi").href = "https://gephi.org/gephi-lite/?file=" + encodeURIComponent(abs("turverkko.gexf"));
-  document.getElementById("open-cyto").href = "https://web.cytoscape.org/?import=" + encodeURIComponent(abs("turverkko.cx2")); }
 const CITE = {
   apa: `Jääskeläinen, M. (2026). Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu (Version 1.0.0) [Software]. Seinäjoen ammattikorkeakoulu. ${TV.REPO}`,
   bib: `@software{jaaskelainen_turverkko_2026,
