@@ -3,7 +3,7 @@ const TV = (() => {
   const REPO = "https://github.com/joriim/Turverkko";
   // SEAMK-tunnus: site.py täyttää originaalitiedostojen nimet, jos ne on lisätty kansioon site/pages/assets/
   // Hakulähteiden kattavuus (scripts/site.py täyttää hakulahteet/lahteet.csv:stä)
-  const COV = {"total": 31, "full": 6, "partial": 4, "linked": 1, "searched_not_in": 3, "todo": 17};
+  const COV = {"total": 32, "full": 8, "partial": 4, "linked": 1, "searched_not_in": 1, "todo": 18};
   const LOGO = "", LOGO_DARK = "";
   const COUNTRY = {FI:"Finland", SE:"Sweden", EE:"Estonia", LV:"Latvia", IE:"Ireland", "DE-NI":"Lower Saxony", "DE-SH":"Schleswig-Holstein", EU:"Multi-country"};
   const FUND = {JTF:"JTF – Just Transition Fund", EAKR:"ERDF / EFRE / EAKR", EIP:"EIP-AGRI", MSR:"Rural development fund (EAFRD)",

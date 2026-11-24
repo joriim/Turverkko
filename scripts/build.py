@@ -144,7 +144,7 @@ def sources_table(text):
            "_Generoitu tiedostosta [`lahteet.csv`](lahteet.csv) skriptillä `scripts/build.py`. Muokkaa CSV:tä, älä taulukkoa._", "",
            f"Lähteitä {len(rows)}: haettu {count('haku', 'haettu')}, osittain {count('haku', 'osittain')}, "
            f"haettu mutta tulos ei repossa {count('haku', 'haettu, tulos ei repossa')}, automaattinen {count('haku', 'automaattinen')}, "
-           f"hakematta {count('haku', 'hakematta')}. Automaattihaku käytössä {count('automaatio', 'käytössä')} lähteellä "
+           f"hakematta {count('haku', 'hakematta')}, ei hankehakua {count('haku', 'ei hankehakua')}. Automaattihaku käytössä {count('automaatio', 'käytössä')} lähteellä "
            f"(lisäksi osittain {count('automaatio', 'osittain käytössä')}), mahdollinen mutta ei käytössä {count('automaatio', 'mahdollinen, ei käytössä')}, "
            f"vaatii avaimen {count('automaatio', 'vaatii avaimen')}, estetty {count('automaatio', 'estetty')}, "
            f"selvityksessä {count('automaatio', 'selvityksessä')}, ei rajapintaa {count('automaatio', 'ei rajapintaa')}.", "",

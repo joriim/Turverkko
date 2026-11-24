@@ -125,7 +125,7 @@ def main():
         print("Huom: SEAMK-tunnusta ei ole (site/pages/assets/seamk-tunnus.svg tai .png). Alatunnisteessa näkyy vain julkaisijan nimi.")
     # Kattavuusilmoitus jokaisen sivun yläosaan: hakulahteet/lahteet.csv (sarakkeet haku, aineistossa)
     with open(ROOT / "hakulahteet" / "lahteet.csv", encoding="utf-8") as f:
-        src_rows = list(csv.DictReader(f))
+        src_rows = [r for r in csv.DictReader(f) if r["haku"] != "ei hankehakua"]  # ei haettavaa hankeaineistoa
     cov = dict(total=len(src_rows),
                full=sum(r["aineistossa"] == "kyllä" and r["haku"] == "haettu" for r in src_rows),
                partial=sum(r["aineistossa"] == "kyllä" and r["haku"] != "haettu" for r in src_rows),
