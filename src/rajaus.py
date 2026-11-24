@@ -77,7 +77,7 @@ SCOPE = re.compile(
     r"\btorv(mark|myr|täkt|fri)?\b|\bmyr(ar|mark)?\b|\bmosse\b|\bvåtmark|\borganogen|\bmulljord|\båterväta|\båtervätning|\bvitmoss|"
     r"\bodlingssubstrat|\breglerbar dränering|\bkolsänk|\bkolinlagr|\bmarkkol|"
     r"\bkūdr|\bpurv(s|ā|i|u)\b|\bmitrāj|\borganiskās augsnes|\bpaludikultūr|\bzizimm\b|\baugsnes oglek|\boglekļa piesaist|"
-    r"\bturba(s|ala|väl)|\bturvas|\bjääksoo|\braba\b|\bmadalsoo|\bmärgala|\bmulla süsinik|\bsüsiniku sidumi|"
+    r"\bturba(s|ala|väl)|\bturvas(e|t|est|es|el|ele|ega|mul\w*|maa\w*|väl\w*)?\b|\bjääksoo|\braba\b|\bmadalsoo|\bmärgala|\bmulla süsinik|\bsüsiniku sidumi|"
     r"\bmoor(land|lands|boden|schutz|grünland|wald|es)?\b|\bhochmoor|\bniedermoor|\banmoor|\borganische böden|\bkohlenstoffreiche böden|"
     r"\bwiedervernäss|\bpaludikultur|\btorf(moos|ersatz|frei)|\btorffrei|\bbodenkohlenstoff|\bcarbon farming", re.I)
 EXCLUDE = re.compile(r"\bhydrogen\b|\bvety\b|marine sediment|\bocean\b", re.I)

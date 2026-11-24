@@ -10,7 +10,14 @@ it = json.loads(r.read())[0]
 print("ETIS-kentät:", sorted(it.keys()))
 for k in ("Guid", "Title", "TitleEng", "Institutions", "FinancingInstitutions"):
     print(" ", k, "=", json.dumps(it.get(k), ensure_ascii=False)[:300])
-for s in ["kik.py", "researchfi.py", "vn_julkaisut.py", "etis.py"]:
+es = "https://researchfi-api-production.2.rahtiapp.fi/portalapi/funding/_search"
+q = json.dumps({"size": 1, "query": {"query_string": {"query": "\"Turvekankaat ovat toista maata\""}}}).encode()
+d = json.loads(urllib.request.urlopen(urllib.request.Request(es, data=q, headers={"Content-Type": "application/json", "User-Agent": "Turverkko/1.0"}), timeout=60).read())
+src = d["hits"]["hits"][0]["_source"]
+for k in ("fundingGroupPerson", "organizationConsortium", "fundingGroupOrganization"):
+    print("research.fi", k, "=", json.dumps(src.get(k), ensure_ascii=False)[:1500])
+print("research.fi avaimet:", sorted(src.keys()))
+for s in ["researchfi.py", "kik.py", "etis.py"]:
     print(f"\n===== {s}", flush=True)
     subprocess.run([sys.executable, str(HERE / s)], check=False)
     for f in sorted(OUT.glob(f"{ {'kik.py': '11', 'researchfi.py': '7', 'vn_julkaisut.py': '30', 'etis.py': '33'}[s]}-*.csv")):

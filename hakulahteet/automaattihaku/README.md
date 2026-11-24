@@ -25,14 +25,18 @@ Työnkulku tarvitsee luvan avata pull request. Ota se käyttöön kerran: repon 
 | 22 OpenAIRE, julkaisut | Graph API, haku hankkeen lyhenteellä | käytössä: ehdokkaat tiedostoon `julkaisut-<pvm>.csv`; hyväksytyt kansioon `../tulokset/julkaisut/` |
 | ROR ja OpenAIRE, yhteisjulkaisut | ROR:n affiliaatiohaku, OpenAIRE-organisaation tuotokset | käytössä: `ror-<pvm>.csv` ja `yhteisjulkaisut-<pvm>.csv`; hyväksytyt tiedostoihin `../tulokset/verkosto/ror.csv` ja `../tulokset/verkosto/yhteisjulkaisut.csv` |
 | 23 CORDIS | avoimet CSV-viennit (H2020, Horizon Europe), ei avainta | käytössä: hankkeet, joissa osallistuja rajauksen maista; Niedersachsen NUTS-koodista DE9 |
+| 7 research.fi | portaalin hakuindeksi (Elasticsearch), ei avainta | käytössä: rahoituspäätökset 2014–, haku nimestä, kuvauksesta ja avainsanoista; `7-research-fi-<pvm>.csv`. Henkilöiden nimiä ei kirjata |
+| 11 KIK | koko hankeluettelo XML-tiedostona (`projects.xml`) | käytössä: rahoitusvuodet 2014–, seulonta nimestä ja kuvauksesta (myös virolainen suo- ja turvesanasto); `11-kik-<pvm>.csv`. Url on KIK:n haku hankkeen nimellä |
+| 30 Valtioneuvoston julkaisut | DSpace 7 -hakurajapinta | käytössä: julkaisut 2014–; `30-vn-julkaisut-<pvm>.csv`. Kirjataan selvityshankkeina tai julkaisuina |
+| 33 ETIS | avoin rajapinta `www.etis.ee:2346/api/project/getitems` | käytössä: kaikki hankkeet sivuittain, rajaus paikallisesti; `33-etis-<pvm>.csv` |
 | 1 Kohesio | estää GitHubin palvelimet (HTTP 403) | selainagentti omalla koneella |
 | 10 SweCRIS | REST-rajapinta, vaatii avaimen | odottaa avainta (repon salaisuus `SWECRIS_TOKEN`) |
 | 4 keep.eu | avoimen datan rajapinta, vaatii avaimen | odottaa avainta (keep.support@interact.eu, salaisuus `KEEP_KEY`) |
-| 3 LIFE | EEA:n LIFE-MapServer (ArcGIS REST, JSON) ja hakusivun sisäinen JSON-rajapinta | mahdollinen, skripti tekemättä |
-| 20 DVS | EIP-projektihaku GET-osoitteella (HTML) | mahdollinen, skripti tekemättä |
+| 3 LIFE | EEA:n LIFE-MapServer (ArcGIS REST, JSON) ja hakusivun sisäinen JSON-rajapinta | MapServer ei vastaa GitHubista (aikakatkaisu 24.11.2026); sisäinen rajapinta tarkistamatta |
+| 20 DVS | EIP-projektihaku on POST-lomake | GET-osoite ei hae EIP-tietokannasta; selainagentti |
 | 2 EU CAP Network | toimintaryhmähaku estää palvelimen (403) | selvityksessä |
-| 7 research.fi | Suomen Akatemia tulee OpenAIREsta; research.fi:n oma rajapinta | osittain käytössä, rajapinta tarkistamatta |
-| 30 Valtioneuvoston julkaisut | DSpace, todennäköisesti OAI-PMH | mahdollinen, tarkistamatta |
+| 14 ESfondi | tulokset ladataan JavaScriptillä | selainagentti |
+| 24 EURA 2014, 26 Hiilestä kiinni, 28 MAKERA | eivät vastaa GitHubista (aikakatkaisu tai 403) | selainagentti |
 | muut | ei rajapintaa | selainagentti |
 
 Kaikkien lähteiden haku- ja automaatiotila: [`../lahteet.csv`](../lahteet.csv) ja taulukko [../README.md](../README.md#lähteet-yhdellä-silmäyksellä).

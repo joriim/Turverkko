@@ -33,7 +33,7 @@ concurrency:
 jobs:
   haku:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -63,6 +63,23 @@ jobs:
         if: ${{ !inputs.kokeilu }}
         continue-on-error: true
         run: python scripts/haku/cordis.py
+      - name: KIK – Viron ympäristöinvestoinnit, XML-vienti (lähde 11)
+        if: ${{ !inputs.kokeilu }}
+        continue-on-error: true
+        run: python scripts/haku/kik.py
+      - name: research.fi – Suomen tutkimusrahoitus (lähde 7)
+        if: ${{ !inputs.kokeilu }}
+        continue-on-error: true
+        run: python scripts/haku/researchfi.py
+      - name: Valtioneuvoston julkaisuarkisto (lähde 30)
+        if: ${{ !inputs.kokeilu }}
+        continue-on-error: true
+        run: python scripts/haku/vn_julkaisut.py
+      - name: ETIS – Viron tutkimushankkeet (lähde 33)
+        if: ${{ !inputs.kokeilu }}
+        continue-on-error: true
+        timeout-minutes: 30
+        run: python scripts/haku/etis.py
       - name: ROR-tunnisteet ja yhteisjulkaisut (ROR, OpenAIRE)
         if: ${{ !inputs.kokeilu }}
         continue-on-error: true
