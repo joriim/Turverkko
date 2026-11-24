@@ -62,7 +62,7 @@ def main():
         seen.add(pid)
         orgs = []
         for g in p.get("fundingGroupPerson") or []:
-            o = s(g.get("fundedPersonOrganizationNameFi")) or s(g.get("fundedPersonOrganizationNameEn"))
+            o = s(g.get("consortiumOrganizationNameFi")) or s(g.get("consortiumOrganizationNameEn"))  # fundedPersonOrganizationName on sektori
             if o and o not in orgs:
                 orgs.append(o)
         for g in p.get("organizationConsortium") or []:
