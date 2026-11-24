@@ -40,8 +40,8 @@ def main():
             break
         n += len(items)
         for p in items:
-            end = year(p.get("ProjectEndDate"))
-            if end and end < 2014:
+            end, start = year(p.get("ProjectEndDate")), year(p.get("ProjectStartDate"))
+            if (end or start or 0) < 2014:
                 continue
             name = (p.get("Title") or p.get("TitleEst") or "").strip() or re.sub(r'^\S+ "|"$', "", (p.get("DisplayInfo") or "").strip())
             name_en = (p.get("TitleEng") or "").strip() or re.sub(r'^\S+ "|"$', "", (p.get("DisplayInfoEng") or "").strip())

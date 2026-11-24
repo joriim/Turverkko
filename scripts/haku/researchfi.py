@@ -25,7 +25,7 @@ def post(body):
 
 
 def s(v):
-    return (v or "").strip()
+    return str(v if v is not None else "").strip()
 
 
 def main():

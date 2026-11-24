@@ -13,13 +13,16 @@ from yhteinen import SCOPE, EXCLUDE, fold, known, write, UA
 
 XML = "https://kik.ee/sites/default/files/projects-cron/projects.xml"
 # Viron suo- ja turvesanat, joita yhteinen SCOPE ei kata (soo on siellä liian laaja yksinään)
-ET_SCOPE = re.compile(r"\bsoo(de|d|st|le|ga|ala|alade|alal|metsa|mets|taast|kooslus|elupaig)\w*|kõdusoo|siirdesoo|rabade?\b|"
-                      r"turba(alad|väl|kiht|tootmis|maard)|turvasmul|jääksoo|ammendatud turba|märgalad?\b|lulucf|maakasutus(e|sektor)|"
-                      r"kasvuhoonegaaside? (heite|heitkogus|inventu)|mulla(st)? süsinik|süsiniku (sidumi|varu)", re.I)
+ET_SCOPE = re.compile(
+    r"\bsoo(d|de|dest|desse|del|dele|dega|s|st|ga|alad|alade|aladel|aladele|mets\w*|taast\w*|kooslus\w*|elupaig\w*|ökosüsteem\w*)\b|"
+    r"kõdusoo\w*|siirdesoo\w*|madalsoo\w*|\braba(de|des|dest|del|s|st|le|ga|mets\w*)?\b|turba(ala\w*|väl\w*|kiht\w*|tootmis\w*|maard\w*|sammal\w*|muld\w*)|"
+    r"turvasmul\w*|jääksoo\w*|ammendatud turba|märgala\w*|\blulucf\b|maakasutussektor\w*|kasvuhoonegaaside (heite|heitkogus|inventu)\w*|"
+    r"mulla (orgaanilise )?süsiniku?\w*|süsiniku (sidumi|varu)\w*", re.I)
 # Väärät osumat: turpeen energiakäyttö, jätevesi, paikannimet (Turba alevik, Tootsi Turvas), opastus ja retket
 KIK_EXCLUDE = re.compile(r"katlamaja|turbakütt|kaugkütte|soojus(varustus|trass)|reovee|ühisveevär|veevärg|kanalisatsiooni|"
                          r"turba alevik|tootsi turvas|\bloodusmaja|õppepäev|õppekäik|matk(ad|arada)|laager|konkurss|näitus|"
-                         r"festival|trükis|infotahvl|teavitus", re.I)
+                         r"festival|trükis|infotahvl|teavitus|lasteaed|lasteaia|\\bkool\\b|\\bkooli\\b|õpilas|keskkonnahariduslik|aktiivõpe|õppeprogramm|"
+                         r"loodusõpe|keskkonnaõpe|soojus|kompost|biojäätme|jäätmejaam|kütusekvaliteed", re.I)
 FUND = {"KP": "Kansallinen", "ÜF": "KF", "UF": "KF", "ERF": "EAKR", "ERDF": "EAKR", "ÕÜF": "JTF", "OÜF": "JTF", "JTF": "JTF"}
 
 
@@ -42,7 +45,7 @@ def main():
         if not year.isdigit() or int(year) < 2014:
             continue
         blob = name + " " + desc
-        if not (SCOPE.search(blob) or ET_SCOPE.search(blob)) or EXCLUDE.search(blob) or KIK_EXCLUDE.search(blob):
+        if not (SCOPE.search(blob) or ET_SCOPE.search(blob)) or EXCLUDE.search(blob) or KIK_EXCLUDE.search(blob + " " + text(x, "Toetuse_saaja")):
             continue
         key = fold(name)
         if key in names or key in seen:
