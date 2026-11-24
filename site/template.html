@@ -109,7 +109,7 @@ a{color:var(--water)}
 
   <section id="view-map" class="grid">
     <div class="mapbox">
-      <svg id="map" viewBox="-460 -460 920 920" width="100%" style="min-width:560px;display:block" role="img" aria-label="Hankkeet ulkokehällä, teemat sisäkehällä"></svg>
+      <svg id="map" viewBox="-460 -460 920 920" width="100%" style="display:block;height:auto" role="img" aria-label="Hankkeet ulkokehällä, teemat sisäkehällä"></svg>
       <div class="legend" id="legend"></div>
     </div>
     <aside class="panel" id="detail" aria-live="polite"></aside>
@@ -117,7 +117,7 @@ a{color:var(--water)}
 
   <section id="view-hubs" hidden style="display:flex;flex-direction:column;gap:20px">
     <div class="mapbox">
-      <svg id="hubnet" viewBox="0 0 900 430" width="100%" style="min-width:560px;display:block" role="img" aria-label="Osaamiskeskusten väliset kytkökset"></svg>
+      <svg id="hubnet" viewBox="0 0 900 430" width="100%" style="display:block;height:auto" role="img" aria-label="Osaamiskeskusten väliset kytkökset"></svg>
       <div class="legend"><span><svg width="30" height="10"><line x1="0" y1="5" x2="30" y2="5" stroke="var(--accent)" stroke-width="3"/></svg> dokumentoitu yhteistyö</span><span><svg width="30" height="10"><line x1="0" y1="5" x2="30" y2="5" stroke="var(--hot)" stroke-width="2" stroke-dasharray="5 4"/></svg> sama teema, ei löydettyä kytköstä</span><span>Pallon koko = löydettyjen julkaisujen ja tuotosten määrä</span></div>
     </div>
     <div class="hubgrid" id="hubcards"></div>
@@ -134,7 +134,7 @@ a{color:var(--water)}
     </div>
     <div class="grid">
       <div class="mapbox">
-        <svg id="net" viewBox="-560 -470 1120 940" width="100%" style="min-width:560px;display:block" role="img" aria-label="Organisaatioiden, hankkeiden ja osaamiskeskusten yhteistyöverkko"></svg>
+        <svg id="net" viewBox="-560 -470 1120 940" width="100%" style="display:block;height:auto" role="img" aria-label="Organisaatioiden, hankkeiden ja osaamiskeskusten yhteistyöverkko"></svg>
         <div class="legend">
           <span><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="var(--muted)"/></svg> organisaatio</span>
           <span><svg width="14" height="14"><rect x="2" y="2" width="10" height="10" fill="var(--muted)"/></svg> hanke</span>

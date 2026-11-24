@@ -114,8 +114,8 @@ pre{background:var(--sunk);border-radius:6px;padding:14px;overflow-x:auto;margin
 
 /* Puhelin: navigaatio yhdellä rivillä, vieritettävä */
 @media (max-width:640px){
-  .nav .nav-in{flex-wrap:nowrap;gap:10px;min-height:52px}
-  .nav ul{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;min-width:0}
+  .nav .nav-in{flex-wrap:wrap;gap:4px 10px;min-height:0;padding-block:8px 6px}
+  .nav ul{order:3;flex:1 0 100%;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;min-width:0;margin-inline:-9px}
   .nav ul::-webkit-scrollbar{display:none}
   .nav ul a{padding:7px 9px;white-space:nowrap;font-size:14px}
   .nav .gh{display:none}
