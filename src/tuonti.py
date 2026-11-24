@@ -31,7 +31,7 @@ EXCLUDE = {
 EXCLUDE_COUNTRY = {"DE": "Saksa, muu osavaltio kuin Niedersachsen (aluerajauksen ulkopuolella)"}
 
 # Lähteen numero → tunnisteen etuliite (K = Kohesio, E = EU CAP Network / EIP)
-SOURCE_PREFIX = {"1": "K", "2": "E", "3": "L", "4": "I", "5": "R", "6": "M", "7": "A", "8": "T", "9": "J", "22": "O", "23": "H"}  # L = LIFE, I = keep.eu (Interreg), M = maaseutu.fi, A = research.fi  # R = EURA 2021, O = OpenAIRE, H = CORDIS (Horizon), T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
+SOURCE_PREFIX = {"1": "K", "2": "E", "3": "L", "4": "I", "5": "R", "6": "M", "7": "A", "8": "T", "9": "J", "11": "V", "14": "F", "22": "O", "23": "H"}  # L = LIFE, I = keep.eu (Interreg), M = maaseutu.fi, A = research.fi, V = KIK (Viro), F = ESfondi (Latvia)  # R = EURA 2021, O = OpenAIRE, H = CORDIS (Horizon), T = Tillväxtverket, J = Jordbruksverket/Landsbygdsnätverket (EIP)
 
 # Rivit, jotka ovat jo aineistossa olevia hankkeita (nimi → olemassa oleva tunniste).
 # Rivin tiedot täydentävät olemassa olevaa hanketta eivätkä luo uutta.
@@ -65,6 +65,41 @@ MATCH_EXISTING = {
     "4:CANAPE – Creating A New Approach to Peatland Ecosystems": "K-EU-f426",
     "4:PeatEU – Ambitious policies for peatland restoration, conservation and sustainable management in Europe": "K-EU-5a7e",
     "3:LIFE IP Peatlands and People - Irelands Climate Action Catalyst": "X-IE-LIFE",  # vertailukohde, sama LIFE IP
+    # 24.11.2026: aiemmat haut (EURA 3.11., KIK 3.11., ESfondi 4.11.) – samat hankkeet kuin Kohesiossa, LIFE-tietokannassa tai käsin kirjatuissa
+    "5:Vastuullista metsäsuunnittelua kuntametsänomistajille": "K-FI-1fcb",
+    "5:Satakunnan muuttuvat suomaat: turvetuotannosta uusiin elinkeinoihin ja merkityksiin": "K-FI-7c34",
+    "5:NEVALA – Turvetuotantoalueiden ennallistamisen selvitystä ja neuvontaa Keski-Suomen, Satakunnan ja Pirkanmaan alueilla": "K-FI-56cf",
+    "5:TURBITS, Turvemaiden uudet viljelykasvit sekä biosivuvirrat: Tuotantoketjut, arvoaineet ja kiertotalous": "K-FI-6f20",
+    "5:PohjaNeva - Vauhtia pohjalaismaakuntien JTF-ennallistamisiin": "FI-02",
+    "5:Kasvua sammalesta Pohjois-Karjala (SAMPO)": "FI-10",
+    "5:Suo 2.0 - Kokonaiskestävyydestä elinvoimaa Ilomantsiin": "K-FI-006d",
+    "5:Aurinkosuo-investoinnit": "M-FI-17f1",
+    "5:Läntisen Valkeasuon ennallistaminen": "K-FI-cb20",
+    "5:Yhteistyöllä puhtia turvetuotantoalueiden ennallistamisiin Pohjois-Pohjanmaalla, Kainuussa ja Lapissa": "FI-03",
+    "5:Kaakkois-Suomen ennallistamis- ja vesiensuojeluhanke, KAVE": "K-FI-e290",
+    "5:Heinäpuron kunnostushanke": "K-FI-2fcc",
+    "5:Turvetuotannosta poistuvien alueiden ennallistaminen ja kestävä jatkokäyttö Oulussa - TUPAS": "K-FI-3bb2",
+    "5:Turvetuotantoalueiden palauttaminen suometsiksi (TUPSU) - kehittämishanke": "FI-07",
+    "5:Turvetuotantoalueiden ennallistamisen ympäristövaikutusten seuranta ja arviointi - ENARI": "K-FI-6894",
+    "5:Suokeidas - Turvetuotannosta monimuotoiseksi suoksi": "K-FI-06b9",
+    "5:Turvesuot kosteikoiksi": "K-FI-6978",
+    "5:Pohjois-Pohjanmaan ja Kainuun turvetuotantoalueiden ennallistaminen 2024-2026 - POPKA": "K-FI-9cd5",
+    "5:Suovu – Turvetuotantoalueiden ympäristöturvallinen jatkokäyttö – Suovunselän valuma-alueella": "K-FI-b38f",
+    "5:Aarreaitta – Kanasuon turvetuotantoalueen palauttaminen monihyötyiseksi kosteikoksi": "K-FI-b095",
+    "5:Linttirämeen ennallistaminen": "K-FI-8d28",
+    "5:Kovalansuon entisen turvetuotantoalueen vesiensuojelukosteikko": "K-FI-c4ea",
+    "5:Suonpohjien paikkatietopohjainen jälkikäytön suunnittelu ja pilotointi": "FI-06",
+    "5:Kokonaiskestäviä ratkaisuja käytöstä poistuneille turvemaille Etelä-Savossa (KORTES)": "K-FI-561d",
+    "14:Atbalsts vēsturisko kūdras ieguves vietu revitalizācijai": "LV-02",
+    "14:Pētniecībā un inovācijās balstīti risinājumi kūdras nozares virzībai uz klimatneitrālu ekonomiku, veicinot Latvijas dabas resursu ilgtspējīgu izmantošanu": "LV-01",
+    "14:Purvu ekosistēmu atjaunošana ĪADT": "K-LV-cbb2",
+    '14:Dabas lieguma "Sedas purvs" dabas aizsardzības plāna izstrāde': "K-LV-2fac",
+    "14:Audžu uz kūdras augsnēm vētru bojājumu riska novērtēšanas rīka izstrāde": "K-LV-4390",
+    "14:Siltumnīcefekta gāzu emisijas faktoru un lēmumu pieņemšanas atbalsta rīku izstrāde degradētu kūdrāju apsaimniekošanai pēc kūdras ieguves": "K-LV-74bd",
+    "11:Kuivendatud, ammendatud ja hüljatud turbaalade korrastamine": "EE-02",
+    "11:Soode kaitse ja taastamine II": "L-EE-89f5",
+    "11:Soode kaitse ja taastamine II (Conservation and restoration of Mire Habitats - LIFE Mires Estonia)": "L-EE-89f5",
+    "5:Kestävää kasvua Pohjois-Pohjanmaalle – vihreän siirtymän seurantajärjestelmä - investointi": "R-FI-7dd3",  # hankepari käsitellään yhtenä
     "5:Turvevapaa ruokaketju": "FI-08",  # sama SEAMKin hanke oli kahdesti (käsin kirjattu FI-08 ja EURA)
     "Our Moor Future Oldenburger Graben - Cooperative moorland in the Oldenburger Graben in Schleswig-Holstein for climate protection and agricultural added value": "X-DE-SH",
 }
@@ -154,7 +189,10 @@ ORG_CONTAINS = [("silava", "silava"), ("latvijas universit", "lu"), ("lauksaimni
                 ("ilmatieteen laitos", "il"), ("finnish meteorological institute", "il"), ("aalto-yliopisto", "aalto"),
                 ("bord na mona", "bnm"), ("department of housing, local government", "dhlgh"),
                 ("niedersachsischer landesbetrieb fur wasserwirtschaft", "nlwkn"), ("geologian tutkimuskeskus", "geologian-tutkimuskeskus"),
-                ("jyvaskylan yliopisto", "jyvaskylan-yliopisto"), ("tapio oy", "tapio")]
+                ("jyvaskylan yliopisto", "jyvaskylan-yliopisto"), ("tapio oy", "tapio"),
+                ("latvijas valsts mezi", "lvm"), ("eestimaa looduse fond", "elf"), ("estonian fund for nature", "elf"),
+                ("tartu ulikool", "tartu-ulikool"), ("university of tartu", "tartu-ulikool"), ("eesti maaulikool", "eesti-maaulikool"),
+                ("dabas aizsardzibas parvalde", "daba"), ("nature conservation agency", "daba")]
 
 # Organisaatioksi tunnistettavat sanat; muut nimet tulkitaan henkilöiksi eikä niistä tehdä solmuja
 ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij|fonds|centrs|saimnieciba|komercsabiedr|apvieniba|"
@@ -166,7 +204,7 @@ ORG_WORDS = (r"universit|instit|silava|lvmi|\bsia\b|z/s|\bzs\b|biedrib|asociacij
              r"laitos|kuntayhtym|kommun|universitet|fond\b|forening|gate 21|sallskap|\bab\b|"
              r"rspb|broads|zid|archehof|schmedt|torfwerk|forstamt|landesforsten|moorverwaltung|fachzentrum|naturschutz|"
              r"department|coillte|teoranta|county|\bfund\b|\bpark\b|partnership|\bclg\b|\bsr\b|\bmtu\b|ministeerium|ministerium|"
-             r"kaupunki|\bkunta\b|yhdistys|vesienhoito|kalastuskunta|micropolis|\bvtt\b|\bgtk\b|\bsyke\b|akademi|board|parvalde|vides")
+             r"kaupunki|\bkunta\b|yhdistys|vesienhoito|kalastuskunta|micropolis|\bvtt\b|\bgtk\b|\bsyke\b|akademi|board|parvalde|vides|linnavalitsus|vallavalitsus|mittetulundus|sihtasutus|ulikool|keskkonnaamet|aktsiaselts|akciju sabiedr|pasvaldiba|planosanas")
 
 # Konekäännösvirheiden korjaus (Kohesion englanninkielinen nimi → oikea nimi)
 NAME_FIX = {
@@ -303,6 +341,14 @@ def org_type(n):
 def _org_name(n):
     n = n.strip()
     return n.title() if n.isupper() else n
+
+
+# KIK (11) ja ESfondi (14): rivit, joissa ei ole turve- tai suosanaa, ovat maaperähankkeita (metsien hiilitase, kuivatus, KHK-inventaario)
+_PEAT_RX = re.compile(r"turba|turvas|\bsoo|soode|soomets|kõdusoo|jääksoo|raba|madalso|allikaso|kūdr|purv|organisk|organogen|peat|bog\b|mire|märgal", re.I)
+
+
+def _soil_only(row):
+    return row["lahde"].strip() in ("11", "14") and not _PEAT_RX.search(" ".join([row["hanke_nimi"], row["kuvaus"], row["tuotokset"]]))
 
 
 def _themes(text):
@@ -467,7 +513,7 @@ def load():
             eur_total=sum(b for b in budgets if b) or None, eur_eu=sum(e for e in eus if e) or None,
             themes=THEME_OVERRIDE.get(name) or _themes(text), auto_themes=name not in THEME_OVERRIDE, outputs=r0["tuotokset"] or r0["kuvaus"], description=" ".join(dict.fromkeys(r["kuvaus"].strip() for r in rs if r["kuvaus"].strip())),
             evidence=_evidence(r0), url=r0["url"], urls=[r["url"] for r in rs],
-            programme=r0["ohjelmakausi"], imported_from=r0["_file"], currency_note=currency_note, acronym=r0.get("lyhenne", "").strip(), rajaus="maaperä" if name in MAAPERA else "turvemaa", rajaus_peruste=MAAPERA.get(name, ""),
+            programme=r0["ohjelmakausi"], imported_from=r0["_file"], currency_note=currency_note, acronym=r0.get("lyhenne", "").strip(), rajaus="maaperä" if name in MAAPERA or _soil_only(r0) else "turvemaa", rajaus_peruste=MAAPERA.get(name, "") or ("ei turvemaamainintaa: metsien tai peltojen hiili, kuivatus tai KHK-inventaario" if _soil_only(r0) else ""),
             partners_note="; ".join(p for p in [r0["partnerit"]] if p) if c == "EU" else ""))
         for i, who in enumerate([r["toteuttaja"] for r in rs] + partners_listed):
             if not who.strip():

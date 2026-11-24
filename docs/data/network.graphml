@@ -15,12 +15,12 @@
   <key id="d27" for="node" attr.name="org_type" attr.type="string" />
   <key id="d26" for="node" attr.name="years" attr.type="string" />
   <key id="d25" for="node" attr.name="status" attr.type="string" />
-  <key id="d24" for="node" attr.name="start" attr.type="string" />
-  <key id="d23" for="node" attr.name="duplicate_note" attr.type="string" />
-  <key id="d22" for="node" attr.name="ha_realised" attr.type="double" />
-  <key id="d21" for="node" attr.name="ha_target" attr.type="double" />
-  <key id="d20" for="node" attr.name="end" attr.type="string" />
-  <key id="d19" for="node" attr.name="eur_total" attr.type="string" />
+  <key id="d24" for="node" attr.name="end" attr.type="string" />
+  <key id="d23" for="node" attr.name="start" attr.type="string" />
+  <key id="d22" for="node" attr.name="duplicate_note" attr.type="string" />
+  <key id="d21" for="node" attr.name="ha_realised" attr.type="double" />
+  <key id="d20" for="node" attr.name="eur_total" attr.type="string" />
+  <key id="d19" for="node" attr.name="ha_target" attr.type="double" />
   <key id="d18" for="node" attr.name="eur_eu" attr.type="long" />
   <key id="d17" for="node" attr.name="rajaus" attr.type="string" />
   <key id="d16" for="node" attr.name="imported_from" attr.type="string" />
@@ -171,7 +171,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">581828</data>
       <data key="d18">407280</data>
-      <data key="d10">2</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
@@ -187,13 +187,13 @@
       <data key="d2">FI</data>
       <data key="d3">JTF</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
-      <data key="d9" />
+      <data key="d8">409622</data>
+      <data key="d18">286735</data>
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d14">2027</data>
       <data key="d5">https://www.sttinfo.fi/tiedote/70848438/turvetuotantoalueiden-ennallistamista-vauhdittava-puhti-hanke-on-kaynnistynyt-kainuu-lappi-pohjois-pohjanmaapublisherId=69817869&amp;lang=fi</data>
       <data key="d15">False</data>
       <data key="d16" />
@@ -208,7 +208,7 @@
       <data key="d8">3262985</data>
       <data key="d18">2773537</data>
       <data key="d10">3</data>
-      <data key="d21">2000.0</data>
+      <data key="d19">2000.0</data>
       <data key="d12" />
       <data key="d13">2016</data>
       <data key="d14">2023</data>
@@ -259,7 +259,7 @@
       <data key="d2">LV</data>
       <data key="d3">EAKR</data>
       <data key="d7">2014–20</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">2</data>
       <data key="d11" />
@@ -281,14 +281,14 @@
       <data key="d9" />
       <data key="d10">3</data>
       <data key="d11" />
-      <data key="d22">95.0</data>
+      <data key="d21">95.0</data>
       <data key="d13">2021</data>
       <data key="d14">2023</data>
       <data key="d5">https://eu-cap-network.ec.europa.eu/sites/default/files/2023-10/EUCAP-GoodPracticeReport-EIP-AGRI-OperationalGroupFarmCarbon.pdf</data>
       <data key="d15">False</data>
       <data key="d16" />
       <data key="d17">turvemaa</data>
-      <data key="d23">Green Restoration Ireland, 1 050 646 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ CAP Network -rekisterin 1 147 000 €</data>
+      <data key="d22">Green Restoration Ireland, 1 050 646 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ CAP Network -rekisterin 1 147 000 €</data>
     </node>
     <node id="IE-02">
       <data key="d0">hanke</data>
@@ -307,7 +307,7 @@
       <data key="d15">False</data>
       <data key="d16" />
       <data key="d17">turvemaa</data>
-      <data key="d23">Wetland Surveys Ireland, 1 113 800 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ rekisterin 1 213 800 €</data>
+      <data key="d22">Wetland Surveys Ireland, 1 113 800 € (ministeriön tiedote 2/2021) – Tiedotteen summa ≠ rekisterin 1 213 800 €</data>
     </node>
     <node id="NI-01">
       <data key="d0">hanke</data>
@@ -315,7 +315,7 @@
       <data key="d2">DE-NI</data>
       <data key="d3">EAKR</data>
       <data key="d7">2014–20</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
@@ -351,7 +351,7 @@
       <data key="d2">DE-NI</data>
       <data key="d3">MSR</data>
       <data key="d7">2014–20</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d18">15000000</data>
       <data key="d10">2</data>
       <data key="d11" />
@@ -370,8 +370,8 @@
       <data key="d3">JTF</data>
       <data key="d7">2021–27</data>
       <data key="d8">245000</data>
-      <data key="d9" />
-      <data key="d10">1</data>
+      <data key="d18">137704</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
@@ -385,10 +385,10 @@
       <data key="d0">hanke</data>
       <data key="d1">TUPSU – Turvetuotantoalueiden palauttaminen suometsäksi</data>
       <data key="d2">FI</data>
-      <data key="d3">?</data>
+      <data key="d3">JTF</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
-      <data key="d9" />
+      <data key="d8">556894</data>
+      <data key="d18">311861</data>
       <data key="d10">4</data>
       <data key="d11" />
       <data key="d12" />
@@ -423,13 +423,13 @@
       <data key="d2">FI</data>
       <data key="d3">JTF</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://silava.lv/en/news/the-visit-of-finnish-peatland-management-specialists-at-lsfri-silava-for-knowledge-exchange</data>
       <data key="d15">False</data>
       <data key="d16" />
@@ -441,13 +441,13 @@
       <data key="d2">FI</data>
       <data key="d3">JTF</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
-      <data key="d9" />
-      <data key="d10">1</data>
+      <data key="d8">774352</data>
+      <data key="d18">433637</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
-      <data key="d24" />
-      <data key="d20" />
+      <data key="d13">2024</data>
+      <data key="d14">2026</data>
       <data key="d5">https://www.uef.fi/fi/artikkeli/soiden-ennallistaminen-voi-tuottaa-ilmastoa-viilentavaa-vaikutusta-jo-muutaman-vuosikymmenen-aikana</data>
       <data key="d15">False</data>
       <data key="d16" />
@@ -459,13 +459,13 @@
       <data key="d2">DE-NI</data>
       <data key="d3">Interreg</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://keep.eu/projects/27572/</data>
       <data key="d15">True</data>
       <data key="d16">4-keep-eu-2026-11-24.csv</data>
@@ -1125,13 +1125,13 @@
       <data key="d2">DE-NI</data>
       <data key="d3">Interreg</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://keep.eu/projects/34965/</data>
       <data key="d15">True</data>
       <data key="d16">4-keep-eu-2026-11-24.csv</data>
@@ -1254,7 +1254,7 @@
       <data key="d8">103403</data>
       <data key="d9" />
       <data key="d10">2</data>
-      <data key="d21">150.0</data>
+      <data key="d19">150.0</data>
       <data key="d12" />
       <data key="d13">2017</data>
       <data key="d14">2021</data>
@@ -1308,7 +1308,7 @@
       <data key="d8">1263983</data>
       <data key="d9" />
       <data key="d10">2</data>
-      <data key="d21">72.0</data>
+      <data key="d19">72.0</data>
       <data key="d12" />
       <data key="d13">2017</data>
       <data key="d14">2022</data>
@@ -1326,7 +1326,7 @@
       <data key="d8">1166300</data>
       <data key="d9" />
       <data key="d10">2</data>
-      <data key="d21">30.0</data>
+      <data key="d19">30.0</data>
       <data key="d12" />
       <data key="d13">2019</data>
       <data key="d14">2023</data>
@@ -1434,13 +1434,67 @@
       <data key="d8">130895</data>
       <data key="d9" />
       <data key="d10">2</data>
-      <data key="d21">3.0</data>
+      <data key="d19">3.0</data>
       <data key="d12" />
       <data key="d13">2020</data>
       <data key="d14">2022</data>
       <data key="d5">https://kohesio.ec.europa.eu/en/projects/Q7262113</data>
       <data key="d15">True</data>
       <data key="d16">1-kohesio-2026-11-02.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-8de1">
+      <data key="d0">hanke</data>
+      <data key="d1">"Kasvuhoonegaaside heitkoguste inventuuri uuringud riikliku aruandluse täitmiseks metsavarise ja -mulla osas"</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">148274</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2016</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kasvuhoonegaaside-heitkoguste-inventuuri-uuringud-riikliku-aruandluse-taitmiseks-0</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-282f">
+      <data key="d0">hanke</data>
+      <data key="d1">Ammendatud freesturbavälja reoveesettega töötlemisel tekkiv mõju ökosüsteemi seisundile</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">36962</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/ammendatud-freesturbavalja-reoveesettega-tootlemisel-tekkiv-moju-okosusteemi-seisundile</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-afa9">
+      <data key="d0">hanke</data>
+      <data key="d1">Ammendatud freesturbaväljade taastaimestamise tehnoloogiate efektiivsuse võrdlev analüüs</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">37258</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2013</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/ammendatud-freesturbavaljade-taastaimestamise-tehnoloogiate-efektiivsuse-vordlev-analuus</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="L-EE-89f5">
@@ -1451,7 +1505,7 @@
       <data key="d7">2014–20</data>
       <data key="d8">2815576</data>
       <data key="d18">2100713</data>
-      <data key="d10">1</data>
+      <data key="d10">2</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2015</data>
@@ -1459,6 +1513,1068 @@
       <data key="d5">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE14%20NAT/EE/000126</data>
       <data key="d15">True</data>
       <data key="d16">3-life-2026-11-24.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-efdf">
+      <data key="d0">hanke</data>
+      <data key="d1">Eesti allikasood - seisund ja kaitseväärtused</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">39901</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2015</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/eesti-allikasood-seisund-ja-kaitsevaartused</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-bb80">
+      <data key="d0">hanke</data>
+      <data key="d1">Eesti niiduökosüsteemide roll kliimamuutuste leevendamisel</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">91624</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2022</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/eesti-niiduokosusteemide-roll-kliimamuutuste-leevendamisel</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-4e98">
+      <data key="d0">hanke</data>
+      <data key="d1">Eesti põllumajandusmuldade orgaanilise süsiniku sisalduse seireanalüüside kaasajastamine.</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">68416</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/eesti-pollumajandusmuldade-orgaanilise-susiniku-sisalduse-seireanaluuside-kaasajastamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-1653">
+      <data key="d0">hanke</data>
+      <data key="d1">Eesti soode inventeerimise lõpetamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">66670</data>
+      <data key="d9" />
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/eesti-soode-inventeerimise-lopetamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-fdb3">
+      <data key="d0">hanke</data>
+      <data key="d1">Eesti soode vaheinventuur</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">38348</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2017</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/eesti-soode-vaheinventuur</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-cf0a">
+      <data key="d0">hanke</data>
+      <data key="d1">Eesti soode vaheinventuur 2</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">74045</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/eesti-soode-vaheinventuur-2</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-fac4">
+      <data key="d0">hanke</data>
+      <data key="d1">Endla LKA loodusliku veerežiimi taastamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">280963</data>
+      <data key="d18">280963</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/endla-lka-loodusliku-veereziimi-taastamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-95f8">
+      <data key="d0">hanke</data>
+      <data key="d1">Erinevate maapinna ettevalmistamise meetodite metsakasvatuslikud- ja keskkonnamõjud</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">102904</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/erinevate-maapinna-ettevalmistamise-meetodite-metsakasvatuslikud-ja-keskkonnamojud</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-b287">
+      <data key="d0">hanke</data>
+      <data key="d1">Hall-lepikud Eesti metsade süsinikubilansis</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">57603</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2012</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/hall-lepikud-eesti-metsade-susinikubilansis</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-3a13">
+      <data key="d0">hanke</data>
+      <data key="d1">Hara soo loodusliku veerežiimi taastamine Lahemaa rahvuspargis</data>
+      <data key="d2">EE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">162930</data>
+      <data key="d18">162930</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/hara-soo-loodusliku-veereziimi-taastamine-lahemaa-rahvuspargis</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-13e8">
+      <data key="d0">hanke</data>
+      <data key="d1">II kategooria kaitsealuse liigi kuninga-kuuskjala kasvukohtade hooldus Niitvälja soos</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">8998</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2015</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/ii-kategooria-kaitsealuse-liigi-kuninga-kuuskjala-kasvukohtade-hooldus-niitvalja-soos</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-869e">
+      <data key="d0">hanke</data>
+      <data key="d1">Ida-Virumaa ammendatud freesturbaväljade turba toiteelementide bilansi tasakaalustamine ja puude kasvu stimuleerimine põlevkivituha ning põlevkivi- ja puutuha seguga</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">50231</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2012</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/ida-virumaa-ammendatud-freesturbavaljade-turba-toiteelementide-bilansi-tasakaalustamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-2de5">
+      <data key="d0">hanke</data>
+      <data key="d1">International Peatland Congress 2020</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">123380</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/international-peatland-congress-2020</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-fd78">
+      <data key="d0">hanke</data>
+      <data key="d1">Kahepaiksete sigimisedukus erineva kuivendusmõjuga metsamaastikes</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">81058</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kahepaiksete-sigimisedukus-erineva-kuivendusmojuga-metsamaastikes</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-e77d">
+      <data key="d0">hanke</data>
+      <data key="d1">Kasvuhoonegaaside heitkoguste inventuuri uuringud riikliku aruandluse täitmiseks maakasutuse ja metsandussektoris</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">242227</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2013</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kasvuhoonegaaside-heitkoguste-inventuuri-uuringud-riikliku-aruandluse-taitmiseks-2</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-0545">
+      <data key="d0">hanke</data>
+      <data key="d1">Kasvuhoonegaaside heitkoguste inventuuri uuringud riikliku aruandluse täitmiseks metsavarise osas.</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">54773</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2014</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kasvuhoonegaaside-heitkoguste-inventuuri-uuringud-riikliku-aruandluse-taitmiseks-1</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-5af6">
+      <data key="d0">hanke</data>
+      <data key="d1">Kasvuhoonegaaside inventuuri heitkoguste uuringud riikliku aruandluse täitmiseks metsamulla süsinikuvaru aastase muudu osas.</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">140892</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kasvuhoonegaaside-inventuuri-heitkoguste-uuringud-riikliku-aruandluse-taitmiseks</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-d59e">
+      <data key="d0">hanke</data>
+      <data key="d1">Kasvukoha süsinikubilansi dünaamika lageraie järgselt</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">92849</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2020</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kasvukoha-susinikubilansi-dunaamika-lageraie-jargselt</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-a38b">
+      <data key="d0">hanke</data>
+      <data key="d1">Kuivendamise mõju viljakate soometsade süsinikubilansile</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">59966</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2013</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kuivendamise-moju-viljakate-soometsade-susinikubilansile</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-8898">
+      <data key="d0">hanke</data>
+      <data key="d1">Kuivendussüsteemi rekonstrueerimise mõju puistu juurdekasvu ning põhjavee taseme dünaamikale</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">84729</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2020</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kuivendussusteemi-rekonstrueerimise-moju-puistu-juurdekasvu-ning-pohjavee-taseme</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-1e63">
+      <data key="d0">hanke</data>
+      <data key="d1">Kõdusoometsade looduskaitseperspektiiv</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">56133</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2017</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/kodusoometsade-looduskaitseperspektiiv</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-4177">
+      <data key="d0">hanke</data>
+      <data key="d1">Liikide ja elupaikade soodsa seisundi ning maastike mitmekesisuse tagamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">KF</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">13823500</data>
+      <data key="d18">11750000</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/liikide-ja-elupaikade-soodsa-seisundi-ning-maastike-mitmekesisuse-tagamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-c03a">
+      <data key="d0">hanke</data>
+      <data key="d1">Loodusdirektiivi metsaelupaigatüüpide kaugseire  teostatavus valitud metsaelupaigatüüpide näitel</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">27654</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/loodusdirektiivi-metsaelupaigatuupide-kaugseire-teostatavus-valitud-metsaelupaigatuupide</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-c24e">
+      <data key="d0">hanke</data>
+      <data key="d1">Looduslähedase seisundi taastamine liigirikastel madalsoodel</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">19240</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/looduslahedase-seisundi-taastamine-liigirikastel-madalsoodel</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-181a">
+      <data key="d0">hanke</data>
+      <data key="d1">Lõhnava käoraamatu ja Eesti soojumika kasvukohtade hooldus Niitvälja soos</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">11520</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2019</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/lohnava-kaoraamatu-ja-eesti-soojumika-kasvukohtade-hooldus-niitvalja-soos</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-41f4">
+      <data key="d0">hanke</data>
+      <data key="d1">Maaparandussüsteemide korrashoiu tõhususest männi-, kuuse-, ja kaseenamusega puistute kasvukäigu, põhjavee taseme aastasisese dünaamika ja puidu tiheduse varieeruvuse näitel</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">106978</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/maaparandussusteemide-korrashoiu-tohususest-manni-kuuse-ja-kaseenamusega-puistute</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-7bce">
+      <data key="d0">hanke</data>
+      <data key="d1">Marimetsa looduskaitseala soolinnustiku inventuur</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">5625</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2012</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/marimetsa-looduskaitseala-soolinnustiku-inventuur</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-4532">
+      <data key="d0">hanke</data>
+      <data key="d1">Marjakasvatuse potentsiaal ammendatud turbaaladel ja turvasmuldadel: erinevate kultuuride võrdlus ning kliima- ja keskkonnamõjude hindamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">375000</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/marjakasvatuse-potentsiaal-ammendatud-turbaaladel-ja-turvasmuldadel-erinevate-kultuuride</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-bff8">
+      <data key="d0">hanke</data>
+      <data key="d1">Melioreeritud turbamaardlate kasutusvõimaluste hindamine. Pilootprojekt</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">57452</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/melioreeritud-turbamaardlate-kasutusvoimaluste-hindamine-pilootprojekt</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-2d74">
+      <data key="d0">hanke</data>
+      <data key="d1">Metsakuivenduse elustikumõjude leevendusmeetmete väljatöötamine ja nende tõhususe hindamine.</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">52597</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2017</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/metsakuivenduse-elustikumojude-leevendusmeetmete-valjatootamine-ja-nende-tohususe</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-9bf8">
+      <data key="d0">hanke</data>
+      <data key="d1">Muraka soostiku servaala veerežiimi ja sooelupaikade taastamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">65754</data>
+      <data key="d18">65754</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2013</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/muraka-soostiku-servaala-veereziimi-ja-sooelupaikade-taastamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-3d47">
+      <data key="d0">hanke</data>
+      <data key="d1">Nõrglubja allikad ja nõrglubja allikasood Eestis - otsing ja seisundi analüüs III</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">19144</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2012</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/norglubja-allikad-ja-norglubja-allikasood-eestis-otsing-ja-seisundi-analuus-iii</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-d0de">
+      <data key="d0">hanke</data>
+      <data key="d1">Nõrglubja allikad ja nõrglubja sood Eestis - otsing ja seisundi analüüs II</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">19482</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/norglubja-allikad-ja-norglubja-sood-eestis-otsing-ja-seisundi-analuus-ii</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-7b2b">
+      <data key="d0">hanke</data>
+      <data key="d1">Pindalapõhise LULUCF aruandluse metoodika analüüs ja arendamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">52733</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2022</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/pindalapohise-lulucf-aruandluse-metoodika-analuus-ja-arendamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-ed09">
+      <data key="d0">hanke</data>
+      <data key="d1">Puude kõrguskasvu, puidu tiheduse ja põhjavee taseme dünaamika kuivendatud männienamusega puistutes peale kraavivõrgu rekonstrueerimist</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">91351</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2022</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/puude-korguskasvu-puidu-tiheduse-ja-pohjavee-taseme-dunaamika-kuivendatud-mannienamusega</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-db4f">
+      <data key="d0">hanke</data>
+      <data key="d1">Põlevkivi piirkonna soode rajoneerimine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">258790</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/polevkivi-piirkonna-soode-rajoneerimine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-f333">
+      <data key="d0">hanke</data>
+      <data key="d1">Põua mõju puude kasvule kuivendatud metsades: seosed kasvunäitajate ja kaugseire aegridade vahel ning puistu veerežiimi roll põuastressi kujundamisel</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">99985</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/poua-moju-puude-kasvule-kuivendatud-metsades-seosed-kasvunaitajate-ja-kaugseire-aegridade</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-c306">
+      <data key="d0">hanke</data>
+      <data key="d1">Rabakiilide inventuur 2018-2019</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">29785</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/rabakiilide-inventuur-2018-2019</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-7fa3">
+      <data key="d0">hanke</data>
+      <data key="d1">Rakendusuuringu „Eesti turbaalade revisjon ehk kaevandamispotentsiaaliga turbaalade ökoloogilisele seisundile ja arvelevõetud turbavarude kogusele hinnangu andmine edasise kasutussuuna määramiseks ning alusinfo kogumine majandatud turbaaladest tuleneva ka</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">600000</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/rakendusuuringu-eesti-turbaalade-revisjon-ehk-kaevandamispotentsiaaliga-turbaalade</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-8c2f">
+      <data key="d0">hanke</data>
+      <data key="d1">Rannu (Kestla) raba jääksoo taastamine Aseri maastikukaitsealal</data>
+      <data key="d2">EE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">140441</data>
+      <data key="d18">140441</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/rannu-kestla-raba-jaaksoo-taastamine-aseri-maastikukaitsealal</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-f93f">
+      <data key="d0">hanke</data>
+      <data key="d1">Reduction of CO2 emissions by restoring degraded peatlands in Northern European Lowland</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">1164000</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2015</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/reduction-co2-emissions-restoring-degraded-peatlands-northern-european-lowland</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-daf4">
+      <data key="d0">hanke</data>
+      <data key="d1">Ringmajanduse põhimõtete juurutamine Eestis toodetud aiandusturba toodete kasutamisel sellega seotud kasvuhoonegaaside heite vähendamiseks LULUCF sektoris</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">281628</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2022</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/ringmajanduse-pohimotete-juurutamine-eestis-toodetud-aiandusturba-toodete-kasutamisel</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-657c">
+      <data key="d0">hanke</data>
+      <data key="d1">SMEAR Eesti mõõtejaama andmetel põhineva Eesti metsade süsiniku sidumisvõime  analüüsimetoodika väljatöötamine ja avalikkusele kättesaadavaks tegemine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">67085</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2021</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/smear-eesti-mootejaama-andmetel-pohineva-eesti-metsade-susiniku-sidumisvoime</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-5807">
+      <data key="d0">hanke</data>
+      <data key="d1">Soo-elupaigatüüpide seiremetoodika täiustamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">35069</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2013</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/soo-elupaigatuupide-seiremetoodika-taiustamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-23f0">
+      <data key="d0">hanke</data>
+      <data key="d1">Soode kaitse ja taastamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">16618</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2014</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/soode-kaitse-ja-taastamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-0b09">
+      <data key="d0">hanke</data>
+      <data key="d1">Soode ökoloogilise funktsionaalsuse tagamiseks vajalike puhvertsoonide määratlemine pikaajaliste häiringute leviku piiramiseks või leevendamiseks</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">490388</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/soode-okoloogilise-funktsionaalsuse-tagamiseks-vajalike-puhvertsoonide-maaratlemine-0</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-df6e">
+      <data key="d0">hanke</data>
+      <data key="d1">Soode ökoloogilise funktsionaalsuse tagamiseks vajalike puhvertsoonide määratlemine pikaajaliste häiringute leviku piiramiseks või leevendamiseks, II etapp</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">482278</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2014</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/soode-okoloogilise-funktsionaalsuse-tagamiseks-vajalike-puhvertsoonide-maaratlemine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-0a98">
+      <data key="d0">hanke</data>
+      <data key="d1">Soomaa Rahvuspargis Kuresoo raba kaguosas asuva rikutud raba taastamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">161324</data>
+      <data key="d18">161324</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2010</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/soomaa-rahvuspargis-kuresoo-raba-kaguosas-asuva-rikutud-raba-taastamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-5ba7">
+      <data key="d0">hanke</data>
+      <data key="d1">Sooserva elupaikade taastamine Põhja-Liivimaa linnualal. I etapp</data>
+      <data key="d2">EE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">132470</data>
+      <data key="d18">71547</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2004</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/sooserva-elupaikade-taastamine-pohja-liivimaa-linnualal-i-etapp</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-68d6">
+      <data key="d0">hanke</data>
+      <data key="d1">Süsinikubilansi dünaamika kõdusoomännikute vanusereas.</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">109546</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2022</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/susinikubilansi-dunaamika-kodusoomannikute-vanusereas</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-5816">
+      <data key="d0">hanke</data>
+      <data key="d1">Süsinikubilanss kuuse-kase segametsade vanusereas</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">59686</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2014</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/susinikubilanss-kuuse-kase-segametsade-vanusereas</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-4eb4">
+      <data key="d0">hanke</data>
+      <data key="d1">Süsinikubilanss palumännikute vanusereas</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">66705</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2016</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/susinikubilanss-palumannikute-vanusereas</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-2d14">
+      <data key="d0">hanke</data>
+      <data key="d1">Süsinikubilanss viljakate kuusikute vanusereas</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">67174</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/susinikubilanss-viljakate-kuusikute-vanusereas</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-7917">
+      <data key="d0">hanke</data>
+      <data key="d1">Turba jääkväljade rekultiveerimine turbasammaldega - 5 aastat hiljem</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">18789</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/turba-jaakvaljade-rekultiveerimine-turbasammaldega-5-aastat-hiljem</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-61dd">
+      <data key="d0">hanke</data>
+      <data key="d1">Turba kaevandamise hüdroloogilise mõju vähendamine</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">20442</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2014</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/turba-kaevandamise-hudroloogilise-moju-vahendamine</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-097f">
+      <data key="d0">hanke</data>
+      <data key="d1">Turbaalaste uurimistulemuste digitaliseerimine ja andmebaasi koostamine I etapp</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">40318</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2016</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/turbaalaste-uurimistulemuste-digitaliseerimine-ja-andmebaasi-koostamine-i-etapp</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-ff69">
+      <data key="d0">hanke</data>
+      <data key="d1">Turbaalaste uurimistulemuste digitaliseerimine ja andmebaasi koostamine II etapp (jätkuprojekt)</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">141146</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/turbaalaste-uurimistulemuste-digitaliseerimine-ja-andmebaasi-koostamine-ii-etapp</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="V-EE-7f94">
+      <data key="d0">hanke</data>
+      <data key="d1">Valgustusraiete mõju viljakate kasvukohtade arukaasikute arengule</data>
+      <data key="d2">EE</data>
+      <data key="d3">Kansallinen</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">61923</data>
+      <data key="d9" />
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2018</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/valgustusraiete-moju-viljakate-kasvukohtade-arukaasikute-arengule</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
+      <data key="d17">maaperä</data>
+    </node>
+    <node id="V-EE-ff23">
+      <data key="d0">hanke</data>
+      <data key="d1">Viru raba jääksoo taastamine Lahemaa rahvuspargis</data>
+      <data key="d2">EE</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">146651</data>
+      <data key="d18">146651</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2011</data>
+      <data key="d24" />
+      <data key="d5">https://kik.ee/et/projektid/viru-raba-jaaksoo-taastamine-lahemaa-rahvuspargis</data>
+      <data key="d15">True</data>
+      <data key="d16">11-kik-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="K-EU-5a7e">
@@ -1521,13 +2637,13 @@
       <data key="d2">EU</data>
       <data key="d3">Interreg</data>
       <data key="d7">2014–20</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://keep.eu/projects/21316/</data>
       <data key="d15">True</data>
       <data key="d16">4-keep-eu-2026-11-24.csv</data>
@@ -1683,13 +2799,13 @@
       <data key="d2">EU</data>
       <data key="d3">Interreg</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://keep.eu/projects/34966/</data>
       <data key="d15">True</data>
       <data key="d16">4-keep-eu-2026-11-24.csv</data>
@@ -1701,13 +2817,13 @@
       <data key="d2">EU</data>
       <data key="d3">Interreg</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://keep.eu/projects/34962/</data>
       <data key="d15">True</data>
       <data key="d16">4-keep-eu-2026-11-24.csv</data>
@@ -1773,13 +2889,13 @@
       <data key="d2">EU</data>
       <data key="d3">Interreg</data>
       <data key="d7">2021–27</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://keep.eu/projects/32958/</data>
       <data key="d15">True</data>
       <data key="d16">4-keep-eu-2026-11-24.csv</data>
@@ -1884,7 +3000,7 @@
       <data key="d8">287815</data>
       <data key="d18">201471</data>
       <data key="d10">2</data>
-      <data key="d21">139.0</data>
+      <data key="d19">139.0</data>
       <data key="d12" />
       <data key="d13">2025</data>
       <data key="d14">2027</data>
@@ -1911,6 +3027,24 @@
       <data key="d16">3-life-2026-11-24.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-609b">
+      <data key="d0">hanke</data>
+      <data key="d1">AgriSolar-hybridiuusiokäytön mahdollisuudet turvetuotantoalueilla</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">260535</data>
+      <data key="d18">145900</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d14">2025</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10171</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="A-FI-6420">
       <data key="d0">hanke</data>
       <data key="d1">Alastomuutta, allikoita ja kannanottoa: suotrendi kulttuuriperintöä muokkaamassa</data>
@@ -1923,7 +3057,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2020</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/33203</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -1954,8 +3088,8 @@
       <data key="d3">JTF</data>
       <data key="d7">2021–27</data>
       <data key="d8">405804</data>
-      <data key="d9" />
-      <data key="d10">1</data>
+      <data key="d18">52967</data>
+      <data key="d10">2</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2024</data>
@@ -1995,7 +3129,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/89271</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2049,7 +3183,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/84475</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2071,6 +3205,24 @@
       <data key="d5">https://kohesio.ec.europa.eu/en/projects/Q7441340</data>
       <data key="d15">True</data>
       <data key="d16">1-kohesio-2026-11-02.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-3f2a">
+      <data key="d0">hanke</data>
+      <data key="d1">Biomassojen viljely ja kuivike- ja kasvuturvetta korvavien materiaalien kehittäminen turvetuotannosta poistuville alueille</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">102225</data>
+      <data key="d18">57245</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2028</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11560</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="A-FI-57a1">
@@ -2175,7 +3327,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/89287</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2271,6 +3423,24 @@
       <data key="d16">7-research-fi-2026-11-24.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-6df1">
+      <data key="d0">hanke</data>
+      <data key="d1">EHTO – Ennallistaminen houkuttelevaksi ja toteuttavaksi Keski-Suomessa</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">275799</data>
+      <data key="d18">154447</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2027</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11374</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="R-FI-d4ba">
       <data key="d0">hanke</data>
       <data key="d1">ENNO - Ennallistamisosaamisen oppimisympäristö</data>
@@ -2315,7 +3485,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">408015</data>
       <data key="d18">285610</data>
-      <data key="d10">1</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2024</data>
@@ -2323,6 +3493,60 @@
       <data key="d5">https://kohesio.ec.europa.eu/en/projects/Q7440725</data>
       <data key="d15">True</data>
       <data key="d16">1-kohesio-2026-11-02.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-4496">
+      <data key="d0">hanke</data>
+      <data key="d1">Ennallistamisesta elinvoimaa: Opetus- ja tutkimuskohteilla pitkäjänteistä ymmärrystä soiden ennallistamisen käytänteistä ja vaikutuksista (OpeSuo)</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">229650</data>
+      <data key="d18">128610</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2027</data>
+      <data key="d14">2028</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11859</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-d7e0">
+      <data key="d0">hanke</data>
+      <data key="d1">Ennallistamista ympäristötaiteen keinoin</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">58215</data>
+      <data key="d18">32600</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d14">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11691</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-f466">
+      <data key="d0">hanke</data>
+      <data key="d1">Esiselvitys turvetuotantoalueen uudelleenkäyttömahdollisuuksista</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">235390</data>
+      <data key="d18">82387</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d14">2024</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10004</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="A-FI-4676">
@@ -2337,7 +3561,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/89258</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2351,7 +3575,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">139637</data>
       <data key="d18">97746</data>
-      <data key="d10">1</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2024</data>
@@ -2391,7 +3615,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/86625</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2406,7 +3630,7 @@
       <data key="d8">41210</data>
       <data key="d18">28847</data>
       <data key="d10">2</data>
-      <data key="d21">18.0</data>
+      <data key="d19">18.0</data>
       <data key="d12" />
       <data key="d13">2025</data>
       <data key="d14">2027</data>
@@ -2427,7 +3651,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/84673</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2445,7 +3669,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/86608</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2499,7 +3723,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/89261</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2552,8 +3776,8 @@
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://maaseutu.fi/?s=Kaliumilla%20turvemaat%20tuottamaan%20%28KaTu%29</data>
       <data key="d15">True</data>
       <data key="d16">6-maaseutu-2026-11-24.csv</data>
@@ -2577,6 +3801,60 @@
       <data key="d16">5-eura2021-2026-11-24.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-dba7">
+      <data key="d0">hanke</data>
+      <data key="d1">Kestävän metsätalouden ja turvetuotantoalueiden jatkokäytön edellytykset Kymenlaaksossa</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">106791</data>
+      <data key="d18">59802</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d14">2025</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10668</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-7dd3">
+      <data key="d0">hanke</data>
+      <data key="d1">Kestävää kasvua Pohjois-Pohjanmaalle – vihreän siirtymän seurantajärjestelmä - kehittämisosuus</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">869241</data>
+      <data key="d18">486774</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2024</data>
+      <data key="d14">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11116</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-aa38">
+      <data key="d0">hanke</data>
+      <data key="d1">Keuruun Suojoen valuma-alueselvitys</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">21400</data>
+      <data key="d18">11984</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11672</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="K-FI-6c73">
       <data key="d0">hanke</data>
       <data key="d1">Konttisuo restoration plan</data>
@@ -2595,6 +3873,24 @@
       <data key="d16">1-kohesio-2026-11-02.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-34b2">
+      <data key="d0">hanke</data>
+      <data key="d1">Lestijärven ja valuma-alueiden ekologinen kunnostussuunnitelma -selvityshanke</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">42694</data>
+      <data key="d18">23909</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11588</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="A-FI-50e3">
       <data key="d0">hanke</data>
       <data key="d1">Lettojen ennallistaminen - aktiiviset ennallistamismenetelmät</data>
@@ -2607,7 +3903,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/86759</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2625,7 +3921,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/71441</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2751,7 +4047,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2021</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/37658</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2769,7 +4065,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/87747</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -2811,6 +4107,24 @@
       <data key="d16">7-research-fi-2026-11-24.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-e3a3">
+      <data key="d0">hanke</data>
+      <data key="d1">Monimuotokosteikkojen vesistö- ja ilmastovaikutukset turvetuotannosta poistuneilla alueilla (MoVeTu)</data>
+      <data key="d2">FI</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">198458</data>
+      <data key="d18">95259</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d14">2025</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=A80036</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="M-FI-d55d">
       <data key="d0">hanke</data>
       <data key="d1">Monitaitoinen metsänomistaja – ratkaisuja suometsätalouden haasteisiin</data>
@@ -2841,10 +4155,28 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2024</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/82725</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-1dd0">
+      <data key="d0">hanke</data>
+      <data key="d1">Mustansaarensolien ennallistaminen</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">55000</data>
+      <data key="d18">30799</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d14">2027</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11710</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="A-FI-5bc3">
@@ -2873,7 +4205,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">648909</data>
       <data key="d18">454236</data>
-      <data key="d10">1</data>
+      <data key="d10">2</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
@@ -2919,6 +4251,24 @@
       <data key="d16">7-research-fi-2026-11-24.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-f1ce">
+      <data key="d0">hanke</data>
+      <data key="d1">Niivilänniitty turvetuotantoalueen ennallistamisprojekti</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">58064</data>
+      <data key="d18">28451</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2027</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11640</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="A-FI-8120">
       <data key="d0">hanke</data>
       <data key="d1">Novel soil management practices - bioeconomy and climate change mitigation</data>
@@ -2945,7 +4295,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">155140</data>
       <data key="d18">108598</data>
-      <data key="d10">1</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
@@ -2999,8 +4349,8 @@
       <data key="d7">2021–27</data>
       <data key="d8">397904</data>
       <data key="d18">278533</data>
-      <data key="d10">2</data>
-      <data key="d21">102.0</data>
+      <data key="d10">3</data>
+      <data key="d19">102.0</data>
       <data key="d12" />
       <data key="d13">2024</data>
       <data key="d14">2027</data>
@@ -3039,7 +4389,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/86659</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -3057,10 +4407,46 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/79858</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-a987">
+      <data key="d0">hanke</data>
+      <data key="d1">Pengerjoen valuma-alueselvitys</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">32635</data>
+      <data key="d18">18270</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2025</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11335</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-b490">
+      <data key="d0">hanke</data>
+      <data key="d1">Perhonjoen kunnostaminen: selvitys- ja suunnitelmavaihe</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">137010</data>
+      <data key="d18">76726</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d14">2027</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11689</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="A-FI-c3c5">
@@ -3111,10 +4497,28 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/78852</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-e499">
+      <data key="d0">hanke</data>
+      <data key="d1">Puronnevan turvetuotantoalueen ennallistaminen kosteikoksi</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">141775</data>
+      <data key="d18">69470</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d14">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10613</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="A-FI-5cd8">
@@ -3183,7 +4587,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/89267</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -3201,7 +4605,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/86584</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -3237,7 +4641,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2024</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/82697</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -3269,8 +4673,8 @@
       <data key="d7">2021–27</data>
       <data key="d8">923512</data>
       <data key="d18">646458</data>
-      <data key="d10">2</data>
-      <data key="d21">750.0</data>
+      <data key="d10">3</data>
+      <data key="d19">750.0</data>
       <data key="d12" />
       <data key="d13">2025</data>
       <data key="d14">2027</data>
@@ -3287,7 +4691,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">81821</data>
       <data key="d18">57275</data>
-      <data key="d10">1</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
@@ -3305,8 +4709,8 @@
       <data key="d7">2021–27</data>
       <data key="d8">324432</data>
       <data key="d18">227102</data>
-      <data key="d10">2</data>
-      <data key="d21">75.0</data>
+      <data key="d10">3</data>
+      <data key="d19">75.0</data>
       <data key="d12" />
       <data key="d13">2024</data>
       <data key="d14">2026</data>
@@ -3324,7 +4728,7 @@
       <data key="d8">72800</data>
       <data key="d18">50960</data>
       <data key="d10">2</data>
-      <data key="d21">70.0</data>
+      <data key="d19">70.0</data>
       <data key="d12" />
       <data key="d13">2024</data>
       <data key="d14">2026</data>
@@ -3363,7 +4767,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/82320</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -3413,7 +4817,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">541292</data>
       <data key="d18">378905</data>
-      <data key="d10">1</data>
+      <data key="d10">2</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
@@ -3507,10 +4911,46 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2021</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/33206</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-437d">
+      <data key="d0">hanke</data>
+      <data key="d1">Summanjoen kunnostushanke</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">499884</data>
+      <data key="d18">279935</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d14">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10578</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-fc0e">
+      <data key="d0">hanke</data>
+      <data key="d1">Suo siellä, yhteistyö täällä – Yhdessä kohti elinvoimaista suoluontoa</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">70104</data>
+      <data key="d18">39255</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d14">2027</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11658</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="K-FI-06b9">
@@ -3522,7 +4962,7 @@
       <data key="d8">380145</data>
       <data key="d18">266102</data>
       <data key="d10">2</data>
-      <data key="d21">200.0</data>
+      <data key="d19">200.0</data>
       <data key="d12" />
       <data key="d13">2024</data>
       <data key="d14">2026</data>
@@ -3543,7 +4983,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2021</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/32705</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -3578,8 +5018,8 @@
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://maaseutu.fi/?s=Suometsiin%20liittyv%C3%A4n%20tiedon%20lis%C3%A4%C3%A4minen%20ja%20osaamisen%20parantaminen</data>
       <data key="d15">True</data>
       <data key="d16">6-maaseutu-2026-11-24.csv</data>
@@ -3611,7 +5051,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">292566</data>
       <data key="d18">204796</data>
-      <data key="d10">2</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
@@ -3627,13 +5067,13 @@
       <data key="d2">FI</data>
       <data key="d3">Interreg</data>
       <data key="d7">2014–20</data>
-      <data key="d19" />
+      <data key="d20" />
       <data key="d9" />
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
+      <data key="d23" />
       <data key="d24" />
-      <data key="d20" />
       <data key="d5">https://keep.eu/projects/23241/</data>
       <data key="d15">True</data>
       <data key="d16">4-keep-eu-2026-11-24.csv</data>
@@ -3675,6 +5115,24 @@
       <data key="d16">7-research-fi-2026-11-24.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-87f3">
+      <data key="d0">hanke</data>
+      <data key="d1">TUPAS2 - Turvetuotannosta poistuvien alueiden ennallistaminen ja kestävä jatkokäyttö Oulussa</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">998178</data>
+      <data key="d18">512620</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2027</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11386</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="K-FI-6f20">
       <data key="d0">hanke</data>
       <data key="d1">TURBITS, New Cultivated Plants and bioside streams: Production Chains, Valuables and Circular economy</data>
@@ -3683,7 +5141,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">479249</data>
       <data key="d18">335474</data>
-      <data key="d10">1</data>
+      <data key="d10">2</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
@@ -3719,7 +5177,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">528169</data>
       <data key="d18">369719</data>
-      <data key="d10">1</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2024</data>
@@ -3741,7 +5199,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/89274</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -3755,8 +5213,8 @@
       <data key="d7">2021–27</data>
       <data key="d8">220269</data>
       <data key="d18">154188</data>
-      <data key="d10">2</data>
-      <data key="d21">5.0</data>
+      <data key="d10">3</data>
+      <data key="d19">5.0</data>
       <data key="d12" />
       <data key="d13">2024</data>
       <data key="d14">2025</data>
@@ -3773,7 +5231,7 @@
       <data key="d7">2021–27</data>
       <data key="d8">170225</data>
       <data key="d18">119158</data>
-      <data key="d10">2</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
@@ -3900,7 +5358,7 @@
       <data key="d8">161484</data>
       <data key="d18">113039</data>
       <data key="d10">2</data>
-      <data key="d21">55.0</data>
+      <data key="d19">55.0</data>
       <data key="d12" />
       <data key="d13">2025</data>
       <data key="d14">2026</data>
@@ -4053,6 +5511,24 @@
       <data key="d16">6-maaseutu-2026-11-24.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="R-FI-295f">
+      <data key="d0">hanke</data>
+      <data key="d1">Turvetta korvaavat kasvualustat biometaanintuotannon raaka-aineena (TuKKBio)</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">206496</data>
+      <data key="d18">115630</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d14">2028</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11699</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="A-FI-cf8d">
       <data key="d0">hanke</data>
       <data key="d1">Turvetuotannon merkitys maaseudun pienyhteisölle</data>
@@ -4065,10 +5541,64 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2022</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/76716</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-7ce4">
+      <data key="d0">hanke</data>
+      <data key="d1">Turvetuotannosta poistuvien alueiden jälkikäyttö</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">93672</data>
+      <data key="d18">52457</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2024</data>
+      <data key="d14">2025</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10708</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-ba80">
+      <data key="d0">hanke</data>
+      <data key="d1">Turvetuotantoalueet kestävään käyttöön (TURKE)</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">413349</data>
+      <data key="d18">231445</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2023</data>
+      <data key="d14">2025</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10091</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-7f1e">
+      <data key="d0">hanke</data>
+      <data key="d1">Turvetuotantoalueiden ennallistamisen ja päästöjen vähentämisen selvitykset ja pilotoinnit</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">183050</data>
+      <data key="d18">102505</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2024</data>
+      <data key="d14">2026</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J10266</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="M-FI-e41c">
@@ -4101,7 +5631,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/86602</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -4116,13 +5646,31 @@
       <data key="d8">788547</data>
       <data key="d18">551983</data>
       <data key="d10">3</data>
-      <data key="d21">8.0</data>
-      <data key="d22">1.0</data>
+      <data key="d19">8.0</data>
+      <data key="d21">1.0</data>
       <data key="d13">2023</data>
       <data key="d14">2026</data>
       <data key="d5">https://kohesio.ec.europa.eu/en/projects/Q7440188</data>
       <data key="d15">True</data>
       <data key="d16">1-kohesio-2026-11-02.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="R-FI-17e2">
+      <data key="d0">hanke</data>
+      <data key="d1">Valuma-aluesuunnittelun toteutus Trolssinojan, Pukanluoman ja Ala-Honkajoki-Kynäsjärven valuma-alueilla - TRUKALA</data>
+      <data key="d2">FI</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–2027</data>
+      <data key="d8">207588</data>
+      <data key="d18">116249</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d14">2028</data>
+      <data key="d5">https://eura2021.fi/hanketietopalvelu?koodi=J11634</data>
+      <data key="d15">True</data>
+      <data key="d16">5-eura2021-2026-11-03.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="A-FI-e29b">
@@ -4155,7 +5703,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2026</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/89256</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -4173,7 +5721,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2025</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/86596</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -4191,7 +5739,7 @@
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2023</data>
-      <data key="d20" />
+      <data key="d24" />
       <data key="d5">https://research.fi/fi/results/funding/79866</data>
       <data key="d15">True</data>
       <data key="d16">7-research-fi-2026-11-24.csv</data>
@@ -4521,6 +6069,24 @@
       <data key="d16">2-eu-cap-network-2026-11-02.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="F-LV-cadf">
+      <data key="d0">hanke</data>
+      <data key="d1">Apsaimniekošanas pasākumu veikšana īpaši aizsargājamās dabas teritorijās un mikroliegumos biotopu un sugu aizsardzības stāvokļa uzlabošanai.</data>
+      <data key="d2">LV</data>
+      <data key="d3">KF</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">3400637</data>
+      <data key="d18">2890542</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2021</data>
+      <data key="d14">2024</data>
+      <data key="d5">https://www.esfondi.lv/istenotie-projekti/5-4-3-0-20-i-001</data>
+      <data key="d15">True</data>
+      <data key="d16">14-esfondi-2026-11-04.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="L-LV-2005">
       <data key="d0">hanke</data>
       <data key="d1">Conservation and Management of Priority Wetland Habitats in Latvia</data>
@@ -4619,7 +6185,7 @@
       <data key="d7">2014–20</data>
       <data key="d8">675371</data>
       <data key="d18">438991</data>
-      <data key="d10">1</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2020</data>
@@ -4637,14 +6203,32 @@
       <data key="d7">2021–27</data>
       <data key="d8">244664</data>
       <data key="d18">207965</data>
-      <data key="d10">1</data>
+      <data key="d10">3</data>
       <data key="d11" />
       <data key="d12" />
       <data key="d13">2024</data>
-      <data key="d20" />
+      <data key="d14">2027</data>
       <data key="d5">https://kohesio.ec.europa.eu/en/projects/Q7432419</data>
       <data key="d15">True</data>
       <data key="d16">1-kohesio-2026-11-02.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="F-LV-594d">
+      <data key="d0">hanke</data>
+      <data key="d1">Ieguldījums Natura 2000 Latvijā I</data>
+      <data key="d2">LV</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">9776338</data>
+      <data key="d18">8309887</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2025</data>
+      <data key="d14">2029</data>
+      <data key="d5">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/2-2-3-3-3-25-i-001</data>
+      <data key="d15">True</data>
+      <data key="d16">14-esfondi-2026-11-04.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="K-LV-37ba">
@@ -4699,6 +6283,24 @@
       <data key="d5">https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en</data>
       <data key="d15">False</data>
       <data key="d16">2-eu-cap-network-2026-11-02.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="F-LV-f837">
+      <data key="d0">hanke</data>
+      <data key="d1">Klimata izmaiņu mazināšanas iespēju izpēte aramzemju un zālāju meliorācijas sistēmās</data>
+      <data key="d2">LV</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">443241</data>
+      <data key="d18">363280</data>
+      <data key="d10">1</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2022</data>
+      <data key="d14">2023</data>
+      <data key="d5">https://www.esfondi.lv/istenotie-projekti/1-1-1-1-21-a-030</data>
+      <data key="d15">True</data>
+      <data key="d16">14-esfondi-2026-11-04.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="L-LV-50b4">
@@ -4800,10 +6402,10 @@
       <data key="d8">7058824</data>
       <data key="d18">6000000</data>
       <data key="d10">2</data>
-      <data key="d21">1500.0</data>
+      <data key="d19">1500.0</data>
       <data key="d12" />
       <data key="d13">2024</data>
-      <data key="d20" />
+      <data key="d14">2029</data>
       <data key="d5">https://kohesio.ec.europa.eu/en/projects/Q7432676</data>
       <data key="d15">True</data>
       <data key="d16">1-kohesio-2026-11-02.csv</data>
@@ -4825,6 +6427,24 @@
       <data key="d5">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE16%20NAT/LV/000262</data>
       <data key="d15">True</data>
       <data key="d16">3-life-2026-11-24.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
+    <node id="F-LV-dfd5">
+      <data key="d0">hanke</data>
+      <data key="d1">Siltumnīcefekta gāzu (SEG) emisiju mazināšanas potenciālu ietekmējošo faktoru izpēte zālājos un aramzemēs ar organiskajām augsnēm</data>
+      <data key="d2">LV</data>
+      <data key="d3">EAKR</data>
+      <data key="d7">2014–20</data>
+      <data key="d8">463629</data>
+      <data key="d18">379990</data>
+      <data key="d10">3</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2022</data>
+      <data key="d14">2023</data>
+      <data key="d5">https://www.esfondi.lv/istenotie-projekti/1-1-1-1-21-a-031</data>
+      <data key="d15">True</data>
+      <data key="d16">14-esfondi-2026-11-04.csv</data>
       <data key="d17">turvemaa</data>
     </node>
     <node id="L-LV-8d1e">
@@ -4863,6 +6483,24 @@
       <data key="d16">2-eu-cap-network-2026-11-02.csv</data>
       <data key="d17">turvemaa</data>
     </node>
+    <node id="F-LV-7d15">
+      <data key="d0">hanke</data>
+      <data key="d1">Vēsturisko kūdras ieguves vietu revitalizācija</data>
+      <data key="d2">LV</data>
+      <data key="d3">JTF</data>
+      <data key="d7">2021–27</data>
+      <data key="d8">8144350</data>
+      <data key="d18">5939173</data>
+      <data key="d10">2</data>
+      <data key="d11" />
+      <data key="d12" />
+      <data key="d13">2026</data>
+      <data key="d14">2030</data>
+      <data key="d5">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/6-1-1-1-3-25-i-001</data>
+      <data key="d15">True</data>
+      <data key="d16">14-esfondi-2026-11-04.csv</data>
+      <data key="d17">turvemaa</data>
+    </node>
     <node id="E-LV-b130">
       <data key="d0">hanke</data>
       <data key="d1">Waste-free recycling of coniferous green biomass in a biodegradable planter container system</data>
@@ -4890,7 +6528,7 @@
       <data key="d8">2696225</data>
       <data key="d18">1078490</data>
       <data key="d10">2</data>
-      <data key="d21">1000.0</data>
+      <data key="d19">1000.0</data>
       <data key="d12" />
       <data key="d13">2024</data>
       <data key="d14">2027</data>
@@ -4946,7 +6584,7 @@
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
-      <data key="d24" />
+      <data key="d23" />
       <data key="d14">2025</data>
       <data key="d5">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/deltagardrivetprojektrorandeodlingssystemsomgynnarmarkensjordhalsakolinlagringochproduktionsformaga.4.448459fe1958aa6ee59298d4.html</data>
       <data key="d15">False</data>
@@ -4964,7 +6602,7 @@
       <data key="d10">2</data>
       <data key="d11" />
       <data key="d12" />
-      <data key="d24" />
+      <data key="d23" />
       <data key="d14">2027</data>
       <data key="d5">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/fossilfreegrowingmedia.4.448459fe1958aa6ee5975af.html</data>
       <data key="d15">False</data>
@@ -5000,7 +6638,7 @@
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
-      <data key="d24" />
+      <data key="d23" />
       <data key="d14">2027</data>
       <data key="d5">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/klimatanpassadgrundvattenregleringinorrlandsktjordbruk.4.2bffa287196abf7b47c4a8fc.html</data>
       <data key="d15">False</data>
@@ -5126,7 +6764,7 @@
       <data key="d10">1</data>
       <data key="d11" />
       <data key="d12" />
-      <data key="d24" />
+      <data key="d23" />
       <data key="d14">2025</data>
       <data key="d5">https://www.landsbygdsnatverket.se/gronanaringarakis/innovationsstodeteipagri/databasovergodkandainnovationsprojektochsamarbetsprojekt/eipprojekt/vagvalodlingssystempatregardarforjordhalsaproduktivitetochkolinlagring.4.448459fe1958aa6ee5929970.html</data>
       <data key="d15">False</data>
@@ -5881,7 +7519,21 @@
       <data key="d27">tutkimuslaitos</data>
       <data key="d28" />
     </node>
-    <node id="estonian-fund-for-nature">
+    <node id="mittteulundusuhing-keskkonna-ja-metsandu">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Mittteulundusühing Keskkonna ja Metsanduse Arenduskeskus</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="tallinna-ulikooli-okoloogia-instituut">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Tallinna Ülikooli Ökoloogia Instituut</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="elf">
       <data key="d0">organisaatio</data>
       <data key="d1">Estonian Fund for Nature</data>
       <data key="d2">EE</data>
@@ -5895,11 +7547,88 @@
       <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
-    <node id="university-of-tartu">
+    <node id="tartu-ulikool">
       <data key="d0">organisaatio</data>
       <data key="d1">University of Tartu</data>
       <data key="d2">EE</data>
       <data key="d27">yliopisto</data>
+      <data key="d28" />
+    </node>
+    <node id="tallinna-ulikool">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Tallinna Ülikool</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="pollumajandusuuringute-keskus">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Põllumajandusuuringute Keskus</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="eesti-maaulikool">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Eesti Maaülikool</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="keila-linnavalitsus">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Keila Linnavalitsus</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="mittetulundusuhing-peatland-congress-202">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Mittetulundusühing Peatland Congress 2020</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="keskkonnateabe-keskus">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Keskkonnateabe Keskus</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="regionaal-ja-pollumajandusministeerium">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Regionaal- ja Põllumajandusministeerium</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="kliimaministeerium">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Kliimaministeerium</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="mittetulundusuhing-eesti-turbaliit">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Mittetulundusühing Eesti Turbaliit</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="riikliku-looduskaitsekeskus">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Riikliku Looduskaitsekeskus</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="tallinna-tehnikaulikool">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Tallinna Tehnikaülikool</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
     <node id="akcelerator-drustvenih-promjena-zid">
@@ -6364,6 +8093,13 @@
       <data key="d27">amk</data>
       <data key="d28">https://ror.org/051v6v138</data>
     </node>
+    <node id="jussi-syrjamaki">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Jussi Syrjämäki</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
     <node id="lapin-ammattikorkeakoulu">
       <data key="d0">organisaatio</data>
       <data key="d1">Lapin ammattikorkeakoulu</data>
@@ -6378,9 +8114,44 @@
       <data key="d27">tutkimuslaitos</data>
       <data key="d28">https://ror.org/03vjnqy43</data>
     </node>
+    <node id="tyotehoseura">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Työtehoseura</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="jyvaskylan-ammattikorkeakoulu">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Jyväskylän Ammattikorkeakoulu</data>
+      <data key="d2">FI</data>
+      <data key="d27">amk</data>
+      <data key="d28">https://ror.org/01dn2ng71</data>
+    </node>
+    <node id="metsanhoitoyhdistys-paijanne">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Metsänhoitoyhdistys Päijänne</data>
+      <data key="d2">FI</data>
+      <data key="d27">jarjesto</data>
+      <data key="d28" />
+    </node>
     <node id="lansirannikon-koulutus">
       <data key="d0">organisaatio</data>
       <data key="d1">Länsirannikon Koulutus</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="suomen-humanistinen-ammattikorkeakoulu">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Suomen Humanistinen Ammattikorkeakoulu</data>
+      <data key="d2">FI</data>
+      <data key="d27">amk</data>
+      <data key="d28" />
+    </node>
+    <node id="koumet">
+      <data key="d0">organisaatio</data>
+      <data key="d1">KouMet</data>
       <data key="d2">FI</data>
       <data key="d27">viranomainen</data>
       <data key="d28" />
@@ -6420,6 +8191,20 @@
       <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
+    <node id="keuruun-kaupunki">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Keuruun kaupunki</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="lestijarven-kunta">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Lestijärven kunta</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
     <node id="mittuniversitetet">
       <data key="d0">organisaatio</data>
       <data key="d1">Mittuniversitetet</data>
@@ -6427,9 +8212,30 @@
       <data key="d27">yliopisto</data>
       <data key="d28" />
     </node>
+    <node id="oy-alholmens-kraft">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Oy Alholmens Kraft</data>
+      <data key="d2">FI</data>
+      <data key="d27">yritys</data>
+      <data key="d28" />
+    </node>
+    <node id="petajaveden-kunta">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Petäjäveden kunta</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
     <node id="suomen-luonnonsuojeluliitto">
       <data key="d0">organisaatio</data>
       <data key="d1">Suomen Luonnonsuojeluliitto</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="kokkolan-energia">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Kokkolan Energia</data>
       <data key="d2">FI</data>
       <data key="d27">viranomainen</data>
       <data key="d28" />
@@ -6497,6 +8303,13 @@
       <data key="d27">yliopisto</data>
       <data key="d28">https://ror.org/05vghhr25</data>
     </node>
+    <node id="kymijoen-vesi-ja-ymparisto">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Kymijoen vesi ja ympäristö</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
     <node id="iin-micropolis">
       <data key="d0">organisaatio</data>
       <data key="d1">Iin Micropolis</data>
@@ -6518,25 +8331,18 @@
       <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
-    <node id="jyvaskylan-ammattikorkeakoulu">
+    <node id="oulun-kaupunki">
       <data key="d0">organisaatio</data>
-      <data key="d1">Jyväskylän Ammattikorkeakoulu</data>
+      <data key="d1">Oulun kaupunki</data>
       <data key="d2">FI</data>
-      <data key="d27">amk</data>
-      <data key="d28">https://ror.org/01dn2ng71</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
     </node>
     <node id="maaseudun-sivistysliiton-vaara-karjalan-">
       <data key="d0">organisaatio</data>
       <data key="d1">Maaseudun Sivistysliiton Vaara-Karjalan kulttuuriyhdistys</data>
       <data key="d2">FI</data>
       <data key="d27">jarjesto</data>
-      <data key="d28" />
-    </node>
-    <node id="oulun-kaupunki">
-      <data key="d0">organisaatio</data>
-      <data key="d1">Oulun kaupunki</data>
-      <data key="d2">FI</data>
-      <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
     <node id="mikkelin-kaupunki">
@@ -6621,6 +8427,27 @@
       <data key="d1">Lappeenrannan kaupunki</data>
       <data key="d2">FI</data>
       <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="oy-vaasan-ammattikorkeakoulu-vasa-yrkesh">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Oy Vaasan ammattikorkeakoulu - Vasa yrkeshögskola</data>
+      <data key="d2">FI</data>
+      <data key="d27">amk</data>
+      <data key="d28" />
+    </node>
+    <node id="pyhajarvi-instituuttisaatio-sr">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Pyhäjärvi-instituuttisäätiö sr</data>
+      <data key="d2">FI</data>
+      <data key="d27">jarjesto</data>
+      <data key="d28" />
+    </node>
+    <node id="metsanhoitoyhdistys-lansi-suomi">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Metsänhoitoyhdistys Länsi-Suomi</data>
+      <data key="d2">FI</data>
+      <data key="d27">jarjesto</data>
       <data key="d28" />
     </node>
     <node id="blackstairs-farming-group">
@@ -6868,10 +8695,10 @@
       <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
-    <node id="estonian-fund-for-nature-sa-eestimaa-loo">
+    <node id="daba">
       <data key="d0">organisaatio</data>
-      <data key="d1">Estonian Fund for Nature (SA Eestimaa Looduse Fond)</data>
-      <data key="d2">EE</data>
+      <data key="d1">Dabas aizsardzības pārvalde</data>
+      <data key="d2">LV</data>
       <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
@@ -7001,13 +8828,6 @@
       <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
-    <node id="nature-conservation-agency">
-      <data key="d0">organisaatio</data>
-      <data key="d1">Nature Conservation Agency</data>
-      <data key="d2">LV</data>
-      <data key="d27">viranomainen</data>
-      <data key="d28" />
-    </node>
     <node id="pausales-dabas-fonds">
       <data key="d0">organisaatio</data>
       <data key="d1">Pausales dabas fonds</data>
@@ -7120,7 +8940,7 @@
       <data key="d27">viranomainen</data>
       <data key="d28" />
     </node>
-    <node id="akciju-sabiedriba-latvijas-valsts-mezi">
+    <node id="lvm">
       <data key="d0">organisaatio</data>
       <data key="d1">Akciju sabiedrība "Latvijas valsts meži</data>
       <data key="d2">LV</data>
@@ -7510,6 +9330,41 @@
       <data key="d1">Skogsstyrelsen</data>
       <data key="d2">SE</data>
       <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="kehittamis-ja-hallintokeskus">
+      <data key="d0">organisaatio</data>
+      <data key="d1">kehittämis- ja hallintokeskus</data>
+      <data key="d2">FI</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="mittetulundusuhing-arheovisioon">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Mittetulundusühing Arheovisioon</data>
+      <data key="d2">EE</data>
+      <data key="d27">viranomainen</data>
+      <data key="d28" />
+    </node>
+    <node id="rigas-tehniska-universitate">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Rīgas Tehniskā universitāte</data>
+      <data key="d2">LV</data>
+      <data key="d27">yliopisto</data>
+      <data key="d28" />
+    </node>
+    <node id="latvijas-biozinatnu-un-tehnologiju-unive">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Latvijas Biozinātņu un tehnoloģiju universitāte</data>
+      <data key="d2">LV</data>
+      <data key="d27">yliopisto</data>
+      <data key="d28" />
+    </node>
+    <node id="vides-risinajumu-instituts">
+      <data key="d0">organisaatio</data>
+      <data key="d1">Vides risinājumu institūts</data>
+      <data key="d2">LV</data>
+      <data key="d27">tutkimuslaitos</data>
       <data key="d28" />
     </node>
     <node id="intrigo-ltd-ireland">
@@ -8772,7 +10627,504 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="V-EE-8de1" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-8de1" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-282f" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-afa9" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="L-EE-89f5" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-efdf" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-bb80" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-4e98" target="T2" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-4e98" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-1653" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-fdb3" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-cf0a" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-fac4" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-95f8" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-b287" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-3a13" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-3a13" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-13e8" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-869e" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-2de5" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-2de5" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-fd78" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-e77d" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-e77d" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-0545" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-0545" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-5af6" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-d59e" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-a38b" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-8898" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-1e63" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-4177" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-c03a" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-c24e" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-181a" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-41f4" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-7bce" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-4532" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-bff8" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-2d74" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-9bf8" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-3d47" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-d0de" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-7b2b" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-ed09" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-db4f" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-f333" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-c306" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-7fa3" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-8c2f" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-8c2f" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-f93f" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-f93f" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-daf4" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-657c" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-5807" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-23f0" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-0b09" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-df6e" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-0a98" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-5ba7" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-68d6" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-5816" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-4eb4" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-2d14" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-7917" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-61dd" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-097f" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-ff69" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-7f94" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-ff23" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="V-EE-ff23" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -9094,6 +11446,13 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="R-FI-609b" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="A-FI-6420" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -9186,6 +11545,20 @@
       <data key="d38" />
     </edge>
     <edge source="K-FI-050e" target="T3" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-3f2a" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-3f2a" target="T3" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -9290,6 +11663,27 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="R-FI-6df1" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-6df1" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-6df1" target="T8" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="R-FI-d4ba" target="T1" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -9326,6 +11720,34 @@
       <data key="d38" />
     </edge>
     <edge source="K-FI-6894" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-4496" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-d7e0" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-d7e0" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-f466" target="T1" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -9500,6 +11922,69 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="R-FI-dba7" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-dba7" target="T3" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-dba7" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-dba7" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-dba7" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-7dd3" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-7dd3" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-aa38" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-aa38" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="K-FI-6c73" target="T1" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -9508,6 +11993,13 @@
       <data key="d38" />
     </edge>
     <edge source="K-FI-6c73" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-34b2" target="T1" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -9605,6 +12097,13 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="R-FI-e3a3" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="M-FI-d55d" target="T4" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -9620,6 +12119,20 @@
       <data key="d38" />
     </edge>
     <edge source="A-FI-b9fb" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-1dd0" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-1dd0" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -9655,6 +12168,20 @@
       <data key="d38" />
     </edge>
     <edge source="A-FI-9d06" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-f1ce" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-f1ce" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -9738,6 +12265,34 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="R-FI-a987" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-b490" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-b490" target="T2" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-b490" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="A-FI-c3c5" target="T4" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -9760,6 +12315,20 @@
       <data key="d38" />
     </edge>
     <edge source="A-FI-0f15" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-e499" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-e499" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -10039,6 +12608,48 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="R-FI-437d" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-437d" target="T4" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-437d" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-fc0e" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-fc0e" target="T7" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-fc0e" target="T8" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="K-FI-06b9" target="T1" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -10138,6 +12749,20 @@
       <data key="d38" />
     </edge>
     <edge source="A-FI-64c3" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-87f3" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-87f3" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -10326,7 +12951,56 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="R-FI-295f" target="T3" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="A-FI-cf8d" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-7ce4" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-7ce4" target="T8" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-ba80" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-7f1e" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-7f1e" target="T3" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-7f1e" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -10404,6 +13078,27 @@
       <data key="d38" />
     </edge>
     <edge source="K-FI-0ac6" target="T8" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-17e2" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-17e2" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="R-FI-17e2" target="T8" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -10690,6 +13385,13 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="F-LV-cadf" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="L-LV-2005" target="T1" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -10802,6 +13504,20 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="F-LV-594d" target="T5" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="F-LV-594d" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="K-LV-37ba" target="T5" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -10831,6 +13547,13 @@
       <data key="d38" />
     </edge>
     <edge source="E-LV-d12c" target="T3" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="F-LV-f837" target="T6" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -10998,6 +13721,13 @@
       <data key="d37" />
       <data key="d38" />
     </edge>
+    <edge source="F-LV-dfd5" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
     <edge source="L-LV-8d1e" target="T1" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
@@ -11034,6 +13764,20 @@
       <data key="d38" />
     </edge>
     <edge source="E-LV-e70c" target="T6" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="F-LV-7d15" target="T1" id="0">
+      <data key="d34">teema</data>
+      <data key="d35">1.0</data>
+      <data key="d36" />
+      <data key="d37" />
+      <data key="d38" />
+    </edge>
+    <edge source="F-LV-7d15" target="T6" id="0">
       <data key="d34">teema</data>
       <data key="d35">1.0</data>
       <data key="d36" />
@@ -11859,6 +14603,13 @@
       <data key="d37">https://research.fi/fi/results/funding/83127</data>
       <data key="d38">partneri</data>
     </edge>
+    <edge source="il" target="R-FI-7dd3" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11116</data>
+      <data key="d38">partneri</data>
+    </edge>
     <edge source="il" target="A-FI-5cd8" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
@@ -12104,6 +14855,13 @@
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440188</data>
       <data key="d38">edunsaaja</data>
     </edge>
+    <edge source="uef" target="FI-10" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10247</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
     <edge source="uef" target="universitat-rostock" id="0">
       <data key="d34">yhteisjulkaisu</data>
       <data key="d39">11</data>
@@ -12249,6 +15007,13 @@
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440727</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="oy" target="R-FI-7dd3" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11116</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="oy" target="K-FI-1d92" id="0">
@@ -12412,6 +15177,20 @@
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440726</data>
       <data key="d38">edunsaaja</data>
     </edge>
+    <edge source="luke" target="R-FI-4496" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11859</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="luke" target="R-FI-7dd3" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11116</data>
+      <data key="d38">partneri</data>
+    </edge>
     <edge source="luke" target="A-FI-2fd2" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
@@ -12557,6 +15336,13 @@
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://maaseutu.fi/?s=Turvemaiden%20viljanviljelyss%C3%A4%20syntyv%C3%A4%20ilmasto-%20ja%20vesist%C3%B6kuormitus%20sek%C3%A4%20niiden%20hillint%C3%A4%20%28Viljap%C3%A4%C3%A4st%C3%B6%29</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="luke" target="R-FI-ba80" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10091</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="luke" target="K-FI-0ac6" id="0">
@@ -12888,6 +15674,13 @@
       <data key="d37">https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en</data>
       <data key="d38">partneri</data>
     </edge>
+    <edge source="silava" target="F-LV-f837" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/1-1-1-1-21-a-030</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
     <edge source="silava" target="L-LV-2b35" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
@@ -12901,6 +15694,13 @@
       <data key="d36">lähde</data>
       <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE22-CCM-LV-LIFE-UpcyclingGrass/101114335</data>
       <data key="d38">partneri</data>
+    </edge>
+    <edge source="silava" target="F-LV-dfd5" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/1-1-1-1-21-a-031</data>
+      <data key="d38">edunsaaja</data>
     </edge>
     <edge source="silava" target="E-LV-e70c" id="0">
       <data key="d34">osallistuu</data>
@@ -13525,6 +16325,20 @@
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440725</data>
       <data key="d38">edunsaaja</data>
     </edge>
+    <edge source="syke" target="R-FI-7dd3" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11116</data>
+      <data key="d38">partneri</data>
+    </edge>
+    <edge source="syke" target="R-FI-e3a3" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=A80036</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
     <edge source="syke" target="A-FI-8120" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
@@ -13593,6 +16407,55 @@
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440094</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rmk" target="V-EE-fac4" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/endla-lka-loodusliku-veereziimi-taastamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rmk" target="V-EE-3a13" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/hara-soo-loodusliku-veereziimi-taastamine-lahemaa-rahvuspargis</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rmk" target="V-EE-4177" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/liikide-ja-elupaikade-soodsa-seisundi-ning-maastike-mitmekesisuse-tagamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rmk" target="V-EE-9bf8" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/muraka-soostiku-servaala-veereziimi-ja-sooelupaikade-taastamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rmk" target="V-EE-8c2f" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/rannu-kestla-raba-jaaksoo-taastamine-aseri-maastikukaitsealal</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rmk" target="V-EE-0a98" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/soomaa-rahvuspargis-kuresoo-raba-kaguosas-asuva-rikutud-raba-taastamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rmk" target="V-EE-ff23" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/viru-raba-jaaksoo-taastamine-lahemaa-rahvuspargis</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="rmk" target="EE-02" id="0">
@@ -14162,12 +17025,96 @@
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7260949</data>
       <data key="d38">edunsaaja</data>
     </edge>
-    <edge source="estonian-fund-for-nature" target="L-EE-89f5" id="0">
+    <edge source="mittteulundusuhing-keskkonna-ja-metsandu" target="V-EE-282f" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/ammendatud-freesturbavalja-reoveesettega-tootlemisel-tekkiv-moju-okosusteemi-seisundile</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-ulikooli-okoloogia-instituut" target="V-EE-afa9" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/ammendatud-freesturbavaljade-taastaimestamise-tehnoloogiate-efektiivsuse-vordlev-analuus</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-ulikooli-okoloogia-instituut" target="V-EE-c24e" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/looduslahedase-seisundi-taastamine-liigirikastel-madalsoodel</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-ulikooli-okoloogia-instituut" target="V-EE-3d47" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/norglubja-allikad-ja-norglubja-allikasood-eestis-otsing-ja-seisundi-analuus-iii</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-ulikooli-okoloogia-instituut" target="V-EE-d0de" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/norglubja-allikad-ja-norglubja-sood-eestis-otsing-ja-seisundi-analuus-ii</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-ulikooli-okoloogia-instituut" target="V-EE-7917" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/turba-jaakvaljade-rekultiveerimine-turbasammaldega-5-aastat-hiljem</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="elf" target="L-EE-89f5" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE14%20NAT/EE/000126</data>
       <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="elf" target="V-EE-1653" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/eesti-soode-inventeerimise-lopetamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="elf" target="V-EE-fdb3" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/eesti-soode-vaheinventuur</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="elf" target="V-EE-cf0a" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/eesti-soode-vaheinventuur-2</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="elf" target="V-EE-bff8" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/melioreeritud-turbamaardlate-kasutusvoimaluste-hindamine-pilootprojekt</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="elf" target="V-EE-23f0" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/soode-kaitse-ja-taastamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="elf" target="L-LV-2005" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE13%20NAT/LV/000578</data>
+      <data key="d38">partneri</data>
     </edge>
     <edge source="arheovisioon-mtu" target="L-EE-89f5" id="0">
       <data key="d34">osallistuu</data>
@@ -14176,19 +17123,292 @@
       <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE14%20NAT/EE/000126</data>
       <data key="d38">partneri</data>
     </edge>
-    <edge source="university-of-tartu" target="L-EE-89f5" id="0">
+    <edge source="tartu-ulikool" target="L-EE-89f5" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE14%20NAT/EE/000126</data>
       <data key="d38">partneri</data>
     </edge>
-    <edge source="university-of-tartu" target="L-LV-1f9f" id="0">
+    <edge source="tartu-ulikool" target="V-EE-bb80" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/eesti-niiduokosusteemide-roll-kliimamuutuste-leevendamisel</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="V-EE-fd78" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/kahepaiksete-sigimisedukus-erineva-kuivendusmojuga-metsamaastikes</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="V-EE-1e63" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/kodusoometsade-looduskaitseperspektiiv</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="V-EE-c03a" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/loodusdirektiivi-metsaelupaigatuupide-kaugseire-teostatavus-valitud-metsaelupaigatuupide</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="V-EE-2d74" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/metsakuivenduse-elustikumojude-leevendusmeetmete-valjatootamine-ja-nende-tohususe</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="V-EE-db4f" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/polevkivi-piirkonna-soode-rajoneerimine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="V-EE-0b09" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/soode-okoloogilise-funktsionaalsuse-tagamiseks-vajalike-puhvertsoonide-maaratlemine-0</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="V-EE-df6e" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/soode-okoloogilise-funktsionaalsuse-tagamiseks-vajalike-puhvertsoonide-maaratlemine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tartu-ulikool" target="L-LV-1f9f" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE18%20CCM/LV/001158</data>
       <data key="d38">partneri</data>
+    </edge>
+    <edge source="tallinna-ulikool" target="V-EE-efdf" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/eesti-allikasood-seisund-ja-kaitsevaartused</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-ulikool" target="V-EE-f93f" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/reduction-co2-emissions-restoring-degraded-peatlands-northern-european-lowland</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-ulikool" target="V-EE-5807" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/soo-elupaigatuupide-seiremetoodika-taiustamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="pollumajandusuuringute-keskus" target="V-EE-4e98" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/eesti-pollumajandusmuldade-orgaanilise-susiniku-sisalduse-seireanaluuside-kaasajastamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-95f8" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/erinevate-maapinna-ettevalmistamise-meetodite-metsakasvatuslikud-ja-keskkonnamojud</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-b287" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/hall-lepikud-eesti-metsade-susinikubilansis</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-869e" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/ida-virumaa-ammendatud-freesturbavaljade-turba-toiteelementide-bilansi-tasakaalustamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-d59e" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/kasvukoha-susinikubilansi-dunaamika-lageraie-jargselt</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-a38b" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/kuivendamise-moju-viljakate-soometsade-susinikubilansile</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-8898" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/kuivendussusteemi-rekonstrueerimise-moju-puistu-juurdekasvu-ning-pohjavee-taseme</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-41f4" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/maaparandussusteemide-korrashoiu-tohususest-manni-kuuse-ja-kaseenamusega-puistute</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-7b2b" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/pindalapohise-lulucf-aruandluse-metoodika-analuus-ja-arendamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-ed09" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/puude-korguskasvu-puidu-tiheduse-ja-pohjavee-taseme-dunaamika-kuivendatud-mannienamusega</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-f333" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/poua-moju-puude-kasvule-kuivendatud-metsades-seosed-kasvunaitajate-ja-kaugseire-aegridade</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-657c" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/smear-eesti-mootejaama-andmetel-pohineva-eesti-metsade-susiniku-sidumisvoime</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-68d6" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/susinikubilansi-dunaamika-kodusoomannikute-vanusereas</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-5816" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/susinikubilanss-kuuse-kase-segametsade-vanusereas</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-4eb4" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/susinikubilanss-palumannikute-vanusereas</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-2d14" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/susinikubilanss-viljakate-kuusikute-vanusereas</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="eesti-maaulikool" target="V-EE-7f94" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/valgustusraiete-moju-viljakate-kasvukohtade-arukaasikute-arengule</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="keila-linnavalitsus" target="V-EE-13e8" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/ii-kategooria-kaitsealuse-liigi-kuninga-kuuskjala-kasvukohtade-hooldus-niitvalja-soos</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="keila-linnavalitsus" target="V-EE-181a" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/lohnava-kaoraamatu-ja-eesti-soojumika-kasvukohtade-hooldus-niitvalja-soos</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="mittetulundusuhing-peatland-congress-202" target="V-EE-2de5" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/international-peatland-congress-2020</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="keskkonnateabe-keskus" target="V-EE-e77d" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/kasvuhoonegaaside-heitkoguste-inventuuri-uuringud-riikliku-aruandluse-taitmiseks</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="regionaal-ja-pollumajandusministeerium" target="V-EE-4532" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/marjakasvatuse-potentsiaal-ammendatud-turbaaladel-ja-turvasmuldadel-erinevate-kultuuride</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="kliimaministeerium" target="V-EE-7fa3" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/rakendusuuringu-eesti-turbaalade-revisjon-ehk-kaevandamispotentsiaaliga-turbaalade</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="mittetulundusuhing-eesti-turbaliit" target="V-EE-daf4" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/ringmajanduse-pohimotete-juurutamine-eestis-toodetud-aiandusturba-toodete-kasutamisel</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="mittetulundusuhing-eesti-turbaliit" target="V-EE-61dd" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/turba-kaevandamise-hudroloogilise-moju-vahendamine</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="riikliku-looduskaitsekeskus" target="V-EE-5ba7" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/sooserva-elupaikade-taastamine-pohja-liivimaa-linnualal-i-etapp</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-tehnikaulikool" target="V-EE-097f" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/turbaalaste-uurimistulemuste-digitaliseerimine-ja-andmebaasi-koostamine-i-etapp</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="tallinna-tehnikaulikool" target="V-EE-ff69" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/turbaalaste-uurimistulemuste-digitaliseerimine-ja-andmebaasi-koostamine-ii-etapp</data>
+      <data key="d38">edunsaaja</data>
     </edge>
     <edge source="akcelerator-drustvenih-promjena-zid" target="K-EU-5a7e" id="0">
       <data key="d34">osallistuu</data>
@@ -14743,6 +17963,13 @@
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7441313</data>
       <data key="d38">edunsaaja</data>
     </edge>
+    <edge source="upm-kymmene" target="R-FI-1dd0" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11710</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
     <edge source="stora-enso" target="L-FI-ba2f" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
@@ -14777,6 +18004,13 @@
       <data key="d36">lähde</data>
       <data key="d37">https://explore.openaire.eu/</data>
       <data key="d38">1 yhteisjulkaisua 2018–2018</data>
+    </edge>
+    <edge source="jussi-syrjamaki" target="R-FI-3f2a" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11560</data>
+      <data key="d38">edunsaaja</data>
     </edge>
     <edge source="lapin-ammattikorkeakoulu" target="K-FI-a45d" id="0">
       <data key="d34">osallistuu</data>
@@ -14827,11 +18061,53 @@
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440186</data>
       <data key="d38">edunsaaja</data>
     </edge>
+    <edge source="tyotehoseura" target="R-FI-6df1" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11374</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="jyvaskylan-ammattikorkeakoulu" target="R-FI-6df1" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11374</data>
+      <data key="d38">partneri</data>
+    </edge>
+    <edge source="jyvaskylan-ammattikorkeakoulu" target="K-FI-6f20" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440083</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="metsanhoitoyhdistys-paijanne" target="R-FI-6df1" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11374</data>
+      <data key="d38">partneri</data>
+    </edge>
     <edge source="lansirannikon-koulutus" target="R-FI-d4ba" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11668</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="suomen-humanistinen-ammattikorkeakoulu" target="R-FI-d7e0" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11691</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="koumet" target="R-FI-f466" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10004</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="savonia-ammattikorkeakoulu" target="K-FI-1fcb" id="0">
@@ -14846,6 +18122,13 @@
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7441349</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="pohjois-savon-luonnonsuojelupiiri" target="R-FI-fc0e" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11658</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="hetejarven-kalastuskunta" target="M-FI-3104" id="0">
@@ -14869,6 +18152,27 @@
       <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11104</data>
       <data key="d38">partneri</data>
     </edge>
+    <edge source="keuruun-kaupunki" target="R-FI-aa38" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11672</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="lestijarven-kunta" target="R-FI-34b2" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11588</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="lestijarven-kunta" target="R-FI-b490" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11689</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
     <edge source="mittuniversitetet" target="K-FI-1d92" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
@@ -14876,12 +18180,33 @@
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7735782</data>
       <data key="d38">partneri</data>
     </edge>
+    <edge source="oy-alholmens-kraft" target="R-FI-f1ce" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11640</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="petajaveden-kunta" target="R-FI-a987" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11335</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
     <edge source="suomen-luonnonsuojeluliitto" target="L-FI-dfbb" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE22-IPN-FI-Priodiversity-LIFE/101104217</data>
       <data key="d38">partneri</data>
+    </edge>
+    <edge source="kokkolan-energia" target="R-FI-e499" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10613</data>
+      <data key="d38">edunsaaja</data>
     </edge>
     <edge source="linttipower" target="K-FI-8d28" id="0">
       <data key="d34">osallistuu</data>
@@ -14981,11 +18306,25 @@
       <data key="d37">https://explore.openaire.eu/</data>
       <data key="d38">6 yhteisjulkaisua 2021–2025</data>
     </edge>
+    <edge source="kymijoen-vesi-ja-ymparisto" target="R-FI-437d" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10578</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
     <edge source="iin-micropolis" target="M-FI-0705" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://maaseutu.fi/?s=Suot%20vesienpuhdistajina%20%E2%80%93%20Vesienpalautusten%20edist%C3%A4minen%20yksityismailla</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="iin-micropolis" target="R-FI-7ce4" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10708</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="kajaani-university-of-applied-sciences" target="I-FI-a184" id="0">
@@ -15002,18 +18341,11 @@
       <data key="d37">https://keep.eu/projects/23241/</data>
       <data key="d38">partneri</data>
     </edge>
-    <edge source="jyvaskylan-ammattikorkeakoulu" target="K-FI-6f20" id="0">
+    <edge source="oulun-kaupunki" target="R-FI-87f3" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
-      <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440083</data>
-      <data key="d38">edunsaaja</data>
-    </edge>
-    <edge source="maaseudun-sivistysliiton-vaara-karjalan-" target="K-FI-006d" id="0">
-      <data key="d34">osallistuu</data>
-      <data key="d35">1.0</data>
-      <data key="d36">lähde</data>
-      <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440595</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11386</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="oulun-kaupunki" target="K-FI-3bb2" id="0">
@@ -15021,6 +18353,13 @@
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440269</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="maaseudun-sivistysliiton-vaara-karjalan-" target="K-FI-006d" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7440595</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="mikkelin-kaupunki" target="K-FI-c4ea" id="0">
@@ -15105,6 +18444,27 @@
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://maaseutu.fi/?s=Turvemaiden%20Ilmastoviisas%20K%C3%A4ytt%C3%B6</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="oy-vaasan-ammattikorkeakoulu-vasa-yrkesh" target="R-FI-295f" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11699</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="pyhajarvi-instituuttisaatio-sr" target="R-FI-7f1e" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10266</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="metsanhoitoyhdistys-lansi-suomi" target="R-FI-17e2" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11634</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="blackstairs-farming-group" target="E-IE-e6ef" id="0">
@@ -15373,11 +18733,39 @@
       <data key="d37">https://eu-cap-network.ec.europa.eu/projects/agricultural-land-management-planning-use-agriculture-forestry-or-agroforestry_en</data>
       <data key="d38">partneri</data>
     </edge>
-    <edge source="estonian-fund-for-nature-sa-eestimaa-loo" target="L-LV-2005" id="0">
+    <edge source="daba" target="F-LV-cadf" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
-      <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE13%20NAT/LV/000578</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/5-4-3-0-20-i-001</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="daba" target="F-LV-594d" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/2-2-3-3-3-25-i-001</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="daba" target="L-LV-50b4" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE19%20IPE/LV/000010</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="daba" target="L-LV-8d1e" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE14%20CCM/LV/001103</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="daba" target="K-LV-cbb2" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/6-1-1-7-1-24-i-001</data>
       <data key="d38">partneri</data>
     </edge>
     <edge source="latvian-fund-for-nature" target="L-LV-42ff" id="0">
@@ -15527,20 +18915,6 @@
       <data key="d37">https://eu-cap-network.ec.europa.eu/projects/innovative-organic-fertilizer-containing-microorganisms_en</data>
       <data key="d38">partneri</data>
     </edge>
-    <edge source="nature-conservation-agency" target="L-LV-50b4" id="0">
-      <data key="d34">osallistuu</data>
-      <data key="d35">1.0</data>
-      <data key="d36">lähde</data>
-      <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE19%20IPE/LV/000010</data>
-      <data key="d38">edunsaaja</data>
-    </edge>
-    <edge source="nature-conservation-agency" target="L-LV-8d1e" id="0">
-      <data key="d34">osallistuu</data>
-      <data key="d35">1.0</data>
-      <data key="d36">lähde</data>
-      <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE14%20CCM/LV/001103</data>
-      <data key="d38">edunsaaja</data>
-    </edge>
     <edge source="pausales-dabas-fonds" target="L-LV-50b4" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
@@ -15674,11 +19048,18 @@
       <data key="d37">https://webgate.ec.europa.eu/life/publicWebsite/search?reference=LIFE25-NAT-LV-LIFE-BIO-CRED-Baltic/101292453</data>
       <data key="d38">partneri</data>
     </edge>
-    <edge source="akciju-sabiedriba-latvijas-valsts-mezi" target="K-LV-cbb2" id="0">
+    <edge source="lvm" target="K-LV-cbb2" id="0">
       <data key="d34">osallistuu</data>
       <data key="d35">1.0</data>
       <data key="d36">lähde</data>
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q7432676</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="lvm" target="F-LV-7d15" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/6-1-1-1-3-25-i-001</data>
       <data key="d38">edunsaaja</data>
     </edge>
     <edge source="zemnieku-saimnieciba-drubazas" target="L-LV-6382" id="0">
@@ -16079,6 +19460,62 @@
       <data key="d36">lähde</data>
       <data key="d37">https://kohesio.ec.europa.eu/en/projects/Q4299111</data>
       <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="kehittamis-ja-hallintokeskus" target="FI-02" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10219</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="kehittamis-ja-hallintokeskus" target="K-FI-56cf" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J10193</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="kehittamis-ja-hallintokeskus" target="FI-03" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11152</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="kehittamis-ja-hallintokeskus" target="K-FI-e290" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://eura2021.fi/hanketietopalvelu?koodi=J11370</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="mittetulundusuhing-arheovisioon" target="L-EE-89f5" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://kik.ee/et/projektid/soode-kaitse-ja-taastamine-ii-0</data>
+      <data key="d38">edunsaaja</data>
+    </edge>
+    <edge source="rigas-tehniska-universitate" target="LV-01" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/6-1-1-2-1-25-a-001</data>
+      <data key="d38">partneri</data>
+    </edge>
+    <edge source="latvijas-biozinatnu-un-tehnologiju-unive" target="LV-01" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/6-1-1-2-1-25-a-001</data>
+      <data key="d38">partneri</data>
+    </edge>
+    <edge source="vides-risinajumu-instituts" target="LV-01" id="0">
+      <data key="d34">osallistuu</data>
+      <data key="d35">1.0</data>
+      <data key="d36">lähde</data>
+      <data key="d37">https://www.esfondi.lv/istenotie-projekti/istenotie-projekti-2021-2027/6-1-1-2-1-25-a-001</data>
+      <data key="d38">partneri</data>
     </edge>
     <edge source="intrigo-ltd-ireland" target="X-IE-LIFE" id="0">
       <data key="d34">osallistuu</data>

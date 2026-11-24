@@ -50,6 +50,11 @@ def collab_graph(nodes, edges, include_unverified=True, copubs=False):
 # Käsin tarkistetut ehdokasparit, jotka EIVÄT ole sama hanke (2026-11-05). Perustelu jää näkyviin.
 # Todelliset kaksoiskappaleet yhdistetään src/tuonti.py:n MATCH_EXISTING-listalla, jolloin parempi lähde jää pääriviksi.
 NOT_DUPLICATE = {
+    frozenset({"FI-03", "K-FI-e290"}): "PUHTI (Pohjois-Pohjanmaa, Kainuu, Lappi) ja KAVE (Kaakkois-Suomi) ovat KEHA-keskuksen eri alueiden ennallistamishankkeita.",
+    frozenset({"FI-07", "R-FI-5c35"}): "TUPSU on suometsitystutkimus, KEMMO koulutushanke; yhteinen toimija vain SEAMK.",
+    frozenset({"FI-07", "R-FI-7dd3"}): "TUPSU on suometsitystutkimus, Kestävää kasvua Pohjois-Pohjanmaalle alueellinen seurantajärjestelmä; yhteisiä toimijoita IL ja Oulun yliopisto.",
+    frozenset({"FI-08", "R-FI-7dd3"}): "Kosteikkoviljelypilotti ja Pohjois-Pohjanmaan seurantajärjestelmä; yhteinen toimija vain Luke.",
+    frozenset({"FI-10", "K-FI-006d"}): "Kasvua sammalesta (rahkasammalen viljely) ja Suo 2.0 (Ilomantsin elinvoima) ovat UEF:n eri hankkeita.",
     frozenset({"FI-08", "R-FI-5c35"}): "Turvevapaa ruokaketju on SEAMKin kosteikkoviljelypilotti; R-FI-5c35 on KEMMO, SEAMKin, Sedun ja "
         "Kpedun koulutushanke turvealan työntekijöille. Yhteinen toimija ja samat vuodet, eri hankkeet.",
     frozenset({"FI-06", "K-FI-0ac6"}): "Suopaikka on SEAMKin oma JTF-hanke (245 000 €, Etelä-Pohjanmaa, rahoittaja Keski-Suomen ELY); "
