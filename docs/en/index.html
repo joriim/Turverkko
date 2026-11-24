@@ -12,7 +12,32 @@
 .hero{padding-block:56px 32px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center}
 @media (max-width:860px){.hero{grid-template-columns:minmax(0,1fr)}}
 .hero .stack{gap:18px}
-.mini{width:100%;height:auto;max-width:440px;justify-self:center}
+.mini{width:100%;height:auto;max-width:440px;display:block}
+.mini-wrap{margin:0;justify-self:center;width:100%;max-width:440px}
+.mini-btn{all:unset;display:block;position:relative;cursor:pointer;border-radius:12px;width:100%}
+.mini-btn:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.mini-cta{position:absolute;right:8px;bottom:8px;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:.9rem;padding:6px 12px;border-radius:999px}
+.mini-btn:hover .mini-cta{filter:brightness(1.1)}
+.t3{width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:var(--bg);color:var(--fg)}
+.t3[open]{display:grid;grid-template-rows:auto 1fr auto}
+.t3::backdrop{background:rgba(0,0,0,.5)}
+.t3-bar{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);font-size:.9rem}
+.t3-title{font-family:var(--f-display);font-size:1.1rem;margin-right:auto}
+.t3-bar select,.t3-bar button{font:inherit;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg)}
+.t3-year{display:inline-flex;align-items:center;gap:6px}
+.t3-close{font-size:1.3rem;line-height:1;padding:2px 10px}
+.t3-stage{position:relative;min-height:0}
+.t3-stage canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:grab}
+.t3-tip{position:absolute;pointer-events:none;max-width:320px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:.85rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.t3-tip b,.t3-tip span{display:block}.t3-tip span{color:var(--muted)}
+.t3-info{position:absolute;right:10px;top:10px;width:min(340px,calc(100% - 20px));max-height:calc(100% - 20px);overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:.88rem}
+.t3-info h3{margin:.2em 0 .4em;font-size:1rem}.t3-info ul{padding-left:0;list-style:none;margin:.4em 0}.t3-info li{margin:.2em 0}
+.t3-x{float:right;border:0;background:none;color:var(--fg);font-size:1.2rem;cursor:pointer}
+.t3-foot{padding:6px 14px 10px;border-top:1px solid var(--line)}
+.t3-foot .note{margin:.3em 0 0;font-size:.8rem}
+.t3-legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.82rem}
+.t3-legend i{display:inline-block;width:10px;height:10px;margin-right:5px;vertical-align:-1px}
+@media (max-width:640px){.t3-title{width:100%}.t3-foot .note{display:none}}
 .cite-tabs{display:flex;gap:4px}
 .cite-tabs button{font:500 13px var(--f-mono);background:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px;color:var(--muted);cursor:pointer}
 .cite-tabs button[aria-selected="true"]{color:var(--fg);border-color:var(--accent)}
@@ -33,11 +58,32 @@
       <p class="lede">Turverkko documents public research and innovation funding for peatlands, peat fields, peatland forests, paludiculture and restoration, as well as soil emissions, carbon sequestration and their measurement (MRV), in six EU peatland regions. It shows where the same work is being done in parallel without a connection.</p>
       <div class="chips" style="gap:10px">
         <a class="btn" href="kartta.html">Open the map and network</a>
+        <button type="button" class="btn ghost" id="open3d-btn">3D map</button>
         <a class="btn ghost" href="ehdota.html">Suggest a missing link</a>
       </div>
     </div>
-    <svg class="mini" id="mini" viewBox="-230 -200 460 400" role="img" aria-label="Thumbnail of the collaboration network"></svg>
+    <figure class="mini-wrap">
+      <button type="button" class="mini-btn" id="open3d" aria-label="Open 3D map: projects on the map by start year">
+        <svg class="mini" id="mini" viewBox="-230 -200 460 400" role="img" aria-label="Thumbnail of the collaboration network"></svg>
+        <span class="mini-cta">Open 3D map ↗</span>
+      </button>
+    </figure>
   </section>
+
+  <dialog class="t3" id="t3" aria-label="Projects on a 3D map">
+    <div class="t3-bar">
+      <b class="t3-title">Projects on the map – height = start year</b>
+      <label>Colour <select id="t3-mode"><option value="country">country</option><option value="fund">fund</option><option value="theme">theme</option></select></label>
+      <label><input type="checkbox" id="t3-orgs" checked> organisation links</label>
+      <label><input type="checkbox" id="t3-par"> similar but unlinked</label>
+      <span class="t3-year"><button type="button" id="t3-play" aria-label="Play year by year">▶</button><input type="range" id="t3-year" aria-label="Show projects up to year"><output id="t3-yout" class="mono"></output></span>
+      <button type="button" id="t3-reset">Reset view</button>
+      <button type="button" id="t3-close" class="t3-close" aria-label="Close">×</button>
+    </div>
+    <div class="t3-stage"><canvas aria-label="Three-dimensional map: projects as squares at the height of their start year, organisations as dots on the ground"></canvas><div class="t3-tip" hidden></div><aside class="t3-info" hidden></aside></div>
+    <div class="t3-foot"><div class="t3-legend" id="t3-legend"></div>
+      <p class="note">Square = project (size = budget), dot on the ground = organisation, ring = competence centre. Lines join organisations to their projects; red dashed lines join similar projects with no link. Location is the centre of the region or country, not the exact site. <span id="t3-note"></span> Drag to rotate, scroll or pinch to zoom, shift-drag to pan.</p></div>
+  </dialog>
 
   <section class="kpis" id="kpis" aria-label="The data in numbers"></section>
 
@@ -110,6 +156,25 @@
 <script src="../assets/common.en.js"></script>
 <script>
 TV.nav("index.html"); TV.footer();
+// 3D-kartta: skriptit ladataan vasta avattaessa (assets/rajat.js, assets/kartta3d.js)
+(() => {
+  const dlg = document.getElementById("t3"), base = document.querySelector('script[src*="common"]').src.replace(/common(\.en)?\.js.*$/, "");
+  const load = src => new Promise((ok, ko) => { const s = document.createElement("script"); s.src = base + src; s.onload = ok; s.onerror = () => ko(new Error(src)); document.head.append(s); });
+  let ready, stop;
+  const $ = id => document.getElementById(id);
+  async function show() {
+    dlg.showModal(); if (location.hash !== "#3d") history.replaceState(null, "", "#3d");
+    ready = ready || Promise.all([load("rajat.js"), load("kartta3d.js"), TV.load()]);
+    const [, , data] = await ready;
+    stop = Kartta3D.open(dlg.querySelector(".t3-stage"), data, {mode: $("t3-mode"), orgs: $("t3-orgs"), par: $("t3-par"), year: $("t3-year"), yearOut: $("t3-yout"),
+      play: $("t3-play"), reset: $("t3-reset"), legend: $("t3-legend"), note: $("t3-note")});
+  }
+  dlg.addEventListener("close", () => { if (stop) stop(); stop = null; if (location.hash === "#3d") history.replaceState(null, "", location.pathname + location.search); });
+  $("t3-close").onclick = () => dlg.close();
+  $("open3d").onclick = show;
+  $("open3d-btn").onclick = show;
+  if (location.hash === "#3d") show();
+})();
 const CITE = {
   apa: `Jääskeläinen, M. (2026). Turverkko: turvemaa-alueiden TKI-rahoituksen toimijaverkoston dokumentointi- ja analyysityökalu (Version 1.0.0) [Software]. Seinäjoen ammattikorkeakoulu. ${TV.REPO}`,
   bib: `@software{jaaskelainen_turverkko_2026,

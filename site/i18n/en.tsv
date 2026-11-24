@@ -369,3 +369,21 @@ haku.html	aria-label="Maa"	aria-label="Country"
 haku.html	aria-label="Teema"	aria-label="Theme"
 haku.html	aria-label="Rajaus"	aria-label="Scope"
 kartta.html	${x === "?" ? "muu" : x}	${x === "?" ? "other" : x}
+index.html	aria-label="Avaa 3D-kartta: hankkeet kartalla aloitusvuoden mukaan"	aria-label="Open 3D map: projects on the map by start year"
+index.html	>Avaa 3D-kartta ↗<	>Open 3D map ↗<
+index.html	aria-label="Hankkeet kartalla 3D:nä"	aria-label="Projects on a 3D map"
+index.html	>Hankkeet kartalla – korkeus = aloitusvuosi<	>Projects on the map – height = start year<
+index.html	>Väri <	>Colour <
+index.html	>maa</option>	>country</option>
+index.html	>rahasto</option>	>fund</option>
+index.html	>teema</option>	>theme</option>
+index.html	> toimijayhteydet<	> organisation links<
+index.html	> samankaltaiset ilman yhteyttä<	> similar but unlinked<
+index.html	aria-label="Toista vuosittain"	aria-label="Play year by year"
+index.html	aria-label="Näytä hankkeet vuoteen asti"	aria-label="Show projects up to year"
+index.html	>Palauta näkymä<	>Reset view<
+index.html	aria-label="Sulje"	aria-label="Close"
+index.html	aria-label="Kolmiulotteinen kartta: hankkeet neliöinä aloitusvuoden korkeudella, toimijat maan pinnalla palloina"	aria-label="Three-dimensional map: projects as squares at the height of their start year, organisations as dots on the ground"
+index.html	>Neliö = hanke (koko = budjetti), pallo maan pinnalla = organisaatio, rengas = osaamiskeskus. Viiva yhdistää toimijan hankkeeseen, punainen katkoviiva samankaltaiset hankkeet ilman yhteyttä. Sijainti on maakunnan tai maan keskipiste, ei tarkka paikka. <	>Square = project (size = budget), dot on the ground = organisation, ring = competence centre. Lines join organisations to their projects; red dashed lines join similar projects with no link. Location is the centre of the region or country, not the exact site. <
+index.html	> Vedä kääntääksesi, rulla tai kaksi sormea zoomaa, shift-veto siirtää.<	> Drag to rotate, scroll or pinch to zoom, shift-drag to pan.<
+index.html	>3D-kartta</button>	>3D map</button>

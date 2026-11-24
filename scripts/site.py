@@ -89,7 +89,7 @@ def build_en(docs):
         t = (docs / page).read_text(encoding="utf-8")
         t = translate(t, page, rows, missing)
         t = (t.replace('<html lang="fi">', '<html lang="en">').replace('href="assets/', 'href="../assets/')
-              .replace('src="assets/common.js"', 'src="../assets/common.en.js"').replace('"fi-FI"', '"en-GB"')
+              .replace('src="assets/common.js"', 'src="../assets/common.en.js"').replace('src="assets/', 'src="../assets/').replace('"fi-FI"', '"en-GB"')
               .replace('href="data/', 'href="../data/').replace('new URL("data/"', 'new URL("../data/"'))
         alt = lambda fi, en: f'<link rel="alternate" hreflang="fi" href="{fi}"><link rel="alternate" hreflang="en" href="{en}">'
         t = t.replace("</head>", alt("../" + page, page) + "</head>", 1) if "</head>" in t else t.replace("<title>", alt("../" + page, page) + "<title>", 1)
