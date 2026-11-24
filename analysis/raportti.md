@@ -132,20 +132,20 @@ _sama maa, samaan aikaan, ei yhteistä toimijaa eikä yhteistyöpolkua. Voi olla
 | A | B | Samankaltaisuus | Yhteiset käsitteet ja sanat | Samaan aikaan |
 |---|---|---|---|---|
 | A-FI-1fc3 ECO-WADE - carbon and groundwater dynamics in Euro | A-FI-2fd2 MiDiPeat - peat microbial diversity and carbon dyn | 0.82 | yhteish, euroopp, akatemi, suomen, dynamic, hiili | kyllä |
-| M-FI-9692 Kaliumilla turvemaat tuottamaan (KaTu) | M-FI-ceff Ilmastokestävää metsänhoitoa Kainuuseen | 0.657 | pohjois, msr, rahasto, elinvoi, suomen, suo | ? |
-| M-FI-3381 Suunnitteluhanke TURPO – turvekasvualustojen hiile | M-FI-bf79 Turvemaiden Ilmastoviisas Käyttö | 0.616 | kaakkoi, msr, rahasto, elinvoi, suomen, suo | kyllä |
-| M-FI-ceac Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | M-FI-ceff Ilmastokestävää metsänhoitoa Kainuuseen | 0.603 | pohjois, msr, rahasto, elinvoi, suomen, ilmasto | kyllä |
-| M-FI-89f7 Suometsien puunkorjuun uudet tuulet | M-FI-9692 Kaliumilla turvemaat tuottamaan (KaTu) | 0.581 | pohjois, msr, rahasto, elinvoi, suomen, suo | ? |
-| M-FI-bf79 Turvemaiden Ilmastoviisas Käyttö | M-FI-ceff Ilmastokestävää metsänhoitoa Kainuuseen | 0.581 | msr, rahasto, elinvoi, suomen, ilmasto, suo | kyllä |
-| M-FI-9692 Kaliumilla turvemaat tuottamaan (KaTu) | M-FI-ceac Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.551 | pohjois, msr, rahasto, elinvoi, suomen, suo | ? |
-| M-FI-9692 Kaliumilla turvemaat tuottamaan (KaTu) | M-FI-bf79 Turvemaiden Ilmastoviisas Käyttö | 0.529 | msr, rahasto, elinvoi, suomen, suo, turvema | ? |
+| M-FI-361d Ilmastokestävää metsänhoitoa Kainuuseen | M-FI-82f3 Kaliumilla turvemaat tuottamaan (KaTu) | 0.657 | pohjois, msr, rahasto, elinvoi, suomen, suo | ? |
+| M-FI-9d56 Turvemaiden Ilmastoviisas Käyttö | M-FI-f232 Suunnitteluhanke TURPO – turvekasvualustojen hiile | 0.616 | kaakkoi, msr, rahasto, elinvoi, suomen, suo | kyllä |
+| M-FI-361d Ilmastokestävää metsänhoitoa Kainuuseen | M-FI-ebaa Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.603 | pohjois, msr, rahasto, elinvoi, suomen, ilmasto | kyllä |
+| M-FI-0c06 Suometsien puunkorjuun uudet tuulet | M-FI-82f3 Kaliumilla turvemaat tuottamaan (KaTu) | 0.581 | pohjois, msr, rahasto, elinvoi, suomen, suo | ? |
+| M-FI-361d Ilmastokestävää metsänhoitoa Kainuuseen | M-FI-9d56 Turvemaiden Ilmastoviisas Käyttö | 0.581 | msr, rahasto, elinvoi, suomen, ilmasto, suo | kyllä |
+| M-FI-82f3 Kaliumilla turvemaat tuottamaan (KaTu) | M-FI-ebaa Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.551 | pohjois, msr, rahasto, elinvoi, suomen, suo | ? |
+| M-FI-82f3 Kaliumilla turvemaat tuottamaan (KaTu) | M-FI-9d56 Turvemaiden Ilmastoviisas Käyttö | 0.529 | msr, rahasto, elinvoi, suomen, suo, turvema | ? |
 | A-FI-c64f Sphagnum mosses as ecosystem engineers in transiti | A-FI-d1fe Suomen soiden karhukaiset bioindikaattorina soiden | 0.503 | koneen, saatio, vaitost, rahoitt, suo | kyllä |
-| M-FI-89f7 Suometsien puunkorjuun uudet tuulet | M-FI-ceac Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.493 | pohjois, msr, rahasto, elinvoi, suomen, suo | kyllä |
-| M-FI-89f7 Suometsien puunkorjuun uudet tuulet | M-FI-bf79 Turvemaiden Ilmastoviisas Käyttö | 0.465 | msr, rahasto, elinvoi, suomen, suo | kyllä |
+| M-FI-0c06 Suometsien puunkorjuun uudet tuulet | M-FI-ebaa Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.493 | pohjois, msr, rahasto, elinvoi, suomen, suo | kyllä |
+| M-FI-0c06 Suometsien puunkorjuun uudet tuulet | M-FI-9d56 Turvemaiden Ilmastoviisas Käyttö | 0.465 | msr, rahasto, elinvoi, suomen, suo | kyllä |
 | K-DE-NI-6f11 Rewetting of the slope moor Friedrichshäuser Bruch | K-DE-NI-c57b Rewetting of the hill moor at the forest town of W | 0.442 | hill, trenche, removin, drainag, moor, vettaminen | kyllä |
-| M-FI-bf79 Turvemaiden Ilmastoviisas Käyttö | M-FI-c868 Suometsiin liittyvän tiedon lisääminen ja osaamise | 0.435 | msr, rahasto, elinvoi, suomen, suo | ? |
-| M-FI-49d5 Metsien vedet | M-FI-bf79 Turvemaiden Ilmastoviisas Käyttö | 0.416 | msr, rahasto, elinvoi | kyllä |
-| M-FI-9692 Kaliumilla turvemaat tuottamaan (KaTu) | M-FI-c868 Suometsiin liittyvän tiedon lisääminen ja osaamise | 0.414 | msr, rahasto, elinvoi, suomen, suo | ? |
+| M-FI-5dac Suometsiin liittyvän tiedon lisääminen ja osaamise | M-FI-9d56 Turvemaiden Ilmastoviisas Käyttö | 0.435 | msr, rahasto, elinvoi, suomen, suo | ? |
+| M-FI-9d56 Turvemaiden Ilmastoviisas Käyttö | M-FI-f3b2 Metsien vedet | 0.416 | msr, rahasto, elinvoi | kyllä |
+| M-FI-5dac Suometsiin liittyvän tiedon lisääminen ja osaamise | M-FI-82f3 Kaliumilla turvemaat tuottamaan (KaTu) | 0.414 | msr, rahasto, elinvoi, suomen, suo | ? |
 
 ## Puuttuva yhteys (15 samankaltaisinta)
 
@@ -180,11 +180,11 @@ _sama maa, eri aikaan, ei yhteistä toimijaa eikä polkua (toisto tai jatko ilma
 | A-FI-1243 Restoring Peatlands: predicting biodiversity, GHG  | A-FI-d1fe Suomen soiden karhukaiset bioindikaattorina soiden | 0.566 | koneen, saatio, vaitost, ennallistaminen, rahoitt | ei |
 | A-FI-3a41 Peittynyt perintö - arkeologinen näkökulma turvema | A-FI-d1fe Suomen soiden karhukaiset bioindikaattorina soiden | 0.538 | koneen, saatio, ennallistaminen, rahoitt, ennalli | ei |
 | A-FI-6420 Alastomuutta, allikoita ja kannanottoa: suotrendi  | A-FI-d1fe Suomen soiden karhukaiset bioindikaattorina soiden | 0.507 | koneen, saatio, rahoitt, suo | ei |
-| M-FI-bf79 Turvemaiden Ilmastoviisas Käyttö | M-FI-ceac Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.493 | msr, rahasto, elinvoi, suomen, ilmasto, suo | ei |
+| M-FI-9d56 Turvemaiden Ilmastoviisas Käyttö | M-FI-ebaa Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.493 | msr, rahasto, elinvoi, suomen, ilmasto, suo | ei |
 | A-FI-50e3 Lettojen ennallistaminen - aktiiviset ennallistami | A-FI-d1fe Suomen soiden karhukaiset bioindikaattorina soiden | 0.431 | koneen, saatio, ennalli, ennallistaminen, rahoitt | ei |
-| M-FI-07c6 Salmiojan–Jokilammen valuma-alueen soiden osittain | M-FI-ceac Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.359 | msr, rahasto, elinvoi, vesistot, suo | ei |
-| M-FI-3381 Suunnitteluhanke TURPO – turvekasvualustojen hiile | M-FI-ceac Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.322 | msr, rahasto, elinvoi, suomen, suo, turve | ei |
-| M-FI-2057 Luonnonhoidon laatuharppaus ja ennallistamisen enn | M-FI-ceac Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.268 | msr, rahasto, elinvoi, pohjois, suomen, suo | ei |
+| M-FI-ebaa Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | M-FI-f0a8 Salmiojan–Jokilammen valuma-alueen soiden osittain | 0.359 | msr, rahasto, elinvoi, vesistot, suo | ei |
+| M-FI-ebaa Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | M-FI-f232 Suunnitteluhanke TURPO – turvekasvualustojen hiile | 0.322 | msr, rahasto, elinvoi, suomen, suo, turve | ei |
+| M-FI-1bc7 Luonnonhoidon laatuharppaus ja ennallistamisen enn | M-FI-ebaa Turvemaiden viljanviljelyssä syntyvä ilmasto- ja v | 0.268 | msr, rahasto, elinvoi, pohjois, suomen, suo | ei |
 | A-FI-1fc3 ECO-WADE - carbon and groundwater dynamics in Euro | A-FI-8afc ReindeerPaths - reindeer impacts on wetland carbon | 0.252 | akatemi, suomen, hiili, rahoitt, suo, carbon | ei |
 | L-LV-2b35 Peatland restoration for greenhouse gas emission r | L-LV-8d1e Sustainable and responsible management and re-use  | 0.247 | sinks, exploit, mitigat, extract, change, carbon | ei |
 | K-DE-NI-04a5 Wiedervernässung des Weißen Moores | K-DE-NI-d8d1 Regeneration of a moorland in the Günnemoor | 0.242 | extract, drainag, high, bog, peat, suo | ei |
@@ -227,7 +227,7 @@ Maaparit, joilla on hankkeita samassa teemassa: **77**, joista ilman yhtään va
 
 | # | Solmuja | Maat | Hankkeet ja keskukset |
 |---|---|---|---|
-| 1 | 295 | EE EU FI IE LV SE | A-EU-10ff A-EU-1892 A-EU-18f8 A-EU-1958 A-EU-88ad A-EU-e163 A-EU-fcae A-FI-0222 A-FI-0ebc A-FI-0f15 A-FI-1123 A-FI-1243 A-FI-1da3 A-FI-1f5c A-FI-1fc3 A-FI-2ee2 A-FI-2f32 A-FI-2fd2 A-FI-3a41 A-FI-50e3 A-FI-5129 A-FI-5277 A-FI-5770 A-FI-57a1 A-FI-593f A-FI-5bc3 A-FI-5cd8 A-FI-5ced A-FI-6420 A-FI-64c3 A-FI-6568 A-FI-663f A-FI-66ca A-FI-68d7 A-FI-71e2 A-FI-72e3 A-FI-8120 A-FI-8915 A-FI-8afc A-FI-99f9 A-FI-9d06 A-FI-b9fb A-FI-c3c5 A-FI-c61b A-FI-c64f A-FI-cc7b A-FI-d1fe A-FI-d390 A-FI-d4c5 A-FI-e29b A-FI-ed8e A-FI-f0c7 A-FI-f1c6 E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV I-EU-414b I-FI-b431 J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-6978 K-FI-6c73 K-FI-6f20 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-ceda K-FI-e8b3 K-LV-4390 K-LV-74bd K-SE-dbb8 L-EE-89f5 L-EU-9184 L-EU-d0c3 L-FI-a176 L-FI-ba2f L-FI-dfbb L-FI-e958 L-FI-ea10 L-LV-05ed L-LV-1f9f L-LV-2005 L-LV-2b35 L-LV-42ff L-LV-50b4 L-LV-5d8c L-LV-6382 L-LV-8d1e L-LV-ec74 L-SE-5a2c LV-01 LV-03 M-FI-2057 M-FI-3238 M-FI-3381 M-FI-4101 M-FI-49d5 M-FI-749e M-FI-7ed4 M-FI-89f7 M-FI-9956 M-FI-bdde M-FI-c868 M-FI-cd93 M-FI-ceac M-FI-ceff R-FI-5c35 R-FI-70e5 T-SE-bda3 X-FI-PEATRESC |
+| 1 | 295 | EE EU FI IE LV SE | A-EU-10ff A-EU-1892 A-EU-18f8 A-EU-1958 A-EU-88ad A-EU-e163 A-EU-fcae A-FI-0222 A-FI-0ebc A-FI-0f15 A-FI-1123 A-FI-1243 A-FI-1da3 A-FI-1f5c A-FI-1fc3 A-FI-2ee2 A-FI-2f32 A-FI-2fd2 A-FI-3a41 A-FI-50e3 A-FI-5129 A-FI-5277 A-FI-5770 A-FI-57a1 A-FI-593f A-FI-5bc3 A-FI-5cd8 A-FI-5ced A-FI-6420 A-FI-64c3 A-FI-6568 A-FI-663f A-FI-66ca A-FI-68d7 A-FI-71e2 A-FI-72e3 A-FI-8120 A-FI-8915 A-FI-8afc A-FI-99f9 A-FI-9d06 A-FI-b9fb A-FI-c3c5 A-FI-c61b A-FI-c64f A-FI-cc7b A-FI-d1fe A-FI-d390 A-FI-d4c5 A-FI-e29b A-FI-ed8e A-FI-f0c7 A-FI-f1c6 E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV I-EU-414b I-FI-b431 J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-6978 K-FI-6c73 K-FI-6f20 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-ceda K-FI-e8b3 K-LV-4390 K-LV-74bd K-SE-dbb8 L-EE-89f5 L-EU-9184 L-EU-d0c3 L-FI-a176 L-FI-ba2f L-FI-dfbb L-FI-e958 L-FI-ea10 L-LV-05ed L-LV-1f9f L-LV-2005 L-LV-2b35 L-LV-42ff L-LV-50b4 L-LV-5d8c L-LV-6382 L-LV-8d1e L-LV-ec74 L-SE-5a2c LV-01 LV-03 M-FI-0c06 M-FI-17f1 M-FI-1bc7 M-FI-361d M-FI-5dac M-FI-658f M-FI-8c1d M-FI-9b2e M-FI-afed M-FI-b2cb M-FI-cc8a M-FI-ebaa M-FI-f232 M-FI-f3b2 R-FI-5c35 R-FI-70e5 T-SE-bda3 X-FI-PEATRESC |
 | 2 | 55 | DE-NI EU IE | E-IE-e6ef H-IE-GAL H-IE-LIFE I-DE-NI-c078 I-EU-598e I-EU-f185 I-EU-f393 IE-01 K-DE-NI-d14f K-IE-7fa4 L-IE-4ec5 L-IE-b2a4 L-IE-d4a5 L-IE-ed33 X-IE-GAL X-IE-LIFE X-IE-NAT |
 | 3 | 21 | DE-NI SE | I-DE-NI-1d0c L-SE-1410 |
 | 4 | 12 | DE-NI | K-DE-NI-36d2 K-DE-NI-9d56 K-DE-NI-a456 K-DE-NI-b8d9 K-DE-NI-e715 K-DE-NI-f68e NI-01 NI-02 NI-03 |
@@ -281,17 +281,17 @@ Maaparit, joilla on hankkeita samassa teemassa: **77**, joista ilman yhtään va
 | 52 | 2 | FI | R-FI-d4ba |
 | 53 | 2 | FI | K-FI-1fcb |
 | 54 | 2 | FI | K-FI-2fcc |
-| 55 | 2 | FI | M-FI-c25a |
-| 56 | 2 | FI | M-FI-9692 |
+| 55 | 2 | FI | M-FI-4fba |
+| 56 | 2 | FI | M-FI-82f3 |
 | 57 | 2 | FI | K-FI-8d28 |
 | 58 | 2 | FI | K-FI-cb20 |
 | 59 | 2 | FI | K-FI-16d2 |
-| 60 | 2 | FI | M-FI-07c6 |
-| 61 | 2 | FI | M-FI-ccbb |
+| 60 | 2 | FI | M-FI-f0a8 |
+| 61 | 2 | FI | M-FI-d8c9 |
 | 62 | 2 | FI | K-FI-3bb2 |
 | 63 | 2 | FI | K-FI-c4ea |
 | 64 | 2 | FI | R-FI-b914 |
-| 65 | 2 | FI | M-FI-bf79 |
+| 65 | 2 | FI | M-FI-9d56 |
 | 66 | 2 | IE | K-IE-06fb |
 | 67 | 2 | IE | K-IE-cee8 |
 | 68 | 2 | IE | K-IE-0814 |

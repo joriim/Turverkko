@@ -13,6 +13,7 @@ Lähteet ja rajaus (kaikki päätökset näkyvät tässä tiedostossa):
 Aja:  python scripts/haku/muunna_2026_11_24.py
 """
 import csv, json, re
+from urllib.parse import quote
 from pathlib import Path
 
 import openpyxl
@@ -287,7 +288,8 @@ def msr():
                         toteuttaja=str(d["Toteuttaja"]).strip(), partnerit="",
                         budjetti_eur=num(d["Kokonaisbudjetti (€)"]), eu_osuus_eur="",
                         kuvaus=(desc + " " + extra).strip(), tuotokset="",
-                        url="https://www.maaseutu.fi/hankkeet" + (f"#hankenumero-{r['Hankenumero']}" if r else "")))
+                        # Hankerekisterin julkaisutunniste on maaseutu.fi:n WordPress-julkaisun tunniste; muille sivuston haku nimellä
+                        url=f"https://maaseutu.fi/?p={r['Julkaisu-ID']}" if r else "https://maaseutu.fi/?s=" + quote(name)))
     return out
 
 

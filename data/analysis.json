@@ -36,7 +36,7 @@
    "solmuja": 295,
    "maita": 6,
    "maat": "EE EU FI IE LV SE",
-   "hankkeet_ja_keskukset": "A-EU-10ff A-EU-1892 A-EU-18f8 A-EU-1958 A-EU-88ad A-EU-e163 A-EU-fcae A-FI-0222 A-FI-0ebc A-FI-0f15 A-FI-1123 A-FI-1243 A-FI-1da3 A-FI-1f5c A-FI-1fc3 A-FI-2ee2 A-FI-2f32 A-FI-2fd2 A-FI-3a41 A-FI-50e3 A-FI-5129 A-FI-5277 A-FI-5770 A-FI-57a1 A-FI-593f A-FI-5bc3 A-FI-5cd8 A-FI-5ced A-FI-6420 A-FI-64c3 A-FI-6568 A-FI-663f A-FI-66ca A-FI-68d7 A-FI-71e2 A-FI-72e3 A-FI-8120 A-FI-8915 A-FI-8afc A-FI-99f9 A-FI-9d06 A-FI-b9fb A-FI-c3c5 A-FI-c61b A-FI-c64f A-FI-cc7b A-FI-d1fe A-FI-d390 A-FI-d4c5 A-FI-e29b A-FI-ed8e A-FI-f0c7 A-FI-f1c6 E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV I-EU-414b I-FI-b431 J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-6978 K-FI-6c73 K-FI-6f20 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-ceda K-FI-e8b3 K-LV-4390 K-LV-74bd K-SE-dbb8 L-EE-89f5 L-EU-9184 L-EU-d0c3 L-FI-a176 L-FI-ba2f L-FI-dfbb L-FI-e958 L-FI-ea10 L-LV-05ed L-LV-1f9f L-LV-2005 L-LV-2b35 L-LV-42ff L-LV-50b4 L-LV-5d8c L-LV-6382 L-LV-8d1e L-LV-ec74 L-SE-5a2c LV-01 LV-03 M-FI-2057 M-FI-3238 M-FI-3381 M-FI-4101 M-FI-49d5 M-FI-749e M-FI-7ed4 M-FI-89f7 M-FI-9956 M-FI-bdde M-FI-c868 M-FI-cd93 M-FI-ceac M-FI-ceff R-FI-5c35 R-FI-70e5 T-SE-bda3 X-FI-PEATRESC"
+   "hankkeet_ja_keskukset": "A-EU-10ff A-EU-1892 A-EU-18f8 A-EU-1958 A-EU-88ad A-EU-e163 A-EU-fcae A-FI-0222 A-FI-0ebc A-FI-0f15 A-FI-1123 A-FI-1243 A-FI-1da3 A-FI-1f5c A-FI-1fc3 A-FI-2ee2 A-FI-2f32 A-FI-2fd2 A-FI-3a41 A-FI-50e3 A-FI-5129 A-FI-5277 A-FI-5770 A-FI-57a1 A-FI-593f A-FI-5bc3 A-FI-5cd8 A-FI-5ced A-FI-6420 A-FI-64c3 A-FI-6568 A-FI-663f A-FI-66ca A-FI-68d7 A-FI-71e2 A-FI-72e3 A-FI-8120 A-FI-8915 A-FI-8afc A-FI-99f9 A-FI-9d06 A-FI-b9fb A-FI-c3c5 A-FI-c61b A-FI-c64f A-FI-cc7b A-FI-d1fe A-FI-d390 A-FI-d4c5 A-FI-e29b A-FI-ed8e A-FI-f0c7 A-FI-f1c6 E-LV-6430 E-LV-8eeb E-LV-9406 E-LV-b130 E-LV-c39d E-LV-d12c E-LV-e70c FI-01 FI-06 FI-07 FI-08 FI-09 H-FI H-FI-AKA H-LV I-EU-414b I-FI-b431 J-SE-0e6e K-EU-2e51 K-FI-006d K-FI-0ac6 K-FI-1d92 K-FI-519c K-FI-561d K-FI-6894 K-FI-6978 K-FI-6c73 K-FI-6f20 K-FI-7c34 K-FI-879d K-FI-9061 K-FI-9511 K-FI-a45d K-FI-ceda K-FI-e8b3 K-LV-4390 K-LV-74bd K-SE-dbb8 L-EE-89f5 L-EU-9184 L-EU-d0c3 L-FI-a176 L-FI-ba2f L-FI-dfbb L-FI-e958 L-FI-ea10 L-LV-05ed L-LV-1f9f L-LV-2005 L-LV-2b35 L-LV-42ff L-LV-50b4 L-LV-5d8c L-LV-6382 L-LV-8d1e L-LV-ec74 L-SE-5a2c LV-01 LV-03 M-FI-0c06 M-FI-17f1 M-FI-1bc7 M-FI-361d M-FI-5dac M-FI-658f M-FI-8c1d M-FI-9b2e M-FI-afed M-FI-b2cb M-FI-cc8a M-FI-ebaa M-FI-f232 M-FI-f3b2 R-FI-5c35 R-FI-70e5 T-SE-bda3 X-FI-PEATRESC"
   },
   {
    "komponentti": 2,
@@ -414,14 +414,14 @@
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "M-FI-c25a"
+   "hankkeet_ja_keskukset": "M-FI-4fba"
   },
   {
    "komponentti": 56,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "M-FI-9692"
+   "hankkeet_ja_keskukset": "M-FI-82f3"
   },
   {
    "komponentti": 57,
@@ -449,14 +449,14 @@
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "M-FI-07c6"
+   "hankkeet_ja_keskukset": "M-FI-f0a8"
   },
   {
    "komponentti": 61,
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "M-FI-ccbb"
+   "hankkeet_ja_keskukset": "M-FI-d8c9"
   },
   {
    "komponentti": 62,
@@ -484,7 +484,7 @@
    "solmuja": 2,
    "maita": 1,
    "maat": "FI",
-   "hankkeet_ja_keskukset": "M-FI-bf79"
+   "hankkeet_ja_keskukset": "M-FI-9d56"
   },
   {
    "komponentti": 66,
@@ -5443,10 +5443,10 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-ceff",
-   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-82f3",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.657,
@@ -5723,8 +5723,8 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-ceff",
+   "a": "M-FI-0c06",
+   "b": "M-FI-361d",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -5793,10 +5793,10 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-bf79",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "a": "M-FI-9d56",
+   "b": "M-FI-f232",
+   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.616,
@@ -5933,10 +5933,10 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-ceac",
-   "b": "M-FI-ceff",
-   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-ebaa",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.603,
@@ -6227,8 +6227,8 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-9692",
+   "a": "M-FI-0c06",
+   "b": "M-FI-82f3",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -6241,10 +6241,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-bf79",
-   "b": "M-FI-ceff",
-   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-9d56",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.581,
@@ -6619,8 +6619,8 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-ceac",
+   "a": "M-FI-82f3",
+   "b": "M-FI-ebaa",
    "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -6857,8 +6857,8 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-bf79",
+   "a": "M-FI-82f3",
+   "b": "M-FI-9d56",
    "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -7067,8 +7067,8 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-c868",
+   "a": "M-FI-0c06",
+   "b": "M-FI-5dac",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "a_maa": "FI",
@@ -7473,8 +7473,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-ceac",
+   "a": "M-FI-0c06",
+   "b": "M-FI-ebaa",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -7487,8 +7487,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-bf79",
-   "b": "M-FI-ceac",
+   "a": "M-FI-9d56",
+   "b": "M-FI-ebaa",
    "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -7879,8 +7879,8 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-bf79",
+   "a": "M-FI-0c06",
+   "b": "M-FI-9d56",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -8103,10 +8103,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-c868",
-   "b": "M-FI-ceff",
-   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-5dac",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.444,
@@ -8215,10 +8215,10 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-bf79",
-   "b": "M-FI-c868",
-   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-9d56",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.435,
@@ -8327,10 +8327,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-ceff",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.424,
@@ -8439,10 +8439,10 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-bf79",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "a": "M-FI-9d56",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.416,
@@ -8467,10 +8467,10 @@
    "tyyppi": "saman kokonaisuuden osat"
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-c868",
-   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-82f3",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.414,
@@ -8635,8 +8635,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-bf79",
+   "a": "M-FI-658f",
+   "b": "M-FI-9d56",
    "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -8733,10 +8733,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-9692",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "a": "M-FI-82f3",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.396,
@@ -8803,10 +8803,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-ceff",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-f232",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.394,
@@ -8859,8 +8859,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-9692",
+   "a": "M-FI-658f",
+   "b": "M-FI-82f3",
    "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -8943,10 +8943,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-9692",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "a": "M-FI-82f3",
+   "b": "M-FI-f232",
+   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.38,
@@ -8971,10 +8971,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-749e",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "a": "M-FI-658f",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.377,
@@ -8985,10 +8985,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-89f7",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.376,
@@ -8999,10 +8999,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-ceff",
-   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-658f",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.376,
@@ -9237,10 +9237,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-ceff",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.362,
@@ -9279,10 +9279,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-ceac",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "a": "M-FI-ebaa",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.359,
@@ -9349,10 +9349,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-bf79",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "a": "M-FI-9d56",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.355,
@@ -9419,22 +9419,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-c868",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
-   "a_maa": "FI",
-   "b_maa": "FI",
-   "score": 0.351,
-   "yhteiset": "msr, rahasto, elinvoi",
-   "samaan_aikaan": "?",
-   "yhteiset_toimijat": "metsakeskus",
-   "etaisyys": 2,
-   "tyyppi": "yhteydessä"
-  },
-  {
-   "a": "M-FI-c868",
-   "b": "M-FI-ceac",
+   "a": "M-FI-5dac",
+   "b": "M-FI-ebaa",
    "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -9447,10 +9433,24 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-89f7",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-5dac",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Metsien vedet",
+   "a_maa": "FI",
+   "b_maa": "FI",
+   "score": 0.351,
+   "yhteiset": "msr, rahasto, elinvoi",
+   "samaan_aikaan": "?",
+   "yhteiset_toimijat": "metsakeskus",
+   "etaisyys": 2,
+   "tyyppi": "yhteydessä"
+  },
+  {
+   "a": "M-FI-0c06",
+   "b": "M-FI-f232",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.349,
@@ -9699,8 +9699,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-ceff",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-361d",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -9727,10 +9727,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-9692",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "a": "M-FI-82f3",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.338,
@@ -9755,10 +9755,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-ceac",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "a": "M-FI-ebaa",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.336,
@@ -9797,8 +9797,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-ceff",
+   "a": "M-FI-17f1",
+   "b": "M-FI-361d",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -9825,10 +9825,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-89f7",
-   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-658f",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.333,
@@ -9881,8 +9881,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-49d5",
+   "a": "M-FI-f0a8",
+   "b": "M-FI-f3b2",
    "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "b_nimi": "Metsien vedet",
    "a_maa": "FI",
@@ -10007,10 +10007,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-c868",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-f232",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.327,
@@ -10021,8 +10021,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-ceac",
+   "a": "M-FI-658f",
+   "b": "M-FI-ebaa",
    "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -10175,10 +10175,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-ceac",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "a": "M-FI-ebaa",
+   "b": "M-FI-f232",
+   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.322,
@@ -10203,10 +10203,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-89f7",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.321,
@@ -10217,8 +10217,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-9692",
+   "a": "M-FI-17f1",
+   "b": "M-FI-82f3",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -10273,8 +10273,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-9692",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-82f3",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -10371,8 +10371,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-49d5",
+   "a": "M-FI-f232",
+   "b": "M-FI-f3b2",
    "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "b_nimi": "Metsien vedet",
    "a_maa": "FI",
@@ -10441,10 +10441,10 @@
    "tyyppi": "puuttuva yhteys"
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-c868",
-   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-658f",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.311,
@@ -10623,10 +10623,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-3238",
-   "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
-   "b_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
+   "a": "M-FI-17f1",
+   "b": "M-FI-1bc7",
+   "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
+   "b_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.305,
@@ -10707,24 +10707,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-c868",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
-   "a_maa": "FI",
-   "b_maa": "FI",
-   "score": 0.3,
-   "yhteiset": "msr, rahasto, elinvoi, suo",
-   "samaan_aikaan": "?",
-   "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
-   "tyyppi": "rinnakkainen ilman yhteyttä"
-  },
-  {
-   "a": "M-FI-2057",
-   "b": "M-FI-89f7",
-   "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-1bc7",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.3,
@@ -10733,6 +10719,20 @@
    "yhteiset_toimijat": "metsakeskus",
    "etaisyys": 2,
    "tyyppi": "yhteydessä"
+  },
+  {
+   "a": "M-FI-5dac",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
+   "a_maa": "FI",
+   "b_maa": "FI",
+   "score": 0.3,
+   "yhteiset": "msr, rahasto, elinvoi, suo",
+   "samaan_aikaan": "?",
+   "yhteiset_toimijat": "",
+   "etaisyys": "ei polkua",
+   "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
    "a": "A-FI-5277",
@@ -10791,10 +10791,10 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-89f7",
-   "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-17f1",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.295,
@@ -10847,10 +10847,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-749e",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "a": "M-FI-658f",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.294,
@@ -11071,10 +11071,10 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-749e",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "a": "M-FI-658f",
+   "b": "M-FI-f232",
+   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.288,
@@ -11127,8 +11127,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-bf79",
+   "a": "M-FI-17f1",
+   "b": "M-FI-9d56",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -11351,8 +11351,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-bf79",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-9d56",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -11701,8 +11701,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-ceac",
+   "a": "M-FI-17f1",
+   "b": "M-FI-ebaa",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -11869,8 +11869,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-ceac",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-ebaa",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -11897,8 +11897,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-3381",
+   "a": "M-FI-f0a8",
+   "b": "M-FI-f232",
    "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -12640,7 +12640,7 @@
   },
   {
    "a": "A-FI-7b9e",
-   "b": "M-FI-ceac",
+   "b": "M-FI-ebaa",
    "a_nimi": "Metsäkäsittely- ja vesiensuojelumenetelmät turvemaiden metsien vesistöpäästöihin (väitöstyö)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -12989,10 +12989,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-7ed4",
-   "b": "M-FI-c868",
-   "a_nimi": "Monitaitoinen metsänomistaja – ratkaisuja suometsätalouden haasteisiin",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-b2cb",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Monitaitoinen metsänomistaja – ratkaisuja suometsätalouden haasteisiin",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.246,
@@ -13312,7 +13312,7 @@
   },
   {
    "a": "A-FI-db3f",
-   "b": "M-FI-89f7",
+   "b": "M-FI-0c06",
    "a_nimi": "Biohiili suometsätalouden vesiensuojelussa (väitöstyö)",
    "b_nimi": "Suometsien puunkorjuun uudet tuulet",
    "a_maa": "FI",
@@ -13339,8 +13339,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-bdde",
-   "b": "M-FI-cd93",
+   "a": "M-FI-9b2e",
+   "b": "M-FI-afed",
    "a_nimi": "Kaakon vesiosaaja",
    "b_nimi": "Uudistuvaa suometsänhoitoa Pohjois-Savossa (SUO-SAVO)",
    "a_maa": "FI",
@@ -13577,8 +13577,8 @@
    "tyyppi": "yhteydessä"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-c868",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-5dac",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "a_maa": "FI",
@@ -13829,22 +13829,8 @@
    "tyyppi": "puuttuva yhteys"
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-2057",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
-   "a_maa": "FI",
-   "b_maa": "FI",
-   "score": 0.233,
-   "yhteiset": "msr, rahasto, elinvoi, ennallistaminen, ennalli, suo",
-   "samaan_aikaan": "kyllä",
-   "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
-   "tyyppi": "rinnakkainen ilman yhteyttä"
-  },
-  {
-   "a": "M-FI-3238",
-   "b": "M-FI-c868",
+   "a": "M-FI-17f1",
+   "b": "M-FI-5dac",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "a_maa": "FI",
@@ -13854,6 +13840,20 @@
    "samaan_aikaan": "?",
    "yhteiset_toimijat": "",
    "etaisyys": 4,
+   "tyyppi": "rinnakkainen ilman yhteyttä"
+  },
+  {
+   "a": "M-FI-1bc7",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
+   "a_maa": "FI",
+   "b_maa": "FI",
+   "score": 0.233,
+   "yhteiset": "msr, rahasto, elinvoi, ennallistaminen, ennalli, suo",
+   "samaan_aikaan": "kyllä",
+   "yhteiset_toimijat": "",
+   "etaisyys": "ei polkua",
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
@@ -14319,8 +14319,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-49d5",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-f3b2",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Metsien vedet",
    "a_maa": "FI",
@@ -14376,7 +14376,7 @@
   },
   {
    "a": "A-FI-db3f",
-   "b": "M-FI-c868",
+   "b": "M-FI-5dac",
    "a_nimi": "Biohiili suometsätalouden vesiensuojelussa (väitöstyö)",
    "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "a_maa": "FI",
@@ -14641,8 +14641,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-49d5",
+   "a": "M-FI-17f1",
+   "b": "M-FI-f3b2",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Metsien vedet",
    "a_maa": "FI",
@@ -15146,7 +15146,7 @@
   },
   {
    "a": "A-FI-66ca",
-   "b": "M-FI-3238",
+   "b": "M-FI-17f1",
    "a_nimi": "SolarCarbon - Solar power on cutaway peatlands",
    "b_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "a_maa": "FI",
@@ -15216,7 +15216,7 @@
   },
   {
    "a": "A-FI-3609",
-   "b": "M-FI-3381",
+   "b": "M-FI-f232",
    "a_nimi": "Hiilen kierron dynamiikka hieskoivuvaltaisilla turvemailla (väitöstyö)",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -15299,10 +15299,10 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-4101",
-   "b": "M-FI-cd93",
-   "a_nimi": "Ratkaisuja Pohjanmaan suometsien ilmasto- ja vesistövaikutuksien hallintaan",
-   "b_nimi": "Uudistuvaa suometsänhoitoa Pohjois-Savossa (SUO-SAVO)",
+   "a": "M-FI-afed",
+   "b": "M-FI-cc8a",
+   "a_nimi": "Uudistuvaa suometsänhoitoa Pohjois-Savossa (SUO-SAVO)",
+   "b_nimi": "Ratkaisuja Pohjanmaan suometsien ilmasto- ja vesistövaikutuksien hallintaan",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.215,
@@ -15383,8 +15383,8 @@
    "tyyppi": "puuttuva yhteys"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-3381",
+   "a": "M-FI-17f1",
+   "b": "M-FI-f232",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -15397,10 +15397,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-cd93",
-   "b": "M-FI-ceff",
-   "a_nimi": "Uudistuvaa suometsänhoitoa Pohjois-Savossa (SUO-SAVO)",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-afed",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Uudistuvaa suometsänhoitoa Pohjois-Savossa (SUO-SAVO)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.214,
@@ -15524,7 +15524,7 @@
   },
   {
    "a": "A-FI-8afc",
-   "b": "M-FI-ceff",
+   "b": "M-FI-361d",
    "a_nimi": "ReindeerPaths - reindeer impacts on wetland carbon balance",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -15594,7 +15594,7 @@
   },
   {
    "a": "A-FI-72e3",
-   "b": "M-FI-ceac",
+   "b": "M-FI-ebaa",
    "a_nimi": "Turvemaiden ilmasto- ja vesistöpäästöjä mittaavan tutkimusympäristön rakentaminen",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -15678,7 +15678,7 @@
   },
   {
    "a": "A-FI-0222",
-   "b": "M-FI-ceff",
+   "b": "M-FI-361d",
    "a_nimi": "Centre of Excellence in Peatlands, Climate Change and Ecological Restoration (PCCER)",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -15733,8 +15733,8 @@
    "tyyppi": "toimija ei tiedossa"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-3381",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-f232",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -16013,10 +16013,10 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-4101",
-   "b": "M-FI-7ed4",
-   "a_nimi": "Ratkaisuja Pohjanmaan suometsien ilmasto- ja vesistövaikutuksien hallintaan",
-   "b_nimi": "Monitaitoinen metsänomistaja – ratkaisuja suometsätalouden haasteisiin",
+   "a": "M-FI-b2cb",
+   "b": "M-FI-cc8a",
+   "a_nimi": "Monitaitoinen metsänomistaja – ratkaisuja suometsätalouden haasteisiin",
+   "b_nimi": "Ratkaisuja Pohjanmaan suometsien ilmasto- ja vesistövaikutuksien hallintaan",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.207,
@@ -16083,8 +16083,8 @@
    "tyyppi": "rinnakkainen ilman yhteyttä"
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-749e",
+   "a": "M-FI-17f1",
+   "b": "M-FI-658f",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
@@ -16392,7 +16392,7 @@
   },
   {
    "a": "A-FI-71e2",
-   "b": "M-FI-ceac",
+   "b": "M-FI-ebaa",
    "a_nimi": "Turvemaiden ilmasto- ja vesistöpäästöjä mittaavan tutkimusympäristön rakentaminen (investointi)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -16475,8 +16475,8 @@
    "tyyppi": "peräkkäiset samassa maassa"
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-749e",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-658f",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
@@ -16830,10 +16830,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-ceff",
-   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-82f3",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.657,
@@ -17085,10 +17085,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-bf79",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "a": "M-FI-9d56",
+   "b": "M-FI-f232",
+   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.616,
@@ -17205,10 +17205,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-ceac",
-   "b": "M-FI-ceff",
-   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-ebaa",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.603,
@@ -17490,8 +17490,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-9692",
+   "a": "M-FI-0c06",
+   "b": "M-FI-82f3",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -17505,10 +17505,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-bf79",
-   "b": "M-FI-ceff",
-   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-9d56",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.581,
@@ -17865,8 +17865,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-ceac",
+   "a": "M-FI-82f3",
+   "b": "M-FI-ebaa",
    "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -18060,8 +18060,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-bf79",
+   "a": "M-FI-82f3",
+   "b": "M-FI-9d56",
    "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -18525,8 +18525,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-ceac",
+   "a": "M-FI-0c06",
+   "b": "M-FI-ebaa",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -18540,8 +18540,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-bf79",
-   "b": "M-FI-ceac",
+   "a": "M-FI-9d56",
+   "b": "M-FI-ebaa",
    "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -18840,8 +18840,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-89f7",
-   "b": "M-FI-bf79",
+   "a": "M-FI-0c06",
+   "b": "M-FI-9d56",
    "a_nimi": "Suometsien puunkorjuun uudet tuulet",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -18960,10 +18960,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-bf79",
-   "b": "M-FI-c868",
-   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-9d56",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.435,
@@ -19035,10 +19035,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-bf79",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "a": "M-FI-9d56",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.416,
@@ -19050,10 +19050,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-9692",
-   "b": "M-FI-c868",
-   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-82f3",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.414,
@@ -19095,8 +19095,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-bf79",
+   "a": "M-FI-658f",
+   "b": "M-FI-9d56",
    "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -19140,10 +19140,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-9692",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "a": "M-FI-82f3",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.396,
@@ -19155,10 +19155,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-ceff",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-f232",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.394,
@@ -19170,8 +19170,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-9692",
+   "a": "M-FI-658f",
+   "b": "M-FI-82f3",
    "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -19185,10 +19185,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-9692",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "a": "M-FI-82f3",
+   "b": "M-FI-f232",
+   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.38,
@@ -19200,10 +19200,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-749e",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "a": "M-FI-658f",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.377,
@@ -19215,10 +19215,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-ceff",
-   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-658f",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.376,
@@ -19260,10 +19260,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-ceff",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "a": "M-FI-361d",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.362,
@@ -19275,10 +19275,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-ceac",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "a": "M-FI-ebaa",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.359,
@@ -19290,10 +19290,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-bf79",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "a": "M-FI-9d56",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Turvemaiden Ilmastoviisas Käyttö",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.355,
@@ -19320,8 +19320,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-c868",
-   "b": "M-FI-ceac",
+   "a": "M-FI-5dac",
+   "b": "M-FI-ebaa",
    "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -19335,10 +19335,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-89f7",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-f232",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.349,
@@ -19395,10 +19395,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-9692",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "a": "M-FI-82f3",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.338,
@@ -19410,10 +19410,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-49d5",
-   "b": "M-FI-ceac",
-   "a_nimi": "Metsien vedet",
-   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "a": "M-FI-ebaa",
+   "b": "M-FI-f3b2",
+   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "b_nimi": "Metsien vedet",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.336,
@@ -19440,8 +19440,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-ceff",
+   "a": "M-FI-17f1",
+   "b": "M-FI-361d",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -19455,10 +19455,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-89f7",
-   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-658f",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.333,
@@ -19485,8 +19485,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-49d5",
+   "a": "M-FI-f0a8",
+   "b": "M-FI-f3b2",
    "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "b_nimi": "Metsien vedet",
    "a_maa": "FI",
@@ -19515,10 +19515,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-c868",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-f232",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.327,
@@ -19530,10 +19530,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-ceac",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "a": "M-FI-ebaa",
+   "b": "M-FI-f232",
+   "a_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.322,
@@ -19545,10 +19545,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-89f7",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.321,
@@ -19560,8 +19560,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-9692",
+   "a": "M-FI-17f1",
+   "b": "M-FI-82f3",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -19575,8 +19575,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-9692",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-82f3",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Kaliumilla turvemaat tuottamaan (KaTu)",
    "a_maa": "FI",
@@ -19590,8 +19590,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-49d5",
+   "a": "M-FI-f232",
+   "b": "M-FI-f3b2",
    "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "b_nimi": "Metsien vedet",
    "a_maa": "FI",
@@ -19650,10 +19650,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-749e",
-   "b": "M-FI-c868",
-   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-658f",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.311,
@@ -19725,10 +19725,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-3238",
-   "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
-   "b_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
+   "a": "M-FI-17f1",
+   "b": "M-FI-1bc7",
+   "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
+   "b_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.305,
@@ -19755,10 +19755,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-c868",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "a": "M-FI-5dac",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.3,
@@ -19770,10 +19770,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-89f7",
-   "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
-   "b_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "a": "M-FI-0c06",
+   "b": "M-FI-17f1",
+   "a_nimi": "Suometsien puunkorjuun uudet tuulet",
+   "b_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.295,
@@ -19800,10 +19800,10 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-749e",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "a": "M-FI-658f",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.294,
@@ -19845,10 +19845,10 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3381",
-   "b": "M-FI-749e",
-   "a_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
-   "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "a": "M-FI-658f",
+   "b": "M-FI-f232",
+   "a_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
+   "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
    "b_maa": "FI",
    "score": 0.288,
@@ -19860,8 +19860,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-bf79",
+   "a": "M-FI-17f1",
+   "b": "M-FI-9d56",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -19920,8 +19920,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-bf79",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-9d56",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Turvemaiden Ilmastoviisas Käyttö",
    "a_maa": "FI",
@@ -20100,8 +20100,8 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-ceac",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-ebaa",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -20115,8 +20115,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-3381",
+   "a": "M-FI-f0a8",
+   "b": "M-FI-f232",
    "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -20326,7 +20326,7 @@
   },
   {
    "a": "A-FI-7b9e",
-   "b": "M-FI-ceac",
+   "b": "M-FI-ebaa",
    "a_nimi": "Metsäkäsittely- ja vesiensuojelumenetelmät turvemaiden metsien vesistöpäästöihin (väitöstyö)",
    "b_nimi": "Turvemaiden viljanviljelyssä syntyvä ilmasto- ja vesistökuormitus sekä niiden hillintä (Viljapäästö)",
    "a_maa": "FI",
@@ -20641,7 +20641,7 @@
   },
   {
    "a": "A-FI-db3f",
-   "b": "M-FI-89f7",
+   "b": "M-FI-0c06",
    "a_nimi": "Biohiili suometsätalouden vesiensuojelussa (väitöstyö)",
    "b_nimi": "Suometsien puunkorjuun uudet tuulet",
    "a_maa": "FI",
@@ -20985,23 +20985,8 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-07c6",
-   "b": "M-FI-2057",
-   "a_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
-   "b_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
-   "a_maa": "FI",
-   "b_maa": "FI",
-   "score": 0.233,
-   "yhteiset": "msr, rahasto, elinvoi, ennallistaminen, ennalli, suo",
-   "samaan_aikaan": "kyllä",
-   "yhteiset_toimijat": "",
-   "etaisyys": "ei polkua",
-   "tyyppi": "rinnakkainen ilman yhteyttä",
-   "paras_naytto": 1
-  },
-  {
-   "a": "M-FI-3238",
-   "b": "M-FI-c868",
+   "a": "M-FI-17f1",
+   "b": "M-FI-5dac",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "a_maa": "FI",
@@ -21011,6 +20996,21 @@
    "samaan_aikaan": "?",
    "yhteiset_toimijat": "",
    "etaisyys": 4,
+   "tyyppi": "rinnakkainen ilman yhteyttä",
+   "paras_naytto": 1
+  },
+  {
+   "a": "M-FI-1bc7",
+   "b": "M-FI-f0a8",
+   "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
+   "b_nimi": "Salmiojan–Jokilammen valuma-alueen soiden osittainen ennallistaminen",
+   "a_maa": "FI",
+   "b_maa": "FI",
+   "score": 0.233,
+   "yhteiset": "msr, rahasto, elinvoi, ennallistaminen, ennalli, suo",
+   "samaan_aikaan": "kyllä",
+   "yhteiset_toimijat": "",
+   "etaisyys": "ei polkua",
    "tyyppi": "rinnakkainen ilman yhteyttä",
    "paras_naytto": 1
   },
@@ -21241,7 +21241,7 @@
   },
   {
    "a": "A-FI-db3f",
-   "b": "M-FI-c868",
+   "b": "M-FI-5dac",
    "a_nimi": "Biohiili suometsätalouden vesiensuojelussa (väitöstyö)",
    "b_nimi": "Suometsiin liittyvän tiedon lisääminen ja osaamisen parantaminen",
    "a_maa": "FI",
@@ -21375,8 +21375,8 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-49d5",
+   "a": "M-FI-17f1",
+   "b": "M-FI-f3b2",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Metsien vedet",
    "a_maa": "FI",
@@ -21676,7 +21676,7 @@
   },
   {
    "a": "A-FI-3609",
-   "b": "M-FI-3381",
+   "b": "M-FI-f232",
    "a_nimi": "Hiilen kierron dynamiikka hieskoivuvaltaisilla turvemailla (väitöstyö)",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -21750,8 +21750,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-3238",
-   "b": "M-FI-3381",
+   "a": "M-FI-17f1",
+   "b": "M-FI-f232",
    "a_nimi": "Aurinkosuo – lyhytkiertoviljely ja aurinkovoimala turvetuotannosta poistetuilla suopohjilla Pohjois-Savossa",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -21796,7 +21796,7 @@
   },
   {
    "a": "A-FI-8afc",
-   "b": "M-FI-ceff",
+   "b": "M-FI-361d",
    "a_nimi": "ReindeerPaths - reindeer impacts on wetland carbon balance",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -21946,7 +21946,7 @@
   },
   {
    "a": "A-FI-0222",
-   "b": "M-FI-ceff",
+   "b": "M-FI-361d",
    "a_nimi": "Centre of Excellence in Peatlands, Climate Change and Ecological Restoration (PCCER)",
    "b_nimi": "Ilmastokestävää metsänhoitoa Kainuuseen",
    "a_maa": "FI",
@@ -21975,8 +21975,8 @@
    "paras_naytto": 1
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-3381",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-f232",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Suunnitteluhanke TURPO – turvekasvualustojen hiilen varastoinnin potentiaali",
    "a_maa": "FI",
@@ -22395,8 +22395,8 @@
    "paras_naytto": 2
   },
   {
-   "a": "M-FI-2057",
-   "b": "M-FI-749e",
+   "a": "M-FI-1bc7",
+   "b": "M-FI-658f",
    "a_nimi": "Luonnonhoidon laatuharppaus ja ennallistamisen ennakointi Pohjois-Karjalassa (LUOLA)",
    "b_nimi": "Turvemaiden kestävä viljely (TUKEVA)",
    "a_maa": "FI",
